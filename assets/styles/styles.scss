@@ -163,8 +163,9 @@ html {
         }
         main {
             z-index: 1;
-            padding-left: 11rem;
-            padding-top: 9rem;
+            margin-left: 11rem;
+            margin-top: 9rem;
+            z-index: 4;
             ///////////////
             article {
                 position: relative;
@@ -178,7 +179,7 @@ html {
                     //padding-top: 2rem;
                     
                     img {
-                        //width: 400px;
+                        width: 400px;
                         //position:relative;
                         //margin-top: -4rem;
                         //margin-left: -1rem;
@@ -192,6 +193,20 @@ html {
                             display:block;
                         }
                     }
+
+                    .triad-grid {
+                        //display: grid;
+                        //grid-template-columns: 1fr 1fr 1fr;
+                        //gap: 2rem;
+                        //margin-top: 2rem;
+                        //margin-bottom: 2rem;
+                        .triad-item {
+                            h2 {
+                                //font-size: 1rem;
+                            }
+                        }
+                    }
+
                 }
             }
         }

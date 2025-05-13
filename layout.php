@@ -11,9 +11,9 @@
     <a href="/" class="brand">
       <span class="name">Peter Salvato</span>
       <span class="tagline">
-        <span data-system="">UX Architecture</span>
-        <span data-system="">System Thinking</span>
-        <span data-system="">Platform Durability</span>
+        <span data-pathway="">UX Architecture</span>
+        <span data-pathway="">System Thinking</span>
+        <span data-pathway="">Platform Durability</span>
       </span>
     </a>
     <nav>

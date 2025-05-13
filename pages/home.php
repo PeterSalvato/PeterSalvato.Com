@@ -6,42 +6,53 @@ $page_meta = [
 ];
 ?>
 <article id="home" class="home">
-  <!-- <img src="assets/img/venn.svg" alt="Venn Diagram of Systems Architecture" />
-  <h1>Staff+ Systems Architect</h1>
-  <p>
-    <span>I design and scale platforms for documentation,</span>
-    <span>internal tools, and interface logic.</span>
-  </p>
- -->
+  <section class="access-road">
+    <h1>Designing Systems That Think With You</h1>
+    <p>
+      I’m a front-end architect and cognitive systems designer with 12+ years building interface infrastructure for enterprise platforms. My work combines semantic engineering, interface logic, and recursive authorship protocols to preserve meaning across time, teams, and tools.
+    </p>
+    <p>
+      This site serves as both a professional profile and a public demonstration of the authored systems
+      I use in my own thinking.
+    </p>
+  </section>
+  
+  <img src="assets/img/venn.svg" alt="Venn Diagram of Systems Architecture" />
+  <section class="triad-grid">
+    <div class="triad-item">
+      <h2><a href="/savepoint">Savepoint.Protocol</a></h2>
+      <p>
+        A recursive authorship system for preserving epistemic lineage, designed for high-context
+        creative and research workflows.
+      </p>
+      <a href="/savepoint" class="cta">Explore the Protocol</a>
+    </div>
 
-  <!-- Clear Positioning Statement -->
-  <section class="positioning">
-    <h1>I build cognitive systems that endure, semantic interfaces that communicate, and structured knowledge that grows clearer with use.</h1>
+    <div class="triad-item">
+      <h2><a href="/validator">Validator Framework</a></h2>
+      <p>
+        A symbolic and structural compliance engine used to maintain logic fidelity in design systems
+        and narrative frameworks.
+      </p>
+      <a href="/validator" class="cta">See How It Works</a>
+    </div>
+
+    <div class="triad-item">
+      <h2><a href="/journals">Essays & Whitepapers</a></h2>
+      <p>
+        Longform writing on cognitive durability, symbolic systems, and semantic architectures. These essays ground the tools in theory and lived application.
+      </p>
+      <a href="/journals" class="cta">Read the Essays</a>
+    </div>
   </section>
 
-  <!-- Brief Personal Introduction -->
-  <section class="intro-narrative">
-    <p>At the intersection of design, technology, and philosophy, my work solves critical challenges in knowledge durability, semantic clarity, and scalable UX/UI architecture. Drawing from over 12 years of experience leading UX/UI at Cluen Corporation and designing systems for Fortune 100 clients, I create tools that make complexity manageable and valuable knowledge persistent.</p>
-  </section>
-
-  <!-- Contextual Visual Diagram (simplified and actionable) -->
-  <section class="visual-context">
-    <img src="/assets/img/venn.svg" alt="Intersection of cognitive systems, semantics, and enduring knowledge">
-  </section>
-
-  <!-- Clear Call-to-Action Paths -->
-  <nav class="homepage-nav">
+  <section class="pathways">
+    <h3>Choose Your Entry Point</h3>
     <ul>
-      <li><a href="/systems">Explore Systems</a></li>
-      <li><a href="/essays">Read Key Essays</a></li>
-      <li><a href="/about">About Peter Salvato</a></li>
+      <li><strong>Hiring manager or recruiter?</strong> <a href="/about">Read the About page</a> to understand my systems leadership and platform work.</li>
+      <li><strong>Tool-seeker or builder?</strong> Start with <a href="/savepoint">Savepoint.Protocol</a>.</li>
+      <li><strong>Philosophically curious?</strong> Jump to the <a href="/journals">whitepapers</a>.</li>
     </ul>
-  </nav>
-
-  <!-- Lightweight Social Proof -->
-  <section class="social-proof">
-    <p>Trusted by Fortune 100 companies and leading design teams, delivering clarity in complex cognitive landscapes.</p>
   </section>
-
   
 </article>

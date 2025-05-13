@@ -6,45 +6,50 @@ $page_meta = [
 ];
 ?>
 <article>
-  <h1>About Me</h1>
-  <p>Over 12 years as a remote platform owner and system architect for complex enterprise SaaS environments.</p>
-  <p class="tagline">Design systems architect, semantic thinker, and pragmatic builder of long-lasting tools.</p>
+  <h1>About</h1>
+  <p>
+    I’m a systems designer, platform architect, and semantic interface engineer. My focus is simple:
+    build infrastructure that carries meaning—across time, scale, and context.
 
-  <!-- About Page -->
-  <div class="about-page">
+    Over the past 12+ years, I’ve worked across UI/UX architecture, front-end engineering, and internal platform development. I create tools and frameworks that make decisions traceable, interfaces resilient, and complexity navigable.
 
-    <!-- Professional Bio -->
-    <section class="bio">
-      <h2>Bio</h2>
-      <p>I’m a cognitive systems designer with over a decade of experience leading UI/UX architecture, internal tools, and platform logic at enterprise scale. My background blends design thinking, information theory, and self-authored tooling—resulting in creative systems that scale meaning without sacrificing nuance.</p>
+    I don’t separate design from engineering—they’re a fused skillset. That fusion lets me model systems holistically: anticipating future states, shaping authorial structure, and building environments where clarity survives drift.
 
-      <p>As lead front-end engineer and UI architect at Cluen Corporation, I created the JavaScript namespace and internal front-end framework used by full-stack engineers supporting Fortune 100 executive search clients. I also built internal design tools to improve onboarding, extensibility, and team autonomy.</p>
-    </section>
+    Much of my authored work—recursive, semantic, and durable—is a response to what traditional systems often lack: continuity of thought.
+    I’ve seen what happens when intent gets lost in execution, or when structure doesn’t preserve reasoning. So I built tools that do the opposite.
+    Platform Work (Cluen Corporation)
 
-    <!-- Personal Philosophy -->
-    <section class="philosophy">
-      <h2>Philosophy</h2>
-      <p>I believe systems should be recursive, readable, and resilient. I’m interested in how we structure knowledge across time—how clarity survives context collapse, and how we design interfaces that make semantic meaning visible.</p>
+    In parallel to my authored systems work, I lead front-end architecture and interface design at Cluen Corporation—an enterprise platform used globally, including by clients in the Fortune 50 and Fortune 100.
 
-      <p>This site, and the protocols behind it, are my working response to those questions.</p>
-    </section>
+    I designed and maintain the internal JavaScript namespace and component system that structures our browser-based UI. This includes reusable modules for alerts, confirmations, and media viewers—built for consistency, semantic clarity, and maintainability.
 
-    <!-- Current Focus -->
-    <section class="focus">
-      <h2>Current Focus</h2>
-      <ul>
-        <li>Savepoint Protocol → Knowledge versioning, authorship traceability, cognitive checkpoints</li>
-        <li>Validator Framework → Metadata enforcement and flat-site publishing integrity</li>
-        <li>Semantic UX Systems → Durable interface logic and symbolic affordance</li>
-      </ul>
-    </section>
+    My role spans product vision and engineering execution. I translate exploratory interface ideas from senior stakeholders into implementable systems—ensuring new functionality integrates without fracturing existing structure or accessibility standards.
 
-    <!-- CTA -->
-    <section class="cta">
-      <a href="/contact" class="button">Get in Touch →</a>
-    </section>
+    I maintain full platform accessibility: embedding ARIA roles, semantic markup, and structurally informative tokens that make the interface readable to both users and developers. I also oversee the SCSS architecture and authored a custom token system that aligns layout logic, visual style, and brand semantics.
 
-  </div>
+    In addition to this authored layer, I integrate external libraries—such as the Kendo UI component toolkit for data visualization—into our architecture. These third-party tools are adapted to preserve internal logic, accessibility, and visual continuity. The constraint becomes part of the system—not an exception to it.
+
+    This work ensures that the platform remains durable, legible, and extensible—both for current teams and future maintainers.
+    Focus Areas
+      
+        Interface systems that express intention through structure
+
+        Tooling that embeds decision logic into components and flows
+
+        Semantic architecture for platforms that can’t afford drift
+
+        Systems that support recursive thinking and traceable authorship
+
+        Durable design infrastructure for high-context, long-term work
+
+    My current authored tools—Savepoint.Protocol, Validator Framework, and semantic publishing layers—aren’t products. They’re architectural responses.
+    Designed to hold clarity where conventional tooling loses it.
+
+    I build for teams that need their systems to last.
+    For environments where structure has to carry more than state—it has to carry meaning.
+
+    [View résumé] · [Read: Cognitive Durability] · [Explore Systems →]
+</p>
 
 
 </article>

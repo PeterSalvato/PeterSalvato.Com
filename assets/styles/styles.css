@@ -133,8 +133,9 @@ html body header nav a::before {
 }
 html body main {
   z-index: 1;
-  padding-left: 11rem;
-  padding-top: 9rem;
+  margin-left: 11rem;
+  margin-top: 9rem;
+  z-index: 4;
 }
 html body main article {
   position: relative;
@@ -143,6 +144,9 @@ html body main article {
 html body main article h1 {
   margin: 0;
   padding: 0;
+}
+html body main article#home img {
+  width: 400px;
 }
 html body main article#home p {
   margin: 0;
