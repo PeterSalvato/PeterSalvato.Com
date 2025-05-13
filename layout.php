@@ -19,9 +19,10 @@
     <nav>
       <a href="/">Home</a>
       <a href="/systems/">Systems</a>
+      <a href="/practice/">Practice</a>
       <a href="/essays/">Essays</a>
-      <a href="/resume/">Résumé</a>
       <a href="/about/">About</a>
+      <a href="/resume/">Résumé</a>
       <a href="/contact/">Contact</a>
     </nav>
   </header>
