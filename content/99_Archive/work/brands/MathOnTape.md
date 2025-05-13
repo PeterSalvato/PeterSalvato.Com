@@ -1,0 +1,4 @@
+- music brand
+- dot matrix type (?)
+- mid-century halftone look
+- Ai gadgetry imagery

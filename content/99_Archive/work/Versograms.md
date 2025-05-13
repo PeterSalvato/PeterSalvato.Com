@@ -1,0 +1,9 @@
+- soft serve
+- 2 wicky
+- static
+- buena
+- limit 2 your love
+- cherub rock
+- survival
+- in spite of me
+- 

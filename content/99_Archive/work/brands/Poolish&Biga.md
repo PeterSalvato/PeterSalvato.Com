@@ -1,0 +1,5 @@
+- offset/screenprint retro mass repro look
+- bold type (slab serif?)
+- bold colors on white
+- cutout cmyk halftone images 
+- international typographic syle

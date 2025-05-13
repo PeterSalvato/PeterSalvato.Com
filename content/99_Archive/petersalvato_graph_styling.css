@@ -1,0 +1,32 @@
+
+/* Obsidian Graph View Styling for petersalvato.com */
+
+.graph-view.color-fill-tag-pathway[data-tags~="blue"] {
+    color: #1E90FF; /* Dodger Blue for UX & Systems Architecture */
+}
+
+.graph-view.color-fill-tag-pathway[data-tags~="red"] {
+    color: #FF4500; /* OrangeRed for Website & Brand Systems */
+}
+
+.graph-view.color-fill-tag-pathway[data-tags~="green"] {
+    color: #32CD32; /* LimeGreen for Design Systems & Workflow */
+}
+
+.graph-view.color-fill-tag-system-case-study {
+    color: #FFD700; /* Gold for Systems Case Studies */
+}
+
+.graph-view.color-fill-tag-essay {
+    color: #9370DB; /* Medium Purple for Journals & Essays */
+}
+
+.graph-view.color-fill-tag-core-page {
+    color: #A9A9A9; /* Dark Gray for Core Pages like About & Contact */
+}
+
+/* Optional link line styling for better pathway visibility */
+.graph-view.link {
+    stroke-width: 1.5px;
+    stroke-opacity: 0.6;
+}
