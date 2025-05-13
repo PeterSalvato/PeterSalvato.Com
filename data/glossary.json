@@ -1,0 +1,58 @@
+{
+  "Savepoint Protocol": {
+    "slug": "savepoint-protocol",
+    "definition": "A structured system for capturing semantic traceability during ideation and development, preserving reasoning over time."
+  },
+  "Validator Framework": {
+    "slug": "validator-framework",
+    "definition": "A governance framework that embeds pattern consistency and semantic integrity into design systems without process bloat."
+  },
+  "Order of Aetherwright": {
+    "slug": "order-of-aetherwright",
+    "definition": "A framework for operationalizing creative workflows, mapping semantic relationships to reduce chaos and scale design practice."
+  },
+  "Cognitive Durability": {
+    "slug": "cognitive-durability",
+    "definition": "The principle of preserving nuanced understanding over time by resisting premature structure and supporting recursive clarity."
+  },
+  "Semantic Drift": {
+    "slug": "semantic-drift",
+    "definition": "The gradual degradation of meaning and clarity as systems scale and teams lose track of original intent."
+  },
+  "Semantic Landmark": {
+    "slug": "semantic-landmark",
+    "definition": "A deliberate marker within a system that captures reasoning and context, enabling future re-entry into complex thought."
+  },
+  "Traceability": {
+    "slug": "traceability",
+    "definition": "The ability to follow the lineage of a decision, component, or pattern back to its original reasoning and context."
+  },
+  "Governance": {
+    "slug": "governance-in-systems",
+    "definition": "The embedded rules and patterns that maintain consistency, coherence, and semantic integrity across a system."
+  },
+  "Fractal Systems Thinking": {
+    "slug": "fractal-systems-thinking",
+    "definition": "An approach where systems principles apply consistently across scales, from product platforms to creative workflows."
+  },
+  "Semantic Integrity": {
+    "slug": "semantic-integrity",
+    "definition": "The preservation of meaning, structure, and intent within a system as it evolves and scales."
+  },
+  "Cognitive Load": {
+    "slug": "cognitive-load",
+    "definition": "The mental effort required to process, understand, and act on information within a system or workflow."
+  },
+  "Context Loss": {
+    "slug": "context-loss",
+    "definition": "The erosion of situational understanding, often resulting from fragmented documentation and semantic drift."
+  },
+  "Pattern Governance": {
+    "slug": "pattern-governance",
+    "definition": "The structured oversight of reusable design patterns to ensure consistency, scalability, and semantic clarity."
+  },
+  "Recursive Clarity": {
+    "slug": "recursive-clarity",
+    "definition": "The ability to revisit and refine understanding over time through systems designed for iterative comprehension."
+  }
+}

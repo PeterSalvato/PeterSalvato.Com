@@ -53,5 +53,9 @@ $page_meta = [
     </section>
 
   </div>
-
+  <h1>Colophon</h1>
+  <p>This site was designed as a semantic-first system, reflecting my approach to cognitive durability and scalable clarity in complex environments. Every page structure, pattern, and typographic choice serves to reinforce legibility, traceability, and meaning preservation.</p>
+  <p>The infrastructure is hand-built using PHP and modular templates. Content is authored in Obsidian markdown vaults and rendered with a focus on semantic HTML and minimal reliance on heavy frameworks. This reflects the same principles I advocate in systems design — reducing cognitive friction, preserving authorship lineage, and embedding meaning into the structure itself.</p>
+  <p>Typography is inspired by the aesthetics of functional print systems, using typefaces aligned with technical and archival legibility. Custom assets are designed to echo themes of information durability and epistemic clarity.</p>
+  <p>Colophon structure adapted and authored by Peter Salvato. All systems authored. All pathways deliberate.</p>
 </article>
