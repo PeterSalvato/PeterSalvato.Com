@@ -9,6 +9,7 @@
 
   <script src="/assets/js/glossary-autolinker.js" defer></script>
 
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=signpost" />
   <link rel="stylesheet" href="/assets/styles/styles.css" />
 
 </head>
@@ -16,12 +17,12 @@
   <header>
     <a href="/" class="brand">
       <span class="name">Peter Salvato</span>
-      <span class="tagline">
-        <span data-pathway="">UX Architecture</span>
-        <span data-pathway="">System Thinking</span>
-        <span data-pathway="">Platform Durability</span>
-      </span>
     </a>
+    <span class="tagline">
+      <span data-pathway="">- UX Architecture</span>
+      <span data-pathway="">- System Thinking</span>
+      <span data-pathway="">- Platform Durability</span>
+    </span>
     <nav>
       <a href="/">Home</a>
       <a href="/systems/">Systems</a>

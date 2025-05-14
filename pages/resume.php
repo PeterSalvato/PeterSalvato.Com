@@ -8,15 +8,10 @@ $page_meta = [
 <article>
   <h1>Résumé</h1>
   <p>Download my full résumé as PDF or explore a structured view of my systems-level experience.</p>
+  <p class="tagline">Selected experience, architecture work, and design systems expertise.</p>
 
   <!-- Résumé Page -->
   <div class="resume-page">
-
-    <!-- Header -->
-    <header class="resume-header">
-      <h1>Résumé</h1>
-      <p class="tagline">Selected experience, architecture work, and design systems expertise.</p>
-    </header>
 
     <!-- Current Objective -->
     <section class="objective">

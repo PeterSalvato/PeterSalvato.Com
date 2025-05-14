@@ -1,7 +1,7 @@
 <?php
 $page_meta = [
-  "title" => "Order of aetherwright",
-  "summary" => "TODO: Add summary for Order of aetherwright.",
+  "title" => "The Order of the aetherwright",
+  "summary" => "TODO: Add summary for The Order of the aetherwright.",
   "type" => "system"
 ];
 ?>

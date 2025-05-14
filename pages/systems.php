@@ -22,8 +22,11 @@
     foreach ($files as $file) {
       $meta = extract_meta($file);
       $slug = basename($file, '.php');
-      echo "<li><a href='/systems/$slug.php'><strong>{$meta['title']}</strong> – {$meta['summary']}</a></li>";
+      echo "<li class='$slug'><a href='/systems/$slug.php'><strong>{$meta['title']}</strong>{$meta['summary']}</a></li>";
     }
     ?>
   </ul>
+
+
+
 </article>

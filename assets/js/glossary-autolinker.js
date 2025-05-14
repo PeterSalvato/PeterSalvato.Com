@@ -21,8 +21,16 @@ document.addEventListener("DOMContentLoaded", function () {
           if (termRegex.test(node.nodeValue)) {
             const span = document.createElement('span');
             span.innerHTML = node.nodeValue.replace(termRegex, `
-              <a style="border-bottom: 1px solid red;display:inline-block;margin:1px 0;" href="/glossary#${slug}" class="glossary-term" title="${definition}">$1</a>
-            `);
+              <a style="\
+                border-bottom: 1px dotted red; \
+                display:inline-block; \
+                margin:1px 0;"  \
+                class="glossary-term" 
+                title="${definition}">\
+                  $1\
+              </a>
+              `);
+              // <a style="border-bottom: 1px solid red;display:inline-block;margin:1px 0;" href="/glossary#${slug}" class="glossary-term" title="${definition}">$1</a>
 
             node.parentNode.replaceChild(span, node);
             done = true;
