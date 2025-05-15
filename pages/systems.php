@@ -1,6 +1,6 @@
 <article>
-  <h1><?= $page_title ?></h1>
-  <p>Tools and frameworks built to scale cognition, structure authorship, and manage semantic complexity.</p>
+  <h1><?= $page_title ?></h1>  
+  <p>Tools and frameworks I’ve built to tackle semantic drift, authorship clarity, and platform-scale complexity. These aren’t products — they’re working solutions to problems I’ve faced in real systems.</p>
 
   <ul>
     <?php
@@ -26,7 +26,5 @@
     }
     ?>
   </ul>
-
-
 
 </article>

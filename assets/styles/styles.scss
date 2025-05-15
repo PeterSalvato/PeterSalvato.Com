@@ -62,13 +62,7 @@
     font-display: swap;
 }
 
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24
-}
+
 
 html {
     font-size: 16px;
@@ -78,7 +72,7 @@ html {
 body {
     @extend .cutive-mono-regular;
 }
-h1, h2, h3, h4, h5, h6, strong {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Chainprinter', 'Arial', monospace; // Fallback font
     margin: 0;
     padding: 0;
@@ -86,7 +80,21 @@ h1, h2, h3, h4, h5, h6, strong {
 }
 h1 {
     font-size: calc(1rem * 1.618);
-    @extend .material-symbols-outlined;
+}
+
+strong {
+    font-weight: 900;
+}
+
+
+[data-pathway="systems"] {
+    color: #af737f !important;
+}
+[data-pathway="ux"] {
+    color: #5d798b !important;
+}
+[data-pathway="governance"] {
+    color: #868f6f !important;
 }
 
 
@@ -127,7 +135,7 @@ html {
         }
 
 
-        header {
+        > header {
             position: absolute;
             top:1rem;
             left:1rem;
@@ -147,17 +155,8 @@ html {
             .tagline {
                 line-height: 1.5rem;;                    
                 font-family:'Courier New', Courier, monospace;
-                >span {
+                > a {
                     display: block;
-                    &:nth-of-type(1) {
-                        color: #828b6c;
-                    }
-                    &:nth-of-type(2) {
-                        color: #5e7b8e;
-                    }
-                    &:nth-of-type(3) {
-                        color: #ac727d;
-                    }
                 }
             }
             nav {
@@ -192,7 +191,7 @@ html {
                 }
 
                 > section {
-                    border: 1px dashed #ccc;
+                    //border: 1px dashed #ccc;
                     padding: 1rem;
                     position: relative;
 
@@ -221,6 +220,8 @@ html {
 
 
                     .access-road {
+                        padding:0;
+                        margin-bottom: 2rem;
                     }
 
                     .diagram-wrapper {
@@ -233,6 +234,7 @@ html {
                         flex-direction: column;
                         justify-content: space-between;
                         //border: 1px solid #ccc;
+                        border: 1px dashed #ccc;
 
                         img {
                             width: 500px;
@@ -276,7 +278,7 @@ html {
                         margin-bottom: 1rem;
                         padding:0;
                         border: none;
-                        
+
                         ul {
                             display:grid;
                             grid-template-columns: repeat(3, 1fr);
@@ -302,6 +304,7 @@ html {
 
                                     strong {
                                         display:block;
+                                        margin-bottom: .5rem;
                                     }
                                 }
                             }
@@ -345,6 +348,7 @@ html {
             
             .footer-column li {
                 margin-bottom: 0.5rem;
+                margin-left:0;
             }
             
             .footer-column a {

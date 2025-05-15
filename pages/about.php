@@ -5,51 +5,84 @@ $page_meta = [
   "type" => "page"
 ];
 ?>
-<article>
+
+<article class="about">
+
   <h1>About</h1>
-  <p>
-    I’m a systems designer, platform architect, and semantic interface engineer. My focus is simple:
-    build infrastructure that carries meaning—across time, scale, and context.
 
-    Over the past 12+ years, I’ve worked across UI/UX architecture, front-end engineering, and internal platform development. I create tools and frameworks that make decisions traceable, interfaces resilient, and complexity navigable.
+  <section class="about-role">
+    <h2>Cognitive Semantic Architect</h2>
+    <p>
+      This isn’t an industry title — it’s the best name I’ve found for the work I do.
+      Designing systems that preserve meaning, reduce cognitive friction, and scale with integrity.
+    </p>
+    <p>
+      My work sits at the intersection of UX architecture, systems design, and platform governance.
+      I build frameworks that help teams, platforms, and brands stay aligned as they grow.
+    </p>
+    <p>
+      Systems like <a href="/savepoint">Savepoint Protocol</a>, <a href="/validator">Validator Framework</a>,
+      and the <a href="/order">Order of the Ætherwright</a> are how I formalize that work.
+    </p>
+  </section>
 
-    I don’t separate design from engineering—they’re a fused skillset. That fusion lets me model systems holistically: anticipating future states, shaping authorial structure, and building environments where clarity survives drift.
+  <section class="about-summary">
+    <h2>Who I Am</h2>
+    <p>
+      I’m a systems designer, platform architect, and semantic interface engineer.
+      For over 12 years, I’ve worked across UX, front-end engineering, and internal platform development.
+      My specialty is making complex systems understandable and durable.
+    </p>
+    <p>
+      I create tools and frameworks that keep decisions traceable, interfaces resilient, and systems aligned as they grow.
+      Design and engineering are fused in my work — every system I build is shaped for longevity, clarity, and context.
+    </p>
+  </section>
 
-    Much of my authored work—recursive, semantic, and durable—is a response to what traditional systems often lack: continuity of thought.
-    I’ve seen what happens when intent gets lost in execution, or when structure doesn’t preserve reasoning. So I built tools that do the opposite.
-    Platform Work (Cluen Corporation)
+  <section class="about-platform">
+    <h2>Platform Work — Cluen Corporation</h2>
+    <p>
+      At Cluen Corporation, I lead front-end architecture and interface design for an enterprise platform used by global clients,
+      including Fortune 50 and Fortune 100 firms.
+    </p>
+    <p>
+      I maintain our internal JavaScript component system, manage SCSS architecture, and design semantic token systems
+      that align structure, style, and accessibility.
+      I integrate third-party libraries while preserving internal logic and consistency.
+    </p>
+    <p>
+      My role spans product vision and engineering execution — ensuring platform systems scale without losing clarity.
+    </p>
+  </section>
 
-    In parallel to my authored systems work, I lead front-end architecture and interface design at Cluen Corporation—an enterprise platform used globally, including by clients in the Fortune 50 and Fortune 100.
+  <section class="about-focus">
+    <h2>Focus Areas</h2>
+    <ul>
+      <li>Systems that express intention through structure</li>
+      <li>Tools that embed decision logic into components and flows</li>
+      <li>Semantic architecture that scales with clarity</li>
+      <li>Frameworks for recursive thinking and authorship traceability</li>
+      <li>Durable design infrastructure for high-context, long-term work</li>
+    </ul>
+  </section>
 
-    I designed and maintain the internal JavaScript namespace and component system that structures our browser-based UI. This includes reusable modules for alerts, confirmations, and media viewers—built for consistency, semantic clarity, and maintainability.
+  <section class="about-closing">
+    <p>
+      The systems I’ve authored — Savepoint.Protocol, Validator Framework, and others — are not products.
+      They’re architectural responses to common failure points in complex platforms.
+    </p>
+    <p>
+      I build for teams that need their systems to last.
+      Where structure has to carry more than state — it has to carry meaning.
+    </p>
+  </section>
 
-    My role spans product vision and engineering execution. I translate exploratory interface ideas from senior stakeholders into implementable systems—ensuring new functionality integrates without fracturing existing structure or accessibility standards.
-
-    I maintain full platform accessibility: embedding ARIA roles, semantic markup, and structurally informative tokens that make the interface readable to both users and developers. I also oversee the SCSS architecture and authored a custom token system that aligns layout logic, visual style, and brand semantics.
-
-    In addition to this authored layer, I integrate external libraries—such as the Kendo UI component toolkit for data visualization—into our architecture. These third-party tools are adapted to preserve internal logic, accessibility, and visual continuity. The constraint becomes part of the system—not an exception to it.
-
-    This work ensures that the platform remains durable, legible, and extensible—both for current teams and future maintainers.
-    Focus Areas
-      
-        Interface systems that express intention through structure
-
-        Tooling that embeds decision logic into components and flows
-
-        Semantic architecture for platforms that can’t afford drift
-
-        Systems that support recursive thinking and traceable authorship
-
-        Durable design infrastructure for high-context, long-term work
-
-    My current authored tools—Savepoint.Protocol, Validator Framework, and semantic publishing layers—aren’t products. They’re architectural responses.
-    Designed to hold clarity where conventional tooling loses it.
-
-    I build for teams that need their systems to last.
-    For environments where structure has to carry more than state—it has to carry meaning.
-
-    [View résumé] · [Read: Cognitive Durability] · [Explore Systems →]
-</p>
-
+  <section class="about-cta">
+    <p>
+      <a href="/resume">View résumé</a> · 
+      <a href="/essays/cognitive-durability">Read: Cognitive Durability</a> · 
+      <a href="/systems">Explore Systems →</a>
+    </p>
+  </section>
 
 </article>

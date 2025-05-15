@@ -49,16 +49,12 @@
   font-style: normal;
   font-display: swap;
 }
-.material-symbols-outlined, h1 {
-  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
-}
-
 html {
   font-size: 16px;
   font-family: "Chainprinter", "Arial", monospace;
 }
 
-h1, h2, h3, h4, h5, h6, strong {
+h1, h2, h3, h4, h5, h6 {
   font-family: "Chainprinter", "Arial", monospace;
   margin: 0;
   padding: 0;
@@ -67,6 +63,22 @@ h1, h2, h3, h4, h5, h6, strong {
 
 h1 {
   font-size: 1.618rem;
+}
+
+strong {
+  font-weight: 900;
+}
+
+[data-pathway=systems] {
+  color: #af737f !important;
+}
+
+[data-pathway=ux] {
+  color: #5d798b !important;
+}
+
+[data-pathway=governance] {
+  color: #868f6f !important;
 }
 
 :root {
@@ -101,14 +113,14 @@ html body ul li {
   margin-bottom: 0.5rem;
   padding: 0.5rem;
 }
-html body header {
+html body > header {
   position: absolute;
   top: 1rem;
   left: 1rem;
   z-index: 3;
   font-weight: 900;
 }
-html body header a.brand {
+html body > header a.brand {
   font-family: "Chainprinter", monospace;
   font-size: 2em;
   margin: 0;
@@ -116,30 +128,21 @@ html body header a.brand {
   line-height: 0.9;
   text-decoration: none;
 }
-html body header .tagline {
+html body > header .tagline {
   line-height: 1.5rem;
   font-family: "Courier New", Courier, monospace;
 }
-html body header .tagline > span {
+html body > header .tagline > a {
   display: block;
 }
-html body header .tagline > span:nth-of-type(1) {
-  color: #828b6c;
-}
-html body header .tagline > span:nth-of-type(2) {
-  color: #5e7b8e;
-}
-html body header .tagline > span:nth-of-type(3) {
-  color: #ac727d;
-}
-html body header nav {
+html body > header nav {
   margin-top: 0.5rem;
 }
-html body header nav a {
+html body > header nav a {
   display: block;
   padding: 0.25rem 0;
 }
-html body header nav a::before {
+html body > header nav a::before {
   content: ">";
   margin-right: 0.75rem;
   display: inline-block;
@@ -159,9 +162,12 @@ html body main article h1 {
   padding: 0;
 }
 html body main article > section {
-  border: 1px dashed #ccc;
   padding: 1rem;
   position: relative;
+}
+html body main article#home .access-road {
+  padding: 0;
+  margin-bottom: 2rem;
 }
 html body main article#home .diagram-wrapper {
   height: 30rem;
@@ -172,6 +178,7 @@ html body main article#home .diagram-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  border: 1px dashed #ccc;
 }
 html body main article#home .diagram-wrapper img {
   width: 500px;
@@ -222,6 +229,7 @@ html body main article#home .pathways ul li a {
 }
 html body main article#home .pathways ul li a strong {
   display: block;
+  margin-bottom: 0.5rem;
 }
 html body footer {
   background: #333;
@@ -253,6 +261,7 @@ html body footer .footer-column ul {
 }
 html body footer .footer-column li {
   margin-bottom: 0.5rem;
+  margin-left: 0;
 }
 html body footer .footer-column a {
   color: inherit;

@@ -1,66 +1,70 @@
 <?php
 $page_meta = [
   "title" => "Toolkit",
-  "summary" => "TODO: Add summary for Toolkit.",
+  "summary" => "Modular tools for building durable interface components and platform infrastructure at scale.",
   "type" => "system"
 ];
 ?>
 <?php if (!isset($_extracting_meta)): ?>
+
 <article>
   <h1>Component Toolkit (Coming Soon)</h1>
-  <p>A modular frontend system for reusable interface tokens and future storybook integration.</p>
-  <p class="tagline">A growing suite of minimal tools to scaffold, parse, and extend authored systems.</p>
+  <p>A modular set of tools for scaffolding, validating, and extending authored systems — without the bloat of a CMS.</p>
+  
+  <p class="tagline">Minimal scripts for fast iteration, clean structure, and long-term maintainability.</p>
 
-
-  <!-- Toolkit Systems Page -->
   <div class="system-page">
 
-    <!-- What It Is -->
     <section class="what-it-is">
       <h2>What is the Toolkit?</h2>
-      <p>The Toolkit is a modular collection of scripts, templates, and utilities used to manage and extend semantic systems like Savepoint Protocol, the Validator, and Ætherwright documentation. It includes Bash and PHP tools for scaffolding pages, validating metadata, and extracting content for reuse.</p>
+      <p>
+        The Toolkit is a growing set of Bash and PHP utilities that support my authored systems — Savepoint, Validator, and the Order.
+        It handles page scaffolding, metadata validation, and content extraction, so you can build cleanly and iterate fast.
+      </p>
     </section>
 
-    <!-- Why It Matters -->
     <section class="why-it-matters">
       <h2>Why It Matters</h2>
-      <p>Manual authorship workflows don’t scale. The Toolkit provides simple automation and consistency without the complexity or lock-in of full CMS platforms. It's built for fast iteration and long-term clarity.</p>
+      <p>
+        Manual content workflows don’t scale.  
+        Copy-paste breaks structure, and CMS platforms add more complexity than they solve.
+        The Toolkit keeps things light — giving you automation without overhead, and consistency without lock-in.
+      </p>
     </section>
 
-    <!-- How It Works -->
     <section class="how-it-works">
       <h2>How It Works</h2>
       <ul>
-        <li><strong>Bash Scaffolders:</strong> Quickly generate page templates with pre-filled metadata blocks and routing logic.</li>
-        <li><strong>Validator Hooks:</strong> Use CLI validators to check metadata structure, type safety, and completeness.</li>
-        <li><strong>Content Extractors:</strong> Scripts to extract Savepoints, essay data, or glossary terms into JSON or Markdown.</li>
+        <li><strong>Bash Scaffolders:</strong> Generate new page templates with prefilled metadata and routing logic.</li>
+        <li><strong>Validator Hooks:</strong> Run CLI checks on metadata structure, completeness, and field types.</li>
+        <li><strong>Content Extractors:</strong> Export Savepoints, essays, and glossary terms to Markdown or JSON.</li>
       </ul>
     </section>
 
-    <!-- Who It's For -->
     <section class="who-its-for">
       <h2>Who It's For</h2>
-      <p>Builders, developers, and thinkers who want control over their system architecture without sacrificing clarity or maintainability. Perfect for Obsidian users, PHP authors, and CLI-heavy workflows.</p>
+      <p>
+        Developers, architects, and semantic authors who want clean structure without the cost of overbuilt tooling.  
+        Ideal for PHP sites, Obsidian pipelines, or anyone using CLI-based systems to manage content.
+      </p>
     </section>
 
-    <!-- Key Benefits -->
     <section class="key-benefits">
       <h2>Key Benefits</h2>
       <ul>
-        <li>Jumpstarts new pages and projects with minimal effort.</li>
-        <li>Enforces consistency across your content system.</li>
-        <li>Supports clean export for archiving, documentation, or UI integration.</li>
-        <li>Modular and extensible—built to be adapted.</li>
+        <li>Gets new content or system pages live fast.</li>
+        <li>Enforces structure and metadata consistency.</li>
+        <li>Works well with flat-file archives and static exports.</li>
+        <li>Adaptable for local-first workflows and future UI integration.</li>
       </ul>
     </section>
 
-    <!-- Call to Action -->
     <section class="cta">
       <a href="/contact" class="button">Explore Toolkit Scripts →</a>
     </section>
 
   </div>
-
-
 </article>
+
+  
 <?php endif; ?>

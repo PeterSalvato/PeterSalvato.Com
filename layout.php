@@ -19,14 +19,13 @@
       <span class="name">Peter Salvato</span>
     </a>
     <span class="tagline">
-      <span data-pathway="">- UX Architecture</span>
-      <span data-pathway="">- System Thinking</span>
-      <span data-pathway="">- Platform Durability</span>
+      <a data-pathway="systems" href="/pathways/systems-design-and-engineering.php">- Systems Design & Engineering</a>
+      <a data-pathway="ux" href="/pathways/ux-architecture-and-design-systems.php">- UX Architecture & Design Systems</a>
+      <a data-pathway="governance" href="/pathways/platform-governance-and-operations.php">- Platform Governance & Operations</a>
     </span>
     <nav>
       <a href="/">Home</a>
       <a href="/systems/">Systems</a>
-      <a href="/practice/">Practice</a>
       <a href="/essays/">Essays</a>
       <a href="/about/">About</a>
       <a href="/resume/">Résumé</a>
@@ -63,9 +62,9 @@
       <section class="footer-column">
         <h2 class="footer-heading">Pathways</h2>
         <ul>
-          <li><a href="#">Cognitive Systems Architect</a></li>
-          <li><a href="#">Knowledge Durability Engineer</a></li>
-          <li><a href="#">Semantic UI/UX Strategist</a></li>
+          <li><a data-pathway="systems" href="/pathways/systems-design-and-engineering.php">Systems Design & Engineering</a></li>
+          <li><a data-pathway="ux" href="/pathways/ux-architecture-and-design-systems.php">UX Architecture & Design Systems</a></li>
+          <li><a data-pathway="governance" href="/pathways/platform-governance-and-operations.php">Platform Governance & Operations</a></li>
         </ul>
       </section>
 
