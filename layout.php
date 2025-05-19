@@ -18,18 +18,17 @@
     <a href="/" class="brand">
       <span class="name">Peter Salvato</span>
     </a>
-    <span class="tagline">
+    <!-- <span class="tagline">
       <a data-pathway="systems" href="/pathways/systems-design-and-engineering.php">- Systems Design & Engineering</a>
       <a data-pathway="ux" href="/pathways/ux-architecture-and-design-systems.php">- UX Architecture & Design Systems</a>
       <a data-pathway="governance" href="/pathways/platform-governance-and-operations.php">- Platform Governance & Operations</a>
-    </span>
+    </span> -->
     <nav>
       <a href="/">Home</a>
-      <a href="/systems/">Systems</a>
-      <a href="/essays/">Essays</a>
       <a href="/about/">About</a>
-      <a href="/resume/">Résumé</a>
-      <a href="/contact/">Contact</a>
+      <a href="/work/">Work</a>
+      <a href="/essays/">Essays</a>
+      <a href="/contact/">Connect</a>
     </nav>
   </header>
 
@@ -53,25 +52,24 @@
       <section class="footer-column">
         <h2 class="footer-heading">Meta Links</h2>
         <ul>
-          <li><a href="/rss/">RSS Feed</a></li>
           <li><a href="/license/">License</a></li>
           <li><a href="/search/">Search</a></li>
+          <li><a href="/rss/">RSS</a></li>
         </ul>
       </section>
 
       <section class="footer-column">
-        <h2 class="footer-heading">Pathways</h2>
+        <h2 class="footer-heading">Systems</h2>
         <ul>
-          <li><a data-pathway="systems" href="/pathways/systems-design-and-engineering.php">Systems Design & Engineering</a></li>
-          <li><a data-pathway="ux" href="/pathways/ux-architecture-and-design-systems.php">UX Architecture & Design Systems</a></li>
-          <li><a data-pathway="governance" href="/pathways/platform-governance-and-operations.php">Platform Governance & Operations</a></li>
+          <li><a href="https://aetherwright.com" target="_blank">Ætherwright</a></li>
+          <li><a href="https://savepointprotocol.com" target="_blank">Savepoint Protocol</a></li>
         </ul>
       </section>
 
       <section class="footer-column footer-right">
-        <h2 class="footer-heading">©2025 Peter Salvato</h2>
+        <h2 class="footer-heading">Copyright</h2>
         <ul>
-        <li>All systems authored.</li>
+        <li>©2025 Peter Salvato</li>
         <li>All rights reserved.</li>
         <li class="footer-codex">//Æ::P3#|●.◁.●.⟩.●.▼.▶|//</li>
         </ul>

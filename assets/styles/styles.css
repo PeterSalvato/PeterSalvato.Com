@@ -49,6 +49,12 @@
   font-style: normal;
   font-display: swap;
 }
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 html {
   font-size: 16px;
   font-family: "Chainprinter", "Arial", monospace;
@@ -69,6 +75,12 @@ strong {
   font-weight: 900;
 }
 
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
 [data-pathway=systems] {
   color: #af737f !important;
 }
@@ -86,11 +98,11 @@ strong {
 }
 
 html {
-  height: 100vh;
+  min-height: 100vh;
   color: #444;
 }
 html body {
-  height: 100%;
+  min-height: 100vh;
   display: grid;
   grid-template-rows: 1fr auto;
 }
@@ -104,27 +116,18 @@ html body a:hover {
 html body a strong {
   display: block;
 }
-html body ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-html body ul li {
-  margin-bottom: 0.5rem;
-  padding: 0.5rem;
-}
-html body > header {
-  position: absolute;
-  top: 1rem;
-  left: 1rem;
-  z-index: 3;
-  font-weight: 900;
+html body img, html body svg {
+  max-width: 100%;
+  height: auto;
 }
 html body > header a.brand {
   font-family: "Chainprinter", monospace;
-  font-size: 2em;
+  font-size: 2.5rem;
+  display: block;
+  text-align: center;
   margin: 0;
   padding: 0;
+  padding-top: 1rem;
   line-height: 0.9;
   text-decoration: none;
 }
@@ -137,116 +140,71 @@ html body > header .tagline > a {
 }
 html body > header nav {
   margin-top: 0.5rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 html body > header nav a {
-  display: block;
-  padding: 0.25rem 0;
-}
-html body > header nav a::before {
-  content: ">";
-  margin-right: 0.75rem;
   display: inline-block;
 }
 html body main {
-  z-index: 1;
-  margin-left: 10rem;
-  margin-top: 10rem;
   z-index: 4;
 }
 html body main article {
   position: relative;
   max-width: var(--maxwidth);
+  padding: 1rem;
 }
 html body main article h1 {
   margin: 0;
   padding: 0;
+  font-size: 1rem;
 }
 html body main article > section {
-  padding: 1rem;
   position: relative;
+  margin-bottom: 1rem;
 }
 html body main article#home .access-road {
   padding: 0;
   margin-bottom: 2rem;
 }
-html body main article#home .diagram-wrapper {
-  height: 30rem;
-  padding: 1rem;
-  margin: 1rem 0;
-  overflow: hidden;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  border: 1px dashed #ccc;
-}
-html body main article#home .diagram-wrapper img {
-  width: 500px;
-  position: absolute;
-  top: 26%;
-  right: 12rem;
-  transform: rotate(49deg) translateY(-50%);
-  z-index: 1;
-}
-html body main article#home .diagram-wrapper .triad-item {
-  width: 40%;
-  z-index: 2;
-  margin-bottom: 1rem;
-  font-size: 0.85rem;
-}
-html body main article#home .diagram-wrapper .triad-item p {
-  margin: 0 0 1rem;
-}
-html body main article#home .pathways {
-  margin-bottom: 1rem;
+html body main article#home + .pathways {
   padding: 0;
   border: none;
 }
-html body main article#home .pathways ul {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 0.5rem;
-}
-html body main article#home .pathways ul li {
+html body main article#home + .pathways ul li {
   background: #eee;
   color: white;
   padding: 0;
 }
-html body main article#home .pathways ul li:nth-of-type(1) {
+html body main article#home + .pathways ul li:nth-of-type(1) {
   background: #ac727d;
 }
-html body main article#home .pathways ul li:nth-of-type(2) {
+html body main article#home + .pathways ul li:nth-of-type(2) {
   background: #828b6c;
 }
-html body main article#home .pathways ul li:nth-of-type(3) {
+html body main article#home + .pathways ul li:nth-of-type(3) {
   background: #5e7b8e;
 }
-html body main article#home .pathways ul li a {
+html body main article#home + .pathways ul li a {
   height: calc(100% - 2rem);
   padding: 1rem;
   color: inherit;
   display: block;
 }
-html body main article#home .pathways ul li a strong {
+html body main article#home + .pathways ul li a strong {
   display: block;
   margin-bottom: 0.5rem;
 }
 html body footer {
   background: #333;
   color: #eee;
-  padding: 2rem;
+  padding: 1rem;
   border-top: 1px solid #666;
   font-size: 0.7rem;
-  padding-left: 160px;
 }
-html body footer .footer-grid {
-  max-width: var(--maxwidth);
-  display: grid;
-  grid-template-columns: 1fr auto auto 1fr;
-  gap: 2rem;
-}
-html body footer .footer-column.footer-right {
-  grid-column: 5/6; /* Push to the left by one column */
+html body footer .footer-column {
+  margin-bottom: 1rem;
 }
 html body footer .footer-heading {
   text-transform: uppercase;
@@ -274,6 +232,60 @@ html body footer .footer-codex {
   opacity: 0.7;
   font-family: monospace;
   word-break: break-word;
+}
+
+.diagram-container {
+  position: relative;
+  width: 100%;
+  height: 30rem;
+  /* Example positions */
+}
+.diagram-container .node {
+  position: absolute;
+  padding: 20px;
+  background: white;
+  border: 2px solid #333;
+  border-radius: 8px;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  background-color: rgb(78, 78, 78);
+  color: white;
+}
+.diagram-container #node1 {
+  top: 50px;
+  left: 100px;
+}
+.diagram-container #node2 {
+  top: 300px;
+  left: 150px;
+}
+.diagram-container #node3 {
+  top: 150px;
+  left: 300px;
+}
+.diagram-container svg#polyline-svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.diagram-container .connector {
+  stroke: #555;
+  stroke-width: 2;
+  fill: none;
+  display: none;
+}
+.diagram-container .polyline {
+  stroke: #555;
+  stroke-width: 2;
+  fill: none;
+}
+.diagram-container .connector:hover {
+  stroke: red;
+  stroke-width: 3;
 }
 
 /*# sourceMappingURL=styles.css.map */

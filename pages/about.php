@@ -8,6 +8,7 @@ $page_meta = [
 
 <article class="about">
 
+  <img src="/assets/img/space me.jpg" alt="">
   <h1>About</h1>
 
   <section class="about-role">
