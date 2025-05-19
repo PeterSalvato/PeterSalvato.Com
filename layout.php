@@ -26,7 +26,7 @@
     <nav>
       <a href="/">Home</a>
       <a href="/about/">About</a>
-      <a href="/work/">Work</a>
+      <a href="/systems/">Systems</a>
       <a href="/essays/">Essays</a>
       <a href="/contact/">Connect</a>
     </nav>
