@@ -1,49 +1,59 @@
 <?php
 // systems/index.php
 
-// Page metadata for your layout template
+// 1. Metadata for layout
 $page_meta = [
   'title'   => 'Systems',
-  'summary' => 'An overview of my authored and professional systems work: Savepoint.Protocol, Validator Framework, Ætherwright overlay, and more.',
+  'summary' => 'A categorized overview of my authored and professional systems work.',
   'type'    => 'page'
 ];
+
+// 2. Extraction guard (for meta-only includes)
+if (!empty($_extracting_meta)) {
+  return;
+}
+
+// 3. Hand off to global layout (renders <head>, nav, etc.)
+include __DIR__ . '/../layout.php';
 ?>
 
 <article>
   <h1><?= htmlspecialchars($page_meta['title']) ?></h1>
   <p><?= htmlspecialchars($page_meta['summary']) ?></p>
 
-  <section>
-    <ul>
-      <?php
-      // 1. Grab all .php files in this folder
-      $files = glob(__DIR__ . '/*.php');
+  <section class="systems-categories">
+    <?php
+    // 4. Identify all category directories under /systems/
+    $baseDir    = __DIR__;
+    $categories = glob($baseDir . '/*', GLOB_ONLYDIR) ?: [];
 
-      foreach ($files as $file) {
-        // 2. Skip this index file to avoid self‐listing
-        if (basename($file) === basename(__FILE__)) {
-          continue;
-        }
+    foreach ($categories as $catDir) {
+      $slug = basename($catDir);
 
-        // 3. Extract that page’s $page_meta by including it in isolation
-        //    The $_extracting_meta flag ensures the page knows it’s only exposing meta.
-        $_extracting_meta = true;
-        $item_meta = [];
-        include $file;
+      // 5. Extract category metadata from its own index.php stub
+      $_extracting_meta = true;
+      $page_meta = [];
+      include $catDir . '/index.php';
+      $catMeta = $page_meta;
 
-        // 4. Build URL slug and sanitize output
-        $slug    = basename($file, '.php');
-        $title   = htmlspecialchars($item_meta['title']   ?? ucfirst($slug));
-        $summary = htmlspecialchars($item_meta['summary'] ?? '');
+      // 6. Fallbacks for title & summary
+      $title   = htmlspecialchars($catMeta['title']   ?? ucwords(str_replace(['-','_'], ' ', $slug)));
+      $summary = htmlspecialchars($catMeta['summary'] ?? '');
 
-        // 5. Render list item
-        echo "<li>
-                <a href=\"/systems/{$slug}.php\">
-                  <strong>{$title}</strong> {$summary}
-                </a>
-              </li>";
-      }
+      // 7. Build URL to category page (trailing slash is fine if you prefer)
+      $url = "/systems/{$slug}/";
+
+      // 8. Output the card
       ?>
-    </ul>
+      <div class="card">
+        <h2><?= $title ?></h2>
+        <?php if ($summary): ?>
+          <p><?= $summary ?></p>
+        <?php endif ?>
+        <a class="button" href="<?= $url ?>">Explore →</a>
+      </div>
+      <?php
+    }
+    ?>
   </section>
 </article>
