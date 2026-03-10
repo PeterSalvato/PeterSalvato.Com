@@ -42,7 +42,7 @@ The core design constraint: every CSS value resolves to a fixed measurement. Inc
 
 Three template types run through the engine now. Photogeography produces 11x17 tabloid posters with EXIF-driven metadata: GPS coordinates, camera, date, aspect ratio classification. Versagrams produces 8.5x11 posters with per-song display fonts, AI-generated imagery, and lyrics split into balanced columns. The Deep Cuts (a book in progress on DJ methodology) produces 6x9 book spreads with facing pages and margin notes.
 
-![Versagrams poster rendered by the Sovereign Design Engine — per-song display font, AI-generated imagery, 4-column lyrics, metadata sidebar]({{ '/assets/img/SDE_versagram_poster.png' | relative_url }}){:.image.artifact}
+![Versagrams poster rendered by the Sovereign Design Engine: per-song display font, AI-generated imagery, 4-column lyrics, metadata sidebar]({{ '/assets/img/SDE_versagram_poster.png' | relative_url }}){:.image.artifact}
 
 Each template reads a JSON manifest. Each manifest can override CSS custom properties for per-piece adjustments. Every design is a text file in Git. Every build is deterministic: same manifest, same template, same output. The pipeline runs entirely offline, on my own hardware, with no subscription and no cloud dependency.
 

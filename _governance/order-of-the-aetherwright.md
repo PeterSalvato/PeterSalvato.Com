@@ -26,11 +26,11 @@ codex: "/Æ/#|●◀||▼■|||◀⟩⟩[governance.order-of-the-aetherwright]/"
 
 Every consistent creative practice has a method underneath the visible work. The instinct that produces reliable results across construction sites, print shops, enterprise platforms, brand systems, classrooms. But it's invisible to everyone, including the person using it. You can't teach what you can't articulate. You can't defend it under pressure. And if you can't make it explicit, it erodes.
 
-I had thirty years of that. The same method held across [Encore's](/infrastructure/encore/) twelve-year platform build and [Aiden Jae's](/output/aiden-jae/) brand system. I just couldn't see it. I tried to surface it through a branding exercise — mapping my creative practice the way you'd map a brand: what are the domains, what are the patterns, how do I actually work across disciplines. What came back wasn't a brand. It was the method itself, visible for the first time.
+I had thirty years of that. The same method held across [Encore's](/infrastructure/encore/) twelve-year platform build and [Aiden Jae's](/output/aiden-jae/) brand system. I just couldn't see it. I tried to surface it through a branding exercise, mapping my creative practice the way you'd map a brand: what are the domains, what are the patterns, how do I actually work across disciplines. What came back wasn't a brand. It was the method itself, visible for the first time.
 
 > "Doing this made it a formalized system in my mind even if I didn't realize it."
 
-That compulsion to formalize — to name something, give it a mark, give it structure — is an artifact of studying graphic design and growing up in consumerist America in the eighties and nineties. Branding is how my brain makes something real enough to maintain. The act of giving the method a name, a visual system, a set of rules was the act of turning instinct into something I could actually defend and teach.
+That compulsion to formalize (to name something, give it a mark, give it structure) is an artifact of studying graphic design and growing up in consumerist America in the eighties and nineties. Branding is how my brain makes something real enough to maintain. The act of giving the method a name, a visual system, a set of rules was the act of turning instinct into something I could actually defend and teach.
 
 Once visible, so was the problem: invisible methods erode. Not catastrophically. Incrementally. A decision made under deadline pressure. A compromise that felt reasonable once. A principle abandoned because explaining it was harder than ignoring it. None of them feel like failures. Together they are.
 
@@ -38,7 +38,7 @@ This isn't technical debt or design debt. Debt assumes you know the standard and
 
 ---
 
-So I gave it the treatment: glyphs, a Codex, Stewards, a daily ritual. I know how that reads. Building it felt embarrassingly serious. But a governance framework doesn't survive as a text file. Give it the weight of an institution — a visual identity, a classification system, a practice — and people actually follow it. The same reason a company brands itself: it makes the commitment tangible.
+So I gave it the treatment: glyphs, a Codex, Stewards, a daily ritual. I know how that reads. Building it felt embarrassingly serious. But a governance framework doesn't survive as a text file. Give it the weight of an institution (a visual identity, a classification system, a practice) and people actually follow it. The same reason a company brands itself: it makes the commitment tangible.
 
 > "I want to treat it as sacred but not be phony."
 > — settling on the tone, March 2025

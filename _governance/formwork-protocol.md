@@ -44,11 +44,11 @@ That room doesn't reconstruct itself outside of school.
 
 Formwork is bigger than that room. The evaluation system is one tool inside a larger process. Every tool I've built for working with AI came from the same question: what does this system actually need to do the job?
 
-[Savepoint Syntax](/governance/savepoint-syntax/) came from asking what the model needs to reconstruct where my thinking was. The answer wasn't notes. It was atomic markers, machine-readable, one line of content, designed for how the model retrieves, not how I remember.
+[Savepoint Syntax](/governance/savepoint-syntax/) came from asking what the model needs to reconstruct where my thinking was. Atomic markers, machine-readable, one line of content, designed for how the model retrieves.
 
-The voice pipeline came from asking what the model needs to produce authentic voice instead of performed voice. The answer was conversation transcripts, not published writing. Rough, unstructured, full of false starts. That's the actual voice.
+The voice pipeline came from asking what the model needs to produce authentic voice. The answer was conversation transcripts. Rough, unstructured, full of false starts. That's how I actually talk. The pipeline samples from that instead of from published writing.
 
-The knowledge traversal system came from asking what the model needs to trace how an idea developed. The answer was chronological reading with progressive context accumulation, not keyword search. Grep can't find the first time an idea appeared because it wasn't called by its final name yet.
+The knowledge traversal system came from asking what the model needs to trace how an idea developed. It reads chronologically and carries understanding forward. Grep can't find the first time an idea appeared because it wasn't called by its final name yet.
 
 The skill architecture came from asking what happens when you give a model twelve objectives at once. It flattens them. So every skill has one objective, one output, no knowledge of other skills. Coordinators handle the orchestration. The model never receives twelve goals at once.
 
@@ -85,7 +85,7 @@ The Formwork Protocol connects them: lens extraction is framework selection. The
 
 ## How it works
 
-The architecture came from a simpler question than it looks. A compound evaluation — "is this good?" — is twelve questions disguised as one. Give that to a person or a model and the criteria blur together. Separate the concerns, give each one a clear frame, and the evaluation actually works. The same accommodation you'd make for any system that can't process everything at once.
+The architecture came from a simpler question than it looks. A compound evaluation ("is this good?") is twelve questions disguised as one. Give that to a person or a model and the criteria blur together. Separate the concerns, give each one a clear frame, and the evaluation actually works. The same accommodation you'd make for any system that can't process everything at once.
 
 The system has four components: layers, lenses, the maker's own identity, and convergence.
 

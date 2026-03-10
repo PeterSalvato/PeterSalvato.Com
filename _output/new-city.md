@@ -26,9 +26,9 @@ glyphs: "▼ ▲ ◀"
 codex: "/Æ/#|●▼||▲◀|||▼~[output.new-city]/"
 ---
 
-I've never written a novel. I had a story idea and I wanted to see if the same design thinking I use everywhere else would hold in a material I'd never worked in. Brand systems, enterprise platforms, music production — the methodology transfers across all of them. Could it transfer to fiction?
+I've never written a novel. I had a story idea and I wanted to see if the same design thinking I use everywhere else would hold in a material I'd never worked in. Brand systems, enterprise platforms, music production. The methodology transfers across all of them. Could it transfer to fiction?
 
-So I built the architecture first. The same layered registration approach from the visual work — [Aiden Jae](/output/aiden-jae/), [Altrueism](/output/altrueism/) — except prose has a channel the visual work doesn't: what the reader's body does.
+So I built the architecture first. The same layered registration approach from the visual work ([Aiden Jae](/output/aiden-jae/), [Altrueism](/output/altrueism/)), except prose has a channel the visual work doesn't: what the reader's body does.
 
 ## The fractal
 
@@ -60,7 +60,7 @@ Register transitions are state transitions, specced at the beat level. The shift
 
 The goal is not to describe what a character feels. It's to produce a somatic response in the reader that mirrors it. Rhythm, syntax, pacing, sensory density. Language that communicates physically. The reader's nervous system picks up what the character's nervous system is doing.
 
-This is [attunement](/vocabulary/#attunement) applied to prose. Design for how someone actually processes an experience, not just what information they receive. The body knows before the mind names it — that's not a narrative technique, it's a theory of communication. The same principle behind accessibility and accommodation work, applied to fiction.
+This is [attunement](/vocabulary/#attunement) applied to prose. Design for how someone actually processes an experience, not just what information they receive. The body knows before the mind names it. That's not a narrative technique, it's a theory of communication. The same principle behind accessibility and accommodation work, applied to fiction.
 
 ## Why this structure
 

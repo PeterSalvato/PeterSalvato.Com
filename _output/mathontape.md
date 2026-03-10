@@ -7,7 +7,7 @@ logo: /assets/img/MathOnTape.stacked.logo.svg
 logo_type: stacked
 altitude: "03"
 status: "In Development"
-context: "Experimental electronic music where the visual identity and the sonic texture are built as one system. Not parallel outputs — one brand, two surfaces."
+context: "Experimental electronic music where the visual identity and the sonic texture are built as one system. Not parallel outputs. One brand, two surfaces."
 drift: "Music finished by feel, then decorated with a cover that never quite fits. Two separate processes producing two separate things."
 scaffold: "Visual-sonic brand integration. MICR typography, archival naming, halftone-as-tape-hiss: the visual aesthetic correlates directly with the audio aesthetic."
 fidelity: "You can't pull the design away from the music without breaking the whole thing."
@@ -20,7 +20,7 @@ glyphs: "▶ ⬣ ■"
 codex: "/Æ/#|●▶||⬣■|||▶⟩⟩[output.mathontape]/"
 ---
 
-MathOnTape is dirty analog synths, magnetic tape, feedback loops. No commercial goal. It's experimentation with correlating visual aesthetic with audio aesthetic in the brand systems arena — the same way [Aiden Jae](/output/aiden-jae/) integrates photography direction with platform architecture, except here both surfaces are mine.
+MathOnTape is dirty analog synths, magnetic tape, feedback loops. No commercial goal. It's experimentation with correlating visual aesthetic with audio aesthetic in the brand systems arena, the same way [Aiden Jae](/output/aiden-jae/) integrates photography direction with platform architecture, except here both surfaces are mine.
 
 Most electronic music is composed by intuition, layering sounds until something feels right. Most album art is made after the music is finished. Two separate processes. The cover never quite fits because it was built for a finished thing, not alongside it. This project does neither of those things.
 
