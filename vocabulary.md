@@ -12,6 +12,11 @@ These terms show up across the work. They aren't branding. They're the language 
 
 ---
 
+<span id="accommodation-design"></span>**Accommodation Design**
+The framework underneath everything on this site. Instead of asking how to constrain an AI system, ask what it actually needs to do the job. The question comes from special education: every IEP starts by reading the student's processing reality and designing the task to meet it. Applied to AI, the same question produces different architecture, different evaluation, and different results. The [whitepaper](https://github.com/PeterSalvato/accommodation-design) documents the full framework. [Formwork](/governance/formwork-protocol/) is the process that implements it.
+
+---
+
 <span id="altitude"></span>**Altitude**
 Where work sits in the practice. **01** = Governance (governing logic, cognitive firmware). **02** = Infrastructure (maintained platforms and tools). **03** = Output (delivered and produced work). The number isn't hierarchy. It's intent. Governance doesn't outrank output. They operate at different altitudes.
 
@@ -22,8 +27,13 @@ The gradual loss of original intent as work moves through execution. Related to 
 
 ---
 
+<span id="formwork"></span>**Formwork**
+The accommodation design process. In concrete construction, formwork is the temporary structure you pour into. It shapes the work while things are fluid. Once the concrete sets, the form comes off. Every tool I've built for working with AI is formwork: [Savepoint Syntax](/governance/savepoint-syntax/) shapes how context survives between sessions. The evaluation lenses shape how the model assesses one dimension at a time. Voice sampling shapes how the model produces authentic voice. Knowledge traversal shapes how the model traces ideas. The skill architecture shapes how the model receives tasks. Each one accommodates a specific processing constraint. Together they form the process. See [Formwork](/governance/formwork-protocol/).
+
+---
+
 <span id="scaffold"></span>**Scaffold**
-What keeps the original clarity in place while the work gets built. In [Savepoint Syntax](/governance/savepoint-syntax/), it's a tag syntax. In [Formwork Protocol](/governance/formwork-protocol/), it's conventions embedded in the project root. In [Aiden-Jae](/output/aiden-jae/), it's photography direction encoded into the Shopify architecture. Different forms, same function.
+What keeps the original clarity in place while the work gets built. In [Savepoint Syntax](/governance/savepoint-syntax/), it's a tag syntax. In [Formwork](/governance/formwork-protocol/), it's the tools that shape how the model processes. In [Aiden-Jae](/output/aiden-jae/), it's photography direction encoded into the Shopify architecture. Different forms, same function. In accommodation design, the scaffold's purpose is to become unnecessary. If it stays permanently, you've built a dependency, not a capability.
 
 ---
 
@@ -77,5 +87,15 @@ How attunement scales across any audience. First the group body: what is this th
 
 ---
 
+<span id="processing-profile"></span>**Processing Profile**
+What a system can and can't handle. For a student, it's working memory capacity, attention, sensory processing. For a model, it's context window limits, attention degradation, sensitivity to instruction ordering, tendency to flatten compound evaluations. You don't fight a processing profile. You design for it. That's the accommodation move.
+
+---
+
+<span id="input-inversion"></span>**Input Inversion**
+The standard approach to AI: structure the input, constrain the output. Input inversion goes the other way. Unstructured thinking goes in (brainstorming, arguing with yourself, changing direction mid-sentence). The model captures everything. Accommodation tools structure later. A teacher doesn't require a student to organize their thoughts before speaking. The student speaks, the teacher captures it, then helps find the structure in what was already expressed. Three years of that produced the corpus this site was compiled from.
+
+---
+
 <span id="windbreak"></span>**Windbreak**
-A structure that protects intent from the forces that erode it. In [Formwork Protocol](/governance/formwork-protocol/), the windbreak is institutional memory embedded in the project itself. Every project has something fragile and something threatening it. The windbreak is whatever you build to keep the first thing intact.
+A structure that protects intent from the forces that erode it. In [Formwork](/governance/formwork-protocol/), the windbreak is institutional memory embedded in the project itself. Every project has something fragile and something threatening it. The windbreak is whatever you build to keep the first thing intact.

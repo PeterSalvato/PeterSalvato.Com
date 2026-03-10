@@ -1,22 +1,22 @@
 ---
 layout: project
-title: "Formwork Protocol"
-subtitle: "Layered Evaluation and Construction System"
+title: "Formwork"
+subtitle: "The Accommodation Design Process"
 icon: layers
 altitude: "01"
 status: "Active"
-context: "One perspective on a piece of work produces imitation. The maker follows a single influence and the result looks like a copy. Multiple perspectives without structure produces noise. The maker drowns in contradictory feedback with no way to resolve it."
-drift: "Evaluation happens as a single pass: one person, one instinct, one set of criteria applied to everything at once. Structural concerns and identity concerns get tangled together. When a structural decision conflicts with a narrative one, there's no framework to locate the tension or resolve it."
-scaffold: "A layered evaluation and construction system. Distinct layers of concern, each staffed with lenses extracted from real practitioners, run independently and read together. The maker's own identity feeds in as the standard the work is measured against. Where lenses agree, act. Where they disagree, the maker chooses. The choices are the work."
-fidelity: "Every project page on this site was produced by this system. Structural lenses and narrative lenses evaluate independently, surface tensions, and produce decisions that belong to the maker. The framework transfers to any medium: swap the layers and lenses."
+context: "Every tool I've built for working with AI started from the same question: what does this system actually need to do the job? Not what I need from it. What it needs from me. That question produced a set of tools. Formwork is the process that holds them together."
+drift: "The AI governance field treats the model as a system to constrain. Add more rules, longer prompts, tighter guardrails. Output degrades and the response is more constraint. The question nobody asks: what if the task design is the problem, not the model?"
+scaffold: "Formwork is the accommodation design process. A set of tools that shape how AI systems receive and process work: evaluation lenses that run one dimension at a time, context markers that help the model find its way back in, voice sampling from conversation instead of publication, knowledge traversal that reads chronologically instead of searching. Each tool accommodates a specific processing constraint. Together they form the pour."
+fidelity: "Every page on this site was produced by this process. The evaluation system, the context preservation, the voice pipeline, the knowledge traversal. The tools built the thing that describes the tools."
 faculty: ["design", "engineering", "uxia"]
 seo_keywords: ["creative evaluation framework", "lens extraction", "multi-perspective evaluation", "structural evaluation", "narrative evaluation", "creative governance", "lens array", "restaurant concept development", "creative decision framework", "cross-disciplinary methodology"]
-description: "A layered evaluation and construction system. Configurable layers of concern, each staffed with lenses extracted from real practitioners, run independently and read together. Transfers to any medium."
+description: "The accommodation design process. Tools that shape how AI systems receive and process work: evaluation lenses, context preservation, voice sampling, knowledge traversal, task decomposition. Each tool accommodates a specific processing constraint. Together they form the pour."
 last_modified: 2026-03-09
 faq: true
 faq_items:
-  - question: "What is the Formwork Protocol?"
-    answer: "A layered evaluation and construction system. It extracts evaluative frameworks from practitioners' bodies of work and runs them as testable diagnostics against creative output. Multiple perspectives surface tensions the maker resolves. The accumulated decisions produce original work. It transfers to any field where craft has practitioners whose judgment you trust."
+  - question: "What is Formwork?"
+    answer: "The accommodation design process. A set of tools that shape how AI systems receive and process work. Evaluation lenses run one dimension at a time. Context markers help the model reconstruct where the thinking was. Voice sampling pulls from conversation, not publication. Knowledge traversal reads chronologically instead of searching. Each tool accommodates a specific processing constraint. Together they form the process that produced this site."
   - question: "How does lens extraction work?"
     answer: "Study a practitioner's output, extract the evaluative framework underneath their decisions, and codify it as testable criteria. The result is a codification of their evaluative instinct, like turning a body of work into a software framework. Extracting Vignelli means testing for restraint and systematic limitation, not imitating his aesthetic."
   - question: "How do the lenses connect to established disciplines?"
@@ -36,7 +36,27 @@ codex: "/Æ/#|●▲||⬣■|||▲⟩⟩[governance.formwork-protocol]/"
 
 At SVA, studying visual communication with Christoph Niemann and Nicholas Blechman, the critique room worked like this. You hang your work at the front of the room. Your peers and your teachers sit around you. Everyone evaluates in good faith, trying to make the work the best the room can make it. The feedback is specific, grounded, and coming from multiple perspectives at once. Where they agree, you have a strong signal. Where they disagree, you have a decision to make. The accumulated decisions are yours. The work that comes out belongs to you, not to any single voice in the room.
 
-That room doesn't reconstruct itself outside of school. Without it, things erode. On [Encore](/infrastructure/encore/), multiple developers reaching for styles and components over twelve years, each making good-enough choices that didn't quite match the original intent. On brand projects, a founder implementing their own decisions that slowly contradict the strategy they paid for. The drift is the same everywhere: accumulated good-enough choices with no evaluative structure to catch them.
+That room doesn't reconstruct itself outside of school.
+
+---
+
+## The process
+
+Formwork is bigger than that room. The evaluation system is one tool inside a larger process. Every tool I've built for working with AI came from the same question: what does this system actually need to do the job?
+
+[Savepoint Syntax](/governance/savepoint-syntax/) came from asking what the model needs to reconstruct where my thinking was. The answer wasn't notes. It was atomic markers, machine-readable, one line of content, designed for how the model retrieves, not how I remember.
+
+The voice pipeline came from asking what the model needs to produce authentic voice instead of performed voice. The answer was conversation transcripts, not published writing. Rough, unstructured, full of false starts. That's the actual voice.
+
+The knowledge traversal system came from asking what the model needs to trace how an idea developed. The answer was chronological reading with progressive context accumulation, not keyword search. Grep can't find the first time an idea appeared because it wasn't called by its final name yet.
+
+The skill architecture came from asking what happens when you give a model twelve objectives at once. It flattens them. So every skill has one objective, one output, no knowledge of other skills. Coordinators handle the orchestration. The model never receives twelve goals at once.
+
+Each of these is formwork. A temporary structure that shapes the pour. The evaluation system below is the most developed of them, but they all follow the same pattern: identify the processing constraint, ask what the system needs, build the accommodation.
+
+---
+
+Without that room, things erode. On [Encore](/infrastructure/encore/), multiple developers reaching for styles and components over twelve years, each making good-enough choices that didn't quite match the original intent. On brand projects, a founder implementing their own decisions that slowly contradict the strategy they paid for. The drift is the same everywhere: accumulated good-enough choices with no evaluative structure to catch them.
 
 The Formwork Protocol reconstructs that room. The evaluative function, not the social experience. Multiple perspectives, each codified and testable, run independently and read together. The maker resolves the disagreements. The accumulated resolutions become the project.
 
