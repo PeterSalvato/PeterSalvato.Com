@@ -1,0 +1,104 @@
+---
+layout: null
+permalink: /llms-full.txt
+---
+# Peter Salvato: Full Site Content
+
+> Design engineer based in Fort Lauderdale, FL. Design practice across construction sites, print shops, enterprise platforms, brand systems, and AI governance. The methodology existed before the tools did. This site is a compiled instance, not a hand-written portfolio — every string was derived from a three-year corpus of conversations with AI tools.
+
+Site: https://petersalvato.com
+Email: ptsalvato@gmail.com
+GitHub: https://github.com/petersalvato
+LinkedIn: https://linkedin.com/in/petersalvato
+
+---
+
+## Who I Am
+
+{{ site.data.index.role_declaration | strip_html }}
+
+Peter Salvato studied Visual Communication at the School of Visual Arts, then worked construction sites, print shops, and publishing houses before spending twelve years as Principal Architect on an enterprise recruiting platform. The design practice — finding the gap between what something is and how it presents — has been the same across every medium. The AI governance tools on this site grew out of that practice.
+
+---
+
+## Provenance: How This Site Was Built
+
+This site was compiled from three years of conversations: over 60,000 documents of thinking out loud into AI tools, mined by specialized skills, evaluated against practitioners' lenses, and assembled under voice rules derived from how the author actually talks in unguarded sessions. The system described on these pages compiled the site itself from raw material.
+
+---
+
+## Three Systems: Narrative, Visual, Technical
+
+Everything built by the practice runs through three systems:
+1. **Narrative:** The logic of intent. What is the thing actually supposed to say?
+2. **Visual:** The logic of form. How do hierarchy, density, and mark-making communicate that intent?
+3. **Technical:** The logic of execution. Does the architecture hold the intent under pressure?
+
+---
+
+# GOVERNANCE (01)
+
+{% for doc in site.governance %}{% unless doc.published == false %}
+## {{ doc.title }}
+### {{ doc.subtitle }}
+
+{{ doc.content | strip_html }}
+
+URL: {{ doc.url | absolute_url }}
+Altitude: {{ doc.altitude }}
+Status: {{ doc.status }}
+
+---
+{% endunless %}{% endfor %}
+
+# INFRASTRUCTURE (02)
+
+{% for doc in site.infrastructure %}{% unless doc.published == false %}
+## {{ doc.title }}
+### {{ doc.subtitle }}
+
+{{ doc.content | strip_html }}
+
+URL: {{ doc.url | absolute_url }}
+Altitude: {{ doc.altitude }}
+Status: {{ doc.status }}
+
+---
+{% endunless %}{% endfor %}
+
+# OUTPUT (03)
+
+{% for doc in site.output %}{% unless doc.published == false %}
+## {{ doc.title }}
+### {{ doc.subtitle }}
+
+{{ doc.content | strip_html }}
+
+URL: {{ doc.url | absolute_url }}
+Altitude: {{ doc.altitude }}
+Status: {{ doc.status }}
+
+---
+{% endunless %}{% endfor %}
+
+{% if site.blog.size > 0 %}
+# JOURNAL
+
+{% for post in site.blog %}
+## {{ post.title }}
+
+{{ post.content | strip_html }}
+
+URL: {{ post.url | absolute_url }}
+Date: {{ post.date | date: "%Y-%m-%d" }}
+
+---
+{% endfor %}
+{% endif %}
+
+# VOCABULARY
+
+{% for entry in site.data.vocabulary %}
+## {{ entry.term }}
+{{ entry.tooltip }}
+{% endfor %}

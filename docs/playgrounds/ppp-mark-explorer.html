@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PPP Brand Mark Explorer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+    background: #111;
+    color: #ccc;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    grid-template-rows: 1fr auto;
+    overflow: hidden;
+  }
+
+  /* --- Controls Panel --- */
+  .controls {
+    grid-row: 1 / 3;
+    background: #1a1a1a;
+    border-right: 1px solid #333;
+    padding: 20px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .controls h1 {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #888;
+    border-bottom: 1px solid #333;
+    padding-bottom: 10px;
+  }
+
+  .control-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .control-group label {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #888;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .control-group label span.val {
+    font-family: 'SF Mono', 'Fira Code', monospace;
+    color: #aaa;
+    font-size: 11px;
+  }
+
+  input[type="range"] {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 4px;
+    background: #333;
+    border-radius: 2px;
+    outline: none;
+  }
+
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 14px;
+    height: 14px;
+    background: #888;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  input[type="range"]::-webkit-slider-thumb:hover {
+    background: #aaa;
+  }
+
+  /* Preset buttons */
+  .presets {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .presets button {
+    font-size: 11px;
+    padding: 5px 10px;
+    background: #252525;
+    color: #aaa;
+    border: 1px solid #333;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: inherit;
+  }
+
+  .presets button:hover {
+    background: #333;
+    color: #ddd;
+  }
+
+  .presets button.active {
+    background: #444;
+    color: #fff;
+    border-color: #666;
+  }
+
+  /* Toggle */
+  .toggle-row {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+
+  .toggle-row button {
+    flex: 1;
+    font-size: 11px;
+    padding: 6px 0;
+    background: #252525;
+    color: #888;
+    border: 1px solid #333;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: inherit;
+  }
+
+  .toggle-row button.active {
+    background: #444;
+    color: #fff;
+    border-color: #666;
+  }
+
+  /* Color swatches */
+  .color-row {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+
+  .swatch {
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    border: 1px solid #444;
+  }
+
+  .color-label {
+    font-size: 11px;
+    font-family: 'SF Mono', 'Fira Code', monospace;
+    color: #888;
+  }
+
+  /* Section divider */
+  .section-divider {
+    border-top: 1px solid #333;
+    padding-top: 12px;
+    margin-top: 4px;
+  }
+
+  /* --- Preview Area --- */
+  .preview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px;
+    overflow-y: auto;
+    transition: background 0.3s;
+  }
+
+  .preview.light {
+    background: #F5F3EE;
+  }
+
+  .preview.dark {
+    background: #1a1a1a;
+  }
+
+  .size-row {
+    display: flex;
+    align-items: flex-end;
+    gap: 32px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .size-cell {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .size-label {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #888;
+    font-family: 'SF Mono', 'Fira Code', monospace;
+  }
+
+  .preview.light .size-label {
+    color: #999;
+  }
+
+  /* Mark container */
+  .mark {
+    position: relative;
+    line-height: 1;
+    font-family: 'Jersey 10', cursive;
+    font-weight: 400;
+  }
+
+  .mark .plate {
+    position: absolute;
+    top: 0;
+    left: 0;
+    mix-blend-mode: multiply;
+    will-change: transform;
+  }
+
+  .preview.dark .mark .plate {
+    mix-blend-mode: screen;
+  }
+
+  .mark .plate-key {
+    position: relative;
+    visibility: hidden;
+  }
+
+  /* Grain overlay */
+  .grain-overlay {
+    position: absolute;
+    top: -20%;
+    left: -20%;
+    width: 140%;
+    height: 140%;
+    pointer-events: none;
+    opacity: 0;
+  }
+
+  /* Hero section */
+  .hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .hero-caption {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: #888;
+    font-family: 'SF Mono', 'Fira Code', monospace;
+  }
+
+  .preview.light .hero-caption {
+    color: #999;
+  }
+
+  /* --- Prompt Output --- */
+  .prompt-area {
+    background: #0d0d0d;
+    border-top: 1px solid #333;
+    padding: 16px 20px;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .prompt-text {
+    flex: 1;
+    font-family: 'SF Mono', 'Fira Code', monospace;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #888;
+    white-space: pre-wrap;
+  }
+
+  .copy-btn {
+    font-size: 11px;
+    padding: 6px 14px;
+    background: #252525;
+    color: #aaa;
+    border: 1px solid #333;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: inherit;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .copy-btn:hover { background: #333; color: #ddd; }
+  .copy-btn.copied { background: #2a4a2a; color: #8c8; border-color: #4a4; }
+</style>
+</head>
+<body>
+
+<!-- Controls -->
+<div class="controls">
+  <h1>PPP Mark Explorer</h1>
+
+  <div class="control-group">
+    <label>Presets</label>
+    <div class="presets">
+      <button onclick="applyPreset('subtle')" id="preset-subtle">Subtle</button>
+      <button onclick="applyPreset('standard')" id="preset-standard">Standard</button>
+      <button onclick="applyPreset('dramatic')" id="preset-dramatic">Dramatic</button>
+      <button onclick="applyPreset('textbook')" id="preset-textbook">Textbook</button>
+      <button onclick="applyPreset('raw')" id="preset-raw">Raw Plates</button>
+    </div>
+  </div>
+
+  <div class="control-group section-divider">
+    <label>Background</label>
+    <div class="toggle-row">
+      <button onclick="setBg('light')" id="bg-light">Light (Site)</button>
+      <button onclick="setBg('dark')" id="bg-dark" class="active">Dark (Terminal)</button>
+    </div>
+  </div>
+
+  <div class="control-group section-divider">
+    <label>Plate Offset <span class="val" id="offset-val">3px</span></label>
+    <input type="range" id="offset" min="0" max="12" step="0.5" value="3" oninput="update()">
+  </div>
+
+  <div class="control-group">
+    <label>Offset Angle <span class="val" id="angle-val">0°</span></label>
+    <input type="range" id="angle" min="0" max="360" step="5" value="0" oninput="update()">
+  </div>
+
+  <div class="control-group section-divider">
+    <label>Desaturation <span class="val" id="desat-val">30%</span></label>
+    <input type="range" id="desat" min="0" max="100" step="1" value="30" oninput="update()">
+  </div>
+
+  <div class="control-group">
+    <label>Opacity <span class="val" id="opacity-val">85%</span></label>
+    <input type="range" id="opacity" min="20" max="100" step="1" value="85" oninput="update()">
+  </div>
+
+  <div class="control-group section-divider">
+    <label>Grain Intensity <span class="val" id="grain-val">0.06</span></label>
+    <input type="range" id="grain" min="0" max="0.3" step="0.01" value="0.06" oninput="update()">
+  </div>
+
+  <div class="control-group section-divider">
+    <label>Tier Colors</label>
+    <div class="color-row">
+      <div class="swatch" id="swatch-r" style="background:#A64B2A"></div>
+      <span class="color-label">R — Governance #A64B2A</span>
+    </div>
+    <div class="color-row">
+      <div class="swatch" id="swatch-b" style="background:#3A5F85"></div>
+      <span class="color-label">B — Infrastructure #3A5F85</span>
+    </div>
+    <div class="color-row">
+      <div class="swatch" id="swatch-g" style="background:#6B8E5F"></div>
+      <span class="color-label">G — Output #6B8E5F</span>
+    </div>
+  </div>
+
+  <div class="control-group section-divider">
+    <label>Plate Layout</label>
+    <div class="toggle-row">
+      <button onclick="setLayout('triadic')" id="layout-triadic" class="active">Triadic</button>
+      <button onclick="setLayout('linear')" id="layout-linear">Linear</button>
+      <button onclick="setLayout('cluster')" id="layout-cluster">Cluster</button>
+    </div>
+  </div>
+</div>
+
+<!-- Preview -->
+<div class="preview dark" id="preview">
+
+  <div class="hero-section">
+    <div class="hero-caption">Hero (256px)</div>
+    <div class="size-cell">
+      <div class="mark" id="mark-hero" style="font-size:256px"></div>
+    </div>
+  </div>
+
+  <div class="size-row">
+    <div class="size-cell">
+      <div class="size-label">128px</div>
+      <div class="mark" id="mark-128" style="font-size:128px"></div>
+    </div>
+    <div class="size-cell">
+      <div class="size-label">64px</div>
+      <div class="mark" id="mark-64" style="font-size:64px"></div>
+    </div>
+    <div class="size-cell">
+      <div class="size-label">32px</div>
+      <div class="mark" id="mark-32" style="font-size:32px"></div>
+    </div>
+    <div class="size-cell">
+      <div class="size-label">16px</div>
+      <div class="mark" id="mark-16" style="font-size:16px"></div>
+    </div>
+  </div>
+
+</div>
+
+<!-- Prompt Output -->
+<div class="prompt-area">
+  <div class="prompt-text" id="prompt"></div>
+  <button class="copy-btn" id="copy-btn" onclick="copyPrompt()">Copy</button>
+</div>
+
+<!-- SVG Grain Filter -->
+<svg style="position:absolute;width:0;height:0">
+  <filter id="grain-filter">
+    <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" stitchTiles="stitch" result="noise"/>
+    <feColorMatrix type="saturate" values="0" in="noise" result="grey"/>
+    <feBlend in="SourceGraphic" in2="grey" mode="multiply"/>
+  </filter>
+</svg>
+
+<script>
+const DEFAULTS = {
+  offset: 3, angle: 0, desat: 30, opacity: 85, grain: 0.06,
+  bg: 'dark', layout: 'triadic'
+};
+
+const PRESETS = {
+  subtle:   { offset: 1.5, angle: 0, desat: 20, opacity: 90, grain: 0.03, layout: 'triadic' },
+  standard: { offset: 3, angle: 0, desat: 30, opacity: 85, grain: 0.06, layout: 'triadic' },
+  dramatic: { offset: 6, angle: 15, desat: 15, opacity: 80, grain: 0.08, layout: 'triadic' },
+  textbook: { offset: 2, angle: 330, desat: 45, opacity: 75, grain: 0.12, layout: 'triadic' },
+  raw:      { offset: 8, angle: 0, desat: 0, opacity: 100, grain: 0, layout: 'linear' }
+};
+
+const COLORS = {
+  r: { hex: '#A64B2A', label: 'Governance Red' },
+  b: { hex: '#3A5F85', label: 'Infrastructure Blue' },
+  g: { hex: '#6B8E5F', label: 'Output Green' }
+};
+
+let state = { ...DEFAULTS };
+
+const markSizes = ['hero', '128', '64', '32', '16'];
+
+function hexToHSL(hex) {
+  let r = parseInt(hex.slice(1,3), 16) / 255;
+  let g = parseInt(hex.slice(3,5), 16) / 255;
+  let b = parseInt(hex.slice(5,7), 16) / 255;
+  let max = Math.max(r, g, b), min = Math.min(r, g, b);
+  let h, s, l = (max + min) / 2;
+  if (max === min) { h = s = 0; }
+  else {
+    let d = max - min;
+    s = l > 0.5 ? d / (2 - max - min) : d / (max + min);
+    switch(max) {
+      case r: h = ((g - b) / d + (g < b ? 6 : 0)) / 6; break;
+      case g: h = ((b - r) / d + 2) / 6; break;
+      case b: h = ((r - g) / d + 4) / 6; break;
+    }
+  }
+  return { h: Math.round(h * 360), s: Math.round(s * 100), l: Math.round(l * 100) };
+}
+
+function desaturate(hex, amount) {
+  const hsl = hexToHSL(hex);
+  const newS = Math.max(0, hsl.s * (1 - amount / 100));
+  return `hsl(${hsl.h}, ${newS}%, ${hsl.l}%)`;
+}
+
+function getPlateOffsets(offset, angleDeg, layout) {
+  const a = angleDeg * Math.PI / 180;
+
+  if (layout === 'linear') {
+    return [
+      { x: -offset, y: 0 },
+      { x: 0, y: 0 },
+      { x: offset, y: 0 }
+    ];
+  }
+
+  if (layout === 'cluster') {
+    const spread = 0.6;
+    return [
+      { x: -offset * spread, y: -offset * spread },
+      { x: offset * spread, y: -offset * 0.3 },
+      { x: 0, y: offset * spread }
+    ];
+  }
+
+  // triadic: 120° apart, rotated by angle
+  return [0, 1, 2].map(i => {
+    const theta = a + (i * 2 * Math.PI / 3);
+    return {
+      x: Math.cos(theta) * offset,
+      y: Math.sin(theta) * offset
+    };
+  });
+}
+
+function buildMark(container, fontSize) {
+  const offset = state.offset * (fontSize / 256);
+  const offsets = getPlateOffsets(offset, state.angle, state.layout);
+  const colors = [COLORS.r, COLORS.b, COLORS.g];
+
+  container.innerHTML = '';
+  container.style.fontSize = fontSize + 'px';
+
+  // Spacer for sizing
+  const spacer = document.createElement('span');
+  spacer.className = 'plate-key';
+  spacer.textContent = 'P';
+  container.appendChild(spacer);
+
+  colors.forEach((c, i) => {
+    const plate = document.createElement('span');
+    plate.className = 'plate';
+    plate.textContent = 'P';
+    plate.style.color = desaturate(c.hex, state.desat);
+    plate.style.opacity = state.opacity / 100;
+    plate.style.transform = `translate(${offsets[i].x}px, ${offsets[i].y}px)`;
+    container.appendChild(plate);
+  });
+
+  // Grain overlay
+  if (state.grain > 0) {
+    const grainEl = document.createElement('div');
+    grainEl.className = 'grain-overlay';
+    grainEl.style.opacity = state.grain;
+    grainEl.style.filter = 'url(#grain-filter)';
+    grainEl.style.background = 'transparent';
+    container.appendChild(grainEl);
+  }
+}
+
+function update() {
+  // Read controls
+  state.offset = parseFloat(document.getElementById('offset').value);
+  state.angle = parseFloat(document.getElementById('angle').value);
+  state.desat = parseFloat(document.getElementById('desat').value);
+  state.opacity = parseFloat(document.getElementById('opacity').value);
+  state.grain = parseFloat(document.getElementById('grain').value);
+
+  // Update value displays
+  document.getElementById('offset-val').textContent = state.offset + 'px';
+  document.getElementById('angle-val').textContent = state.angle + '°';
+  document.getElementById('desat-val').textContent = state.desat + '%';
+  document.getElementById('opacity-val').textContent = state.opacity + '%';
+  document.getElementById('grain-val').textContent = state.grain.toFixed(2);
+
+  // Rebuild marks at all sizes
+  const sizes = { hero: 256, '128': 128, '64': 64, '32': 32, '16': 16 };
+  Object.entries(sizes).forEach(([id, size]) => {
+    buildMark(document.getElementById('mark-' + id), size);
+  });
+
+  updatePrompt();
+  updatePresetHighlight();
+}
+
+function setBg(mode) {
+  state.bg = mode;
+  const preview = document.getElementById('preview');
+  preview.className = 'preview ' + mode;
+  document.getElementById('bg-light').className = mode === 'light' ? 'active' : '';
+  document.getElementById('bg-dark').className = mode === 'dark' ? 'active' : '';
+  update();
+}
+
+function setLayout(layout) {
+  state.layout = layout;
+  ['triadic', 'linear', 'cluster'].forEach(l => {
+    document.getElementById('layout-' + l).className = l === layout ? 'active' : '';
+  });
+  update();
+}
+
+function applyPreset(name) {
+  const p = PRESETS[name];
+  document.getElementById('offset').value = p.offset;
+  document.getElementById('angle').value = p.angle;
+  document.getElementById('desat').value = p.desat;
+  document.getElementById('opacity').value = p.opacity;
+  document.getElementById('grain').value = p.grain;
+  state.layout = p.layout;
+  ['triadic', 'linear', 'cluster'].forEach(l => {
+    document.getElementById('layout-' + l).className = l === p.layout ? 'active' : '';
+  });
+  update();
+}
+
+function updatePresetHighlight() {
+  Object.keys(PRESETS).forEach(name => {
+    const p = PRESETS[name];
+    const match = p.offset === state.offset && p.angle === state.angle &&
+      p.desat === state.desat && p.opacity === state.opacity &&
+      Math.abs(p.grain - state.grain) < 0.005 && p.layout === state.layout;
+    document.getElementById('preset-' + name).className = match ? 'active' : '';
+  });
+}
+
+function updatePrompt() {
+  const parts = ['PPP brand mark: Jersey 10 "P" in three tier-color plates'];
+
+  if (state.offset !== DEFAULTS.offset) {
+    parts.push(`plate offset ${state.offset}px`);
+  }
+  if (state.angle !== DEFAULTS.angle) {
+    parts.push(`rotated ${state.angle}°`);
+  }
+  if (state.desat !== DEFAULTS.desat) {
+    const desc = state.desat > 50 ? 'heavily desaturated' : state.desat > 20 ? 'moderately desaturated' : state.desat > 0 ? 'lightly desaturated' : 'full saturation';
+    parts.push(`${desc} (${state.desat}%)`);
+  }
+  if (state.opacity !== DEFAULTS.opacity) {
+    parts.push(`plate opacity ${state.opacity}%`);
+  }
+  if (state.grain !== DEFAULTS.grain) {
+    const desc = state.grain > 0.15 ? 'heavy grain' : state.grain > 0.05 ? 'visible grain' : state.grain > 0 ? 'subtle grain' : 'no grain';
+    parts.push(desc);
+  }
+  if (state.layout !== DEFAULTS.layout) {
+    parts.push(`${state.layout} plate arrangement`);
+  }
+  parts.push(`on ${state.bg} background`);
+  parts.push(`using ${state.bg === 'dark' ? 'screen' : 'multiply'} blend mode`);
+
+  document.getElementById('prompt').textContent = parts.join('. ') + '.';
+}
+
+function copyPrompt() {
+  const text = document.getElementById('prompt').textContent;
+  navigator.clipboard.writeText(text).then(() => {
+    const btn = document.getElementById('copy-btn');
+    btn.textContent = 'Copied!';
+    btn.className = 'copy-btn copied';
+    setTimeout(() => {
+      btn.textContent = 'Copy';
+      btn.className = 'copy-btn';
+    }, 1500);
+  });
+}
+
+// Initial render
+update();
+</script>
+</body>
+</html>

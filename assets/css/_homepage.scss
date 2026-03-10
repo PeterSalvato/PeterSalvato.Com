@@ -1,0 +1,257 @@
+// ============================================================================
+// SYSTEMWORKS / HOMEPAGE (systemworks.html)
+// ============================================================================
+
+#homepage-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: $gap-large;
+  margin-bottom: $gap-xxlarge;
+  border: none;
+  padding: 0;
+
+  .hero-image {
+    img {
+      height: auto;
+      display: block;
+    }
+  }
+
+  .hero-text {
+    margin-top: -7rem;
+  }
+
+  h1 {
+    font-size: $type-hero;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    margin-left: 8rem;
+    opacity: 0.85;
+  }
+
+  .hero-role {
+    font-family: $font-body;
+    font-size: 0.95rem;
+    line-height: $leading-loose;
+    color: $color-text-secondary;
+    margin-top: $gap-medium;
+    margin-bottom: 0;
+    max-width: 600px;
+  }
+}
+
+#featured-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: $gap-medium;
+  margin-bottom: $gap-xxlarge;
+
+  .featured-card {
+    border: $rule-light solid $color-border;
+    border-top: $rule-heavy solid $color-text;
+    padding: $gap-large;
+    text-decoration: none;
+    color: $color-text;
+    display: flex;
+    flex-direction: column;
+    transition: background-color $transition-fast, border-color $transition-fast;
+
+    &:hover {
+      background-color: $color-surface;
+      border-color: $color-text;
+      opacity: 1;
+    }
+  }
+
+  .featured-card-tier {
+    font-family: $font-mono;
+    font-size: $type-sm;
+    font-weight: 400;
+    letter-spacing: $tracking-wider;
+    text-transform: uppercase;
+    margin-bottom: $gap-medium;
+
+    &--blue { color: $color-blue; }
+    &--red { color: $color-red; }
+    &--green { color: $color-green; }
+  }
+
+  .featured-card-title {
+    font-family: $font-display;
+    font-size: $type-title;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: $tracking-normal;
+    margin-bottom: $gap-small;
+    margin-top: 0;
+  }
+
+  .featured-card-context {
+    font-family: $font-body;
+    font-size: $type-body-sm;
+    line-height: $leading-relaxed;
+    color: $color-text-secondary;
+    margin-bottom: 0;
+    flex-grow: 1;
+  }
+
+  .featured-card-rule {
+    border: none;
+    height: $rule-light;
+    background-color: $color-border;
+    margin: $gap-medium 0;
+  }
+
+  .featured-card-status {
+    font-family: $font-mono;
+    font-size: $type-xs;
+    font-weight: 400;
+    letter-spacing: $tracking-wider;
+    text-transform: uppercase;
+    color: $color-text-secondary;
+    opacity: $opacity-subdued;
+  }
+}
+
+#homepage-manifesto {
+  margin-bottom: $gap-xxlarge;
+  padding-top: $gap-xlarge;
+  border-top: $rule-light solid $color-border;
+
+  p {
+    font-family: $font-body;
+    font-size: $type-body-lg;
+    line-height: $leading-spacious;
+    color: $color-text-secondary;
+    max-width: 65ch;
+    margin-bottom: $gap-large;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+#manifesto-section {
+  margin-bottom: $gap-large;
+  padding-bottom: $gap-xlarge;
+  border-bottom: $rule-heavy solid $color-border;
+
+  h2 {
+    font-size: $type-hero;
+    text-transform: uppercase;
+    margin-bottom: $gap-xlarge;
+  }
+
+  p {
+    font-size: $type-body-lg;
+    line-height: $leading-spacious;
+    margin-bottom: $gap-large;
+    max-width: $container-max-width;
+  }
+
+  .manifesto-read-more {
+    margin-top: $gap-medium;
+
+    a {
+      font-family: $font-display;
+      font-size: $type-body-sm;
+      font-weight: 600;
+      letter-spacing: 0.03em;
+      color: $color-text-secondary;
+      text-decoration: none;
+
+      &:hover {
+        color: $color-text;
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.homepage-cta {
+  margin-top: $gap-xlarge;
+  padding-top: $gap-large;
+  border-top: $rule-heavy solid $color-border;
+
+  p {
+    font-family: $font-body;
+    font-size: $type-body-lg;
+    line-height: $leading-spacious;
+    color: $color-text-secondary;
+    max-width: $container-max-width;
+    margin: 0;
+  }
+
+  a {
+    color: $color-text;
+    font-weight: 600;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+#route-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: $gap-xlarge;
+  max-width: $container-max-width;
+  margin: 0;
+  margin-top: $gap-xxlarge;
+
+  .route-card {
+    border: $rule-light solid $color-border;
+    padding: $gap-xlarge;
+    text-decoration: none;
+    color: $color-text;
+    transition: all $transition-fast;
+    display: flex;
+    flex-direction: column;
+
+    &:hover {
+      background-color: $color-surface;
+      border-color: $color-text;
+    }
+
+    h3 {
+      margin-top: 0;
+      margin-bottom: $gap-medium;
+      flex-grow: 1;
+    }
+
+    .route-card-title {
+      font-family: $font-display;
+      font-size: $type-title;
+      font-weight: 700;
+      letter-spacing: $tracking-normal;
+      text-transform: uppercase;
+      margin-bottom: $gap-medium;
+      flex-grow: 1;
+
+      &--blue { color: $color-blue; }
+      &--red { color: $color-red; }
+      &--green { color: $color-green; }
+      &--neutral { color: $color-neutral; }
+    }
+
+    .route-card-description {
+      font-family: $font-body;
+      font-size: $type-body;
+      line-height: $leading-loose;
+      margin-bottom: $gap-xlarge;
+    }
+
+    .route-card-link {
+      font-family: $font-display;
+      font-size: $type-detail;
+      font-weight: 600;
+      letter-spacing: $tracking-normal;
+      text-transform: uppercase;
+      align-self: flex-start;
+    }
+  }
+}

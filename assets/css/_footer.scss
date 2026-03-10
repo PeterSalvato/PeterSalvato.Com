@@ -1,0 +1,95 @@
+// ============================================================================
+// FOOTER
+// ============================================================================
+
+footer {
+  // Full-width footer with centered text in viewport
+  position: relative;
+  z-index: $z-footer;
+  margin-top: $gap-xxxlarge;
+  padding: $gap-xlarge $padding-standard;
+  border-top: $rule-heavy solid $color-text;
+  background-color: $color-footer-bg;
+
+  // Center columns in viewport
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .footer-columns {
+    display: grid;
+    grid-template-columns: $sidebar-width 1fr 1fr;
+    gap: $gap-xlarge;
+    width: 100%;
+    max-width: none;
+  }
+
+  .footer-tagline {
+    font-size: $type-detail;
+    color: $color-footer-muted;
+    margin-bottom: $gap-large;
+    line-height: $leading-normal;
+  }
+
+  .footer-column {
+    h4 {
+      font-family: $font-display;
+      font-size: $type-caption;
+      font-weight: 700;
+      letter-spacing: $tracking-wider;
+      text-transform: uppercase;
+      color: $color-footer-muted;
+      margin-bottom: $gap-large;
+      text-align: left;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      text-align: left;
+    }
+
+    li {
+      margin-bottom: $gap-medium;
+      font-size: $type-body-sm;
+    }
+
+    a {
+      color: $color-footer-text;
+      text-decoration: none;
+      transition: opacity $transition-fast;
+
+      &:hover {
+        opacity: $opacity-hover;
+      }
+    }
+  }
+
+  .copyright {
+    font-size: $type-detail;
+    color: $color-footer-muted;
+    margin-bottom: $gap-medium;
+  }
+
+  .codex-expression {
+    font-family: $font-mono;
+    font-size: $type-detail;
+    color: $color-footer-text;
+    letter-spacing: $tracking-normal;
+    margin-top: $gap-medium;
+  }
+
+  .footer-codex {
+    width: 100%;
+    text-align: center;
+    margin-top: $gap-xlarge;
+    padding-top: $gap-medium;
+    border-top: $rule-light solid rgba(255,255,255, $opacity-ghost);
+    font-family: $font-mono;
+    font-size: $type-xs;
+    color: rgba(255,255,255, $opacity-muted);
+    letter-spacing: $tracking-normal;
+  }
+}

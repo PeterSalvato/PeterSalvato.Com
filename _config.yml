@@ -1,0 +1,55 @@
+title: "Peter Salvato"
+description: "Design engineer bringing twenty-five years of design practice and operational methodology to AI implementation. Construction sites, print shops, enterprise platforms, brand systems. The methodology existed before the tools did."
+author: "Peter Salvato"
+email: "ptsalvato@gmail.com"
+url: "https://petersalvato.com"
+baseurl: ""
+
+# SEO Keywords (Dual-Layer Strategy)
+seo_keywords: ["Design Engineer", "Design Systems", "Systems Architecture", "Information Architecture", "Operational Methodology", "AI Implementation", "Visual Communication", "SVA", "AI Governance"]
+
+# Jekyll Collections (3-Tier IA)
+collections:
+  governance:
+    output: true
+    permalink: /governance/:path/
+  infrastructure:
+    output: true
+    permalink: /infrastructure/:path/
+  output:
+    output: true
+    permalink: /output/:path/
+  essays:
+    output: true
+    permalink: /essays/:path/
+
+plugins:
+  - jekyll-redirect-from
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# SASS/SCSS processing
+sass:
+  sass_dir: assets/css
+  style: compressed
+
+# Exclude from build
+exclude:
+  - README.md
+  - CLAUDE.md
+  - CONTENT-STRATEGY.md
+  - DEV.md
+  - GEMINI.md
+  - assets/ContentChat.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - docs/
+  - .gitignore
+  - .github/
+
+# GitHub Pages configuration (GitHub Actions deployment)
+remote_theme: null
+theme: null

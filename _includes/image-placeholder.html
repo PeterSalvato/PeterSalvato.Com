@@ -1,0 +1,18 @@
+<div class="image-gallery image-gallery--{{ include.aspect | default: 'square' }}">
+  {% case include.count %}
+    {% when 2 %}
+      <figure class="image-placeholder"><div class="placeholder-box"></div><figcaption class="placeholder-caption">{{ include.caption | default: 'Image 1' }}</figcaption></figure>
+      <figure class="image-placeholder"><div class="placeholder-box"></div><figcaption class="placeholder-caption">{{ include.caption | default: 'Image 2' }}</figcaption></figure>
+    {% when 3 %}
+      <figure class="image-placeholder"><div class="placeholder-box"></div><figcaption class="placeholder-caption">{{ include.caption | default: 'Image 1' }}</figcaption></figure>
+      <figure class="image-placeholder"><div class="placeholder-box"></div><figcaption class="placeholder-caption">{{ include.caption | default: 'Image 2' }}</figcaption></figure>
+      <figure class="image-placeholder"><div class="placeholder-box"></div><figcaption class="placeholder-caption">{{ include.caption | default: 'Image 3' }}</figcaption></figure>
+    {% when 4 %}
+      <figure class="image-placeholder"><div class="placeholder-box"></div><figcaption class="placeholder-caption">{{ include.caption | default: 'Image 1' }}</figcaption></figure>
+      <figure class="image-placeholder"><div class="placeholder-box"></div><figcaption class="placeholder-caption">{{ include.caption | default: 'Image 2' }}</figcaption></figure>
+      <figure class="image-placeholder"><div class="placeholder-box"></div><figcaption class="placeholder-caption">{{ include.caption | default: 'Image 3' }}</figcaption></figure>
+      <figure class="image-placeholder"><div class="placeholder-box"></div><figcaption class="placeholder-caption">{{ include.caption | default: 'Image 4' }}</figcaption></figure>
+    {% else %}
+      <figure class="image-placeholder"><div class="placeholder-box"></div><figcaption class="placeholder-caption">{{ include.caption | default: 'Image 1' }}</figcaption></figure>
+  {% endcase %}
+</div>

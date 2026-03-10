@@ -1,0 +1,369 @@
+// ============================================================================
+// LAYOUT — Four fixed print formats. Each breakpoint is a designed layout,
+// not a fluid adaptation. Mobile uses microfiche pan to reveal sidebar.
+// ============================================================================
+
+// ----------------------------------------------------------------------------
+// MOBILE — Phone format (<600px)
+// Sidebar off-screen left. Hamburger pans both sidebar + content simultaneously.
+// ----------------------------------------------------------------------------
+@media (max-width: 599px) {
+
+  // Prevent horizontal scroll and pinch-zoom during nav pan.
+  // Both html AND body must clip — mobile browsers use html as the
+  // real scroll container, so body alone doesn't contain the overflow.
+  html, body {
+    overflow-x: hidden;
+  }
+
+  // Lock the viewport completely when nav is open so translateX
+  // content can't be scrolled or zoomed into.
+  html.nav-open,
+  html.nav-open body {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+  }
+
+  .hamburger-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    position: fixed;
+    top: $gap-medium;
+    right: $gap-medium;
+    z-index: $z-hamburger;
+    width: 44px;
+    height: 44px;
+    padding: 10px;
+    background: $color-white;
+    border: $rule-light solid $color-border;
+    cursor: pointer;
+  }
+
+  .hamburger-line {
+    width: 100%;
+    height: 1px;
+    background-color: $color-text;
+    display: block;
+    transition: opacity $transition-fast;
+  }
+
+  #sidebar-nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: $sidebar-width;
+    height: 100vh;
+    padding: $padding-standard $padding-medium;
+    overflow-y: auto;
+    z-index: $z-sidebar;
+    transform: translateX(-100%);
+    transition: transform $transition-slide;
+
+    // Bigger touch targets in sidebar nav
+    .nav-section-title {
+      font-size: $type-caption;
+
+      a {
+        display: block;
+        padding: $type-detail 0;
+        min-height: 44px;
+      }
+    }
+
+    .nav-list a {
+      font-size: $type-body-sm;
+      min-height: 44px;
+      padding: $type-sm 0;
+    }
+  }
+
+  #main-content {
+    padding: 72px 20px $gap-xxlarge;
+    transform: translateX(0);
+    transition: transform $transition-slide;
+  }
+
+  body.nav-open #sidebar-nav {
+    transform: translateX(0);
+  }
+
+  body.nav-open #main-content {
+    transform: translateX($sidebar-width);
+  }
+
+  #container {
+    max-width: 100%;
+  }
+
+  #homepage-hero {
+    h1 {
+      font-size: $type-title;
+      margin-left: 2.5rem;
+    }
+    .hero-text { margin-top: -2.5rem; }
+    .hero-image img { width: 280px; }
+  }
+
+  // Featured cards: single column on mobile
+  #featured-cards {
+    grid-template-columns: 1fr;
+  }
+
+  // Footer: single column on mobile with adequate touch targets
+  footer {
+    padding: $gap-xlarge $gap-large;
+
+    .footer-columns {
+      grid-template-columns: 1fr;
+      gap: $gap-xlarge;
+    }
+
+    .footer-column a {
+      display: inline-block;
+      min-height: 44px;
+      padding: $gap-small 0;
+      line-height: $leading-spacious;
+    }
+  }
+
+  // Project page blocks: single column
+  .block-body {
+    grid-template-columns: 1fr;
+    gap: $gap-large;
+  }
+
+  .block-images {
+    position: static;
+  }
+
+  // Image treatments: tighter on mobile
+  figure.figure {
+    &.diagram,
+    &.artifact {
+      padding: 4px;
+    }
+
+    img {
+      max-height: 350px;
+    }
+
+    figcaption {
+      font-size: $type-xs;
+    }
+  }
+
+  // Editorial layout: stack image above text on mobile
+  .context-editorial {
+    .context-editorial-image {
+      float: none;
+      width: 100%;
+      max-width: 100%;
+      margin-right: 0;
+      margin-bottom: $gap-large;
+    }
+  }
+
+  // Artifact card titles: reduce size so single long words don't drive grid overflow
+  .artifact-card h1,
+  .artifact-card h2 {
+    font-size: $type-title;
+    overflow-wrap: break-word;
+  }
+
+  // Dossier hero: stack on mobile
+  .artifact-card--hero .artifact-hero-header {
+    flex-direction: column;
+  }
+
+  .artifact-mark-container {
+    flex: 0 0 80px;
+    max-width: 80px;
+
+    .artifact-mark { max-height: 80px; }
+  }
+
+  .artifact-mark-icon .material-symbols-outlined {
+    font-size: 64px;
+  }
+
+  .dossier-meta {
+    flex-wrap: wrap;
+    gap: $gap-medium;
+  }
+
+  // Blog: post meta wraps on mobile
+  .post .post-header .post-meta {
+    flex-wrap: wrap;
+    gap: $gap-medium;
+  }
+
+  // Blog: series nav stacks on mobile
+  .post .series-nav .series-nav-links {
+    flex-direction: column;
+    gap: $gap-large;
+  }
+
+  .post .series-nav .series-nav-prev,
+  .post .series-nav .series-nav-next {
+    max-width: 100%;
+  }
+
+  .post .series-nav .series-nav-next {
+    text-align: left;
+  }
+
+  // Blog index: list items stack on mobile
+  .blog-list .blog-list-item {
+    flex-direction: column;
+    gap: $gap-small;
+  }
+
+  .blog-list .blog-list-date {
+    width: auto;
+    padding-top: 0;
+  }
+
+  .protocol-specs,
+  .system-specs {
+    grid-template-columns: 1fr;
+  }
+
+  .artifact-gallery {
+    grid-template-columns: 1fr;
+  }
+}
+
+// ----------------------------------------------------------------------------
+// TABLET — Compact format (600px–1023px)
+// Sidebar always visible at 180px. Designed for portrait tablet.
+// ----------------------------------------------------------------------------
+@media (min-width: 600px) and (max-width: 1023px) {
+
+  .hamburger-btn { display: none; }
+
+  #sidebar-nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 180px;
+    height: 100vh;
+    padding: $padding-medium $gap-medium;
+    overflow-y: auto;
+    z-index: $z-sidebar;
+  }
+
+  #main-content {
+    padding: 40px 40px;
+    padding-left: calc(180px + 2rem);
+  }
+
+  #container {
+    max-width: 600px;
+  }
+
+  #homepage-hero {
+    .hero-text { margin-top: -4rem; }
+    h1 { margin-left: 5rem; }
+    .hero-image img { width: 440px; }
+  }
+
+  .protocol-specs,
+  .system-specs {
+    grid-template-columns: 1fr;
+  }
+
+  .artifact-gallery {
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  }
+}
+
+// ----------------------------------------------------------------------------
+// LAPTOP — Standard format (1024px–1599px)
+// Full sidebar at 300px. Primary designed layout.
+// ----------------------------------------------------------------------------
+@media (min-width: 1024px) and (max-width: 1599px) {
+
+  .hamburger-btn { display: none; }
+
+  #sidebar-nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: $sidebar-width;
+    height: 100vh;
+    padding: $padding-standard $padding-medium;
+    overflow-y: auto;
+    z-index: $z-sidebar;
+  }
+
+  #main-content {
+    padding: $padding-large $padding-large;
+    padding-left: calc(#{$sidebar-width} + 2rem);
+  }
+
+  #container {
+    max-width: $container-max-width;
+  }
+
+  .protocol-specs,
+  .system-specs {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #homepage-hero {
+    .hero-text { margin-top: -7rem; }
+    h1 { margin-left: 8rem; }
+    .hero-image img { width: 600px; }
+  }
+
+  .artifact-gallery {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
+
+// ----------------------------------------------------------------------------
+// ULTRAWIDE — Expanded format (1600px+)
+// Same sidebar, wider content column, more breathing room.
+// ----------------------------------------------------------------------------
+@media (min-width: 1600px) {
+
+  .hamburger-btn { display: none; }
+
+  #sidebar-nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: $sidebar-width;
+    height: 100vh;
+    padding: $gap-xxlarge $padding-standard;
+    overflow-y: auto;
+    z-index: $z-sidebar;
+  }
+
+  #main-content {
+    padding: 80px 80px;
+    padding-left: calc(#{$sidebar-width} + 3rem);
+  }
+
+  #container {
+    max-width: 1100px;
+  }
+
+  .protocol-specs,
+  .system-specs {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #homepage-hero {
+    .hero-text { margin-top: -8.5rem; }
+    h1 { margin-left: 10rem; }
+    .hero-image img { width: 720px; }
+  }
+
+  .artifact-gallery {
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  }
+}

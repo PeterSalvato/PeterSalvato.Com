@@ -1,0 +1,32 @@
+{
+  "ci": {
+    "collect": {
+      "numberOfRuns": 1,
+      "settings": {
+        "formFactor": "mobile",
+        "screenEmulation": {
+          "mobile": true,
+          "width": 375,
+          "height": 812,
+          "deviceScaleFactor": 2
+        },
+        "throttlingMethod": "simulate"
+      }
+    },
+    "assert": {
+      "assertions": {
+        "viewport":     ["error", { "minScore": 1 }],
+        "font-size":    ["error", { "minScore": 1 }],
+        "target-size":  ["error", { "minScore": 1 }],
+        "meta-description": ["warn", { "minScore": 1 }],
+        "categories:accessibility":    ["warn", { "minScore": 0.80 }],
+        "categories:seo":              ["warn", { "minScore": 0.85 }],
+        "categories:best-practices":   ["warn", { "minScore": 0.80 }],
+        "categories:performance":      "off"
+      }
+    },
+    "upload": {
+      "target": "temporary-public-storage"
+    }
+  }
+}

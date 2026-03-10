@@ -1,0 +1,47 @@
+// ============================================================================
+// TYPOGRAPHY
+// ============================================================================
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-display;
+  font-weight: 600;
+  margin-bottom: $gap-medium;
+  margin-top: $gap-xlarge;
+
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+
+h1 {
+  font-size: $type-head-lg;
+  line-height: $leading-tight;
+  letter-spacing: $tracking-tight;
+}
+
+h2 {
+  font-size: $type-head;
+  line-height: 1.2;
+  letter-spacing: $tracking-snug;
+}
+
+h3 {
+  font-size: $type-head-sm;
+  line-height: $leading-snug;
+  letter-spacing: $tracking-snug;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+  transition: color $transition-fast;
+
+  &:hover {
+    opacity: $opacity-hover;
+  }
+}

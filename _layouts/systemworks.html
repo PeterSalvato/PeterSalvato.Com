@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+<!-- Homepage Hero Card -->
+<div id="homepage-hero" class="artifact-card">
+    <div class="hero-image">
+        <img src="{{ '/assets/img/ppp-mark-draft.png' | relative_url }}"
+             alt="PPP brand mark — three registration plates of a P in governance red, infrastructure blue, and output green"
+             loading="eager">
+    </div>
+    <div class="hero-text">
+        <h1>I make things. The scale changes. The discipline doesn't.</h1>
+        {% if site.data.index.role_declaration %}
+        <p class="hero-role">{{ site.data.index.role_declaration }}</p>
+        {% endif %}
+    </div>
+</div>
+
+<!-- Featured Project Cards -->
+{% if site.data.index.featured %}
+<div id="featured-cards">
+    {% for card in site.data.index.featured %}
+    <a href="{{ card.link | relative_url }}" class="featured-card">
+        <span class="featured-card-tier featured-card-tier--{{ card.color }}">{{ card.tier }}</span>
+        <h3 class="featured-card-title">{{ card.title }}</h3>
+        <p class="featured-card-context">{{ card.context }}</p>
+        <hr class="featured-card-rule">
+        <span class="featured-card-status">{{ card.status }}</span>
+    </a>
+    {% endfor %}
+</div>
+{% endif %}
+
+<!-- Manifesto -->
+{% if site.data.index.manifesto.short %}
+<div id="homepage-manifesto">
+    {{ site.data.index.manifesto.short | newline_to_br }}
+</div>
+{% endif %}
+

@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+{% assign tier_name = page.tier_label | upcase %}
+{% assign route_description = nil %}
+{% for route in site.data.index.routes %}
+    {% if route.name == tier_name %}
+        {% assign route_description = route.description %}
+    {% endif %}
+{% endfor %}
+
+<div id="domain-index-page">
+    <div id="domain-index-header">
+        <h1>{{ page.tier_label | default: page.title | upcase }}</h1>
+        {% if route_description %}
+        <div class="domain-index-intro">
+            <p>{{ route_description }}</p>
+        </div>
+        {% endif %}
+    </div>
+
+    <div id="domain-artifacts">
+        {% for item in site.governance %}
+            {% if item.altitude == page.altitude_filter and item.listed != false %}
+                {% include artifact-hero.html item=item url=item.url is_link=true %}
+            {% endif %}
+        {% endfor %}
+        {% for item in site.infrastructure %}
+            {% if item.altitude == page.altitude_filter and item.listed != false %}
+                {% include artifact-hero.html item=item url=item.url is_link=true %}
+            {% endif %}
+        {% endfor %}
+        {% for item in site.output %}
+            {% if item.altitude == page.altitude_filter and item.listed != false %}
+                {% include artifact-hero.html item=item url=item.url is_link=true %}
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>

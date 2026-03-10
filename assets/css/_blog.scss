@@ -1,0 +1,395 @@
+// ============================================================================
+// BLOG / POST (post.html, blog/index.md)
+// ============================================================================
+
+.post {
+  max-width: 800px;
+
+  .post-header {
+    border-top: $rule-heavy solid $color-text;
+    padding-top: $gap-xlarge;
+    padding-bottom: $gap-xlarge;
+    margin-bottom: $gap-xxlarge;
+
+    h1 {
+      font-size: $type-display;
+      font-weight: 700;
+      letter-spacing: $tracking-normal;
+      text-transform: uppercase;
+      margin-bottom: $gap-medium;
+      margin-top: 0;
+    }
+
+    .post-deck {
+      font-family: $font-body;
+      font-size: $type-body-lg;
+      line-height: $leading-relaxed;
+      color: $color-text-secondary;
+      margin-top: 0;
+      margin-bottom: $gap-large;
+    }
+
+    .post-meta {
+      display: flex;
+      align-items: baseline;
+      gap: $gap-large;
+    }
+
+    .post-date {
+      font-family: $font-display;
+      font-size: $type-caption;
+      font-weight: 700;
+      letter-spacing: $tracking-wider;
+      text-transform: uppercase;
+      color: $color-text-secondary;
+    }
+
+    .post-reading-time {
+      font-family: $font-mono;
+      font-size: $type-caption;
+      letter-spacing: $tracking-wider;
+      color: $color-text-secondary;
+    }
+
+    .post-updated {
+      font-family: $font-mono;
+      font-size: $type-caption;
+      letter-spacing: $tracking-wider;
+      color: $color-text-secondary;
+    }
+
+    .post-author {
+      font-family: $font-body;
+      font-size: $type-body-sm;
+      color: $color-text-secondary;
+
+      a {
+        color: $color-text;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  .post-content {
+    @extend .project-content;
+
+    h2 {
+      border-top: $rule-light solid $color-border;
+      padding-top: $gap-xlarge;
+      margin-top: $gap-xxxlarge;
+    }
+  }
+
+  .series-nav {
+    margin-top: $gap-xxxlarge;
+    padding-top: $gap-xlarge;
+    border-top: $rule-light solid $color-border;
+
+    .series-nav-links {
+      display: flex;
+      justify-content: space-between;
+      gap: $gap-xlarge;
+    }
+
+    .series-nav-prev,
+    .series-nav-next {
+      display: flex;
+      flex-direction: column;
+      gap: $gap-small;
+      text-decoration: none;
+      max-width: 45%;
+    }
+
+    .series-nav-next {
+      text-align: right;
+      margin-left: auto;
+    }
+
+    .series-nav-label {
+      font-family: $font-mono;
+      font-size: $type-caption;
+      letter-spacing: $tracking-wider;
+      text-transform: uppercase;
+      color: $color-text-secondary;
+    }
+
+    .series-nav-title {
+      font-family: $font-body;
+      font-size: $type-body-lg;
+      color: $color-text;
+      line-height: 1.4;
+    }
+
+    a:hover .series-nav-title {
+      text-decoration: underline;
+    }
+  }
+
+  .related-projects {
+    margin-top: $gap-xxxlarge;
+    padding-top: $gap-xlarge;
+    border-top: $rule-light solid $color-border;
+
+    h2 {
+      font-size: 0.85rem;
+      font-family: $font-mono;
+      font-weight: 600;
+      letter-spacing: $tracking-wider;
+      text-transform: uppercase;
+      color: $color-text-secondary;
+      margin-bottom: $gap-large;
+      margin-top: 0;
+      border-top: none;
+      padding-top: 0;
+    }
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: $gap-medium;
+    }
+
+    a {
+      font-family: $font-body;
+      font-size: $type-body-lg;
+      color: $color-text;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.blog-index {
+  max-width: 800px;
+
+  h1 {
+    font-size: $type-display;
+    font-weight: 700;
+    letter-spacing: $tracking-normal;
+    text-transform: uppercase;
+    margin-bottom: $gap-xxlarge;
+  }
+}
+
+.blog-series-list {
+  margin-bottom: $gap-xxlarge;
+}
+
+.blog-series-callout {
+  border-top: $rule-heavy solid $color-text;
+  padding: $gap-large 0;
+  display: flex;
+  align-items: baseline;
+  gap: $gap-large;
+
+  .blog-series-label {
+    font-family: $font-mono;
+    font-size: $type-caption;
+    letter-spacing: $tracking-wider;
+    text-transform: uppercase;
+    color: $color-text-secondary;
+    flex-shrink: 0;
+  }
+
+  .blog-series-link {
+    font-family: $font-body;
+    font-size: $type-subhead;
+    font-weight: 700;
+    color: $color-text;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .blog-series-count {
+    font-family: $font-mono;
+    font-size: $type-caption;
+    letter-spacing: $tracking-wider;
+    color: $color-text-secondary;
+    margin-left: auto;
+  }
+}
+
+.blog-empty {
+  font-family: $font-body;
+  font-size: $type-body-lg;
+  line-height: $leading-spacious;
+  color: $color-text-secondary;
+}
+
+
+// Essays two-mode tabs
+.essays-tabs {
+  display: flex;
+  gap: 0;
+  border-bottom: $rule-heavy solid $color-text;
+  margin-bottom: $gap-xxlarge;
+}
+
+.essays-tab {
+  font-family: $font-display;
+  font-size: $type-caption;
+  font-weight: 700;
+  letter-spacing: $tracking-wider;
+  text-transform: uppercase;
+  color: $color-text-secondary;
+  background: none;
+  border: none;
+  padding: $gap-medium $gap-large;
+  cursor: pointer;
+  border-bottom: 3px solid transparent;
+  margin-bottom: -3px;
+
+  &.active {
+    color: $color-text;
+    border-bottom-color: $color-text;
+  }
+
+  &:hover {
+    color: $color-text;
+  }
+}
+
+.essays-panel {
+  display: none;
+
+  &.active {
+    display: block;
+  }
+}
+
+.series-header {
+  margin-bottom: $gap-xxlarge;
+
+  .series-title {
+    font-size: $type-subhead;
+    font-weight: 700;
+    letter-spacing: $tracking-normal;
+    text-transform: uppercase;
+    margin-bottom: $gap-medium;
+    margin-top: 0;
+  }
+
+  .series-description {
+    font-family: $font-body;
+    font-size: $type-body-lg;
+    line-height: $leading-relaxed;
+    color: $color-text-secondary;
+    margin: 0;
+  }
+}
+
+.series-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  counter-reset: chapter;
+
+  .series-list-item {
+    border-top: $rule-light solid $color-border;
+    padding: $gap-large 0;
+  }
+
+  .series-list-entry {
+    display: grid;
+    grid-template-columns: 2.5rem 1fr;
+    grid-template-rows: auto auto;
+    gap: 0 $gap-medium;
+  }
+
+  .series-list-chapter {
+    grid-row: 1 / -1;
+    font-family: $font-mono;
+    font-size: $type-caption;
+    letter-spacing: $tracking-wider;
+    color: $color-text-secondary;
+    padding-top: 4px;
+  }
+
+  .series-list-link {
+    grid-column: 2;
+    font-family: $font-body;
+    font-size: $type-subhead;
+    color: $color-text;
+    text-decoration: none;
+    line-height: 1.4;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .series-list-description {
+    grid-column: 2;
+    font-family: $font-body;
+    font-size: $type-body-sm;
+    line-height: $leading-relaxed;
+    color: $color-text-secondary;
+    margin-top: $gap-small;
+    margin-bottom: 0;
+  }
+}
+
+.blog-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  .blog-list-item {
+    border-top: $rule-light solid $color-border;
+    padding: $gap-large 0;
+    display: flex;
+    align-items: flex-start;
+    gap: $gap-xlarge;
+  }
+
+  .blog-list-date {
+    font-family: $font-display;
+    font-size: $type-caption;
+    font-weight: 700;
+    letter-spacing: $tracking-wider;
+    color: $color-text-secondary;
+    flex-shrink: 0;
+    width: 110px;
+    padding-top: 4px;
+  }
+
+  .blog-list-entry {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .blog-list-link {
+    font-family: $font-body;
+    font-size: $type-subhead;
+    color: $color-text;
+    text-decoration: none;
+    line-height: 1.4;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .blog-list-description {
+    font-family: $font-body;
+    font-size: $type-body-sm;
+    line-height: $leading-relaxed;
+    color: $color-text-secondary;
+    margin-top: $gap-small;
+    margin-bottom: 0;
+  }
+}

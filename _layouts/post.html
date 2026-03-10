@@ -1,0 +1,90 @@
+---
+layout: default
+---
+<article class="post" itemscope itemtype="https://schema.org/BlogPosting">
+  <header class="post-header">
+    <h1 itemprop="headline">{{ page.title }}</h1>
+    {% if page.description %}
+    <p class="post-deck">{{ page.description }}</p>
+    {% endif %}
+    <div class="post-meta">
+      {% assign words = content | number_of_words %}
+      {% assign minutes = words | divided_by: 200 %}
+      {% assign remainder = words | modulo: 200 %}
+      {% if remainder > 0 %}{% assign minutes = minutes | plus: 1 %}{% endif %}
+      <span class="post-reading-time">{{ minutes }} min read</span>
+      <span class="post-author">by <a href="{{ '/bio/' | relative_url }}" itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">Peter Salvato</span></a></span>
+    </div>
+  </header>
+  <div class="post-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  {% comment %} Sequential navigation: prev/next by order {% endcomment %}
+  {% if page.order %}
+  {% assign all_blog = site.essays | sort: "order" %}
+  {% assign current_order = page.order %}
+  {% assign prev_post = nil %}
+  {% assign next_post = nil %}
+  {% for sp in all_blog %}
+    {% if sp.order < current_order %}
+      {% assign prev_post = sp %}
+    {% endif %}
+    {% if sp.order > current_order and next_post == nil %}
+      {% assign next_post = sp %}
+    {% endif %}
+  {% endfor %}
+  {% if prev_post or next_post %}
+  <nav class="series-nav" aria-label="Post navigation">
+    <div class="series-nav-links">
+      {% if prev_post %}
+      <a class="series-nav-prev" href="{{ prev_post.url | relative_url }}">
+        <span class="series-nav-label">Previous</span>
+        <span class="series-nav-title">{{ prev_post.title }}</span>
+      </a>
+      {% else %}
+      <span class="series-nav-prev"></span>
+      {% endif %}
+      {% if next_post %}
+      <a class="series-nav-next" href="{{ next_post.url | relative_url }}">
+        <span class="series-nav-label">Next</span>
+        <span class="series-nav-title">{{ next_post.title }}</span>
+      </a>
+      {% endif %}
+    </div>
+  </nav>
+  {% endif %}
+  {% endif %}
+
+  {% comment %} Related projects: match on shared seo_keywords {% endcomment %}
+  {% if page.seo_keywords %}
+  {% assign related = "" | split: "" %}
+  {% for collection_name in site.collections %}
+    {% if collection_name.label == "governance" or collection_name.label == "infrastructure" or collection_name.label == "output" %}
+      {% for item in collection_name.docs %}
+        {% if item.seo_keywords %}
+          {% for kw in page.seo_keywords %}
+            {% if item.seo_keywords contains kw %}
+              {% unless related contains item %}
+                {% assign related = related | push: item %}
+              {% endunless %}
+              {% break %}
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+
+  {% if related.size > 0 %}
+  <nav class="related-projects" aria-label="Related projects">
+    <h2>Related Work</h2>
+    <ul>
+      {% for item in related limit:4 %}
+      <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </nav>
+  {% endif %}
+  {% endif %}
+</article>

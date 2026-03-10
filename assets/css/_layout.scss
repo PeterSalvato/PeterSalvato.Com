@@ -1,0 +1,16 @@
+// ============================================================================
+// MAIN CONTENT (default.html)
+// ============================================================================
+
+#main-content {
+  padding: $padding-large $padding-large;
+  padding-left: calc(#{$sidebar-width} + 2rem);
+
+  #container {
+    max-width: $container-max-width;
+    margin: 0;
+    padding: 0;
+  }
+
+}
+// Note: per-component img sizing handled within each component block

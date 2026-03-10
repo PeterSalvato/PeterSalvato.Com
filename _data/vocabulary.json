@@ -1,0 +1,56 @@
+[
+  {
+    "term": "altitude",
+    "slug": "altitude",
+    "tooltip": "Where work sits in the practice: 01 Governance, 02 Infrastructure, 03 Output.",
+    "linkable": true
+  },
+  {
+    "term": "drift",
+    "slug": "drift",
+    "tooltip": "Gradual loss of original intent as work moves through execution.",
+    "linkable": true
+  },
+  {
+    "term": "scaffold",
+    "slug": "scaffold",
+    "tooltip": "The structure that prevents drift. What holds original clarity in place while the work gets built.",
+    "linkable": true
+  },
+  {
+    "term": "fidelity",
+    "slug": "fidelity",
+    "tooltip": "How well a system holds its founding intent over time.",
+    "linkable": true
+  },
+  {
+    "term": "faculty",
+    "slug": "faculty",
+    "tooltip": "The three professional domains (Design, Engineering, UX/IA) that combine in every project.",
+    "linkable": true
+  },
+  {
+    "term": "load-bearing",
+    "slug": "load-bearing",
+    "tooltip": "Any element that carries structural weight rather than serving as decoration.",
+    "linkable": true
+  },
+  {
+    "term": "narrative solvency",
+    "slug": "narrative-solvency",
+    "tooltip": "The infrastructure that ensures a story survives deployment across scale and time.",
+    "linkable": true
+  },
+  {
+    "term": "savepoint",
+    "slug": "savepoint",
+    "tooltip": "A semantic trail marker, a self-authored record of a cognitive turning point.",
+    "linkable": true
+  },
+  {
+    "term": "windbreak",
+    "slug": "windbreak",
+    "tooltip": "A structure that protects intent from the forces that erode it.",
+    "linkable": true
+  }
+]

@@ -1,0 +1,103 @@
+{
+  "sections": [
+    {
+      "label": "00. ABOUT",
+      "numeral": "00",
+      "color": "neutral",
+      "items": [
+        {
+          "label": "Bio",
+          "url": "/bio",
+          "icon": "person"
+        },
+        {
+          "label": "Colophon",
+          "url": "/colophon",
+          "icon": "menu_book"
+        },
+        {
+          "label": "Contact",
+          "url": "/contact",
+          "icon": "mail"
+        }
+      ]
+    },
+    {
+      "label": "01. GOVERNANCE",
+      "numeral": "01",
+      "color": "red",
+      "url": "/governance/",
+      "items": [
+        {
+          "label": "Savepoint Syntax",
+          "url": "/governance/savepoint-syntax",
+          "icon": "code",
+          "featured": true
+        },
+        {
+          "label": "Formwork Protocol",
+          "url": "/governance/formwork-protocol",
+          "icon": "article",
+          "featured": true
+        },
+        {
+          "label": "Order of the Aetherwright",
+          "url": "/governance/order-of-the-aetherwright",
+          "icon": "auto_fix_high",
+          "featured": true
+        }
+      ]
+    },
+    {
+      "label": "02. INFRASTRUCTURE",
+      "numeral": "02",
+      "color": "blue",
+      "url": "/infrastructure/",
+      "items": [
+        {
+          "label": "Sovereign Design Engine",
+          "url": "/infrastructure/sovereign-design-engine",
+          "icon": "engineering"
+        },
+        {
+          "label": "PressWorks",
+          "url": "/infrastructure/pressworks",
+          "icon": "print"
+        }
+      ]
+    },
+    {
+      "label": "03. OUTPUT",
+      "numeral": "03",
+      "color": "green",
+      "url": "/output/",
+      "items": [
+        {
+          "label": "Altrueism",
+          "url": "/output/altrueism",
+          "icon": "volunteer_activism"
+        },
+        {
+          "label": "New City",
+          "url": "/output/new-city",
+          "icon": "location_city",
+          "featured": true
+        }
+      ]
+    },
+    {
+      "label": "ESSAYS",
+      "numeral": "",
+      "color": "green",
+      "url": "/essays/",
+      "items": [
+        {
+          "label": "Essays",
+          "url": "/essays/",
+          "icon": "edit_note",
+          "featured": true
+        }
+      ]
+    }
+  ]
+}

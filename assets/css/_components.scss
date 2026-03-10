@@ -1,0 +1,181 @@
+// ============================================================================
+// PAGE UPDATED TIMESTAMP (Project + Context Layouts)
+// ============================================================================
+
+.page-updated {
+  font-family: $font-mono;
+  font-size: $type-caption;
+  letter-spacing: $tracking-wider;
+  color: $color-text-secondary;
+  margin-bottom: $gap-large;
+}
+
+// ============================================================================
+// CODE BLOCKS (All Layouts)
+// ============================================================================
+
+code {
+  font-family: $font-mono;
+  font-size: 0.95rem;
+  background-color: $color-surface-dark;
+  padding: 2px 6px;
+  border-radius: $radius-small;
+}
+
+pre {
+  background-color: $color-surface-dark;
+  border-radius: $radius-small;
+  padding: $gap-large;
+  overflow-x: auto;
+  margin: $gap-large 0;
+  line-height: $leading-normal;
+
+  code {
+    background-color: transparent;
+    padding: 0;
+    font-size: 0.95rem;
+    color: $color-text;
+  }
+}
+
+// ============================================================================
+// IMAGE GALLERIES & PLACEHOLDERS
+// ============================================================================
+
+.image-gallery {
+  display: grid;
+  gap: $gap-large;
+  margin: $gap-large 0;
+}
+
+.image-gallery--square {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.image-gallery--wide {
+  grid-template-columns: 1fr;
+}
+
+.image-gallery--three-col {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.image-placeholder {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  .placeholder-box {
+    aspect-ratio: 1;
+    width: 100%;
+    background-color: $color-background;
+    border: $rule-light solid $color-border;
+    border-radius: $radius-small;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $color-text-secondary;
+    font-size: $type-body-lg;
+    font-family: $font-display;
+    transition: background-color $transition-fast;
+
+    &:hover {
+      background-color: darken($color-background, 2%);
+    }
+  }
+
+  .placeholder-caption {
+    font-size: 0.85rem;
+    color: $color-text-secondary;
+    font-family: $font-display;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: $tracking-normal;
+  }
+
+  // Replace with real image
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: $radius-small;
+  }
+}
+
+.section-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: $gap-large;
+  margin: $gap-large 0;
+}
+
+// Visual section dividers
+.system-section {
+  position: relative;
+  padding-top: $gap-large;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -$padding-standard;
+    right: -$padding-standard;
+    height: $rule-heavy;
+    background: $color-border;
+  }
+
+  &:first-of-type::before {
+    display: none;
+  }
+}
+
+// ============================================================================
+// VOCABULARY TOOLTIPS
+// ============================================================================
+
+.vocab-term {
+  position: relative;
+  border-bottom: $rule-light dotted $color-text-secondary;
+  cursor: pointer;
+  display: inline;
+
+  &:hover .vocab-tooltip,
+  &:focus .vocab-tooltip {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+.vocab-tooltip {
+  position: absolute;
+  bottom: calc(100% + $gap-small);
+  left: 50%;
+  transform: translateX(-50%) translateY(4px);
+  background-color: $color-text;
+  color: $color-white;
+  font-family: $font-body;
+  font-size: $type-detail;
+  line-height: $leading-normal;
+  padding: $gap-small $gap-medium;
+  border-radius: 3px;
+  white-space: normal;
+  width: max-content;
+  max-width: 280px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity $transition-micro, visibility $transition-micro, transform $transition-micro;
+  z-index: 1000;
+  pointer-events: none;
+
+  // Arrow
+  &::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 5px solid transparent;
+    border-top-color: $color-text;
+  }
+}

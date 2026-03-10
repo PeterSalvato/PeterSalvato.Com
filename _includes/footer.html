@@ -1,0 +1,38 @@
+<footer class="system-footer">
+    <div class="footer-columns">
+        <!-- Column 1: Navigate -->
+        <div class="footer-column">
+            <h4>Navigate</h4>
+            <ul>
+                <li><a href="{{ '/bio' | relative_url }}">Bio</a></li>
+                <li><a href="{{ '/thinking' | relative_url }}">Thinking</a></li>
+                <li><a href="{{ '/colophon' | relative_url }}">Colophon</a></li>
+                <li><a href="{{ '/vocabulary' | relative_url }}">Vocabulary</a></li>
+            </ul>
+        </div>
+
+        <!-- Column 2: Tiers -->
+        <div class="footer-column">
+            <h4>Tiers</h4>
+            <ul>
+                <li><a href="{{ '/governance/' | relative_url }}">Governance</a></li>
+                <li><a href="{{ '/infrastructure/' | relative_url }}">Infrastructure</a></li>
+                <li><a href="{{ '/output/' | relative_url }}">Output</a></li>
+            </ul>
+        </div>
+
+        <!-- Column 3: Connect -->
+        <div class="footer-column">
+            <h4>Connect</h4>
+            <ul>
+                <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+                {% for link in site.data.index.contact.links %}
+                <li><a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.title }}</a></li>
+                {% endfor %}
+            </ul>
+            <div class="copyright">&copy; 2026 Peter Salvato</div>
+        </div>
+    </div>
+
+    <div class="footer-codex">/Æ/#|●▼◀||▲■⬣◆|||▶⬟▼■⬣~[constellation.petersalvato.com]/</div>
+</footer>

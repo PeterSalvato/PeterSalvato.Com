@@ -1,0 +1,40 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>{{ '/' | absolute_url }}</loc>
+    <priority>1.0</priority>
+  </url>
+  {% for page in site.pages %}{% unless page.url contains '/assets/' or page.url contains '/test-results/' or page.url == '/sitemap.xml' or page.url == '/robots.txt' %}{% if page.title %}
+  <url>
+    <loc>{{ page.url | absolute_url }}</loc>{% if page.last_modified %}
+    <lastmod>{{ page.last_modified | date: "%Y-%m-%d" }}</lastmod>{% endif %}
+  </url>
+  {% endif %}{% endunless %}{% endfor %}
+  {% for doc in site.governance %}{% if doc.published != false %}
+  <url>
+    <loc>{{ doc.url | absolute_url }}</loc>{% if doc.last_modified %}
+    <lastmod>{{ doc.last_modified | date: "%Y-%m-%d" }}</lastmod>{% endif %}
+  </url>
+  {% endif %}{% endfor %}
+  {% for doc in site.infrastructure %}{% if doc.published != false %}
+  <url>
+    <loc>{{ doc.url | absolute_url }}</loc>{% if doc.last_modified %}
+    <lastmod>{{ doc.last_modified | date: "%Y-%m-%d" }}</lastmod>{% endif %}
+  </url>
+  {% endif %}{% endfor %}
+  {% for doc in site.output %}{% if doc.published != false %}
+  <url>
+    <loc>{{ doc.url | absolute_url }}</loc>{% if doc.last_modified %}
+    <lastmod>{{ doc.last_modified | date: "%Y-%m-%d" }}</lastmod>{% endif %}
+  </url>
+  {% endif %}{% endfor %}
+  {% for post in site.blog %}
+  <url>
+    <loc>{{ post.url | absolute_url }}</loc>{% if post.date %}
+    <lastmod>{{ post.date | date: "%Y-%m-%d" }}</lastmod>{% endif %}
+  </url>
+  {% endfor %}
+</urlset>

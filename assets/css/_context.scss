@@ -1,0 +1,106 @@
+// ============================================================================
+// CONTEXT PAGES (bio, how-i-think, three-systems, colophon)
+// ============================================================================
+
+.context-header {
+  border: 2px solid $color-text;
+  border-radius: $radius-default;
+  padding: $gap-xlarge;
+  margin-bottom: $gap-xxlarge;
+
+  h1 {
+    font-size: $type-display;
+    font-weight: 700;
+    letter-spacing: $tracking-normal;
+    margin-bottom: $gap-medium;
+  }
+
+  p {
+    font-size: $type-body-lg;
+    line-height: $leading-spacious;
+    margin-bottom: 0;
+  }
+
+  h1:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.context-editorial {
+  overflow: hidden;
+
+  .context-editorial-image {
+    float: left;
+    width: 180px;
+    margin-right: $gap-xlarge;
+    margin-bottom: $gap-medium;
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: $radius-default;
+    }
+  }
+
+  .context-editorial-text {
+  }
+}
+
+.context-content {
+  max-width: 800px;
+
+  p {
+    font-family: $font-body;
+    font-size: $type-body-lg;
+    line-height: $leading-spacious;
+    margin-bottom: $gap-large;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+    margin-top: $gap-xxlarge;
+    margin-bottom: $gap-medium;
+  }
+
+  h3 {
+    font-size: $type-head;
+    margin-top: $gap-xlarge;
+    margin-bottom: $gap-small;
+  }
+
+  blockquote {
+    border: none;
+    border-top: $rule-heavy solid $color-text;
+    border-bottom: $rule-light solid $color-text;
+    margin: $gap-xxlarge 0;
+    padding: $gap-large 0;
+    background: none;
+    font-family: $font-body;
+    font-size: $type-body-lg;
+    font-style: italic;
+    line-height: $leading-relaxed;
+    color: $color-text;
+
+    p {
+      font-family: $font-body;
+      font-size: $type-body-lg;
+      line-height: $leading-relaxed;
+      margin-bottom: $gap-small;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    p:last-child {
+      font-family: $font-mono;
+      font-style: normal;
+      font-size: $type-xs;
+      letter-spacing: $tracking-wider;
+      text-transform: uppercase;
+      color: $color-text-secondary;
+      margin-top: $gap-medium;
+    }
+  }
+}

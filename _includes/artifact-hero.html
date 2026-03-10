@@ -1,0 +1,85 @@
+{% assign item = include.item | default: page %}
+{% assign target_url = include.url | default: item.url %}
+{% assign hero_mark = item.mark | default: nil %}
+{% assign hero_image = item.image.src | default: item.logo %}
+
+{% comment %} Resolve tier label from altitude {% endcomment %}
+{% case item.altitude %}
+  {% when "01" %}{% assign tier_label = "Governance" %}{% assign tier_color = "red" %}
+  {% when "02" %}{% assign tier_label = "Infrastructure" %}{% assign tier_color = "blue" %}
+  {% when "03" %}{% assign tier_label = "Output" %}{% assign tier_color = "green" %}
+{% endcase %}
+
+{% if include.is_link %}
+{%- comment -%} CARD MODE — used in related projects, domain index listings {%- endcomment -%}
+<a href="{{ target_url | relative_url }}" class="artifact-card artifact-card--link">
+    <div class="artifact-hero-header">
+        {% if hero_mark %}
+        <div class="artifact-mark-container">
+            <img src="{{ hero_mark | relative_url }}" alt="" class="artifact-mark" aria-hidden="true">
+        </div>
+        {% elsif hero_image %}
+        <div class="artifact-mark-container">
+            <img src="{{ hero_image | relative_url }}" alt="" class="artifact-mark" aria-hidden="true">
+        </div>
+        {% elsif item.icon %}
+        <div class="artifact-mark-container artifact-mark-icon">
+            <span class="material-symbols-outlined">{{ item.icon }}</span>
+        </div>
+        {% endif %}
+
+        <div class="artifact-hero-title">
+            <h2>{{ item.title }}</h2>
+            {% if item.subtitle %}
+            <p class="artifact-subtitle">{{ item.subtitle }}</p>
+            {% endif %}
+        </div>
+    </div>
+
+    <p class="artifact-link">Read full spec &rarr;</p>
+</a>
+
+{% else %}
+{%- comment -%} HERO MODE — dossier header on project pages {%- endcomment -%}
+<div class="artifact-card artifact-card--hero">
+
+    <div class="artifact-hero-header">
+        {% if hero_mark %}
+        <div class="artifact-mark-container">
+            <img src="{{ hero_mark | relative_url }}" alt="" class="artifact-mark" aria-hidden="true">
+        </div>
+        {% elsif hero_image %}
+        <div class="artifact-mark-container">
+            <img src="{{ hero_image | relative_url }}" alt="" class="artifact-mark" aria-hidden="true">
+        </div>
+        {% elsif item.icon %}
+        <div class="artifact-mark-container artifact-mark-icon">
+            <span class="material-symbols-outlined">{{ item.icon }}</span>
+        </div>
+        {% endif %}
+
+        <div class="artifact-hero-title">
+            <h1>{{ item.title }}</h1>
+            {% if item.context %}
+            <p class="artifact-context">{{ item.context }}</p>
+            {% elsif item.subtitle %}
+            <p class="artifact-subtitle">{{ item.subtitle }}</p>
+            {% endif %}
+        </div>
+    </div>
+
+    <hr class="dossier-rule">
+
+    <div class="dossier-meta">
+        {% if tier_label %}
+        <span class="dossier-tier dossier-tier--{{ tier_color }}">{{ tier_label }}</span>
+        {% endif %}
+        {% if item.status %}
+        <span class="dossier-status">{{ item.status }}</span>
+        {% endif %}
+        {% if item.last_modified %}
+        <span class="dossier-date">{{ item.last_modified | date: "%B %Y" }}</span>
+        {% endif %}
+    </div>
+</div>
+{% endif %}

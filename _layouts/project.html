@@ -1,0 +1,370 @@
+---
+layout: default
+---
+
+{% assign page_title_upper = page.title | upcase %}
+{% assign artifact = nil %}
+{% for route in site.data.index.routes %}
+  {% for art in route.artifacts %}
+    {% assign art_title_upper = art.title | upcase %}
+    {% if page_title_upper contains art_title_upper %}
+      {% assign artifact = art %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+
+{% include artifact-hero.html item=page is_link=false %}
+
+{% if page.last_modified %}
+<div class="page-updated">Last updated {{ page.last_modified | date: "%B %Y" }}</div>
+{% endif %}
+
+<div class="project-content">
+  {{ content }}
+</div>
+
+{% if page.external_url %}
+<div id="spoke-link">
+  <a href="{{ page.external_url }}" target="_blank" rel="noopener">Visit {{ page.external_url | remove: 'https://' | remove: '/' }} →</a>
+</div>
+{% elsif artifact.spoke_external_url %}
+<div id="spoke-link">
+  <a href="{{ artifact.spoke_external_url }}" target="_blank" rel="noopener">Visit {{ artifact.spoke_id | capitalize }} →</a>
+</div>
+{% endif %}
+
+{% comment %} Related projects: editorial override via frontmatter, then algorithmic fallback {% endcomment %}
+{% if page.related %}
+  {% assign related = "" | split: "" %}
+  {% for rel_url in page.related %}
+    {% assign rel_url_slash = rel_url | append: "/" %}
+    {% assign rel_url_noslash = rel_url | remove_first: "/" %}
+    {% for collection_name in site.collections %}
+      {% if collection_name.label == "governance" or collection_name.label == "infrastructure" or collection_name.label == "output" %}
+        {% for item in collection_name.docs %}
+          {% if item.url == rel_url or item.url == rel_url_slash %}
+            {% assign related = related | push: item %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
+    {% comment %} Also check standalone pages {% endcomment %}
+    {% for pg in site.pages %}
+      {% if pg.url == rel_url or pg.url == rel_url_slash %}
+        {% assign related = related | push: pg %}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+{% else %}
+  {% assign related = "" | split: "" %}
+  {% for collection_name in site.collections %}
+    {% if collection_name.label == "governance" or collection_name.label == "infrastructure" or collection_name.label == "output" %}
+      {% for item in collection_name.docs %}
+        {% if item.url != page.url and item.listed != false and item.seo_keywords and page.seo_keywords %}
+          {% for kw in page.seo_keywords %}
+            {% if item.seo_keywords contains kw %}
+              {% unless related contains item %}
+                {% assign related = related | push: item %}
+              {% endunless %}
+              {% break %}
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+
+  {% if related.size < 2 and page.faculty %}
+  {% for collection_name in site.collections %}
+    {% if collection_name.label == "governance" or collection_name.label == "infrastructure" or collection_name.label == "output" %}
+      {% for item in collection_name.docs %}
+        {% if item.url != page.url and item.listed != false and item.faculty %}
+          {% unless related contains item %}
+            {% for fac in page.faculty %}
+              {% if item.faculty contains fac %}
+                {% assign related = related | push: item %}
+                {% break %}
+              {% endif %}
+            {% endfor %}
+          {% endunless %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+  {% endif %}
+{% endif %}
+
+{% if related.size > 0 %}
+<nav class="related-projects" aria-label="Related work">
+  <h2>Related Work</h2>
+  <ul>
+    {% for item in related limit:4 %}
+    <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+    {% endfor %}
+  </ul>
+</nav>
+{% endif %}
+
+{% if page.cta %}
+<div class="project-cta">
+  <p><a href="{{ page.cta.link | relative_url }}">{{ page.cta.text }} &rarr;</a></p>
+</div>
+{% endif %}
+
+{% if page.glyphs or page.codex %}
+<div class="printer-exhaust">
+  {% if page.glyphs %}
+  <span class="exhaust-glyphs">{% assign glyph_map = "▲:UX / Systems / Strategy,▼:Narrative / Language,◀:Intuition / Reflection,▶:Illustration / Expression,■:Design / Grid / Typography,◆:Craft / Material / Fabrication,⬟:Photography / Observation,⬣:Code / Engineering / Logic" | split: "," %}{% assign glyph_chars = page.glyphs | split: " " %}{% for gc in glyph_chars %}<span class="glyph-mark" data-tooltip="{% for gm in glyph_map %}{% assign parts = gm | split: ":" %}{% if parts[0] == gc %}{{ parts[1] }}{% endif %}{% endfor %}">{{ gc }}</span>{% endfor %}</span>
+  {% endif %}
+  {% if page.codex %}<span class="exhaust-codex">{{ page.codex }}</span>{% endif %}
+</div>
+{% endif %}
+
+<script>
+(function() {
+  var content = document.querySelector('.project-content');
+  if (!content) return;
+
+  function isImagePara(el) {
+    return el.tagName === 'P' &&
+           el.children.length === 1 &&
+           el.children[0].tagName === 'IMG';
+  }
+
+  // Wrap an img in <figure> with <figcaption> from alt text
+  var figCounter = 0;
+  function wrapInFigure(imgEl) {
+    var figure = document.createElement('figure');
+    var alt = imgEl.getAttribute('alt') || '';
+
+    // Determine treatment type from img classes
+    var types = ['diagram', 'photo', 'artifact', 'logo'];
+    var treatment = 'diagram'; // default
+    types.forEach(function(t) {
+      if (imgEl.classList.contains(t)) treatment = t;
+    });
+
+    figure.className = 'figure ' + treatment;
+    figure.appendChild(imgEl);
+
+    // Generate figcaption from alt text
+    if (alt && treatment !== 'logo') {
+      figCounter++;
+      var caption = document.createElement('figcaption');
+      if (treatment === 'diagram') {
+        caption.textContent = 'Fig. ' + figCounter + ' \u2014 ' + alt;
+      } else {
+        caption.textContent = alt;
+      }
+      figure.appendChild(caption);
+    }
+
+    return figure;
+  }
+
+  // Group children into blocks delimited by H2 headings and HR separators.
+  // Each block becomes a two-column row: text left, image(s) right.
+  var children = Array.from(content.children);
+  var blocks = [];
+  var current = { heading: null, textEls: [], imageEls: [] };
+
+  function saveBlock() {
+    if (current.heading || current.textEls.length > 0 || current.imageEls.length > 0) {
+      blocks.push(current);
+    }
+    current = { heading: null, textEls: [], imageEls: [] };
+  }
+
+  children.forEach(function(el) {
+    if (el.tagName === 'H2') {
+      saveBlock();
+      current.heading = el;
+    } else if (el.tagName === 'HR') {
+      saveBlock();
+      blocks.push({ type: 'divider' });
+    } else if (isImagePara(el)) {
+      current.imageEls.push(el);
+    } else {
+      current.textEls.push(el);
+    }
+  });
+  saveBlock();
+
+  // Build new DOM
+  var newChildren = [];
+
+  blocks.forEach(function(block) {
+    if (block.type === 'divider') {
+      var hr = document.createElement('hr');
+      hr.className = 'block-divider';
+      newChildren.push(hr);
+      return;
+    }
+
+    var hasImages = block.imageEls.length > 0;
+    var hasText   = block.textEls.length > 0;
+
+    var blockEl = document.createElement('div');
+    blockEl.className = 'content-block';
+    if (!hasImages) blockEl.classList.add('content-block--text-only');
+
+    // Heading spans full width above the body
+    if (block.heading) {
+      blockEl.appendChild(block.heading);
+    }
+
+    var body = document.createElement('div');
+    body.className = 'block-body';
+
+    // Left: text
+    if (hasText) {
+      var textDiv = document.createElement('div');
+      textDiv.className = 'block-text';
+      block.textEls.forEach(function(el) { textDiv.appendChild(el); });
+      body.appendChild(textDiv);
+    }
+
+    // Right: single image or carousel
+    if (hasImages) {
+      var imagesDiv = document.createElement('div');
+      imagesDiv.className = 'block-images';
+
+      if (block.imageEls.length === 1) {
+        var single = document.createElement('div');
+        single.className = 'image-single';
+        var imgPara = block.imageEls[0];
+        var img = imgPara.querySelector('img');
+        if (img && img.classList.contains('image')) {
+          single.appendChild(wrapInFigure(img));
+        } else {
+          single.appendChild(imgPara);
+        }
+        imagesDiv.appendChild(single);
+
+      } else {
+        // Wrapper keeps controls outside overflow:hidden
+        var wrapper = document.createElement('div');
+        wrapper.className = 'carousel-wrapper';
+
+        var carousel = document.createElement('div');
+        carousel.className = 'image-carousel';
+
+        var track = document.createElement('div');
+        track.className = 'carousel-track';
+
+        block.imageEls.forEach(function(imgPara) {
+          var slide = document.createElement('div');
+          slide.className = 'carousel-slide';
+          var img = imgPara.querySelector('img');
+          if (img && img.classList.contains('image')) {
+            slide.appendChild(wrapInFigure(img));
+          } else {
+            slide.appendChild(imgPara);
+          }
+          track.appendChild(slide);
+        });
+        carousel.appendChild(track);
+        wrapper.appendChild(carousel);
+
+        // Controls sit outside the overflow:hidden carousel
+        var controls = document.createElement('div');
+        controls.className = 'carousel-controls';
+
+        var prev = document.createElement('button');
+        prev.className = 'carousel-btn carousel-prev';
+        prev.setAttribute('aria-label', 'Previous');
+        prev.innerHTML = '&#8249;';
+
+        var dotsEl = document.createElement('div');
+        dotsEl.className = 'carousel-dots';
+        block.imageEls.forEach(function(_, i) {
+          var dot = document.createElement('button');
+          dot.className = 'carousel-dot' + (i === 0 ? ' is-active' : '');
+          dot.setAttribute('aria-label', 'Image ' + (i + 1));
+          dotsEl.appendChild(dot);
+        });
+
+        var next = document.createElement('button');
+        next.className = 'carousel-btn carousel-next';
+        next.setAttribute('aria-label', 'Next');
+        next.innerHTML = '&#8250;';
+
+        controls.appendChild(prev);
+        controls.appendChild(dotsEl);
+        controls.appendChild(next);
+        wrapper.appendChild(controls);
+
+        imagesDiv.appendChild(wrapper);
+      }
+
+      body.appendChild(imagesDiv);
+    }
+
+    blockEl.appendChild(body);
+    newChildren.push(blockEl);
+  });
+
+  // Replace content
+  while (content.firstChild) { content.removeChild(content.firstChild); }
+  newChildren.forEach(function(el) { content.appendChild(el); });
+
+  // Init carousels — controls are siblings of .image-carousel inside .carousel-wrapper
+  content.querySelectorAll('.carousel-wrapper').forEach(function(wrapper) {
+    var carousel = wrapper.querySelector('.image-carousel');
+    var track    = wrapper.querySelector('.carousel-track');
+    var slides   = wrapper.querySelectorAll('.carousel-slide');
+    var prev     = wrapper.querySelector('.carousel-prev');
+    var next     = wrapper.querySelector('.carousel-next');
+    var dots     = wrapper.querySelectorAll('.carousel-dot');
+    var idx      = 0;
+
+    function go(n) {
+      idx = ((n % slides.length) + slides.length) % slides.length;
+      track.style.transform = 'translateX(-' + (idx * 100) + '%)';
+      dots.forEach(function(d, i) { d.classList.toggle('is-active', i === idx); });
+    }
+
+    if (prev) prev.addEventListener('click', function() { go(idx - 1); });
+    if (next) next.addEventListener('click', function() { go(idx + 1); });
+    dots.forEach(function(dot, i) { dot.addEventListener('click', function() { go(i); }); });
+  });
+
+  // Image overlay — click any figure to view full-size in scrollable overlay
+  var overlay = document.createElement('div');
+  overlay.className = 'image-overlay';
+  overlay.innerHTML = '<button class="image-overlay-close" aria-label="Close">&times;</button><div class="image-overlay-scroll"><img class="image-overlay-img" src="" alt=""></div>';
+  document.body.appendChild(overlay);
+
+  var overlayImg = overlay.querySelector('.image-overlay-img');
+  var overlayClose = overlay.querySelector('.image-overlay-close');
+
+  function openOverlay(src, alt) {
+    overlayImg.src = src;
+    overlayImg.alt = alt || '';
+    overlay.classList.add('is-active');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeOverlay() {
+    overlay.classList.remove('is-active');
+    document.body.style.overflow = '';
+    overlayImg.src = '';
+  }
+
+  overlayClose.addEventListener('click', closeOverlay);
+  overlay.addEventListener('click', function(e) {
+    if (e.target === overlay || e.target.classList.contains('image-overlay-scroll')) closeOverlay();
+  });
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') closeOverlay();
+  });
+
+  // Make figures clickable
+  content.querySelectorAll('figure.figure img, .image-single img').forEach(function(img) {
+    img.style.cursor = 'pointer';
+    img.addEventListener('click', function() {
+      openOverlay(this.src, this.alt);
+    });
+  });
+})();
+</script>

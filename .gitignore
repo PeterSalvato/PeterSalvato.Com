@@ -1,0 +1,37 @@
+# Build artifacts
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+.DS_Store
+Gemfile.lock
+vendor/
+node_modules/
+
+# === PRIVACY: All internal docs (only reference images + playground are public) ===
+_docs/
+docs/*
+!docs/references/
+!docs/playgrounds/
+
+# === PRIVACY: Strategy, identity, planning ===
+CLAUDE.md
+NORTHSTAR.md
+CONTENT-STRATEGY.md
+GEMINI.md
+TODO.md
+DESIGN-SYSTEM.md
+
+# === PRIVACY: Drafts ===
+_drafts/
+
+# === PRIVACY: AI orchestration ===
+.claude/
+.gemini/
+.audit/
+.savepoints/
+
+# === PRIVACY: Assets ===
+assets/ContentChat.md
+assets/img/_originals/
+docs/fonts/

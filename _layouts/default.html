@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body class="surface-grain">
+
+<!-- Hamburger toggle (mobile only) -->
+<button id="nav-toggle" class="hamburger-btn" aria-label="Toggle navigation" aria-expanded="false">
+  <span class="hamburger-line"></span>
+  <span class="hamburger-line"></span>
+  <span class="hamburger-line"></span>
+</button>
+
+<!-- Sidebar Navigation -->
+{% include sidebar-nav.html %}
+
+<!-- Main Content -->
+<main id="main-content">
+    <div id="container">
+        {{ content }}
+    </div>
+</main>
+
+<!-- Footer -->
+{% include footer.html %}
+
+<script>
+  (function() {
+    var btn = document.getElementById('nav-toggle');
+    var body = document.body;
+    var html = document.documentElement;
+    var scrollY = 0;
+
+    function openNav() {
+      scrollY = window.pageYOffset;
+      html.classList.add('nav-open');
+      body.classList.add('nav-open');
+      body.style.top = -scrollY + 'px';
+      btn.setAttribute('aria-expanded', 'true');
+    }
+
+    function closeNav() {
+      html.classList.remove('nav-open');
+      body.classList.remove('nav-open');
+      body.style.top = '';
+      window.scrollTo(0, scrollY);
+      btn.setAttribute('aria-expanded', 'false');
+    }
+
+    btn.addEventListener('click', function() {
+      if (body.classList.contains('nav-open')) {
+        closeNav();
+      } else {
+        openNav();
+      }
+    });
+
+    // Tapping main content while nav is open closes it
+    document.getElementById('main-content').addEventListener('click', function() {
+      if (body.classList.contains('nav-open')) {
+        closeNav();
+      }
+    });
+  })();
+</script>
+
+<!-- Vocabulary tooltips -->
+<script>
+  (function() {
+    var vocab = {{ site.data.vocabulary | jsonify }};
+    if (!vocab || !vocab.length) return;
+
+    // Only scan content areas
+    var containers = document.querySelectorAll('.project-content, .context-content, .post-content');
+    if (!containers.length) return;
+
+    // Sort by term length descending so multi-word terms match first
+    vocab.sort(function(a, b) { return b.term.length - a.term.length; });
+
+    containers.forEach(function(container) {
+      vocab.forEach(function(entry) {
+        if (!entry.linkable) return;
+
+        // Build regex: match whole word, case-insensitive, first occurrence only
+        var escaped = entry.term.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+        var re = new RegExp('\\b(' + escaped + ')\\b', 'i');
+
+        // Walk text nodes to find first match
+        var walker = document.createTreeWalker(container, NodeFilter.SHOW_TEXT, null, false);
+        var node;
+        while (node = walker.nextNode()) {
+          // Skip if already inside a tooltip, link, or heading
+          var parent = node.parentElement;
+          if (!parent) continue;
+          if (parent.closest('.vocab-term, a, h1, h2, h3, h4, h5, h6, .artifact-card, #sidebar-nav')) continue;
+
+          var match = re.exec(node.textContent);
+          if (match) {
+            var span = document.createElement('span');
+            span.className = 'vocab-term';
+            span.setAttribute('data-tooltip', entry.tooltip);
+            span.setAttribute('tabindex', '0');
+            span.setAttribute('role', 'button');
+            span.setAttribute('aria-label', match[1] + ': ' + entry.tooltip);
+
+            var before = document.createTextNode(node.textContent.substring(0, match.index));
+            var termText = document.createTextNode(match[1]);
+            var after = document.createTextNode(node.textContent.substring(match.index + match[1].length));
+
+            span.appendChild(termText);
+
+            var tip = document.createElement('span');
+            tip.className = 'vocab-tooltip';
+            tip.textContent = entry.tooltip;
+            span.appendChild(tip);
+
+            // Click navigates to vocabulary page
+            span.addEventListener('click', function(slug) {
+              return function(e) {
+                e.preventDefault();
+                window.location.href = '/vocabulary/#' + slug;
+              };
+            }(entry.slug));
+
+            parent.insertBefore(before, node);
+            parent.insertBefore(span, node);
+            parent.insertBefore(after, node);
+            parent.removeChild(node);
+
+            return; // First occurrence only per term per container
+          }
+        }
+      });
+    });
+  })();
+</script>
+
+</body>
+</html>

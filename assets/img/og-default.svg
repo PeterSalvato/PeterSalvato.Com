@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#1a1a1a"/>
+
+  <!-- Three tier color indicators -->
+  <circle cx="80" cy="315" r="6" fill="#c45c4a"/>
+  <circle cx="100" cy="315" r="6" fill="#4a7fb5"/>
+  <circle cx="120" cy="315" r="6" fill="#5a9a6b"/>
+
+  <!-- Name -->
+  <text x="80" y="270" font-family="sans-serif" font-weight="700" font-size="52" fill="#f0ece4" letter-spacing="1">PETER SALVATO</text>
+
+  <!-- Title -->
+  <text x="80" y="360" font-family="monospace" font-size="20" fill="#888880" letter-spacing="2">SYSTEMS ARCHITECT</text>
+
+  <!-- Tagline -->
+  <text x="80" y="400" font-family="sans-serif" font-size="18" fill="#666660">Design, Engineering, Strategy</text>
+
+  <!-- URL -->
+  <text x="80" y="560" font-family="monospace" font-size="16" fill="#555550">petersalvato.com</text>
+</svg>
