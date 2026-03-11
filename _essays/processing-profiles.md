@@ -14,7 +14,7 @@ I wrote dozens of these in a classroom in Sunset Park. Each one starts with the 
 
 When I started working with language models in 2023, I noticed something. The models have processing profiles too. Nobody was documenting them as processing profiles. The specs exist (context windows, token limits, attention mechanisms) but they're treated as product features. Engineering constraints. Numbers on a spec sheet.
 
-They're not product features. They're the cognitive constraints you design around.
+They're cognitive constraints you design around.
 
 ## The mapping
 

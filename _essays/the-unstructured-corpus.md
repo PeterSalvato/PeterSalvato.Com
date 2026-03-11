@@ -36,7 +36,7 @@ The accommodation runs in both directions. The AI gets what it needs: decomposed
 
 The scale doesn't have to be three years. A month of voice notes works. A few dozen conversations where someone thinks out loud about their work. Dictated observations on the commute home. Any corpus of unstructured ideation is enough to begin.
 
-The first step for someone starting fresh is an interview. Not "what are your requirements?" but "tell me about what you're building." Open-ended questions that produce raw material: stories, language, instincts, concerns. That becomes the initial corpus the accommodation tools process.
+The first step for someone starting fresh is an interview. "Tell me about what you're building." Open-ended questions that produce raw material: stories, language, instincts, concerns. That becomes the initial corpus the accommodation tools process.
 
 The rawness is the point. Polished, structured, pre-organized input has already lost the thing the tools need most: how the person actually thinks.
 
