@@ -212,7 +212,7 @@ If AI systems are treated as systems with processing realities to accommodate, s
 
 **The IEP becomes a design pattern.** Individualized specification of goals, success criteria, required accommodations, and progress monitoring is already codified in federal education law. The CLAUDE.md file (persistent system context) is functionally an IEP: what the system needs to know, how it should approach tasks, what constitutes success.
 
-**Task decomposition is accommodation, not optimization.** Current practice treats decomposition as an engineering technique. The accommodation framing shows that decomposition is necessary because the system cannot process compound tasks. Same reason it's necessary in the classroom. A design requirement, not a performance trick.
+**Task decomposition is accommodation, not optimization.** Current practice treats decomposition as an engineering technique. The accommodation framing shows that decomposition is necessary because the system cannot process compound tasks. Same reason it's necessary in the classroom. The system needs it to do the work.
 
 **Scaffold removal becomes a design goal.** Current AI tool development trends toward increasingly complex system prompts, longer context documents, more elaborate orchestration. The accommodation framework asks: which of these scaffolds is building capability, and which is building dependency?
 
@@ -222,7 +222,7 @@ If AI systems are treated as systems with processing realities to accommodate, s
 
 ## 8. Conclusion
 
-The AI governance field is building constraint systems for a problem that requires accommodation systems. Constraint fights the system's limitations. Accommodation designs for them.
+The AI governance field is building constraint systems for a problem that requires accommodation systems. Constraining a system fights its limitations. Accommodating a system designs for them.
 
 This framework was developed through direct transfer from special education pedagogy to AI system architecture, supported by twenty-five years of applied practice across construction, print production, enterprise software, brand systems, and design education. Six applied solutions (context preservation, evaluation decomposition, task decomposition, voice accommodation, retrieval accommodation, input inversion) each came from the same question: what does this system actually need to do this job well?
 
@@ -234,9 +234,9 @@ Nobody else is asking that question. The field needs practitioners who know how 
 
 The following open-source tools were built using this framework:
 
-- **[Savepoint Syntax](https://github.com/PeterSalvato/Savepoint.Protocol)** — Context preservation markup (v3.1)
-- **[Formwork Protocol](/governance/formwork-protocol/)** — The accommodation design process
-- **[Formwork Skills Architecture](https://github.com/PeterSalvato/formwork)** — Task decomposition as IEP design (lenses, diagnostics, coordinators)
+- **[Savepoint Syntax](https://github.com/PeterSalvato/Savepoint.Protocol)**: Context preservation markup (v3.1)
+- **[Formwork Protocol](/governance/formwork-protocol/)**: The accommodation design process
+- **[Formwork Skills Architecture](https://github.com/PeterSalvato/formwork)**: Task decomposition as IEP design (lenses, diagnostics, coordinators)
 
 The production site [petersalvato.com](/) was compiled using these tools.
 
