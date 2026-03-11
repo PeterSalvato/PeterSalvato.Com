@@ -112,27 +112,27 @@
   background-color: $color-background;
   margin-bottom: $gap-large;
   transition: background-color $transition-fast, border-color $transition-fast;
-  position: relative;
-
-  &::before {
-    content: '';
-    display: block;
-    position: absolute;
-    inset: 0;
-    background: white;
-    opacity: 0.5;
-    z-index: 0;
-  }
-
-  > * {
-    position: relative;
-    z-index: 1;
-  }
 
   // ---- CARD MODE (link) ----
   &--link {
     text-decoration: none;
     color: inherit;
+    position: relative;
+
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      inset: 0;
+      background: white;
+      opacity: 0.5;
+      z-index: 0;
+    }
+
+    > * {
+      position: relative;
+      z-index: 1;
+    }
 
     .artifact-mark-container {
       flex: 0 0 80px;
