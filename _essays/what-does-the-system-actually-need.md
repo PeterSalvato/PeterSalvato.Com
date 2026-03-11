@@ -2,7 +2,7 @@
 layout: post
 title: "What Does the System Actually Need?"
 description: "I gave a language model four evaluation criteria in one prompt. The output degraded the same way a compound instruction degrades in a classroom. The fix was the same fix. I'm calling the framework accommodation design."
-seo_keywords: ["accommodation design", "AI governance", "special education", "IEP", "task decomposition", "processing profile", "prompt architecture", "constraint vs accommodation"]
+seo_keywords: ["accommodation design", "AI governance", "special education", "IEP", "task decomposition", "processing profile", "prompt architecture", "constraint vs accommodation", "why AI output degrades", "better AI results", "AI prompt not working", "how to improve ChatGPT output", "AI for educators", "compound prompt problem"]
 published: true
 order: 10
 last_modified: 2026-03-11

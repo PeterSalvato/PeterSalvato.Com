@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Processing Profiles"
-description: "Every IEP starts with the same move: assess the student's processing reality, then design the instruction to fit. Language models have processing profiles too. Nobody was documenting them."
-seo_keywords: ["processing profile", "IEP", "accommodation design", "context window", "working memory", "token limits", "attention degradation", "special education AI", "CLAUDE.md"]
+description: "Your AI forgets the beginning of a long conversation for the same reason a student loses the third instruction in a compound prompt. A special education teacher already knows the fix."
+seo_keywords: ["processing profile", "IEP", "accommodation design", "context window", "working memory", "token limits", "attention degradation", "special education AI", "CLAUDE.md", "why ChatGPT forgets context", "AI loses track of conversation", "long prompt problems", "how to structure AI prompts", "ChatGPT context window explained", "teaching methods for AI"]
 published: true
 order: 11
 last_modified: 2026-03-11

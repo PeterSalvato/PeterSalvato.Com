@@ -10,7 +10,7 @@ drift: "The field treats every processing failure as a control problem. More rul
 scaffold: "Accommodation design applies special education pedagogy to AI architecture. Task decomposition, individualized evaluation, temporary scaffolding, processing profile assessment. Six tools, each built from the same question applied to a different constraint."
 fidelity: "The production site petersalvato.com was compiled using the system described in this paper. The accommodation architecture built the thing that explains the accommodation architecture."
 faculty: ["design", "engineering", "uxia"]
-seo_keywords: ["AI governance", "accommodation design", "special education pedagogy", "prompt architecture", "task decomposition", "IEP design pattern", "AI evaluation framework", "human-AI architecture"]
+seo_keywords: ["AI governance", "accommodation design", "special education pedagogy", "prompt architecture", "task decomposition", "IEP design pattern", "AI evaluation framework", "human-AI architecture", "why AI output gets worse", "how to get better results from AI", "AI prompt engineering not working", "ChatGPT complex tasks", "special education methods for AI", "AI cognitive limitations", "how to structure AI tasks"]
 description: "A whitepaper applying special education pedagogy to AI system architecture. Rather than constraining model behavior, accommodation design asks what the model's processing reality requires to produce quality output."
 last_modified: 2026-03-10
 permalink: /governance/accommodation-design/

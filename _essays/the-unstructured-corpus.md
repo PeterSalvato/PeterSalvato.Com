@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "The Unstructured Corpus"
-description: "For three years I treated AI tools as thinking partners that capture raw ideation. The industry says structure your input. I went the other way. The unstructured corpus turned out to be the most valuable thing I've built."
-seo_keywords: ["unstructured data", "input inversion", "accommodation design", "AI governance", "voice sampling", "knowledge traversal", "raw ideation", "corpus", "thinking out loud"]
+description: "Everyone says structure your AI input carefully. I did the opposite: three years of talking out loud, brainstorming, arguing with myself. The messy version produced better results. Here's why."
+seo_keywords: ["unstructured data", "input inversion", "accommodation design", "AI governance", "voice sampling", "knowledge traversal", "raw ideation", "corpus", "thinking out loud", "talking to AI vs typing", "brainstorming with ChatGPT", "voice notes AI", "should I organize notes for AI", "unstructured thinking AI", "dictation AI workflow"]
 published: true
 order: 12
 last_modified: 2026-03-11
