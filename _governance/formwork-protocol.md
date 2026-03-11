@@ -34,7 +34,7 @@ glyphs: "▲ ⬣ ■"
 codex: "/Æ/#|●▲||⬣■|||▲⟩⟩[governance.formwork-protocol]/"
 ---
 
-At SVA, studying visual communication with Christoph Niemann and Nicholas Blechman, the critique room worked like this. You hang your work at the front of the room. Your peers and your teachers sit around you. Everyone evaluates in good faith, trying to make the work the best the room can make it. The feedback is specific, grounded, and coming from multiple perspectives at once. Where they agree, you have a strong signal. Where they disagree, you have a decision to make. The accumulated decisions are yours. The work that comes out belongs to you, not to any single voice in the room.
+At SVA, the critique room worked like this. You hang your work at the front of the room. Your peers and your teachers sit around you. Everyone evaluates in good faith, trying to make the work the best the room can make it. The feedback is specific, grounded, and coming from multiple perspectives at once. Where they agree, you have a strong signal. Where they disagree, you have a decision to make. The accumulated decisions are yours. The work that comes out belongs to you, not to any single voice in the room.
 
 That room doesn't reconstruct itself outside of school.
 

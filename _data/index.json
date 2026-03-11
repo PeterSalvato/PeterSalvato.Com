@@ -7,7 +7,7 @@
       "color": "red",
       "context": "A whitepaper applying special education pedagogy to AI system architecture. The field asks how to constrain the model. The right question is what it needs to do the job.",
       "status": "PUBLISHED",
-      "link": "https://github.com/PeterSalvato/accommodation-design"
+      "link": "/governance/accommodation-design/"
     },
     {
       "title": "Essays",
@@ -36,6 +36,15 @@
       "definition": "Known problems. Assembled solutions.",
       "description": "Savepoint Syntax started the morning I lost six weeks of thinking. The Aetherwright came from watching creative work lose its founding logic to drift. Not bad decisions, but accumulated small ones. Formwork came from watching contributors contradict decisions that lived in my head instead of in the project. Every one of these begins with a failure that kept recurring.",
       "artifacts": [
+        {
+          "id": "1.0",
+          "title": "ACCOMMODATION DESIGN",
+          "context": "The AI governance field asks how to constrain the model. This paper asks what the model actually needs to do the job. The question comes from a special education classroom in Brooklyn.",
+          "spec": "A whitepaper applying special education pedagogy to AI system architecture. Task decomposition as cognitive accommodation. Evaluation systems as differentiated assessment. Prompt architecture as IEP design.",
+          "result": "Published framework with DOI. Six applied tools. The production site was compiled using the system described in the paper.",
+          "status": "PUBLISHED",
+          "link": "/governance/accommodation-design"
+        },
         {
           "id": "1.1",
           "title": "SAVEPOINT SYNTAX",
