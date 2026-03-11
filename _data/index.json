@@ -47,10 +47,28 @@
         },
         {
           "id": "1.1",
+          "title": "INPUT INVERSION",
+          "context": "The industry assumes quality AI output requires structured input. Three years of evidence says the opposite: raw, unstructured human thinking produces better results when purpose-built tools handle the translation.",
+          "spec": "A whitepaper challenging the foundational assumption of prompt engineering. Documents the practice, the evidence from adjacent fields, and the formal design principle.",
+          "result": "Published framework. Situated within converging industry evidence: declining prompt engineering, agentic workflows, voice interaction research, RAG infrastructure.",
+          "status": "PUBLISHED",
+          "link": "/governance/input-inversion"
+        },
+        {
+          "id": "1.2",
+          "title": "PROSTHETIC COGNITION",
+          "context": "The AI field frames models as tools or agents. Both miss the third relationship: a cognitive extension you rig to yourself. The harness goes both ways.",
+          "spec": "A whitepaper proposing AI as cognitive prosthetic through mutual accommodation. Grounded in extended mind theory (Clark), CHI 2025 research, and three years of applied cognitive coupling. Extends the architecture to team distributed cognition through shared savepoint corpora.",
+          "result": "Published framework. The interface layer between human cognition and model processing is where the quality lives. Architecture extends from solo practice through two-entity coupling to team-scale distributed cognition.",
+          "status": "PUBLISHED",
+          "link": "/governance/prosthetic-cognition"
+        },
+        {
+          "id": "1.3",
           "title": "ESSAYS",
-          "context": "Fourteen essays on design practice, accommodation, AI governance, and why they're the same discipline.",
-          "spec": "Each essay unpacks one piece of the practice: the classroom origin, processing profiles, input inversion, lens extraction, voice governance. Standalone introductions before the full series.",
-          "result": "Published and growing. The mini-series on accommodation design frames the whitepaper for practitioners in any field.",
+          "context": "Seventeen essays on design practice, accommodation, AI governance, and why they're the same discipline.",
+          "spec": "Each essay unpacks one piece of the practice: the classroom origin, processing profiles, input inversion, dictation, lens extraction, voice governance. Bridge essays open in the reader's language and introduce the framework vocabulary.",
+          "result": "Published and growing. The mini-series on accommodation design frames the whitepapers for practitioners in any field.",
           "status": "WRITING",
           "link": "/essays/"
         }
