@@ -1,7 +1,7 @@
 ---
 layout: project
 redirect_from: /governance/prosthetic-cognition/
-practice_group: writing
+practice_group: whitepaper
 title: "A Different Kind of Harness"
 subtitle: "AI as Cognitive Prosthetic Through Mutual Accommodation"
 icon: accessibility_new

@@ -1,7 +1,7 @@
 ---
 layout: project
 redirect_from: /governance/input-inversion/
-practice_group: writing
+practice_group: whitepaper
 title: "Input Inversion"
 subtitle: "Why Unstructured Human Thinking Produces Better AI Output"
 icon: swap_vert

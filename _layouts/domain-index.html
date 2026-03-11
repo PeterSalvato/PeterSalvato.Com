@@ -23,7 +23,13 @@ layout: default
     </div>
 
     <div id="domain-artifacts">
-        {% if page.tier_label == "PRACTICE" %}
+        {% if page.tier_label == "WHITEPAPERS" %}
+            {% for item in site.practice %}
+                {% if item.practice_group == "whitepaper" and item.listed != false and item.published != false %}
+                    {% include artifact-hero.html item=item url=item.url is_link=true %}
+                {% endif %}
+            {% endfor %}
+        {% elsif page.tier_label == "PRACTICE" %}
             {% for item in site.practice %}
                 {% if item.listed != false and item.published != false %}
                     {% include artifact-hero.html item=item url=item.url is_link=true %}

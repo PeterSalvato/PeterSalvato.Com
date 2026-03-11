@@ -14,7 +14,7 @@
           "children": [
             { "label": "Essays", "url": "/essays/", "icon": "edit_note" },
             { "label": "Series", "url": "/essays/#series", "icon": "library_books" },
-            { "label": "Whitepapers", "url": "/practice/accommodation-design", "icon": "description" }
+            { "label": "Whitepapers", "url": "/practice/whitepapers", "icon": "description" }
           ]
         },
         { "label": "Meditations", "url": "/practice/", "icon": "palette" },

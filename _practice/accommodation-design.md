@@ -1,7 +1,7 @@
 ---
 layout: project
 redirect_from: /governance/accommodation-design/
-practice_group: writing
+practice_group: whitepaper
 title: "AI Governance as Accommodation Design"
 subtitle: "A Pedagogical Framework for Human-AI System Architecture"
 icon: school

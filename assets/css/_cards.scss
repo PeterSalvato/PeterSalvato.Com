@@ -119,7 +119,8 @@
     display: block;
     position: absolute;
     inset: 0;
-    background: white url('../img/textures/cream-paper.png') repeat;
+    background: white;
+    opacity: 0.5;
     z-index: 0;
   }
 
