@@ -11,7 +11,7 @@ drift: "The AI governance field treats every processing failure as a control pro
 scaffold: "Formwork is the accommodation design process: a set of tools that shape how AI systems receive and process work. Context preservation, decomposed evaluation, voice sampling, knowledge traversal, task decomposition. Each tool accommodates a specific processing constraint. Together they form the pour."
 fidelity: "Every page on this site was produced through this process. The tools built the thing that describes the tools."
 faculty: ["design", "engineering", "uxia"]
-seo_keywords: ["AI accommodation design", "formwork protocol", "AI task decomposition", "context preservation", "evaluation lenses", "voice sampling AI", "knowledge traversal", "AI governance process", "accommodation design process", "cognitive accommodation AI"]
+seo_keywords: ["AI accommodation design", "formwork protocol", "AI task decomposition", "context preservation", "evaluation lenses", "voice sampling AI", "knowledge traversal", "AI governance process", "accommodation design process", "cognitive accommodation AI", "how to build AI tools", "AI workflow for creative work", "better AI evaluation", "AI keeps forgetting context", "structured AI process"]
 description: "The accommodation design process. A set of tools that shape how AI systems receive and process work: context preservation, decomposed evaluation, voice sampling, knowledge traversal, task decomposition. Each tool accommodates a specific processing constraint. Together they form the pour."
 last_modified: 2026-03-11
 faq: true

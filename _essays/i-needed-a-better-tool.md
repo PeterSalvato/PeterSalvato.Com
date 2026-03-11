@@ -6,7 +6,7 @@ title: "I Needed a Better Tool"
 published: true
 order: 3
 description: "1,643 ChatGPT conversations in two years. Then I found Claude Code, and the thing that made it stick was that it could read my files."
-seo_keywords: ["Claude Code", "AI tools", "ChatGPT to Claude", "design engineer", "methodology-driven development", "Peter Salvato", "CLAUDE.md"]
+seo_keywords: ["Claude Code", "AI tools", "ChatGPT to Claude", "design engineer", "methodology-driven development", "Peter Salvato", "CLAUDE.md", "switching from ChatGPT to Claude", "AI tool comparison for developers", "best AI coding assistant", "file-aware AI", "AI that reads your codebase"]
 ---
 
 I kept losing my thinking. Not my notes, not my files. The reasoning. The connections between ideas that only existed inside a conversation. The session would end and all of it was gone.

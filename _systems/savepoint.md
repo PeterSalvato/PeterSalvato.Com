@@ -12,7 +12,7 @@ scaffold: "A symbolic markup system for capturing cognitive waypoints: moments w
 fidelity: "When you come back weeks later, you find your way in. v3.1, open source."
 faculty: ["design", "uxia"]
 external_url: "https://github.com/PeterSalvato/Savepoint.Protocol"
-seo_keywords: ["cognitive waypoints", "context switching", "decision logging", "cognitive state management", "semantic markup", "knowledge management", "thinking tools", "project filtering"]
+seo_keywords: ["cognitive waypoints", "context switching", "decision logging", "cognitive state management", "semantic markup", "knowledge management", "thinking tools", "project filtering", "losing train of thought AI", "AI session continuity", "how to resume AI conversations", "knowledge preservation AI", "context loss between sessions", "picking up where I left off AI"]
 description: "Semantic markup for cognitive waypoints. Marks where understanding shifts before the context closes. Each savepoint carries enough semantic payload to orient you or the model when the session is gone. v3.1 adds project scoping and keyword filtering for traversal at scale. Open source."
 last_modified: 2026-03-03
 related:

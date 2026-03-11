@@ -4,7 +4,7 @@ redirect_from:
   - /blog/why-does-my-brain-turn-everything-into-a-system/
 title: "Why Does My Brain Turn Everything Into a System"
 description: "Construction sites, screenprinting, software, breakfast. Twenty-five years of the same operation. I only saw it when I had to put it all in one place."
-seo_keywords: ["systems thinking", "creative methodology", "screenprinting process", "structural thinking", "design systems", "cross-domain skills", "Peter Salvato"]
+seo_keywords: ["systems thinking", "creative methodology", "screenprinting process", "structural thinking", "design systems", "cross-domain skills", "Peter Salvato", "why do I systematize everything", "pattern recognition creative work", "neurodivergent systems thinker", "connecting ideas across fields"]
 published: true
 order: 1
 ---

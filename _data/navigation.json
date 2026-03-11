@@ -5,9 +5,18 @@
       "color": "neutral",
       "url": "/practice/",
       "items": [
-        { "label": "Bio", "url": "/bio", "icon": "person", "featured": true },
-        { "label": "How I Think", "url": "/thinking", "icon": "psychology", "featured": true },
-        { "label": "Writing", "url": "/essays/", "icon": "edit_note", "featured": true },
+        { "label": "Bio", "url": "/bio", "icon": "person" },
+        { "label": "How I Think", "url": "/thinking", "icon": "psychology" },
+        {
+          "label": "Writing",
+          "url": "/essays/",
+          "icon": "edit_note",
+          "children": [
+            { "label": "Essays", "url": "/essays/", "icon": "edit_note" },
+            { "label": "Series", "url": "/essays/#series", "icon": "library_books" },
+            { "label": "Whitepapers", "url": "/practice/accommodation-design", "icon": "description" }
+          ]
+        },
         { "label": "Meditations", "url": "/practice/", "icon": "palette" },
         { "label": "Vocabulary", "url": "/vocabulary", "icon": "menu_book" },
         { "label": "Contact", "url": "/contact", "icon": "mail" }
@@ -18,9 +27,9 @@
       "color": "neutral",
       "url": "/systems/",
       "items": [
-        { "label": "FormWork", "url": "/systems/formwork", "icon": "layers", "featured": true },
-        { "label": "SavePoint", "url": "/systems/savepoint", "icon": "code", "featured": true },
-        { "label": "LensArray", "url": "/systems/lensarray", "icon": "visibility", "featured": true }
+        { "label": "FormWork", "url": "/systems/formwork", "icon": "layers" },
+        { "label": "SavePoint", "url": "/systems/savepoint", "icon": "code" },
+        { "label": "LensArray", "url": "/systems/lensarray", "icon": "visibility" }
       ]
     },
     {
@@ -28,8 +37,8 @@
       "color": "neutral",
       "url": "/evidence/",
       "items": [
-        { "label": "Encore", "url": "/evidence/encore", "icon": "business", "featured": true },
-        { "label": "Aiden Jae", "url": "/evidence/aiden-jae", "icon": "diamond", "featured": true },
+        { "label": "Encore", "url": "/evidence/encore", "icon": "business" },
+        { "label": "Aiden Jae", "url": "/evidence/aiden-jae", "icon": "diamond" },
         { "label": "Altrueism", "url": "/evidence/altrueism", "icon": "volunteer_activism" },
         { "label": "New City", "url": "/evidence/new-city", "icon": "location_city" },
         { "label": "Colophon", "url": "/evidence/colophon", "icon": "menu_book" }

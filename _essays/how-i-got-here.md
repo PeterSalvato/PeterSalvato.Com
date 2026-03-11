@@ -4,7 +4,7 @@ redirect_from:
   - /blog/how-i-got-here/
 title: "How I Got Here"
 description: "Construction sites, SVA, screenprinting, twelve years on an enterprise platform. The through-line was always the same."
-seo_keywords: ["Peter Salvato", "design engineer", "SVA graphic design", "design engineering", "construction to code", "screenprinting", "enterprise software"]
+seo_keywords: ["Peter Salvato", "design engineer", "SVA graphic design", "design engineering", "construction to code", "screenprinting", "enterprise software", "career change design to engineering", "creative technologist portfolio", "cross-disciplinary designer", "print to digital transition"]
 published: true
 order: 1
 ---
