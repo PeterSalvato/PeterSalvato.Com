@@ -22,6 +22,8 @@ glyphs: "▲ ⬣ ■"
 codex: "/Ae/#|●▲||⬣■|||▲⟩⟩[governance.prosthetic-cognition]/"
 ---
 
+**Source:** [github.com/PeterSalvato/prosthetic-cognition](https://github.com/PeterSalvato/prosthetic-cognition)
+
 **Peter Salvato**
 Design Engineer | [petersalvato.com](/)
 March 2026
