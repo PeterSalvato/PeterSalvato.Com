@@ -2,24 +2,32 @@
 layout: context
 title: "How I Think"
 permalink: /thinking/
-description: "Design engineering across every layer: visual, structural, strategic. Reading the room, finding the gap between intent and how it lands, and the twenty-five-year practice built to close it."
+description: "The practice starts with one question: what does the system receiving this actually need? From a self-contained classroom in Brooklyn to enterprise platforms to AI governance. The material changes. The person on the other end doesn't."
 seo_keywords: ["design engineering", "design methodology", "cross-domain architecture", "compiled portfolio", "SVA", "visual communication", "provenance"]
 last_modified: 2026-03-02
 faq: true
 faq_items:
   - question: "How does Peter Salvato approach a project?"
-    answer: "The first question is always: what is this supposed to be? Not what it looks like or what technology it uses, but what is the thing actually supposed to say? Once that's clear, every decision about design, engineering, brand, and platform gets tested against it."
+    answer: "The first question is always: what does the system receiving this work actually need? Not what the client needs from the system, but what the system needs to do the job. That question applies to a student in a classroom, a user on a platform, and an AI processing a prompt. Once you know the answer, every decision about design, engineering, brand, and platform gets tested against it."
   - question: "What makes Peter Salvato's approach different?"
     answer: "Most projects are split across departments (a designer, an engineer, a brand strategist) who each do good work that doesn't add up. Peter works professionally across all three domains, so he can see when the photography contradicts the platform architecture, or the brand voice says one thing and the code structure says another."
   - question: "How does Peter Salvato integrate design and engineering?"
     answer: "They aren't separate disciplines layered on top of each other. In Aiden-Jae, photography direction and Shopify architecture were built as one system. In Encore, the SCSS design system and JS framework evolved together over twelve years. The integration isn't coordination between departments. It's one person working through each domain."
 ---
 
-The founder knew exactly what separated her jewelry from mass-market product. The quality was real.
+A kid in my classroom hears "solve for the missing number, show your work, and explain your reasoning" and starts working on the first part. The rest is gone. Three tasks disguised as one, given to a system that can't process them whole.
+
+You learn to decompose. One objective at a time. One visible result before the next step. Temporary scaffolding that comes off when the competence is solid. Twelve students means twelve different processing profiles, twelve different definitions of progress. The structure has to hold at every level.
+
+That's the practice. The material changes. The person on the other end doesn't.
+
+---
+
+My wife knew exactly what separated her jewelry from mass-market product. The quality was real.
 
 Then you'd land on her Shopify store. Same grid as every other template. Same hierarchy. Same assumptions. A ring from a premier manufacturer sat in that grid the same size as a $15 drop-shipped piece. The detail work disappeared. The quality was invisible.
 
-She didn't see the gap. She knew what the product was, so the screen looked fine to her. But a stranger landing on that page would feel something was off before they could name it. The platform was quietly flattening what made the product different. I saw it because I could read the code and the photograph at the same time. The platform was contradicting what the product actually was.
+She didn't see it. She knew what the product was, so the screen looked fine to her. But a stranger landing on that page would feel something was off before they could name it. The platform was quietly flattening what made the product different. I saw it because I could read the code and the photograph at the same time. The platform was contradicting what the product actually was.
 
 I built [Aiden Jae](/output/aiden-jae/) as one integrated system: brand identity, photography direction, Shopify architecture, packaging. The code respects the photograph instead of overriding it. When a customer sees the actual texture of recycled gold under honest light, they're seeing the cost structure, the sourcing story, and the production standard without reading a word. She runs the business. The quality comes through the screen because the platform was built to show it.
 
@@ -43,9 +51,7 @@ I used AI tools extensively to build this site. Not to generate ideas: to think 
 
 The [Savepoint Syntax](/governance/savepoint-syntax/) went through three versions. The first version reproduced the exact loss it was built to prevent. Three attempts before a markup language for tracking cognitive turning points actually held a turning point through a session handoff.
 
-The pattern across all of these is the same gap. The [Formwork Protocol](/governance/formwork-protocol/) exists because I watched contributors contradict decisions that lived in my head instead of in the project. The photography direction for Aiden Jae exists because a generic template grid was quietly destroying premium positioning. The browser migration for Encore exists because a healthy platform was running on a surface about to become obsolete.
-
-In each case, the work was good. The people involved were capable. And something was going wrong that nobody in the room could see.
+The pattern across all of these is the same question. What does the system receiving this work actually need? The founder needed a platform that showed quality instead of flattening it. The enterprise software needed a delivery layer that could follow its users. The AI needed tasks decomposed to match its processing constraints. In each case, the people closest to the work couldn't see the problem because they were designing for what they needed the system to do, not for what the system needed to receive.
 
 The way I read a project has layers to it. First the group: what is this thing supposed to feel like for everyone who touches it? Then each persona within that group: what does the end user need versus what does the developer working on it need? Then individual accommodation: where is this specific person going to get lost, confused, or shut out? You work from the general to the specific, and the structure has to hold at every level.
 
@@ -53,9 +59,9 @@ The way I read a project has layers to it. First the group: what is this thing s
 
 When the structure works, nobody notices it. They just feel like the thing makes sense. The jewelry customer sees quality without reading a word about sourcing. The recruiter finds the right screen without thinking about information architecture. That's the goal. The experience lands before the person can name why.
 
-A designer looks at the visual layer. An engineer looks at the technical layer. A strategist looks at the business layer. Each one does their job well. But the thing that ships still doesn't say what it was supposed to say, because the gap isn't inside anyone's job. It's between them. The jewelry was real, but the template made it look cheap. The software was sound, but the delivery layer was about to strand it. The copy was clean, but no person had actually said any of it. Nobody saw it because nobody was standing where all three disciplines connect.
+A designer looks at the visual layer. An engineer looks at the technical layer. A strategist looks at the business layer. Each one does their job well. But the thing that ships still doesn't say what it was supposed to say, because nobody asked what the system receiving the work actually needed. The jewelry was real, but the template couldn't show it. The software was sound, but the delivery layer was about to strand it. The copy was clean, but no person had actually said any of it.
 
-I call that gap [drift](/vocabulary/#drift). It's not the same as technical debt or design debt. Debt means you know the standard and you're cutting corners. Drift is when the standard itself went invisible and nobody can point to when it happened. I've spent twenty-five years standing in that gap (design, engineering, information architecture) building the structure that keeps a project's original intent visible to everyone working on it.
+I call the erosion of that [drift](/vocabulary/#drift). It's not the same as technical debt or design debt. Debt means you know the standard and you're cutting corners. Drift is when the standard itself went invisible and nobody can point to when it happened. I've spent twenty-five years building the structure that keeps a project's original intent visible to everyone working on it. The [Formwork](/governance/formwork-protocol/) process exists because that structure has to survive handoff, distance, and time.
 
 > "I have to be honest, I'm not synthesizing all of this completely until now. It has been instinctual."
 > — describing the practice, March 2026
