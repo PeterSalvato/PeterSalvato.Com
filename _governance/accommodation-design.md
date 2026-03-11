@@ -108,7 +108,7 @@ The central claim: AI systems have specific processing realities that can be acc
 
 ## 4. Applied Evidence
 
-I've applied this framework across three years of continuous development (2023-2026). Six tools, each built from the same question applied to a different processing constraint.
+I've applied this framework across three years of continuous development (2023-2026). Six tools, each built from the same question applied to a different processing constraint. All of them depend on one foundational practice: the accumulation of raw, unstructured human thinking as the substrate the tools operate on.
 
 ### 4.1 Context Preservation: Savepoint Syntax
 
@@ -160,13 +160,19 @@ I built a knowledge traversal skill that reads chronologically through conversat
 
 The model builds understanding through sequential processing, not indexed lookup. The retrieval system is designed for how the model actually works instead of how databases work.
 
-### 4.6 Input Inversion
+### 4.6 Input Inversion: The Foundational Practice
+
+Every tool described above depends on one thing: a corpus of raw, unstructured human thinking. Voice sampling needs unstructured speech to sample from. Knowledge traversal needs a body of unfiltered ideation to trace through. The interview process needs raw material to mine for real stories and real language. Without the corpus, the tools have nothing to work with.
 
 Current best practice says structure your input: specific instructions, defined output formats, few-shot examples, chain-of-thought scaffolds. Industry guidance warns against "dumping unstructured data at an LLM" (LogRocket, 2025). The assumption is that quality output requires structured input.
 
-I went the other way. For three years I treated the AI as a thinking partner that captures raw ideation: brainstorming, arguing with myself, changing direction mid-sentence, working through problems out loud. That produced 1,643 ChatGPT sessions, 700+ Claude sessions, and Gemini exports. The corpus is the dataset.
+I went the other way. For three years I treated the AI as a thinking partner that captures raw ideation: brainstorming, arguing with myself, changing direction mid-sentence, working through problems out loud. That produced 1,643 ChatGPT sessions, 700+ Claude sessions, and Gemini exports. Dictated voice notes. Unfinished thoughts. Arguments with no resolution. The corpus is the dataset.
 
-Standard workflow: structured input goes in, constrained output comes out. My workflow: unstructured input goes in, accommodation tools structure later. A teacher doesn't require a student to organize their thoughts before speaking. The student speaks. The teacher captures it. Then they find the structure in what was already expressed.
+This is accommodation design applied in both directions. The AI gets decomposed tasks, one objective at a time, structured for its processing reality. The human gets the opposite: permission to be unstructured. No requirement to organize thoughts before having them. No performance. No formatting. Raw data out of the human mind.
+
+A teacher doesn't require a student to organize their thoughts before speaking. The student speaks. The teacher captures it. Then they find the structure in what was already expressed. The accommodation tools do the same work: they take unstructured human thinking and give it structure after the fact, designed for how the model processes.
+
+The scale doesn't have to be three years and thousands of sessions. A month of voice notes, a few dozen conversations where someone thinks out loud about their work, dictated observations on the commute home. Any corpus of unstructured ideation is enough to begin. The tools accommodate whatever raw material exists. The rawness is the point. Polished, structured, pre-organized input has already lost the thing the tools need most: how the person actually thinks.
 
 The production site petersalvato.com was compiled from this unstructured corpus. Three years of raw thinking, processed by accommodation tools, evaluated by the decomposed lens system, verified against voice patterns extracted from conversation. The quality comes from the depth of the dataset and the accommodation of the processing, not from structuring the input.
 
