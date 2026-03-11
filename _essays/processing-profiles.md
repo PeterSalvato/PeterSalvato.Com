@@ -44,4 +44,4 @@ Every special education teacher reading this recognizes the framework. Processin
 
 The AI governance field is populated by computer scientists and policy professionals. Computer scientists approach the model as a system to optimize. Policy professionals approach it as a risk to manage. Neither discipline trains practitioners in accommodation.
 
-The people who know how to ask "[what does this system actually need?](/essays/what-does-the-system-actually-need/)" are the people who've been asking it about human learners for their entire careers. The skill set the field needs is already in classrooms. I'm calling the framework [accommodation design](/governance/accommodation-design/). The whitepaper documents the full architecture.
+The people who know how to ask "[what does this system actually need?](/essays/what-does-the-system-actually-need/)" are the people who've been asking it about human learners for their entire careers. The skill set the field needs is already in classrooms. I'm calling the framework [accommodation design](/practice/accommodation-design/). The whitepaper documents the full architecture.

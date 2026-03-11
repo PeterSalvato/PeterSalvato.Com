@@ -13,7 +13,7 @@ These terms show up across the work. They aren't branding. They're the language 
 ---
 
 <span id="accommodation-design"></span>**Accommodation Design**
-The framework underneath everything on this site. Instead of asking how to constrain an AI system, ask what it actually needs to do the job. The question comes from special education: every IEP starts by reading the student's processing reality and designing the task to meet it. Applied to AI, the same question produces different architecture, different evaluation, and different results. The [whitepaper](https://github.com/PeterSalvato/accommodation-design) documents the full framework. [Formwork](/governance/formwork-protocol/) is the process that implements it.
+The framework underneath everything on this site. Instead of asking how to constrain an AI system, ask what it actually needs to do the job. The question comes from special education: every IEP starts by reading the student's processing reality and designing the task to meet it. Applied to AI, the same question produces different architecture, different evaluation, and different results. The [whitepaper](https://github.com/PeterSalvato/accommodation-design) documents the full framework. [Formwork](/systems/formwork/) is the process that implements it.
 
 ---
 
@@ -23,57 +23,57 @@ Where work sits in the practice. **01** = Governance (governing logic, cognitive
 ---
 
 <span id="drift"></span>**Drift**
-The gradual loss of original intent as work moves through execution. Related to technical debt and design debt, but a layer deeper. Debt assumes you know the standard and you're cutting corners against it. Drift is when the standard itself goes invisible and you can't articulate what you're drifting from. Not a failure of will, but a structural problem. Reasonable decisions accumulate into something nobody chose. It happens to methods, not just to outputs. The thinking underneath the work erodes, which then causes the work to erode. [Savepoint](/governance/savepoint-syntax/) addresses drift in thinking. [Aetherwright](/governance/order-of-the-aetherwright/) addresses drift in method. [Formwork](/governance/formwork-protocol/) addresses drift in evaluation. [Encore](/infrastructure/encore/) is what it looks like when drift doesn't happen for twelve years.
+The gradual loss of original intent as work moves through execution. Related to technical debt and design debt, but a layer deeper. Debt assumes you know the standard and you're cutting corners against it. Drift is when the standard itself goes invisible and you can't articulate what you're drifting from. Not a failure of will, but a structural problem. Reasonable decisions accumulate into something nobody chose. It happens to methods, not just to outputs. The thinking underneath the work erodes, which then causes the work to erode. [Savepoint](/systems/savepoint/) addresses drift in thinking. [Aetherwright](/practice/order-of-the-aetherwright/) addresses drift in method. [Formwork](/systems/formwork/) addresses drift in evaluation. [Encore](/evidence/encore/) is what it looks like when drift doesn't happen for twelve years.
 
 ---
 
 <span id="formwork"></span>**Formwork**
-The accommodation design process. In concrete construction, formwork is the temporary structure you pour into. It shapes the work while things are fluid. Once the concrete sets, the form comes off. Every tool I've built for working with AI is formwork: [Savepoint Syntax](/governance/savepoint-syntax/) shapes how context survives between sessions. The evaluation lenses shape how the model assesses one dimension at a time. Voice sampling shapes how the model produces authentic voice. Knowledge traversal shapes how the model traces ideas. The skill architecture shapes how the model receives tasks. Each one accommodates a specific processing constraint. Together they form the process. See [Formwork](/governance/formwork-protocol/).
+The accommodation design process. In concrete construction, formwork is the temporary structure you pour into. It shapes the work while things are fluid. Once the concrete sets, the form comes off. Every tool I've built for working with AI is formwork: [Savepoint Syntax](/systems/savepoint/) shapes how context survives between sessions. The evaluation lenses shape how the model assesses one dimension at a time. Voice sampling shapes how the model produces authentic voice. Knowledge traversal shapes how the model traces ideas. The skill architecture shapes how the model receives tasks. Each one accommodates a specific processing constraint. Together they form the process. See [Formwork](/systems/formwork/).
 
 ---
 
 <span id="scaffold"></span>**Scaffold**
-What keeps the original clarity in place while the work gets built. In [Savepoint Syntax](/governance/savepoint-syntax/), it's a tag syntax. In [Formwork](/governance/formwork-protocol/), it's the tools that shape how the model processes. In [Aiden-Jae](/output/aiden-jae/), it's photography direction encoded into the Shopify architecture. Different forms, same function. In accommodation design, the scaffold's purpose is to become unnecessary. If it stays permanently, you've built a dependency, not a capability.
+What keeps the original clarity in place while the work gets built. In [Savepoint Syntax](/systems/savepoint/), it's a tag syntax. In [Formwork](/systems/formwork/), it's the tools that shape how the model processes. In [Aiden-Jae](/evidence/aiden-jae/), it's photography direction encoded into the Shopify architecture. Different forms, same function. In accommodation design, the scaffold's purpose is to become unnecessary. If it stays permanently, you've built a dependency, not a capability.
 
 ---
 
 <span id="fidelity"></span>**Fidelity**
-How well a system holds its founding intent over time. The gap between what was meant and what survived. High fidelity means the thing that shipped still says what the thing that was imagined said. [Encore](/infrastructure/encore/) held fidelity for twelve years across three technology shifts. That's the test.
+How well a system holds its founding intent over time. The gap between what was meant and what survived. High fidelity means the thing that shipped still says what the thing that was imagined said. [Encore](/evidence/encore/) held fidelity for twelve years across three technology shifts. That's the test.
 
 ---
 
 <span id="the-joint"></span>**The Joint**
-The connection point where intent meets execution, where structures hold or fail. From construction: a house either stands or it doesn't, and the difference is usually in the joints. In [Aiden Jae](/output/aiden-jae/), the joint is where physical craft meets digital representation. The original intention is clear at the start and under constant pressure to become something else by the time the project ships. The joint is where you find out if the intention survived.
+The connection point where intent meets execution, where structures hold or fail. From construction: a house either stands or it doesn't, and the difference is usually in the joints. In [Aiden Jae](/evidence/aiden-jae/), the joint is where physical craft meets digital representation. The original intention is clear at the start and under constant pressure to become something else by the time the project ships. The joint is where you find out if the intention survived.
 
 ---
 
 <span id="faculty"></span>**Faculty**
-The three professional domains that combine in every project. **Design** = visual communication, brand identity, typography, photography. **Engineering** = code, platforms, infrastructure. **UX/IA** = user experience, information architecture, flow, structure. Most significant work combine all three. The mix varies. A poster series is pure design. A homelab is pure engineering. [Encore](/infrastructure/encore/) and [Aiden Jae](/output/aiden-jae/) are all three at full load.
+The three professional domains that combine in every project. **Design** = visual communication, brand identity, typography, photography. **Engineering** = code, platforms, infrastructure. **UX/IA** = user experience, information architecture, flow, structure. Most significant work combine all three. The mix varies. A poster series is pure design. A homelab is pure engineering. [Encore](/evidence/encore/) and [Aiden Jae](/evidence/aiden-jae/) are all three at full load.
 
 ---
 
 <span id="load-bearing"></span>**Load-bearing**
-Any element (narrative, visual, technical) that carries structural weight rather than serving as decoration. In [Aiden Jae](/output/aiden-jae/), the photography direction is load-bearing. Remove it and the brand collapses into a generic Shopify template. In [Altrueism](/output/altrueism/), the hand-drawn marks are load-bearing. They prove the transparency claim the copy makes. If you remove it and the system collapses, it was load-bearing. If you remove it and nothing changes, it was decoration.
+Any element (narrative, visual, technical) that carries structural weight rather than serving as decoration. In [Aiden Jae](/evidence/aiden-jae/), the photography direction is load-bearing. Remove it and the brand collapses into a generic Shopify template. In [Altrueism](/evidence/altrueism/), the hand-drawn marks are load-bearing. They prove the transparency claim the copy makes. If you remove it and the system collapses, it was load-bearing. If you remove it and nothing changes, it was decoration.
 
 ---
 
 <span id="narrative-solvency"></span>**Narrative Solvency**
-The infrastructure that ensures a story survives deployment. Not the story itself, but the system that keeps the story honest across scale, time, and touchpoints. [Encore](/infrastructure/encore/) held its narrative for twelve years across three technology shifts. [Order of the Aetherwright](/governance/order-of-the-aetherwright/) is a framework for building narrative solvency into creative projects before scale introduces contradiction.
+The infrastructure that ensures a story survives deployment. Not the story itself, but the system that keeps the story honest across scale, time, and touchpoints. [Encore](/evidence/encore/) held its narrative for twelve years across three technology shifts. [Order of the Aetherwright](/practice/order-of-the-aetherwright/) is a framework for building narrative solvency into creative projects before scale introduces contradiction.
 
 ---
 
 <span id="savepoint"></span>**Savepoint**
-A cognitive waypoint. The moment something clicked, the phrasing that held, the instant direction changed. More than a bookmark: a savepoint carries semantic payload, enough orientation to find the way back in when the context is gone. See [Savepoint Syntax](/governance/savepoint-syntax/).
+A cognitive waypoint. The moment something clicked, the phrasing that held, the instant direction changed. More than a bookmark: a savepoint carries semantic payload, enough orientation to find the way back in when the context is gone. See [Savepoint Syntax](/systems/savepoint/).
 
 ---
 
 <span id="context"></span>**Context**
-The active state of understanding that exists in the moment of working, and disappears when the session ends, the thread closes, or attention shifts. The most perishable thing in knowledge work. [Savepoint Syntax](/governance/savepoint-syntax/) exists because context is fragile and the tools that should preserve it don't.
+The active state of understanding that exists in the moment of working, and disappears when the session ends, the thread closes, or attention shifts. The most perishable thing in knowledge work. [Savepoint Syntax](/systems/savepoint/) exists because context is fragile and the tools that should preserve it don't.
 
 ---
 
 <span id="attunement"></span>**Attunement**
-Reading the room before you design for it. Not empathy in the abstract. The specific act of noticing what a group needs, what each person within that group needs, and where a specific individual is going to get lost. In [Encore](/infrastructure/encore/), attunement aimed at end users and at the developers building inside the platform. In [Aiden Jae](/output/aiden-jae/), attunement for a founder who knew her product but couldn't see how the screen was flattening it. The skill transfers across every medium. The person on the other end changes. The reading doesn't.
+Reading the room before you design for it. Not empathy in the abstract. The specific act of noticing what a group needs, what each person within that group needs, and where a specific individual is going to get lost. In [Encore](/evidence/encore/), attunement aimed at end users and at the developers building inside the platform. In [Aiden Jae](/evidence/aiden-jae/), attunement for a founder who knew her product but couldn't see how the screen was flattening it. The skill transfers across every medium. The person on the other end changes. The reading doesn't.
 
 ---
 
@@ -83,7 +83,7 @@ Designing what the body feels before the mind names it. The invisible layer betw
 ---
 
 <span id="three-layer-model"></span>**Three-Layer Model**
-How attunement scales across any audience. First the group body: what is this thing supposed to feel like for everyone who touches it? Then each persona within that group: what does the end user need versus what does the developer need? Then individual accommodation: where is this specific person going to get lost, confused, or shut out? The model governs everything from [Encore's](/infrastructure/encore/) platform design to a DJ reading a room to a teacher reading a classroom. General body first, then specific accommodations within it.
+How attunement scales across any audience. First the group body: what is this thing supposed to feel like for everyone who touches it? Then each persona within that group: what does the end user need versus what does the developer need? Then individual accommodation: where is this specific person going to get lost, confused, or shut out? The model governs everything from [Encore's](/evidence/encore/) platform design to a DJ reading a room to a teacher reading a classroom. General body first, then specific accommodations within it.
 
 ---
 
@@ -98,4 +98,4 @@ The standard approach to AI: structure the input, constrain the output. Input in
 ---
 
 <span id="windbreak"></span>**Windbreak**
-A structure that protects intent from the forces that erode it. In [Formwork](/governance/formwork-protocol/), the windbreak is institutional memory embedded in the project itself. Every project has something fragile and something threatening it. The windbreak is whatever you build to keep the first thing intact.
+A structure that protects intent from the forces that erode it. In [Formwork](/systems/formwork/), the windbreak is institutional memory embedded in the project itself. Every project has something fragile and something threatening it. The windbreak is whatever you build to keep the first thing intact.

@@ -40,6 +40,6 @@ Accommodation design is a structural claim: AI systems have specific processing 
 
 The distinction matters. Prompt engineering treats the model as a system that needs better instructions. Accommodation design treats the model as a system with a [processing profile](/essays/processing-profiles/) that the task needs to fit. One puts the burden on the instructions. The other puts it on the task architecture.
 
-The full framework is documented in the whitepaper [AI Governance as Accommodation Design](/governance/accommodation-design/), with six tools built over three years of applied architecture. The [IEP essay](/essays/the-iep-for-ai-systems/) goes deep on the classroom origin: decomposition, scaffolding, individualized criteria. This essay names the framework and the question that drives it.
+The full framework is documented in the whitepaper [AI Governance as Accommodation Design](/practice/accommodation-design/), with six tools built over three years of applied architecture. The [IEP essay](/essays/the-iep-for-ai-systems/) goes deep on the classroom origin: decomposition, scaffolding, individualized criteria. This essay names the framework and the question that drives it.
 
 The question is simple. What does this system actually need to do this job well? The AI governance field is full of people answering a different question: how do I make it do what I want? Those two questions produce completely different architecture.

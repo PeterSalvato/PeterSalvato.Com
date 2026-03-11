@@ -3,12 +3,14 @@ layout: default
 ---
 
 {% assign tier_name = page.tier_label | upcase %}
-{% assign route_description = nil %}
-{% for route in site.data.index.routes %}
-    {% if route.name == tier_name %}
-        {% assign route_description = route.description %}
-    {% endif %}
-{% endfor %}
+{% assign route_description = page.description %}
+{% unless route_description %}
+    {% for route in site.data.index.routes %}
+        {% if route.name == tier_name %}
+            {% assign route_description = route.description %}
+        {% endif %}
+    {% endfor %}
+{% endunless %}
 
 <div id="domain-index-page">
     <div id="domain-index-header">
@@ -21,20 +23,41 @@ layout: default
     </div>
 
     <div id="domain-artifacts">
-        {% for item in site.governance %}
-            {% if item.altitude == page.altitude_filter and item.listed != false %}
-                {% include artifact-hero.html item=item url=item.url is_link=true %}
-            {% endif %}
-        {% endfor %}
-        {% for item in site.infrastructure %}
-            {% if item.altitude == page.altitude_filter and item.listed != false %}
-                {% include artifact-hero.html item=item url=item.url is_link=true %}
-            {% endif %}
-        {% endfor %}
-        {% for item in site.output %}
-            {% if item.altitude == page.altitude_filter and item.listed != false %}
-                {% include artifact-hero.html item=item url=item.url is_link=true %}
-            {% endif %}
-        {% endfor %}
+        {% if page.tier_label == "PRACTICE" %}
+            {% for item in site.practice %}
+                {% if item.listed != false and item.published != false %}
+                    {% include artifact-hero.html item=item url=item.url is_link=true %}
+                {% endif %}
+            {% endfor %}
+        {% elsif page.tier_label == "SYSTEMS" %}
+            {% for item in site.systems %}
+                {% if item.listed != false and item.published != false %}
+                    {% include artifact-hero.html item=item url=item.url is_link=true %}
+                {% endif %}
+            {% endfor %}
+        {% elsif page.tier_label == "EVIDENCE" %}
+            {% for item in site.evidence %}
+                {% if item.listed != false and item.published != false %}
+                    {% include artifact-hero.html item=item url=item.url is_link=true %}
+                {% endif %}
+            {% endfor %}
+        {% else %}
+            {%- comment -%} Legacy: old tier pages still using altitude filter {%- endcomment -%}
+            {% for item in site.governance %}
+                {% if item.altitude == page.altitude_filter and item.listed != false %}
+                    {% include artifact-hero.html item=item url=item.url is_link=true %}
+                {% endif %}
+            {% endfor %}
+            {% for item in site.infrastructure %}
+                {% if item.altitude == page.altitude_filter and item.listed != false %}
+                    {% include artifact-hero.html item=item url=item.url is_link=true %}
+                {% endif %}
+            {% endfor %}
+            {% for item in site.output %}
+                {% if item.altitude == page.altitude_filter and item.listed != false %}
+                    {% include artifact-hero.html item=item url=item.url is_link=true %}
+                {% endif %}
+            {% endfor %}
+        {% endif %}
     </div>
 </div>

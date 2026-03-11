@@ -8,20 +8,23 @@ baseurl: ""
 # SEO Keywords (Dual-Layer Strategy)
 seo_keywords: ["Design Engineer", "Design Systems", "Systems Architecture", "Information Architecture", "Operational Methodology", "AI Implementation", "Visual Communication", "SVA", "AI Governance"]
 
-# Jekyll Collections (3-Tier IA)
+# Jekyll Collections (Practice/Systems/Evidence IA)
 collections:
-  governance:
+  practice:
     output: true
-    permalink: /governance/:path/
-  infrastructure:
+    permalink: /practice/:path/
+  systems:
     output: true
-    permalink: /infrastructure/:path/
-  output:
+    permalink: /systems/:path/
+  evidence:
     output: true
-    permalink: /output/:path/
+    permalink: /evidence/:path/
   essays:
     output: true
     permalink: /essays/:path/
+  # Retired pages (no output)
+  retired:
+    output: false
 
 plugins:
   - jekyll-redirect-from

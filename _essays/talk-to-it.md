@@ -40,4 +40,4 @@ Open your phone's voice memo app or start a conversation with any AI tool. Talk 
 
 That recording is the beginning of a corpus the tools can work with. The rawness is the point. Polished, pre-organized input has already lost the thing the tools need most: how you actually think.
 
-The full concept is [input inversion](/governance/input-inversion/). The framework that produced it is [accommodation design](/governance/accommodation-design/).
+The full concept is [input inversion](/practice/input-inversion/). The framework that produced it is [accommodation design](/practice/accommodation-design/).

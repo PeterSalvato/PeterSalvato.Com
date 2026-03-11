@@ -36,6 +36,6 @@ These are accommodations for a system with specific processing constraints. Work
 
 Language models have processing profiles too. The specs are published (context windows, token limits, attention mechanisms) but they're treated as engineering numbers. They're cognitive constraints you design around. The same way a teacher designs around a student's working memory ceiling.
 
-I spent a year teaching special education in Brooklyn. The framework I use now for AI system design came directly from that classroom. I call it [accommodation design](/governance/accommodation-design/): instead of fighting a system's limitations with more rules and longer prompts, you design the task to fit how the system actually processes.
+I spent a year teaching special education in Brooklyn. The framework I use now for AI system design came directly from that classroom. I call it [accommodation design](/practice/accommodation-design/): instead of fighting a system's limitations with more rules and longer prompts, you design the task to fit how the system actually processes.
 
-The [full whitepaper](/governance/accommodation-design/) documents the framework. The short version: your AI isn't getting dumber. You're asking it to hold more than it can carry.
+The [full whitepaper](/practice/accommodation-design/) documents the framework. The short version: your AI isn't getting dumber. You're asking it to hold more than it can carry.

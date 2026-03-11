@@ -36,6 +36,6 @@ Neither discipline trains practitioners in accommodation. Yours does.
 
 The question that drives good IEP design ("what does this student actually need to succeed at this task?") is the same question that produces better AI architecture: what does this system actually need to do this job well? The people who've been asking that question about human learners for their entire careers are the people the field needs most.
 
-I taught a self-contained 4/5 bridge class in Sunset Park, Brooklyn. Twelve students, every subject, every accommodation. The framework I built for AI governance came directly from that room. I call it [accommodation design](/governance/accommodation-design/). The skill set is transferable because the underlying problem is the same: a system with specific processing constraints receiving tasks designed for a different processing profile.
+I taught a self-contained 4/5 bridge class in Sunset Park, Brooklyn. Twelve students, every subject, every accommodation. The framework I built for AI governance came directly from that room. I call it [accommodation design](/practice/accommodation-design/). The skill set is transferable because the underlying problem is the same: a system with specific processing constraints receiving tasks designed for a different processing profile.
 
 You've been doing this work your entire career. The system receiving the accommodation just changed.

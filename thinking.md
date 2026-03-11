@@ -29,7 +29,7 @@ Then you'd land on her Shopify store. Same grid as every other template. Same hi
 
 She didn't see it. She knew what the product was, so the screen looked fine to her. But a stranger landing on that page would feel something was off before they could name it. The template put every product in the same box. I saw it because I could read the code and the photograph at the same time. What showed up on screen contradicted what the product actually was.
 
-I built [Aiden Jae](/output/aiden-jae/) as one integrated system: brand identity, photography direction, Shopify architecture, packaging. The code respects the photograph instead of overriding it. When a customer sees the actual texture of recycled gold under honest light, they're seeing the cost structure, the sourcing story, and the production standard without reading a word. She runs the business. The quality comes through the screen because the platform was built to show it.
+I built [Aiden Jae](/evidence/aiden-jae/) as one integrated system: brand identity, photography direction, Shopify architecture, packaging. The code respects the photograph instead of overriding it. When a customer sees the actual texture of recycled gold under honest light, they're seeing the cost structure, the sourcing story, and the production standard without reading a word. She runs the business. The quality comes through the screen because the platform was built to show it.
 
 ---
 
@@ -39,7 +39,7 @@ The software was healthy. The surface it ran on was the problem. Desktop-only me
 
 I made the case for the browser. Then I built the front-end from scratch: modular namespaced JS framework, full SCSS design system, information architecture across one of the most complex recruiting platforms in the world. Rolling dev, staging, and production servers meant the platform never stopped running while I built the layer it now runs on.
 
-That was twelve years ago. The rest of the industry went browser-based. The platform still runs inside organizations I can't name, but you'd recognize them. I still work alongside the person who wrote the original software. [Encore](/infrastructure/encore/) is twelve years of proof the call was right.
+That was twelve years ago. The rest of the industry went browser-based. The platform still runs inside organizations I can't name, but you'd recognize them. I still work alongside the person who wrote the original software. [Encore](/evidence/encore/) is twelve years of proof the call was right.
 
 ---
 
@@ -47,9 +47,9 @@ This site has the same problem in miniature.
 
 The first complete draft read as marketing copy. Abstract concepts announced before any real situation was established. Every sentence made sense. None of them sounded like a person. The voice protocol that governs the site now exists because that first draft failed: it looked professional and said nothing.
 
-I used AI tools extensively to build this site. I think out loud into something with unlimited working memory. The ideas are mine. The bandwidth to organize them all at once isn't something any human brain can do alone. I mark the moments something clicks as they happen. That's what [Savepoint Syntax](/governance/savepoint-syntax/) is for. Later, I mine the full archive (thousands of sessions, years of thinking) for specific moments and real language. The tools assemble what they find, under rules I set for how the work speaks and what passes. They're specifically prevented from inventing anything. If it can't trace back to something I actually said or decided, it doesn't ship. The site you're reading is what that process produced.
+I used AI tools extensively to build this site. I think out loud into something with unlimited working memory. The ideas are mine. The bandwidth to organize them all at once isn't something any human brain can do alone. I mark the moments something clicks as they happen. That's what [Savepoint Syntax](/systems/savepoint/) is for. Later, I mine the full archive (thousands of sessions, years of thinking) for specific moments and real language. The tools assemble what they find, under rules I set for how the work speaks and what passes. They're specifically prevented from inventing anything. If it can't trace back to something I actually said or decided, it doesn't ship. The site you're reading is what that process produced.
 
-The [Savepoint Syntax](/governance/savepoint-syntax/) went through three versions. The first version reproduced the exact loss it was built to prevent. Three attempts before a markup language for tracking cognitive turning points actually held a turning point through a session handoff.
+The [Savepoint Syntax](/systems/savepoint/) went through three versions. The first version reproduced the exact loss it was built to prevent. Three attempts before a markup language for tracking cognitive turning points actually held a turning point through a session handoff.
 
 The pattern across all of these is the same question. What does the system receiving this work actually need? The founder needed a platform that showed quality instead of flattening it. The enterprise software needed a delivery layer that could follow its users. The AI needed tasks decomposed to match its processing constraints. In each case, the people closest to the work couldn't see the problem because they were designing for what they needed the system to do. The question that changed every one of those situations was the same: what does the system receiving this actually need?
 
@@ -61,7 +61,7 @@ When the structure works, nobody notices it. They just feel like the thing makes
 
 A designer looks at the visual layer. An engineer looks at the technical layer. A strategist looks at the business layer. Each one does their job well. But the thing that ships still doesn't say what it was supposed to say, because nobody asked what the system receiving the work actually needed. The jewelry was real, but the template couldn't show it. The software was sound, but the delivery layer was about to strand it. The copy was clean, but no person had actually said any of it.
 
-That erosion is what I call [drift](/vocabulary/#drift). It's not the same as technical debt or design debt. Debt means you know the standard and you're cutting corners. Drift is when the standard itself went invisible and nobody can point to when it happened. I've spent twenty-five years building the structure that keeps a project's original intent visible to everyone working on it. The [Formwork](/governance/formwork-protocol/) process exists because that structure has to survive handoff, distance, and time.
+That erosion is what I call [drift](/vocabulary/#drift). It's not the same as technical debt or design debt. Debt means you know the standard and you're cutting corners. Drift is when the standard itself went invisible and nobody can point to when it happened. I've spent twenty-five years building the structure that keeps a project's original intent visible to everyone working on it. The [Formwork](/systems/formwork/) process exists because that structure has to survive handoff, distance, and time.
 
 > "I have to be honest, I'm not synthesizing all of this completely until now. It has been instinctual."
 > — describing the practice, March 2026

@@ -29,7 +29,7 @@ The **Millman lens** takes a portfolio page and evaluates it against five criter
 
 Coordinators run multiple skills together. The **audit coordinator** runs a baseline check and then fires five evaluative lenses at once: Millman, Bierut, Appleton, Peers, and Victore. Each lens evaluates the same pages from a different perspective. The audit collects all verdicts and presents them together. The **design review coordinator** captures screenshots at four breakpoints, then runs nine visual lenses covering restraint, type craft, personality, grid, and five other dimensions. If the print-craft lens scores below PRESSED, the coordinator offers a texture generation pass: the lens identifies the gap, the generative skill fills it, and I approve or reject what it produces.
 
-The rule that makes this work: individual skills stay single-purpose. Coordinators handle the structure. No skill needs to know what else is running. The methodology underneath is documented on the [Formwork Protocol](/governance/formwork-protocol/) page.
+The rule that makes this work: individual skills stay single-purpose. Coordinators handle the structure. No skill needs to know what else is running. The methodology underneath is documented on the [Formwork Protocol](/systems/formwork/) page.
 
 ## What the full pass surfaces
 
@@ -62,4 +62,4 @@ Every generative output in the system follows the same pattern. The print-craft 
 
 Everything described here is documented in a single manifest file. Every skill, what it does, what calls it, what it needs, what it returns. The manifest is the set of plans: the document my father carried that let him hold the whole structure in his head while every individual trade worked their piece. Nobody on site had to know how the plumbing connected to the electrical. He did. That's what the manifest does here.
 
-The methodology governing all of this is the [Formwork Protocol](/governance/formwork-protocol/). The protocol describes the approach. What you're reading is one implementation, built against twelve years of enterprise platform work and twenty years of design practice.
+The methodology governing all of this is the [Formwork Protocol](/systems/formwork/). The protocol describes the approach. What you're reading is one implementation, built against twelve years of enterprise platform work and twenty years of design practice.

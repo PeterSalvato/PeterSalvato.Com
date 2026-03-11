@@ -1,132 +1,38 @@
 {
   "sections": [
     {
-      "label": "00. ABOUT",
-      "numeral": "00",
+      "label": "PRACTICE",
       "color": "neutral",
+      "url": "/practice/",
       "items": [
-        {
-          "label": "Bio",
-          "url": "/bio",
-          "icon": "person"
-        },
-        {
-          "label": "How I Think",
-          "url": "/thinking",
-          "icon": "psychology"
-        },
-        {
-          "label": "Colophon",
-          "url": "/colophon",
-          "icon": "menu_book"
-        },
-        {
-          "label": "Contact",
-          "url": "/contact",
-          "icon": "mail"
-        }
+        { "label": "Bio", "url": "/bio", "icon": "person", "featured": true },
+        { "label": "How I Think", "url": "/thinking", "icon": "psychology", "featured": true },
+        { "label": "Writing", "url": "/essays/", "icon": "edit_note", "featured": true },
+        { "label": "Meditations", "url": "/practice/", "icon": "palette" },
+        { "label": "Vocabulary", "url": "/vocabulary", "icon": "menu_book" },
+        { "label": "Contact", "url": "/contact", "icon": "mail" }
       ]
     },
     {
-      "label": "01. WRITING",
-      "numeral": "01",
-      "color": "red",
+      "label": "SYSTEMS",
+      "color": "neutral",
+      "url": "/systems/",
       "items": [
-        {
-          "label": "Accommodation Design",
-          "url": "/governance/accommodation-design",
-          "icon": "school",
-          "featured": true
-        },
-        {
-          "label": "Input Inversion",
-          "url": "/governance/input-inversion",
-          "icon": "swap_vert",
-          "featured": true
-        },
-        {
-          "label": "Prosthetic Cognition",
-          "url": "/governance/prosthetic-cognition",
-          "icon": "accessibility_new",
-          "featured": true
-        },
-        {
-          "label": "Essays",
-          "url": "/essays/",
-          "icon": "edit_note",
-          "featured": true
-        }
+        { "label": "FormWork", "url": "/systems/formwork", "icon": "layers", "featured": true },
+        { "label": "SavePoint", "url": "/systems/savepoint", "icon": "code", "featured": true },
+        { "label": "LensArray", "url": "/systems/lensarray", "icon": "visibility", "featured": true }
       ]
     },
     {
-      "label": "02. SYSTEMS",
-      "numeral": "02",
-      "color": "blue",
+      "label": "EVIDENCE",
+      "color": "neutral",
+      "url": "/evidence/",
       "items": [
-        {
-          "label": "Encore",
-          "url": "/infrastructure/encore",
-          "icon": "business",
-          "featured": true
-        },
-        {
-          "label": "Aiden Jae",
-          "url": "/output/aiden-jae",
-          "icon": "diamond",
-          "featured": true
-        },
-        {
-          "label": "Sovereign Design Engine",
-          "url": "/infrastructure/sovereign-design-engine",
-          "icon": "engineering"
-        },
-        {
-          "label": "PressWorks",
-          "url": "/infrastructure/pressworks",
-          "icon": "print"
-        }
-      ]
-    },
-    {
-      "label": "03. TOOLS",
-      "numeral": "03",
-      "color": "green",
-      "items": [
-        {
-          "label": "Formwork Protocol",
-          "url": "/governance/formwork-protocol",
-          "icon": "article",
-          "featured": true
-        },
-        {
-          "label": "Savepoint Syntax",
-          "url": "/governance/savepoint-syntax",
-          "icon": "code",
-          "featured": true
-        },
-        {
-          "label": "Order of the Aetherwright",
-          "url": "/governance/order-of-the-aetherwright",
-          "icon": "auto_fix_high"
-        }
-      ]
-    },
-    {
-      "label": "OUTPUT",
-      "numeral": "",
-      "color": "green",
-      "url": "/output/",
-      "items": [
-        {
-          "label": "Altrueism",
-          "url": "/output/altrueism",
-          "icon": "volunteer_activism"
-        },
-        {
-          "label": "New City",
-          "url": "/output/new-city",
-          "icon": "location_city"
-        }
+        { "label": "Encore", "url": "/evidence/encore", "icon": "business", "featured": true },
+        { "label": "Aiden Jae", "url": "/evidence/aiden-jae", "icon": "diamond", "featured": true },
+        { "label": "Altrueism", "url": "/evidence/altrueism", "icon": "volunteer_activism" },
+        { "label": "New City", "url": "/evidence/new-city", "icon": "location_city" },
+        { "label": "Colophon", "url": "/evidence/colophon", "icon": "menu_book" }
       ]
     }
   ]

@@ -23,7 +23,7 @@ My source code is twenty-five years of working knowledge: decisions made on cons
 
 That's the codebase. It's raw, unpolished, and entirely mine.
 
-The system (the [voice protocol](/colophon/), the [evaluation lenses](/governance/formwork-protocol/), the knowledge skill that traverses my ideation history) constitutes the compiler passes. They mine the source material, evaluate it against criteria I set, and assemble it into output that sounds like me because the source material *is* me.
+The system (the [voice protocol](/colophon/), the [evaluation lenses](/systems/formwork/), the knowledge skill that traverses my ideation history) constitutes the compiler passes. They mine the source material, evaluate it against criteria I set, and assemble it into output that sounds like me because the source material *is* me.
 
 The site is the compiled binary.
 
@@ -43,7 +43,7 @@ If you use AI as a generator, the AI is the author and you're the editor. Your c
 
 If you use AI as a compiler, you are the author. Your twenty-five years of accumulated practice, your specific decisions, your voice as it actually sounds in unguarded conversation. That's the source code. The system transforms it. The system doesn't originate it.
 
-I built the [governance layer](/governance/) to make sure that line stays clear. The [Savepoint Syntax](/governance/savepoint-syntax/) preserves my cognitive turning points so the system can't drift from where my thinking actually went. The [Formwork Protocol](/governance/formwork-protocol/) embeds my decisions into the project so no session can contradict what's already been settled. The voice protocol catches the moment the output stops sounding like me and starts sounding like a machine performing me.
+I built the [governance layer](/systems/) to make sure that line stays clear. The [Savepoint Syntax](/systems/savepoint/) preserves my cognitive turning points so the system can't drift from where my thinking actually went. The [Formwork Protocol](/systems/formwork/) embeds my decisions into the project so no session can contradict what's already been settled. The voice protocol catches the moment the output stops sounding like me and starts sounding like a machine performing me.
 
 The whole infrastructure exists to maintain one thing: the human is the source code, and the compiled output proves it.
 
