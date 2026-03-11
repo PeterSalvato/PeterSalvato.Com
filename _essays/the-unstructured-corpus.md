@@ -30,7 +30,7 @@ The human gets the opposite. Permission to be unstructured. No requirement to or
 
 A teacher doesn't require a student to organize their thoughts before speaking. The student speaks. The teacher captures it. Then they find the structure in what was already expressed. The accommodation tools do the same work. They take unstructured human thinking and give it structure after the fact, designed for how the model processes.
 
-The accommodation runs in both directions. The AI gets what it needs: decomposed, structured tasks. The human gets what they need: freedom to think out loud without filtering. The tools sit in between, translating one into the other.
+The accommodation runs in both directions. The AI gets what it needs: decomposed, structured tasks. The human gets what they need: freedom to think out loud without filtering. The translation happens in between.
 
 ## Starting from scratch
 
@@ -42,7 +42,7 @@ The rawness is the point. Polished, structured, pre-organized input has already 
 
 ## The inversion
 
-The field's emphasis on structured input may itself be a constraint applied to the human: pre-structuring your thoughts to compensate for the model's processing limitations, instead of building tools that handle the translation.
+Structured input puts the burden on the human. You pre-organize your thoughts to compensate for the model's limitations. The alternative is building tools that handle the translation.
 
 I stopped organizing my input and started organizing my tools. The tools accommodate the model's processing reality. My thinking stays raw. The output quality went up because the tools had richer material to work with, not in spite of the mess but because of it.
 

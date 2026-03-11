@@ -210,11 +210,11 @@ If AI systems are treated as systems with processing realities to accommodate, s
 
 **Prompt architecture becomes accommodation design.** The first question shifts from "what output do I want?" to "what does this system need to produce that output?" Every decision changes: instruction structure, task granularity, evaluation design, session management.
 
-**The IEP becomes a design pattern.** Individualized specification of goals, success criteria, required accommodations, and progress monitoring is already codified in federal education law. The CLAUDE.md file (persistent system context) is functionally an IEP: what the system needs to know, how it should approach tasks, what constitutes success.
+**Federal education law already codifies the design pattern.** Individualized specification of goals, success criteria, required accommodations, and progress monitoring. The CLAUDE.md file (persistent system context) is functionally an IEP: what the system needs to know, how it should approach tasks, what constitutes success.
 
 **Task decomposition is accommodation, not optimization.** Current practice treats decomposition as an engineering technique. The accommodation framing shows that decomposition is necessary because the system cannot process compound tasks. Same reason it's necessary in the classroom. The system needs it to do the work.
 
-**Scaffold removal becomes a design goal.** Current AI tool development trends toward increasingly complex system prompts, longer context documents, more elaborate orchestration. The accommodation framework asks: which of these scaffolds is building capability, and which is building dependency?
+**Every scaffold should be questioned.** Current AI tool development trends toward increasingly complex system prompts, longer context documents, more elaborate orchestration. The accommodation framework asks: which of these scaffolds is building capability, and which is building dependency?
 
 **The practitioner profile changes.** If AI governance requires accommodation design, the field needs practitioners trained in reading processing realities and designing for them. That skill set lives in special education, instructional design, and certain branches of design practice. The insight that AI systems need accommodation could not have originated within computer science because computer science does not teach accommodation.
 

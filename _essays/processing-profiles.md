@@ -18,13 +18,11 @@ They're cognitive constraints you design around.
 
 ## The mapping
 
-A context window is a working memory ceiling. The model can hold this much. After that, things start dropping. Earlier context gets less attention. Details from the beginning of a long prompt carry less weight by the end. This is how working memory works in a student with processing delays. The first instruction is clear. The third one is fuzzy. The fifth one is gone.
+A context window is a working memory ceiling. The model can hold this much. After that, things start dropping. Earlier context gets less attention. Details from the beginning of a long prompt carry less weight by the end. Any teacher who's worked with processing delays recognizes this pattern. The first instruction is clear. The third one is fuzzy. The fifth one is gone.
 
-Token limits describe a processing profile. The model processes this many tokens with this level of quality. Beyond that, quality degrades. You wouldn't give a student a 500-word instruction and expect them to hold all of it. You break it into pieces. Same reasoning, same accommodation.
+You wouldn't give a student a 500-word instruction and expect them to hold all of it. You break it into pieces. Token limits are the same constraint. The model processes this many tokens with this level of quality. Beyond that, quality degrades. Same reasoning, same accommodation.
 
-Attention degradation over long inputs is the same phenomenon a teacher sees when a lesson runs too long without a checkpoint. The student's attention is finite. The model's attention is finite. Both need pacing. Both need checkpoints. Both need the complex task broken into pieces that fit their processing window.
-
-Sensitivity to instruction ordering maps directly to primacy and recency effects in learning. Students and models give more weight to what they hear first and last. The middle gets compressed. Curriculum design accounts for this. Prompt design should too.
+Run a lesson too long without a checkpoint and you watch attention degrade in real time. The model does the same thing over long inputs. Both need pacing. Both need checkpoints. Both need the complex task broken into pieces that fit their processing window. Primacy and recency effects work the same way: students and models give more weight to what they hear first and last. The middle gets compressed. Curriculum design accounts for this. Prompt design should too.
 
 ## The IEP for a language model
 

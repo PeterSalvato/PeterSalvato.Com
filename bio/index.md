@@ -14,7 +14,7 @@ Peter Salvato is a design engineer who brings twenty-five years of design practi
 
 My father was a general superintendent for general contractors in New York: Bovis, Gotham, Engel Burman. His job was holding the whole picture while fifty trades worked their piece. I grew up on those job sites. Before I understood design theory or information architecture, I understood that a structure either holds or it doesn't, and the difference is usually in the joints.
 
-That's still how I think about systems. The interesting question is never "what should this look like?" It's "where does this fail?"
+That's still how I think about systems. The interesting question is always "where does this fail?"
 
 ## SVA
 
@@ -38,7 +38,7 @@ Years later, when UX became a defined discipline, I recognized the problem immed
 
 I left Sterling and got the job at USA Tees in Brooklyn. Art department and production: color separation, technique, prepress. During that last semester I taught an intro to graphic design course at Kingsborough, the same place Judith Wilde found me. After USA Tees I taught special education for a year, then we moved to Fort Lauderdale, where I worked at Atlas Embroidery.
 
-Separation means you never work on the image. You work on a channel. One color at a time, decomposing a whole into discrete layers that reconstruct it when they register. You make decisions about how colors interact when they overprint (opacity, trapping, bleed) before any of that is visible. The whole composition exists only in your head while you're building a single screen.
+Separation means you never work on the image. You work on a channel. One color at a time, breaking a whole into separate layers that reconstruct it when they register. You make decisions about how colors interact when they overprint (opacity, trapping, bleed) before any of that is visible. The whole composition exists only in your head while you're building a single screen.
 
 That's how I've worked ever since. Every SCSS cascade, every function chain, every stage in a multi-agent workflow, you're working on a channel. The whole only exists when the layers register.
 
@@ -62,13 +62,13 @@ I made the case for moving the platform to the browser, then built it. The platf
 
 ## The Household
 
-Breakfast was taking 90 minutes. Not because anyone was slow. Because every meal was a decision tree nobody had the bandwidth to run by 7 AM. So I built the infrastructure.
+Breakfast was taking 90 minutes. Every meal was a decision tree nobody had the bandwidth to run by 7 AM. So I built the infrastructure.
 
 Routines that remove daily decisions. Defaults that work when nobody has the energy to choose. The same [attunement](/vocabulary/#attunement) I apply to platform design (reading what each person actually needs, building structure that accommodates without requiring anyone to ask) applied to the place that actually needed it most.
 
 ## Music
 
-I grew up in New York's club and rave culture in the late nineties: Tunnel, Twilo, underground parties to major venues. I never DJed for a room. What I received from world-class DJs like Sasha and Digweed was a somatic education in how sequenced experience works: how pacing builds, how peaks and valleys are designed before they're felt, how an entire room can feel the same thing at the same time.
+I grew up in New York's club and rave culture in the late nineties: Tunnel, Twilo, underground parties to major venues. I never DJed for a room. What I received from world-class DJs like Sasha and Digweed was an education in how sequenced experience works: how pacing builds, how peaks and valleys are designed before they're felt, how an entire room can feel the same thing at the same time.
 
 > "The entire room felt charged. You could read your emotions on the faces of other people."
 
