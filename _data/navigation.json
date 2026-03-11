@@ -29,6 +29,12 @@
       "url": "/governance/",
       "items": [
         {
+          "label": "Accommodation Design",
+          "url": "/governance/accommodation-design",
+          "icon": "school",
+          "featured": true
+        },
+        {
           "label": "Savepoint Syntax",
           "url": "/governance/savepoint-syntax",
           "icon": "code",
