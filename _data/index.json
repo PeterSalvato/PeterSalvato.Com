@@ -141,7 +141,7 @@
           "id": "3.2",
           "title": "SAVEPOINT SYNTAX",
           "context": "You're in the middle of a session and your thinking changes direction. Every tool saves what you said. None of them mark where it turned.",
-          "spec": "A tag you drop in the middle of your thinking to mark the moment something clicked. One line. Writable by hand. Machine-readable. Doesn't stop the flow.",
+          "spec": "A cognitive waypoint you drop in the middle of your thinking. More than a bookmark: each one carries semantic payload, enough to orient you or the model when the context is gone. One line. Writable by hand. Machine-readable.",
           "result": "Open source. Three versions. The first reproduced the exact loss it was built to prevent. Works across solo work, team conversations, and AI sessions. When you come back weeks later, you find your way in.",
           "status": "V3.1 OPEN SOURCE",
           "link": "/governance/savepoint-syntax",

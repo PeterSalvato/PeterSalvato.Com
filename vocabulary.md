@@ -63,7 +63,7 @@ The infrastructure that ensures a story survives deployment. Not the story itsel
 ---
 
 <span id="savepoint"></span>**Savepoint**
-A semantic trail marker, a self-authored record of a cognitive turning point. The moment something clicked, the phrasing that held, the instant direction changed. Not a summary. Not a note. A flag planted in the middle of dense thinking, carrying enough semantic weight to orient you when you come back. See [Savepoint Syntax](/governance/savepoint-syntax/).
+A cognitive waypoint. The moment something clicked, the phrasing that held, the instant direction changed. More than a bookmark: a savepoint carries semantic payload, enough orientation to find the way back in when the context is gone. See [Savepoint Syntax](/governance/savepoint-syntax/).
 
 ---
 

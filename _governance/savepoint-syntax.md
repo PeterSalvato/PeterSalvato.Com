@@ -1,18 +1,18 @@
 ---
 layout: project
 title: "Savepoint Syntax"
-subtitle: "Semantic Markup for Cognitive Turning Points"
+subtitle: "Semantic Markup for Cognitive Waypoints"
 icon: code
 altitude: "01"
 status: "V3.1 Open Source"
 context: "Understanding shifts in the middle of work. Those shifts are the most perishable thing in any knowledge workflow. The tools store everything that was said. Nothing marks where the thinking turned."
 drift: "Documentation systems capture what was decided. They don't capture where the thinking was going. Notes accumulate without architecture. The thread vanishes at exactly the moment you need to resume it."
-scaffold: "A symbolic markup system for capturing cognitive turning points: moments when realization clicks, phrasing locks in, or meaning shifts direction. A way to mark where you were, not a map of everywhere you've been."
+scaffold: "A symbolic markup system for capturing cognitive waypoints: moments when realization clicks, phrasing locks in, or meaning shifts direction. More than a bookmark. Each one carries semantic payload, enough to orient you when the context is gone."
 fidelity: "When you come back weeks later, you find your way in. v3.1, open source."
 faculty: ["design", "uxia"]
 external_url: "https://github.com/PeterSalvato/Savepoint.Protocol"
-seo_keywords: ["context switching", "decision logging", "cognitive state management", "semantic markup", "knowledge management", "thinking tools", "project filtering"]
-description: "Structural markup for cognitive turning points. Adds structure to unstructured ideation across sessions, conversations, and teams. Marks where understanding shifts before the context closes. v3.1 adds project scoping and keyword filtering for traversal at scale. Open source."
+seo_keywords: ["cognitive waypoints", "context switching", "decision logging", "cognitive state management", "semantic markup", "knowledge management", "thinking tools", "project filtering"]
+description: "Semantic markup for cognitive waypoints. Marks where understanding shifts before the context closes. Each savepoint carries enough semantic payload to orient you or the model when the session is gone. v3.1 adds project scoping and keyword filtering for traversal at scale. Open source."
 last_modified: 2026-03-03
 related:
   - /governance/formwork-protocol
