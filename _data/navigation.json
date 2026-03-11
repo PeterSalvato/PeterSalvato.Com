@@ -39,6 +39,18 @@
           "featured": true
         },
         {
+          "label": "Input Inversion",
+          "url": "/governance/input-inversion",
+          "icon": "swap_vert",
+          "featured": true
+        },
+        {
+          "label": "Prosthetic Cognition",
+          "url": "/governance/prosthetic-cognition",
+          "icon": "accessibility_new",
+          "featured": true
+        },
+        {
           "label": "Essays",
           "url": "/essays/",
           "icon": "edit_note",
