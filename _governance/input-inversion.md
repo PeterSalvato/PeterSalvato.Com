@@ -22,6 +22,8 @@ glyphs: "▲ ⬣ ■"
 codex: "/Ae/#|●▲||⬣■|||▲⟩⟩[governance.input-inversion]/"
 ---
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18962881.svg)](https://doi.org/10.5281/zenodo.18962881)
+
 **Source:** [github.com/PeterSalvato/input-inversion](https://github.com/PeterSalvato/input-inversion)
 
 **Peter Salvato**
@@ -231,7 +233,7 @@ The production site [petersalvato.com](/) was compiled from unstructured convers
 - Squirro (2026). "RAG in 2026: Bridging Knowledge and Generative AI."
 - Fast Company (2025). "The prompt engineer job title has all but disappeared."
 - Salvato, P. (2026). "AI Governance as Accommodation Design." DOI: 10.5281/zenodo.18941231.
-- Salvato, P. (2026). "A Different Kind of Harness: AI as Cognitive Prosthetic Through Mutual Accommodation." [petersalvato.com/governance/prosthetic-cognition/](/governance/prosthetic-cognition/)
+- Salvato, P. (2026). "A Different Kind of Harness: AI as Cognitive Prosthetic Through Mutual Accommodation." DOI: 10.5281/zenodo.18962893.
 - Salvato, P. (2025). Savepoint Syntax v3.1. [github.com/PeterSalvato/Savepoint.Protocol](https://github.com/PeterSalvato/Savepoint.Protocol)
 
 ---
