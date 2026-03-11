@@ -17,7 +17,7 @@ LinkedIn: https://linkedin.com/in/petersalvato
 
 {{ site.data.index.role_declaration | strip_html }}
 
-Peter Salvato studied Visual Communication at the School of Visual Arts, then worked construction sites, print shops, and publishing houses before spending twelve years as Principal Architect on an enterprise recruiting platform. The design practice — finding the gap between what something is and how it presents — has been the same across every medium. The AI governance tools on this site grew out of that practice.
+Peter Salvato studied Visual Communication at the School of Visual Arts, then worked construction sites, print shops, and publishing houses before spending twelve years building the front end of an enterprise recruiting platform. The design practice — finding the gap between what something is and how it presents — has been the same across every medium. The AI governance tools on this site grew out of that practice.
 
 ---
 

@@ -36,7 +36,7 @@ Years later, when UX became a defined discipline, I recognized the problem immed
 
 ## Screenprinting
 
-I left Sterling and got the job at USA Tees in Brooklyn. Art department and production: color separation, technique, prepress. After USA Tees I taught an intro to graphic design course at Kingsborough for a semester, the same place Judith Wilde found me. Then we moved to Fort Lauderdale, where I worked at Atlas Embroidery.
+I left Sterling and got the job at USA Tees in Brooklyn. Art department and production: color separation, technique, prepress. During that last semester I taught an intro to graphic design course at Kingsborough, the same place Judith Wilde found me. After USA Tees I taught special education for a year, then we moved to Fort Lauderdale, where I worked at Atlas Embroidery.
 
 Separation means you never work on the image. You work on a channel. One color at a time, decomposing a whole into discrete layers that reconstruct it when they register. You make decisions about how colors interact when they overprint (opacity, trapping, bleed) before any of that is visible. The whole composition exists only in your head while you're building a single screen.
 
@@ -44,7 +44,7 @@ That's how I've worked ever since. Every SCSS cascade, every function chain, eve
 
 ## Special Education
 
-Before the enterprise work, I taught special education at Kingsborough. Self-contained classrooms: students with behavioral challenges alongside students with developmental disabilities. The work was reading each student: what they actually needed, what the system was asking of them that they couldn't give, where the accommodation had to happen for them to get through the material.
+Before the enterprise work, I taught special education for the NYC Department of Education in Sunset Park, Brooklyn. A self-contained fourth and fifth grade bridge class: students with behavioral challenges alongside students with developmental disabilities. The work was reading each student: what they actually needed, what the system was asking of them that they couldn't give, where the accommodation had to happen for them to get through the material.
 
 > "I know what it costs when the system asks too much of the person using it."
 
@@ -54,11 +54,11 @@ Every system I've built since starts the same way: what does the thing receiving
 
 ## Twelve Years at Cluen
 
-Back in New York, I had a project support position at Metis Associates. When that ended, I got the job at Cluen Corporation and became the Principal Architect. The [Encore Platform](/infrastructure/encore/), a recruitment engine serving some of the largest organizations in the world.
+Back in New York, I had a project support position at Metis Associates. When that ended, I got the job at Cluen Corporation. The [Encore Platform](/infrastructure/encore/), a recruitment engine serving some of the largest organizations in the world. I've spent twelve years building the front end: modular JS framework, full SCSS design system, information architecture across one of the most complex recruiting platforms in the industry.
 
 Twelve years is a long time to stay with one system. Long enough to see three major technology shifts come and go. Long enough to learn that the hard part isn't building something. It's keeping it alive while everything around it changes, and keeping everyone working on it aligned while the decisions accumulate.
 
-I made the case for moving the platform to the browser, then built it: modular JS framework, full SCSS design system, information architecture across one of the most complex recruiting platforms in the industry. The platform never stopped running while I rebuilt the layer it ran on. The [Formwork Protocol](/governance/formwork-protocol/) came from watching what happened over those twelve years when the decisions lived in my head instead of in the project.
+I made the case for moving the platform to the browser, then built it. The platform never stopped running while I rebuilt the layer it ran on. The [Formwork Protocol](/governance/formwork-protocol/) came from watching what happened over those twelve years when the decisions lived in my head instead of in the project.
 
 ## The Household
 

@@ -37,7 +37,7 @@ That method was about to get tested at a scale I hadn't touched yet.
 
 I was back in New York after a project support position at Metis Associates ended. My friend Bryan, who I knew through the music scene we both hung out in, found out I was looking for work and asked what I did. I told him, not knowing he was a software engineer. He asked for my resume and gave it to his boss, and I got a meeting the next week. I think they heard "web guy" and figured I'd be useful.
 
-That was Cluen Corporation. I became the Principal Architect on the [Encore platform](/infrastructure/encore/), an enterprise recruiting engine. Twelve years. Long enough to see three major technology shifts come and go, and long enough to learn that the hard part of building something is keeping it alive while everything around it changes.
+That was Cluen Corporation. I started building the front end of the [Encore platform](/infrastructure/encore/), an enterprise recruiting engine. Twelve years. Long enough to see three major technology shifts come and go, and long enough to learn that the hard part of building something is keeping it alive while everything around it changes.
 
 I made the case for moving the platform to the browser when desktop was still the default, and then I built it: modular JS framework, full SCSS design system, information architecture for a platform that serves large organizations doing high-volume recruiting. The platform never stopped running while I rebuilt the layer it ran on. Honestly, a lot of my job after that was fighting past decisions, lazily copy-pasted code blocks, and other developers not holding fidelity to the structure and design system. The initial build was the easy part. Keeping it clean was the actual work.
 

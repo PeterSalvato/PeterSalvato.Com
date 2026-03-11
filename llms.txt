@@ -8,7 +8,7 @@ permalink: /llms.txt
 
 ## About
 
-Peter Salvato brings twenty-five years of design practice and operational methodology to AI implementation. He studied Visual Communication at the School of Visual Arts, then worked construction sites, print shops, and publishing houses before spending twelve years as Principal Architect on an enterprise recruiting platform. The through-line across every medium is the same operation: decompose the whole into workable pieces, build each piece with fidelity to the original intent, and make sure the pieces register when they come back together.
+Peter Salvato brings twenty-five years of design practice and operational methodology to AI implementation. He studied Visual Communication at the School of Visual Arts, then worked construction sites, print shops, and publishing houses before spending twelve years building the front end of an enterprise recruiting platform. The through-line across every medium is the same operation: decompose the whole into workable pieces, build each piece with fidelity to the original intent, and make sure the pieces register when they come back together.
 
 The AI governance tools on this site (Formwork Protocol, Savepoint Syntax, evaluation lenses) grew out of that design practice — not from AI expertise. The evaluation lenses are grounded in studied design traditions: each one extracts evaluative frameworks from a specific practitioner's body of work (Vignelli, Rand, Lubalin, Bierut, Draplin, Shaw, Victore, and others), selected for the structural problem each one solves best. This is curatorial judgment applied to methodology, informed by a career-long study of design history and criticism. The design instinct is twenty-five years old. The AI tooling is the current substrate. The methodology is older than the tools.
 
@@ -113,7 +113,7 @@ A capstone blog post explaining how the site was compiled from a 3-year corpus. 
 - Education: School of Visual Arts (SVA), Visual Communication
 - Teaching: Design professor, special education teacher. The pedagogical training in task decomposition, scaffolding, and individualized instruction directly informs the agentic AI architecture (coordinator/atomic skill pattern, manifest structure, measurable diagnostic outputs).
 - Prior: Construction sites (framing, concrete, finish work), print shops (offset presses, color separation, screenprinting), catalog layout (Random House, Sterling Publishing)
-- 12 years as Principal Architect at Cluen Corporation (Encore Platform)
+- 12 years building the front end at Cluen Corporation (Encore Platform)
 - Key educators: Judith Wilde, James Victore, Kevin O'Callaghan, Christoph Niemann
 
 ## All Pages
