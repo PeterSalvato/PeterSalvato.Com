@@ -11,6 +11,11 @@
           "icon": "person"
         },
         {
+          "label": "How I Think",
+          "url": "/thinking",
+          "icon": "psychology"
+        },
+        {
           "label": "Colophon",
           "url": "/colophon",
           "icon": "menu_book"
@@ -23,10 +28,9 @@
       ]
     },
     {
-      "label": "01. GOVERNANCE",
+      "label": "01. WRITING",
       "numeral": "01",
       "color": "red",
-      "url": "/governance/",
       "items": [
         {
           "label": "Accommodation Design",
@@ -35,31 +39,30 @@
           "featured": true
         },
         {
-          "label": "Savepoint Syntax",
-          "url": "/governance/savepoint-syntax",
-          "icon": "code",
-          "featured": true
-        },
-        {
-          "label": "Formwork Protocol",
-          "url": "/governance/formwork-protocol",
-          "icon": "article",
-          "featured": true
-        },
-        {
-          "label": "Order of the Aetherwright",
-          "url": "/governance/order-of-the-aetherwright",
-          "icon": "auto_fix_high",
+          "label": "Essays",
+          "url": "/essays/",
+          "icon": "edit_note",
           "featured": true
         }
       ]
     },
     {
-      "label": "02. INFRASTRUCTURE",
+      "label": "02. SYSTEMS",
       "numeral": "02",
       "color": "blue",
-      "url": "/infrastructure/",
       "items": [
+        {
+          "label": "Encore",
+          "url": "/infrastructure/encore",
+          "icon": "business",
+          "featured": true
+        },
+        {
+          "label": "Aiden Jae",
+          "url": "/output/aiden-jae",
+          "icon": "diamond",
+          "featured": true
+        },
         {
           "label": "Sovereign Design Engine",
           "url": "/infrastructure/sovereign-design-engine",
@@ -73,8 +76,32 @@
       ]
     },
     {
-      "label": "03. OUTPUT",
+      "label": "03. TOOLS",
       "numeral": "03",
+      "color": "green",
+      "items": [
+        {
+          "label": "Formwork Protocol",
+          "url": "/governance/formwork-protocol",
+          "icon": "article",
+          "featured": true
+        },
+        {
+          "label": "Savepoint Syntax",
+          "url": "/governance/savepoint-syntax",
+          "icon": "code",
+          "featured": true
+        },
+        {
+          "label": "Order of the Aetherwright",
+          "url": "/governance/order-of-the-aetherwright",
+          "icon": "auto_fix_high"
+        }
+      ]
+    },
+    {
+      "label": "OUTPUT",
+      "numeral": "",
       "color": "green",
       "url": "/output/",
       "items": [
@@ -86,22 +113,7 @@
         {
           "label": "New City",
           "url": "/output/new-city",
-          "icon": "location_city",
-          "featured": true
-        }
-      ]
-    },
-    {
-      "label": "ESSAYS",
-      "numeral": "",
-      "color": "green",
-      "url": "/essays/",
-      "items": [
-        {
-          "label": "Essays",
-          "url": "/essays/",
-          "icon": "edit_note",
-          "featured": true
+          "icon": "location_city"
         }
       ]
     }

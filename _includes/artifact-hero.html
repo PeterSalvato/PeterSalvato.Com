@@ -5,9 +5,9 @@
 
 {% comment %} Resolve tier label from altitude {% endcomment %}
 {% case item.altitude %}
-  {% when "01" %}{% assign tier_label = "Governance" %}{% assign tier_color = "red" %}
-  {% when "02" %}{% assign tier_label = "Infrastructure" %}{% assign tier_color = "blue" %}
-  {% when "03" %}{% assign tier_label = "Output" %}{% assign tier_color = "green" %}
+  {% when "01" %}{% assign tier_label = "Writing" %}{% assign tier_color = "red" %}
+  {% when "02" %}{% assign tier_label = "Systems" %}{% assign tier_color = "blue" %}
+  {% when "03" %}{% assign tier_label = "Tools" %}{% assign tier_color = "green" %}
 {% endcase %}
 
 {% if include.is_link %}

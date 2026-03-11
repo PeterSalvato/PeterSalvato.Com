@@ -3,7 +3,7 @@
   "featured": [
     {
       "title": "AI Governance as Accommodation Design",
-      "tier": "GOVERNANCE",
+      "tier": "WRITING",
       "color": "red",
       "context": "A whitepaper applying special education pedagogy to AI system architecture. The field asks how to constrain the model. The right question is what it needs to do the job.",
       "status": "PUBLISHED",
@@ -11,8 +11,8 @@
     },
     {
       "title": "Essays",
-      "tier": "OUTPUT",
-      "color": "green",
+      "tier": "WRITING",
+      "color": "red",
       "context": "Essays on design practice, education, AI governance, and how they're the same thing.",
       "status": "WRITING",
       "link": "/essays/"
@@ -23,18 +23,18 @@
     "content": "Twelve students in a self-contained classroom in Brooklyn. Every subject, every accommodation. A kid hears \"solve for the missing number, show your work, and explain your reasoning\" and starts working on the first instruction. The rest is gone. Not because the student can't do the work. Because the task was designed for a processing profile that isn't theirs.\n\nThat classroom taught me to ask one question before designing anything: what does the system receiving this actually need? Twenty-five years later the question still governs the work. Enterprise platforms, brand systems, AI governance. The material changes. The person on the other end doesn't.\n\nMy wife had a real jewelry brand and no way to show it through a screen. I built the brand system, the photography pipeline, and the platform together. One system, not three departments. She runs the business. A platform I started building in 2013 is still running, serving organizations you'd recognize. I still work alongside the person who wrote the original software.\n\nThe same question built all of it. This site was compiled from three years of my own thinking by the system described on it."
   },
   "legend": [
-    { "tier": "Governance", "description": "Governing logic. Patterns assembled from established disciplines to solve problems that kept recurring." },
-    { "tier": "Infrastructure", "description": "Maintained platforms and tools. The systems that stay running." },
-    { "tier": "Output", "description": "Delivered and produced work. What shipped." }
+    { "tier": "Writing", "description": "The framework. Whitepaper, essays, and the thinking behind the practice." },
+    { "tier": "Systems", "description": "Deployed work. Platforms and brands that stay running." },
+    { "tier": "Tools", "description": "The methodology. Built from accommodation design, used to build everything else." }
   ],
   "routes": [
     {
       "id": "01",
-      "name": "GOVERNANCE",
+      "name": "WRITING",
       "color": "red",
-      "url": "/governance/",
-      "definition": "Known problems. Assembled solutions.",
-      "description": "Savepoint Syntax started the morning I lost six weeks of thinking. The Aetherwright came from watching creative work lose its founding logic to drift. Not bad decisions, but accumulated small ones. Formwork came from watching contributors contradict decisions that lived in my head instead of in the project. Every one of these begins with a failure that kept recurring.",
+      "url": "/essays/",
+      "definition": "The framework. The arguments. The proof.",
+      "description": "Accommodation design started in a classroom in Sunset Park. The whitepaper documents the framework. The essays unpack it piece by piece. Everything here is the thinking that produced the tools and the systems.",
       "artifacts": [
         {
           "id": "1.0",
@@ -47,42 +47,22 @@
         },
         {
           "id": "1.1",
-          "title": "SAVEPOINT SYNTAX",
-          "context": "You're in the middle of a session and your thinking changes direction. Every tool saves what you said. None of them mark where it turned.",
-          "spec": "A tag you drop in the middle of your thinking to mark the moment something clicked. One line. Writable by hand. Machine-readable. Doesn't stop the flow.",
-          "result": "Open source. Three versions. The first reproduced the exact loss it was built to prevent. Works across solo work, team conversations, and AI sessions. When you come back weeks later, you find your way in.",
-          "status": "V3.1 OPEN SOURCE",
-          "link": "/governance/savepoint-syntax",
-          "spoke_id": "savepoint",
-          "spoke_external_url": "https://savepoint.systems"
-        },
-        {
-          "id": "1.2",
-          "title": "ORDER OF THE AETHERWRIGHT",
-          "context": "I'd been getting consistent results for thirty years but I couldn't explain the method. It was instinct. You can't teach instinct, and it erodes when things get busy.",
-          "spec": "A classification system for creative work: glyphs that mark every domain, a living rulebook, a daily practice. Formalize the method the way you'd formalize a brand. Give it structure and people actually follow it.",
-          "result": "The glyph system classifies every project on this site. Now I can point to the method, explain it, and it doesn't disappear when I'm not paying attention.",
-          "status": "ACTIVE",
-          "link": "/governance/order-of-the-aetherwright"
-        },
-        {
-          "id": "1.3",
-          "title": "FORMWORK",
-          "context": "One perspective produces imitation. Multiple perspectives without structure produces noise. Evaluation happens as a single pass with no way to locate where structural concerns and identity concerns disagree.",
-          "spec": "A layered evaluation and construction system. Distinct layers of concern, each staffed with lenses extracted from real practitioners, run independently and read together. The maker resolves the disagreements. Transfers to any medium.",
-          "result": "Every project page on this site was produced by this system. The framework runs across design, culinary, and any field where craft has practitioners whose judgment you trust.",
-          "status": "ACTIVE",
-          "link": "/governance/formwork-protocol"
+          "title": "ESSAYS",
+          "context": "Fourteen essays on design practice, accommodation, AI governance, and why they're the same discipline.",
+          "spec": "Each essay unpacks one piece of the practice: the classroom origin, processing profiles, input inversion, lens extraction, voice governance. Standalone introductions before the full series.",
+          "result": "Published and growing. The mini-series on accommodation design frames the whitepaper for practitioners in any field.",
+          "status": "WRITING",
+          "link": "/essays/"
         }
       ]
     },
     {
       "id": "02",
-      "name": "INFRASTRUCTURE",
+      "name": "SYSTEMS",
       "color": "blue",
       "url": "/infrastructure/",
-      "definition": "Maintained platforms and tools. The systems that stay running.",
-      "description": "Twelve years on an enterprise platform. Design and print production tools built to own the workflow end to end. The common thread isn't industry or scale. Every one of these has to keep working after I leave the room.",
+      "definition": "Deployed work. What stays running.",
+      "description": "Twelve years on an enterprise platform. A jewelry brand built from scratch. Design and print production tools built to own the workflow end to end. Every one of these has to keep working after I leave the room.",
       "artifacts": [
         {
           "id": "2.1",
@@ -95,6 +75,15 @@
         },
         {
           "id": "2.2",
+          "title": "AIDEN JAE",
+          "context": "A trained artist designing fine jewelry from recycled solid gold. She had the product and the expertise. No brand, no platform, no way to put it in front of a stranger.",
+          "spec": "Built the entire system from scratch: brand identity, photography (camera and post), custom Shopify architecture, packaging concepts. One integrated system, not three departments.",
+          "result": "A running business. The quality comes through the screen because every piece of the system was designed to show it.",
+          "status": "DELIVERED",
+          "link": "/output/aiden-jae"
+        },
+        {
+          "id": "2.3",
           "title": "SOVEREIGN DESIGN ENGINE",
           "context": "Three projects needed physical artifacts simultaneously. The production tool was InDesign on a different machine. Every context switch broke the flow.",
           "spec": "Images and data go in, print-ready pages come out. The software handles page geometry, data extraction, and layout. Every measurement resolves to a fixed value in inches or points. No manual layout.",
@@ -103,7 +92,7 @@
           "link": "/infrastructure/sovereign-design-engine"
         },
         {
-          "id": "2.3",
+          "id": "2.4",
           "title": "PRESSWORKS",
           "context": "I came up in print shops in Brooklyn and Fort Lauderdale. Color separation, plate registration, halftone screening. The process has a logic that digital tools never captured.",
           "spec": "A programmatic press that runs from the terminal. Separate into color plates. Screen each plate at a controllable halftone frequency. Offset registration per channel. Recombine with ink color and blend mode. ImageMagick underneath, bash on top.",
@@ -115,38 +104,40 @@
     },
     {
       "id": "03",
-      "name": "OUTPUT",
+      "name": "TOOLS",
       "color": "green",
-      "url": "/output/",
-      "definition": "Delivered and produced work. What shipped.",
-      "description": "A jewelry brand built from scratch for my wife. A brand where the client's belief in the work was real but the visual identity hadn't caught up. A novel, a photography practice, a book on listening. Some had clients. Some had deadlines. All of them shipped.",
+      "url": "/governance/",
+      "definition": "The methodology. Built from the practice, used to build everything else.",
+      "description": "Savepoint Syntax started the morning I lost six weeks of thinking. Formwork came from watching contributors contradict decisions that lived in my head instead of in the project. The Aetherwright came from watching creative work lose its founding logic to drift. Every one of these begins with a failure that kept recurring.",
       "artifacts": [
         {
           "id": "3.1",
-          "title": "AIDEN JAE",
-          "context": "A trained artist designing fine jewelry from recycled solid gold. She had the product and the expertise. No brand, no platform, no way to put it in front of a stranger.",
-          "spec": "Built the entire system from scratch: brand identity, photography (camera and post), custom Shopify architecture, packaging concepts. One integrated system, not three departments.",
-          "result": "A running business. The quality comes through the screen because every piece of the system was designed to show it.",
-          "status": "DELIVERED",
-          "link": "/output/aiden-jae"
+          "title": "FORMWORK",
+          "context": "One perspective produces imitation. Multiple perspectives without structure produces noise. Evaluation happens as a single pass with no way to locate where structural concerns and identity concerns disagree.",
+          "spec": "A layered evaluation and construction system. Distinct layers of concern, each staffed with lenses extracted from real practitioners, run independently and read together. The maker resolves the disagreements. Transfers to any medium.",
+          "result": "Every project page on this site was produced by this system. The framework runs across design, culinary, and any field where craft has practitioners whose judgment you trust.",
+          "status": "ACTIVE",
+          "link": "/governance/formwork-protocol"
         },
         {
           "id": "3.2",
-          "title": "ALTRUEISM",
-          "context": "A brand for handcrafted objects and sustainable ethics. The first round of explorations looked right and matched the category. Script fonts say 'handmade.' They don't prove it. The brand needed to demonstrate the values, not perform them.",
-          "spec": "A brand built from the inside out, derived from the actual world of the work: communal craft, slow making, sustainable materials. Hand-drawn marks, imperfect finishes, identity that reads the way the work actually feels.",
-          "result": "Complete system: full identity, visual language, packaging, brand book. Delivered as one integrated system.",
-          "status": "DELIVERED",
-          "link": "/output/altrueism"
+          "title": "SAVEPOINT SYNTAX",
+          "context": "You're in the middle of a session and your thinking changes direction. Every tool saves what you said. None of them mark where it turned.",
+          "spec": "A tag you drop in the middle of your thinking to mark the moment something clicked. One line. Writable by hand. Machine-readable. Doesn't stop the flow.",
+          "result": "Open source. Three versions. The first reproduced the exact loss it was built to prevent. Works across solo work, team conversations, and AI sessions. When you come back weeks later, you find your way in.",
+          "status": "V3.1 OPEN SOURCE",
+          "link": "/governance/savepoint-syntax",
+          "spoke_id": "savepoint",
+          "spoke_external_url": "https://savepoint.systems"
         },
         {
-          "id": "3.5",
-          "title": "NEW CITY",
-          "context": "I've never written a novel. I had a story idea and wanted to see if the same design thinking I use everywhere else would hold in a material I'd never worked in. So I built the architecture first.",
-          "spec": "Three-act Western arc at the top, Kishōtenketsu perception-sequencing at every layer beneath. A neurodivergent character whose experience demands structure that resolves through understanding, not conflict. Three prose registers as designed sensory states.",
-          "result": "The methodology holds. Architecture is the deliverable. Beat spec system designed and tested.",
-          "status": "IN DEVELOPMENT",
-          "link": "/output/new-city"
+          "id": "3.3",
+          "title": "ORDER OF THE AETHERWRIGHT",
+          "context": "I'd been getting consistent results for thirty years but I couldn't explain the method. It was instinct. You can't teach instinct, and it erodes when things get busy.",
+          "spec": "A classification system for creative work: glyphs that mark every domain, a living rulebook, a daily practice. Formalize the method the way you'd formalize a brand. Give it structure and people actually follow it.",
+          "result": "The glyph system classifies every project on this site. Now I can point to the method, explain it, and it doesn't disappear when I'm not paying attention.",
+          "status": "ACTIVE",
+          "link": "/governance/order-of-the-aetherwright"
         }
       ]
     }

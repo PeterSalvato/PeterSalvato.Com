@@ -162,7 +162,7 @@
     "dateModified": "{% if page.last_modified %}{{ page.last_modified }}{% elsif page.date %}{{ page.date | date: '%Y-%m-%d' }}{% endif %}",
     "mainEntityOfPage": "{{ page.url | absolute_url }}",
     "keywords": "{% if page.seo_keywords %}{{ page.seo_keywords | join: ', ' }}{% endif %}"{% if page.altitude %},
-    "genre": "{% if page.altitude == '01' %}Governance{% elsif page.altitude == '02' %}Infrastructure{% elsif page.altitude == '03' %}Output{% endif %}"{% endif %}
+    "genre": "{% if page.altitude == '01' %}Writing{% elsif page.altitude == '02' %}Systems{% elsif page.altitude == '03' %}Tools{% endif %}"{% endif %}
   }
   </script>
   {% endif %}
