@@ -10,6 +10,8 @@ seo_keywords: ["design vocabulary", "systems thinking terminology", "mined langu
 
 These terms show up across the work. They aren't branding. They're the language that emerged from twenty-five years of building things and noticing what holds and what doesn't. If something here reads like jargon, the project pages should ground it in specifics.
 
+[Accommodation Design](#accommodation-design) · [Attunement](#attunement) · [Context](#context) · [Drift](#drift) · [Fidelity](#fidelity) · [Formwork](#formwork) · [Input Inversion](#input-inversion) · [Load-bearing](#load-bearing) · [Processing Profile](#processing-profile) · [Savepoint](#savepoint) · [Scaffold](#scaffold) · [Somatic Design](#somatic-design) · [The Joint](#the-joint)
+
 ---
 
 <span id="accommodation-design"></span>**Accommodation Design**
