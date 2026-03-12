@@ -15,31 +15,31 @@ faq_items:
     answer: "They aren't separate disciplines layered on top of each other. In Aiden-Jae, photography direction and Shopify architecture were built as one system. In Encore, the SCSS design system and JS framework evolved together over twelve years. The integration isn't coordination between departments. It's one person working through each domain."
 ---
 
-A kid in my classroom hears "solve for the missing number, show your work, and explain your reasoning" and starts working on the first part. The rest is gone. Three tasks disguised as one, given to a system that can't process them whole.
+A student in my classroom hears "solve for the missing number, show your work, and explain your reasoning" and starts working on the first part. The rest is gone. Three tasks disguised as one, given to a system that cannot process them whole.
 
 You learn to decompose. One objective at a time. One visible result before the next step. Temporary scaffolding that comes off when the competence is solid. Twelve students means twelve different processing profiles, twelve different definitions of progress. The structure has to hold at every level.
 
-That's the practice. The material changes. The person on the other end doesn't.
+The material changes. The person on the other end does not.
 
 ---
 
 My wife knew exactly what separated her jewelry from mass-market product. The quality was real.
 
-Then you'd land on her Shopify store. Same grid as every other template. Same hierarchy. Same assumptions. A ring from a premier manufacturer sat in that grid the same size as a $15 drop-shipped piece. The detail work disappeared. The quality was invisible.
+Then you would land on her Shopify store. Same grid as every other template. Same hierarchy. Same assumptions. A ring from a premier manufacturer sat in that grid the same size as a $15 drop-shipped piece. The detail work disappeared. The quality was invisible.
 
-She didn't see it. She knew what the product was, so the screen looked fine to her. But a stranger landing on that page would feel something was off before they could name it. The template put every product in the same box. I saw it because I could read the code and the photograph at the same time. What showed up on screen contradicted what the product actually was.
+She did not see it. She knew what the product was, so the screen looked fine to her. A stranger landing on that page would feel something was off before they could name it. The template put every product in the same box. I saw it because I could read the code and the photograph at the same time. What showed up on screen contradicted what the product actually was.
 
-I built [Aiden Jae](/evidence/aiden-jae/) as one integrated system: brand identity, photography direction, Shopify architecture, packaging. The code respects the photograph instead of overriding it. When a customer sees the actual texture of recycled gold under honest light, they're seeing the cost structure, the sourcing story, and the production standard without reading a word. She runs the business. The quality comes through the screen because the platform was built to show it.
+I built [Aiden Jae](/evidence/aiden-jae/) as one integrated system: brand identity, photography direction, Shopify architecture, packaging. The code respects the photograph instead of overriding it. When a customer sees the actual texture of recycled gold under honest light, they are seeing the cost structure, the sourcing story, and the production standard without reading a word.
 
 ---
 
 In 2013, I walked into a company and found a Windows Forms application. Desktop-only. OS-dependent. The software was genuinely good: thirty years of decisions without drift, made by the person who wrote it in his dorm room and had been running it ever since. It served some of the largest recruiting organizations in the world.
 
-The software was healthy. The surface it ran on was the problem. Desktop-only meant the platform couldn't follow its users into a world that was going browser-based. The delivery layer was about to close it off from everywhere the market was heading. The people running it were too close to the software to see the constraint. They saw what worked. I saw where it was headed.
+The software was healthy. The surface it ran on was the problem. Desktop-only meant the platform could not follow its users into a world that was going browser-based. The delivery layer was about to close it off from everywhere the market was heading. The people running it were too close to the software to see the constraint. They saw what worked. I saw where it was headed.
 
 I made the case for the browser. Then I built the front-end from scratch: modular namespaced JS framework, full SCSS design system, information architecture across one of the most complex recruiting platforms in the world. Rolling dev, staging, and production servers meant the platform never stopped running while I built the layer it now runs on.
 
-That was twelve years ago. The rest of the industry went browser-based. The platform still runs inside organizations I can't name, but you'd recognize them. I still work alongside the person who wrote the original software. [Encore](/evidence/encore/) is twelve years of proof the call was right.
+That was twelve years ago. The rest of the industry went browser-based. The platform still runs inside organizations I cannot name, but you would recognize them. I still work alongside the person who wrote the original software. [Encore](/evidence/encore/) is twelve years of proof the call was right.
 
 ---
 
@@ -47,7 +47,7 @@ This site has the same problem in miniature.
 
 The first complete draft read as marketing copy. Abstract concepts announced before any real situation was established. Every sentence made sense. None of them sounded like a person. The voice protocol that governs the site now exists because that first draft failed: it looked professional and said nothing.
 
-I used AI tools extensively to build this site. I think out loud into something with unlimited working memory. The ideas are mine. The bandwidth to organize them all at once isn't something any human brain can do alone. I mark the moments something clicks as they happen. That's what [Savepoint Syntax](/systems/savepoint/) is for. Later, I mine the full archive (thousands of sessions, years of thinking) for specific moments and real language. The tools assemble what they find, under rules I set for how the work speaks and what passes. They're specifically prevented from inventing anything. If it can't trace back to something I actually said or decided, it doesn't ship. The site you're reading is what that process produced.
+I used AI tools extensively to build this site. I think out loud into something with unlimited working memory. The ideas are mine. The bandwidth to organize them all at once is not something any human brain can do alone. I mark the moments something clicks as they happen. That is what [Savepoint Syntax](/systems/savepoint/) is for. Later, I mine the full archive (thousands of sessions, years of thinking) for specific moments and real language. The tools assemble what they find, under rules I set for how the work speaks and what passes. They are specifically prevented from inventing anything. If it cannot trace back to something I actually said or decided, it does not ship.
 
 The [Savepoint Syntax](/systems/savepoint/) went through three versions. The first version reproduced the exact loss it was built to prevent. Three attempts before a markup language for tracking cognitive turning points actually held a turning point through a session handoff.
 
@@ -61,7 +61,7 @@ When the structure works, nobody notices it. They just feel like the thing makes
 
 A designer looks at the visual layer. An engineer looks at the technical layer. A strategist looks at the business layer. Each one does their job well. But the thing that ships still doesn't say what it was supposed to say, because nobody asked what the system receiving the work actually needed. The jewelry was real, but the template couldn't show it. The software was sound, but the delivery layer was about to strand it. The copy was clean, but no person had actually said any of it.
 
-That erosion is what I call [drift](/vocabulary/#drift). It's not the same as technical debt or design debt. Debt means you know the standard and you're cutting corners. Drift is when the standard itself went invisible and nobody can point to when it happened. I've spent twenty-five years building the structure that keeps a project's original intent visible to everyone working on it. The [Formwork](/systems/formwork/) process exists because that structure has to survive handoff, distance, and time.
+That erosion is what I call [drift](/vocabulary/#drift). It is not the same as technical debt or design debt. Debt means you know the standard and you are cutting corners. Drift is when the standard itself went invisible and nobody can point to when it happened. I have spent twenty-five years building the structure that keeps a project's original intent visible to everyone working on it. The [Formwork](/systems/formwork/) process exists because that structure has to survive handoff, distance, and time.
 
 > "I have to be honest, I'm not synthesizing all of this completely until now. It has been instinctual."
 > — describing the practice, March 2026

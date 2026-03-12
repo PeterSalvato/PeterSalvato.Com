@@ -32,7 +32,7 @@ I built the front-end from scratch. A modular namespaced JS framework, a full SC
 
 The rest of the industry went browser-based. Twelve years in, the call held.
 
-Twelve years on a platform like this is where you learn what institutional memory actually costs. That experience is what led to the [Formwork](/systems/formwork/) process.
+Twelve years on a platform like this is where you learn what institutional memory actually costs. That experience is what led to the [Formwork Protocol](/systems/formwork/).
 
 ![Encore Max across desktop, laptop, and mobile]({{ '/assets/img/Encore_devices.png' | relative_url }}){:.image.diagram}
 

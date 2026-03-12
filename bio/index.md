@@ -8,13 +8,13 @@ seo_keywords: ["Peter Salvato", "design engineer", "SVA", "visual communication"
 last_modified: 2026-02-26
 ---
 
-Peter Salvato is a design engineer who brings twenty-five years of design practice, special education pedagogy, and deep roots in New York's music and club culture to everything he builds. The methodology existed before the tools did. The tools serve a practice built across construction sites, print shops, enterprise platforms, brand systems, and classrooms.
+Peter Salvato is a design engineer with twenty-five years of applied practice across construction sites, print shops, enterprise platforms, brand systems, and classrooms. The methodology existed before the tools did. The tools serve it.
 
 ## Construction Sites
 
-My father was a general superintendent for general contractors in New York: Bovis, Gotham, Engel Burman. His job was holding the whole picture while fifty trades worked their piece. I grew up on those job sites. Before I understood design theory or information architecture, I understood that a structure either holds or it doesn't, and the difference is usually in the joints.
+My father was a general superintendent for general contractors in New York: Bovis, Gotham, Engel Burman. His job was holding the whole picture while fifty trades worked their piece. I grew up on those job sites. Before I understood design theory or information architecture, I understood that a structure either holds or it does not, and the difference is usually in the joints.
 
-That's still how I think about systems. The interesting question is always "where does this fail?"
+That is still how I think about systems. The interesting question is always where does this fail.
 
 ## SVA
 
@@ -30,9 +30,9 @@ After graduation, I spent a couple of years in publishing. A short stint in ad/p
 
 Nobody reads a catalog. They navigate it. The grid is the navigation system. Get the hierarchy wrong and the reader gives up before they find what they came for.
 
-I didn't know it was called information architecture. I called it catalog layout. The question was the same: given this density and this limited attention, where does the eye go first?
+I did not know it was called information architecture. I called it catalog layout. The question was the same: given this density and this limited attention, where does the eye go first?
 
-Years later, when UX became a defined discipline, I recognized the problem immediately. I'd already been solving it, just with a pica ruler instead of a wireframe tool.
+Years later, when UX became a defined discipline, I recognized the problem immediately. I had already been solving it with a pica ruler instead of a wireframe tool.
 
 ## Screenprinting
 
@@ -48,15 +48,15 @@ Before the enterprise work, I taught special education for the NYC Department of
 
 > "I know what it costs when the system asks too much of the person using it."
 
-That skill (reading the room at the individual level, building structure that accommodates without requiring anyone to explain what they need) transferred directly into everything I've built since. The [three-layer model](/vocabulary/#three-layer-model) that governs my design work started in those classrooms.
+That skill (reading the room at the individual level, building structure that accommodates without requiring anyone to explain what they need) transferred directly into everything I have built since. The [accommodation design](/practice/accommodation-design/) framework started in those classrooms.
 
-Every system I've built since starts the same way: what does the thing receiving this actually need? Not what I want it to do. What it needs from me to do the job.
+Every system I have built since starts the same way: what does the thing receiving this actually need?
 
 ## Twelve Years at Cluen
 
 Back in New York, I had a project support position at Metis Associates. When that ended, I got the job at Cluen Corporation. The [Encore Platform](/evidence/encore/), a recruitment engine serving some of the largest organizations in the world. I've spent twelve years building the front end: modular JS framework, full SCSS design system, information architecture across one of the most complex recruiting platforms in the industry.
 
-Twelve years is a long time to stay with one system. Long enough to see three major technology shifts come and go. Long enough to learn that the hard part isn't building something. It's keeping it alive while everything around it changes, and keeping everyone working on it aligned while the decisions accumulate.
+Twelve years is long enough to see three major technology shifts come and go. Long enough to learn that the hard part is not building something. It is keeping it alive while everything around it changes, and keeping everyone working on it aligned while the decisions accumulate.
 
 I made the case for moving the platform to the browser, then built it. The platform never stopped running while I rebuilt the layer it ran on. The [Formwork Protocol](/systems/formwork/) came from watching what happened over those twelve years when the decisions lived in my head instead of in the project.
 
@@ -64,15 +64,15 @@ I made the case for moving the platform to the browser, then built it. The platf
 
 Breakfast was taking 90 minutes. Every meal was a decision tree nobody had the bandwidth to run by 7 AM. So I built the infrastructure.
 
-Routines that remove daily decisions. Defaults that work when nobody has the energy to choose. The same [attunement](/vocabulary/#attunement) I apply to platform design (reading what each person actually needs, building structure that accommodates without requiring anyone to ask) applied to the place that actually needed it most.
+Routines that remove daily decisions. Defaults that work when nobody has the energy to choose. The same [attunement](/vocabulary/#attunement) I apply to platform design, reading what each person actually needs and building structure that accommodates without requiring anyone to ask, applied to the place that needed it most.
 
 ## Music
 
-I grew up in New York's club and rave culture in the late nineties: Tunnel, Twilo, underground parties to major venues. I never DJed for a room. What I received from world-class DJs like Sasha and Digweed was an education in how sequenced experience works: how pacing builds, how peaks and valleys are designed before they're felt, how an entire room can feel the same thing at the same time.
+I grew up in New York's club and rave culture in the late nineties: Tunnel, Twilo, underground parties to major venues. I never DJed for a room. What I received from world-class DJs like Sasha and Digweed was an education in how sequenced experience works: how pacing builds, how peaks and valleys are designed before they are felt, how an entire room can feel the same thing at the same time.
 
 > "The entire room felt charged. You could read your emotions on the faces of other people."
 
-That education transferred to everything else. *Release* is an acoustic singer/songwriter record on all major streaming platforms, sequenced as an emotional arc, start to finish, the way a DJ would build a set. [MathOnTape](https://soundcloud.com/mathontape) is electronic music explorations branded as a project so I can work both the audio and the visual identity together. Neither has a commercial goal. They're practice.
+That education transferred to everything else. *Release* is an acoustic singer/songwriter record on all major streaming platforms, sequenced as an emotional arc, start to finish, the way a DJ would build a set. [MathOnTape](https://soundcloud.com/mathontape) is electronic music explorations branded as a project so I can work both the audio and the visual identity together. Neither has a commercial goal. They are practice.
 
 ## The New Material
 
@@ -80,4 +80,4 @@ In 2023 I started thinking out loud into AI tools the way I'd been thinking into
 
 The worst loss was a novel. Months of [New City](/evidence/new-city/) ideation distributed across dozens of sessions, the continuity severed when the sessions closed. That loss built the [Savepoint Syntax](/systems/savepoint/). The first version failed immediately. Three more before the structure held. Then the same problem surfaced in code: contributors contradicting each other's architectural decisions. That produced the [Formwork Protocol](/systems/formwork/).
 
-The failure modes weren't new. Joints that can't carry load, context that drifts when nobody maintains fidelity to it, structures that break when the people operating them can't see what's already been decided. I've been solving that problem since construction sites. That corpus: three years of sessions, thousands of conversations, became the raw material this site was compiled from. The tools change. The engineering doesn't.
+The failure modes were not new. Joints that cannot carry load, context that drifts when nobody maintains fidelity to it, structures that break when the people operating them cannot see what has already been decided. I have been solving that problem since construction sites. That corpus, three years of sessions and thousands of conversations, became the raw material this site was compiled from. The tools change. The engineering does not.
