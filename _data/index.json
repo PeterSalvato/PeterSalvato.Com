@@ -71,6 +71,15 @@
           "result": "Published and growing.",
           "status": "WRITING",
           "link": "/essays/"
+        },
+        {
+          "id": "1.4",
+          "title": "THIS SITE",
+          "context": "This site was compiled from a three-year corpus using the protocols and tools described on it.",
+          "spec": "The recursive proof. The site is built by the thing it describes.",
+          "result": "The methodology produces the artifact that documents the methodology.",
+          "status": "ACTIVE",
+          "link": "/practice/this-site"
         }
       ]
     },
@@ -136,15 +145,6 @@
           "result": "A running business. The quality comes through the screen because every piece of the system was designed to show it.",
           "status": "DELIVERED",
           "link": "/evidence/aiden-jae"
-        },
-        {
-          "id": "3.3",
-          "title": "THIS SITE",
-          "context": "This site was compiled from a three-year corpus using the protocols and tools described on it.",
-          "spec": "The recursive proof. The site is built by the thing it describes.",
-          "result": "The methodology produces the artifact that documents the methodology.",
-          "status": "ACTIVE",
-          "link": "/evidence/this-site"
         }
       ]
     }

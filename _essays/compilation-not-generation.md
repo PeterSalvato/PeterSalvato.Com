@@ -23,7 +23,7 @@ My source code is twenty-five years of working knowledge: decisions made on cons
 
 That's the codebase. It's raw, unpolished, and entirely mine.
 
-The system (the [voice protocol](/evidence/this-site/), the [evaluation lenses](/systems/formwork/), the knowledge skill that traverses my ideation history) constitutes the compiler passes. They mine the source material, evaluate it against criteria I set, and assemble it into output that sounds like me because the source material *is* me.
+The system (the [voice protocol](/practice/this-site/), the [evaluation lenses](/systems/formwork/), the knowledge skill that traverses my ideation history) constitutes the compiler passes. They mine the source material, evaluate it against criteria I set, and assemble it into output that sounds like me because the source material *is* me.
 
 The site is the compiled binary.
 

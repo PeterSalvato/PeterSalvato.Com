@@ -21,7 +21,7 @@ related:
   - /evidence/new-city
 cta:
   text: "See this protocol running on a real build"
-  link: /evidence/this-site
+  link: /practice/this-site
 glyphs: "▼ ▲ ⬣"
 codex: "/Æ/#|●▼||▲|||⬣⟩⟩[governance.savepoint-syntax]/"
 ---
@@ -139,4 +139,4 @@ The kind of continuity I lost before the syntax existed stopped happening. Not b
 
 Drop one in the middle of dense thinking. Come back weeks later. You find your way in. The syntax runs across everything now: [Encore's](/evidence/encore/) platform decisions, [Aiden Jae's](/evidence/aiden-jae/) brand architecture, the portfolio site itself, the novel that started it. v3.1, open source. Human preservation infrastructure. Making sure the person doesn't disappear inside tools that don't care whether they do.
 
-Savepoints mark where understanding shifts. The [Formwork Protocol](/systems/formwork/) structures how the work gets evaluated: distinct layers of concern, run independently, read together. [This Site](/evidence/this-site/) shows both running on the site you're reading now.
+Savepoints mark where understanding shifts. The [Formwork Protocol](/systems/formwork/) structures how the work gets evaluated: distinct layers of concern, run independently, read together. [This Site](/practice/this-site/) shows both running on the site you're reading now.

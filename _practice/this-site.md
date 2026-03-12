@@ -1,10 +1,11 @@
 ---
 layout: context
 title: "This Site"
-permalink: /evidence/this-site/
+permalink: /practice/this-site/
 redirect_from:
   - /colophon/
   - /evidence/colophon/
+  - /evidence/this-site/
 description: "How this site was compiled from a three-year corpus using the protocols and tools described on it. Not a hand-written portfolio, but a mined artifact of intent."
 seo_keywords: ["compiled portfolio", "epistemic mining", "sp CLI", "provenance", "formwork protocol", "savepoint syntax", "voice protocol", "methodology-driven development"]
 last_modified: 2026-03-03

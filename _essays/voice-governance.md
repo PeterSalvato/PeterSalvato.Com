@@ -43,7 +43,7 @@ The key constraint: voice sampling reads conversations, not published pages. The
 
 ### Governance constraint
 
-I had a draft of my [This Site](/evidence/this-site/) page that ended with "The structure is the signal." It scanned fine. The rhythm was satisfying. I read it twice before I noticed it meant nothing. That sentence could end any page about systems, infrastructure, design, governance. It belonged to no one in particular and said nothing specific about my work. That catch became a rule: no fortune-cookie closers. Sentences that feel like insight without containing any.
+I had a draft of my [This Site](/practice/this-site/) page that ended with "The structure is the signal." It scanned fine. The rhythm was satisfying. I read it twice before I noticed it meant nothing. That sentence could end any page about systems, infrastructure, design, governance. It belonged to no one in particular and said nothing specific about my work. That catch became a rule: no fortune-cookie closers. Sentences that feel like insight without containing any.
 
 That's how most of these rules got built. I caught a pattern, named it, codified the prohibition.
 

@@ -39,6 +39,24 @@
     margin-bottom: 0;
     max-width: 600px;
   }
+
+  .hero-proof {
+    font-family: $font-display;
+    font-size: $type-body-sm;
+    font-weight: 600;
+    letter-spacing: $tracking-normal;
+    margin-top: $gap-medium;
+    margin-bottom: 0;
+
+    a {
+      color: $color-text-secondary;
+      text-decoration: none;
+
+      &:hover {
+        color: $color-text;
+      }
+    }
+  }
 }
 
 #section-cards {

@@ -19,6 +19,7 @@
         },
         { "label": "Meditations", "url": "/practice/", "icon": "palette" },
         { "label": "Vocabulary", "url": "/vocabulary", "icon": "menu_book" },
+        { "label": "This Site", "url": "/practice/this-site", "icon": "menu_book" },
         { "label": "Contact", "url": "/contact", "icon": "mail" }
       ]
     },
@@ -40,8 +41,7 @@
         { "label": "Encore", "url": "/evidence/encore", "icon": "business" },
         { "label": "Aiden Jae", "url": "/evidence/aiden-jae", "icon": "diamond" },
         { "label": "Altrueism", "url": "/evidence/altrueism", "icon": "volunteer_activism" },
-        { "label": "New City", "url": "/evidence/new-city", "icon": "location_city" },
-        { "label": "This Site", "url": "/evidence/this-site", "icon": "menu_book" }
+        { "label": "New City", "url": "/evidence/new-city", "icon": "location_city" }
       ]
     }
   ]
