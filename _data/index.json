@@ -139,12 +139,12 @@
         },
         {
           "id": "3.3",
-          "title": "COLOPHON",
+          "title": "THIS SITE",
           "context": "This site was compiled from a three-year corpus using the protocols and tools described on it.",
           "spec": "The recursive proof. The site is built by the thing it describes.",
           "result": "The methodology produces the artifact that documents the methodology.",
           "status": "ACTIVE",
-          "link": "/evidence/colophon"
+          "link": "/evidence/this-site"
         }
       ]
     }

@@ -1,8 +1,10 @@
 ---
 layout: context
-title: "Colophon"
-permalink: /evidence/colophon/
-redirect_from: /colophon/
+title: "This Site"
+permalink: /evidence/this-site/
+redirect_from:
+  - /colophon/
+  - /evidence/colophon/
 description: "How this site was compiled from a three-year corpus using the protocols and tools described on it. Not a hand-written portfolio, but a mined artifact of intent."
 seo_keywords: ["compiled portfolio", "epistemic mining", "sp CLI", "provenance", "formwork protocol", "savepoint syntax", "voice protocol", "methodology-driven development"]
 last_modified: 2026-03-03
@@ -150,4 +152,4 @@ Every project page carries machine-readable metadata: altitude (01, 02, 03 for w
 
 The [Formwork Protocol](/systems/formwork/) describes how to build an evaluation room and staff it with extracted lenses. [Savepoint Syntax](/systems/savepoint/) describes how to mark cognitive turning points so they survive context loss. The voice protocol enforces how the site speaks. The knowledge skill grounds every claim in real ideation history.
 
-This site runs on all of them. The Colophon is the build story. The project pages are the proof. The Formwork page ends by pointing here. This page points back by showing what happened when those patterns ran on a real project, including the failures that shaped them.
+This site runs on all of them. This page is the build story. The project pages are the proof. The Formwork page ends by pointing here. This page points back by showing what happened when those patterns ran on a real project, including the failures that shaped them.

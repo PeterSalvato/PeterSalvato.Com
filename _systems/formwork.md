@@ -131,6 +131,6 @@ The goal is structure that holds on its own. The formwork comes off.
 
 The strongest evidence for a process is the thing it produces.
 
-[petersalvato.com](/) was compiled using Formwork. The [whitepaper](/practice/accommodation-design/) documents the framework. The [Colophon](/colophon/) shows the tools running on the site you're reading. The evaluation system, the context preservation, the voice pipeline, the knowledge traversal. All of it visible in what shipped.
+[petersalvato.com](/) was compiled using Formwork. The [whitepaper](/practice/accommodation-design/) documents the framework. [This Site](/evidence/this-site/) shows the tools running on the site you're reading. The evaluation system, the context preservation, the voice pipeline, the knowledge traversal. All of it visible in what shipped.
 
 The accommodation architecture built the thing that explains the accommodation architecture. That's the proof.

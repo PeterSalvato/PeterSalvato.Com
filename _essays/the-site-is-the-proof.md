@@ -41,7 +41,7 @@ Gemini used a striking phrase for this: "Museum of the Distilled, not the Distil
 
 This leads to a recursive proof. The argument for the system isn't found in a white paper; it's found in the pages you are reading right now.
 
-The Formwork page describes evaluation layers; those layers were used to evaluate the Formwork page. The voice protocol page describes how to extract authentic voice from conversations; the copy on that page was verified against voice samples extracted from my own conversations. The Savepoint Syntax page describes how to mark cognitive turning points; that page exists because savepoints marked the turns during its own construction. The Colophon describes the build process; the build process produced the Colophon.
+The Formwork page describes evaluation layers; those layers were used to evaluate the Formwork page. The voice protocol page describes how to extract authentic voice from conversations; the copy on that page was verified against voice samples extracted from my own conversations. The Savepoint Syntax page describes how to mark cognitive turning points; that page exists because savepoints marked the turns during its own construction. [This Site](/evidence/this-site/) describes the build process; the build process produced the page.
 
 Every tool described on this site was used to produce the site. This isn't a portfolio that describes a methodology. It is a compiled instance that demonstrates one.
 

@@ -41,7 +41,7 @@
         { "label": "Aiden Jae", "url": "/evidence/aiden-jae", "icon": "diamond" },
         { "label": "Altrueism", "url": "/evidence/altrueism", "icon": "volunteer_activism" },
         { "label": "New City", "url": "/evidence/new-city", "icon": "location_city" },
-        { "label": "Colophon", "url": "/evidence/colophon", "icon": "menu_book" }
+        { "label": "This Site", "url": "/evidence/this-site", "icon": "menu_book" }
       ]
     }
   ]
