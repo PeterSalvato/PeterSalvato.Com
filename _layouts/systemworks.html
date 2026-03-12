@@ -17,20 +17,17 @@ layout: default
     </div>
 </div>
 
-<!-- Featured Project Cards -->
-{% if site.data.index.featured %}
-<div id="featured-cards">
-    {% for card in site.data.index.featured %}
-    <a href="{{ card.link | relative_url }}" class="featured-card">
-        <span class="featured-card-tier featured-card-tier--{{ card.color }}">{{ card.tier }}</span>
-        <h3 class="featured-card-title">{{ card.title }}</h3>
-        <p class="featured-card-context">{{ card.context }}</p>
-        <hr class="featured-card-rule">
-        <span class="featured-card-status">{{ card.status }}</span>
+<!-- Section Cards — mirror the nav, explain the depth -->
+<div id="section-cards">
+    {% for route in site.data.index.routes %}
+    <a href="{{ route.url | relative_url }}" class="section-card artifact-card artifact-card--link">
+        <h3 class="section-card-name">{{ route.name }}</h3>
+        <p class="section-card-definition">{{ route.definition }}</p>
+        <p class="section-card-description">{{ route.description }}</p>
+        <p class="artifact-link">Explore &rarr;</p>
     </a>
     {% endfor %}
 </div>
-{% endif %}
 
 <!-- Manifesto -->
 {% if site.data.index.manifesto.short %}

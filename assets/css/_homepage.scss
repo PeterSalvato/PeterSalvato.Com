@@ -41,76 +41,36 @@
   }
 }
 
-#featured-cards {
+#section-cards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
   gap: $gap-medium;
   margin-bottom: $gap-xxlarge;
 
-  .featured-card {
-    border: $rule-light solid $color-border;
-    border-top: $rule-heavy solid $color-text;
-    padding: $gap-large;
-    text-decoration: none;
-    color: $color-text;
-    display: flex;
-    flex-direction: column;
-    transition: background-color $transition-fast, border-color $transition-fast;
-
-    &:hover {
-      background-color: $color-surface;
-      border-color: $color-text;
-      opacity: 1;
+  .section-card {
+    .section-card-name {
+      font-family: $font-display;
+      font-size: $type-title;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: $tracking-normal;
+      margin: 0 0 $gap-small;
     }
-  }
 
-  .featured-card-tier {
-    font-family: $font-mono;
-    font-size: $type-sm;
-    font-weight: 400;
-    letter-spacing: $tracking-wider;
-    text-transform: uppercase;
-    margin-bottom: $gap-medium;
+    .section-card-definition {
+      font-family: $font-display;
+      font-size: $type-body;
+      font-weight: 600;
+      margin: 0 0 $gap-medium;
+    }
 
-    &--blue { color: $color-blue; }
-    &--red { color: $color-red; }
-    &--green { color: $color-green; }
-  }
-
-  .featured-card-title {
-    font-family: $font-display;
-    font-size: $type-title;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: $tracking-normal;
-    margin-bottom: $gap-small;
-    margin-top: 0;
-  }
-
-  .featured-card-context {
-    font-family: $font-body;
-    font-size: $type-body-sm;
-    line-height: $leading-relaxed;
-    color: $color-text-secondary;
-    margin-bottom: 0;
-    flex-grow: 1;
-  }
-
-  .featured-card-rule {
-    border: none;
-    height: $rule-light;
-    background-color: $color-border;
-    margin: $gap-medium 0;
-  }
-
-  .featured-card-status {
-    font-family: $font-mono;
-    font-size: $type-xs;
-    font-weight: 400;
-    letter-spacing: $tracking-wider;
-    text-transform: uppercase;
-    color: $color-text-secondary;
-    opacity: $opacity-subdued;
+    .section-card-description {
+      font-family: $font-body;
+      font-size: $type-body-sm;
+      line-height: $leading-relaxed;
+      color: $color-text-secondary;
+      margin: 0;
+      max-width: 55ch;
+    }
   }
 }
 
