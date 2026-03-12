@@ -10,7 +10,7 @@ seo_keywords: ["design vocabulary", "systems thinking terminology", "mined langu
 
 These terms show up across the work. They aren't branding. They're the language that emerged from twenty-five years of building things and noticing what holds and what doesn't. If something here reads like jargon, the project pages should ground it in specifics.
 
-[Accommodation Design](#accommodation-design) · [Attunement](#attunement) · [Context](#context) · [Drift](#drift) · [Fidelity](#fidelity) · [Formwork](#formwork) · [Input Inversion](#input-inversion) · [Load-bearing](#load-bearing) · [Processing Profile](#processing-profile) · [Savepoint](#savepoint) · [Scaffold](#scaffold) · [Somatic Design](#somatic-design) · [The Joint](#the-joint)
+[Accommodation Design](#accommodation-design) · [Attunement](#attunement) · [Context](#context) · [Drift](#drift) · [Fidelity](#fidelity) · [Formwork](#formwork) · [Input Inversion](#input-inversion) · [Load-bearing](#load-bearing) · [Processing Profile](#processing-profile) · [Savepoint](#savepoint) · [Scaffold](#scaffold) · [Somatic Design](#somatic-design)
 
 ---
 
@@ -36,11 +36,6 @@ What keeps the original clarity in place while the work gets built. In [Savepoin
 
 <span id="fidelity"></span>**Fidelity**
 How well a system holds its founding intent over time. The gap between what was meant and what survived. High fidelity means the thing that shipped still says what the thing that was imagined said. [Encore](/evidence/encore/) held fidelity for twelve years across three technology shifts. That's the test.
-
----
-
-<span id="the-joint"></span>**The Joint**
-The connection point where intent meets execution, where structures hold or fail. From construction: a house either stands or it doesn't, and the difference is usually in the joints. In [Aiden Jae](/evidence/aiden-jae/), the joint is where physical craft meets digital representation. The original intention is clear at the start and under constant pressure to become something else by the time the project ships. The joint is where you find out if the intention survived.
 
 ---
 

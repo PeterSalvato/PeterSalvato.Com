@@ -184,6 +184,12 @@
     font-size: $type-body !important;
   }
 
+  // General heading overflow: long words in page titles and content headings
+  h1, h2, h3 {
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+
   // Dossier hero: stack on mobile
   .artifact-card--hero .artifact-hero-header {
     flex-direction: column;
