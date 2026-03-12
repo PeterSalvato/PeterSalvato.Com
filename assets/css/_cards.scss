@@ -189,6 +189,11 @@
       gap: $gap-xlarge;
     }
 
+    .dossier-rule,
+    .dossier-meta {
+      margin-left: calc(140px + $gap-xlarge);
+    }
+
     .artifact-hero-title {
       flex: 1;
       min-width: 0;
