@@ -17,8 +17,6 @@
             { "label": "Whitepapers", "url": "/practice/whitepapers", "icon": "description" }
           ]
         },
-        { "label": "Meditations", "url": "/practice/", "icon": "palette" },
-        { "label": "Vocabulary", "url": "/vocabulary", "icon": "menu_book" },
         { "label": "This Site", "url": "/practice/this-site", "icon": "menu_book" },
         { "label": "Contact", "url": "/contact", "icon": "mail" }
       ]

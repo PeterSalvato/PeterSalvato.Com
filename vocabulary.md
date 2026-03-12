@@ -17,11 +17,6 @@ The framework underneath everything on this site. Instead of asking how to const
 
 ---
 
-<span id="altitude"></span>**Altitude**
-Where work sits in the practice. **01** = Governance (governing logic, cognitive firmware). **02** = Infrastructure (maintained platforms and tools). **03** = Output (delivered and produced work). The number isn't hierarchy. It's intent. Governance doesn't outrank output. They operate at different altitudes.
-
----
-
 <span id="drift"></span>**Drift**
 The gradual loss of original intent as work moves through execution. Related to technical debt and design debt, but a layer deeper. Debt assumes you know the standard and you're cutting corners against it. Drift is when the standard itself goes invisible and you can't articulate what you're drifting from. Not a failure of will, but a structural problem. Reasonable decisions accumulate into something nobody chose. It happens to methods, not just to outputs. The thinking underneath the work erodes, which then causes the work to erode. [Savepoint](/systems/savepoint/) addresses drift in thinking. [Aetherwright](/practice/order-of-the-aetherwright/) addresses drift in method. [Formwork](/systems/formwork/) addresses drift in evaluation. [Encore](/evidence/encore/) is what it looks like when drift doesn't happen for twelve years.
 
@@ -47,18 +42,8 @@ The connection point where intent meets execution, where structures hold or fail
 
 ---
 
-<span id="faculty"></span>**Faculty**
-The three professional domains that combine in every project. **Design** = visual communication, brand identity, typography, photography. **Engineering** = code, platforms, infrastructure. **UX/IA** = user experience, information architecture, flow, structure. Most significant work combine all three. The mix varies. A poster series is pure design. A homelab is pure engineering. [Encore](/evidence/encore/) and [Aiden Jae](/evidence/aiden-jae/) are all three at full load.
-
----
-
 <span id="load-bearing"></span>**Load-bearing**
 Any element (narrative, visual, technical) that carries structural weight rather than serving as decoration. In [Aiden Jae](/evidence/aiden-jae/), the photography direction is load-bearing. Remove it and the brand collapses into a generic Shopify template. In [Altrueism](/evidence/altrueism/), the hand-drawn marks are load-bearing. They prove the transparency claim the copy makes. If you remove it and the system collapses, it was load-bearing. If you remove it and nothing changes, it was decoration.
-
----
-
-<span id="narrative-solvency"></span>**Narrative Solvency**
-The infrastructure that ensures a story survives deployment. Not the story itself, but the system that keeps the story honest across scale, time, and touchpoints. [Encore](/evidence/encore/) held its narrative for twelve years across three technology shifts. [Order of the Aetherwright](/practice/order-of-the-aetherwright/) is a framework for building narrative solvency into creative projects before scale introduces contradiction.
 
 ---
 
@@ -82,11 +67,6 @@ Designing what the body feels before the mind names it. The invisible layer betw
 
 ---
 
-<span id="three-layer-model"></span>**Three-Layer Model**
-How attunement scales across any audience. First the group body: what is this thing supposed to feel like for everyone who touches it? Then each persona within that group: what does the end user need versus what does the developer need? Then individual accommodation: where is this specific person going to get lost, confused, or shut out? The model governs everything from [Encore's](/evidence/encore/) platform design to a DJ reading a room to a teacher reading a classroom. General body first, then specific accommodations within it.
-
----
-
 <span id="processing-profile"></span>**Processing Profile**
 What a system can and can't handle. For a student, it's working memory capacity, attention, sensory processing. For a model, it's context window limits, attention degradation, sensitivity to instruction ordering, tendency to flatten compound evaluations. You don't fight a processing profile. You design for it. That's the accommodation move.
 
@@ -97,5 +77,3 @@ The standard approach to AI: structure the input, constrain the output. Input in
 
 ---
 
-<span id="windbreak"></span>**Windbreak**
-A structure that protects intent from the forces that erode it. In [Formwork](/systems/formwork/), the windbreak is institutional memory embedded in the project itself. Every project has something fragile and something threatening it. The windbreak is whatever you build to keep the first thing intact.
