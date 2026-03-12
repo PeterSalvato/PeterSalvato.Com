@@ -65,6 +65,8 @@
   margin-bottom: $gap-xxlarge;
 
   .section-card {
+    padding: $gap-xlarge $gap-xlarge $gap-large;
+
     .section-card-name {
       font-family: $font-display;
       font-size: $type-title;
@@ -88,6 +90,12 @@
       color: $color-text-secondary;
       margin: 0;
       max-width: 55ch;
+    }
+
+    .artifact-link {
+      margin-top: auto;
+      padding-top: $gap-medium;
+      border-top: $rule-light solid $color-border;
     }
   }
 }

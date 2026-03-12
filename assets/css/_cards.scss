@@ -118,6 +118,7 @@
     text-decoration: none;
     color: inherit;
     position: relative;
+    padding: $gap-xlarge $gap-xlarge $gap-large;
 
     &::before {
       content: '';
@@ -135,16 +136,16 @@
     }
 
     .artifact-mark-container {
-      flex: 0 0 80px;
-      max-width: 80px;
+      flex: 0 0 56px;
+      max-width: 56px;
 
       .artifact-mark {
-        max-height: 80px;
+        max-height: 56px;
       }
     }
 
     .artifact-mark-icon .material-symbols-outlined {
-      font-size: 56px;
+      font-size: 40px;
     }
 
     &:hover {
@@ -156,8 +157,13 @@
       display: flex;
       flex-direction: row;
       align-items: flex-start;
-      gap: $gap-large;
-      margin-bottom: $gap-medium;
+      gap: $gap-medium;
+      margin-bottom: 0;
+    }
+
+    .artifact-hero-title {
+      flex: 1;
+      min-width: 0;
     }
 
     h2 {
@@ -172,6 +178,17 @@
         text-decoration: none;
         &:hover { color: $color-neutral; }
       }
+    }
+
+    .artifact-subtitle {
+      margin-top: $gap-small;
+    }
+
+    // Push the action link to the card bottom
+    .artifact-link {
+      margin-top: auto;
+      padding-top: $gap-medium;
+      border-top: $rule-light solid $color-border;
     }
   }
 

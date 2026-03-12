@@ -64,6 +64,11 @@
   #domain-artifacts {
     display: grid;
     grid-template-columns: minmax(0, 1fr);
-    gap: $gap-xxlarge;
+    gap: $gap-medium;
+
+    // Cards inside domain index don't need their own bottom margin
+    .artifact-card {
+      margin-bottom: 0;
+    }
   }
 }
