@@ -43,6 +43,17 @@
 
     .nav-section {
       margin-bottom: 1rem;
+      transition: opacity $transition-fast;
+
+      &.is-highlighted {
+        .nav-section-title {
+          opacity: 1;
+        }
+
+        .nav-list a {
+          opacity: 1;
+        }
+      }
 
       .nav-section-title {
         font-size: $type-sm;

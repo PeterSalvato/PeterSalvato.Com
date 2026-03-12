@@ -20,7 +20,7 @@ layout: default
 <!-- Section Cards — mirror the nav, explain the depth -->
 <div id="section-cards">
     {% for route in site.data.index.routes %}
-    <a href="{{ route.url | relative_url }}" class="section-card artifact-card artifact-card--link">
+    <a href="{{ route.url | relative_url }}" class="section-card artifact-card artifact-card--link" data-section="{{ route.name | downcase }}">
         <h3 class="section-card-name">{{ route.name }}</h3>
         <p class="section-card-definition">{{ route.definition }}</p>
         <p class="section-card-description">{{ route.description }}</p>
@@ -35,4 +35,18 @@ layout: default
     {{ site.data.index.manifesto.short | newline_to_br }}
 </div>
 {% endif %}
+
+<script>
+  document.querySelectorAll('.section-card[data-section]').forEach(function(card) {
+    var key = card.getAttribute('data-section');
+    var navSection = document.querySelector('.nav-section[data-section="' + key + '"]');
+    if (!navSection) return;
+    card.addEventListener('mouseenter', function() {
+      navSection.classList.add('is-highlighted');
+    });
+    card.addEventListener('mouseleave', function() {
+      navSection.classList.remove('is-highlighted');
+    });
+  });
+</script>
 

@@ -6,7 +6,7 @@
   <nav id="sidebar-menu" aria-label="Site sections">
 
     {% for section in site.data.navigation.sections %}
-    <div class="nav-section">
+    <div class="nav-section" data-section="{{ section.label | downcase }}">
       <h3 class="nav-section-title nav-section-title--{{ section.color }}">
         {% if section.url %}<a href="{{ section.url | relative_url }}">{% endif %}
         {% if section.numeral %}<span class="nav-numeral">{{ section.numeral }}</span>{% endif %}
