@@ -41,3 +41,32 @@ body > * {
   position: relative;
   z-index: 1;
 }
+
+// Skip-to-content link — visible on focus only
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: $gap-medium;
+  padding: $gap-small $gap-medium;
+  background: $color-text;
+  color: $color-background;
+  font-family: $font-display;
+  font-size: $type-body-sm;
+  text-decoration: none;
+  z-index: 9999;
+
+  &:focus {
+    top: $gap-medium;
+  }
+}
+
+// Focus indicators — visible, high-contrast
+*:focus-visible {
+  outline: 2px solid $color-text;
+  outline-offset: 2px;
+}
+
+// Remove outline for mouse clicks, keep for keyboard
+*:focus:not(:focus-visible) {
+  outline: none;
+}

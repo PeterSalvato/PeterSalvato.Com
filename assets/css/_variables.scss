@@ -22,7 +22,7 @@ $color-surface:          #EFECE6;
 $color-surface-dark:     #E8E4DE;
 $color-text:             #1A1A1A;
 $color-border:           #E5E5E0;
-$color-text-secondary:   #646464;
+$color-text-secondary:   #595959;  // 4.85:1 on #F5F3EE — passes WCAG AA
 $color-white:            #FFFFFF;
 
 // Route / tier colors
@@ -126,9 +126,9 @@ $shadow-strong:  0 2px 12px rgba(0, 0, 0, 0.10);
 
 $opacity-ghost:     0.08;
 $opacity-faint:     0.15;
-$opacity-muted:     0.4;
-$opacity-quiet:     0.5;
-$opacity-subdued:   0.6;
+$opacity-muted:     0.55;  // WCAG: minimum for text on light bg
+$opacity-quiet:     0.65;
+$opacity-subdued:   0.7;
 $opacity-hover:     0.7;
 $opacity-soft:      0.7;
 
