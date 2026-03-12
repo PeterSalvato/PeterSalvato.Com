@@ -1,0 +1,59 @@
+- term: "accommodation design"
+  slug: "accommodation-design"
+  tooltip: "A framework for AI system architecture from special education. Asks what the model needs to produce quality output, rather than how to constrain it."
+  linkable: true
+
+- term: "drift"
+  slug: "drift"
+  tooltip: "The gradual loss of original intent as work moves through execution. Deeper than technical debt: the standard itself becomes invisible."
+  linkable: true
+
+- term: "fidelity"
+  slug: "fidelity"
+  tooltip: "How well a system holds its founding intent over time. The gap between what was meant and what survived."
+  linkable: true
+
+- term: "formwork"
+  slug: "formwork"
+  tooltip: "The accommodation design process. Tools that shape how AI systems receive and process work, each accommodating a specific processing constraint."
+  linkable: true
+
+- term: "input inversion"
+  slug: "input-inversion"
+  tooltip: "A design principle that reverses the burden of structure from the human to the tooling. Unstructured thinking in, accommodation tools structure for the model."
+  linkable: true
+
+- term: "load-bearing"
+  slug: "load-bearing"
+  tooltip: "Any element that carries structural weight rather than serving as decoration. Remove it: if the system collapses, it was load-bearing."
+  linkable: true
+
+- term: "processing profile"
+  slug: "processing-profile"
+  tooltip: "What a system can and cannot handle. For a model: context limits, attention degradation, sensitivity to instruction ordering."
+  linkable: true
+
+- term: "savepoint"
+  slug: "savepoint"
+  tooltip: "A cognitive waypoint. The moment understanding shifted, captured with enough semantic payload to reconstruct where the thinking was."
+  linkable: true
+
+- term: "scaffold"
+  slug: "scaffold"
+  tooltip: "A temporary structure that supports work while it's being built. Its purpose is to become unnecessary."
+  linkable: true
+
+- term: "attunement"
+  slug: "attunement"
+  tooltip: "Reading the room before designing for it. Noticing what a group needs, what each person needs, and where someone will get lost."
+  linkable: true
+
+- term: "somatic design"
+  slug: "somatic-design"
+  tooltip: "Designing what the body registers before the mind names it. If the structure is visible, it has not done its job."
+  linkable: true
+
+- term: "processing reality"
+  slug: "processing-profile"
+  tooltip: "What a system can and cannot handle. The constraints that determine how tasks should be designed for that system."
+  linkable: true
