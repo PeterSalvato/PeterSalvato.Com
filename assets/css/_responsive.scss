@@ -107,8 +107,8 @@
     .hero-image img { width: 280px; }
   }
 
-  // Featured cards: single column on mobile
-  #featured-cards {
+  // Section cards: single column on mobile
+  #section-cards {
     grid-template-columns: 1fr;
   }
 
@@ -168,9 +168,20 @@
 
   // Artifact card titles: reduce size so single long words don't drive grid overflow
   .artifact-card h1,
-  .artifact-card h2 {
+  .artifact-card h2,
+  .artifact-card h3 {
     font-size: $type-title;
     overflow-wrap: break-word;
+    word-break: break-word;
+  }
+
+  .artifact-card p {
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+
+  .section-card-name {
+    font-size: $type-body !important;
   }
 
   // Dossier hero: stack on mobile
@@ -192,6 +203,11 @@
   .dossier-meta {
     flex-wrap: wrap;
     gap: $gap-medium;
+  }
+
+  .artifact-card--hero .dossier-rule,
+  .artifact-card--hero .dossier-meta {
+    margin-left: 0;
   }
 
   // Blog: post meta wraps on mobile
