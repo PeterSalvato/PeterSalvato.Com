@@ -35,23 +35,17 @@ glyphs: "▲ ⬣ ■"
 codex: "/Æ/#|●▲||⬣■|||▲⟩⟩[systems.formwork]/"
 ---
 
-I spent a summer building concrete forms on a job site in South Florida. Plywood, braces, rebar. You build the form before you pour. The concrete goes in fluid and the form gives it shape. Once it sets, the form comes off. The shape holds on its own.
+Formwork is Peter Salvato's [accommodation design](/practice/accommodation-design/) process: a set of tools that shape how AI systems receive and process work. Each tool accommodates a specific processing constraint in the model. Together they form the process that produced this site.
 
-That image stayed with me longer than any design theory I studied at SVA.
-
-Twenty years later I started building tools for working with AI. The first one solved a specific problem: I kept losing my thinking between sessions. The second solved another: compound evaluations where every dimension bled into every other one. A third, a fourth, a fifth. Each one started from the same question. What does this system actually need to do the job?
-
-Every tool I built turned out to be formwork. A temporary structure that shapes the pour.
+The name comes from concrete construction. You build formwork before you pour. The temporary structure shapes the work while things are fluid. Once the concrete sets, the form comes off. The shape holds on its own. Every tool in this system follows that pattern.
 
 ---
 
 ## The question underneath
 
-[Accommodation design](/practice/accommodation-design/) is the framework. The theory. The "why." It came from a special education classroom in Brooklyn where I ran twelve IEPs simultaneously and learned to read what a system needs before designing the task.
+[Accommodation design](/practice/accommodation-design/) is the framework, the theory, the "why." It originated in a special education classroom in Brooklyn where I ran twelve IEPs simultaneously and learned to read what a system needs before designing the task.
 
-Formwork is the process. The toolkit. The "how." Each tool accommodates a specific processing constraint in the model. Together they form the accommodation design process.
-
-The question underneath every tool is the same one I learned to ask in that classroom: what does this system actually need to do this job well?
+Formwork is the process, the toolkit, the "how." The question underneath every tool is the same one I learned to ask in that classroom: what does this system actually need to do this job well?
 
 ---
 
@@ -59,71 +53,67 @@ The question underneath every tool is the same one I learned to ask in that clas
 
 ### Savepoint Syntax: context accommodation
 
-I kept losing the thinking between sessions. Not the notes. The exact moment something clicked, the point where my understanding shifted. The model couldn't find its way back in because nothing marked where the thinking had been.
+Models have no persistent memory between sessions. When a thread closes, the context evaporates. The thinking that happened, the moment something clicked, the point where understanding shifted: none of it survives into the next session. If you have ever returned to an AI conversation and found the model has no memory of where the work was headed, this is the constraint.
 
-[Savepoint Syntax](/systems/savepoint/) is a self-closing tag you drop inline at the moment of a cognitive turning point. Machine-readable, human-writable. One line of content, forced precision. The syntax is designed for how the model retrieves, not for how I remember. Structured, atomic, searchable markers instead of narrative notes.
+[Savepoint Syntax](/systems/savepoint/) is a self-closing tag dropped inline at the moment of a cognitive turning point. Machine-readable, human-writable. One line of content, forced precision. The syntax is designed for how the model retrieves, not for how I remember: structured, atomic, searchable markers instead of narrative notes.
 
-**The constraint it accommodates:** Models have no persistent memory between sessions. Context evaporates when the thread closes. Savepoints give the model enough orientation to reconstruct where the thinking was.
+**The constraint it accommodates:** No persistent memory between sessions. Savepoints give the model enough orientation to reconstruct where the thinking was.
 
 ### LensArray: evaluation accommodation
 
-"Is this good?" is twelve questions disguised as one. Give that compound evaluation to a model and the criteria blur together. Structural assessment contaminates narrative assessment. You get a blended average that tells you nothing.
+"Is this good?" is twelve questions disguised as one. Give that compound evaluation to a model and the criteria blur together. Structural assessment contaminates narrative assessment. The result is a blended average that tells you nothing actionable.
 
 [LensArray](/systems/lensarray/) decomposes evaluation into distinct layers of concern, each staffed with lenses extracted from real practitioners. Each lens runs independently with its own criteria and its own definition of success. A coordinator collects verdicts and maps where they agree and where they disagree. The maker resolves the disagreements.
 
-**The constraint it accommodates:** Models flatten compound evaluations. Concurrent criteria contaminate each other. Independent layers, each with one clear question, produce verdicts you can actually use.
+**The constraint it accommodates:** Models flatten compound evaluations. Concurrent criteria contaminate each other. Independent layers, each with one clear question, produce verdicts you can act on.
 
 ### Voice sampling: voice accommodation
 
-Ask a model to write in someone's voice and it produces competent content marketing that sounds like everyone and no one. The model's training data is dominated by published writing: polished, performative, audience-aware.
+Ask a model to write in someone's voice and it produces competent content marketing that sounds like everyone and no one. The model's training data is dominated by published writing: polished, performative, audience-aware. If your AI output sounds generic no matter how much you describe the target voice, this is why.
 
-The voice pipeline samples from conversation transcripts instead. Three years of sessions, dictated voice notes, rough thinking full of false starts. That's how I actually talk. The pipeline extracts patterns (sentence rhythm, vocabulary I reach for, what I never say) and encodes them as constraints on all written output.
+The voice pipeline samples from conversation transcripts instead. Three years of sessions, dictated voice notes, rough thinking full of false starts. The pipeline extracts patterns (sentence rhythm, vocabulary I reach for, what I never say) and encodes them as constraints on all written output.
 
-**The constraint it accommodates:** Models default to a training-data average that sounds like published writing. Sampling from conversation instead of publication gives the model source material that matches the target register.
+**The constraint it accommodates:** Models default to a training-data average that reads like published writing. Sampling from conversation instead of publication gives the model source material that matches the target register.
 
 ### Knowledge traversal: retrieval accommodation
 
-The first time an idea appears in conversation history, it probably wasn't called by its final name. Keyword search misses the origin. Grep can't find the embryonic mention because the term didn't exist yet.
+The first time an idea appears in conversation history, it probably was not called by its final name. Keyword search misses the origin. Grep cannot find the embryonic mention because the term did not exist yet.
 
 The knowledge traversal skill reads chronologically through conversation exports, carries understanding forward, and catches mentions that no search would find. It builds understanding through sequential processing, not indexed lookup.
 
-**The constraint it accommodates:** Models process sequentially, but standard retrieval systems assume you already know what you're looking for. Chronological traversal matches how the model actually builds understanding.
+**The constraint it accommodates:** Standard retrieval systems assume you already know what you are looking for. Chronological traversal matches how the model actually builds understanding.
 
 ### Skill architecture: task decomposition accommodation
 
-Give a model twelve objectives in a single prompt and it prioritizes the first few. The rest degrade. Instruction ordering changes which objectives get attention.
+Give a model twelve objectives in a single prompt and it prioritizes the first few. The rest degrade. Instruction ordering changes which objectives get attention. If you have noticed that the end of a complex prompt gets ignored, this is the constraint.
 
-So every skill has one objective, one output, no knowledge of other skills. Twenty-two single-purpose diagnostics and five coordinators. The coordinators dispatch skills in parallel where they're independent, sequentially where one depends on another's output. The model never receives twelve goals at once.
+Every skill has one objective, one output, no knowledge of other skills. Twenty-two single-purpose diagnostics and five coordinators. The coordinators dispatch skills in parallel where they are independent, sequentially where one depends on another's output. The model never receives twelve goals at once.
 
-**The constraint it accommodates:** Models can't hold twelve goals simultaneously without flattening them. One objective per skill, with coordinators handling the orchestration, keeps each task within the model's processing strengths.
+**The constraint it accommodates:** Models cannot hold twelve goals simultaneously without flattening them. One objective per skill, with coordinators handling the orchestration, keeps each task within the model's processing strengths.
 
 ---
 
 ## How they work together
 
-The tools don't operate in isolation. They form a process.
+The tools form a process, not a collection.
 
-Raw, unstructured thinking goes in. Voice notes, brainstorming sessions, conversations where I argue with myself and change direction mid-sentence. Three years of that produced the corpus everything else operates on.
+Raw, unstructured thinking goes in: voice notes, brainstorming sessions, conversations where I argue with myself and change direction mid-sentence. Three years of that produced the corpus everything else operates on.
 
 Savepoint Syntax marks where the thinking turned. Knowledge traversal traces how ideas developed across the corpus. The voice pipeline extracts how I actually communicate. LensArray evaluates the output across independent dimensions. The skill architecture keeps every task within the model's processing range.
 
-The concrete goes in fluid. The forms give it shape. Once it sets, the forms come off.
-
-This site was compiled through that process. Every page evaluated by independent lenses. Every piece of copy verified against voice patterns extracted from conversation. Context preserved across hundreds of sessions by savepoints. Concepts traced through three years of unstructured thinking by the traversal system. Each skill receiving one clear objective at a time.
-
-The tools built the thing that describes the tools.
+[petersalvato.com](/) was compiled through this process. Every page evaluated by independent lenses. Every piece of copy verified against voice patterns extracted from conversation. Context preserved across hundreds of sessions by savepoints. Concepts traced through three years of unstructured thinking by the traversal system. Each skill receiving one clear objective at a time.
 
 ---
 
 ## The scaffold principle
 
-In concrete construction, formwork is temporary by definition. You pour, it sets, the form comes off. If the form has to stay permanently, you didn't build structure. You built a dependency.
+In concrete construction, formwork is temporary by definition. You pour, it sets, the form comes off. If the form has to stay permanently, you have built a dependency, not structure.
 
 The same principle governs every tool in this process. A graphic organizer helps a student plan a paragraph. Once the student can plan without it, you take it away. A coordinator orchestrates skills during evaluation. Once the evaluation is complete, the coordinator's job is done.
 
-Every scaffold in the system should be questioned: is this building capability, or is this building dependency? The current AI tool development trend pushes toward longer system prompts, more elaborate orchestration, increasingly complex context documents. The accommodation framework asks which of those scaffolds are doing structural work and which have become permanent crutches the system can't function without.
+Every scaffold in the system should be questioned: is this building capability, or is this building dependency? The current AI tool development trend pushes toward longer system prompts, more elaborate orchestration, increasingly complex context documents. The accommodation framework asks which of those scaffolds are doing structural work and which have become permanent crutches.
 
-The goal is structure that holds on its own. The formwork comes off.
+The goal is structure that holds on its own.
 
 ---
 
@@ -131,6 +121,4 @@ The goal is structure that holds on its own. The formwork comes off.
 
 The strongest evidence for a process is the thing it produces.
 
-[petersalvato.com](/) was compiled using Formwork. The [whitepaper](/practice/accommodation-design/) documents the framework. [This Site](/practice/this-site/) shows the tools running on the site you're reading. The evaluation system, the context preservation, the voice pipeline, the knowledge traversal. All of it visible in what shipped.
-
-The accommodation architecture built the thing that explains the accommodation architecture. That's the proof.
+[petersalvato.com](/) was compiled using Formwork. The [whitepaper](/practice/accommodation-design/) documents the framework. [This Site](/practice/this-site/) shows the tools running on the site you are reading: the evaluation system, the context preservation, the voice pipeline, the knowledge traversal. All visible in what shipped.

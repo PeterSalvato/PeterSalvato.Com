@@ -23,11 +23,11 @@ glyphs: "▲ ■ ◆"
 codex: "/Æ/#|●▲||■◆|||■⟩⟩[output.altrueism]/"
 ---
 
-The first round of explorations went where most go first: script fonts, cursive motion, gesture. The visual language of handmade warmth. It looked right. It matched the category. And it was the wrong answer.
+The first round of explorations went where most craft brands go: script fonts, cursive motion, gesture. The visual language of handmade warmth. It looked right. It matched the category. It was the wrong answer.
 
-The client made handcrafted objects with sustainable ethics. Their world was communal craft, care, rhythm, slow making. The script fonts were performing an emotion the client didn't actually have. Warmth as a category signal, not warmth as the truth of the work. An expressive brand identity would have performed those values without demonstrating them.
+The client made handcrafted objects with sustainable ethics. Their world was communal craft, care, rhythm, slow making. The script fonts performed an emotion the client did not actually have. Warmth as a category signal, not warmth as the truth of the work.
 
-Script fonts say "handmade." They don't prove it. The brand needed to reflect the actual character of the work, not play a version of it for the audience.
+Script fonts say "handmade." They do not prove it. The brand needed to reflect the actual character of the work, not play a version of it for the audience.
 
 ![Altrueism site before redesign]({{ '/assets/img/Altrueism_before.jpg' | relative_url }}){:.image.diagram}
 

@@ -26,22 +26,16 @@ glyphs: "▼ ▲ ⬣"
 codex: "/Æ/#|●▼||▲|||⬣⟩⟩[governance.savepoint-syntax]/"
 ---
 
-Understanding shifts in the middle of work (conversations, sessions, sketches) and nothing captures those shifts. I'd been losing them for twenty years. Sketchbooks since art school. Notes that captured information but not where the thinking turned. The book wasn't lost. The thinking was.
+Savepoint Syntax is a semantic markup format developed by Peter Salvato for marking cognitive turning points in AI-assisted work. It solves a specific problem: understanding shifts in the middle of a session, and nothing captures where the thinking turned. Notes accumulate. The connections between them do not survive.
 
-AI made the same problem happen at machine speed. Working on [New City](/evidence/new-city/), ideation sprawled across dozens of sessions. Then the sessions closed and the continuity was gone. Fragments survived. The connections between them didn't.
+Anyone who has returned to an AI conversation days later and found the model has no memory of where the work was headed has experienced the problem Savepoint addresses. The model processes everything said in a session, but when the thread closes, the context evaporates. The question that produced the syntax was not "how do I document my thinking?" It was: what does the model actually need to reconstruct where I was?
 
-The problem wasn't forgetting. Documentation handles forgetting fine. The failure is that understanding shifts in the middle of unstructured work, and nothing captures those shifts. Notes accumulate without architecture. I stopped asking "how do I document my thinking?" and started asking "how do I mark where my thinking forked?"
-
-And then a harder question: what does the model actually need to reconstruct where I was? Not what I need to remember. What it needs to find its way back in. The syntax came from that question.
-
-The reflex came before the syntax. For five months, at the end of marathon sessions, I'd type the same request: "give me a savepoint." The word showed up in twenty-plus conversations before it ever became a system.
+The reflex came before the syntax. For five months, at the end of marathon sessions, I typed the same request: "give me a savepoint." The word showed up in twenty-plus conversations before it became a system.
 
 > "I basically just don't want to lose any of the brainstorming ideation that we do. We wind up with these marathon sessions and your memory limitations cause us to lose things."
 > — from the session where the syntax was born, March 2025
 
-What came out was a syntax. A way to mark, inline, the exact point where understanding shifted, without stopping the flow. That tag went through months of revision.
-
-Something I didn't expect: I could go back through months of ideation and find the exact moment a decision locked in. A trail system through the mess.
+What came out was a markup format. A way to mark, inline, the exact point where understanding shifted, without stopping the flow. The tag went through months of revision. One result I did not anticipate: I could go back through months of ideation and find the exact moment a decision locked in. A trail system through the archive.
 
 ---
 
@@ -130,13 +124,13 @@ v3.1 added two more optional fields: `project` and `keywords`. I was dropping sa
 />
 ```
 
-Along the way, the syntax became the topic of conversation. All flow gone. That's how I knew it wasn't done yet: when I was thinking about tagging instead of thinking about the work. If you're conscious of Savepoint while working, it has failed.
+Along the way, the syntax became the topic of conversation. All flow gone. That was the signal it was not done yet: when I was thinking about tagging instead of thinking about the work. If you are conscious of Savepoint while working, it has failed.
 
 > "It genuinely felt like Savepoint was going to save people from AI recursiveness and black box thinking. Looking back that feels crazy."
 > — months later, questioning whether the whole project was delusional
 
-The kind of continuity I lost before the syntax existed stopped happening. Not because the memory improved. Because the markers were in place.
+The continuity I lost before the syntax existed stopped happening. The markers were in place. Drop one in the middle of dense thinking. Come back weeks later. You find your way in.
 
-Drop one in the middle of dense thinking. Come back weeks later. You find your way in. The syntax runs across everything now: [Encore's](/evidence/encore/) platform decisions, [Aiden Jae's](/evidence/aiden-jae/) brand architecture, the portfolio site itself, the novel that started it. v3.1, open source. Human preservation infrastructure. Making sure the person doesn't disappear inside tools that don't care whether they do.
+The syntax runs across everything now: [Encore's](/evidence/encore/) platform decisions, [Aiden Jae's](/evidence/aiden-jae/) brand architecture, the portfolio site itself, the novel that started it. v3.1, open source.
 
-Savepoints mark where understanding shifts. The [Formwork Protocol](/systems/formwork/) structures how the work gets evaluated: distinct layers of concern, run independently, read together. [This Site](/practice/this-site/) shows both running on the site you're reading now.
+Savepoints mark where understanding shifts. [Formwork](/systems/formwork/) structures how the work gets evaluated: distinct layers of concern, run independently, read together. [This Site](/practice/this-site/) shows both running on the site you are reading.

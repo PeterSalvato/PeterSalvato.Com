@@ -13,15 +13,15 @@ related:
   - /evidence/encore
 ---
 
-The critique room at SVA worked because multiple perspectives evaluated in good faith, independently, at the same time. Where they agreed, strong signal. Where they disagreed, a decision to make. The accumulated decisions belong to the maker.
+LensArray is Peter Salvato's multi-perspective evaluation and generation system, built from a simple observation: asking an AI "is this good?" produces nothing useful because the question is twelve questions disguised as one. Structural quality, narrative coherence, voice fidelity, visual hierarchy. Each dimension requires its own criteria and its own definition of success.
 
-That room doesn't reconstruct itself outside of school. LensArray reconstructs the evaluative function.
+The model for this is the critique room at SVA. Multiple perspectives evaluating in good faith, independently, at the same time. Where they agreed, strong signal. Where they disagreed, a decision for the maker. LensArray reconstructs that evaluative function.
 
 ---
 
 ## Evaluation
 
-Staff each layer of concern with lenses extracted from real practitioners. Run them independently. Read the convergence. Agreements are signals to act on. Disagreements are decisions the maker resolves.
+Each layer of concern is staffed with lenses extracted from real practitioners. They run independently. The convergence map shows where they agree (signals to act on) and where they disagree (decisions the maker resolves).
 
 A single lens produces imitation. Multiple lenses produce tension. The tensions force decisions no single influence would have produced. The accumulated decisions are the work.
 
@@ -29,9 +29,9 @@ A single lens produces imitation. Multiple lenses produce tension. The tensions 
 
 ## Generation
 
-The same lenses that evaluate can constrain generation. Directions from evaluation become inputs to generative skills. The criteria aren't applied after the output. They shape it during production. The form is in the pour.
+The same lenses that evaluate can constrain generation. Directions from evaluation become inputs to generative skills. The criteria are not applied after the output. They shape it during production.
 
-Every generative output stops before writing to disk. The maker sees what was produced, decides, approves. The system does analysis and generation. The maker does creative direction.
+Every generative output stops before writing to disk. The maker sees what was produced, decides, approves. The system handles analysis and generation. The maker handles creative direction.
 
 ---
 
@@ -44,4 +44,4 @@ The protocol for building a lens:
 3. Codify as testable criteria. Turn extracted questions into specific, evaluable checks.
 4. Validate against their known work. The lens should confirm what the practitioner would confirm.
 
-This is what a good creative director does when building a team: systematize how brilliant people think so the thinking scales beyond one person's presence.
+This is what a good creative director does when building a team: systematize how strong practitioners think so the thinking scales beyond one person's presence.

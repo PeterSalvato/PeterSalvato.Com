@@ -24,15 +24,15 @@ glyphs: "▲ ■ ⬣"
 codex: "/Æ/#|●▲||■⬣|||⬣▲~[infrastructure.encore]/"
 ---
 
-I got there through a friend. Bryan and I came up in the same songwriter community in Park Slope, and when I was between jobs he passed my resume along. They heard "web guy" and figured I'd be useful. That was 2013. I'm still there. Good ideas get heard regardless of where they come from, I've never had to play politics to give input, and I still have my hands on a big portion of the product. The role lets me work across domains (design, engineering, UX) and connect them the way I naturally would. Twelve years at one place isn't an accident.
+I arrived in 2013 through a friend from the songwriter community in Park Slope. They heard "web guy" and figured I would be useful. Twelve years later I am still there. Good ideas get heard regardless of where they come from, and the role lets me work across domains (design, engineering, UX) and connect them the way I naturally would. Twelve years at one place is not an accident.
 
-I walked in and found a Windows Forms application. Desktop-only, OS-dependent. But the software underneath was solid, built by the guy who started it in his dorm room a decade earlier and was still running it. The delivery layer was the constraint. I made the case for the browser. OS-agnostic, wider reach, better positioned. They said yes.
+What I found was a Windows Forms application. Desktop-only, OS-dependent. The software underneath was solid, built by the founder who started it in his dorm room a decade earlier and was still running it. The delivery layer was the constraint. I made the case for the browser: OS-agnostic, wider reach, better positioned. They said yes.
 
-I built the front-end from scratch: a modular namespaced JS framework, a full SCSS design system, information architecture across one of the most complex recruiting platforms in the world. Rolling dev, staging, and production servers meant the platform never stopped running while I built the layer it now runs on.
+I built the front-end from scratch. A modular namespaced JS framework, a full SCSS design system, information architecture across one of the most complex recruiting platforms in the world. Rolling dev, staging, and production servers meant the platform never stopped running while I built the layer it now runs on.
 
-The rest of the industry went browser-based. Twelve years in, the call held. Turns out that's exactly what a web guy was for.
+The rest of the industry went browser-based. Twelve years in, the call held.
 
-Twelve years on a platform like this is where you learn what institutional memory actually costs. That experience is what eventually led me to formalize the [Formwork Protocol](/systems/formwork/) on my own time.
+Twelve years on a platform like this is where you learn what institutional memory actually costs. That experience is what led to the [Formwork](/systems/formwork/) process.
 
 ![Encore Max across desktop, laptop, and mobile]({{ '/assets/img/Encore_devices.png' | relative_url }}){:.image.diagram}
 

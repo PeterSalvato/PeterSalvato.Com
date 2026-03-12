@@ -24,21 +24,21 @@ glyphs: "■ ▶ ◆ ⬣ ⬟"
 codex: "/Æ/#|●■||▶◆⬣|||■⬟⟩⟩[output.aiden-jae]/"
 ---
 
-My wife studied oil painting at Parsons and Brooklyn College. She designs fine jewelry, sculpts by hand what she can't get modeled or rendered the way she wants it, and has the pieces manufactured sustainably from 100% recycled solid gold through RJC-certified partners. Genuine stones, responsibly sourced. Pouches sewn in-house from organic wool felt. Carbon neutral shipping. Pollinator protection funded from every sale. She runs the whole thing that way because she actually believes in it, not because it looks good on an About page.
+My wife studied oil painting at Parsons and Brooklyn College. She designs fine jewelry and has the pieces manufactured sustainably from 100% recycled solid 9k gold through RJC-certified partners. Genuine stones, responsibly sourced. Pouches sewn in-house from organic wool felt. Carbon neutral shipping. Pollinator protection funded from every sale. She runs the business this way because she believes in it, not because it reads well on an About page.
 
-She had the product and she had the expertise. What she didn't have was any of the infrastructure to put it in front of someone. No brand, no platform, no photography system. I built all of it.
+She had the product and the expertise. What she did not have was the infrastructure to put it in front of someone. No brand, no platform, no photography system. I built all of it.
 
-![A gold ring being finished with a rotary tool]({{ '/assets/img/AidenJae_bench.jpg' | relative_url }}){:.image.photo}
+![A gold ring being finished with a rotary tool at Beauty Gems Bangkok]({{ '/assets/img/AidenJae_bench.jpg' | relative_url }}){:.image.photo}
 
-The first thing I had to figure out was what made this brand different from everything else in the category, and then make sure every piece of the system proved it. She's working in solid recycled gold at a price point that sits between fast fashion and traditional luxury. The sustainability isn't a badge. It's how the business actually operates. But none of that means anything if the customer can't see it.
+The first question was what made this brand different from everything else in the category, and then making sure every piece of the system proved it. She works in solid recycled gold at a price point between fast fashion and traditional luxury. The sustainability is not a badge. It is how the business operates. But none of that means anything if the customer cannot see it.
 
 ![Banyan texture rings on green felt]({{ '/assets/img/AidenJae_gold_rings_felt.jpg' | relative_url }}){:.image.photo}
 
 ---
 
-So I started with the identity. Clean typographic wordmark. A palette pulled from the materials: warm browns, muted sage, cream, a pink accent. Generous whitespace. Typography that stays out of the way. The whole visual language had to feel restrained and elegant without performing luxury. The product is the luxury, not the branding.
+The identity came first. Clean typographic wordmark. A palette pulled from the materials: warm browns, muted sage, cream, a pink accent. Generous whitespace. Typography that stays out of the way. The visual language had to feel restrained and elegant without performing luxury. The product is the luxury, not the branding.
 
-These became rules, not preferences. Every visual element either reinforces what the product actually is or it gets cut. Try to write "elegantly crafted with love" and the design language exposes it as hollow. That's what a good brand system does. It rejects what doesn't belong.
+These became rules, not preferences. Every visual element either reinforces what the product actually is or it gets cut. Write "elegantly crafted with love" and the design language exposes it as hollow. A good brand system rejects what does not belong.
 
 <div class="palette-grid">
   <div class="palette-swatch">
@@ -73,13 +73,13 @@ These became rules, not preferences. Every visual element either reinforces what
   </div>
 </div>
 
-I did all the photography. Camera and post. This is where a brand like this either proves itself or lies. Lighting that shows you how gold actually catches light, how a stone sits in a setting, what the texture looks like up close. No retouching that hides the hand-finishing. No color grading that promises something the piece doesn't deliver. Top-down for the primary shot, angled for the secondary, detail for the third. The aspect ratios change because each piece has different visual weight. The system doesn't force the photograph into a preset box.
+I did all the photography. Camera and post. This is where a brand like this either proves itself or lies. Lighting that shows how gold actually catches light, how a stone sits in a setting, what the texture looks like up close. No retouching that hides the hand-finishing. No color grading that promises something the piece does not deliver. Top-down for the primary shot, angled for the secondary, detail for the third. The aspect ratios change because each piece has different visual weight. The system does not force the photograph into a preset box.
 
-The photography isn't illustrating the brand. It is the brand. When you see the actual texture of recycled gold under honest light, you're seeing the quality and the sourcing story without reading a word.
+The photography is the brand. When you see the actual texture of recycled gold under honest light, you are seeing the quality and the sourcing story without reading a word.
 
 ![Hands wearing Aiden Jae rings among tropical foliage]({{ '/assets/img/AidenJae_lifestyle_palms.jpg' | relative_url }}){:.image.photo}
 
-I designed the packaging concepts too. The pouches are wool felt, sewn in-house. When the package arrives, the material the customer touches tells the same story the photography started. That's the point. Every touchpoint is one system, not separate departments doing separate things.
+I designed the packaging concepts. The pouches are wool felt, sewn in-house. When the package arrives, the material the customer touches tells the same story the photography started. Every touchpoint is one system, not separate departments doing separate things.
 
 ![Custom wool jewelry pouch being sewn]({{ '/assets/img/AidenJae_jewelry_pouch.png' | relative_url }}){:.image.photo}
 
@@ -87,7 +87,7 @@ I designed the packaging concepts too. The pouches are wool felt, sewn in-house.
 
 ---
 
-Then the platform. A generic Shopify template treats every product the same. Same grid, same spacing, same assumptions. A quality ring in that grid looks like a commodity. So I built a custom system: Liquid templates, SCSS framework, product page architecture. The whole thing is designed so the typography, spacing, and hierarchy reinforce the identity the photography establishes. The template serves the brand instead of overriding it.
+The platform. A generic Shopify template treats every product the same: same grid, same spacing, same assumptions. A quality ring in that grid looks like a commodity. I built a custom system: Liquid templates, SCSS framework, product page architecture. The typography, spacing, and hierarchy reinforce the identity the photography establishes. The template serves the brand instead of overriding it.
 
 Product pages are structured more like case studies than product listings: material story, production notes, design rationale sitting alongside the piece. The platform shows the work instead of hiding it behind marketing copy.
 
@@ -103,9 +103,9 @@ From the announcement bar to the footer, the whole site runs as one integrated s
 
 ---
 
-The system scales because it's built on principles, not templates. New product lines with different materials and different photography needs still hold the brand logic. The way things are photographed, spaced, and presented does the storytelling before anyone clicks the About page.
+The system scales because it is built on principles, not templates. New product lines with different materials and different photography needs still hold the brand logic. The way things are photographed, spaced, and presented does the storytelling before anyone clicks the About page.
 
-You can't get this from a generic template. Copy the photography without the identity system and the images look good but don't add up to anything. Copy the identity without the platform and the design contradicts itself on every product page. The pieces are interdependent. That's the whole point.
+This does not come from a generic template. Copy the photography without the identity system and the images look good but do not add up to anything. Copy the identity without the platform and the design contradicts itself on every product page. The pieces are interdependent.
 
 ![Banyan Balance Ring Stack]({{ '/assets/img/AidenJae_banyan_rings.jpg' | relative_url }}){:.image.photo}
 
@@ -117,7 +117,7 @@ You can't get this from a generic template. Copy the photography without the ide
 
 ---
 
-This wasn't a website project. It was a business's entire communicative infrastructure built from scratch: identity, photography, platform, packaging, market positioning. One system. Pull any piece out and the rest doesn't hold.
+This was not a website project. It was a business's entire communicative infrastructure built from scratch: identity, photography, platform, packaging, market positioning. One system. Pull any piece out and the rest does not hold.
 
 ![Knotted Tropics collection]({{ '/assets/img/AidenJae_hero_knotted_tropics.jpg' | relative_url }}){:.image.photo}
 
