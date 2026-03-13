@@ -48,21 +48,20 @@ $font-body:    'Rubik', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-seri
 $font-display: 'Chainprinter', 'Space Mono', monospace;
 $font-mono:    'Space Mono', monospace;
 
-// Type scale — Tufte-calibrated. Body at 16–18px, headings at 1.5–2.3x body.
-// Tufte: 21px body, h1 2.3x, h2 1.57x, h3 1.21x. Butterick: 15–25px body.
-// Adapted down slightly from Tufte (Rubik reads larger than ET Book).
-$type-xs:       clamp(0.75rem, 0.7rem + 0.15vw, 0.8rem);       // 12–13px
-$type-sm:       clamp(0.8rem, 0.75rem + 0.15vw, 0.875rem);      // 13–14px
-$type-caption:  clamp(0.875rem, 0.825rem + 0.15vw, 0.9375rem);  // 14–15px
-$type-body-sm:  clamp(0.9375rem, 0.9rem + 0.2vw, 1rem);         // 15–16px
-$type-body:     clamp(1rem, 0.95rem + 0.25vw, 1.125rem);         // 16–18px
-$type-body-lg:  clamp(1.0625rem, 1rem + 0.25vw, 1.1875rem);     // 17–19px
-$type-subhead:  clamp(1.125rem, 1.05rem + 0.3vw, 1.3125rem);    // 18–21px
-$type-head-sm:  clamp(1.25rem, 1.15rem + 0.4vw, 1.5rem);        // 20–24px
-$type-head:     clamp(1.375rem, 1.25rem + 0.5vw, 1.75rem);      // 22–28px
-$type-head-lg:  clamp(1.5rem, 1.35rem + 0.55vw, 1.875rem);      // 24–30px
-$type-title:    clamp(1.625rem, 1.45rem + 0.65vw, 2.125rem);    // 26–34px
-$type-display:  clamp(1.875rem, 1.6rem + 0.9vw, 2.5rem);        // 30–40px
+// Type scale — Tufte's actual values on 15px base. Fixed, not fluid.
+// Textbooks don't change font size between formats.
+$type-xs:       0.733rem;   //  11px  — footnotes, fine print
+$type-sm:       0.8rem;     //  12px  — small labels
+$type-caption:  0.867rem;   //  13px  — captions, metadata
+$type-body-sm:  1.0rem;     //  15px  — sidebar, secondary text (= html base)
+$type-body:     1.4rem;     //  21px  — body text (Tufte exact)
+$type-body-lg:  1.6rem;     //  24px  — decks, lead paragraphs
+$type-subhead:  1.7rem;     //  25.5px — Tufte h3 ratio (1.21x body)
+$type-head-sm:  1.8rem;     //  27px  — small headings
+$type-head:     2.2rem;     //  33px  — Tufte h2 ratio (1.57x body)
+$type-head-lg:  2.6rem;     //  39px  — large headings
+$type-title:    3.0rem;     //  45px  — page titles
+$type-display:  3.2rem;     //  48px  — Tufte h1 ratio (2.29x body)
 
 // Context-specific sizes
 $type-hero:        $type-display;
@@ -82,14 +81,14 @@ $tracking-wider:    0.1em;
 $tracking-widest:   0.12em;
 $tracking-spread:   0.2em;
 
-// Line-height — Tufte body at 1.43, Butterick 1.2–1.45. Textbook, not blog.
+// Line-height — Tufte body: 2rem / 1.4rem = 1.4286
 $leading-none:      1;
 $leading-tight:     1.15;
 $leading-snug:      1.3;
-$leading-normal:    1.45;    // body text (was 1.5; Tufte uses 1.43)
-$leading-relaxed:   1.5;     // captions, decks (was 1.6)
-$leading-loose:     1.6;     // spacious contexts (was 1.7)
-$leading-spacious:  1.7;     // was 1.8
+$leading-normal:    1.43;    // body text (Tufte exact: 2rem / 1.4rem)
+$leading-relaxed:   1.5;     // captions, decks
+$leading-loose:     1.6;
+$leading-spacious:  1.7;
 
 // ----------------------------------------------------------------------------
 // RULES (borders)
@@ -113,13 +112,14 @@ $padding-medium:       24px;
 // SPACING (baseline rhythm)
 // ----------------------------------------------------------------------------
 
-$baseline:     1.5rem;
-$gap-small:    calc(#{$baseline} * 0.33);   //  ~8px
-$gap-medium:   calc(#{$baseline} * 0.67);   // ~16px
-$gap-large:    $baseline;                    //  24px
-$gap-xlarge:   calc(#{$baseline} * 1.5);     //  36px
-$gap-xxlarge:  calc(#{$baseline} * 2);       //  48px
-$gap-xxxlarge: calc(#{$baseline} * 3);       //  72px
+// Baseline = one body text line (Tufte: 2rem = 30px on 15px base)
+$baseline:     2rem;
+$gap-small:    calc(#{$baseline} * 0.33);   //  ~10px
+$gap-medium:   calc(#{$baseline} * 0.67);   //  ~20px
+$gap-large:    $baseline;                    //   30px
+$gap-xlarge:   calc(#{$baseline} * 1.5);     //   45px
+$gap-xxlarge:  calc(#{$baseline} * 2);       //   60px
+$gap-xxxlarge: calc(#{$baseline} * 3);       //   90px
 
 // ----------------------------------------------------------------------------
 // OPACITY

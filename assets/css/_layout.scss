@@ -1,10 +1,11 @@
 // ============================================================================
 // MAIN CONTENT (default.html)
+// Tufte composition: generous margins, content breathes in the page.
 // ============================================================================
 
 #main-content {
-  padding: $padding-large $padding-large;
-  padding-left: calc(#{$sidebar-width} + 2rem);
+  padding: 4rem 4rem 6rem;
+  padding-left: calc(#{$sidebar-width} + 4rem);
 
   #container {
     max-width: $container-max-width;

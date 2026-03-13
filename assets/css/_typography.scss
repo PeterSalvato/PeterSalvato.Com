@@ -2,13 +2,13 @@
 // TYPOGRAPHY — Textbook register
 // ============================================================================
 
-// Tufte heading proportions: h1 at 2.3x body, h2 1.57x, h3 1.21x.
-// Top margins create chapter-like breaks (Tufte uses 2–3x body above h1).
+// Tufte heading margins (exact): h1 margin-top 4rem, h2 2.1rem, h3 2rem.
+// Heading margin-bottom matches body font size (1.4rem).
 h1, h2, h3, h4, h5, h6 {
   font-family: $font-display;
   font-weight: 600;
-  margin-bottom: $gap-medium;
-  margin-top: $gap-xxxlarge;
+  margin-bottom: 1.4rem;
+  margin-top: 4rem;
   text-wrap: balance;
 
   &:first-child {
@@ -17,28 +17,33 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: $type-display;
+  font-size: $type-display;    // 3.2rem = 48px (Tufte exact)
   line-height: $leading-tight;
   letter-spacing: $tracking-tight;
   text-transform: uppercase;
+  margin-top: 4rem;            // Tufte: 4rem above h1
+  margin-bottom: 1.5rem;       // Tufte: 1.5rem below h1
 }
 
 h2 {
-  font-size: $type-head;
+  font-size: $type-head;       // 2.2rem = 33px (Tufte exact)
   line-height: 1.2;
   letter-spacing: $tracking-snug;
-  margin-top: $gap-xxlarge;
+  margin-top: 2.1rem;          // Tufte exact
+  margin-bottom: 1.4rem;       // Tufte exact
 }
 
 h3 {
-  font-size: $type-head-sm;
+  font-size: $type-head-sm;    // 1.8rem = 27px
   line-height: $leading-snug;
   letter-spacing: $tracking-snug;
-  margin-top: $gap-xlarge;
+  margin-top: 2rem;            // Tufte exact
+  margin-bottom: 1.4rem;       // Tufte exact
 }
 
 p {
-  margin-bottom: $baseline;
+  margin-top: 1.4rem;          // Tufte: paragraph spacing = body font size
+  margin-bottom: 1.4rem;
   text-wrap: pretty;
 }
 
