@@ -5,13 +5,9 @@ practice_group: meditations
 title: "Monstrum"
 subtitle: "Visual Taxonomy of the Monstrous"
 icon: bug_report
-altitude: "03"
 status: "In Development"
 published: false
 context: "Every culture builds monsters to say what it can't say directly. The creature is the statement: form, behavior, and destruction pattern as syntax for what can't be articulated."
-drift: "Horror defaults to excess. When everything is amplified, nothing lands. Excess dilutes the uncanny."
-scaffold: "Archival aesthetics, dark high contrast, the same scholarly apparatus applied to monsters that field guides apply to real species. Restraint amplifies what excess dilutes."
-fidelity: "The uncanny survives the frame. Form is the document."
 faculty: ["design"]
 seo_keywords: ["Kaiju Design", "Cultural Analysis", "Speculative Fiction", "Creature Architecture", "Collective Psychology"]
 description: "Visual taxonomy of the monstrous. Archival aesthetics and scholarly apparatus applied to creatures every culture builds to say what it can't say directly."

@@ -5,7 +5,7 @@ redirect_from:
 title: "What I Built This Year"
 published: true
 order: 8
-description: "Twenty-five years of the same operation across different materials. This year I finally had tools that could keep up with the velocity."
+description: "The same operation across different materials. This year I finally had tools that could keep up with the velocity."
 seo_keywords: ["design engineering", "design methodology", "AI governance", "creative evaluation framework", "operational methodology", "Peter Salvato", "Formwork Protocol", "building AI tools for creative work", "AI workflow for designers", "what can you build with AI in a year", "AI productivity for creatives"]
 ---
 

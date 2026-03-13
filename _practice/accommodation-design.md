@@ -5,12 +5,7 @@ practice_group: whitepaper
 title: "AI Governance as Accommodation Design"
 subtitle: "A Pedagogical Framework for Human-AI System Architecture"
 icon: school
-altitude: "01"
 status: "Published"
-context: "Current AI governance asks how to constrain the model. This paper asks what the model actually needs to do the job. The question comes from a special education classroom in Brooklyn."
-drift: "The field treats every processing failure as a control problem. More rules, longer prompts, tighter guardrails. Output keeps degrading. Nobody asks whether the task design is the problem."
-scaffold: "Accommodation design applies special education pedagogy to AI architecture. Task decomposition, individualized evaluation, temporary scaffolding, processing profile assessment. Six tools, each built from the same question applied to a different constraint."
-fidelity: "The production site petersalvato.com was compiled using the system described in this paper. The accommodation architecture built the thing that explains the accommodation architecture."
 faculty: ["design", "engineering", "uxia"]
 seo_keywords: ["AI governance", "accommodation design", "special education pedagogy", "prompt architecture", "task decomposition", "IEP design pattern", "AI evaluation framework", "human-AI architecture", "why AI output gets worse", "how to get better results from AI", "AI prompt engineering not working", "ChatGPT complex tasks", "special education methods for AI", "AI cognitive limitations", "how to structure AI tasks"]
 description: "A whitepaper applying special education pedagogy to AI system architecture. Rather than constraining model behavior, accommodation design asks what the model's processing reality requires to produce quality output."
@@ -20,8 +15,6 @@ related:
   - /systems/formwork
   - /systems/savepoint
   - /essays/the-iep-for-ai-systems
-glyphs: "▲ ⬣ ■"
-codex: "/Ae/#|●▲||⬣■|||▲⟩⟩[governance.accommodation-design]/"
 ---
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18941231.svg)](https://doi.org/10.5281/zenodo.18941231)

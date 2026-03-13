@@ -4,12 +4,8 @@ redirect_from: /output/new-city/
 title: "New City"
 subtitle: "Registration Architecture Applied to Prose"
 icon: location_city
-altitude: "03"
 status: "In Development"
 context: "I've never written a novel. I had a story idea and wanted to see if the same design thinking I use everywhere else would hold in a material I'd never worked in. So I built the architecture first."
-drift: "Fiction defaults to intuition. Plot improvised, world inconsistencies caught late, reader state never designed. The governing constraint abandoned under pressure. The same failure mode as every other domain: complexity outrunning what intuition can hold."
-scaffold: "Three-layer fractal. Three-act Western arc at the top. Kishōtenketsu perception-sequencing at every layer beneath. Each beat specced across three simultaneous layers: story, narrative structure, and reader somatic experience."
-fidelity: "The methodology holds. Architecture is the deliverable. Beat spec system designed and tested."
 faculty: ["design", "uxia", "engineering"]
 seo_keywords: ["Narrative Architecture", "Registration Systems", "Somatic Design", "UX Methodology", "Kishōtenketsu", "Beat Specification", "Reader Experience Design"]
 description: "Registration architecture applied to prose. Four simultaneous layers across a three-layer fractal. Each beat specced for story, narrative structure, and somatic reader experience."
@@ -21,8 +17,6 @@ related:
 cta:
   text: "See the protocol that came from this"
   link: /systems/savepoint
-glyphs: "▼ ▲ ◀"
-codex: "/Æ/#|●▼||▲◀|||▼~[output.new-city]/"
 ---
 
 I had never written a novel. I had a story idea and wanted to find out whether the same design thinking I use everywhere else would hold in a material I had never worked in. Brand systems, enterprise platforms, music production. The methodology transfers across all of them. Could it transfer to fiction?

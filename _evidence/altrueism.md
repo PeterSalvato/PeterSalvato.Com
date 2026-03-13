@@ -6,12 +6,8 @@ subtitle: "Transparency as Visual Architecture"
 icon: volunteer_activism
 logo: /assets/img/Altruesm_stacked_web.png
 logo_type: stacked
-altitude: "03"
 status: "Delivered"
 context: "A brand for handcrafted objects and sustainable ethics. The first round of explorations looked right and matched the category. It was the wrong answer. Script fonts say 'handmade.' They don't prove it."
-drift: "Craft brands default to warmth signals: script, gesture, flourish. That visual language performs handwork. It doesn't prove it. The client's actual character (communal, slow, structural) would disappear into the category."
-scaffold: "A brand system built for quietness: restrained wordmark, humanist type with space to breathe, earthen palette, recycled stock. Brand book written as a meditative tool for intention, not marketing."
-fidelity: "Complete system: full identity, visual language, packaging, brand book. Delivered as one integrated system."
 faculty: ["design", "uxia"]
 seo_keywords: ["Brand Identity", "Visual Systems", "Sustainable Design", "Identity Architecture", "Craft Branding"]
 description: "Brand identity for handcrafted objects and sustainable ethics. Restrained wordmark, humanist type, earthen palette. Transparency as visual architecture."
@@ -19,8 +15,6 @@ last_modified: 2026-02-25
 related:
   - /evidence/aiden-jae
   - /systems/formwork
-glyphs: "▲ ■ ◆"
-codex: "/Æ/#|●▲||■◆|||■⟩⟩[output.altrueism]/"
 ---
 
 The first round of explorations went where most craft brands go: script fonts, cursive motion, gesture. The visual language of handmade warmth. It looked right. It matched the category. It was the wrong answer.

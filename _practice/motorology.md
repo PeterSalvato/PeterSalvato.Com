@@ -5,13 +5,9 @@ practice_group: meditations
 title: "Motorology"
 subtitle: "Systematic Visual Taxonomy of Purpose-Built Vehicles"
 icon: directions_car
-altitude: "03"
 status: "In Development"
 published: false
 context: "Purpose-built vehicles are engineering problems solved in steel. Every line, every weld, every bolt carries the logic of the specific constraint it was built to answer."
-drift: "Automotive culture tends toward nostalgia or spec obsession. Both obscure the structure. You feel the machine but you don't see it."
-scaffold: "12-column grids, DIN and Akzidenz-Grotesk, technical layouts styled as engineering documentation. Each poster documents what the vehicle learned from its environment."
-fidelity: "The grid reveals what sentiment obscures. Rigor makes you see more."
 faculty: ["design"]
 seo_keywords: ["Vehicle Design", "Technical Documentation", "Purpose-Built Engineering", "Industrial Systems", "Function as Philosophy"]
 description: "Purpose-built vehicles as engineering problems solved in steel. 12-column grids, DIN typefaces, technical layouts styled as engineering documentation."

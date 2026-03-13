@@ -2,7 +2,7 @@
 layout: context
 title: "How I Think"
 permalink: /thinking/
-description: "The practice starts with one question: what does the system receiving this actually need? From a self-contained classroom in Brooklyn to enterprise platforms to AI governance. The material changes. The person on the other end doesn't."
+description: "The practice starts with one question: what does the system receiving this actually need? From a self-contained classroom in Brooklyn to enterprise platforms to AI governance."
 seo_keywords: ["design engineering", "design methodology", "cross-domain architecture", "compiled portfolio", "SVA", "visual communication", "provenance"]
 last_modified: 2026-03-02
 faq: true
@@ -18,8 +18,6 @@ faq_items:
 A student in my classroom hears "solve for the missing number, show your work, and explain your reasoning" and starts working on the first part. The rest is gone. Three tasks disguised as one, given to a system that cannot process them whole.
 
 You learn to decompose. One objective at a time. One visible result before the next step. Temporary scaffolding that comes off when the competence is solid. Twelve students means twelve different processing profiles, twelve different definitions of progress. The structure has to hold at every level.
-
-The material changes. The person on the other end does not.
 
 ---
 

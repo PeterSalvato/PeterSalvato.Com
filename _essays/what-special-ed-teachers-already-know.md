@@ -30,10 +30,6 @@ Everything you do in a classroom maps directly to AI system design:
 
 ## Why the field needs you
 
-The AI governance field is populated by computer scientists and policy professionals. Computer scientists approach the model as a system to optimize. Policy professionals approach it as a risk to manage. When output degrades, both groups add more constraint: longer prompts, tighter rules, more guardrails.
-
-Neither discipline trains practitioners in accommodation. Yours does.
-
 The question that drives good IEP design ("what does this student actually need to succeed at this task?") is the same question that produces better AI architecture: what does this system actually need to do this job well? The people who've been asking that question about human learners for their entire careers are the people the field needs most.
 
 I taught a self-contained 4/5 bridge class in Sunset Park, Brooklyn. Twelve students, every subject, every accommodation. The framework I built for AI governance came directly from that room. I call it [accommodation design](/practice/accommodation-design/). The skill set is transferable because the underlying problem is the same: a system with specific processing constraints receiving tasks designed for a different processing profile.

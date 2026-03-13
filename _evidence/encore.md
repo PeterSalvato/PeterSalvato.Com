@@ -4,12 +4,8 @@ redirect_from: /infrastructure/encore/
 title: "Encore"
 subtitle: "12-Year Enterprise Platform Evolution"
 icon: domain
-altitude: "02"
 status: "Deployed"
 context: "A solid Windows Forms application serving some of the largest organizations in the world. The software was good. The delivery layer was about to become the constraint."
-drift: "Desktop-only, OS-dependent. The platform itself was healthy. The delivery layer was the constraint, and without the browser, the platform couldn't follow its users. The wind was a world going web."
-scaffold: "Made the case for the browser move, then built the front-end from scratch: modular namespaced JS framework, full SCSS design system, information architecture across one of the most complex recruiting platforms in the world."
-fidelity: "That was 2013. Twelve years in, the industry went the same way. The platform runs inside organizations I can't name, but you'd recognize them. The call held."
 faculty: ["design", "engineering", "uxia"]
 seo_keywords: ["Enterprise Architecture", "Legacy Modernization", "Design Systems", "Long-term Maintenance", "Platform Durability"]
 description: "Twelve-year enterprise platform evolution (2013-2025). Migrated a desktop Windows Forms recruiting platform to a browser-based modular JS framework while it served some of the largest organizations in the world."
@@ -20,8 +16,6 @@ related:
 cta:
   text: "See the methodology behind twelve years of this"
   link: /systems/formwork
-glyphs: "▲ ■ ⬣"
-codex: "/Æ/#|●▲||■⬣|||⬣▲~[infrastructure.encore]/"
 ---
 
 I arrived in 2013 through a friend from the songwriter community in Park Slope. They heard "web guy" and figured I would be useful. Twelve years later I am still there. Good ideas get heard regardless of where they come from, and the role lets me work across domains (design, engineering, UX) and connect them the way I naturally would. Twelve years at one place is not an accident.

@@ -48,8 +48,6 @@ Evaluation works this way too. Ask a model to evaluate something on six dimensio
 
 Every system I've built sequences elements for a receiver with specific processing constraints. A crowd that's been dancing for four hours. A student with attention limits documented in an IEP. A model with a context window and attention degradation.
 
-The material changes. The read doesn't.
-
 Attunement is the input: reading what the system receiving your work can actually absorb right now. Pacing is the output: designing the sequence around that read. Together they produce the thing that makes structure feel like experience instead of instruction.
 
 If the structure peeks out, it didn't do its job. A good DJ set doesn't feel sequenced. A good lesson doesn't feel scaffolded. A well-decomposed prompt sequence doesn't feel like twelve separate tasks. It feels like one coherent thing that happened to land exactly right.

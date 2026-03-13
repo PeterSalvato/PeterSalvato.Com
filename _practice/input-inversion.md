@@ -5,12 +5,7 @@ practice_group: whitepaper
 title: "Input Inversion"
 subtitle: "Why Unstructured Human Thinking Produces Better AI Output"
 icon: swap_vert
-altitude: "01"
 status: "Published"
-context: "The AI industry assumes quality output requires structured input. Three years of evidence says the opposite is true. Raw, unstructured human thinking produces better results when purpose-built tools handle the translation."
-drift: "Every best-practice guide says the same thing: structure your prompts, define your output format, be specific. The assumption is so embedded that nobody tests it. Meanwhile, the evidence from adjacent fields (RAG, voice interaction, agentic workflows) keeps pointing the other direction."
-scaffold: "Input inversion reverses the burden. Instead of requiring humans to pre-structure their thinking for the model's processing constraints, build tools that accept raw human input and structure it after the fact. The human stays unfiltered. The model gets what it needs. The translation happens in between."
-fidelity: "The production site petersalvato.com was compiled from 1,643 ChatGPT sessions, 700+ Claude sessions, and Gemini exports. Unstructured thinking processed by accommodation tools. The quality of the output came from the depth of the raw material, not from structuring the input."
 faculty: ["design", "engineering"]
 seo_keywords: ["input inversion", "unstructured AI input", "structured prompts overrated", "raw thinking AI", "voice input AI", "prompt engineering diminishing returns", "talking to AI", "AI brainstorming", "accommodation design", "better AI results without structure", "why prompt engineering fails", "unstructured data AI quality"]
 description: "A whitepaper challenging the foundational assumption of prompt engineering: that quality AI output requires structured human input. Three years of applied evidence demonstrates that raw, unstructured thinking produces better results when purpose-built tools handle the translation."
@@ -20,8 +15,6 @@ related:
   - /practice/accommodation-design
   - /essays/the-unstructured-corpus
   - /essays/talk-to-it
-glyphs: "▲ ⬣ ■"
-codex: "/Ae/#|●▲||⬣■|||▲⟩⟩[governance.input-inversion]/"
 ---
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18962881.svg)](https://doi.org/10.5281/zenodo.18962881)

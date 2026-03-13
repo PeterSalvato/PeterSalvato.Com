@@ -5,12 +5,7 @@ practice_group: whitepaper
 title: "A Different Kind of Harness"
 subtitle: "AI as Cognitive Prosthetic Through Mutual Accommodation"
 icon: accessibility_new
-altitude: "01"
 status: "Published"
-context: "The AI field frames models as tools you use or agents that act for you. Both miss the third relationship: a cognitive extension you rig to yourself. The harness goes both ways. You adapt to it. It adapts to you. Neither works alone."
-drift: "Tool framing treats AI as passive. Agent framing treats AI as autonomous. Both assume a boundary between the human and the system. The most productive relationship dissolves that boundary through purpose-built coupling."
-scaffold: "Prosthetic cognition applies extended mind theory to AI practice. The model extends the practitioner's cognitive reach: unlimited working memory, parallel evaluation, pattern recognition across a corpus too large to hold in one head. Purpose-built interfaces handle the coupling. The practitioner stays in the loop because the loop runs through them."
-fidelity: "Three years of continuous cognitive coupling between a single practitioner and AI systems produced a professional site, a whitepaper, an open-source toolkit, and a design methodology. The coupling itself is the evidence."
 faculty: ["design", "engineering", "uxia"]
 seo_keywords: ["AI cognitive extension", "human-AI collaboration", "extended mind AI", "cognitive prosthetic", "AI augmentation", "human-AI coupling", "AI as thinking partner", "prosthetic cognition", "mutual accommodation AI", "cognitive load AI", "AI workflow design", "human-computer interaction AI", "AI not a tool", "thinking with AI"]
 description: "A whitepaper proposing that AI is most productive as a cognitive prosthetic: an extension of the practitioner's thinking through mutual accommodation. The model extends cognitive reach. The practitioner directs cognitive intent. Purpose-built interfaces handle the coupling."
@@ -20,8 +15,6 @@ related:
   - /practice/accommodation-design
   - /practice/input-inversion
   - /essays/the-unstructured-corpus
-glyphs: "▲ ⬣ ■"
-codex: "/Ae/#|●▲||⬣■|||▲⟩⟩[governance.prosthetic-cognition]/"
 ---
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18962893.svg)](https://doi.org/10.5281/zenodo.18962893)

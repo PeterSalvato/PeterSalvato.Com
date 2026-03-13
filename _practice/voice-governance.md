@@ -4,12 +4,7 @@ practice_group: whitepaper
 title: "Voice Governance"
 subtitle: "Generation Constraints vs. Post-Hoc Filtering in AI-Mediated Writing"
 icon: record_voice_over
-altitude: "01"
 status: "Published"
-context: "AI-generated text sounds like everyone else's AI-generated text. The industry treats voice as a post-generation problem: generate, then check, then revise. This paper argues the architecture is backwards."
-drift: "The generate-then-filter paradigm is the dominant approach across every major AI writing tool. The assumption is that voice can be applied after generation. It cannot, because voice is structural, not surface."
-scaffold: "Voice governance applies generation constraints before the model begins producing. Codified rules extracted from how the practitioner actually talks in conversation, not from published writing. Forty discrete constraints, applied during production. The model routes around its defaults when the constraints prevent them from activating."
-fidelity: "A blind evaluation by a third-party AI assessment tool rated the output 'unequivocally human-written.' The same model produces detectable AI text without the protocol and undetectable text with it. The protocol is the variable."
 faculty: ["design", "engineering"]
 seo_keywords: ["voice governance", "AI writing voice", "generation constraints", "post-hoc filtering", "AI voice fidelity", "AI slop", "voice protocol", "accommodation design", "AI copy sounds generic", "how to make AI writing sound human", "AI writing voice matching", "why AI text sounds the same"]
 description: "A whitepaper arguing that voice constraints applied during AI text generation produce structurally different output than the same constraints applied as post-hoc filters. Presents a forty-rule voice protocol developed over three years of applied practice."
@@ -19,8 +14,6 @@ related:
   - /practice/accommodation-design
   - /practice/input-inversion
   - /essays/voice-governance
-glyphs: "▲ ⬣ ■"
-codex: "/Ae/#|●▲||⬣■|||▲⟩⟩[governance.voice-governance]/"
 ---
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18986297.svg)](https://doi.org/10.5281/zenodo.18986297)

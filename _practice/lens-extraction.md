@@ -4,12 +4,7 @@ practice_group: whitepaper
 title: "Lens Extraction"
 subtitle: "Decomposed Evaluation Through Practitioner-Derived Criteria"
 icon: visibility
-altitude: "01"
 status: "Published"
-context: "Is this good? is twelve questions disguised as one. AI evaluation flattens them into a single score. This paper extracts named practitioners' evaluative frameworks, codifies them as testable criteria, and runs them independently against the same work."
-drift: "The AI evaluation field is organized around single-perspective scoring. One model, one rubric, one score. The evaluative function is flattened into a number that obscures what is strong, what is weak, and where the maker's judgment is needed."
-scaffold: "Lens extraction reconstructs the multi-perspective evaluation that working practitioners have always relied on. Study a practitioner's output, extract their framework, codify as testable criteria, validate against their known work. Multiple lenses run independently. Convergence and divergence are both signal."
-fidelity: "The production system runs twenty-two single-purpose diagnostic skills and five coordinators. Lenses extracted from Vignelli, Bierut, Millman, Victore, Rams, Shaw, Muller-Brockmann, and Draplin. Deployed on petersalvato.com for three years."
 faculty: ["design", "engineering"]
 seo_keywords: ["lens extraction", "AI evaluation decomposition", "practitioner-derived evaluation", "design critique AI", "multi-perspective evaluation", "LLM-as-judge", "decomposed evaluation", "accommodation design", "SVA critique room", "Vignelli lens", "design evaluation framework", "AI design review"]
 description: "A whitepaper proposing lens extraction: a protocol for extracting named practitioners' evaluative frameworks, codifying them as testable criteria, and running multiple lenses independently against the same work. Where they disagree is where the maker's judgment is needed."
@@ -19,8 +14,6 @@ related:
   - /practice/accommodation-design
   - /systems/formwork
   - /essays/persona-extraction
-glyphs: "▲ ⬣ ■"
-codex: "/Ae/#|●▲||⬣■|||▲⟩⟩[governance.lens-extraction]/"
 ---
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18986295.svg)](https://doi.org/10.5281/zenodo.18986295)

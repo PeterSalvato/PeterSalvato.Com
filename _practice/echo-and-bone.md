@@ -8,12 +8,8 @@ subtitle: "Symbolic Taxonomy of Archetypal Patterns"
 icon: skeleton
 logo: /assets/img/EchoAndBone_logo.svg
 logo_type: wordmark
-altitude: "03"
 status: "In Development"
 context: "Archetypes kept appearing across every domain: mythology, visual design, narrative architecture. Not as decoration. As load-bearing elements."
-drift: "Archetypal thinking defaults to mysticism or pop psychology. Neither treats patterns as structural material you can build with."
-scaffold: "Stoic philosophy as the first test case. Three concepts, three prints. The visual element encodes the same content as the text, at the level of symbol, not illustration."
-fidelity: "In development. Three prints: Memento Mori, Amor Fati, Summum Bonum. The taxonomy is what they're the beginning of."
 faculty: ["design"]
 seo_keywords: ["Archetypal Patterns", "Symbolic Systems", "Stoic Philosophy", "Typography Research", "Meaning Architecture"]
 description: "Symbolic taxonomy of archetypal patterns. Stoic philosophy as first test case: three prints where visual element encodes content at the level of symbol, not illustration."

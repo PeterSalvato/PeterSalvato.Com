@@ -5,13 +5,9 @@ practice_group: meditations
 title: "Sentimentology"
 subtitle: "Emotional Mapping Through Swiss Grid Systems"
 icon: psychology
-altitude: "03"
 status: "In Development"
 published: false
 context: "Emotional states that exist but have no English words. Sonder. Hiraeth. Resfeber. Real topographies, navigable, that the precision of cartography has never been applied to."
-drift: "The assumption: structure and feeling are opposites. That rigor kills what it touches."
-scaffold: "Swiss grid systems applied to emotional terrain. Words from global languages for emotional states English abandoned. Typography maps; it doesn't illustrate. Color locates; it doesn't decorate."
-fidelity: "Structure and sentiment aren't opposites. The grid doesn't suppress feeling. It gives it a container that holds long enough to be seen."
 faculty: ["design"]
 seo_keywords: ["Typography", "Emotional Mapping", "Swiss Grid Systems", "Language Design", "Untranslatable Words"]
 description: "Swiss grid systems applied to emotional terrain. Words from global languages for states English abandoned. Typography maps feeling; color locates it."

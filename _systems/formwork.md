@@ -4,12 +4,7 @@ title: "Formwork"
 redirect_from: /governance/formwork-protocol/
 subtitle: "The Accommodation Design Process"
 icon: layers
-altitude: "01"
 status: "Active"
-context: "I spent a summer building concrete forms on a construction site in South Florida. You build the form before you pour. The form shapes the work while things are fluid. Once the concrete sets, the form comes off. Every tool I've built for working with AI follows that pattern."
-drift: "The AI governance field treats every processing failure as a control problem. More rules, longer prompts, tighter guardrails. Output keeps degrading. Nobody asks whether the task design is the problem, not the model."
-scaffold: "Formwork is the accommodation design process: a set of tools that shape how AI systems receive and process work. Context preservation, decomposed evaluation, voice sampling, knowledge traversal, task decomposition. Each tool accommodates a specific processing constraint. Together they form the pour."
-fidelity: "Every page on this site was produced through this process. The tools built the thing that describes the tools."
 faculty: ["design", "engineering", "uxia"]
 seo_keywords: ["AI accommodation design", "formwork protocol", "AI task decomposition", "context preservation", "evaluation lenses", "voice sampling AI", "knowledge traversal", "AI governance process", "accommodation design process", "cognitive accommodation AI", "how to build AI tools", "AI workflow for creative work", "better AI evaluation", "AI keeps forgetting context", "structured AI process"]
 description: "The accommodation design process. A set of tools that shape how AI systems receive and process work: context preservation, decomposed evaluation, voice sampling, knowledge traversal, task decomposition. Each tool accommodates a specific processing constraint. Together they form the pour."
@@ -31,8 +26,6 @@ related:
 cta:
   text: "Read the whitepaper"
   link: /practice/accommodation-design/
-glyphs: "▲ ⬣ ■"
-codex: "/Æ/#|●▲||⬣■|||▲⟩⟩[systems.formwork]/"
 ---
 
 Formwork is Peter Salvato's [accommodation design](/practice/accommodation-design/) process: a set of tools that shape how AI systems receive and process work. Each tool accommodates a specific processing constraint in the model. Together they form the process that produced this site.
@@ -117,8 +110,4 @@ The goal is structure that holds on its own.
 
 ---
 
-## The recursive proof
-
-The strongest evidence for a process is the thing it produces.
-
-[petersalvato.com](/) was compiled using Formwork. The [whitepaper](/practice/accommodation-design/) documents the framework. [This Site](/practice/this-site/) shows the tools running on the site you are reading: the evaluation system, the context preservation, the voice pipeline, the knowledge traversal. All visible in what shipped.
+[petersalvato.com](/) was compiled using Formwork. [This Site](/practice/this-site/) shows the tools in action: the evaluation system, the context preservation, the voice pipeline, the knowledge traversal.

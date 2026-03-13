@@ -6,18 +6,12 @@ published: false
 title: "Photogeography"
 subtitle: "Format-Locked Visual Archive"
 icon: photo_camera
-altitude: "03"
 status: "In Development"
 context: "Photography started with a borrowed SLR and a class in Brooklyn. It became the visual component of everything: travel, relocation, documentation. Decades of narrative image that needed a formal system."
-drift: "Post-processing turns a record into a curated aesthetic experience. Crop it, adjust it, fit it to a preferred frame, and the nostalgia gets aestheticized. The geography disappears. You're left with a pretty picture instead of evidence."
-scaffold: "Format = subject-lens. Each ratio encodes the relational mode of the encounter. Metadata pins every image to its exact geography. The archive is verifiable, not curated."
-fidelity: "Still developing. Constraint at capture, not in editing: no cropping, no post-processing. The archive is a record, not a portfolio."
 faculty: ["design", "uxia"]
 seo_keywords: ["Photography Systems", "Constraint-Based Design", "Visual Archive", "Format as Forcing Function", "Metadata Structure"]
 description: "Constraint-locked photography. Fixed aspect ratios encode the relational mode of each encounter. Metadata pins every image to its exact geography. No cropping."
 last_modified: 2026-02-25
-glyphs: "⬟ ■ ▲"
-codex: "/Æ/#|●⬟||■▲|||⬟~[output.photogeography]/"
 ---
 
 My father was into photography. A neighbor gave me an SLR (the Minolta) when I was a kid, and I ended up in a photo class at Kingsborough. From there it became the visual component of everything: travel, relocation, documentation. Narrative image.

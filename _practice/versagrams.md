@@ -6,18 +6,12 @@ published: false
 title: "Versagrams"
 subtitle: "Song Lyrics as Typographic Architecture"
 icon: font_download
-altitude: "03"
 status: "In Development"
 context: "Most song posters illustrate what a song is 'about.' The image references the mood. The lyrics get set in type. Neither element comes from the same source. The feeling lives in the relationship, but the process treats them as separate problems."
-drift: "When type and image aren't governed by the same constraint, they compete instead of cohere. The result looks assembled, not made."
-scaffold: "Polaroid-vertical format, fixed across every piece. Swiss grid establishes typographic structure and emotional terrain. AI generates imagery from lyric content within those parameters. Neither element decorates the other."
-fidelity: "In development. First batch: 16 songs selected. The grid doesn't flatten the songs; each one generates a distinct piece from the same constraint."
 faculty: ["design"]
 seo_keywords: ["Typography Design", "Song Lyrics", "Constraint-Based Generation", "Poster Series", "Visual-Textual Integration"]
 description: "Song lyrics as typographic architecture. Polaroid-vertical format, Swiss grid, AI-generated imagery from lyric content. Fixed constraint across 16 songs."
 last_modified: 2026-02-25
-glyphs: "▼ ■ ▶"
-codex: "/Æ/#|●▼||■▶|||■~[output.versagrams]/"
 ---
 
 Most song posters illustrate what a song is "about." The image references the mood. The lyrics get set in whatever type looks good. Neither element is derived from the same source, so they coexist without cohering.

@@ -4,12 +4,7 @@ title: "SavePoint Syntax"
 redirect_from: /governance/savepoint-syntax/
 subtitle: "Semantic Markup for Cognitive Waypoints"
 icon: code
-altitude: "01"
 status: "V3.1 Open Source"
-context: "Understanding shifts in the middle of work. Those shifts are the most perishable thing in any knowledge workflow. The tools store everything that was said. Nothing marks where the thinking turned."
-drift: "Documentation systems capture what was decided. They don't capture where the thinking was going. Notes accumulate without architecture. The thread vanishes at exactly the moment you need to resume it."
-scaffold: "A symbolic markup system for capturing cognitive waypoints: moments when realization clicks, phrasing locks in, or meaning shifts direction. More than a bookmark. Each one carries semantic payload, enough to orient you when the context is gone."
-fidelity: "When you come back weeks later, you find your way in. v3.1, open source."
 faculty: ["design", "uxia"]
 external_url: "https://github.com/PeterSalvato/Savepoint.Protocol"
 seo_keywords: ["cognitive waypoints", "context switching", "decision logging", "cognitive state management", "semantic markup", "knowledge management", "thinking tools", "project filtering", "losing train of thought AI", "AI session continuity", "how to resume AI conversations", "knowledge preservation AI", "context loss between sessions", "picking up where I left off AI"]
@@ -22,8 +17,6 @@ related:
 cta:
   text: "See this protocol running on a real build"
   link: /practice/this-site
-glyphs: "▼ ▲ ⬣"
-codex: "/Æ/#|●▼||▲|||⬣⟩⟩[governance.savepoint-syntax]/"
 ---
 
 Savepoint Syntax is a semantic markup format developed by Peter Salvato for marking cognitive turning points in AI-assisted work. It solves a specific problem: understanding shifts in the middle of a session, and nothing captures where the thinking turned. Notes accumulate. The connections between them do not survive.

@@ -3,13 +3,6 @@
 {% assign hero_mark = item.mark | default: nil %}
 {% assign hero_image = item.image.src | default: item.logo %}
 
-{% comment %} Resolve tier label from altitude {% endcomment %}
-{% case item.altitude %}
-  {% when "01" %}{% assign tier_label = "Writing" %}{% assign tier_color = "red" %}
-  {% when "02" %}{% assign tier_label = "Systems" %}{% assign tier_color = "blue" %}
-  {% when "03" %}{% assign tier_label = "Tools" %}{% assign tier_color = "green" %}
-{% endcase %}
-
 {% if include.is_link %}
 {%- comment -%} CARD MODE — used in related projects, domain index listings {%- endcomment -%}
 <a href="{{ target_url | relative_url }}" class="artifact-card artifact-card--link">
@@ -60,20 +53,13 @@
 
         <div class="artifact-hero-title">
             <h1>{{ item.title }}</h1>
-            {% if item.context %}
-            <p class="artifact-context">{{ item.context }}</p>
-            {% elsif item.subtitle %}
+            {% if item.subtitle %}
             <p class="artifact-subtitle">{{ item.subtitle }}</p>
             {% endif %}
         </div>
     </div>
 
-    <hr class="dossier-rule">
-
     <div class="dossier-meta">
-        {% if tier_label %}
-        <span class="dossier-tier dossier-tier--{{ tier_color }}">{{ tier_label }}</span>
-        {% endif %}
         {% if item.status %}
         <span class="dossier-status">{{ item.status }}</span>
         {% endif %}

@@ -3,7 +3,7 @@ layout: context
 title: "Bio"
 permalink: /bio/
 image: /assets/img/KidMe@4x-100.jpg
-description: "Peter Salvato: design engineer based in Fort Lauderdale, FL. Twenty-five years across construction sites, print shops, enterprise platforms, brand systems, classrooms, and New York's club culture. The material changes. The person on the other end doesn't."
+description: "Peter Salvato: design engineer based in Fort Lauderdale, FL. Construction sites, print shops, enterprise platforms, brand systems, classrooms, and New York's club culture."
 seo_keywords: ["Peter Salvato", "design engineer", "SVA", "visual communication", "practice lineage", "compiled portfolio", "systems architecture", "provenance"]
 last_modified: 2026-02-26
 ---

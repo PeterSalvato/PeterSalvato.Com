@@ -111,15 +111,6 @@ layout: default
 </div>
 {% endif %}
 
-{% if page.glyphs or page.codex %}
-<div class="printer-exhaust">
-  {% if page.glyphs %}
-  <span class="exhaust-glyphs">{% assign glyph_map = "▲:UX / Systems / Strategy,▼:Narrative / Language,◀:Intuition / Reflection,▶:Illustration / Expression,■:Design / Grid / Typography,◆:Craft / Material / Fabrication,⬟:Photography / Observation,⬣:Code / Engineering / Logic" | split: "," %}{% assign glyph_chars = page.glyphs | split: " " %}{% for gc in glyph_chars %}<span class="glyph-mark" data-tooltip="{% for gm in glyph_map %}{% assign parts = gm | split: ":" %}{% if parts[0] == gc %}{{ parts[1] }}{% endif %}{% endfor %}">{{ gc }}</span>{% endfor %}</span>
-  {% endif %}
-  {% if page.codex %}<span class="exhaust-codex">{{ page.codex }}</span>{% endif %}
-</div>
-{% endif %}
-
 <script>
 (function() {
   var content = document.querySelector('.project-content');

@@ -4,12 +4,7 @@ practice_group: whitepaper
 title: "Semantic Flattening and the Case for Human-Marked Importance in AI Memory"
 subtitle: "Why Machine-Scored Memory Systems Erase What Matters Most"
 icon: layers
-altitude: "01"
 status: "Published"
-context: "AI memory systems determine importance computationally. Frequency scoring, recency weighting, surprise metrics. The human's assessment of what mattered never enters the architecture. This paper argues that semantic importance is a relationship between content and intent, not a property of content alone."
-drift: "Every AI memory system asks the same question: how can the machine determine what was important? Nobody asks who decides what mattered. The field is building better recall with no sense of weight."
-scaffold: "Savepoint Syntax provides human-marked semantic hierarchy: structured tags dropped at cognitive turning points, supported by AI pattern recognition, shaped by the practitioner's declared intent. The bilateral accommodation model compensates for both the AI's inability to judge weight and the human's limited bandwidth."
-fidelity: "The system has been in continuous use for over a year across more than 60,000 documents of ideation history. petersalvato.com was compiled through this loop. Every page traces back to things said or decided in working sessions."
 faculty: ["design", "engineering"]
 seo_keywords: ["semantic flattening", "AI memory importance", "human-marked memory", "savepoint syntax", "cognitive turning points", "AI memory systems", "MemGPT", "semantic hierarchy", "accommodation design", "intent-relative importance", "AI conversation memory", "human in the loop memory"]
 description: "A whitepaper arguing that semantic importance in AI memory is a relationship between content and intent, not a property of content alone. Presents Savepoint Syntax as human-marked semantic hierarchy and contrasts it with machine-determined approaches."
@@ -19,8 +14,6 @@ related:
   - /practice/accommodation-design
   - /systems/savepoint
   - /essays/the-iep-for-ai-systems
-glyphs: "▲ ⬣ ■"
-codex: "/Ae/#|●▲||⬣■|||▲⟩⟩[governance.semantic-hierarchy]/"
 ---
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18986290.svg)](https://doi.org/10.5281/zenodo.18986290)

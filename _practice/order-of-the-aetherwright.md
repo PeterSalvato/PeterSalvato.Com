@@ -8,12 +8,8 @@ icon: auto_fix_high
 logo: /assets/img/AE_sigil@4x.png
 logo_type: mark
 mark: /assets/img/aetherwright_sigil@2x.png
-altitude: "01"
 status: "Active"
 context: "Thirty years of consistent results across design, engineering, and strategy. The method underneath existed only as instinct, invisible even to me, impossible to teach or defend."
-drift: "Creative method drifts the way unmaintained code does: not catastrophically, incrementally. Reasonable decisions accumulate into something nobody chose. By the time anyone notices, the original logic is gone."
-scaffold: "A symbolic operating system for the creative method: glyphs for domain classification, a Codex as living source of truth, a daily ritual that makes principle somatic. The method becomes structural rather than ambient, explicit enough to defend."
-fidelity: "The glyph system governs this portfolio. Savepoint Syntax is its paired instrument. The method is now explicit enough to teach."
 faculty: ["design", "uxia"]
 external_url: "https://github.com/PeterSalvato/order-of-the-aetherwright"
 seo_keywords: ["glyph naming system", "creative taxonomy", "codex", "naming conventions", "semantic drift", "structural governance"]
@@ -22,8 +18,6 @@ last_modified: 2026-03-01
 related:
   - /systems/savepoint
   - /systems/formwork
-glyphs: "◀ ▼ ■"
-codex: "/Æ/#|●◀||▼■|||◀⟩⟩[governance.order-of-the-aetherwright]/"
 ---
 
 Every consistent creative practice has a method underneath the visible work. The instinct that produces reliable results across construction sites, print shops, enterprise platforms, brand systems, classrooms. But it's invisible to everyone, including the person using it. You can't teach what you can't articulate. You can't defend it under pressure. And if you can't make it explicit, it erodes.

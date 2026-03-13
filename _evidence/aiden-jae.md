@@ -6,12 +6,8 @@ subtitle: "Building a Brand from Raw Material to Running Business"
 icon: diamond
 logo: /assets/img/aj_stacked_logo.svg
 logo_type: stacked
-altitude: "03"
 status: "Delivered"
 context: "A trained artist designing fine jewelry from recycled solid gold. The quality is real. A stranger buying through a screen would never know."
-drift: "A generic Shopify template treats every product identically: same grid, same hierarchy, same assumptions. A quality ring in that grid becomes a commodity. The craftsmanship disappears."
-scaffold: "Custom brand and Shopify architecture built for one principle: the code respects the photograph. Identity, photography direction, packaging, and platform as one integrated system, not three departments."
-fidelity: "A running business where the architecture proves the quality. The visual system communicates what the artisans actually produced before the About page loads."
 faculty: ["design", "engineering", "uxia"]
 seo_keywords: ["Brand Systems", "E-Commerce Architecture", "Luxury Positioning", "Photography Integration", "Shopify Development", "Identity Design"]
 description: "Jewelry brand built from raw material to running business. Custom Shopify architecture where the code respects the photograph. Identity, platform, packaging as one system."
@@ -20,8 +16,6 @@ related:
   - /evidence/altrueism
   - /systems/formwork
   - /evidence/encore
-glyphs: "■ ▶ ◆ ⬣ ⬟"
-codex: "/Æ/#|●■||▶◆⬣|||■⬟⟩⟩[output.aiden-jae]/"
 ---
 
 My wife studied oil painting at Parsons and Brooklyn College. She designs fine jewelry and has the pieces manufactured sustainably from 100% recycled solid 9k gold through RJC-certified partners. Genuine stones, responsibly sourced. Pouches sewn in-house from organic wool felt. Carbon neutral shipping. Pollinator protection funded from every sale. She runs the business this way because she believes in it, not because it reads well on an About page.

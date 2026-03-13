@@ -50,5 +50,3 @@ The whole infrastructure exists to maintain one thing: the human is the source c
 ---
 
 Most people use AI to save time. Using this system actually took longer than writing the site by hand would have. Speed was never the goal. Fidelity was. Building a system where the output cannot drift from the source, where every sentence traces back to something real, and where the authorship is never in question.
-
-The material changes. The person on the other end doesn't.

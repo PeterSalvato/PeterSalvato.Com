@@ -7,19 +7,13 @@ subtitle: "Visual-Sonic Brand Integration"
 icon: graphic_eq
 logo: /assets/img/MathOnTape.stacked.logo.svg
 logo_type: stacked
-altitude: "03"
 status: "In Development"
 context: "Experimental electronic music where the visual identity and the sonic texture are built as one system. Not parallel outputs. One brand, two surfaces."
-drift: "Music finished by feel, then decorated with a cover that never quite fits. Two separate processes producing two separate things."
-scaffold: "Visual-sonic brand integration. MICR typography, archival naming, halftone-as-tape-hiss: the visual aesthetic correlates directly with the audio aesthetic."
-fidelity: "You can't pull the design away from the music without breaking the whole thing."
 faculty: ["design", "engineering"]
 seo_keywords: ["Electronic Music", "Brand Systems", "Visual-Sonic Integration", "Design Systems", "Creative Branding"]
 description: "Experimental electronic music where visual identity and sonic texture are built as one brand system. Halftone as tape hiss, misregistration as distortion. One system, two surfaces."
 last_modified: 2026-02-25
 listed: false
-glyphs: "▶ ⬣ ■"
-codex: "/Æ/#|●▶||⬣■|||▶⟩⟩[output.mathontape]/"
 ---
 
 MathOnTape is dirty analog synths, magnetic tape, feedback loops. No commercial goal. It's experimentation with correlating visual aesthetic with audio aesthetic in the brand systems arena, the same way [Aiden Jae](/evidence/aiden-jae/) integrates photography direction with platform architecture, except here both surfaces are mine.

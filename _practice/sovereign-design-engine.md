@@ -5,12 +5,8 @@ practice_group: meditations
 title: "Sovereign Design Engine"
 subtitle: "Headless Design Pipeline for Print-Ready Output"
 icon: engineering
-altitude: "02"
 status: "Active"
 context: "The content lives in one environment and the design tool lives on another machine. Every time I need to produce something physical, I leave the place where the content was built and manually lay out what I already have structured as data."
-drift: "The production tool is InDesign on a different machine. Every time I need to produce something, I leave the environment where the content was built, open a different application, and manually lay out what I already have structured as data. No version control, no scripting, every variant a manual file."
-scaffold: "A headless pipeline: source images and JSON manifests in, print-ready output out. CSS Paged Media for page geometry. Python for data extraction. Every design is a text file in Git. Every CSS value resolves to a fixed measurement in inches or points."
-fidelity: "Three template types running: 11x17 tabloid posters from photograph metadata, 8.5x11 music posters with per-song typography, 6x9 book spreads from markdown. Deterministic, offline, no subscription."
 faculty: ["design", "engineering"]
 seo_keywords: ["Print Production Pipeline", "CSS Paged Media", "Headless Design", "Local-First Design Tools", "Print-Ready PDF", "Design Engineering"]
 description: "Headless, code-driven design pipeline. Source images and metadata in, print-ready PDFs out. No Adobe, local-first, offline-capable. Powers Photogeography posters, Versagrams prints, and Deep Cuts book spreads."
@@ -21,8 +17,6 @@ related:
 cta:
   text: "See PressWorks"
   link: /practice/pressworks
-glyphs: "■ ⬣"
-codex: "/Æ/#|●⬣||■⬣|||⬣⟩[infrastructure.sovereign-design-engine]/"
 ---
 
 The production problem is always the same: the content lives in one environment and the design tool lives on another machine. Every time I need to produce something physical, I leave the place where the content was built, open a different application, and manually lay out what I already have structured as data. Proprietary files, no version control, no scripting.

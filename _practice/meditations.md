@@ -8,12 +8,8 @@ subtitle: "Constraint-Based Graphic Explorations"
 icon: palette
 logo: /assets/img/EchoAndBone_logo.svg
 logo_type: wordmark
-altitude: "03"
 status: "In Development"
 context: "Design practice without a client or a deadline. Lock one variable, let everything else move, find out what happens. When something here develops enough weight, it becomes its own project."
-drift: "Most visual work treats the subject as primary and the form as service. These reverse it: the form is the argument, and the subject is what makes the argument legible."
-scaffold: "Each series locks a constraint (grid system, typographic rule, format restriction) then populates it with content the constraint wasn't designed for. What survives is the finding."
-fidelity: "Ongoing. Three Echo & Bone prints finished. Additional series in development."
 faculty: ["design"]
 seo_keywords: ["Meditations", "Constraint-Based Design", "Typography", "Poster Design", "Graphic Design", "Swiss Grid", "Photography Systems", "Visual Archive"]
 description: "Constraint-based graphic explorations. Each series locks a visual system then populates it with content the constraint wasn't designed for. Three Echo & Bone prints finished."
@@ -22,8 +18,6 @@ related:
   - /practice/sovereign-design-engine
   - /practice/pressworks
   - /practice/order-of-the-aetherwright
-glyphs: "■"
-codex: "/Æ/#|●■||■|||■~[output.meditations]/"
 ---
 
 Lock one variable, let everything else move, find out what happens. Each series locks a constraint: a grid system, a format, a typographic rule, an aspect ratio tied to a specific camera. Then it gets populated with subject matter the constraint was never designed for. What survives is the finding. When something develops enough weight, it graduates into its own project.

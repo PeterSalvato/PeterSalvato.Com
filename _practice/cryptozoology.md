@@ -5,13 +5,9 @@ practice_group: meditations
 title: "Cryptozoology"
 subtitle: "Pseudo-Academic Visual Archive"
 icon: pets
-altitude: "03"
 status: "In Development"
 published: false
 context: "Creatures that don't exist, presented with the full apparatus of scholarly visual credibility. What does rigorous form do to content it has no business taking seriously?"
-drift: "Most cryptid imagery is ironic or credulous. Neither asks what happens when form and content are radically mismatched."
-scaffold: "4-column grid, taxonomic labeling, field guide aesthetics. Deadpan. The presentation takes the content more seriously than the content deserves."
-fidelity: "The form creates the credibility. Design systems establish their own reality regardless of what they contain."
 faculty: ["design"]
 seo_keywords: ["Cryptids", "Visual Systems", "Grid-Based Design", "Scholarly Aesthetics", "Archival Presence"]
 description: "Creatures that don't exist, presented with full scholarly visual credibility. 4-column grid, taxonomic labeling, field guide aesthetics. Deadpan."

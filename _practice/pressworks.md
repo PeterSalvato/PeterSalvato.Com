@@ -5,12 +5,8 @@ practice_group: meditations
 title: "PressWorks"
 subtitle: "Terminal-Native Print Production"
 icon: print
-altitude: "02"
 status: "Active"
 context: "I came up in print shops in Brooklyn and Fort Lauderdale. Color separation, plate registration, halftone screening. The process has a logic that digital tools never captured."
-drift: "I used Photoshop for 20 years. My brain stopped matching the interface before I stopped paying for it. I still think in plates and passes. The tools just caught up."
-scaffold: "A programmatic press that runs from the terminal. Separate into color plates. Screen each plate at a controllable halftone frequency. Offset registration per channel. Recombine with ink color and blend mode. Sixteen operations, three bundled presets. ImageMagick underneath, bash on top."
-fidelity: "Every texture on this site came through PressWorks. The grain, the halftone, the desaturated color. Same plate-by-plate logic a physical shop uses, running in a shell script instead of on a press."
 faculty: ["design", "engineering"]
 seo_keywords: ["Print Production Pipeline", "CMYK Halftone", "Risograph Duotone", "Screen Print Effects", "Image Processing", "ImageMagick", "Terminal Design Tools"]
 description: "Terminal-native print production. Models plate-by-plate press logic as composable shell operations: CMYK separation, halftone screening, registration offset, grain, color manipulation. Built by a 20-year Adobe user who stopped thinking in Adobe's UI."
@@ -19,8 +15,6 @@ related:
   - /practice/sovereign-design-engine
   - /evidence/encore
   - /systems/formwork
-glyphs: "◆ ■ ⬣"
-codex: "/Æ/#|●◆||■⬣|||⬣⟩[infrastructure.pressworks]/"
 ---
 
 I came up in print shops. USA Tees in Brooklyn, Atlas Embroidery in Fort Lauderdale. Production artist in the art department, but I had to understand every step of the process: offset presses, color separation, screen printing. Halftone screens at specific angles, registration dialed in by hand, ink density controlled plate by plate.

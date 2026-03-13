@@ -6,12 +6,8 @@ published: false
 title: "The Deep Cuts"
 subtitle: "DJ Methodology as Active Listening"
 icon: album
-altitude: "03"
 status: "In Development"
 context: "Growing up in New York in the 80s and 90s, surrounded by hip-hop and spending nights at Tunnel and Twilo, DJing was never a career consideration. It was how you loved music. That relationship doesn't have a guide."
-drift: "Almost all DJ content is written for dance culture or the club, for people trying to perform for other people. That's a different practice entirely from DJing as aesthetic exploration."
-scaffold: "Make the listener the architect. The moment you're responsible for what plays next, you're forced to understand how music actually works. The responsibility teaches you."
-fidelity: "In development. The method works. What I'm still figuring out: how to teach a way of hearing to people who've spent a lifetime listening passively."
 faculty: ["design", "uxia"]
 seo_keywords: ["Active Listening", "Music Education", "DJ Methodology", "Structural Understanding", "Learning Through Practice"]
 description: "DJ methodology as active listening pedagogy. The moment you're responsible for what plays next, you're forced to understand how music actually works."
