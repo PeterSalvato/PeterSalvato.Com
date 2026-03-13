@@ -12,16 +12,8 @@
   // Phone format type: pocket paperback.
   // 375px - 40px padding = 335px content. At 16px body ≈ 40 chars/line.
   html, body {
-    font-size: 14px;  // Scale down from 15px base for phone format
+    font-size: 16px;
   }
-
-  body {
-    font-size: 1.143rem;  // 16px body on 14px base
-  }
-
-  h1 { font-size: 2rem; }        // 28px — fits on small screen
-  h2 { font-size: 1.714rem; }    // 24px
-  h3 { font-size: 1.429rem; }    // 20px
 
   // Prevent horizontal scroll and pinch-zoom during nav pan.
   // Both html AND body must clip — mobile browsers use html as the
@@ -114,11 +106,11 @@
 
   #homepage-hero {
     h1 {
-      font-size: 1.857rem;  // 26px on 14px base — pocket format
-      margin-left: 2rem;
+      font-size: $type-head;
+      margin-left: 1.5rem;
     }
-    .hero-text { margin-top: -2rem; }
-    .hero-image img { width: 260px; }
+    .hero-text { margin-top: -1.5rem; }
+    .hero-image img { width: 240px; }
   }
 
   // Section cards: single column on mobile
@@ -278,19 +270,10 @@
 // ----------------------------------------------------------------------------
 @media (min-width: 600px) and (max-width: 1023px) {
 
-  // Tablet format type: trade paperback.
-  // Content area ~400-600px. Body at 19px ≈ 45-55 chars/line.
+  // Tablet format type: trade paperback. 16px base.
   html, body {
-    font-size: 14px;
+    font-size: 16px;
   }
-
-  body {
-    font-size: 1.357rem;  // 19px body on 14px base
-  }
-
-  h1 { font-size: 2.429rem; }    // 34px
-  h2 { font-size: 1.857rem; }    // 26px
-  h3 { font-size: 1.571rem; }    // 22px
 
   .hamburger-btn { display: none; }
 
@@ -316,7 +299,7 @@
 
   #homepage-hero {
     .hero-text { margin-top: -4rem; }
-    h1 { font-size: 2.429rem; margin-left: 5rem; }
+    h1 { margin-left: 5rem; }
     .hero-image img { width: 440px; }
   }
 

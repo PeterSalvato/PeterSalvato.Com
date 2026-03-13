@@ -48,21 +48,20 @@ $font-body:    'Rubik', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-seri
 $font-display: 'Chainprinter', 'Space Mono', monospace;
 $font-mono:    'Space Mono', monospace;
 
-// Type scale — Tufte ratios on 15px base, compensated for Rubik's x-height.
-// Rubik fills more of the em square than Tufte's ET Book at the same px size.
-// 20px Rubik ≈ 21px ET Book visually. Ratios preserved: h1 2.25x, h2 1.5x, h3 1.2x.
-$type-xs:       0.8rem;     //  12px  — footnotes, fine print
-$type-sm:       0.867rem;   //  13px  — small labels
-$type-caption:  0.933rem;   //  14px  — captions, metadata
-$type-body-sm:  1.067rem;   //  16px  — sidebar, secondary text
-$type-body:     1.333rem;   //  20px  — body text (Tufte-equivalent for Rubik)
-$type-body-lg:  1.533rem;   //  23px  — decks, lead paragraphs
-$type-subhead:  1.6rem;     //  24px  — h3 equivalent (1.2x body)
-$type-head-sm:  1.733rem;   //  26px  — small headings
-$type-head:     2.0rem;     //  30px  — h2 equivalent (1.5x body)
-$type-head-lg:  2.4rem;     //  36px  — large headings
-$type-title:    2.8rem;     //  42px  — page titles
-$type-display:  3.0rem;     //  45px  — h1 equivalent (2.25x body)
+// Type scale — Tufte ratios on 18px base. 1rem = body text.
+// Ratios from Tufte: h1 2.29x, h2 1.57x, h3 1.21x, subtitle 1.29x.
+$type-xs:       0.667rem;   //  12px  — footnotes, fine print
+$type-sm:       0.722rem;   //  13px  — small labels
+$type-caption:  0.778rem;   //  14px  — captions, metadata
+$type-body-sm:  0.889rem;   //  16px  — sidebar, secondary text
+$type-body:     1rem;       //  18px  — body text (= html base)
+$type-body-lg:  1.167rem;   //  21px  — decks, lead paragraphs (Tufte body equivalent)
+$type-subhead:  1.21rem;    //  21.8px — Tufte h3 ratio
+$type-head-sm:  1.333rem;   //  24px  — small headings
+$type-head:     1.556rem;   //  28px  — Tufte h2 ratio (1.57x)
+$type-head-lg:  1.889rem;   //  34px  — large headings
+$type-title:    2.111rem;   //  38px  — page titles
+$type-display:  2.278rem;   //  41px  — Tufte h1 ratio (2.29x)
 
 // Context-specific sizes
 $type-hero:        $type-display;
@@ -113,14 +112,14 @@ $padding-medium:       24px;
 // SPACING (baseline rhythm)
 // ----------------------------------------------------------------------------
 
-// Baseline = one body text line (Tufte: 2rem = 30px on 15px base)
-$baseline:     2rem;
-$gap-small:    calc(#{$baseline} * 0.33);   //  ~10px
-$gap-medium:   calc(#{$baseline} * 0.67);   //  ~20px
-$gap-large:    $baseline;                    //   30px
-$gap-xlarge:   calc(#{$baseline} * 1.5);     //   45px
-$gap-xxlarge:  calc(#{$baseline} * 2);       //   60px
-$gap-xxxlarge: calc(#{$baseline} * 3);       //   90px
+// Baseline = one body text line (18px * 1.43 ≈ 26px)
+$baseline:     1.5rem;                       //   27px
+$gap-small:    calc(#{$baseline} * 0.33);   //   ~9px
+$gap-medium:   calc(#{$baseline} * 0.67);   //  ~18px
+$gap-large:    $baseline;                    //   27px
+$gap-xlarge:   calc(#{$baseline} * 1.5);     //  ~41px
+$gap-xxlarge:  calc(#{$baseline} * 2);       //   54px
+$gap-xxxlarge: calc(#{$baseline} * 3);       //   81px
 
 // ----------------------------------------------------------------------------
 // OPACITY
