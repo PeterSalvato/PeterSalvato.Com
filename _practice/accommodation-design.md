@@ -109,9 +109,9 @@ The name comes from concrete construction. You build formwork before you pour. T
 
 FormWork is that temporary structure around a project. It is not any single tool. It is the harness that holds all the tools in position while the work is wet. The tools do their jobs. The harness coordinates them. When the work is done, the formwork comes off. The work stands.
 
-The pour is unstructured human thinking: brainstorming, voice notes, arguing with myself, changing direction mid-sentence. Three years of that produced the corpus everything else operates on. The tools shape it. FormWork holds the tools. Out comes the work.
+The pour is the first phase of the process: deliberately generating source material in your own voice. Brainstorming, voice notes, arguing with myself, changing direction mid-sentence. It can accumulate over years or get extracted in a single interview session. This phase is required because without it, the tools have nothing real to work from. The voice pipeline can't preserve a voice that isn't in the source material. Knowledge traversal can't trace thinking that was never captured. The source material is conversational because the model's training data is dominated by polished published writing. Conversational material gives the tools something that actually sounds like the maker, not the model's average. The pour also carries the real structure of the thinking: how ideas connect, where they backtrack, what sequences naturally. The nature of what goes in determines the shape of what comes out. The tools shape it. FormWork holds the tools. Out comes the work.
 
-Six tools, each built from the same question applied to a different processing constraint. All of them depend on one foundational practice: the accumulation of raw, unstructured human thinking as the substrate the tools operate on.
+Six tools, each built from the same question applied to a different processing constraint. All of them depend on one foundational practice: the deliberate generation of source material that carries the maker's voice and the actual structure of their thinking.
 
 ### 4.1 Context Preservation: SavePoint Syntax
 
