@@ -3,13 +3,19 @@
 // ============================================================================
 
 #homepage-hero {
+  border: none;
+  background: none;
+  padding: 0;
   margin-bottom: $space-xxl;
+  display: flex;
+  align-items: flex-start;
+  gap: $space-xl;
 
   .hero-image {
-    margin-bottom: $space-lg;
+    flex-shrink: 0;
 
     img {
-      max-width: 480px;
+      max-width: 200px;
     }
   }
 
@@ -19,15 +25,7 @@
     letter-spacing: 0.02em;
     text-transform: uppercase;
     line-height: $leading-tight;
-    max-width: 14ch;
-  }
-
-  .hero-role {
-    font-size: $type-body-sm;
-    color: $color-ink-light;
-    margin-top: $space-md;
-    max-width: 50ch;
-    line-height: $leading-body;
+    max-width: 20ch;
   }
 }
 

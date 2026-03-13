@@ -2,19 +2,14 @@
 layout: default
 ---
 
-<!-- Homepage Hero Card -->
-<div id="homepage-hero" class="artifact-card">
+<!-- Homepage Hero -->
+<div id="homepage-hero">
     <div class="hero-image">
         <img src="{{ '/assets/img/ppp-mark-draft.png' | relative_url }}"
              alt="PPP brand mark — three registration plates of a P in governance red, infrastructure blue, and output green"
              loading="eager">
     </div>
-    <div class="hero-text">
-        <h1>I make things. The scale changes. The discipline doesn't.</h1>
-        {% if site.data.index.role_declaration %}
-        <p class="hero-role">{{ site.data.index.role_declaration }}</p>
-        {% endif %}
-    </div>
+    <h1>I make things. The scale changes. The discipline doesn't.</h1>
 </div>
 
 <!-- Section Cards — mirror the nav, explain the depth -->

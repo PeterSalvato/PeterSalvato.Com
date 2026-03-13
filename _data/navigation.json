@@ -1,12 +1,13 @@
 {
   "items": [
     {
-      "label": "How I Think",
+      "label": "About",
       "url": "/thinking/",
       "icon": "psychology",
       "children": [
-        { "label": "Vocabulary", "url": "/vocabulary/" },
-        { "label": "Bio", "url": "/bio/" }
+        { "label": "How I Think", "url": "/thinking/" },
+        { "label": "Bio", "url": "/bio/" },
+        { "label": "Vocabulary", "url": "/vocabulary/" }
       ]
     },
     {
