@@ -1,94 +1,24 @@
 // ============================================================================
-// ACCESSIBILITY — Creative accommodations
-// The site practices what it preaches: read the visitor's processing
-// profile and design for it.
+// ACCESSIBILITY — Stripped. Rebuild from here.
 // ============================================================================
 
-// ----------------------------------------------------------------------------
-// REDUCED MOTION — Respect the visitor's processing profile
-// ----------------------------------------------------------------------------
-@media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
-  }
-}
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 
-// ----------------------------------------------------------------------------
-// HIGH CONTRAST — Strengthen signals when the visitor requests it
-// ----------------------------------------------------------------------------
-@media (prefers-contrast: more) {
-  :root {
-    --border-strength: 2px;
-  }
-
-  body {
-    &::before {
-      // Remove paper texture in high contrast
-      display: none;
-    }
-  }
-
-  .artifact-card {
-    border-width: 2px;
-    border-color: $color-text;
-  }
-
-  .artifact-card--link::before {
-    // Remove white overlay in high contrast
-    display: none;
-  }
-
-  .dossier-rule {
-    height: 3px;
-    opacity: 1;
-  }
-
-  // Remove all opacity tricks — everything at full strength
-  .nav-list a,
-  .dossier-date,
-  .dossier-status {
-    opacity: 1 !important;
-  }
-
-  .nav-list .nav-icon {
-    opacity: 0.6 !important;
-  }
-
-  // Strengthen focus indicators
-  *:focus-visible {
-    outline-width: 3px;
-  }
-}
-
-// ----------------------------------------------------------------------------
-// HEADING ANCHORS — Orientation accommodation
-// Hoverable link icon on h2/h3 inside content areas
-// ----------------------------------------------------------------------------
-.post-content,
-.context-content,
-.project-content {
-  h2[id],
-  h3[id] {
-    position: relative;
-
-    &:hover::after {
-      content: '#';
-      position: absolute;
-      left: -1.2em;
-      color: $color-text-secondary;
-      opacity: $opacity-quiet;
-      font-weight: 400;
-    }
-  }
-
-  h2[id]:target,
-  h3[id]:target {
-    padding-left: $gap-medium;
-    border-left: 3px solid $color-text;
+  &:focus {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+    padding: 0.5em 1em;
+    background: #1a1a1a;
+    color: #fff;
+    z-index: 9999;
   }
 }

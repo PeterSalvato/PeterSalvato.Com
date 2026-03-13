@@ -1,0 +1,17 @@
+// ============================================================================
+// MAIN CONTENT (default.html)
+// Tufte composition: generous margins, content breathes in the page.
+// ============================================================================
+
+#main-content {
+  padding: 4rem 4rem 6rem;
+  padding-left: calc(#{$sidebar-width} + 4rem);
+
+  #container {
+    max-width: $container-max-width;
+    margin: 0;
+    padding: 0;
+  }
+
+}
+// Note: per-component img sizing handled within each component block

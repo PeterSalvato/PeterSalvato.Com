@@ -1,0 +1,75 @@
+// ============================================================================
+// DOMAIN INDEX (domain-index.html)
+// ============================================================================
+
+#domain-index-page {
+  max-width: $container-max-width;
+  margin: 0 auto;
+
+  #domain-index-header {
+    border-bottom: $rule-heavy solid $color-text;
+    padding-bottom: $gap-xlarge;
+    margin-bottom: $gap-xxlarge;
+
+    h1 {
+      font-size: $type-display;
+      font-weight: 700;
+      letter-spacing: $tracking-normal;
+      margin-bottom: $gap-medium;
+    }
+
+    p {
+      font-size: $type-body-lg;
+      line-height: $leading-spacious;
+    }
+
+    .domain-index-intro {
+      margin-top: $gap-large;
+
+      p {
+        color: $color-text-secondary;
+        max-width: 65ch;
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  #tier-introduction {
+    margin-bottom: $gap-xxxlarge;
+    padding: $gap-xlarge;
+    background-color: $color-surface-dark;
+    border-left: 4px solid $color-text;
+
+    h2 {
+      margin-top: 0;
+      text-transform: uppercase;
+      font-size: $type-domain-head;
+    }
+
+    p {
+      font-size: $type-subhead;
+      line-height: $leading-loose;
+    }
+
+    .tagline {
+      font-weight: 700;
+      font-family: $font-display;
+      text-transform: uppercase;
+      letter-spacing: $tracking-normal;
+      margin-top: $gap-large;
+      margin-bottom: 0;
+    }
+  }
+
+  #domain-artifacts {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0;
+    content-visibility: auto;
+
+    // Cards inside domain index don't need their own bottom margin
+    .artifact-card {
+      margin-bottom: 0;
+    }
+  }
+}

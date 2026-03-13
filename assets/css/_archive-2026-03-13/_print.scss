@@ -1,0 +1,82 @@
+// ============================================================================
+// PRINT — A site about print craft should print well
+// ============================================================================
+@media print {
+  // Strip chrome
+  #sidebar-nav,
+  .hamburger-btn,
+  .skip-link,
+  .footer-codex,
+  .series-nav,
+  .related-projects {
+    display: none !important;
+  }
+
+  // Remove textures and overlays
+  body::before,
+  .artifact-card--link::before {
+    display: none !important;
+  }
+
+  // Full-width content
+  #main-content {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  #container {
+    max-width: 100% !important;
+  }
+
+  // Clean backgrounds
+  body {
+    background: white !important;
+    color: black !important;
+  }
+
+  .artifact-card {
+    border-color: #333 !important;
+    background: white !important;
+    break-inside: avoid;
+  }
+
+  // Strengthen text
+  .artifact-context,
+  .artifact-subtitle,
+  .section-card-description,
+  .post-deck {
+    color: #333 !important;
+  }
+
+  // Show link URLs after links in content
+  .post-content a[href^="http"]::after,
+  .context-content a[href^="http"]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
+    color: #666;
+    word-break: break-all;
+  }
+
+  // Page breaks
+  h1, h2, h3 {
+    break-after: avoid;
+  }
+
+  .artifact-card--hero {
+    break-after: avoid;
+  }
+
+  // Footer: minimal
+  .system-footer {
+    border-top: 1px solid #333;
+    padding-top: 1em;
+
+    .footer-columns {
+      display: block;
+    }
+
+    .footer-column:not(:last-child) {
+      display: none;
+    }
+  }
+}

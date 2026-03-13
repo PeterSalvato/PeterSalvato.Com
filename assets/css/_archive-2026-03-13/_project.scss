@@ -1,0 +1,588 @@
+// ============================================================================
+// PROJECT LAYOUT (unified project.html)
+// ============================================================================
+
+.project-content {
+  font-family: $font-body;
+  font-size: $type-body;
+  line-height: $leading-normal;
+  color: $color-text;
+  max-width: 65ch;
+
+  // Legacy image fallback (images without .image class)
+  p img:not(.image) {
+    max-width: 100%;
+    max-height: 500px;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+  }
+
+  // Spacing around bare image paragraphs (not figures)
+  p:has(> img):not(:has(.image)) {
+    margin-bottom: $gap-xlarge;
+    margin-top: $gap-xlarge;
+  }
+
+  p {
+    margin-bottom: $gap-large;
+  }
+
+  h2 {
+    margin-top: $gap-xxlarge;
+    margin-bottom: $gap-medium;
+  }
+
+  h3 {
+    margin-top: $gap-xlarge;
+    margin-bottom: $gap-medium;
+  }
+
+  h4 {
+    margin-top: $gap-large;
+    margin-bottom: $gap-medium;
+    font-weight: 600;
+  }
+
+  ul, ol {
+    margin-left: $gap-xlarge;
+    margin-bottom: $gap-large;
+  }
+
+  li {
+    margin-bottom: $gap-small;
+  }
+
+  hr {
+    border: none;
+    border-top: $rule-light solid $color-border;
+    margin: $gap-xxlarge 0;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: $gap-xlarge 0;
+
+    td, th {
+      border: $rule-light solid $color-border;
+      padding: $gap-medium;
+      text-align: left;
+    }
+
+    th {
+      background-color: $color-surface-dark;
+      font-weight: 600;
+    }
+  }
+
+  blockquote {
+    border-left: $rule-heavy solid $color-text;
+    margin: $gap-xxlarge 0;
+    padding: $gap-medium 0 $gap-medium $gap-xlarge;
+    background: none;
+    font-family: $font-body;
+    font-size: $type-body-lg;
+    font-style: italic;
+    line-height: $leading-relaxed;
+    color: $color-text;
+
+    p {
+      font-size: $type-body-lg;
+      line-height: $leading-relaxed;
+      margin-bottom: $gap-small;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    // Attribution line
+    p:last-child:not(:first-child) {
+      font-family: $font-mono;
+      font-style: normal;
+      font-size: $type-xs;
+      letter-spacing: $tracking-wider;
+      text-transform: uppercase;
+      color: $color-text-secondary;
+      margin-top: $gap-medium;
+    }
+  }
+
+  code {
+    background-color: $color-surface-dark;
+    padding: 2px 6px;
+    font-family: $font-mono;
+    font-size: $type-detail;
+  }
+
+  pre {
+    background-color: $color-surface-dark;
+    padding: $gap-medium;
+    overflow-x: auto;
+    margin: $gap-large 0;
+
+    code {
+      background-color: transparent;
+      padding: 0;
+    }
+  }
+
+  a {
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+  }
+}
+
+// ============================================================================
+// PROJECT CONTENT LAYOUT — BLOCKS WITH TEXT + IMAGE/CAROUSEL
+// ============================================================================
+
+// Each section becomes a block: heading (full-width) + body (text | images)
+.content-block {
+  margin-bottom: $gap-xxlarge;
+  padding-bottom: $gap-xxlarge;
+  border-bottom: $rule-heavy solid $color-border;
+
+  &:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  // Section heading spans full width above the two-column body
+  > h2 {
+    font-family: $font-body;
+    font-size: $type-body;
+    font-weight: 600;
+    font-variant-caps: all-small-caps;
+    letter-spacing: $tracking-wide;
+    color: $color-text-secondary;
+    margin-bottom: $gap-large;
+    padding-bottom: $gap-medium;
+    border-bottom: $rule-light solid $color-border;
+  }
+
+  &--text-only .block-body {
+    display: block;
+    max-width: 65ch;
+  }
+}
+
+.block-divider {
+  border: none;
+  border-top: $rule-light solid $color-border;
+  margin: $gap-xxlarge 0;
+}
+
+// Two-column body: text left, image(s) right
+.block-body {
+  display: grid;
+  grid-template-columns: 55% 1fr;
+  gap: $gap-xxlarge;
+  align-items: start;
+}
+
+// Left column — inherits .project-content typography
+.block-text {
+  > *:last-child {
+    margin-bottom: 0;
+  }
+}
+
+// Right column — sticky so it stays visible while reading long text
+.block-images {
+  position: sticky;
+  top: $gap-large;
+
+  p {
+    margin: 0;
+  }
+}
+
+// Wrapper for carousel + its controls (must sit outside overflow:hidden)
+.carousel-wrapper {
+  // no additional styles needed; children are .image-carousel + .carousel-controls
+}
+
+// Single image
+.image-single {
+  img:not(.image) {
+    width: 100%;
+    height: auto;
+    display: block;
+    max-height: 500px;
+    object-fit: contain;
+  }
+}
+
+// ============================================================================
+// IMAGE PRESENTATION SYSTEM — OOCSS
+// Base: .image | Modifiers: .diagram .photo .artifact .logo
+// Markdown: ![alt](path){:.image.diagram}
+// ============================================================================
+
+// Figure wrapper (generated by layout JS from .image-classed imgs)
+figure.figure {
+  margin: 0;
+  padding: 0;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    object-fit: contain;
+    object-position: center;
+  }
+
+  // --- DIAGRAM: mounted technical document ---
+  &.diagram {
+    background: $color-surface;
+    padding: $gap-small;
+    border: $rule-light solid $color-border;
+  }
+
+  // --- PHOTO: object on the workbench ---
+  &.photo {
+    overflow: hidden;
+    @extend .film-grain;
+  }
+
+  // --- ARTIFACT: the artwork itself ---
+  &.artifact {
+    background: $color-surface-dark;
+    padding: $gap-small;
+    @extend .film-grain;
+  }
+
+  // --- LOGO: part of the surface ---
+  &.logo {
+    opacity: $opacity-ghost;
+    mix-blend-mode: multiply;
+    pointer-events: none;
+  }
+
+  // Caption from alt text
+  figcaption {
+    font-family: $font-mono;
+    font-size: $type-sm;
+    line-height: $leading-normal;
+    color: $color-text-secondary;
+    letter-spacing: $tracking-snug;
+    margin-top: $gap-small;
+    padding-top: $gap-small;
+  }
+}
+
+// Carousel
+.image-carousel {
+  overflow: hidden;
+
+  .carousel-track {
+    display: flex;
+    transition: transform $transition-standard;
+  }
+
+  .carousel-slide {
+    flex: 0 0 100%;
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  }
+
+}
+
+.carousel-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: $gap-medium;
+}
+
+.carousel-btn {
+  background: none;
+  border: $rule-light solid $color-border;
+  color: $color-text;
+  cursor: pointer;
+  min-width: 44px;
+  min-height: 44px;
+  padding: $gap-small $gap-medium;
+  font-size: $type-head-sm;
+  line-height: $leading-relaxed;
+  transition: border-color $transition-micro;
+
+  &:hover {
+    border-color: $color-text;
+  }
+}
+
+.carousel-dots {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.carousel-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: none;
+  background: $color-border;
+  cursor: pointer;
+  padding: 17px;
+  background-clip: content-box;
+  transition: background $transition-micro;
+
+  &.is-active {
+    background: $color-text;
+    background-clip: content-box;
+  }
+}
+
+// ============================================================================
+// IMAGE OVERLAY — Scrollable full-view for tall screenshots
+// ============================================================================
+
+.image-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  z-index: $z-overlay;
+  display: none;
+  align-items: flex-start;
+  justify-content: center;
+
+  &.is-active {
+    display: flex;
+  }
+}
+
+.image-overlay-close {
+  position: fixed;
+  top: $gap-medium;
+  right: $gap-medium;
+  background: none;
+  border: none;
+  color: $color-white;
+  font-size: $type-display;
+  cursor: pointer;
+  z-index: $z-overlay + 1;
+  line-height: $leading-none;
+  padding: $gap-small;
+  opacity: $opacity-hover;
+  transition: opacity $transition-fast;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.image-overlay-scroll {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  display: flex;
+  justify-content: center;
+  padding: $gap-xxxlarge $gap-xlarge;
+}
+
+.image-overlay-img {
+  max-width: 900px;
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+// ============================================================================
+// PALETTE SWATCHES (inline brand documentation)
+// ============================================================================
+
+.palette-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: $type-detail;
+  margin: $gap-xlarge 0;
+}
+
+.palette-swatch {
+  text-align: center;
+
+  .swatch-color {
+    width: 100%;
+    aspect-ratio: 1;
+    border: $rule-light solid $color-border;
+  }
+
+  .swatch-name {
+    display: block;
+    margin-top: $gap-small;
+    font-family: $font-mono;
+    font-size: $type-sm;
+    font-weight: 600;
+    letter-spacing: $tracking-normal;
+    text-transform: uppercase;
+    color: $color-text;
+  }
+
+  .swatch-hex {
+    display: block;
+    font-family: $font-mono;
+    font-size: $type-xs;
+    color: $color-text-secondary;
+    opacity: $opacity-hover;
+  }
+}
+
+#spoke-link {
+  text-align: center;
+  margin-top: $gap-xxlarge;
+  padding-top: $gap-xlarge;
+  border-top: 2px solid $color-text;
+
+  a {
+    display: inline-block;
+    font-family: $font-display;
+    font-size: $type-detail;
+    letter-spacing: $tracking-normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: $color-green;
+    font-weight: 700;
+
+    &:hover {
+      color: $color-text;
+    }
+  }
+}
+
+// Related work + CTA on project pages
+.project-content + #spoke-link + .related-projects,
+.project-content ~ .related-projects {
+  margin-top: $gap-xxxlarge;
+  padding-top: $gap-xlarge;
+  border-top: $rule-light solid $color-border;
+
+  h2 {
+    font-family: $font-body;
+    font-size: $type-body;
+    font-weight: 600;
+    font-variant-caps: all-small-caps;
+    letter-spacing: $tracking-wide;
+    color: $color-text-secondary;
+    margin-bottom: $gap-large;
+    margin-top: 0;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    margin-bottom: $gap-medium;
+  }
+
+  a {
+    font-family: $font-body;
+    font-size: $type-body-lg;
+    color: $color-text;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.project-cta {
+  margin-top: $gap-xxlarge;
+  padding-top: $gap-large;
+  border-top: $rule-light solid $color-border;
+
+  p {
+    font-family: $font-body;
+    font-size: 0.95rem;
+    color: $color-text-secondary;
+    margin: 0;
+  }
+
+  a {
+    color: $color-text;
+    font-weight: 600;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+// Printer exhaust — Aetherwright registration marks
+.printer-exhaust {
+  margin-top: $gap-xxxlarge;
+  font-family: $font-mono;
+  font-size: $type-sm;
+  color: $color-text-secondary;
+  letter-spacing: $tracking-wide;
+  opacity: $opacity-quiet;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  transition: opacity $transition-standard;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  .exhaust-glyphs {
+    letter-spacing: $tracking-spread;
+    display: flex;
+    gap: 2px;
+  }
+
+  .exhaust-codex {
+    letter-spacing: 0.04em;
+  }
+
+  .glyph-mark {
+    position: relative;
+    cursor: default;
+    padding: 2px 1px;
+    transition: opacity $transition-fast;
+
+    &:hover {
+      opacity: 1;
+    }
+
+    &:hover::after {
+      content: attr(data-tooltip);
+      position: absolute;
+      bottom: calc(100% + 6px);
+      left: 50%;
+      transform: translateX(-50%);
+      white-space: nowrap;
+      font-family: $font-mono;
+      font-size: $type-2xs;
+      letter-spacing: 0.06em;
+      color: $color-text;
+      background: $color-background;
+      border: $rule-light solid $color-border;
+      padding: 3px $gap-small;
+      pointer-events: none;
+      z-index: $z-tooltip;
+    }
+  }
+}
+
+// Ask About Me — AI search buttons
