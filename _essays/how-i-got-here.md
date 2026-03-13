@@ -7,6 +7,10 @@ description: "Construction sites, SVA, screenprinting, twelve years on an enterp
 seo_keywords: ["Peter Salvato", "design engineer", "SVA graphic design", "design engineering", "construction to code", "screenprinting", "enterprise software", "career change design to engineering", "creative technologist portfolio", "cross-disciplinary designer", "print to digital transition"]
 published: true
 order: 1
+related:
+  - /practice/accommodation-design
+  - /evidence/encore
+  - /practice/this-site
 ---
 
 My father would walk a job site at 6 AM before any trade showed up. General superintendent for general contractors (Bovis, Gotham, Engel Burman), skyscraper-scale sites where fifty trades were working their piece at the same time. Electricians, plumbers, ironworkers, glaziers. Every one of them was good at what they did. None of them were responsible for how it all came together. My father was.

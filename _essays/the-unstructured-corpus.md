@@ -6,6 +6,10 @@ seo_keywords: ["unstructured data", "input inversion", "accommodation design", "
 published: true
 order: 12
 last_modified: 2026-03-11
+related:
+  - /practice/input-inversion
+  - /systems/formwork
+  - /practice/this-site
 ---
 
 For three years I've been thinking out loud into AI tools the way I used to think into sketchbooks and production shops. Brainstorming, arguing with myself, changing direction mid-sentence, working through problems at 2 AM when the idea won't let go. 1,643 ChatGPT sessions. 700+ Claude sessions. Gemini exports. Voice notes dictated while driving. Unfinished thoughts. Arguments with no resolution.

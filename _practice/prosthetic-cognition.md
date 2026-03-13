@@ -215,9 +215,7 @@ The model extends the practitioner's cognitive reach. The practitioner provides 
 
 This is not a metaphor. Andy Clark's extended mind thesis describes it philosophically. The CHI 2025 research program studies it empirically. The bionic hand research demonstrates the mechanism physically. This paper documents it through three years of applied cognitive coupling that produced a deployed site, a published methodology, and an open-source toolkit.
 
-The question for practitioners is not "how do I use AI?" or "what should I delegate to AI?" It is: "how do I build the interface that lets AI extend my thinking?"
-
-Build the interface. That's the whole practice. Make it fit how you actually think.
+The interface layer is the practice. Purpose-built tools, fitted to how one practitioner actually thinks, extending cognitive reach into space the mind alone cannot sustain. Three years of that produced the artifact you are reading.
 
 ---
 

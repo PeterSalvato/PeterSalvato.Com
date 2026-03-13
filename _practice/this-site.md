@@ -9,6 +9,11 @@ redirect_from:
 description: "How this site was compiled by hand from a three-year corpus using the tools described on it. The build log for a craftsman's workbench made of AI tools."
 seo_keywords: ["compiled portfolio", "AI governance", "FormWork", "savepoint syntax", "voice protocol", "hand compilation AI", "craftsman AI tools"]
 last_modified: 2026-03-13
+related:
+  - /systems/formwork
+  - /systems/savepoint
+  - /systems/lensarray
+  - /practice/accommodation-design
 faq: true
 faq_items:
   - question: "How was petersalvato.com built?"

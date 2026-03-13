@@ -5,6 +5,9 @@ published: true
 order: 17
 description: "Four people at one table. Celiac, ARFID with opposite restrictions, ADHD. The systems help. Tuesday still happens."
 seo_keywords: ["neurodivergent kitchen", "ARFID meal planning", "celiac cooking systems", "accommodation design", "executive function kitchen", "neurodivergent household", "batch cooking systems", "kitchen accommodation", "food systems design", "Peter Salvato"]
+related:
+  - /practice/accommodation-design
+  - /practice/input-inversion
 ---
 
 I have Celiac disease. My son has ARFID and won't eat rice, noodles, or grains. My daughter has ARFID and won't eat meat. I have ADHD, which means by 5 PM the executive function required to make a single decision about dinner has already been spent on the hundred smaller decisions that started at breakfast.

@@ -7,6 +7,10 @@ published: true
 order: 4
 description: "Coordinators dispatch independent diagnostics in parallel, surface where they agree and disagree, and leave the decisions to the maker."
 seo_keywords: ["AI skill architecture", "coordinator pattern", "AI governance system", "creative evaluation", "FormWork", "Peter Salvato", "Claude Code skills", "AI agent architecture", "how to build AI workflows", "modular AI system", "multi-agent coordination", "AI task orchestration"]
+related:
+  - /systems/formwork
+  - /systems/savepoint
+  - /systems/lensarray
 ---
 
 I had seventeen skills and no way to run them together. Each one worked on its own. The Millman lens could evaluate a page for authenticity. The Grip Test could tell me if copy landed with a stranger. The voice protocol could catch AI writing patterns. But running them manually, one at a time, collecting the results in my head, trying to notice where they agreed and where they didn't: that's the same coordination problem my father solved on construction sites. Fifty trades, each good at their piece, nobody responsible for how it all fits together.

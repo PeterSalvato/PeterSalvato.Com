@@ -14,7 +14,7 @@
       "url": "/work",
       "icon": "layers",
       "children": [
-        { "label": "Ideas", "url": "/practice/whitepapers/" },
+        { "label": "Practice", "url": "/practice/" },
         { "label": "Tools", "url": "/systems/" },
         { "label": "Proof", "url": "/evidence/" }
       ]

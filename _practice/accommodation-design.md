@@ -187,7 +187,7 @@ The field's emphasis on structured input may itself be a constraint-based approa
 
 petersalvato.com was compiled using the system described on it. FormWork held the tools in position while the work was wet: LensArray evaluated every page across independent dimensions. The voice pipeline verified every piece of copy against patterns extracted from conversation. The knowledge traversal skill traced concept lineage across three years of conversation history. SavePoint Syntax marked cognitive turning points throughout. The formwork came off. The site stands.
 
-The site is an artifact produced by the framework. The accommodation architecture built the thing that explains the accommodation architecture. This recursive proof is the strongest form of evidence available for a design methodology: a deployed system producing visible, assessable results.
+The site is an artifact produced by the framework. The accommodation architecture built the thing that explains the accommodation architecture. A deployed system producing visible, assessable results, compiled by the process it describes.
 
 ---
 
@@ -229,7 +229,7 @@ The AI governance field is building constraint systems for a problem that requir
 
 This framework was developed through direct transfer from special education pedagogy to AI system architecture, supported by twenty-five years of applied practice across construction, print production, enterprise software, brand systems, and design education. The applied process, FormWork, accommodates both systems in the room. The pour is the first accommodation, aimed at the human: remove friction at the point of capture so the raw material carries the maker's actual voice and the real structure of their ideas. Five tools provide the second accommodation, aimed at the model: context preservation, evaluation decomposition, task decomposition, voice governance, and retrieval accommodation. Each came from the same question applied to a different processing constraint: what does this system actually need to do this job well?
 
-Nobody else is asking that question about both systems simultaneously. The field needs practitioners who know how to ask it.
+Nobody else is asking that question about both systems simultaneously. The practitioner profile that asks it (trained in reading processing realities and designing for them) does not come from computer science. It comes from a classroom.
 
 ---
 

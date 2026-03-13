@@ -5,6 +5,11 @@ permalink: /thinking/
 description: "One processing profile applied to different materials. Construction sites, classrooms, enterprise platforms, kitchens, turntables, AI tools. The question is always the same."
 seo_keywords: ["design engineering", "design methodology", "cross-domain architecture", "accommodation design", "SVA", "visual communication", "AI governance"]
 last_modified: 2026-03-13
+related:
+  - /practice/accommodation-design
+  - /systems/formwork
+  - /practice/this-site
+  - /evidence/encore
 faq: true
 faq_items:
   - question: "What does Peter Salvato do?"

@@ -6,6 +6,10 @@ seo_keywords: ["special education AI", "IEP design pattern", "teaching methods f
 published: true
 order: 14
 last_modified: 2026-03-11
+related:
+  - /practice/accommodation-design
+  - /practice/prosthetic-cognition
+  - /practice/input-inversion
 ---
 
 You've written an IEP. You've assessed a student's processing profile: working memory capacity, attention span, where they lose the thread. You've taken a compound instruction ("solve for the missing number, show your work, and explain your reasoning") and broken it into three separate steps because you know the student will process the first one and lose the rest.

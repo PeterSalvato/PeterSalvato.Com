@@ -7,6 +7,10 @@ published: true
 order: 3
 description: "AI copy all sounds the same because it learned from published writing. Published writing is performing. Real voice is in conversations."
 seo_keywords: ["AI voice", "voice governance", "AI copywriting", "voice protocol", "AI writing quality", "Peter Salvato", "copy verification", "why does AI writing sound generic", "AI copy sounds the same", "how to make AI write in my voice", "AI tone of voice", "ChatGPT writing sounds fake", "brand voice AI"]
+related:
+  - /practice/voice-governance
+  - /systems/lensarray
+  - /practice/accommodation-design
 ---
 
 Read ten AI-assisted "About" pages and you'll notice they sound identical. The same cadence, the same transitions, the same way of building to a point. Different words, same voice. The person disappears and what's left is the tool's default register.

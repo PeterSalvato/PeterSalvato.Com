@@ -6,6 +6,10 @@ seo_keywords: ["accommodation design", "AI governance", "special education", "IE
 published: true
 order: 10
 last_modified: 2026-03-11
+related:
+  - /practice/accommodation-design
+  - /systems/formwork
+  - /evidence/encore
 ---
 
 In 2023 I gave a language model a prompt: evaluate this portfolio for voice quality, structural integrity, narrative coherence, and brand alignment. Four dimensions, one prompt.

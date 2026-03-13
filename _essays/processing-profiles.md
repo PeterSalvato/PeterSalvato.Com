@@ -6,6 +6,9 @@ seo_keywords: ["processing profile", "IEP", "accommodation design", "context win
 published: true
 order: 11
 last_modified: 2026-03-11
+related:
+  - /practice/accommodation-design
+  - /practice/prosthetic-cognition
 ---
 
 The first thing you do when you get a new student's IEP is read the processing profile. Working memory capacity. Attention span. How they take in information. Where they lose the thread. You don't start teaching until you know how that student's brain works, because the instruction has to fit the student.

@@ -7,6 +7,10 @@ description: "Construction sites, screenprinting, software, breakfast. The same 
 seo_keywords: ["systems thinking", "creative methodology", "screenprinting process", "structural thinking", "design systems", "cross-domain skills", "Peter Salvato", "why do I systematize everything", "pattern recognition creative work", "neurodivergent systems thinker", "connecting ideas across fields"]
 published: true
 order: 1
+related:
+  - /systems/formwork
+  - /practice/accommodation-design
+  - /practice/this-site
 ---
 
 Breakfast was taking 90 minutes. Four people, different dietary needs, nobody sure what was available, every morning starting with the same set of open questions. So I built defaults. Wrote them down. Monday looks like this, Tuesday looks like this. Not a meal plan. A set of decisions made once so they don't have to get made again at 7 AM when nobody has the capacity to make them.

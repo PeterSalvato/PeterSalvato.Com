@@ -28,4 +28,57 @@ layout: default
         {{ content }}
     </div>
     {% endif %}
+
+    {% comment %} Related work: editorial override via frontmatter, then keyword fallback {% endcomment %}
+    {% if page.related %}
+      {% assign related = "" | split: "" %}
+      {% for rel_url in page.related %}
+        {% assign rel_url_slash = rel_url | append: "/" %}
+        {% for collection_name in site.collections %}
+          {% if collection_name.label == "practice" or collection_name.label == "systems" or collection_name.label == "evidence" or collection_name.label == "essays" %}
+            {% for item in collection_name.docs %}
+              {% if item.url == rel_url or item.url == rel_url_slash %}
+                {% assign related = related | push: item %}
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+        {% endfor %}
+        {% for pg in site.pages %}
+          {% if pg.url == rel_url or pg.url == rel_url_slash %}
+            {% assign related = related | push: pg %}
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+    {% else %}
+      {% assign related = "" | split: "" %}
+      {% if page.seo_keywords %}
+      {% for collection_name in site.collections %}
+        {% if collection_name.label == "practice" or collection_name.label == "systems" or collection_name.label == "evidence" %}
+          {% for item in collection_name.docs %}
+            {% if item.url != page.url and item.listed != false and item.published != false and item.seo_keywords %}
+              {% for kw in page.seo_keywords %}
+                {% if item.seo_keywords contains kw %}
+                  {% unless related contains item %}
+                    {% assign related = related | push: item %}
+                  {% endunless %}
+                  {% break %}
+                {% endif %}
+              {% endfor %}
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
+      {% endif %}
+    {% endif %}
+
+    {% if related.size > 0 %}
+    <nav class="related-projects" aria-label="Related work">
+      <h2>Related Work</h2>
+      <ul>
+        {% for item in related limit:4 %}
+        <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+    {% endif %}
 </div>

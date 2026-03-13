@@ -6,6 +6,10 @@ seo_keywords: ["why ChatGPT gets worse", "AI output degrades", "ChatGPT long con
 published: true
 order: 13
 last_modified: 2026-03-11
+related:
+  - /practice/accommodation-design
+  - /systems/savepoint
+  - /practice/input-inversion
 ---
 
 You start a conversation with ChatGPT. The first few responses are sharp. Specific. Useful. An hour later, the responses are vague. It's repeating itself. It contradicts something it said twenty messages ago. You haven't changed how you're prompting. The model got worse on its own.

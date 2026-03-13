@@ -203,7 +203,7 @@ Input inversion formalizes what this evidence suggests: reverse the burden of st
 
 This principle was developed through three years of applied practice and is demonstrated by a production site compiled entirely from unstructured conversational data. It extends the [accommodation design framework](/practice/accommodation-design/) (Salvato, 2026) into a bidirectional pattern: structure for the model, freedom for the human.
 
-The question for practitioners is not "how do I write a better prompt?" It is "how do I build tools that let me stop writing prompts and start thinking out loud?"
+The practitioner who builds the best translation layer between raw human thinking and model-ready input produces the best output. The prompts were never the bottleneck. The tooling was.
 
 ---
 

@@ -7,6 +7,10 @@ published: true
 order: 8
 description: "Each tool exists because the previous one failed. SavePoint because context evaporated. The voice protocol because the output stopped sounding like me. LensArray because evaluation was one question pretending to be twelve."
 seo_keywords: ["design engineering", "design methodology", "AI governance", "creative evaluation framework", "operational methodology", "Peter Salvato", "FormWork", "building AI tools for creative work", "AI workflow for designers", "what can you build with AI in a year", "AI productivity for creatives"]
+related:
+  - /systems/formwork
+  - /systems/savepoint
+  - /practice/this-site
 ---
 
 In February I ran a full diagnostic pass on this site. Every lens came back clean. Voice protocol confirmed. Authenticity criteria confirmed. Structural restraint confirmed. The individual tools were each doing their job.

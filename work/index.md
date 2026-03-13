@@ -10,12 +10,11 @@ last_modified: 2026-03-13
 <div class="work-index">
 
 <div class="work-group">
-<h2><a href="/practice/whitepapers/">Ideas</a></h2>
-<p class="work-group-description">Published research on accommodation design, AI governance, and the principles behind the tools.</p>
+<h2><a href="/practice/">Practice</a></h2>
+<p class="work-group-description">Published research, applied methods, and the creative work behind the tools.</p>
 <div class="work-cards">
-{% assign whitepapers = site.practice | where: "practice_group", "whitepaper" | sort: "title" %}
-{% for item in whitepapers %}
-  {% if item.published != false %}
+{% for item in site.practice %}
+  {% if item.published != false and item.listed != false %}
   {% include artifact-hero.html item=item url=item.url is_link=true %}
   {% endif %}
 {% endfor %}
