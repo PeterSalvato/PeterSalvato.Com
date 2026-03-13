@@ -5,10 +5,10 @@
   },
   "routes": [
     {
-      "name": "Ideas",
-      "url": "/practice/whitepapers/",
-      "definition": "Published research.",
-      "description": "Whitepapers on accommodation design, AI governance, and the principles behind the tools."
+      "name": "Practice",
+      "url": "/practice/",
+      "definition": "Published research and applied methods.",
+      "description": "Whitepapers, creative tools, and the work behind the methodology."
     },
     {
       "name": "Tools",
