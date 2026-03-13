@@ -7,6 +7,7 @@ description: "Construction sites, SVA, screenprinting, twelve years on an enterp
 seo_keywords: ["Peter Salvato", "design engineer", "SVA graphic design", "design engineering", "construction to code", "screenprinting", "enterprise software", "career change design to engineering", "creative technologist portfolio", "cross-disciplinary designer", "print to digital transition"]
 published: true
 order: 1
+icon: edit_note
 related:
   - /practice/accommodation-design
   - /evidence/encore

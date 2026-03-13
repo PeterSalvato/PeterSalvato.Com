@@ -2,7 +2,7 @@
 layout: project
 title: "LensArray"
 subtitle: "Multi-Perspective Evaluation and Generation"
-icon: visibility
+icon: handyman
 status: "Active"
 description: "Evaluation and generation through extracted practitioner lenses. Staff each layer with perspectives you trust, run them independently, read the convergence. The tensions between lenses are where the interesting decisions live."
 seo_keywords: ["multi-perspective evaluation", "AI design critique", "evaluation lenses", "design review framework", "creative evaluation AI", "SVA critique room", "independent evaluation dimensions", "AI quality assessment", "how to evaluate AI output", "AI review process"]

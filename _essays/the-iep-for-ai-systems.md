@@ -5,6 +5,7 @@ redirect_from:
 title: "The IEP for AI Systems"
 published: true
 order: 9
+icon: edit_note
 description: "I've been solving the same problem my entire career: decompose complex work for a system that can't process it whole, scaffold the structure, individualize the criteria. A self-contained classroom in Sunset Park is where I learned it."
 seo_keywords: ["special education", "agentic architecture", "task decomposition", "scaffolding", "IEP", "AI governance", "coordinator pattern", "skill architecture", "design engineering", "IEP strategies for AI", "scaffolding AI prompts", "special education methods technology", "breaking down tasks for AI", "both sides of the IEP table", "teacher to tech pipeline", "special ed skills transfer"]
 related:

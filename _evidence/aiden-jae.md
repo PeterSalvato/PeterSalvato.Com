@@ -3,7 +3,7 @@ layout: project
 redirect_from: /output/aiden-jae/
 title: "Aiden Jae"
 subtitle: "Building a Brand from Raw Material to Running Business"
-icon: diamond
+icon: cases
 logo: /assets/img/aj_stacked_logo.svg
 logo_type: stacked
 status: "Delivered"

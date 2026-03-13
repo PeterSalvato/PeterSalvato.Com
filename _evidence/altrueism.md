@@ -3,7 +3,7 @@ layout: project
 redirect_from: /output/altrueism/
 title: "Altrueism"
 subtitle: "Transparency as Visual Architecture"
-icon: volunteer_activism
+icon: cases
 logo: /assets/img/Altruesm_stacked_web.png
 logo_type: stacked
 status: "Delivered"

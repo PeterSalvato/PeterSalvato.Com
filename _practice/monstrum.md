@@ -4,7 +4,7 @@ redirect_from: /output/monstrum/
 practice_group: meditations
 title: "Monstrum"
 subtitle: "Visual Taxonomy of the Monstrous"
-icon: bug_report
+icon: construction
 status: "In Development"
 published: false
 context: "Every culture builds monsters to say what it can't say directly. The creature is the statement: form, behavior, and destruction pattern as syntax for what can't be articulated."

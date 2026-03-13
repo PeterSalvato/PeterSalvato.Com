@@ -5,6 +5,7 @@ redirect_from:
 title: "Lens Extraction"
 published: true
 order: 2
+icon: edit_note
 description: "\"Act as Vignelli\" gives you a caricature. Extracting evaluative frameworks from bodies of work gives you testable diagnostic lenses. The difference matters."
 seo_keywords: ["lens extraction", "AI evaluation", "creative evaluation framework", "FormWork", "LensArray", "design critique", "evaluative lenses", "Peter Salvato", "act as expert prompt problems", "AI persona prompting doesn't work", "better AI evaluation", "multi-perspective AI review", "design critique framework"]
 related:

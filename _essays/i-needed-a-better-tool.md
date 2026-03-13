@@ -5,6 +5,7 @@ redirect_from:
 title: "I Needed a Better Tool"
 published: true
 order: 3
+icon: edit_note
 description: "Thousands of ChatGPT conversations in two years. Then I found Claude Code, and the thing that made it stick was that it could read my files."
 seo_keywords: ["Claude Code", "AI tools", "ChatGPT to Claude", "design engineer", "methodology-driven development", "Peter Salvato", "CLAUDE.md", "switching from ChatGPT to Claude", "AI tool comparison for developers", "best AI coding assistant", "file-aware AI", "AI that reads your codebase"]
 related:

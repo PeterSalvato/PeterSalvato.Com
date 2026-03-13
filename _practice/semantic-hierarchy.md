@@ -3,7 +3,7 @@ layout: project
 practice_group: whitepaper
 title: "Semantic Flattening and the Case for Human-Marked Importance in AI Memory"
 subtitle: "Why Machine-Scored Memory Systems Erase What Matters Most"
-icon: layers
+icon: construction
 status: "Published"
 faculty: ["design", "engineering"]
 seo_keywords: ["semantic flattening", "AI memory importance", "human-marked memory", "savepoint syntax", "cognitive turning points", "AI memory systems", "MemGPT", "semantic hierarchy", "accommodation design", "intent-relative importance", "AI conversation memory", "human in the loop memory"]

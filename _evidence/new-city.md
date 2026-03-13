@@ -3,7 +3,7 @@ layout: project
 redirect_from: /output/new-city/
 title: "New City"
 subtitle: "Registration Architecture Applied to Prose"
-icon: location_city
+icon: cases
 status: "In Development"
 context: "I've never written a novel. I had a story idea and wanted to see if the same design thinking I use everywhere else would hold in a material I'd never worked in. So I built the architecture first."
 faculty: ["design", "uxia", "engineering"]

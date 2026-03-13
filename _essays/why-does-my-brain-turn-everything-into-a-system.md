@@ -7,6 +7,7 @@ description: "Construction sites, screenprinting, software, breakfast. The same 
 seo_keywords: ["systems thinking", "creative methodology", "screenprinting process", "structural thinking", "design systems", "cross-domain skills", "Peter Salvato", "why do I systematize everything", "pattern recognition creative work", "neurodivergent systems thinker", "connecting ideas across fields"]
 published: true
 order: 1
+icon: edit_note
 related:
   - /systems/formwork
   - /practice/accommodation-design

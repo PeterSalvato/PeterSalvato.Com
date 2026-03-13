@@ -5,7 +5,7 @@ practice_group: meditations
 published: false
 title: "Photogeography"
 subtitle: "Format-Locked Visual Archive"
-icon: photo_camera
+icon: construction
 status: "In Development"
 context: "Photography started with a borrowed SLR and a class in Brooklyn. It became the visual component of everything: travel, relocation, documentation. Decades of narrative image that needed a formal system."
 faculty: ["design", "uxia"]

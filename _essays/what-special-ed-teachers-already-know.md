@@ -5,6 +5,7 @@ description: "You've written IEPs. You've decomposed compound instructions. You'
 seo_keywords: ["special education AI", "IEP design pattern", "teaching methods for AI", "AI task decomposition", "scaffolding AI", "accommodation design", "special ed teacher skills", "AI governance education", "how teachers can help with AI", "AI prompt design like lesson planning", "differentiated instruction AI"]
 published: true
 order: 14
+icon: edit_note
 last_modified: 2026-03-11
 related:
   - /practice/accommodation-design

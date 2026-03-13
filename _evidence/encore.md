@@ -3,7 +3,7 @@ layout: project
 redirect_from: /infrastructure/encore/
 title: "Encore"
 subtitle: "12-Year Enterprise Platform Evolution"
-icon: domain
+icon: cases
 status: "Deployed"
 context: "A solid Windows Forms application serving some of the largest organizations in the world. The software was good. The delivery layer was about to become the constraint."
 faculty: ["design", "engineering", "uxia"]

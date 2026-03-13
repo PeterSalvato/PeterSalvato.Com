@@ -5,6 +5,7 @@ redirect_from:
 title: "I'm Compilative, Not Generative"
 published: true
 order: 6
+icon: edit_note
 description: "Most people use AI as a generator. I use it as a compiler. The distinction matters because compilation preserves authorship. Generation replaces it."
 seo_keywords: ["AI compilation", "AI authorship", "generative AI", "design methodology", "compiled portfolio", "Peter Salvato", "AI governance", "is AI generated content authentic", "AI authorship ethics", "human directed AI", "using AI without losing your voice", "AI content that doesn't sound like AI"]
 related:

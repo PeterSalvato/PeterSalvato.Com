@@ -5,6 +5,7 @@ description: "Typing into AI is already filtering your thinking. You're editing 
 seo_keywords: ["talking to AI", "dictation AI workflow", "voice notes AI", "brainstorming with ChatGPT", "thinking out loud AI", "input inversion", "unstructured AI input", "better AI results from voice", "AI voice notes", "raw thinking AI", "accommodation design", "stop organizing AI prompts"]
 published: true
 order: 15
+icon: edit_note
 last_modified: 2026-03-11
 related:
   - /practice/input-inversion

@@ -5,6 +5,7 @@ description: "A DJ doesn't just pick good tracks. A DJ reads the room and sequen
 seo_keywords: ["pacing design", "DJ culture design", "reading the room", "attunement", "sequencing UX", "spiral curriculum", "AI task sequencing", "accommodation design", "Twilo", "experience design", "why AI gets worse in long conversations", "attention degradation AI", "task ordering matters AI", "pacing in teaching", "energy management design", "how DJs read a room"]
 published: false
 order: 16
+icon: edit_note
 last_modified: 2026-03-11
 ---
 

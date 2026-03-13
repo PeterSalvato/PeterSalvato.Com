@@ -5,6 +5,7 @@ description: "I gave a language model four evaluation criteria in one prompt. Th
 seo_keywords: ["accommodation design", "AI governance", "special education", "IEP", "task decomposition", "processing profile", "prompt architecture", "constraint vs accommodation", "why AI output degrades", "better AI results", "AI prompt not working", "how to improve ChatGPT output", "AI for educators", "compound prompt problem"]
 published: true
 order: 10
+icon: edit_note
 last_modified: 2026-03-11
 related:
   - /practice/accommodation-design

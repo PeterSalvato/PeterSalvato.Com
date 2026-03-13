@@ -5,6 +5,7 @@ description: "Everyone says structure your AI input carefully. I did the opposit
 seo_keywords: ["unstructured data", "input inversion", "accommodation design", "AI governance", "voice sampling", "knowledge traversal", "raw ideation", "corpus", "thinking out loud", "talking to AI vs typing", "brainstorming with ChatGPT", "voice notes AI", "should I organize notes for AI", "unstructured thinking AI", "dictation AI workflow"]
 published: true
 order: 12
+icon: edit_note
 last_modified: 2026-03-11
 related:
   - /practice/input-inversion

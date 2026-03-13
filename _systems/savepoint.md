@@ -3,7 +3,7 @@ layout: project
 title: "SavePoint Syntax"
 redirect_from: /governance/savepoint-syntax/
 subtitle: "Semantic Markup for Turning Points in Thinking"
-icon: code
+icon: handyman
 status: "V3.2 Open Source"
 faculty: ["design", "uxia"]
 external_url: "https://github.com/PeterSalvato/Savepoint.Protocol"

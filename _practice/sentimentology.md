@@ -4,7 +4,7 @@ redirect_from: /output/sentimentology/
 practice_group: meditations
 title: "Sentimentology"
 subtitle: "Emotional Mapping Through Swiss Grid Systems"
-icon: psychology
+icon: construction
 status: "In Development"
 published: false
 context: "Emotional states that exist but have no English words. Sonder. Hiraeth. Resfeber. Real topographies, navigable, that the precision of cartography has never been applied to."

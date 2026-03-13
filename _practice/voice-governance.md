@@ -3,7 +3,7 @@ layout: project
 practice_group: whitepaper
 title: "Voice Governance"
 subtitle: "Generation Constraints vs. Post-Hoc Filtering in AI-Mediated Writing"
-icon: record_voice_over
+icon: construction
 status: "Published"
 faculty: ["design", "engineering"]
 seo_keywords: ["voice governance", "AI writing voice", "generation constraints", "post-hoc filtering", "AI voice fidelity", "AI slop", "voice protocol", "accommodation design", "AI copy sounds generic", "how to make AI writing sound human", "AI writing voice matching", "why AI text sounds the same"]

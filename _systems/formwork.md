@@ -3,7 +3,7 @@ layout: project
 title: "FormWork"
 redirect_from: /governance/formwork-protocol/
 subtitle: "The Accommodation Design Process"
-icon: layers
+icon: handyman
 status: "Active"
 faculty: ["design", "engineering", "uxia"]
 seo_keywords: ["AI accommodation design", "FormWork", "AI task decomposition", "context preservation", "evaluation lenses", "voice sampling AI", "knowledge traversal", "AI governance process", "accommodation design process", "cognitive accommodation AI", "how to build AI tools", "AI workflow for creative work", "better AI evaluation", "AI keeps forgetting context", "structured AI process"]

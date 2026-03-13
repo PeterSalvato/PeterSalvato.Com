@@ -5,7 +5,7 @@ practice_group: meditations
 published: false
 title: "The Deep Cuts"
 subtitle: "DJ Methodology as Active Listening"
-icon: album
+icon: construction
 status: "In Development"
 context: "Growing up in New York in the 80s and 90s, surrounded by hip-hop and spending nights at Tunnel and Twilo, DJing was never a career consideration. It was how you loved music. That relationship doesn't have a guide."
 faculty: ["design", "uxia"]

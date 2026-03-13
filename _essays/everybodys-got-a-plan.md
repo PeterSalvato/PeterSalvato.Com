@@ -3,6 +3,7 @@ layout: post
 title: "Everybody's Got a Plan"
 published: true
 order: 17
+icon: edit_note
 description: "Four people at one table. Celiac, ARFID with opposite restrictions, ADHD. The systems help. Tuesday still happens."
 seo_keywords: ["neurodivergent kitchen", "ARFID meal planning", "celiac cooking systems", "accommodation design", "executive function kitchen", "neurodivergent household", "batch cooking systems", "kitchen accommodation", "food systems design", "Peter Salvato"]
 related:

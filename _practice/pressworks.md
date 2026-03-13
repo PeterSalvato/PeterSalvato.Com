@@ -4,7 +4,7 @@ redirect_from: /infrastructure/pressworks/
 practice_group: meditations
 title: "PressWorks"
 subtitle: "Terminal-Native Print Production"
-icon: print
+icon: construction
 status: "Active"
 context: "I came up in print shops in Brooklyn and Fort Lauderdale. Color separation, plate registration, halftone screening. The process has a logic that digital tools never captured."
 faculty: ["design", "engineering"]

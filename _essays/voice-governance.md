@@ -5,6 +5,7 @@ redirect_from:
 title: "Voice Governance"
 published: true
 order: 3
+icon: edit_note
 description: "AI copy all sounds the same because it learned from published writing. Published writing is performing. Real voice is in conversations."
 seo_keywords: ["AI voice", "voice governance", "AI copywriting", "voice protocol", "AI writing quality", "Peter Salvato", "copy verification", "why does AI writing sound generic", "AI copy sounds the same", "how to make AI write in my voice", "AI tone of voice", "ChatGPT writing sounds fake", "brand voice AI"]
 related:

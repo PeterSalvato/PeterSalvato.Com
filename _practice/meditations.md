@@ -5,7 +5,7 @@ practice_group: meditations
 published: false
 title: "Meditations"
 subtitle: "Constraint-Based Graphic Explorations"
-icon: palette
+icon: construction
 logo: /assets/img/EchoAndBone_logo.svg
 logo_type: wordmark
 status: "In Development"

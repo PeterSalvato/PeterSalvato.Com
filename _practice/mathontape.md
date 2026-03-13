@@ -4,7 +4,7 @@ redirect_from: /output/mathontape/
 practice_group: meditations
 title: "MathOnTape"
 subtitle: "Visual-Sonic Brand Integration"
-icon: graphic_eq
+icon: construction
 logo: /assets/img/MathOnTape.stacked.logo.svg
 logo_type: stacked
 status: "In Development"

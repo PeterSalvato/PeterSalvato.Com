@@ -4,7 +4,7 @@ redirect_from: /governance/order-of-the-aetherwright/
 practice_group: writing
 title: "Order of the Ætherwright"
 subtitle: "Symbolic Structure for Creative Work"
-icon: auto_fix_high
+icon: construction
 logo: /assets/img/AE_sigil@4x.png
 logo_type: mark
 mark: /assets/img/aetherwright_sigil@2x.png

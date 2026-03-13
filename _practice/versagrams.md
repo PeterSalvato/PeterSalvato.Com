@@ -5,7 +5,7 @@ practice_group: meditations
 published: false
 title: "Versagrams"
 subtitle: "Song Lyrics as Typographic Architecture"
-icon: font_download
+icon: construction
 status: "In Development"
 context: "Most song posters illustrate what a song is 'about.' The image references the mood. The lyrics get set in type. Neither element comes from the same source. The feeling lives in the relationship, but the process treats them as separate problems."
 faculty: ["design"]

@@ -4,7 +4,7 @@ redirect_from: /infrastructure/sovereign-design-engine/
 practice_group: meditations
 title: "Sovereign Design Engine"
 subtitle: "Headless Design Pipeline for Print-Ready Output"
-icon: engineering
+icon: construction
 status: "Active"
 context: "The content lives in one environment and the design tool lives on another machine. Every time I need to produce something physical, I leave the place where the content was built and manually lay out what I already have structured as data."
 faculty: ["design", "engineering"]

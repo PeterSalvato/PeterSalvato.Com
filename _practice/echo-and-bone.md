@@ -5,7 +5,7 @@ practice_group: meditations
 published: false
 title: "Echo & Bone"
 subtitle: "Symbolic Taxonomy of Archetypal Patterns"
-icon: skeleton
+icon: construction
 logo: /assets/img/EchoAndBone_logo.svg
 logo_type: wordmark
 status: "In Development"

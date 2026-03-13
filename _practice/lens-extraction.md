@@ -3,7 +3,7 @@ layout: project
 practice_group: whitepaper
 title: "Lens Extraction"
 subtitle: "Decomposed Evaluation Through Practitioner-Derived Criteria"
-icon: visibility
+icon: construction
 status: "Published"
 faculty: ["design", "engineering"]
 seo_keywords: ["lens extraction", "AI evaluation decomposition", "practitioner-derived evaluation", "design critique AI", "multi-perspective evaluation", "LLM-as-judge", "decomposed evaluation", "accommodation design", "SVA critique room", "Vignelli lens", "design evaluation framework", "AI design review"]

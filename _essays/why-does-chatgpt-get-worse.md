@@ -5,6 +5,7 @@ description: "Your AI gives sharp answers at the start of a conversation and vag
 seo_keywords: ["why ChatGPT gets worse", "AI output degrades", "ChatGPT long conversation problems", "context window explained", "AI forgets earlier messages", "how to get better AI results", "ChatGPT losing context", "accommodation design", "processing profile", "special education AI"]
 published: true
 order: 13
+icon: edit_note
 last_modified: 2026-03-11
 related:
   - /practice/accommodation-design

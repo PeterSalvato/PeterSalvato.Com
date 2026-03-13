@@ -5,6 +5,7 @@ description: "Your AI forgets the beginning of a long conversation for the same 
 seo_keywords: ["processing profile", "IEP", "accommodation design", "context window", "working memory", "token limits", "attention degradation", "special education AI", "CLAUDE.md", "why ChatGPT forgets context", "AI loses track of conversation", "long prompt problems", "how to structure AI prompts", "ChatGPT context window explained", "teaching methods for AI"]
 published: true
 order: 11
+icon: edit_note
 last_modified: 2026-03-11
 related:
   - /practice/accommodation-design

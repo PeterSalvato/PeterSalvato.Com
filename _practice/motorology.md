@@ -4,7 +4,7 @@ redirect_from: /output/motorology/
 practice_group: meditations
 title: "Motorology"
 subtitle: "Systematic Visual Taxonomy of Purpose-Built Vehicles"
-icon: directions_car
+icon: construction
 status: "In Development"
 published: false
 context: "Purpose-built vehicles are engineering problems solved in steel. Every line, every weld, every bolt carries the logic of the specific constraint it was built to answer."

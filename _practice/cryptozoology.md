@@ -4,7 +4,7 @@ redirect_from: /output/cryptozoology/
 practice_group: meditations
 title: "Cryptozoology"
 subtitle: "Pseudo-Academic Visual Archive"
-icon: pets
+icon: construction
 status: "In Development"
 published: false
 context: "Creatures that don't exist, presented with the full apparatus of scholarly visual credibility. What does rigorous form do to content it has no business taking seriously?"

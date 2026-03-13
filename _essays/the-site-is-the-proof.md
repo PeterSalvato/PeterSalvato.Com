@@ -5,6 +5,7 @@ redirect_from:
 title: "The Site Is the Proof"
 published: true
 order: 7
+icon: edit_note
 description: "A blind evaluator read this site and concluded it was unequivocally human-written. It wasn't. Every page was compiled from three years of conversations by the system described on the site."
 seo_keywords: ["AI governance", "anti-slop", "voice protocol", "systems architecture", "compiled portfolio", "Peter Salvato", "FormWork", "provenance", "AI content that passes human review", "how to make AI writing sound human", "AI slop detection", "AI quality control", "portfolio built with AI"]
 related:

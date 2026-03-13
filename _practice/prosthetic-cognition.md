@@ -4,7 +4,7 @@ redirect_from: /governance/prosthetic-cognition/
 practice_group: whitepaper
 title: "A Different Kind of Harness"
 subtitle: "AI as Cognitive Prosthetic Through Mutual Accommodation"
-icon: accessibility_new
+icon: construction
 status: "Published"
 faculty: ["design", "engineering", "uxia"]
 seo_keywords: ["AI cognitive extension", "human-AI collaboration", "extended mind AI", "cognitive prosthetic", "AI augmentation", "human-AI coupling", "AI as thinking partner", "prosthetic cognition", "mutual accommodation AI", "cognitive load AI", "AI workflow design", "human-computer interaction AI", "AI not a tool", "thinking with AI"]

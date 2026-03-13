@@ -4,7 +4,7 @@ redirect_from: /governance/input-inversion/
 practice_group: whitepaper
 title: "Input Inversion"
 subtitle: "Why Unstructured Human Thinking Produces Better AI Output"
-icon: swap_vert
+icon: construction
 status: "Published"
 faculty: ["design", "engineering"]
 seo_keywords: ["input inversion", "unstructured AI input", "structured prompts overrated", "raw thinking AI", "voice input AI", "prompt engineering diminishing returns", "talking to AI", "AI brainstorming", "accommodation design", "better AI results without structure", "why prompt engineering fails", "unstructured data AI quality"]
