@@ -5,7 +5,7 @@ redirect_from:
 title: "What I Built This Year"
 published: true
 order: 8
-description: "The same operation across different materials. This year I finally had tools that could keep up with the velocity."
+description: "Each tool exists because the previous one failed. SavePoint because context evaporated. The voice protocol because the output stopped sounding like me. LensArray because evaluation was one question pretending to be twelve."
 seo_keywords: ["design engineering", "design methodology", "AI governance", "creative evaluation framework", "operational methodology", "Peter Salvato", "FormWork", "building AI tools for creative work", "AI workflow for designers", "what can you build with AI in a year", "AI productivity for creatives"]
 ---
 

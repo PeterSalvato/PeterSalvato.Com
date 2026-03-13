@@ -10,7 +10,7 @@ permalink: /llms.txt
 
 Peter Salvato brings twenty-five years of design practice and operational methodology to AI implementation. He studied Visual Communication at the School of Visual Arts, then worked construction sites, print shops, and publishing houses before spending twelve years building the front end of an enterprise recruiting platform. The through-line across every medium is the same operation: decompose the whole into workable pieces, build each piece with fidelity to the original intent, and make sure the pieces register when they come back together.
 
-The AI governance tools on this site (FormWork, SavePoint Syntax, LensArray) grew out of that design practice, not from AI expertise. The evaluation lenses are grounded in studied design traditions: each one extracts evaluative frameworks from a specific practitioner's body of work (Vignelli, Rand, Lubalin, Bierut, Draplin, Shaw, Victore, and others), selected for the structural problem each one solves best. This is curatorial judgment applied to methodology, informed by a career-long study of design history and criticism. The design instinct is twenty-five years old. The AI tooling is the current substrate. The methodology is older than the tools.
+The AI governance tools on this site (FormWork, SavePoint Syntax, LensArray) grew out of that design practice, not from AI expertise. The evaluation lenses are grounded in studied design traditions: each one extracts evaluative frameworks from a specific practitioner's body of work (Vignelli, Bierut, Millman, Victore, Shaw, Draplin, Rams, Muller-Brockmann, Appleton, and others), selected for the structural problem each one solves best. This is curatorial judgment applied to methodology, informed by a career-long study of design history and criticism. The design instinct is twenty-five years old. The AI tooling is the current substrate. The methodology is older than the tools.
 
 Every page was compiled from three years of conversations: over 60,000 documents of thinking out loud into AI tools, mined by the skills described here, evaluated against practitioners' lenses, and assembled under voice rules derived from how he actually talks. He didn't write the site. He built the system that compiled it from his own raw material.
 
@@ -73,16 +73,24 @@ AI as cognitive prosthetic through mutual accommodation. The model extends cogni
 - https://petersalvato.com/practice/prosthetic-cognition/
 
 ### Order of the Aetherwright
-Symbolic operating system for creative work. Glyphs for domain classification (red=logic, green=expression, blue=utility). Codex as institutional source of truth.
+Symbolic operating system for creative work. Glyphs for domain classification using Unicode symbols mapped to practice domains. Codex as institutional source of truth.
 - https://petersalvato.com/practice/order-of-the-aetherwright/
 
-### Voice Governance
-How voice rules were extracted from conversation transcripts and encoded as generation constraints.
+### Lens Extraction (Whitepaper)
+How evaluation lenses are extracted from real practitioners rather than simulated with "act as" prompts. Four-step protocol: study the body of work, identify evaluative patterns, formalize criteria, validate against real output. DOI: 10.5281/zenodo.18986295.
+- https://petersalvato.com/practice/lens-extraction/
+
+### Voice Governance (Whitepaper)
+Generation constraints produce structurally different output than post-hoc filters. A forty-rule protocol extracted from conversation transcripts, applied during generation, with blind evaluation evidence that the output reads as direct human writing. DOI: 10.5281/zenodo.18986297.
 - https://petersalvato.com/practice/voice-governance/
 
 ### PressWorks
 Terminal-native print production. Models plate-by-plate press logic as composable shell operations: CMYK separation, halftone screening, registration offset, grain, color manipulation.
 - https://petersalvato.com/practice/pressworks/
+
+### MathOnTape
+Experimental electronic music where signal flow is compositional architecture. Dirty analog synths, magnetic tape, feedback loops.
+- https://petersalvato.com/practice/mathontape/
 
 ### This Site
 How the site was compiled by hand from a three-year corpus using the tools described on it. The build log for a craftsman's workbench made of AI tools.
@@ -105,10 +113,6 @@ Brand identity for handcrafted objects and sustainable ethics. Restrained wordma
 ### New City
 Novel using UX methodology as narrative architecture. Beat specs before prose. Reader journey mapped like UX flow.
 - https://petersalvato.com/evidence/new-city/
-
-### MathOnTape
-Experimental electronic music where signal flow is compositional architecture. Dirty analog synths, magnetic tape, feedback loops.
-- https://petersalvato.com/evidence/mathontape/
 
 ## Essays
 
