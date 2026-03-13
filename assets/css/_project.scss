@@ -5,7 +5,7 @@
 .project-content {
   font-family: $font-body;
   font-size: $type-body;
-  line-height: $leading-spacious;
+  line-height: $leading-relaxed;
   color: $color-text;
 
   // Legacy image fallback (images without .image class)
@@ -25,33 +25,63 @@
     margin-top: $gap-xlarge;
   }
 
+  // Opening paragraph: typographically distinct
+  > p:first-child {
+    font-size: $type-body-lg;
+    line-height: $leading-loose;
+  }
+
   p {
-    margin-bottom: $gap-medium;
+    margin-bottom: $gap-large;
   }
 
   h2 {
-    margin-top: $gap-xlarge;
-    margin-bottom: $gap-xlarge;
+    margin-top: $gap-xxxlarge;
+    margin-bottom: $gap-large;
   }
 
   h3 {
-    margin-top: $gap-xlarge;
+    margin-top: $gap-xxlarge;
     margin-bottom: $gap-medium;
   }
 
   h4 {
-    margin-top: $gap-large;
+    margin-top: $gap-xlarge;
     margin-bottom: $gap-medium;
     font-weight: 600;
   }
 
   ul, ol {
     margin-left: $gap-xlarge;
-    margin-bottom: $gap-medium;
+    margin-bottom: $gap-large;
   }
 
   li {
     margin-bottom: $gap-small;
+  }
+
+  // Section breaks: generous space, subtle marker
+  hr {
+    border: none;
+    height: 0;
+    margin: $gap-xxxlarge 0;
+    position: relative;
+
+    &::after {
+      content: '·';
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: $type-body;
+      color: $color-text-secondary;
+      line-height: 1;
+    }
+  }
+
+  hr + p {
+    font-size: $type-body-lg;
+    line-height: $leading-loose;
   }
 
   table {
@@ -75,16 +105,18 @@
     border: none;
     border-top: $rule-heavy solid $color-text;
     border-bottom: $rule-light solid $color-text;
-    margin: $gap-xxlarge 0;
-    padding: $gap-large 0;
+    margin: $gap-xxxlarge 0;
+    padding: $gap-xlarge 0;
     background: none;
     font-family: $font-body;
-    font-size: $type-body-lg;
+    font-size: $type-head-sm;
     font-style: italic;
     line-height: $leading-relaxed;
     color: $color-text;
 
     p {
+      font-size: $type-head-sm;
+      line-height: $leading-relaxed;
       margin-bottom: $gap-small;
 
       &:last-child {
@@ -93,7 +125,7 @@
     }
 
     // Attribution line
-    p:last-child {
+    p:last-child:not(:first-child) {
       font-family: $font-mono;
       font-style: normal;
       font-size: $type-xs;
@@ -115,12 +147,18 @@
     background-color: $color-surface-dark;
     padding: $gap-medium;
     overflow-x: auto;
-    margin: $gap-medium 0;
+    margin: $gap-large 0;
 
     code {
       background-color: transparent;
       padding: 0;
     }
+  }
+
+  // Links within body
+  a {
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
   }
 }
 
@@ -142,11 +180,11 @@
 
   // Section heading spans full width above the two-column body
   > h2 {
-    font-size: 0.85rem;
-    font-family: $font-mono;
+    font-family: $font-body;
+    font-size: $type-body;
     font-weight: 600;
-    letter-spacing: $tracking-wider;
-    text-transform: uppercase;
+    font-variant-caps: all-small-caps;
+    letter-spacing: $tracking-wide;
     color: $color-text-secondary;
     margin-bottom: $gap-large;
     padding-bottom: $gap-medium;
@@ -461,11 +499,11 @@ figure.figure {
   border-top: $rule-light solid $color-border;
 
   h2 {
-    font-size: 0.85rem;
-    font-family: $font-mono;
+    font-family: $font-body;
+    font-size: $type-body;
     font-weight: 600;
-    letter-spacing: $tracking-wider;
-    text-transform: uppercase;
+    font-variant-caps: all-small-caps;
+    letter-spacing: $tracking-wide;
     color: $color-text-secondary;
     margin-bottom: $gap-large;
     margin-top: 0;

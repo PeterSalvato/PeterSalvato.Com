@@ -167,11 +167,11 @@
     border-top: $rule-light solid $color-border;
 
     h2 {
-      font-size: 0.85rem;
-      font-family: $font-mono;
+      font-family: $font-body;
+      font-size: $type-body;
       font-weight: 600;
-      letter-spacing: $tracking-wider;
-      text-transform: uppercase;
+      font-variant-caps: all-small-caps;
+      letter-spacing: $tracking-wide;
       color: $color-text-secondary;
       margin-bottom: $gap-large;
       margin-top: 0;
