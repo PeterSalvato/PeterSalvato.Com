@@ -47,7 +47,7 @@ The system is good. I believe in the system. And then Tuesday happens. Someone h
 
 On Tuesday, dinner is hot dogs.
 
-The systems don't fix the constraints. They make the good days more likely and the bad days less destructive. A house with these systems still has bad nights. The difference is recovery. The structure is still there tomorrow morning. The rice cooker still knows what to do. The sous vide bags are still in the fridge. You didn't lose the infrastructure because you lost one night.
+The systems don't fix the constraints. They make the good days more likely and the bad days less destructive. A house with these systems still has bad nights. The difference is recovery. The structure is still there tomorrow morning. The rice cooker settings are still there. The sous vide bags are still in the fridge. You didn't lose the infrastructure because you lost one night.
 
 ---
 
@@ -57,4 +57,4 @@ The kitchen is the room where that work comes home. The constraints are medical 
 
 Some days the environment carries it. Some days I'm standing in the kitchen at 7 PM with the gloves on, making a sandwich I can't eat, and the plan is already gone. The system doesn't save you from that. It saves you from having to rebuild the whole thing from scratch the next morning.
 
-The constraints don't go away. The architecture gets better as we learn more.
+The constraints don't go away.
