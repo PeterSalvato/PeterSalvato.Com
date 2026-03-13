@@ -4,5 +4,10 @@
     { "label": "Work", "url": "/work", "icon": "layers" },
     { "label": "Writing", "url": "/essays/", "icon": "edit_note" },
     { "label": "Contact", "url": "/contact", "icon": "mail" }
+  ],
+  "sections": [
+    { "label": "Practice", "url": "/practice/", "icon": "psychology" },
+    { "label": "Systems", "url": "/systems/", "icon": "hub" },
+    { "label": "Evidence", "url": "/evidence/", "icon": "verified" }
   ]
 }
