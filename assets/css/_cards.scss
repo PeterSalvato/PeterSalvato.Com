@@ -135,7 +135,7 @@
       font-size: 40px;
     }
 
-    &:hover h2 {
+    &:hover h3 {
       color: $color-spot;
     }
 
@@ -152,8 +152,8 @@
       min-width: 0;
     }
 
-    h2 {
-      font-size: $type-title;
+    h3 {
+      font-size: $type-head;
       font-weight: 700;
       letter-spacing: $tracking-normal;
       text-transform: uppercase;
@@ -169,6 +169,7 @@
 
     .artifact-subtitle {
       margin-top: $gap-small;
+      font-size: $type-body-sm;
     }
 
     .artifact-context {
