@@ -13,7 +13,7 @@ You've been in the room where everything just worked.
 
 Not because someone explained what was happening. Not because you understood the structure. You just felt right inside it. The pacing made sense. The next thing that happened was the thing you needed. You didn't have to think about why. Your body already knew.
 
-I've spent twenty-five years trying to figure out how to build that on purpose.
+I've spent my career trying to figure out how to build that on purpose.
 
 ---
 
@@ -47,7 +47,7 @@ A dance floor and a classroom don't look like they have much in common. But I wa
 
 When it works, nobody notices. The student doesn't get humiliated. The dance floor doesn't lose its energy. The person on the other end just feels like it makes sense.
 
-I didn't have language for any of this until recently. I just kept ending up in rooms (enterprise platforms, brand systems, fiction, music) and doing the same thing without knowing that's what I was doing. The rooms changed. The operation didn't. It took twenty-five years to see the pattern clearly enough to say it out loud.
+I didn't have language for any of this until recently. I just kept ending up in rooms (enterprise platforms, brand systems, fiction, music) and doing the same thing without knowing that's what I was doing. The rooms changed. The operation didn't. It took a long time to see the pattern clearly enough to say it out loud.
 
 ---
 

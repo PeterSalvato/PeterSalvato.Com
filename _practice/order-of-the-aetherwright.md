@@ -9,20 +9,20 @@ logo: /assets/img/AE_sigil@4x.png
 logo_type: mark
 mark: /assets/img/aetherwright_sigil@2x.png
 status: "Active"
-context: "Thirty years of consistent results across design, engineering, and strategy. The method underneath existed only as instinct, invisible even to me, impossible to teach or defend."
+context: "Consistent results across design, engineering, and strategy. The method underneath existed only as instinct, invisible even to me, impossible to teach or defend."
 faculty: ["design", "uxia"]
 external_url: "https://github.com/PeterSalvato/order-of-the-aetherwright"
 seo_keywords: ["glyph naming system", "creative taxonomy", "codex", "naming conventions", "semantic drift", "structural governance"]
-description: "A symbolic operating system for creative method. Glyphs, a living Codex, and daily ritual that makes thirty years of practice explicit enough to defend."
+description: "A symbolic operating system for creative method. Glyphs, a living Codex, and daily ritual that makes the practice explicit enough to defend."
 last_modified: 2026-03-01
 related:
   - /systems/savepoint
   - /systems/formwork
 ---
 
-Every consistent creative practice has a method underneath the visible work. The instinct that produces reliable results across construction sites, print shops, enterprise platforms, brand systems, classrooms. But it's invisible to everyone, including the person using it. You can't teach what you can't articulate. You can't defend it under pressure. And if you can't make it explicit, it erodes.
+Every consistent creative practice has a method underneath the visible work. The instinct that produces reliable results across construction sites, print shops, enterprise platforms, brand systems, classrooms. Invisible to everyone, including the person using it. You can't teach what you can't articulate. You can't defend it under pressure. And if you can't make it explicit, it erodes.
 
-I had thirty years of that. The same method held across [Encore's](/evidence/encore/) twelve-year platform build and [Aiden Jae's](/evidence/aiden-jae/) brand system. I just couldn't see it. I tried to surface it through a branding exercise, mapping my creative practice the way you'd map a brand: what are the domains, what are the patterns, how do I actually work across disciplines. What came back wasn't a brand. It was the method itself, visible for the first time.
+I had years of that. The same method held across [Encore's](/evidence/encore/) twelve-year platform build and [Aiden Jae's](/evidence/aiden-jae/) brand system. I just couldn't see it. I tried to surface it through a branding exercise, mapping my creative practice the way you'd map a brand: what are the domains, what are the patterns, how do I actually work across disciplines. What came back wasn't a brand. It was the method itself, visible for the first time.
 
 > "Doing this made it a formalized system in my mind even if I didn't realize it."
 
