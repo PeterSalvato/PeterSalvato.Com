@@ -133,6 +133,8 @@ Published writing says: "The methodology was developed through iterative refinem
 
 Sampling from conversation instead of publication gives the model source material that matches the target register. The model is not imitating published prose. It is working from the patterns of actual speech, encoded as constraints.
 
+The extraction pipeline has two stages. The first samples how I talk in conversation: sentence rhythm, opening moves, vocabulary, transitions, emotional register. Raw observations, accumulated across sessions. The second converts those observations into operational generation rules organized by dimension: how sentences connect, how paragraphs open, where imagery comes from, how feeling enters the text. The protocol tells the model what it cannot do. The fingerprint tells it what I do. Both are loaded before generation begins.
+
 
 ### 4.3 The Structural Difference
 

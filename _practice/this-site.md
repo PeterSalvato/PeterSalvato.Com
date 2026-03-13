@@ -77,6 +77,8 @@ I wrote a voice protocol in response. Rules based on Debbie Millman's interview 
 
 Then I rewrote every page against it. Some pages took three passes before the voice held. The [FormWork](/systems/formwork/) page, which describes the coordination process, was one of the hardest. The instinct is to explain how evaluation works. The protocol demanded I show what evaluation produced: the SVA critique room, the construction metaphor, what happens when lenses disagree.
 
+The voice pipeline now includes a fingerprint extracted from my own conversation patterns. Not from the published pages (those are already performed) but from how I actually explain things in working sessions. Sentence architecture, opening moves, where imagery comes from, how transitions work, how certainty and uncertainty are expressed. The protocol prevents AI patterns. The fingerprint generates mine.
+
 ---
 
 ## How the evaluation works
