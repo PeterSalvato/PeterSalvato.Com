@@ -123,7 +123,7 @@ The accommodation response is to design infrastructure that compensates for the 
 
 ## 4. Savepoint Syntax
 
-I built Savepoint Syntax in March 2025 after losing months of novel ideation to the flattening problem. The first version failed immediately. Three more versions before the structure held. The current version (v3.1) has been in continuous use for over a year across more than 60,000 documents of ideation history.
+I built Savepoint Syntax in March 2025 after losing months of novel ideation to the flattening problem. The first version failed immediately. Three more versions before the structure held. The current version (v3.2) has been in continuous use for over a year across more than 60,000 documents of ideation history. v3.2 added a `context:` field after real traversal work revealed that savepoints got you to the right location but couldn't reconstruct what was decided without reading the surrounding conversation.
 
 
 ### 4.1 The Format

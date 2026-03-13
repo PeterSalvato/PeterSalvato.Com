@@ -212,7 +212,7 @@ The question for practitioners is not "how do I write a better prompt?" It is "h
 The following open-source tools implement input inversion:
 
 - **[FormWork](/systems/formwork/)**: The accommodation design process. Coordination harness for all tools during a project.
-- **[SavePoint Syntax](https://github.com/PeterSalvato/Savepoint.Protocol)**: Context preservation markup for cognitive turning points (v3.1)
+- **[SavePoint Syntax](https://github.com/PeterSalvato/Savepoint.Protocol)**: Context preservation markup for cognitive turning points (v3.2)
 - **[LensArray](/systems/lensarray/)**: Decomposed evaluation with practitioner-extracted lenses
 - **[Skills Architecture](https://github.com/PeterSalvato/formwork)**: Accommodation tools including voice sampling, knowledge traversal, and interview
 
@@ -232,7 +232,7 @@ The production site [petersalvato.com](/) was compiled from unstructured convers
 - Fast Company (2025). "The prompt engineer job title has all but disappeared."
 - Salvato, P. (2026). "AI Governance as Accommodation Design." DOI: 10.5281/zenodo.18941231.
 - Salvato, P. (2026). "A Different Kind of Harness: AI as Cognitive Prosthetic Through Mutual Accommodation." DOI: 10.5281/zenodo.18962893.
-- Salvato, P. (2025). Savepoint Syntax v3.1. [github.com/PeterSalvato/Savepoint.Protocol](https://github.com/PeterSalvato/Savepoint.Protocol)
+- Salvato, P. (2025–2026). Savepoint Syntax v3.2. [github.com/PeterSalvato/Savepoint.Protocol](https://github.com/PeterSalvato/Savepoint.Protocol)
 
 ---
 

@@ -226,7 +226,7 @@ Build the interface. That's the whole practice. Make it fit how you actually thi
 The following open-source tools implement the cognitive coupling described in this paper:
 
 - **[FormWork](/systems/formwork/)**: The accommodation design process. Coordination harness for all tools during a project.
-- **[SavePoint Syntax](https://github.com/PeterSalvato/Savepoint.Protocol)**: Context preservation at cognitive turning points (v3.1)
+- **[SavePoint Syntax](https://github.com/PeterSalvato/Savepoint.Protocol)**: Context preservation at cognitive turning points (v3.2)
 - **[LensArray](/systems/lensarray/)**: Decomposed evaluation with practitioner-extracted lenses
 - **[Skills Architecture](https://github.com/PeterSalvato/formwork)**: Interface layer for cognitive coupling (voice, knowledge, evaluation, task decomposition)
 
@@ -246,7 +246,7 @@ The production site [petersalvato.com](/) was compiled through the cognitive cou
 - Riedl, C. et al. (2024). "Quantifying the Impact of Large Language Models on Collective Opinion Dynamics." arXiv:2308.03313.
 - Salvato, P. (2026). "AI Governance as Accommodation Design." DOI: 10.5281/zenodo.18941231.
 - Salvato, P. (2026). "Input Inversion: Why Unstructured Human Thinking Produces Better AI Output." DOI: 10.5281/zenodo.18962881.
-- Salvato, P. (2025). Savepoint Syntax v3.1. [github.com/PeterSalvato/Savepoint.Protocol](https://github.com/PeterSalvato/Savepoint.Protocol)
+- Salvato, P. (2025–2026). Savepoint Syntax v3.2. [github.com/PeterSalvato/Savepoint.Protocol](https://github.com/PeterSalvato/Savepoint.Protocol)
 
 ---
 

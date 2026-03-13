@@ -4,12 +4,12 @@ title: "SavePoint Syntax"
 redirect_from: /governance/savepoint-syntax/
 subtitle: "Semantic Markup for Turning Points in Thinking"
 icon: code
-status: "V3.1 Open Source"
+status: "V3.2 Open Source"
 faculty: ["design", "uxia"]
 external_url: "https://github.com/PeterSalvato/Savepoint.Protocol"
 seo_keywords: ["cognitive waypoints", "context switching", "decision logging", "cognitive state management", "semantic markup", "knowledge management", "thinking tools", "project filtering", "losing train of thought AI", "AI session continuity", "how to resume AI conversations", "knowledge preservation AI", "context loss between sessions", "picking up where I left off AI"]
-description: "Semantic markup for cognitive waypoints. Marks where understanding shifts before the context closes. Each savepoint carries enough semantic payload to orient you or the model when the session is gone. v3.1 adds project scoping and keyword filtering for traversal at scale. Open source."
-last_modified: 2026-03-03
+description: "Semantic markup for cognitive waypoints. Marks where understanding shifts before the context closes. Each savepoint carries enough semantic payload to orient you or the model when the session is gone. v3.2 adds a context field for self-contained reconstruction, discovered through real traversal across months of conversation logs. Open source."
+last_modified: 2026-03-13
 related:
   - /systems/formwork
   - /evidence/encore
@@ -122,6 +122,39 @@ Along the way, the syntax became the topic of conversation. All flow gone. That 
 
 The continuity I lost before the syntax existed stopped happening. The markers were in place. Drop one in the middle of dense thinking. Come back weeks later. You find your way in.
 
-The syntax runs across everything now: [Encore's](/evidence/encore/) platform decisions, [Aiden Jae's](/evidence/aiden-jae/) brand architecture, the portfolio site itself, the novel that started it. v3.1, open source.
+---
+
+v3.2 came from evaluating the protocol's performance during actual retrieval.
+
+By March 2026, I'd been dropping savepoints routinely for a year. Hundreds of them across dozens of projects and thousands of conversations. The protocol had become invisible, which was the goal. I was thinking about the work, not about tagging.
+
+Then I needed to retrieve something specific. A pitch strategy I'd developed the night before, buried in a 3,000-line conversation log. Claude ran the traversal. The savepoints performed exactly as designed: the `keywords:` field surfaced the right entries, the `#` line confirmed the right location. "Two-touch strategy for Kate Osbourne: pitch now with an essay on kitchen/food accommodation." Found in seconds.
+
+But the strategy itself (essay is the door, podcast is the visit, book is the return) was not in the savepoint. It was in the messages surrounding it. Claude had to read 200 lines of context to reconstruct what I'd actually decided. The savepoint got to the right neighborhood. It couldn't reconstruct what happened there.
+
+I asked Claude directly: are the savepoints making traversal easier? What do they give you, and what do they need that they don't have? The answer was specific. The `keywords:` field was doing real work for search. The `category:` field was doing real work for filtering. The `timestamp:` field was the only reliable time coordinate in the session logs (Claude Code JSONL files have no per-message timestamps). Everything structural was pulling its weight. The gap was semantic: a savepoint that says "two-touch strategy" without capturing the actual strategy is an index entry, not a preservation format.
+
+That's a testable failure, and it surfaced because the system I built to accommodate the model was being used by the model, and the model could report on how well it worked. The protocol's job is to preserve the moment understanding shifts. If the marker leads back to the right location but the understanding can't be reconstructed, the marker is incomplete. The `#` line names the moment. Nothing in the syntax captured what the moment holds.
+
+v3.2 adds one optional field: `context`. One sentence of actual substance. What was decided, what shifted, what the realization contains.
+
+```
+<Savepoint
+  protocol_version:3.2
+  category:decision
+  function:declaration
+  timestamp:2026-03-13T05:09:37Z
+  project:petersalvato.com
+  keywords:kate osbourne, modernist homestead, kitchen accommodation, essay pitch, book
+  context:Essay is the door, podcast is the visit, book is the return. Three layers, one relationship. Essay first, pitch follows when the proof exists.
+  # Two-touch strategy for Kate Osbourne: pitch now with an essay on kitchen/food accommodation for neurodivergent households.
+/>
+```
+
+The v3.1 version of this savepoint had the same `#` line. Without `context:`, a future session has to dig through the conversation to reconstruct the three-layer strategy. With it, the savepoint is self-contained. That's the difference between an index entry and a preservation format.
+
+The self-closing tag hasn't changed since v3.0. Each revision since has added optional fields in response to a specific retrieval failure: couldn't filter by project (v3.1 added `project:`), couldn't find it by search terms (v3.1 added `keywords:`), couldn't reconstruct what it meant (v3.2 added `context:`). The protocol is shaped by the retrieval, not the capture. Every field earned its place by failing without it.
+
+The syntax runs across everything now: [Encore's](/evidence/encore/) platform decisions, [Aiden Jae's](/evidence/aiden-jae/) brand architecture, the portfolio site itself, the novel that started it. v3.2, open source.
 
 The syntax runs inside [FormWork](/systems/formwork/), alongside the other accommodation tools. But it started as a reflex, five months before I had language for any of this. I just didn't want to lose the thinking. [This Site](/practice/this-site/) shows the full process running on the site you're reading.

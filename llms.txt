@@ -50,7 +50,7 @@ The accommodation design process. Named from concrete construction: the temporar
 - https://petersalvato.com/systems/formwork/
 
 ### SavePoint Syntax
-Semantic markup for cognitive turning points. A protocol for marking where reasoning shifts before context windows close. Drop a structured marker when thinking crystallizes: search, return, resume. Open source, v3.1.
+Semantic markup for cognitive turning points. A protocol for marking where reasoning shifts before context windows close. Drop a structured marker when thinking crystallizes: search, return, resume. v3.2 adds a context field for self-contained reconstruction, so savepoints carry enough meaning to be understood without reading the surrounding conversation. Open source, v3.2.
 - https://petersalvato.com/systems/savepoint/
 - https://savepoint.systems
 

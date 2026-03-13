@@ -119,11 +119,11 @@ I kept losing my thinking between sessions. Not the notes. The exact moment some
 
 I built Savepoint Syntax: a self-closing tag you drop inline at the moment of a cognitive turning point. Machine-readable, human-writable. One line of content, forced precision.
 
-The first version (v1.0, YAML frontmatter) was too open-ended. The format encouraged journaling. The concrete content drifted. The protocol reproduced the exact loss it was built to prevent. Version 2.0 (triple-pipe attributes) was too verbose. Version 3.0 (self-closing tag) constrained the content to one line. Version 3.1 added project scoping when the archive exceeded 60,000 documents.
+The first version (v1.0, YAML frontmatter) was too open-ended. The format encouraged journaling. The concrete content drifted. The protocol reproduced the exact loss it was built to prevent. Version 2.0 (triple-pipe attributes) was too verbose. Version 3.0 (self-closing tag) constrained the content to one line. Version 3.1 added project scoping when the archive exceeded 60,000 documents. Version 3.2 added a `context:` field: one sentence of reconstruction payload, so a savepoint carries enough meaning to stand alone without the surrounding conversation. That addition came from real traversal work, searching months of logs where savepoints got me to the right neighborhood but couldn't reconstruct what was decided.
 
 The design principle: build the syntax for what the model needs to reconstruct context (structured, atomic, searchable markers), not for what I need to remember (narrative, reflective notes). That distinction is the accommodation move.
 
-**Open source:** [Savepoint Syntax v3.1](https://github.com/PeterSalvato/Savepoint.Protocol)
+**Open source:** [Savepoint Syntax v3.2](https://github.com/PeterSalvato/Savepoint.Protocol)
 
 ### 4.2 Evaluation Decomposition: LensArray
 
@@ -238,7 +238,7 @@ Nobody else is asking that question about both systems simultaneously. The field
 The following open-source tools were built using this framework:
 
 - **[FormWork](/systems/formwork/)**: The accommodation design process. The harness that coordinates all tools during a project.
-- **[SavePoint Syntax](https://github.com/PeterSalvato/Savepoint.Protocol)**: Context preservation markup (v3.1)
+- **[SavePoint Syntax](https://github.com/PeterSalvato/Savepoint.Protocol)**: Context preservation markup (v3.2)
 - **[LensArray](/systems/lensarray/)**: Decomposed evaluation with practitioner-extracted lenses
 - **[Skills Architecture](https://github.com/PeterSalvato/formwork)**: Task decomposition as IEP design (single-objective diagnostics, coordinators)
 
@@ -259,7 +259,7 @@ The production site [petersalvato.com](/) was compiled using these tools.
 - MDPI (2025). "Empathy by Design: Reframing the Empathy Gap Between AI and Humans in Mental Health Chatbots." Information.
 - Frontiers in AI (2024). "Large Language Models for Whole-Learner Support: Opportunities and Challenges."
 - LogRocket (2025). "Prompt Engineering Best Practices."
-- Salvato, P. (2025). Savepoint Syntax v3.1. Open source. [github.com/PeterSalvato/Savepoint.Protocol](https://github.com/PeterSalvato/Savepoint.Protocol)
+- Salvato, P. (2025–2026). Savepoint Syntax v3.2. Open source. [github.com/PeterSalvato/Savepoint.Protocol](https://github.com/PeterSalvato/Savepoint.Protocol)
 - Salvato, P. (2026). FormWork. [petersalvato.com/systems/formwork/](/systems/formwork/)
 - Salvato, P. (2026). "The IEP for AI Systems." [petersalvato.com/essays/the-iep-for-ai-systems/](/essays/the-iep-for-ai-systems/)
 
