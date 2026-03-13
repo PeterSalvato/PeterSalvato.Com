@@ -28,6 +28,7 @@
     margin-bottom: 0;
     margin-left: 8rem;
     opacity: 0.85;
+    @extend .press-type;
   }
 
   .hero-role {
@@ -134,6 +135,7 @@
     font-size: $type-hero;
     text-transform: uppercase;
     margin-bottom: $gap-xlarge;
+    @extend .press-type;
   }
 
   p {

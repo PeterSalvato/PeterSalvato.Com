@@ -145,6 +145,7 @@ pre {
   h2 {
     margin-top: 0;
     font-size: $type-head-lg;
+    @extend .press-type;
 
     a {
       text-decoration: none;

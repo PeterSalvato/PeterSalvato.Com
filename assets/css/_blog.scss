@@ -195,10 +195,10 @@
   gap: $gap-large;
 
   .blog-series-label {
-    font-family: $font-mono;
-    font-size: $type-caption;
-    letter-spacing: $tracking-wider;
-    text-transform: uppercase;
+    font-family: $font-body;
+    font-size: $type-body-sm;
+    font-variant-caps: all-small-caps;
+    letter-spacing: $tracking-wide;
     color: $color-text-secondary;
     flex-shrink: 0;
   }
@@ -241,11 +241,11 @@
 }
 
 .essays-tab {
-  font-family: $font-display;
-  font-size: $type-caption;
-  font-weight: 700;
-  letter-spacing: $tracking-wider;
-  text-transform: uppercase;
+  font-family: $font-body;
+  font-size: $type-body-sm;
+  font-weight: 600;
+  font-variant-caps: all-small-caps;
+  letter-spacing: $tracking-wide;
   color: $color-text-secondary;
   background: none;
   border: none;
@@ -358,10 +358,11 @@
   }
 
   .blog-list-date {
-    font-family: $font-display;
-    font-size: $type-caption;
-    font-weight: 700;
-    letter-spacing: $tracking-wider;
+    font-family: $font-body;
+    font-size: $type-body-sm;
+    font-weight: 600;
+    font-variant-caps: all-small-caps;
+    letter-spacing: $tracking-wide;
     color: $color-text-secondary;
     flex-shrink: 0;
     width: 110px;
