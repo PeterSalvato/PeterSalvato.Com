@@ -155,10 +155,15 @@
     }
   }
 
-  // Two-column body copy: collapse to single on mobile
+  // Narrative pages: collapse left margin on mobile
   .context-content,
-  .post-content {
-    column-count: 1;
+  .post {
+    margin-left: 0;
+  }
+
+  .context-content blockquote {
+    margin-left: 0;
+    padding-left: $gap-large;
   }
 
   // Editorial layout: stack image above text on mobile
@@ -292,10 +297,15 @@
     max-width: 600px;
   }
 
-  // Two-column body copy: single column on tablet too
+  // Narrative pages: reduce left margin on tablet
   .context-content,
-  .post-content {
-    column-count: 1;
+  .post {
+    margin-left: 2rem;
+  }
+
+  .context-content blockquote {
+    margin-left: -2rem;
+    padding-left: 2rem;
   }
 
   #homepage-hero {

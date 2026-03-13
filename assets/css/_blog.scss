@@ -3,13 +3,14 @@
 // ============================================================================
 
 .post {
-  max-width: 800px;
+  max-width: 40rem;
+  margin-left: 4rem;
 
   .post-header {
-    border-top: $rule-heavy solid $color-text;
-    padding-top: $gap-xlarge;
+    border-top: none;
+    padding-top: 0;
     padding-bottom: $gap-xlarge;
-    margin-bottom: $gap-xxlarge;
+    margin-bottom: $gap-xxxlarge;
 
     h1 {
       font-size: $type-display;
@@ -77,6 +78,36 @@
 
   .post-content {
     @extend .project-content;
+
+    // Opening paragraph: typographically distinct
+    > p:first-child {
+      font-size: $type-body-lg;
+      line-height: $leading-loose;
+    }
+
+    // Section breaks: generous space, subtle marker
+    hr {
+      border: none;
+      height: 0;
+      margin: $gap-xxxlarge 0;
+      position: relative;
+
+      &::after {
+        content: '·';
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: $type-body;
+        color: $color-text-secondary;
+        line-height: 1;
+      }
+    }
+
+    hr + p {
+      font-size: $type-body-lg;
+      line-height: $leading-loose;
+    }
 
     h2 {
       border-top: $rule-light solid $color-border;
