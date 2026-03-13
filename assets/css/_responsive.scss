@@ -92,12 +92,15 @@
 
   // Homepage
   #homepage-hero {
+    flex-direction: column;
+    gap: $space-lg;
+
     h1 {
       font-size: $type-h2;
     }
 
     .hero-image img {
-      max-width: 240px;
+      max-width: 160px;
     }
   }
 
