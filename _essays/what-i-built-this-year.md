@@ -43,4 +43,4 @@ The system compiled this site from three years of my conversations. A blind eval
 
 ---
 
-The methodology behind all of this is documented on the [Formwork Protocol](/systems/formwork/) page. None of it started with AI. The design practice is twenty-five years old. The operational methodology comes from construction sites, print shops, enterprise platforms, and classrooms. AI is the current material.
+The methodology behind all of this is documented on the [Formwork](/systems/formwork/) page. The design practice predates the AI tools. The operational methodology comes from construction sites, print shops, enterprise platforms, and classrooms. AI is the current material.

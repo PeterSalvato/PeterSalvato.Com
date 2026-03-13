@@ -8,7 +8,7 @@ icon: menu_book
 seo_keywords: ["design vocabulary", "systems thinking terminology", "mined language", "compiled portfolio", "structural design language"]
 ---
 
-The working language of Peter Salvato's [accommodation design](/practice/accommodation-design/) practice. These terms emerged from twenty-five years of applied work across construction, print production, special education, enterprise software, and AI system architecture. They recur because the problems recur.
+The working language of Peter Salvato's [accommodation design](/practice/accommodation-design/) practice. These terms emerged from applied work across construction, print production, special education, enterprise software, and AI system architecture. They recur because the problems recur.
 
 [Accommodation Design](#accommodation-design) · [Attunement](#attunement) · [Context](#context) · [Drift](#drift) · [Fidelity](#fidelity) · [Formwork](#formwork) · [Input Inversion](#input-inversion) · [Load-bearing](#load-bearing) · [Processing Profile](#processing-profile) · [Savepoint](#savepoint) · [Scaffold](#scaffold) · [Somatic Design](#somatic-design)
 

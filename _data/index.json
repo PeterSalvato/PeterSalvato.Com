@@ -1,11 +1,11 @@
 {
-  "role_declaration": "Design engineer. The practice starts with one question: what does the system receiving this actually need? What the system receiving it actually needs from me. That question has governed twenty-five years of work across print shops, enterprise platforms, brand systems, and AI.",
+  "role_declaration": "Design engineer. Construction sites, print shops, enterprise platforms, brand systems, classrooms, AI governance.",
   "featured": [
     {
       "title": "AI Governance as Accommodation Design",
       "tier": "WRITING",
       "color": "neutral",
-      "context": "A whitepaper applying special education pedagogy to AI system architecture. The field asks how to constrain the model. The right question is what it needs to do the job.",
+      "context": "A whitepaper applying special education pedagogy to AI system architecture.",
       "status": "PUBLISHED",
       "link": "/practice/accommodation-design/"
     },
@@ -13,19 +13,19 @@
       "title": "Essays",
       "tier": "WRITING",
       "color": "neutral",
-      "context": "Essays on design practice, education, AI governance, and how they're the same thing.",
+      "context": "Essays on design practice, education, AI governance, and how they connect.",
       "status": "WRITING",
       "link": "/essays/"
     }
   ],
   "manifesto": {
-    "short": "Twelve students in a self-contained classroom in Brooklyn. Every subject, every accommodation. A kid hears \"solve for the missing number, show your work, and explain your reasoning\" and starts working on the first instruction. The rest is gone. Not because the student can't do the work. Because the task was designed for a processing profile that isn't theirs.\n\nThat classroom taught me to ask one question before designing anything: what does the system receiving this actually need? Twenty-five years later the question still governs the work. Enterprise platforms, brand systems, AI governance. The material changes. The person on the other end doesn't.",
-    "content": "Twelve students in a self-contained classroom in Brooklyn. Every subject, every accommodation. A kid hears \"solve for the missing number, show your work, and explain your reasoning\" and starts working on the first instruction. The rest is gone. Not because the student can't do the work. Because the task was designed for a processing profile that isn't theirs.\n\nThat classroom taught me to ask one question before designing anything: what does the system receiving this actually need? Twenty-five years later the question still governs the work. Enterprise platforms, brand systems, AI governance. The material changes. The person on the other end doesn't.\n\nMy wife had a real jewelry brand and no way to show it through a screen. I built the brand system, the photography pipeline, and the platform together. One system, not three departments. She runs the business. A platform I started building in 2013 is still running, serving organizations you'd recognize. I still work alongside the person who wrote the original software.\n\nThe same question built all of it. This site was compiled from three years of my own thinking by the system described on it."
+    "short": "Twelve students in a self-contained classroom in Brooklyn. Every subject, every accommodation. A kid hears \"solve for the missing number, show your work, and explain your reasoning\" and starts working on the first instruction. The rest is gone. Not because the student can't do the work. Because the task was designed for a processing profile that isn't theirs.\n\nThat classroom taught me to ask one question before designing anything: what does the system receiving this actually need? Enterprise platforms, brand systems, AI governance. The question applies to every material I've worked in since.",
+    "content": "Twelve students in a self-contained classroom in Brooklyn. Every subject, every accommodation. A kid hears \"solve for the missing number, show your work, and explain your reasoning\" and starts working on the first instruction. The rest is gone. Not because the student can't do the work. Because the task was designed for a processing profile that isn't theirs.\n\nThat classroom taught me to ask one question before designing anything: what does the system receiving this actually need? Enterprise platforms, brand systems, AI governance. The question applies to every material I've worked in since.\n\nMy wife had a real jewelry brand and no way to show it through a screen. I built the brand system, the photography pipeline, and the platform together. One system, not three departments. She runs the business. A platform I started building in 2013 is still running, serving organizations you'd recognize. I still work alongside the person who wrote the original software.\n\nThis site was compiled from three years of my own thinking by the tools described on it."
   },
   "legend": [
-    { "tier": "Practice", "description": "Who I am and how I think. The writing, the creative work, and the context behind everything else." },
-    { "tier": "Systems", "description": "What crystallized from the practice. Three tools for working with AI." },
-    { "tier": "Evidence", "description": "Where the methodology proved out. Applied work." }
+    { "tier": "Practice", "description": "Who I am and how I think. The writing, the creative work, and the context behind the tools." },
+    { "tier": "Systems", "description": "Three tools for working with AI, built from accommodation design." },
+    { "tier": "Evidence", "description": "Applied work across enterprise platforms, brand systems, and this site." }
   ],
   "routes": [
     {
@@ -34,14 +34,14 @@
       "color": "neutral",
       "url": "/practice/",
       "definition": "Who I am and how I think.",
-      "description": "The thinking behind the tools and the work. Whitepapers on accommodation design, essays on practice, and the creative projects that prove who's behind the methodology.",
+      "description": "The thinking behind the tools and the work. Whitepapers on accommodation design, essays on practice, and the creative projects.",
       "artifacts": [
         {
           "id": "1.0",
           "title": "ACCOMMODATION DESIGN",
-          "context": "The AI governance field asks how to constrain the model. This paper asks what the model actually needs to do the job. The question comes from a special education classroom in Brooklyn.",
-          "spec": "A whitepaper applying special education pedagogy to AI system architecture. Task decomposition as cognitive accommodation. Evaluation systems as differentiated assessment. Prompt architecture as IEP design.",
-          "result": "Published framework with DOI. Six applied tools. The production site was compiled using the system described in the paper.",
+          "context": "A whitepaper applying special education pedagogy to AI system architecture. The question comes from a self-contained classroom in Brooklyn.",
+          "spec": "Task decomposition as cognitive accommodation. Evaluation systems as differentiated assessment. Prompt architecture as IEP design.",
+          "result": "Published framework with DOI. Six applied tools.",
           "status": "PUBLISHED",
           "link": "/practice/accommodation-design"
         },
@@ -57,16 +57,16 @@
         {
           "id": "1.2",
           "title": "PROSTHETIC COGNITION",
-          "context": "The AI field frames models as tools or agents. Both miss the third relationship: a cognitive extension you rig to yourself. The harness goes both ways.",
+          "context": "The AI field frames models as tools or agents. Both miss the third relationship: a cognitive extension you rig to yourself.",
           "spec": "A whitepaper proposing AI as cognitive prosthetic through mutual accommodation. Grounded in extended mind theory and three years of applied cognitive coupling.",
-          "result": "Published framework. The interface layer between human cognition and model processing is where the quality lives.",
+          "result": "Published framework.",
           "status": "PUBLISHED",
           "link": "/practice/prosthetic-cognition"
         },
         {
           "id": "1.3",
           "title": "ESSAYS",
-          "context": "Essays on design practice, accommodation, AI governance, and why they're the same discipline.",
+          "context": "Essays on design practice, accommodation, AI governance, and why they connect.",
           "spec": "Each essay unpacks one piece of the practice. Bridge essays open in the reader's language and introduce the framework vocabulary.",
           "result": "Published and growing.",
           "status": "WRITING",
@@ -75,9 +75,9 @@
         {
           "id": "1.4",
           "title": "THIS SITE",
-          "context": "This site was compiled from a three-year corpus using the protocols and tools described on it.",
-          "spec": "The recursive proof. The site is built by the thing it describes.",
-          "result": "The methodology produces the artifact that documents the methodology.",
+          "context": "Compiled from a three-year corpus using the tools described on it.",
+          "spec": "The build log for a craftsman's workbench made of AI tools.",
+          "result": "Hand compilation with craftsman's tools. The process documented on the pages it produced.",
           "status": "ACTIVE",
           "link": "/practice/this-site"
         }
@@ -89,12 +89,12 @@
       "color": "neutral",
       "url": "/systems/",
       "definition": "What crystallized from the practice.",
-      "description": "Three tools for working with AI, built from accommodation design. Each one accommodates a specific processing constraint. Together they form the process that produced this site.",
+      "description": "Three tools for working with AI, built from accommodation design. Each one accommodates a specific processing constraint.",
       "artifacts": [
         {
           "id": "2.1",
           "title": "FORMWORK",
-          "context": "One perspective produces imitation. Multiple perspectives without structure produces noise. Evaluation happens as a single pass with no way to locate where structural concerns and identity concerns disagree.",
+          "context": "One perspective produces imitation. Multiple perspectives without structure produces noise.",
           "spec": "A layered evaluation and generation system. Distinct layers of concern, each staffed with lenses extracted from real practitioners, run independently and read together. The maker resolves the disagreements.",
           "result": "Every project page on this site was produced by this system.",
           "status": "ACTIVE",
@@ -113,8 +113,8 @@
           "id": "2.3",
           "title": "LENSARRAY",
           "context": "The critique room at SVA reconstructed as evaluative infrastructure. Multiple perspectives, each codified and testable, run independently and read together.",
-          "spec": "Multi-perspective evaluation and generation through extracted practitioner lenses. Staff each layer with perspectives you trust. The tensions between lenses force decisions no single influence would produce.",
-          "result": "Evaluation and generation modes. Powers every page on this site.",
+          "spec": "Multi-perspective evaluation and generation through extracted practitioner lenses. The tensions between lenses force decisions no single influence would produce.",
+          "result": "Evaluation and generation modes.",
           "status": "ACTIVE",
           "link": "/systems/lensarray"
         }
@@ -126,22 +126,22 @@
       "color": "neutral",
       "url": "/evidence/",
       "definition": "Where the methodology proved out.",
-      "description": "Applied work across enterprise platforms, brand systems, and this site itself. Each one demonstrates the practice and the tools operating on real work at real stakes.",
+      "description": "Applied work across enterprise platforms, brand systems, and this site. Each one demonstrates the practice and the tools operating on real work.",
       "artifacts": [
         {
           "id": "3.1",
           "title": "ENCORE",
-          "context": "A solid Windows Forms application serving some of the largest organizations in the world. The software was good. The delivery layer was about to become the constraint.",
+          "context": "A solid Windows Forms application serving some of the largest organizations in the world. The software was good. The delivery layer was about to strand it.",
           "spec": "Made the case for moving to the browser, then built the whole front end from scratch.",
-          "result": "Twelve years in, the industry went browser-based. The call held. I'm still there.",
+          "result": "Twelve years in. The call held.",
           "status": "DEPLOYED",
           "link": "/evidence/encore"
         },
         {
           "id": "3.2",
           "title": "AIDEN JAE",
-          "context": "A trained artist designing fine jewelry from recycled solid gold. She had the product and the expertise. No brand, no platform, no way to put it in front of a stranger.",
-          "spec": "Built the entire system from scratch: brand identity, photography, custom Shopify architecture, packaging concepts. One integrated system, not three departments.",
+          "context": "A trained merchandiser with a decades-long factory relationship in Bangkok. She had the product and the expertise. No brand, no platform, no way to put it in front of a stranger.",
+          "spec": "Built the entire system from scratch: brand identity, photography, custom Shopify architecture, packaging concepts. One integrated system.",
           "result": "A running business. The quality comes through the screen because every piece of the system was designed to show it.",
           "status": "DELIVERED",
           "link": "/evidence/aiden-jae"

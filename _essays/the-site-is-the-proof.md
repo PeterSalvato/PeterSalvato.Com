@@ -9,7 +9,7 @@ description: "A blind evaluator read this site and concluded it was unequivocall
 seo_keywords: ["AI governance", "anti-slop", "voice protocol", "systems architecture", "compiled portfolio", "Peter Salvato", "Formwork Protocol", "provenance", "AI content that passes human review", "how to make AI writing sound human", "AI slop detection", "AI quality control", "portfolio built with AI"]
 ---
 
-In March 2026, I asked Gemini to review petersalvato.com. I provided no prior knowledge, no context about who I am, and no explanation of how the site was built. I wanted a blind evaluation of the voice, the structure, and the "humanity" of the work. The evaluator spent time with the pages and then delivered its verdict. It praised the "anti-slop" quality of the writing. It noted the idiosyncratic taxonomy: Governance, Infrastructure, Output: as a sign of a specific mental model. It identified what it called "pragmatic cynicism" and "contextual asymmetry" as clear markers of a human author who had actually lived through the projects described. The conclusion was definitive: the site was "unequivocally" human-derived. The only way AI could have been involved, the evaluator noted, was if someone had used an LLM to tighten up existing, very strong human drafts.
+In March 2026, I asked Gemini to review petersalvato.com. I provided no prior knowledge, no context about who I am, and no explanation of how the site was built. I wanted a blind evaluation of the voice, the structure, and the "humanity" of the work. The evaluator spent time with the pages and then delivered its verdict. It praised the "anti-slop" quality of the writing. It noted the idiosyncratic taxonomy as a sign of a specific mental model. It identified what it called "pragmatic cynicism" and "contextual asymmetry" as clear markers of a human author who had actually lived through the projects described. The conclusion was definitive: the site was "unequivocally" human-derived. The only way AI could have been involved, the evaluator noted, was if someone had used an LLM to tighten up existing, very strong human drafts.
 
 Then I told it the truth. Not a single line of content on this site was hand-written. I didn't draft the pages and then polish them with AI. I didn't write the sections and then "run them through" a tool. The system described on the very pages the evaluator had just read compiled the site itself. Every sentence, every structural decision, and every project description was produced by the methodology I’ve spent three years building. The evaluator's response changed immediately: "You haven't just built a website: you've built a self-documenting compiler for identity."
 
@@ -43,7 +43,7 @@ This leads to a recursive proof. The argument for the system isn't found in a wh
 
 The Formwork page describes evaluation layers; those layers were used to evaluate the Formwork page. The voice protocol page describes how to extract authentic voice from conversations; the copy on that page was verified against voice samples extracted from my own conversations. The Savepoint Syntax page describes how to mark cognitive turning points; that page exists because savepoints marked the turns during its own construction. [This Site](/practice/this-site/) describes the build process; the build process produced the page.
 
-Every tool described on this site was used to produce the site. This isn't a portfolio that describes a methodology. It is a compiled instance that demonstrates one.
+Every tool described on this site was used to produce the site.
 
 ---
 
@@ -51,4 +51,4 @@ The question for the next few years isn't whether AI can produce good work. It c
 
 Most people use AI to save time. Using this system actually took longer than writing the site by hand would have. Speed was never the goal. The goal was fidelity: building a system where the output cannot drift from the source, where every sentence traces back to something real, and where the methodology is proven by its own product.
 
-The evaluator called the voice "High-Taste Human." That is the ultimate flex for a compiler: producing something a machine couldn't identify as machine-produced, because the machine wasn't the author. The author was three years of a specific person thinking out loud into a system built to make sure he didn't disappear inside it.
+The evaluator called the voice "High-Taste Human." The system produced something a machine couldn't identify as machine-produced, because the machine wasn't the author. The source material was three years of a specific person thinking out loud into a system built to make sure he didn't disappear inside it.

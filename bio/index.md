@@ -8,7 +8,7 @@ seo_keywords: ["Peter Salvato", "design engineer", "SVA", "visual communication"
 last_modified: 2026-02-26
 ---
 
-Peter Salvato is a design engineer with twenty-five years of applied practice across construction sites, print shops, enterprise platforms, brand systems, and classrooms. The methodology existed before the tools did. The tools serve it.
+Peter Salvato is a design engineer. Construction sites, print shops, enterprise platforms, brand systems, and classrooms. The methodology predates the AI tools. The tools serve it.
 
 ## Construction Sites
 

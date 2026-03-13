@@ -4,41 +4,13 @@
   </div>
 
   <nav id="sidebar-menu" aria-label="Site sections">
-
-    {% for section in site.data.navigation.sections %}
-    <div class="nav-section" data-section="{{ section.label | downcase }}">
-      <h3 class="nav-section-title nav-section-title--{{ section.color }}">
-        {% if section.url %}<a href="{{ section.url | relative_url }}">{% endif %}
-        {% if section.numeral %}<span class="nav-numeral">{{ section.numeral }}</span>{% endif %}
-        <span class="nav-label">{{ section.label | remove: section.numeral | remove: '. ' | strip }}</span>
-        {% if section.url %}</a>{% endif %}
-      </h3>
-
-      {% if section.collapsed %}
-        <ul class="nav-list">
-          <li><a href="{{ section.url | relative_url }}" class="nav-tier-link">All {{ section.items | size }} projects &rarr;</a></li>
-        </ul>
-
-      {% else %}
-        <ul class="nav-list">
-          {% for item in section.items %}
-            {%- assign item_path = item.url | append: '/' -%}
-            <li>
-              <a href="{{ item.url | relative_url }}"{% if page.url == item.url or page.url == item_path %} class="is-active"{% endif %}><span class="material-symbols-outlined nav-icon">{{ item.icon | default: 'article' }}</span><span class="nav-text">{{ item.label }}</span></a>
-              {% if item.children %}
-                <ul class="nav-sublist">
-                  {% for child in item.children %}
-                    {%- assign child_path = child.url | append: '/' -%}
-                    <li><a href="{{ child.url | relative_url }}"{% if page.url == child.url or page.url == child_path %} class="is-active"{% endif %}><span class="material-symbols-outlined nav-icon">{{ child.icon | default: 'article' }}</span><span class="nav-text">{{ child.label }}</span></a></li>
-                  {% endfor %}
-                </ul>
-              {% endif %}
-            </li>
-          {% endfor %}
-        </ul>
-      {% endif %}
-    </div>
-    {% endfor %}
-
+    <ul class="nav-list">
+      {% for item in site.data.navigation.items %}
+        {%- assign item_path = item.url | append: '/' -%}
+        <li>
+          <a href="{{ item.url | relative_url }}"{% if page.url == item.url or page.url == item_path %} class="is-active"{% endif %}><span class="material-symbols-outlined nav-icon">{{ item.icon | default: 'article' }}</span><span class="nav-text">{{ item.label }}</span></a>
+        </li>
+      {% endfor %}
+    </ul>
   </nav>
 </aside>

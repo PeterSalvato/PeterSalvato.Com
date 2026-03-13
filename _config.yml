@@ -1,5 +1,5 @@
 title: "Peter Salvato"
-description: "Design engineer bringing twenty-five years of design practice and operational methodology to AI implementation. Construction sites, print shops, enterprise platforms, brand systems. The methodology existed before the tools did."
+description: "Peter Salvato. Design engineer. Construction sites, print shops, enterprise platforms, brand systems, classrooms."
 author: "Peter Salvato"
 email: "ptsalvato@gmail.com"
 url: "https://petersalvato.com"
@@ -8,7 +8,7 @@ baseurl: ""
 # SEO Keywords (Dual-Layer Strategy)
 seo_keywords: ["Design Engineer", "Design Systems", "Systems Architecture", "Information Architecture", "Operational Methodology", "AI Implementation", "Visual Communication", "SVA", "AI Governance"]
 
-# Jekyll Collections (Practice/Systems/Evidence IA)
+# Jekyll Collections
 collections:
   practice:
     output: true
