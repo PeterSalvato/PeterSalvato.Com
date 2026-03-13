@@ -1,5 +1,5 @@
 // ============================================================================
-// VARIABLES — Stripped to fonts only. Rebuild from here.
+// VARIABLES — Design tokens. Aged textbook interior, Tufte-calibrated.
 // ============================================================================
 
 // Chainprinter (self-hosted)
@@ -16,3 +16,66 @@
 $font-body:    'Rubik', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 $font-display: 'Chainprinter', 'Space Mono', monospace;
 $font-mono:    'Space Mono', monospace;
+
+// ----------------------------------------------------------------------------
+// TYPE SCALE — 15px base, 21px body, 1.43 line-height, 2rem baseline
+// ----------------------------------------------------------------------------
+$type-display:   2.533rem;  // 38px — hero titles
+$type-h1:        2.133rem;  // 32px — page titles
+$type-h2:        1.867rem;  // 28px — section heads
+$type-h3:        1.4rem;    // 21px — subsections (matches body)
+$type-body:      1.4rem;    // 21px — main reading size
+$type-body-sm:   1.067rem;  // 16px — secondary text, nav
+$type-caption:   0.867rem;  // 13px — metadata, timestamps
+$type-fine:      0.8rem;    // 12px — fine print
+
+$leading-body:   1.43;
+$leading-tight:  1.2;
+$leading-loose:  1.6;
+
+// ----------------------------------------------------------------------------
+// PALETTE — Aged book paper, warm near-black ink
+// ----------------------------------------------------------------------------
+$color-paper:      #f5f3ee;
+$color-paper-warm: #efece5;
+$color-ink:        #2c2418;
+$color-ink-light:  #5c5347;
+$color-ink-faint:  #8a8279;
+$color-rule:       #d5d0c8;
+$color-rule-dark:  #b5aea4;
+$color-surface:    #eae7e0;
+$color-accent:     #7a4e2d;
+$color-white:      #ffffff;
+
+// ----------------------------------------------------------------------------
+// SPACING — Modular, based on baseline (2rem = 30px at 15px base)
+// ----------------------------------------------------------------------------
+$space-xs:    0.25rem;
+$space-sm:    0.5rem;
+$space-md:    1rem;
+$space-lg:    2rem;       // 1 baseline unit
+$space-xl:    3rem;
+$space-xxl:   4rem;       // 2 baseline units
+$space-xxxl:  6rem;       // 3 baseline units
+
+// ----------------------------------------------------------------------------
+// LAYOUT
+// ----------------------------------------------------------------------------
+$sidebar-width:    240px;
+$sidebar-width-sm: 180px;
+$container-max:    680px;
+
+// ----------------------------------------------------------------------------
+// TRANSITIONS
+// ----------------------------------------------------------------------------
+$transition-fast:  0.15s ease;
+$transition-med:   0.25s ease;
+$transition-slide: 0.3s ease;
+
+// ----------------------------------------------------------------------------
+// Z-INDEX
+// ----------------------------------------------------------------------------
+$z-sidebar:    100;
+$z-hamburger:  200;
+$z-overlay:    500;
+$z-skip:       9999;

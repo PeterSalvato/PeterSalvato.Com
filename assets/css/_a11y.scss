@@ -1,5 +1,5 @@
 // ============================================================================
-// ACCESSIBILITY — Stripped. Rebuild from here.
+// ACCESSIBILITY
 // ============================================================================
 
 .skip-link {
@@ -9,6 +9,7 @@
   width: 1px;
   height: 1px;
   overflow: hidden;
+  z-index: $z-skip;
 
   &:focus {
     position: fixed;
@@ -16,9 +17,63 @@
     left: 0;
     width: auto;
     height: auto;
-    padding: 0.5em 1em;
-    background: #1a1a1a;
-    color: #fff;
-    z-index: 9999;
+    padding: $space-sm $space-md;
+    background: $color-ink;
+    color: $color-paper;
+    font-size: $type-body-sm;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media (prefers-contrast: more) {
+  body::before {
+    display: none;
+  }
+
+  .artifact-card {
+    border-width: 2px;
+    border-color: $color-ink;
+  }
+
+  .nav-list a,
+  .dossier-date,
+  .dossier-status {
+    opacity: 1 !important;
+  }
+
+  *:focus-visible {
+    outline-width: 3px;
+  }
+}
+
+// Heading anchors
+.post-content,
+.context-content,
+.project-content {
+  h2[id],
+  h3[id] {
+    position: relative;
+
+    &:hover::after {
+      content: '#';
+      position: absolute;
+      left: -1.2em;
+      color: $color-ink-faint;
+      font-weight: 400;
+    }
+  }
+
+  h2[id]:target,
+  h3[id]:target {
+    padding-left: $space-md;
+    border-left: 3px solid $color-ink;
   }
 }

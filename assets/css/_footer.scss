@@ -1,3 +1,51 @@
 // ============================================================================
-// FOOTER — Stripped. Rebuild from here.
+// FOOTER — Quiet, structured, out of the way
 // ============================================================================
+
+.system-footer {
+  border-top: 1px solid $color-rule;
+  padding-top: $space-xxl;
+  padding-bottom: $space-xxl;
+  margin-top: $space-xxxl;
+
+  .footer-columns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: $space-xxl;
+  }
+
+  h4 {
+    font-family: $font-display;
+    font-size: $type-fine;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: $color-ink-faint;
+    margin-bottom: $space-md;
+    margin-top: 0;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  li {
+    margin-bottom: $space-sm;
+  }
+
+  a {
+    font-size: $type-caption;
+    color: $color-ink-light;
+    text-decoration: none;
+
+    &:hover {
+      color: $color-ink;
+    }
+  }
+
+  .copyright {
+    margin-top: $space-lg;
+    font-size: $type-fine;
+    color: $color-ink-faint;
+  }
+}

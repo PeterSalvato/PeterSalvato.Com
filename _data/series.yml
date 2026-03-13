@@ -1,5 +1,15 @@
 engineering-intent:
   title: "Engineering Intent"
   description: "Twenty-five years of the same operation across different materials. Construction sites, print shops, enterprise platforms, brand systems, AI governance. The methodology existed before the tools did."
-  status: current
+  status: "In development"
   chapters: 191
+
+the-deep-cuts:
+  title: "The Deep Cuts"
+  description: "Music production as somatic design practice. What DJing, mixing, and sound design teach about processing profiles, attention accommodation, and building systems that respond to the room."
+  status: "In development"
+
+modernist-homestead:
+  title: "Modernist Homestead"
+  description: "Applying the same operational methodology to a household. Meal systems, homeschool structure, family logistics. The discipline doesn't change when the material is domestic."
+  status: "In development"

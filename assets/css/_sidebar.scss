@@ -1,3 +1,109 @@
 // ============================================================================
-// SIDEBAR — Stripped. Rebuild from here.
+// SIDEBAR — Fixed navigation, table-of-contents in the margin
 // ============================================================================
+
+#sidebar-nav {
+  background-color: $color-paper;
+  border-right: 1px solid $color-rule;
+}
+
+#sidebar-header {
+  margin-bottom: $space-xl;
+}
+
+#sidebar-title {
+  font-family: $font-display;
+  font-size: $type-h2;
+  letter-spacing: 0.06em;
+  line-height: 1;
+  text-transform: uppercase;
+
+  a {
+    color: $color-ink;
+    text-decoration: none;
+
+    &:hover {
+      color: $color-accent;
+    }
+  }
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+}
+
+.nav-item {
+  margin-bottom: $space-xs;
+}
+
+.nav-item > a {
+  display: flex;
+  align-items: center;
+  gap: $space-sm;
+  padding: $space-sm 0;
+  font-family: $font-display;
+  font-size: $type-body-sm;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: $color-ink-light;
+  text-decoration: none;
+  transition: color $transition-fast;
+
+  &:hover {
+    color: $color-ink;
+  }
+
+  &.is-active {
+    color: $color-ink;
+    font-weight: 600;
+  }
+}
+
+// Material icons in nav
+.nav-icon {
+  font-size: 18px;
+  opacity: 0.5;
+  flex-shrink: 0;
+  visibility: hidden;
+}
+
+html.material-fonts-loaded .nav-icon {
+  visibility: visible;
+}
+
+// Sub-navigation
+.nav-sublist {
+  list-style: none;
+  padding: 0;
+  padding-left: calc(18px + #{$space-sm});
+  margin-top: $space-xs;
+
+  li {
+    margin-bottom: 0;
+  }
+
+  a {
+    display: block;
+    padding: $space-xs 0;
+    font-size: $type-caption;
+    color: $color-ink-faint;
+    text-decoration: none;
+    transition: color $transition-fast;
+
+    &:hover {
+      color: $color-ink;
+    }
+
+    &.is-active {
+      color: $color-ink;
+      font-weight: 500;
+    }
+  }
+}
+
+// Hamburger — hidden by default, shown on mobile
+.hamburger-btn {
+  display: none;
+}

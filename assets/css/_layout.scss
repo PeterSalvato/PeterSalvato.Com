@@ -1,3 +1,35 @@
 // ============================================================================
-// LAYOUT — Stripped. Rebuild from here.
+// LAYOUT — Base page structure (laptop default, overridden in responsive)
 // ============================================================================
+
+.hamburger-btn {
+  display: none;
+}
+
+#sidebar-nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: $sidebar-width;
+  height: 100vh;
+  padding: $space-xxl $space-lg;
+  overflow-y: auto;
+  z-index: $z-sidebar;
+}
+
+#main-content {
+  min-height: 100vh;
+  padding: $space-lg $space-xxl $space-xxxl;
+  padding-left: calc(#{$sidebar-width} + #{$space-xxl});
+}
+
+#container {
+  max-width: $container-max;
+  transform: rotate(-0.2deg);
+  font-size: 1rem;
+}
+
+.system-footer {
+  padding-left: calc(#{$sidebar-width} + #{$space-xxl});
+  padding-right: $space-xxl;
+}

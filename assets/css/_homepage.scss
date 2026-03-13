@@ -1,3 +1,72 @@
 // ============================================================================
-// HOMEPAGE — Stripped. Rebuild from here.
+// HOMEPAGE — Hero, section cards, manifesto
 // ============================================================================
+
+#homepage-hero {
+  margin-bottom: $space-xxl;
+
+  .hero-image {
+    margin-bottom: $space-lg;
+
+    img {
+      max-width: 480px;
+    }
+  }
+
+  h1 {
+    font-family: $font-display;
+    font-size: $type-display;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    line-height: $leading-tight;
+    max-width: 14ch;
+  }
+
+  .hero-role {
+    font-size: $type-body-sm;
+    color: $color-ink-light;
+    margin-top: $space-md;
+    max-width: 50ch;
+    line-height: $leading-body;
+  }
+}
+
+#section-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: $space-lg;
+  margin-bottom: $space-xxl;
+}
+
+.section-card {
+  .section-card-name {
+    font-family: $font-display;
+    font-size: $type-body-sm;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: $space-sm;
+  }
+
+  .section-card-definition {
+    font-size: $type-body-sm;
+    font-weight: 500;
+    color: $color-ink;
+    margin-bottom: $space-sm;
+  }
+
+  .section-card-description {
+    font-size: $type-caption;
+    color: $color-ink-light;
+    line-height: $leading-body;
+  }
+}
+
+#homepage-manifesto {
+  max-width: 55ch;
+  font-size: $type-body;
+  line-height: $leading-loose;
+  color: $color-ink-light;
+  border-top: 1px solid $color-rule;
+  padding-top: $space-xl;
+  margin-top: $space-xl;
+}

@@ -1,3 +1,38 @@
 // ============================================================================
-// DOMAIN INDEX — Stripped. Rebuild from here.
+// DOMAIN INDEX — Collection listing pages (Practice, Systems, Evidence)
 // ============================================================================
+
+#domain-index-page {
+  #domain-index-header {
+    margin-bottom: $space-xxl;
+
+    h1 {
+      font-family: $font-display;
+      font-size: $type-h1;
+      letter-spacing: 0.08em;
+    }
+
+    .domain-index-intro {
+      margin-top: $space-md;
+
+      p {
+        font-size: $type-body-sm;
+        color: $color-ink-light;
+        max-width: 55ch;
+        line-height: $leading-body;
+      }
+    }
+  }
+
+  #domain-artifacts {
+    .artifact-card--link {
+      border-left: none;
+      border-right: none;
+      border-top: none;
+
+      &:first-child {
+        border-top: 1px solid $color-rule;
+      }
+    }
+  }
+}

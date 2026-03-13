@@ -1,3 +1,64 @@
 // ============================================================================
-// PRINT — Stripped. Rebuild from here.
+// PRINT
 // ============================================================================
+
+@media print {
+  #sidebar-nav,
+  .hamburger-btn,
+  .skip-link,
+  .series-nav,
+  .related-projects {
+    display: none !important;
+  }
+
+  body::before {
+    display: none !important;
+  }
+
+  #main-content {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  #container {
+    max-width: 100% !important;
+  }
+
+  body {
+    background: white !important;
+    color: black !important;
+    font-size: 12pt;
+  }
+
+  .artifact-card {
+    border-color: #333 !important;
+    background: white !important;
+    break-inside: avoid;
+  }
+
+  .post-content a[href^="http"]::after,
+  .context-content a[href^="http"]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
+    color: #666;
+    word-break: break-all;
+  }
+
+  h1, h2, h3 {
+    break-after: avoid;
+  }
+
+  .system-footer {
+    border-top: 1px solid #333;
+    padding-top: 1em;
+    padding-left: 0 !important;
+
+    .footer-columns {
+      display: block;
+    }
+
+    .footer-column:not(:last-child) {
+      display: none;
+    }
+  }
+}

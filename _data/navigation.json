@@ -22,7 +22,12 @@
     {
       "label": "Writing",
       "url": "/essays/",
-      "icon": "edit_note"
+      "icon": "edit_note",
+      "children": [
+        { "label": "Research", "url": "/essays/#research" },
+        { "label": "Essays", "url": "/essays/#standalone" },
+        { "label": "Series", "url": "/essays/#series" }
+      ]
     },
     {
       "label": "Contact",

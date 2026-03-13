@@ -1,3 +1,230 @@
 // ============================================================================
-// PROJECT — Stripped. Rebuild from here.
+// PROJECT — Practice/Systems/Evidence page layout
 // ============================================================================
+
+// Content blocks (JS-generated from h2 + text + images)
+.content-block {
+  margin-bottom: $space-xxl;
+}
+
+.block-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: $space-xl;
+}
+
+.content-block--text-only .block-body {
+  grid-template-columns: 1fr;
+}
+
+.block-text {
+  p { max-width: 65ch; }
+}
+
+.block-images {
+  position: sticky;
+  top: $space-lg;
+  align-self: start;
+}
+
+// Figures
+figure.figure {
+  margin: 0 0 $space-lg;
+
+  img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: contain;
+  }
+
+  figcaption {
+    font-family: $font-mono;
+    font-size: $type-fine;
+    color: $color-ink-faint;
+    margin-top: $space-sm;
+    letter-spacing: 0.02em;
+  }
+
+  &.diagram {
+    padding: $space-sm;
+    background-color: $color-white;
+    border: 1px solid $color-rule;
+  }
+
+  &.artifact {
+    padding: $space-sm;
+    border: 1px solid $color-rule;
+  }
+
+  &.logo {
+    max-width: 200px;
+  }
+}
+
+// Block divider
+.block-divider {
+  border: none;
+  border-top: 1px solid $color-rule;
+  margin: $space-xxl 0;
+}
+
+// Carousel
+.carousel-wrapper {
+  position: relative;
+}
+
+.image-carousel {
+  overflow: hidden;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform $transition-med;
+}
+
+.carousel-slide {
+  flex: 0 0 100%;
+}
+
+.carousel-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: $space-md;
+  margin-top: $space-md;
+}
+
+.carousel-btn {
+  background: none;
+  border: 1px solid $color-rule;
+  width: 32px;
+  height: 32px;
+  font-size: 18px;
+  color: $color-ink-light;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: border-color $transition-fast;
+
+  &:hover {
+    border-color: $color-ink;
+    color: $color-ink;
+  }
+}
+
+.carousel-dots {
+  display: flex;
+  gap: $space-sm;
+}
+
+.carousel-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: $color-rule;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  transition: background-color $transition-fast;
+
+  &.is-active {
+    background-color: $color-ink;
+  }
+}
+
+// Image overlay
+.image-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba($color-ink, 0.9);
+  z-index: $z-overlay;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity $transition-med, visibility $transition-med;
+
+  &.is-active {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+.image-overlay-close {
+  position: fixed;
+  top: $space-lg;
+  right: $space-lg;
+  background: none;
+  border: none;
+  color: $color-paper;
+  font-size: 2rem;
+  cursor: pointer;
+  z-index: $z-overlay + 1;
+}
+
+.image-overlay-scroll {
+  max-width: 90vw;
+  max-height: 90vh;
+  overflow: auto;
+}
+
+.image-overlay-img {
+  max-width: 100%;
+  height: auto;
+}
+
+// Related work
+.related-projects {
+  border-top: 1px solid $color-rule;
+  padding-top: $space-lg;
+  margin-top: $space-xxl;
+
+  h2 {
+    font-family: $font-display;
+    font-size: $type-caption;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: $color-ink-faint;
+    margin-top: 0;
+    margin-bottom: $space-md;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: $space-md $space-xl;
+  }
+
+  a {
+    font-size: $type-body-sm;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+// External link
+#spoke-link {
+  margin-top: $space-xl;
+
+  a {
+    font-size: $type-body-sm;
+    color: $color-accent;
+  }
+}
+
+// CTA
+.project-cta {
+  margin-top: $space-xl;
+
+  a {
+    font-size: $type-body-sm;
+    color: $color-accent;
+  }
+}

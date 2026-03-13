@@ -1,3 +1,133 @@
 // ============================================================================
-// CARDS — Stripped. Rebuild from here.
+// CARDS — Artifact cards for listings and page heroes
 // ============================================================================
+
+.artifact-card {
+  border: 1px solid $color-rule;
+  padding: $space-lg;
+  margin-bottom: $space-lg;
+  background-color: $color-white;
+}
+
+// Link card — clickable, in listings
+.artifact-card--link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  transition: border-color $transition-fast;
+
+  &:hover {
+    border-color: $color-rule-dark;
+
+    h3 {
+      color: $color-accent;
+    }
+  }
+
+  .artifact-hero-header {
+    display: flex;
+    align-items: flex-start;
+    gap: $space-lg;
+    margin-bottom: $space-md;
+  }
+
+  h3 {
+    font-family: $font-display;
+    font-size: $type-h3;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    margin: 0;
+    transition: color $transition-fast;
+  }
+
+  .artifact-subtitle {
+    font-size: $type-body-sm;
+    font-style: italic;
+    color: $color-ink-light;
+    margin-top: $space-xs;
+  }
+
+  .artifact-context {
+    font-size: $type-body-sm;
+    color: $color-ink-light;
+    line-height: $leading-body;
+    max-width: 55ch;
+  }
+
+  .dossier-meta {
+    display: flex;
+    gap: $space-md;
+    margin-top: $space-md;
+  }
+
+  .dossier-status {
+    font-family: $font-mono;
+    font-size: $type-fine;
+    color: $color-ink-faint;
+    letter-spacing: 0.03em;
+  }
+
+  .artifact-link {
+    font-size: $type-caption;
+    color: $color-accent;
+    margin-top: $space-md;
+  }
+}
+
+// Hero card — dossier header on project pages
+.artifact-card--hero {
+  border: none;
+  border-bottom: 1px solid $color-rule;
+  padding: 0;
+  padding-bottom: $space-lg;
+  margin-bottom: $space-xl;
+
+  .artifact-hero-header {
+    display: flex;
+    align-items: flex-start;
+    gap: $space-lg;
+  }
+
+  h1 {
+    margin-bottom: $space-sm;
+  }
+
+  .artifact-subtitle {
+    font-size: $type-body;
+    font-style: italic;
+    color: $color-ink-light;
+    margin-top: $space-xs;
+  }
+
+  .dossier-meta {
+    display: flex;
+    gap: $space-lg;
+    margin-top: $space-md;
+  }
+
+  .dossier-status,
+  .dossier-date {
+    font-family: $font-mono;
+    font-size: $type-caption;
+    color: $color-ink-faint;
+    letter-spacing: 0.03em;
+  }
+}
+
+// Mark/icon container
+.artifact-mark-container {
+  flex: 0 0 60px;
+  max-width: 60px;
+
+  .artifact-mark {
+    width: 100%;
+    height: auto;
+    max-height: 60px;
+    object-fit: contain;
+  }
+}
+
+.artifact-mark-icon .material-symbols-outlined {
+  font-size: 48px;
+  color: $color-ink-faint;
+}

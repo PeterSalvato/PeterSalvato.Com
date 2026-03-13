@@ -1,3 +1,189 @@
 // ============================================================================
-// COMPONENTS — Stripped. Rebuild from here.
+// COMPONENTS — Code blocks, galleries, work index, tooltips
 // ============================================================================
+
+// Page updated timestamp
+.page-updated {
+  font-family: $font-mono;
+  font-size: $type-caption;
+  letter-spacing: 0.03em;
+  color: $color-ink-faint;
+  margin-bottom: $space-lg;
+}
+
+// Code blocks
+code {
+  font-family: $font-mono;
+  font-size: 0.85em;
+  background-color: $color-surface;
+  padding: 2px 6px;
+}
+
+pre {
+  background-color: $color-surface;
+  padding: $space-lg;
+  overflow-x: auto;
+  margin: $space-lg 0;
+  line-height: 1.5;
+
+  code {
+    background-color: transparent;
+    padding: 0;
+    font-size: $type-caption;
+  }
+}
+
+// Image galleries
+.image-gallery {
+  display: grid;
+  gap: $space-lg;
+  margin: $space-lg 0;
+}
+
+.image-gallery--square {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.image-gallery--wide {
+  grid-template-columns: 1fr;
+}
+
+.image-gallery--three-col {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+// Work page table of contents
+.work-toc {
+  max-width: $container-max;
+}
+
+.work-section {
+  margin-bottom: $space-xxxl;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.work-section-label {
+  font-family: $font-display;
+  font-size: $type-caption;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: $color-ink-faint;
+  margin-top: 0;
+  margin-bottom: $space-lg;
+  padding-bottom: $space-sm;
+  border-bottom: 1px solid $color-ink;
+}
+
+.work-entry {
+  display: flex;
+  align-items: baseline;
+  gap: $space-lg;
+  padding: $space-md 0;
+  border-bottom: 1px solid $color-rule;
+  text-decoration: none;
+  color: inherit;
+  transition: color $transition-fast;
+
+  &:hover .work-entry-title {
+    color: $color-accent;
+  }
+
+  .work-entry-title {
+    font-family: $font-display;
+    font-size: $type-body-sm;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    transition: color $transition-fast;
+  }
+
+  .work-entry-brief {
+    font-size: $type-body-sm;
+    color: $color-ink-light;
+    line-height: $leading-body;
+  }
+}
+
+.work-entry--featured {
+  display: block;
+  padding: $space-lg 0;
+  border-bottom: 1px solid $color-rule;
+
+  &:hover .work-entry-title {
+    color: $color-accent;
+  }
+
+  .work-entry-title {
+    display: block;
+    font-size: $type-h3;
+    white-space: normal;
+    margin-bottom: $space-xs;
+  }
+
+  .work-entry-subtitle {
+    font-family: $font-body;
+    font-size: $type-body-sm;
+    font-style: italic;
+    color: $color-ink-light;
+    margin: 0 0 $space-xs;
+  }
+
+  .work-entry-description {
+    font-family: $font-body;
+    font-size: $type-body-sm;
+    line-height: $leading-body;
+    color: $color-ink-light;
+    margin: 0;
+    max-width: 55ch;
+  }
+}
+
+// Vocabulary tooltips
+.vocab-term {
+  position: relative;
+  border-bottom: 1px dotted $color-ink-faint;
+  cursor: pointer;
+  display: inline;
+
+  &:hover .vocab-tooltip,
+  &:focus .vocab-tooltip {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+.vocab-tooltip {
+  position: absolute;
+  bottom: calc(100% + #{$space-sm});
+  left: 50%;
+  transform: translateX(-50%) translateY(4px);
+  background-color: $color-ink;
+  color: $color-paper;
+  font-family: $font-body;
+  font-size: $type-fine;
+  line-height: 1.4;
+  padding: $space-sm $space-md;
+  border-radius: 3px;
+  white-space: normal;
+  width: max-content;
+  max-width: 280px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity $transition-fast, visibility $transition-fast, transform $transition-fast;
+  z-index: 1000;
+  pointer-events: none;
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 5px solid transparent;
+    border-top-color: $color-ink;
+  }
+}

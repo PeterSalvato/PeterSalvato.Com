@@ -1,3 +1,34 @@
 // ============================================================================
-// CONTEXT — Stripped. Rebuild from here.
+// CONTEXT — How I Think, Bio, This Site pages
 // ============================================================================
+
+.context-page {
+  .context-header {
+    margin-bottom: $space-xl;
+
+    h1 {
+      margin-bottom: $space-md;
+    }
+
+    > p {
+      font-size: $type-body-sm;
+      color: $color-ink-light;
+      max-width: 55ch;
+      line-height: $leading-body;
+    }
+  }
+}
+
+// Editorial layout — image floated alongside text
+.context-editorial {
+  .context-editorial-image {
+    float: right;
+    width: 280px;
+    margin-left: $space-xl;
+    margin-bottom: $space-lg;
+
+    img {
+      width: 100%;
+    }
+  }
+}

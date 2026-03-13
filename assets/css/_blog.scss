@@ -1,3 +1,216 @@
 // ============================================================================
-// BLOG / ESSAYS — Stripped. Rebuild from here.
+// BLOG — Essays index, post layout, series navigation
 // ============================================================================
+
+.blog-index {
+  h1 {
+    margin-bottom: $space-xl;
+  }
+}
+
+// Tabs
+.essays-tabs {
+  display: flex;
+  gap: $space-lg;
+  border-bottom: 1px solid $color-rule;
+  margin-bottom: $space-xl;
+}
+
+.essays-tab {
+  background: none;
+  border: none;
+  font-family: $font-display;
+  font-size: $type-caption;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: $color-ink-faint;
+  padding: $space-sm 0;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -1px;
+  transition: color $transition-fast;
+
+  &:hover {
+    color: $color-ink;
+  }
+
+  &.active {
+    color: $color-ink;
+    border-bottom-color: $color-ink;
+  }
+}
+
+// Panels
+.essays-panel {
+  display: none;
+
+  &.active {
+    display: block;
+  }
+}
+
+// Series
+.series-header {
+  margin-bottom: $space-xl;
+
+  .series-title {
+    font-family: $font-display;
+    font-size: $type-h2;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: $space-sm;
+  }
+
+  .series-description {
+    font-size: $type-body-sm;
+    color: $color-ink-light;
+    max-width: 55ch;
+    line-height: $leading-body;
+  }
+}
+
+.series-list {
+  list-style: none;
+  padding: 0;
+}
+
+.series-list-item {
+  padding: $space-md 0;
+  border-bottom: 1px solid $color-rule;
+}
+
+.series-list-entry {
+  display: flex;
+  align-items: baseline;
+  gap: $space-md;
+}
+
+.series-list-chapter {
+  font-family: $font-mono;
+  font-size: $type-caption;
+  color: $color-ink-faint;
+  flex-shrink: 0;
+  min-width: 2em;
+}
+
+.series-list-link {
+  font-family: $font-display;
+  font-size: $type-body;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.series-list-description {
+  font-size: $type-caption;
+  color: $color-ink-light;
+  margin-top: $space-xs;
+  margin-left: calc(2em + #{$space-md});
+}
+
+// Blog list (standalone essays)
+.blog-list {
+  list-style: none;
+  padding: 0;
+}
+
+.blog-list-item {
+  padding: $space-md 0;
+  border-bottom: 1px solid $color-rule;
+
+  &:first-child {
+    border-top: 1px solid $color-rule;
+  }
+}
+
+.blog-list-link {
+  font-family: $font-display;
+  font-size: $type-body;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  display: block;
+}
+
+.blog-list-description {
+  font-size: $type-body-sm;
+  color: $color-ink-light;
+  margin-top: $space-xs;
+  line-height: $leading-body;
+  max-width: 55ch;
+}
+
+.blog-empty {
+  color: $color-ink-faint;
+  font-style: italic;
+}
+
+// Post layout
+.post {
+  .post-header {
+    margin-bottom: $space-xxl;
+
+    h1 {
+      margin-bottom: $space-md;
+    }
+
+    .post-deck {
+      font-size: $type-body;
+      color: $color-ink-light;
+      font-style: italic;
+      max-width: 55ch;
+      line-height: $leading-body;
+    }
+
+    .post-meta {
+      display: flex;
+      gap: $space-lg;
+      margin-top: $space-md;
+      font-size: $type-caption;
+      color: $color-ink-faint;
+
+      a {
+        color: $color-ink-faint;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  // Series navigation (prev/next)
+  .series-nav {
+    border-top: 1px solid $color-rule;
+    padding-top: $space-lg;
+    margin-top: $space-xxl;
+
+    .series-nav-links {
+      display: flex;
+      justify-content: space-between;
+      gap: $space-lg;
+    }
+
+    .series-nav-prev,
+    .series-nav-next {
+      text-decoration: none;
+      max-width: 45%;
+    }
+
+    .series-nav-next {
+      text-align: right;
+      margin-left: auto;
+    }
+
+    .series-nav-label {
+      display: block;
+      font-family: $font-display;
+      font-size: $type-fine;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: $color-ink-faint;
+      margin-bottom: $space-xs;
+    }
+
+    .series-nav-title {
+      font-size: $type-body-sm;
+      font-weight: 500;
+    }
+  }
+}

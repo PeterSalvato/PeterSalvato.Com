@@ -12,71 +12,82 @@ seo_keywords: ["design engineering", "design methodology", "systems architecture
   <h1>Essays</h1>
 
   <div class="essays-tabs">
+    <button class="essays-tab active" data-tab="research">Research</button>
+    <button class="essays-tab" data-tab="standalone">Essays</button>
     <button class="essays-tab" data-tab="series">Series</button>
-    <button class="essays-tab active" data-tab="standalone">Essays</button>
+  </div>
+
+  <div class="essays-panel active" id="panel-research">
+    {% assign whitepapers = site.practice | where: "practice_group", "whitepaper" %}
+    {% for item in whitepapers %}
+      {% if item.published != false and item.listed != false %}
+        {% include artifact-hero.html item=item url=item.url is_link=true %}
+      {% endif %}
+    {% endfor %}
   </div>
 
   <div class="essays-panel" id="panel-series">
-    {% assign series_info = site.data.series["engineering-intent"] %}
-    <div class="series-header">
-      <h2 class="series-title">{{ series_info.title }}</h2>
-      <p class="series-description">{{ series_info.description }}</p>
-    </div>
-
-    {% assign series_posts = site.essays | where: "series", "engineering-intent" | sort: "chapter" %}
-
-    {% if series_posts.size > 0 %}
-    <ol class="series-list">
-      {% for post in series_posts %}
-      {% if post.published %}
-      <li class="series-list-item">
-        <div class="series-list-entry">
-          <span class="series-list-chapter">{{ post.chapter }}</span>
-          <a class="series-list-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
-          {% if post.description %}
-          <p class="series-list-description">{{ post.description }}</p>
-          {% endif %}
-        </div>
-      </li>
-      {% endif %}
+    <div class="series-cards">
+      {% for series_entry in site.data.series %}
+        {% assign series_key = series_entry[0] %}
+        {% assign series_info = series_entry[1] %}
+        {% assign series_posts = site.essays | where: "series", series_key | sort: "chapter" %}
+        {% assign published_count = 0 %}
+        {% for post in series_posts %}{% if post.published %}{% assign published_count = published_count | plus: 1 %}{% endif %}{% endfor %}
+        <a href="#" class="artifact-card artifact-card--link series-card" data-series="{{ series_key }}">
+          <div class="artifact-hero-header">
+            <div class="artifact-hero-title">
+              <h3>{{ series_info.title }}</h3>
+            </div>
+          </div>
+          <p class="artifact-context">{{ series_info.description }}</p>
+          <div class="dossier-meta">
+            {% if series_info.status %}<span class="dossier-status">{{ series_info.status }}</span>{% endif %}
+            <span class="dossier-status">{{ published_count }}/{{ series_info.chapters | default: "?" }} published</span>
+          </div>
+        </a>
       {% endfor %}
-    </ol>
-    {% else %}
-    <p class="blog-empty">Series launching soon.</p>
-    {% endif %}
+    </div>
   </div>
 
-  <div class="essays-panel active" id="panel-standalone">
+  <div class="essays-panel" id="panel-standalone">
     {% assign standalone_posts = site.essays | where_exp: "post", "post.series == nil" | sort: "order" %}
-
-    {% if standalone_posts.size > 0 %}
-    <ul class="blog-list">
-      {% for post in standalone_posts %}
+    {% for post in standalone_posts %}
       {% if post.published %}
-      <li class="blog-list-item">
-        <div class="blog-list-entry">
-          <a class="blog-list-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
-          {% if post.description %}
-          <p class="blog-list-description">{{ post.description }}</p>
-          {% endif %}
-        </div>
-      </li>
+        {% include artifact-hero.html item=post url=post.url is_link=true %}
       {% endif %}
-      {% endfor %}
-    </ul>
-    {% else %}
-    <p class="blog-empty">No standalone essays yet.</p>
-    {% endif %}
+    {% endfor %}
   </div>
 </div>
 
 <script>
-document.querySelectorAll('.essays-tab').forEach(function(tab) {
-  tab.addEventListener('click', function() {
-    document.querySelectorAll('.essays-tab').forEach(function(t) { t.classList.remove('active'); });
-    document.querySelectorAll('.essays-panel').forEach(function(p) { p.classList.remove('active'); });
-    tab.classList.add('active');
-    document.getElementById('panel-' + tab.dataset.tab).classList.add('active');
+(function() {
+  var tabs = document.querySelectorAll('.essays-tab');
+  var panels = document.querySelectorAll('.essays-panel');
+
+  function activate(tabName) {
+    tabs.forEach(function(t) { t.classList.remove('active'); });
+    panels.forEach(function(p) { p.classList.remove('active'); });
+    var tab = document.querySelector('.essays-tab[data-tab="' + tabName + '"]');
+    var panel = document.getElementById('panel-' + tabName);
+    if (tab && panel) {
+      tab.classList.add('active');
+      panel.classList.add('active');
+    }
+  }
+
+  // Restore tab from hash on load
+  var hash = window.location.hash.replace('#', '');
+  if (hash && document.getElementById('panel-' + hash)) {
+    activate(hash);
+  }
+
+  tabs.forEach(function(tab) {
+    tab.addEventListener('click', function() {
+      var name = tab.dataset.tab;
+      activate(name);
+      history.replaceState(null, '', '#' + name);
+    });
   });
-});
+})();
 </script>
