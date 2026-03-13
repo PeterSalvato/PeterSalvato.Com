@@ -1,32 +1,25 @@
 // ============================================================================
 // CONTEXT PAGES (bio, how-i-think, vocabulary, colophon)
-// Mid-century textbook interior: asymmetric margins, generous vertical rhythm,
-// typographically distinct opening, pull quotes with real weight.
 // ============================================================================
 
 .context-header {
-  border: none;
-  padding: 0;
-  margin-bottom: $gap-xxxlarge;
-  max-width: 38rem;
+  margin-bottom: $gap-xxlarge;
 
   h1 {
     font-size: $type-display;
     font-weight: 700;
     letter-spacing: $tracking-tight;
     line-height: $leading-tight;
-    margin-bottom: $gap-large;
-    @extend .press-type;
+    margin-bottom: $gap-medium;
   }
 
-  // Deck / subtitle — lighter weight, wider measure than body
   p {
     font-family: $font-body;
     font-size: $type-body-lg;
-    line-height: $leading-loose;
+    line-height: $leading-relaxed;
     color: $color-text-secondary;
     margin-bottom: 0;
-    max-width: 50ch;
+    max-width: 60ch;
   }
 
   h1:last-child {
@@ -49,22 +42,11 @@
       display: block;
     }
   }
-
-  .context-editorial-text {
-  }
 }
 
-// ----------------------------------------------------------------------------
-// BODY — Single column, offset right with wide left margin on desktop.
-// The left margin creates the textbook gutter: a resting place for the eye
-// and room for the page to breathe.
-// ----------------------------------------------------------------------------
-
 .context-content {
-  max-width: 40rem;
-  margin-left: 4rem;
+  max-width: 65ch;
 
-  // ---- Body paragraphs ----
   p {
     font-family: $font-body;
     font-size: $type-body;
@@ -72,77 +54,37 @@
     margin-bottom: $gap-large;
   }
 
-  // ---- Opening paragraph: typographically distinct ----
-  // Slightly larger, looser leading. Announces "start reading here."
-  > p:first-child {
-    font-size: $type-body-lg;
-    line-height: $leading-loose;
-  }
-
-  // ---- Section breaks: generous vertical space, subtle marker ----
-  // The <hr> from markdown "---" becomes a quiet structural beat,
-  // not a dividing line. The white space does the work.
   hr {
     border: none;
-    height: 0;
-    margin: $gap-xxxlarge 0;
-    position: relative;
-
-    // Small centered dot as section marker
-    &::after {
-      content: '·';
-      position: absolute;
-      left: 0;
-      top: 50%;
-      transform: translateY(-50%);
-      font-size: $type-body;
-      color: $color-text-secondary;
-      line-height: 1;
-    }
+    border-top: $rule-light solid $color-border;
+    margin: $gap-xxlarge 0;
   }
 
-  // First paragraph after a section break: no indent, slightly larger.
-  // Signals "new vignette" the way a textbook chapter opener does.
-  hr + p {
-    font-size: $type-body-lg;
-    line-height: $leading-loose;
-  }
-
-  // ---- Headings ----
   h2 {
     font-size: $type-head;
-    margin-top: $gap-xxxlarge;
-    margin-bottom: $gap-large;
-    letter-spacing: $tracking-snug;
-  }
-
-  h3 {
-    font-size: $type-head-sm;
     margin-top: $gap-xxlarge;
     margin-bottom: $gap-medium;
   }
 
-  // ---- Pull quotes: real typographic weight ----
-  // Indented from left margin, larger type, rules above and below.
-  // These are typographic events, not just styled paragraphs.
+  h3 {
+    font-size: $type-head-sm;
+    margin-top: $gap-xlarge;
+    margin-bottom: $gap-small;
+  }
+
   blockquote {
-    border: none;
-    border-top: $rule-heavy solid $color-text;
-    border-bottom: $rule-light solid $color-text;
-    margin: $gap-xxxlarge 0;
-    margin-left: -4rem;
-    padding: $gap-xlarge 0 $gap-xlarge 4rem;
+    border-left: $rule-heavy solid $color-text;
+    margin: $gap-xxlarge 0;
+    padding: $gap-medium 0 $gap-medium $gap-xlarge;
     background: none;
     font-family: $font-body;
-    font-size: $type-head-sm;
+    font-size: $type-body-lg;
     font-style: italic;
     line-height: $leading-relaxed;
     color: $color-text;
-    max-width: none;
 
     p {
-      font-family: $font-body;
-      font-size: $type-head-sm;
+      font-size: $type-body-lg;
       line-height: $leading-relaxed;
       margin-bottom: $gap-small;
 
@@ -163,14 +105,6 @@
     }
   }
 
-  // ---- Closing section: the last few paragraphs after the final <hr> ----
-  // On narrative pages, this is the synthesis. Slightly different rhythm.
-  > hr:last-of-type ~ p {
-    font-size: $type-body;
-    line-height: $leading-spacious;
-  }
-
-  // ---- Links within body ----
   a {
     text-decoration-thickness: 1px;
     text-underline-offset: 2px;

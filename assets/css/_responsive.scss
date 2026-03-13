@@ -155,17 +155,6 @@
     }
   }
 
-  // Narrative pages: collapse left margin on mobile
-  .context-content,
-  .post {
-    margin-left: 0;
-  }
-
-  .context-content blockquote {
-    margin-left: 0;
-    padding-left: $gap-large;
-  }
-
   // Editorial layout: stack image above text on mobile
   .context-editorial {
     .context-editorial-image {
@@ -295,17 +284,6 @@
 
   #container {
     max-width: 600px;
-  }
-
-  // Narrative pages: reduce left margin on tablet
-  .context-content,
-  .post {
-    margin-left: 2rem;
-  }
-
-  .context-content blockquote {
-    margin-left: -2rem;
-    padding-left: 2rem;
   }
 
   #homepage-hero {

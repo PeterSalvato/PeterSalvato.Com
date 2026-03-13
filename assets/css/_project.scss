@@ -7,6 +7,7 @@
   font-size: $type-body;
   line-height: $leading-relaxed;
   color: $color-text;
+  max-width: 65ch;
 
   // Legacy image fallback (images without .image class)
   p img:not(.image) {
@@ -25,28 +26,22 @@
     margin-top: $gap-xlarge;
   }
 
-  // Opening paragraph: typographically distinct
-  > p:first-child {
-    font-size: $type-body-lg;
-    line-height: $leading-loose;
-  }
-
   p {
     margin-bottom: $gap-large;
   }
 
   h2 {
-    margin-top: $gap-xxxlarge;
-    margin-bottom: $gap-large;
-  }
-
-  h3 {
     margin-top: $gap-xxlarge;
     margin-bottom: $gap-medium;
   }
 
-  h4 {
+  h3 {
     margin-top: $gap-xlarge;
+    margin-bottom: $gap-medium;
+  }
+
+  h4 {
+    margin-top: $gap-large;
     margin-bottom: $gap-medium;
     font-weight: 600;
   }
@@ -60,28 +55,10 @@
     margin-bottom: $gap-small;
   }
 
-  // Section breaks: generous space, subtle marker
   hr {
     border: none;
-    height: 0;
-    margin: $gap-xxxlarge 0;
-    position: relative;
-
-    &::after {
-      content: '·';
-      position: absolute;
-      left: 0;
-      top: 50%;
-      transform: translateY(-50%);
-      font-size: $type-body;
-      color: $color-text-secondary;
-      line-height: 1;
-    }
-  }
-
-  hr + p {
-    font-size: $type-body-lg;
-    line-height: $leading-loose;
+    border-top: $rule-light solid $color-border;
+    margin: $gap-xxlarge 0;
   }
 
   table {
@@ -102,20 +79,18 @@
   }
 
   blockquote {
-    border: none;
-    border-top: $rule-heavy solid $color-text;
-    border-bottom: $rule-light solid $color-text;
-    margin: $gap-xxxlarge 0;
-    padding: $gap-xlarge 0;
+    border-left: $rule-heavy solid $color-text;
+    margin: $gap-xxlarge 0;
+    padding: $gap-medium 0 $gap-medium $gap-xlarge;
     background: none;
     font-family: $font-body;
-    font-size: $type-head-sm;
+    font-size: $type-body-lg;
     font-style: italic;
     line-height: $leading-relaxed;
     color: $color-text;
 
     p {
-      font-size: $type-head-sm;
+      font-size: $type-body-lg;
       line-height: $leading-relaxed;
       margin-bottom: $gap-small;
 
@@ -155,7 +130,6 @@
     }
   }
 
-  // Links within body
   a {
     text-decoration-thickness: 1px;
     text-underline-offset: 2px;
