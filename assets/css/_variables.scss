@@ -48,20 +48,21 @@ $font-body:    'Rubik', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-seri
 $font-display: 'Chainprinter', 'Space Mono', monospace;
 $font-mono:    'Space Mono', monospace;
 
-// Type scale — Tufte's actual values on 15px base. Fixed, not fluid.
-// Textbooks don't change font size between formats.
-$type-xs:       0.733rem;   //  11px  — footnotes, fine print
-$type-sm:       0.8rem;     //  12px  — small labels
-$type-caption:  0.867rem;   //  13px  — captions, metadata
-$type-body-sm:  1.0rem;     //  15px  — sidebar, secondary text (= html base)
-$type-body:     1.4rem;     //  21px  — body text (Tufte exact)
-$type-body-lg:  1.6rem;     //  24px  — decks, lead paragraphs
-$type-subhead:  1.7rem;     //  25.5px — Tufte h3 ratio (1.21x body)
-$type-head-sm:  1.8rem;     //  27px  — small headings
-$type-head:     2.2rem;     //  33px  — Tufte h2 ratio (1.57x body)
-$type-head-lg:  2.6rem;     //  39px  — large headings
-$type-title:    3.0rem;     //  45px  — page titles
-$type-display:  3.2rem;     //  48px  — Tufte h1 ratio (2.29x body)
+// Type scale — Tufte ratios on 15px base, compensated for Rubik's x-height.
+// Rubik fills more of the em square than Tufte's ET Book at the same px size.
+// 20px Rubik ≈ 21px ET Book visually. Ratios preserved: h1 2.25x, h2 1.5x, h3 1.2x.
+$type-xs:       0.8rem;     //  12px  — footnotes, fine print
+$type-sm:       0.867rem;   //  13px  — small labels
+$type-caption:  0.933rem;   //  14px  — captions, metadata
+$type-body-sm:  1.067rem;   //  16px  — sidebar, secondary text
+$type-body:     1.333rem;   //  20px  — body text (Tufte-equivalent for Rubik)
+$type-body-lg:  1.533rem;   //  23px  — decks, lead paragraphs
+$type-subhead:  1.6rem;     //  24px  — h3 equivalent (1.2x body)
+$type-head-sm:  1.733rem;   //  26px  — small headings
+$type-head:     2.0rem;     //  30px  — h2 equivalent (1.5x body)
+$type-head-lg:  2.4rem;     //  36px  — large headings
+$type-title:    2.8rem;     //  42px  — page titles
+$type-display:  3.0rem;     //  45px  — h1 equivalent (2.25x body)
 
 // Context-specific sizes
 $type-hero:        $type-display;
