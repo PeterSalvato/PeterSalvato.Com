@@ -83,4 +83,6 @@ Decompose the complex task. Scaffold the structure. Individualize the criteria. 
 
 But underneath all of that is a simpler move. Before I built any of the architecture, before I decomposed a single prompt, I asked the same question I asked about every student in that classroom: what does this system actually need to do this job? Not what do I need from it. What does it need from me.
 
+That question applies to both systems in the room. The model needs decomposed tasks, structured input, independent evaluation. The human needs something too: friction removed at the point of capture, so the raw thinking enters the system without losing fidelity to structure. In FormWork, that's the pour. Get the idea out of your head. Talk, dictate, answer questions. The tools handle the rest. The pour accommodates the human the same way task decomposition accommodates the model.
+
 That question changes everything. It's the difference between treating a model like an employee who should be better and treating it like a system with a specific processing reality that you can accommodate. Token limits aren't a spec sheet. They're a working memory profile. Context windows aren't a feature. They're the attention span you're designing for. The model doesn't need a better prompt. It needs someone who bothered to ask how it works before handing it twelve things at once.

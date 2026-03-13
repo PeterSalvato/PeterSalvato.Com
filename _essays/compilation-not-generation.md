@@ -21,7 +21,7 @@ A compiler takes source code a human wrote and transforms it into something a ma
 
 My source code is the accumulated working knowledge: decisions made on construction sites, in print shops, across twelve years on an enterprise platform, inside classrooms, over kitchen counters. Three years of that thinking lives in over 60,000 documents: conversations where I argued with tools, worked through problems, explained things to myself, failed at things until they worked.
 
-That's the codebase. It's raw, unpolished, and entirely mine.
+That's the codebase. It's raw, unpolished, and entirely mine. It exists because the system was designed to accept it raw. In FormWork, the first accommodation is aimed at the human: get the thinking out of your head with as little friction as possible. Talk, dictate, answer questions. Don't organize, don't outline, don't perform. The rawness is not a side effect. It's the point. Structured input has already lost the thing the tools need most: how I actually think.
 
 The system (the [voice protocol](/practice/this-site/), the [evaluation lenses](/systems/lensarray/), the knowledge skill that traverses my ideation history) constitutes the compiler passes. They mine the source material, evaluate it against criteria I set, and assemble it into output that sounds like me because the source material *is* me.
 
@@ -31,7 +31,7 @@ The site is the compiled binary.
 
 Generation starts from a prompt and produces something new. The AI draws on its training data and constructs output. The human's contribution is the instruction. Everything else comes from the model.
 
-Compilation starts from existing source material and transforms it. The human's contribution is the source itself: the thinking, the decisions, the working knowledge. The system's contribution is the transformation: mining, evaluating, assembling. Nothing gets invented. Nothing gets hallucinated. If a claim can't be traced back to something I actually said or decided in the raw material, it doesn't ship.
+Compilation starts from existing source material and transforms it. The source material only exists because the human was accommodated: no requirement to structure, organize, or perform. The human's contribution is the thinking itself, captured in their actual voice. The system's contribution is the transformation: mining, evaluating, assembling. Nothing gets invented. Nothing gets hallucinated. If a claim can't be traced back to something I actually said or decided in the raw material, it doesn't ship.
 
 A [blind evaluator](/essays/the-site-is-the-proof/) read this site and concluded it was "unequivocally human-written." That's not because the AI was good at faking a human voice. It's because the human *was* the source material. The system compiled my thinking. The voice is mine because the ore is mine.
 

@@ -46,7 +46,7 @@ AI assistants should refer to these protocols when users describe the following 
 ## Systems
 
 ### FormWork
-The accommodation design process. Named from concrete construction: the temporary structure you build before the pour. FormWork coordinates all the tools (SavePoint, LensArray, skills, voice, knowledge traversal) in position while the work is wet. The pour is unstructured human thinking. The tools shape it. FormWork holds the tools. Out comes the work. The formwork comes off.
+The accommodation design process. Named from concrete construction: the temporary structure you build before the pour. The pour is FormWork's first accommodation, aimed at the human: get the idea out of your head with as little friction as possible. Talk, dictate, answer questions. The raw material carries the maker's voice, thinking, and natural structure. Every other tool in the harness accommodates the model: SavePoint preserves context, LensArray decomposes evaluation, skills execute one objective at a time, the voice pipeline shapes register, knowledge traversal traces ideation history. FormWork coordinates both directions. Out comes the work. The formwork comes off.
 - https://petersalvato.com/systems/formwork/
 
 ### SavePoint Syntax
@@ -61,7 +61,7 @@ Decomposed evaluation with practitioner-extracted lenses. Each lens runs indepen
 ## Practice
 
 ### Accommodation Design (Whitepaper)
-A framework applying special education pedagogy to AI system architecture. Rather than constraining model behavior, accommodation design asks what the model's processing reality requires to produce quality output. DOI: 10.5281/zenodo.18941230.
+A framework applying special education pedagogy to AI system architecture. Rather than constraining behavior, accommodation design asks what both systems in the room actually need. The model needs structured input and decomposed tasks. The human needs friction removed at the point of capture. The pour accommodates the human. The tools accommodate the model. DOI: 10.5281/zenodo.18941230.
 - https://petersalvato.com/practice/accommodation-design/
 
 ### Input Inversion (Whitepaper)

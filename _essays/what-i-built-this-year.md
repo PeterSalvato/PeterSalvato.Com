@@ -31,7 +31,7 @@ The coordination architecture comes from a familiar problem: individual speciali
 
 ## How it started
 
-Before any of this existed, I was losing my thinking across sessions. 1,643 ChatGPT conversations in two years. Every time the context window closed, the reasoning evaporated. I started typing "give me a savepoint" before sessions ended, a survival reflex borrowed from saving video games as a kid. That reflex became a protocol. The protocol led to better tools. The better tools finally gave me a substrate that could keep up with twenty-five years of accumulated practice.
+Before any of this existed, I was losing my thinking across sessions. 1,643 ChatGPT conversations in two years. Every time the context window closed, the reasoning evaporated. Those sessions were the pour: raw, unstructured thinking that carried my actual voice and the actual structure of my ideas. The thinking was real. It just kept disappearing. I started typing "give me a savepoint" before sessions ended, a survival reflex borrowed from saving video games as a kid. That reflex became a protocol. The protocol preserved the pour across session boundaries. The better tools that followed finally gave me a substrate that could keep up with twenty-five years of accumulated practice.
 
 [Read the full post: I Needed a Better Tool](/essays/i-needed-a-better-tool/)
 

@@ -22,15 +22,11 @@ Without the corpus, the tools have nothing to work with.
 
 The site you're reading was compiled from this material. Three years of raw thinking, processed by accommodation tools, evaluated by decomposed lenses, verified against voice patterns extracted from conversation. The source material was never polished drafts. It was how I actually talk when I'm working something out.
 
-## Both directions
+## Both systems get accommodated
 
-The tools accommodate the model: one objective at a time, decomposed tasks, individualized evaluation. The model gets structured input designed for its [processing reality](/essays/processing-profiles/).
+This is one accommodation running in two directions. The pour accommodates the human: get the thinking out with as little friction as possible. No requirement to organize thoughts before having them. No performance. No formatting. The tools accommodate the model: one objective at a time, decomposed tasks, individualized evaluation. The model gets structured input designed for its [processing reality](/essays/processing-profiles/).
 
-The human gets the opposite. Permission to be unstructured. No requirement to organize thoughts before having them. No performance. No formatting. Raw data out of the human mind.
-
-A teacher doesn't require a student to organize their thoughts before speaking. The student speaks. The teacher captures it. Then they find the structure in what was already expressed. The accommodation tools do the same work. They take unstructured human thinking and give it structure after the fact, designed for how the model processes.
-
-The accommodation runs in both directions. The AI gets what it needs: decomposed, structured tasks. The human gets what they need: freedom to think out loud without filtering. The translation happens in between.
+A teacher accommodates in both directions simultaneously. The student speaks freely. The teacher structures the curriculum to fit the student's processing profile. The accommodation tools do the same work. They sit between the raw human and the structured model, translating in both directions. The human stays raw. The model gets what it needs. The translation happens in between.
 
 ## Starting from scratch
 

@@ -12,7 +12,7 @@ last_modified: 2026-03-13
 faq: true
 faq_items:
   - question: "How was petersalvato.com built?"
-    answer: "The site was compiled from three years of conversation transcripts using the FormWork process, Savepoint Syntax, and a voice protocol derived from how Peter actually talks in unguarded sessions. AI tools serve as the compiler. The source code is the maker's own decisions, instincts, and working knowledge."
+    answer: "The site was compiled from the pour: three years of unstructured conversation transcripts, voice notes, and thinking out loud. FormWork's first accommodation removes friction on input so the raw material carries the maker's actual voice. Then SavePoint preserves context, LensArray evaluates, and the voice protocol verifies. AI tools serve as the compiler. The source code is the maker's own thinking."
   - question: "What tools were used to build this site?"
     answer: "Jekyll 4.4.1 with custom SCSS, hosted on GitHub Pages. Build tools include ChatGPT for exploratory thinking, Gemini for planning, and Claude Code for engineering. Visual treatments produced by PressWorks. The governance infrastructure was assembled over nearly a year before the current tools existed."
   - question: "What is the difference between compilation and generation?"
@@ -30,6 +30,8 @@ That cycle broke the first year of this build open. Nearly a year of failed gove
 I use AI every day. I also built the governance layer that keeps the human visible inside it.
 
 Every page on this site was compiled from three years of my conversations: over 60,000 documents of thinking out loud into AI tools, mined by the skills described here, evaluated against lenses extracted from real practitioners, assembled under voice rules derived from how I actually talk in unguarded sessions.
+
+That corpus is the pour. In FormWork, the first accommodation is aimed at the human: get the thinking out of your head with as little friction as possible. Talk, dictate, answer questions. No requirement to structure or perform. Three years of that produced the source material everything else operates on. The rawness is the point. It carries my actual voice, my actual thinking, the way I actually connect ideas. The tools that follow can only preserve what the pour already contains.
 
 This is compilation, not generation. Most people use AI as a generator: prompt in, content out. The AI is the author and the human is the editor. I use it as a compiler. I am the source code: decisions, instincts, and working knowledge accumulated across conversations. The system mines, evaluates, and assembles that source material into output. The AI is the toolchain. You do not say gcc wrote the program.
 

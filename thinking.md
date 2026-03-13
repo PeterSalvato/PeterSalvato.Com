@@ -8,11 +8,11 @@ last_modified: 2026-03-13
 faq: true
 faq_items:
   - question: "What does Peter Salvato do?"
-    answer: "Peter is a design engineer who works across brand, platform, and AI governance. The common thread is accommodation: reading what a system actually needs and building the structure that closes the gap between intent and execution."
+    answer: "Peter is a design engineer who works across brand, platform, and AI governance. The common thread is accommodation in both directions: reading what a system needs and building structure to meet it, while also reducing friction on how the human's thinking enters the system."
   - question: "How does Peter Salvato approach a project?"
     answer: "Start with the system receiving the work, not the person commissioning it. What does the student need, the end user need, the platform need? The answer to that question governs every design, engineering, and architectural decision that follows."
   - question: "How does accommodation design apply to AI?"
-    answer: "Language models have processing profiles: context windows are working memory ceilings, compound prompts degrade the same way compound classroom instructions do, attention diminishes over long inputs. The accommodation framework treats these as design constraints, not engineering problems."
+    answer: "Language models have processing profiles: context windows are working memory ceilings, compound prompts degrade the same way compound classroom instructions do, attention diminishes over long inputs. But the human has a processing profile too: ideas lose fidelity when forced into structure at the point of capture. The accommodation framework designs for both. The pour accommodates the human. The tools accommodate the model."
 ---
 
 A student in my classroom hears "solve for the missing number, show your work, and explain your reasoning" and processes the first instruction. The rest drops. Three tasks disguised as one, given to a system that can't hold them all at once.
@@ -53,7 +53,11 @@ This site was compiled from three years of my conversations. Over 60,000 documen
 
 ---
 
-The thread across all of these is accommodation. A student who can't hold three instructions needs the task decomposed. A product whose quality disappears on screen needs the display system redesigned. A platform stranded on the wrong surface needs someone to see where things are headed. A household burning 90 minutes on breakfast needs structure that removes the daily decisions. An AI tool that loses everything between sessions needs its processing constraints designed around.
+The thread across all of these is accommodation, and it runs in both directions. A student who can't hold three instructions needs the task decomposed. A product whose quality disappears on screen needs the display system redesigned. A platform stranded on the wrong surface needs someone to see where things are headed. A household burning 90 minutes on breakfast needs structure that removes the daily decisions. That's accommodation of the system receiving the work.
+
+But there's a second accommodation in every one of those situations. The student needs permission to speak before organizing their thoughts. The founder needs to show her work without performing for the camera. The household needs defaults that work when nobody has the energy to choose. I need to think out loud into a voice note without structuring it for the model. That's accommodation of the human doing the work. Reducing friction on how ideas, decisions, and raw thinking enter the system.
+
+In AI work, that second accommodation is the pour: the deliberate act of getting the thinking out of your head with as little friction as possible. The tools accommodate the model. The pour accommodates the maker. Both are designed for the same reason: read what the system actually needs and build the structure to meet it.
 
 In every case, the people closest to the work couldn't see the gap because they were designing for what they needed the system to do. The question that changed every one of those situations: what does the system receiving this actually need?
 

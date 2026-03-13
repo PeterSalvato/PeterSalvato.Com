@@ -62,4 +62,6 @@ Every generative output in the system follows the same pattern. The print-craft 
 
 Everything described here is documented in a single manifest file. Every skill, what it does, what calls it, what it needs, what it returns. The manifest is the set of plans: the document my father carried that let him hold the whole structure in his head while every individual trade worked their piece. Nobody on site had to know how the plumbing connected to the electrical. He did. That's what the manifest does here.
 
+The coordination layer exists to make sure that accommodating the model's processing constraints doesn't erase the human's thinking. The manifest holds what my father held on the job site: the whole picture, so every specialist can work their piece without losing sight of the original intent. The pour carries that intent into the system. The coordinator makes sure it survives the compilation.
+
 The methodology governing all of this is [FormWork](/systems/formwork/). The protocol describes the approach. What you're reading is one implementation, built against twelve years of enterprise platform work and twenty years of design practice.

@@ -22,15 +22,13 @@ The industry says structure your input. Write clear instructions. Define output 
 
 I went the other way for three years. Thousands of sessions of thinking out loud: brainstorming, arguing with myself, changing direction mid-sentence. That [unstructured corpus](/essays/the-unstructured-corpus/) turned out to be the most valuable thing I've built. The site you're reading was compiled from it.
 
-## The two directions
+## Both systems get accommodated
 
-The tools I build accommodate the AI: one objective at a time, decomposed tasks, structured evaluation. The model gets clean, organized input designed for its [processing reality](/essays/processing-profiles/).
+This is one accommodation running in two directions. The pour accommodates the human: get the thinking out of your head with as little friction as possible. Talk, dictate, answer questions. No requirement to organize thoughts before having them. The tools accommodate the model: one objective at a time, decomposed tasks, structured evaluation. The model gets clean, organized input designed for its [processing reality](/essays/processing-profiles/).
 
-The human gets the opposite. Permission to be unstructured. No requirement to organize thoughts before having them. No formatting. Just raw thinking.
+A teacher accommodates in both directions simultaneously. The student speaks freely. The teacher structures the curriculum to fit the student's processing profile. The teacher handles the translation between unstructured student output and structured instructional input.
 
-A teacher doesn't require a student to organize their thoughts before speaking. The student speaks. The teacher captures it. Then the structure gets found in what was already expressed.
-
-That's what the accommodation tools do. They take raw human thinking and give it structure after the fact, designed for how the model processes. The human stays raw. The model gets what it needs. The translation happens in between.
+The accommodation tools do the same work. They sit between the raw human and the structured model, translating in both directions. The human stays raw. The model gets what it needs. The translation happens in between.
 
 ## Starting today
 

@@ -127,7 +127,7 @@ The constraints do not tell the model what to write. They tell the model what it
 
 The source material for the protocol is not published writing. Published writing is performance. The practitioner has already edited, compressed, and shaped their thinking for an audience. Training on performance produces performed output.
 
-The source material is conversation transcripts. 1,643 ChatGPT sessions, 700+ Claude sessions, Gemini exports. Rough, unstructured, full of false starts. That is how I actually talk. The pipeline extracts patterns: sentence rhythm, how I start explaining something, vocabulary I reach for, what I never say.
+The source material is the pour: conversation transcripts accumulated over three years. 1,643 ChatGPT sessions, 700+ Claude sessions, Gemini exports. Rough, unstructured, full of false starts. That is how I actually talk. The pour exists because the system was designed to accept raw thinking with as little friction as possible. The pipeline extracts patterns from that material: sentence rhythm, how I start explaining something, vocabulary I reach for, what I never say.
 
 Published writing says: "The methodology was developed through iterative refinement of governance patterns." Conversation says: "I kept losing things between sessions. Not the notes. The exact moment something clicked." The conversation version is the actual voice. The published version is what the voice sounds like after it has been cleaned up.
 
@@ -168,7 +168,7 @@ The voice protocol is a diagnostic and a generation constraint simultaneously. I
 
 ## 6. Connection to Accommodation Design
 
-Voice governance applies the accommodation design framework (Salvato, 2026) to the model's voice processing:
+Voice governance applies the accommodation design framework (Salvato, 2026) to both systems in the room. The pour accommodates the human: unstructured conversation, voice notes, raw thinking captured with as little friction as possible. The generation constraints accommodate the model's voice processing:
 
 **The disability.** The model defaults to the statistical center of its training data. Generic, hedged, parallel, abstract-leading prose. This is a processing tendency, not a capability limitation. The model can produce distinctive voice. Its default is to not do so.
 

@@ -145,9 +145,11 @@ The inverted model produces better results for three reasons:
 
 Input inversion is one half of a bidirectional accommodation pattern described in the [accommodation design framework](/practice/accommodation-design/) (Salvato, 2026).
 
-The model receives structured input: decomposed tasks, one objective at a time, individualized evaluation criteria, context markers at cognitive turning points. This is accommodation designed for the model's processing reality.
+The human's processing reality: ideas lose fidelity when forced into structure at the point of capture. The act of organizing, outlining, or formatting disrupts the thinking it's trying to capture. The accommodation is the pour: get the thinking out with as little friction as possible. Talk, dictate, answer questions. The raw material carries the maker's actual voice, actual thinking, actual structure.
 
-The human receives the opposite: permission to be unstructured. No requirement to organize thoughts before having them. No formatting constraints. No performance pressure. Freedom to think out loud, change direction, contradict, and explore. This is accommodation designed for the human's cognitive reality.
+The model's processing reality: context limits, attention degradation, instruction sensitivity. The accommodation is structured input: decomposed tasks, one objective at a time, individualized evaluation criteria, context markers at cognitive turning points.
+
+In [FormWork](/systems/formwork/), the pour is the first accommodation, aimed at the human. Every other tool accommodates the model. Both are designed from the same question: what does this system actually need?
 
 A teacher accommodates in both directions simultaneously. The student speaks freely (accommodation of the student's expressive needs). The teacher structures the curriculum to fit the student's processing profile (accommodation of the student's receptive needs). The teacher handles the translation between unstructured student output and structured instructional input.
 

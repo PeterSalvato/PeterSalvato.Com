@@ -21,7 +21,9 @@ Most people use AI as a generator: they ask it to create something from a prompt
 
 ---
 
-The pipeline that produces this result is composed of four primary tools, each designed to solve a specific gap in the relationship between human thought and machine output.
+That corpus exists because the system was designed to accept raw thinking. In FormWork, the first accommodation is aimed at the human: get the idea out of your head with as little friction as possible. Talk, dictate, answer questions. No requirement to organize or perform. The material stays conversational, and that's the point. It carries my actual voice, my actual sentence rhythms, the imagery I reach for when I'm thinking, not writing. The tools that follow can only preserve what the source material already contains. If the input had been structured, polished, performed, the output would sound like everyone. The rawness is what makes the compilation mine.
+
+The pipeline that operates on this source material is composed of four tools, each designed to solve a specific gap in the relationship between human thought and machine output.
 
 First, a knowledge skill traverses the full corpus. It doesn't matter if the data is a JSON export from ChatGPT or a Markdown log from Claude Code; the skill identifies "real moments." It looks for what actually happened, what I actually said in the heat of a project, and what decisions were actually made. This is the foundation of the site's fidelity. The system is specifically prevented from inventing anything. If a claim or a detail can't be traced back to something I actually said or decided in the raw material, it doesn't ship. ([I Needed a Better Tool](/essays/i-needed-a-better-tool/))
 

@@ -8,7 +8,7 @@ icon: school
 status: "Published"
 faculty: ["design", "engineering", "uxia"]
 seo_keywords: ["AI governance", "accommodation design", "special education pedagogy", "prompt architecture", "task decomposition", "IEP design pattern", "AI evaluation framework", "human-AI architecture", "why AI output gets worse", "how to get better results from AI", "AI prompt engineering not working", "ChatGPT complex tasks", "special education methods for AI", "AI cognitive limitations", "how to structure AI tasks"]
-description: "A whitepaper applying special education pedagogy to AI system architecture. Rather than constraining model behavior, accommodation design asks what the model's processing reality requires to produce quality output."
+description: "A whitepaper applying special education pedagogy to AI system architecture. Rather than constraining behavior, accommodation design asks what both systems in the room actually need: the model's processing constraints and the human's."
 last_modified: 2026-03-10
 permalink: /practice/accommodation-design/
 related:
@@ -27,7 +27,7 @@ March 2026
 
 ## Abstract
 
-Current approaches to AI governance focus on constraining model behavior: safety guardrails, compliance frameworks, output filtering, prompt engineering as control mechanism. This paper proposes an alternative framework derived from special education pedagogy: accommodation design. Rather than asking how to constrain a model, accommodation design asks what the model's processing reality requires to produce quality output. The framework treats prompt architecture as individualized education planning, task decomposition as cognitive accommodation, and evaluation systems as differentiated assessment. The applied process, FormWork, is a coordination harness (named from concrete construction) that holds six accommodation tools in position while work is being produced: a context preservation syntax (SavePoint), a decomposed evaluation system (LensArray), a single-objective skill architecture, a voice governance pipeline, a knowledge traversal system, and an input inversion methodology. All six are deployed on a production site compiled by the system it describes. A literature review confirms that this specific framing does not exist in current research.
+Current approaches to AI governance focus on constraining model behavior: safety guardrails, compliance frameworks, output filtering, prompt engineering as control mechanism. This paper proposes an alternative framework derived from special education pedagogy: accommodation design. Rather than asking how to constrain a model, accommodation design asks what both systems in the room actually need. The model has processing constraints. So does the human. The framework treats prompt architecture as individualized education planning, task decomposition as cognitive accommodation, and evaluation systems as differentiated assessment. The applied process, FormWork, is a coordination harness (named from concrete construction) that holds six accommodation tools in position while work is being produced: a context preservation syntax (SavePoint), a decomposed evaluation system (LensArray), a single-objective skill architecture, a voice governance pipeline, a knowledge traversal system, and an input inversion methodology. All six are deployed on a production site compiled by the system it describes. A literature review confirms that this specific framing does not exist in current research.
 
 ---
 
@@ -39,9 +39,9 @@ Safety guardrails prevent harmful outputs. Compliance frameworks define acceptab
 
 When output quality degrades, the response is more constraint. Longer system prompts. More detailed instructions. Tighter formatting. The prompts grow. The output keeps degrading. The practitioners conclude the model isn't capable enough and wait for the next version.
 
-There is a different question: what does the model actually need to do this job well?
+There is a different question: what does each system in the room actually need to do this job well?
 
-That question changes everything. The practitioner's orientation shifts from adversarial (how do I make it do what I want?) to accommodating (how do I design the task so it can succeed?). Different architecture follows. Different evaluation systems. Different results.
+That question changes everything. The practitioner's orientation shifts from adversarial (how do I make it do what I want?) to accommodating (how do I design the task so it can succeed?). And the question applies in both directions. The model has processing constraints that need designing around. The human has processing constraints too: ideas lose fidelity when forced into structure at the point of capture. Accommodate both and the architecture changes. The evaluation systems change. The results change.
 
 I learned to ask that question in a special education classroom in Brooklyn.
 
@@ -79,7 +79,7 @@ Same structural accommodation, different system.
 
 ## 3. The Framework: Accommodation Design
 
-Accommodation design starts with one question: what is the processing reality of the system receiving this task?
+Accommodation design starts with one question: what is the processing reality of each system involved in this task?
 
 For a student: working memory capacity, attention profile, sensory processing, prior knowledge, emotional state. The IEP documents this and prescribes accommodations.
 
@@ -97,7 +97,7 @@ The mapping is direct:
 | Checkpoint pacing | Savepoint systems | Working memory has limits; mark progress before coherence degrades |
 | Accommodation removal | Scaffold reduction | Build capability, not dependency |
 
-The central claim: AI systems have specific processing realities that can be accommodated. The quality of the output depends on how well the task design meets those processing needs.
+The central claim: both systems in the room have processing realities that can be accommodated. The model needs structured input, decomposed tasks, and independent evaluation. The human needs friction removed at the point of capture, so that raw thinking enters the system without losing fidelity to structure. The pour accommodates the human. The tools accommodate the model. The quality of the output depends on how well the task design meets both sets of processing needs.
 
 ---
 
@@ -201,7 +201,7 @@ Two established research lanes exist:
 
 2. **AI performing empathy.** Training LLMs to exhibit empathetic responses in therapeutic and educational contexts: mental health chatbots, empathic prompting frameworks, affective computing. The empathy is a simulated output characteristic, not a design input (ScienceDirect, 2025; JMIR Mental Health, 2025; MDPI, 2025).
 
-The gap: nobody is applying accommodation to the AI system itself. Nobody is treating the model's processing constraints as a learner profile to be accommodated. The closest adjacent work is research on adaptive scaffolding for LLM-based pedagogical agents (arXiv, 2025), which applies scaffolding theory to how AI agents support human learners, not to how practitioners should design tasks for the AI's own processing needs.
+The gap: nobody is applying accommodation bidirectionally. Nobody is treating both the model's processing constraints and the human's cognitive constraints as profiles to be accommodated simultaneously. The closest adjacent work is research on adaptive scaffolding for LLM-based pedagogical agents (arXiv, 2025), which applies scaffolding theory to how AI agents support human learners, not to how practitioners should design tasks for both systems' processing needs.
 
 The AI governance field is populated primarily by computer scientists (who approach the model as a system to optimize) and policy professionals (who approach the model as a risk to manage). Neither discipline trains practitioners in accommodation. Special education does.
 
@@ -209,9 +209,9 @@ The AI governance field is populated primarily by computer scientists (who appro
 
 ## 7. Implications
 
-If AI systems are treated as systems with processing realities to accommodate, several things follow:
+If both systems are treated as having processing realities to accommodate, several things follow:
 
-**Prompt architecture becomes accommodation design.** The first question shifts from "what output do I want?" to "what does this system need to produce that output?" Every decision changes: instruction structure, task granularity, evaluation design, session management.
+**Prompt architecture becomes accommodation design.** The first question shifts from "what output do I want?" to "what does each system need to do this job well?" The model needs decomposed tasks. The human needs friction removed. Every decision changes: instruction structure, task granularity, evaluation design, session management, and how raw thinking enters the system.
 
 **Federal education law already codifies the design pattern.** Individualized specification of goals, success criteria, required accommodations, and progress monitoring. The CLAUDE.md file (persistent system context) is functionally an IEP: what the system needs to know, how it should approach tasks, what constitutes success.
 
@@ -227,9 +227,9 @@ If AI systems are treated as systems with processing realities to accommodate, s
 
 The AI governance field is building constraint systems for a problem that requires accommodation systems. Constraining a system fights its limitations. Accommodating a system designs for them.
 
-This framework was developed through direct transfer from special education pedagogy to AI system architecture, supported by twenty-five years of applied practice across construction, print production, enterprise software, brand systems, and design education. Six applied solutions (context preservation, evaluation decomposition, task decomposition, voice accommodation, retrieval accommodation, input inversion) each came from the same question: what does this system actually need to do this job well?
+This framework was developed through direct transfer from special education pedagogy to AI system architecture, supported by twenty-five years of applied practice across construction, print production, enterprise software, brand systems, and design education. The applied process, FormWork, accommodates both systems in the room. The pour accommodates the human: get the thinking out with as little friction as possible, so the raw material carries the maker's actual voice and the actual structure of their ideas. Five tools accommodate the model: context preservation, evaluation decomposition, task decomposition, voice governance, and retrieval accommodation. Each came from the same question applied to a different processing constraint: what does this system actually need to do this job well?
 
-Nobody else is asking that question. The field needs practitioners who know how to ask it.
+Nobody else is asking that question about both systems simultaneously. The field needs practitioners who know how to ask it.
 
 ---
 

@@ -15,7 +15,7 @@ The working language of Peter Salvato's [accommodation design](/practice/accommo
 ---
 
 <span id="accommodation-design"></span>**Accommodation Design**
-A framework for AI system architecture that comes from special education. Instead of constraining a model's behavior, accommodation design asks what the model actually needs to produce quality output. The question originates from IEP design: read the system's processing profile, then design the task to meet it. When AI output degrades despite increasingly refined prompts, the cause is usually task design, not model capability. The [whitepaper](/practice/accommodation-design/) documents the full framework. [FormWork](/systems/formwork/) implements it as process.
+A framework for AI system architecture that comes from special education. Instead of constraining a model's behavior, accommodation design asks what both systems in the room actually need. The model has processing constraints (context limits, attention degradation, instruction sensitivity). The human has processing constraints too (ideas lose fidelity when forced into structure at the point of capture). The pour accommodates the human: get the thinking out with as little friction as possible. The tools accommodate the model: structured input, decomposed tasks, independent evaluation. [FormWork](/systems/formwork/) coordinates both. The question originates from IEP design: read the system's processing profile, then design the task to meet it. The [whitepaper](/practice/accommodation-design/) documents the full framework.
 
 ---
 
