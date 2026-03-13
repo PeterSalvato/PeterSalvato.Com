@@ -19,12 +19,10 @@ code {
   font-size: 0.95rem;
   background-color: $color-surface-dark;
   padding: 2px 6px;
-  border-radius: $radius-small;
 }
 
 pre {
   background-color: $color-surface-dark;
-  border-radius: $radius-small;
   padding: $gap-large;
   overflow-x: auto;
   margin: $gap-large 0;
@@ -71,7 +69,6 @@ pre {
     width: 100%;
     background-color: $color-background;
     border: $rule-light solid $color-border;
-    border-radius: $radius-small;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -81,7 +78,7 @@ pre {
     transition: background-color $transition-fast;
 
     &:hover {
-      background-color: darken($color-background, 2%);
+      background-color: $color-surface;
     }
   }
 
@@ -98,7 +95,6 @@ pre {
   img {
     width: 100%;
     height: auto;
-    border-radius: $radius-small;
   }
 }
 

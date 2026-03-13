@@ -55,7 +55,8 @@
       > .nav-item > a {
         font-size: $type-caption;
         font-weight: 600;
-        letter-spacing: $tracking-normal;
+        font-variant-caps: all-small-caps;
+        letter-spacing: $tracking-wide;
         color: $color-text;
         text-decoration: none;
         display: flex;

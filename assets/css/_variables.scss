@@ -31,6 +31,9 @@ $color-red:              #A64B2A;   // Infrastructure (02)
 $color-green:            #6B8E5F;   // Output (03)
 $color-neutral:          #4A4A44;   // General
 
+// Functional spot color (oxide red — print ink, not UI accent)
+$color-spot:             $color-red;
+
 // Footer palette
 $color-footer-bg:        #2a2a2a;
 $color-footer-muted:     #c0c0c0;
@@ -45,26 +48,28 @@ $font-body:    'Rubik', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-seri
 $font-display: 'Chainprinter', 'Space Mono', monospace;
 $font-mono:    'Space Mono', monospace;
 
-// Type scale
-$type-2xs:      8px;
-$type-xs:       9px;
-$type-sm:       10px;
-$type-caption:  11px;
-$type-detail:   12px;
-$type-body-sm:  13px;
-$type-body:     14px;
-$type-body-lg:  1rem;
-$type-subhead:  1.05rem;
-$type-head-sm:  1.1rem;
-$type-head:     1.2rem;
-$type-head-lg:  1.5rem;
-$type-title:    1.5rem;
-$type-display:  3rem;
+// Type scale — fluid, 1.2 ratio (minor third), textbook-tight
+$type-xs:       clamp(0.7rem, 0.65rem + 0.15vw, 0.75rem);
+$type-sm:       clamp(0.75rem, 0.7rem + 0.15vw, 0.833rem);
+$type-caption:  clamp(0.8rem, 0.75rem + 0.15vw, 0.875rem);
+$type-body-sm:  clamp(0.875rem, 0.83rem + 0.2vw, 0.95rem);
+$type-body:     clamp(0.95rem, 0.9rem + 0.25vw, 1.05rem);
+$type-body-lg:  clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
+$type-subhead:  clamp(1.05rem, 1rem + 0.3vw, 1.2rem);
+$type-head-sm:  clamp(1.1rem, 1.03rem + 0.35vw, 1.25rem);
+$type-head:     clamp(1.2rem, 1.1rem + 0.4vw, 1.35rem);
+$type-head-lg:  clamp(1.35rem, 1.2rem + 0.5vw, 1.5rem);
+$type-title:    clamp(1.5rem, 1.3rem + 0.65vw, 1.75rem);
+$type-display:  clamp(1.6rem, 1.35rem + 0.8vw, 1.95rem);
 
 // Context-specific sizes
-$type-hero:        2rem;
-$type-domain-head: 1.75rem;
-$type-sidebar:     1.25rem;
+$type-hero:        $type-display;
+$type-domain-head: $type-title;
+$type-sidebar:     $type-head-sm;
+
+// Deprecated aliases — remove references over time
+$type-2xs:      $type-xs;
+$type-detail:   $type-caption;
 
 // Letter-spacing
 $tracking-tight:    -0.02em;
@@ -88,8 +93,9 @@ $leading-spacious:  1.8;
 // RULES (borders)
 // ----------------------------------------------------------------------------
 
-$rule-heavy: 3px;
-$rule-light: 1px;
+$rule-heavy:  3px;
+$rule-medium: 2px;
+$rule-light:  1px;
 
 // ----------------------------------------------------------------------------
 // SIZING
@@ -102,23 +108,16 @@ $padding-large:        64px;
 $padding-medium:       24px;
 
 // ----------------------------------------------------------------------------
-// SPACING (8px grid)
+// SPACING (baseline rhythm)
 // ----------------------------------------------------------------------------
 
-$gap-small:    8px;
-$gap-medium:   16px;
-$gap-large:    24px;
-$gap-xlarge:   32px;
-$gap-xxlarge:  48px;
-$gap-xxxlarge: 64px;
-
-// ----------------------------------------------------------------------------
-// SHADOWS
-// ----------------------------------------------------------------------------
-
-$shadow-subtle:  0 2px 8px rgba(0, 0, 0, 0.08);
-$shadow-medium:  0 4px 16px rgba(0, 0, 0, 0.12);
-$shadow-strong:  0 2px 12px rgba(0, 0, 0, 0.10);
+$baseline:     1.5rem;
+$gap-small:    calc(#{$baseline} * 0.33);   //  ~8px
+$gap-medium:   calc(#{$baseline} * 0.67);   // ~16px
+$gap-large:    $baseline;                    //  24px
+$gap-xlarge:   calc(#{$baseline} * 1.5);     //  36px
+$gap-xxlarge:  calc(#{$baseline} * 2);       //  48px
+$gap-xxxlarge: calc(#{$baseline} * 3);       //  72px
 
 // ----------------------------------------------------------------------------
 // OPACITY
@@ -139,14 +138,6 @@ $opacity-soft:      0.7;
 $opacity-texture-grain: 0.04;
 $opacity-texture-film:  0.25;
 $opacity-texture-ink:   0.04;
-
-// ----------------------------------------------------------------------------
-// BORDER-RADIUS
-// ----------------------------------------------------------------------------
-
-$radius-small:   2px;
-$radius-default: 4px;
-$radius-round:   50%;
 
 // ----------------------------------------------------------------------------
 // Z-INDEX LAYERS

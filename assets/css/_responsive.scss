@@ -155,6 +155,12 @@
     }
   }
 
+  // Two-column body copy: collapse to single on mobile
+  .context-content,
+  .post-content {
+    column-count: 1;
+  }
+
   // Editorial layout: stack image above text on mobile
   .context-editorial {
     .context-editorial-image {
@@ -284,6 +290,12 @@
 
   #container {
     max-width: 600px;
+  }
+
+  // Two-column body copy: single column on tablet too
+  .context-content,
+  .post-content {
+    column-count: 1;
   }
 
   #homepage-hero {

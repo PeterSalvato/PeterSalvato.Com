@@ -6,7 +6,6 @@
 .altitude-marker {
   background-color: $color-white;
   border: 2px solid $color-text;
-  border-radius: $radius-default;
   display: inline-block;
   font-family: $font-display;
   font-size: $type-detail;
@@ -76,10 +75,10 @@
   display: flex;
   align-items: baseline;
   gap: $gap-large;
-  font-family: $font-mono;
-  font-size: $type-sm;
-  letter-spacing: $tracking-wider;
-  text-transform: uppercase;
+  font-family: $font-body;
+  font-size: $type-body-sm;
+  font-variant-caps: all-small-caps;
+  letter-spacing: $tracking-wide;
   color: $color-text-secondary;
 }
 
@@ -113,27 +112,15 @@
   margin-bottom: $gap-large;
   transition: background-color $transition-fast, border-color $transition-fast;
 
-  // ---- CARD MODE (link) ----
+  // ---- CARD MODE (ruled entry) ----
   &--link {
     text-decoration: none;
     color: inherit;
-    position: relative;
-    padding: $gap-xlarge $gap-xlarge $gap-large;
-
-    &::before {
-      content: '';
-      display: block;
-      position: absolute;
-      inset: 0;
-      background: white;
-      opacity: 0.5;
-      z-index: 0;
-    }
-
-    > * {
-      position: relative;
-      z-index: 1;
-    }
+    border: none;
+    border-top: $rule-medium solid $color-text;
+    padding: $gap-large 0;
+    background: none;
+    transition: none;
 
     .artifact-mark-container {
       flex: 0 0 56px;
@@ -148,9 +135,8 @@
       font-size: 40px;
     }
 
-    &:hover {
-      background-color: $color-surface;
-      border-color: $color-text;
+    &:hover h2 {
+      color: $color-spot;
     }
 
     .artifact-hero-header {
@@ -172,11 +158,12 @@
       letter-spacing: $tracking-normal;
       text-transform: uppercase;
       margin: 0;
+      transition: color $transition-fast;
 
       a {
         color: $color-text;
         text-decoration: none;
-        &:hover { color: $color-neutral; }
+        &:hover { color: $color-spot; }
       }
     }
 
@@ -197,11 +184,9 @@
       font-size: $type-xs;
     }
 
-    // Push the action link to the card bottom
     .artifact-link {
       margin-top: auto;
       padding-top: $gap-medium;
-      border-top: $rule-light solid $color-border;
     }
   }
 

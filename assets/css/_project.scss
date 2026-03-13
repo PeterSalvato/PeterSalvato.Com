@@ -107,7 +107,6 @@
   code {
     background-color: $color-surface-dark;
     padding: 2px 6px;
-    border-radius: $radius-small;
     font-family: $font-mono;
     font-size: $type-detail;
   }
@@ -115,7 +114,6 @@
   pre {
     background-color: $color-surface-dark;
     padding: $gap-medium;
-    border-radius: $radius-small;
     overflow-x: auto;
     margin: $gap-medium 0;
 
@@ -203,7 +201,6 @@
     width: 100%;
     height: auto;
     display: block;
-    border-radius: $radius-small;
     max-height: 500px;
     object-fit: contain;
   }
@@ -234,13 +231,10 @@ figure.figure {
     background: $color-surface;
     padding: $gap-small;
     border: $rule-light solid $color-border;
-    box-shadow: $shadow-subtle;
   }
 
   // --- PHOTO: object on the workbench ---
   &.photo {
-    box-shadow: $shadow-medium;
-    border-radius: $radius-small;
     overflow: hidden;
     @extend .film-grain;
   }
@@ -249,7 +243,6 @@ figure.figure {
   &.artifact {
     background: $color-surface-dark;
     padding: $gap-small;
-    box-shadow: $shadow-strong;
     @extend .film-grain;
   }
 
@@ -275,7 +268,6 @@ figure.figure {
 // Carousel
 .image-carousel {
   overflow: hidden;
-  border-radius: $radius-small;
 
   .carousel-track {
     display: flex;
@@ -311,7 +303,6 @@ figure.figure {
   padding: $gap-small $gap-medium;
   font-size: $type-head-sm;
   line-height: $leading-relaxed;
-  border-radius: $radius-small;
   transition: border-color $transition-micro;
 
   &:hover {
@@ -328,7 +319,7 @@ figure.figure {
 .carousel-dot {
   width: 10px;
   height: 10px;
-  border-radius: $radius-round;
+  border-radius: 50%;
   border: none;
   background: $color-border;
   cursor: pointer;
@@ -417,7 +408,6 @@ figure.figure {
   .swatch-color {
     width: 100%;
     aspect-ratio: 1;
-    border-radius: $radius-default;
     border: $rule-light solid $color-border;
   }
 

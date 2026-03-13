@@ -3,9 +3,9 @@
 // ============================================================================
 
 .context-header {
-  border: 2px solid $color-text;
-  border-radius: $radius-default;
-  padding: $gap-xlarge;
+  border: none;
+  border-bottom: $rule-heavy solid $color-text;
+  padding: 0 0 $gap-xlarge;
   margin-bottom: $gap-xxlarge;
 
   h1 {
@@ -13,6 +13,7 @@
     font-weight: 700;
     letter-spacing: $tracking-normal;
     margin-bottom: $gap-medium;
+    @extend .press-type;
   }
 
   p {
@@ -39,7 +40,6 @@
       width: 100%;
       height: auto;
       display: block;
-      border-radius: $radius-default;
     }
   }
 
@@ -49,12 +49,18 @@
 
 .context-content {
   max-width: 800px;
+  column-count: 2;
+  column-gap: $gap-xxlarge;
 
   p {
     font-family: $font-body;
-    font-size: $type-body-lg;
-    line-height: $leading-spacious;
+    font-size: $type-body;
+    line-height: $leading-relaxed;
     margin-bottom: $gap-large;
+  }
+
+  h2, h3, blockquote {
+    column-span: all;
   }
 
   h2 {

@@ -34,11 +34,11 @@ footer {
 
   .footer-column {
     h4 {
-      font-family: $font-display;
-      font-size: $type-caption;
-      font-weight: 700;
-      letter-spacing: $tracking-wider;
-      text-transform: uppercase;
+      font-family: $font-body;
+      font-size: $type-body-sm;
+      font-weight: 600;
+      font-variant-caps: all-small-caps;
+      letter-spacing: $tracking-wide;
       color: $color-footer-muted;
       margin-bottom: $gap-large;
       text-align: left;

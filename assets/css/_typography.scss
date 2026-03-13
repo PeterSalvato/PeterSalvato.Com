@@ -1,39 +1,43 @@
 // ============================================================================
-// TYPOGRAPHY
+// TYPOGRAPHY — Textbook register
 // ============================================================================
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $font-display;
   font-weight: 600;
   margin-bottom: $gap-medium;
-  margin-top: $gap-xlarge;
+  margin-top: $gap-xxxlarge;
+  text-wrap: balance;
 
   &:first-child {
     margin-top: 0;
   }
 }
 
-
 h1 {
-  font-size: $type-head-lg;
+  font-size: $type-title;
   line-height: $leading-tight;
   letter-spacing: $tracking-tight;
+  text-transform: uppercase;
 }
 
 h2 {
   font-size: $type-head;
   line-height: 1.2;
   letter-spacing: $tracking-snug;
+  margin-top: $gap-xxlarge;
 }
 
 h3 {
   font-size: $type-head-sm;
   line-height: $leading-snug;
   letter-spacing: $tracking-snug;
+  margin-top: $gap-xlarge;
 }
 
 p {
-  margin-bottom: 1rem;
+  margin-bottom: $baseline;
+  text-wrap: pretty;
 }
 
 a {
@@ -42,6 +46,14 @@ a {
   transition: color $transition-fast;
 
   &:hover {
-    opacity: $opacity-hover;
+    color: $color-spot;
+    opacity: 1;
   }
+}
+
+// Small caps utility — section labels, metadata, status badges
+.smallcaps {
+  font-variant-caps: all-small-caps;
+  letter-spacing: $tracking-wide;
+  font-weight: 600;
 }

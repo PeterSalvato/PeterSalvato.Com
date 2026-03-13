@@ -16,6 +16,7 @@
       font-weight: 700;
       letter-spacing: $tracking-normal;
       margin-bottom: $gap-medium;
+      @extend .press-type;
     }
 
     p {
@@ -64,7 +65,8 @@
   #domain-artifacts {
     display: grid;
     grid-template-columns: minmax(0, 1fr);
-    gap: $gap-medium;
+    gap: 0;
+    content-visibility: auto;
 
     // Cards inside domain index don't need their own bottom margin
     .artifact-card {

@@ -18,6 +18,7 @@
       text-transform: uppercase;
       margin-bottom: $gap-medium;
       margin-top: 0;
+      @extend .press-type;
     }
 
     .post-deck {
@@ -36,11 +37,11 @@
     }
 
     .post-date {
-      font-family: $font-display;
-      font-size: $type-caption;
-      font-weight: 700;
-      letter-spacing: $tracking-wider;
-      text-transform: uppercase;
+      font-family: $font-body;
+      font-size: $type-body-sm;
+      font-weight: 600;
+      font-variant-caps: all-small-caps;
+      letter-spacing: $tracking-wide;
       color: $color-text-secondary;
     }
 

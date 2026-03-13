@@ -61,11 +61,12 @@
 
 #section-cards {
   display: grid;
-  gap: $gap-medium;
+  gap: 0;
   margin-bottom: $gap-xxlarge;
 
   .section-card {
-    padding: $gap-xlarge $gap-xlarge $gap-large;
+    border-top: $rule-medium solid $color-text;
+    padding: $gap-large 0;
 
     .section-card-name {
       font-family: $font-display;
@@ -74,6 +75,12 @@
       text-transform: uppercase;
       letter-spacing: $tracking-normal;
       margin: 0 0 $gap-small;
+      transition: color $transition-fast;
+      @extend .press-type;
+    }
+
+    &:hover .section-card-name {
+      color: $color-spot;
     }
 
     .section-card-definition {
@@ -93,9 +100,7 @@
     }
 
     .artifact-link {
-      margin-top: auto;
-      padding-top: $gap-medium;
-      border-top: $rule-light solid $color-border;
+      margin-top: $gap-medium;
     }
   }
 }
@@ -104,6 +109,7 @@
   margin-bottom: $gap-xxlarge;
   padding-top: $gap-xlarge;
   border-top: $rule-light solid $color-border;
+  content-visibility: auto;
 
   p {
     font-family: $font-body;
@@ -190,17 +196,16 @@
   margin-top: $gap-xxlarge;
 
   .route-card {
-    border: $rule-light solid $color-border;
-    padding: $gap-xlarge;
+    border: none;
+    border-top: $rule-medium solid $color-text;
+    padding: $gap-large 0;
     text-decoration: none;
     color: $color-text;
-    transition: all $transition-fast;
     display: flex;
     flex-direction: column;
 
-    &:hover {
-      background-color: $color-surface;
-      border-color: $color-text;
+    &:hover .route-card-title {
+      color: $color-spot;
     }
 
     h3 {
@@ -217,6 +222,7 @@
       text-transform: uppercase;
       margin-bottom: $gap-medium;
       flex-grow: 1;
+      transition: color $transition-fast;
 
       &--blue { color: $color-blue; }
       &--red { color: $color-red; }
