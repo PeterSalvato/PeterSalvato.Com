@@ -42,7 +42,7 @@ In concrete construction, you pour before anything else. In FormWork, the pour i
 
 FormWork is the process, the coordination, the "how." Each tool inside the harness accommodates a specific processing constraint. The question underneath every tool is the same one I learned to ask in that classroom: what does this system actually need to do this job well?
 
-That question applies to both systems in the room. The model has processing constraints. So does the human.
+That question applies to the model and to the human. Both have processing constraints. Both need the task designed for what they can actually handle.
 
 ---
 
@@ -52,53 +52,41 @@ That question applies to both systems in the room. The model has processing cons
 
 You have an idea and you need to get it out of your head. Most workflows ask you to structure your thinking before you begin: outline it, organize it, write it up. That's a friction point. Structure at the point of capture kills the thing you're trying to capture. The idea calcifies into something less than what it actually is.
 
-The pour removes that friction. Talk. Dictate. Answer questions. Don't organize, don't outline, don't write. The system is designed so the gap between "I have an idea" and "it's captured" is as small as possible. Spin up an interview skill and it extracts what's in your head through conversation. Record a voice note from the car. Dump a brainstorming session. The material stays raw, conversational, unstructured, and that's the point: it carries your actual voice, your actual thinking, the way you actually connect ideas.
+The pour removes that friction. Talk. Dictate. Answer questions. Don't organize, don't outline, don't write. The system is designed so the gap between "I have an idea" and "it's captured" is as small as possible.
+
+What that looks like in practice: a five-minute voice note from the car. An interview skill that asks you questions and pulls the thinking out through conversation. A brainstorming session dumped raw into a markdown file. Sometimes a single pour session fills the corpus. Sometimes it accumulates over years, a few voice notes a week, conversations where you argue with yourself, dictated observations between meetings. The output is messy: transcripts full of false starts, unfinished sentences, tangents that turn out to be the real insight. That mess is the point. It carries your actual voice, your actual thinking, the way you actually connect ideas.
+
+The only requirement is that you don't perform. No audience awareness. No structuring for the model. No outline. The rawness is what makes the downstream tools work, because the voice pipeline can only extract your patterns from material that sounds like you, and the knowledge traversal can only trace your thinking through material that contains it.
 
 This is FormWork's first accommodation, and the only one aimed at the human. Every other tool in the harness accommodates the model. This one accommodates the maker. And the rest of the system only works because this one came first. Without the pour, the tools have nothing real to work from.
 
 The pour isn't a one-time step. It's available throughout the process. A new facet emerges mid-project, you spin up an interview and fill it. The corpus grows as the project grows, and the tools can re-sample from it at any point.
 
-**The constraint it accommodates:** Humans lose fidelity when forced to structure ideas at the point of capture. Removing friction on input preserves the raw thinking, the natural voice, and the real architecture of the idea.
-
 ### SavePoint Syntax: context accommodation
 
-Models have no persistent memory between sessions. When a thread closes, the context evaporates. The thinking that happened, the moment something clicked, the point where understanding shifted: none of it survives into the next session. If you have ever returned to an AI conversation and found the model has no memory of where the work was headed, this is the constraint.
-
-[Savepoint Syntax](/systems/savepoint/) is a self-closing tag dropped inline at the moment of a cognitive turning point. Machine-readable, human-writable. One line of content, forced precision. The syntax is designed for how the model retrieves, not for how I remember: structured, atomic, searchable markers instead of narrative notes.
-
-**The constraint it accommodates:** No persistent memory between sessions. Savepoints give the model enough orientation to reconstruct where the thinking was.
+Models have no persistent memory between sessions. When a thread closes, the thinking evaporates. [Savepoint Syntax](/systems/savepoint/) marks the turning points before they disappear: a self-closing tag dropped inline at the moment understanding shifts. Machine-readable, human-writable. One line of content, forced precision. The syntax is designed for how the model retrieves (structured, atomic, searchable markers), not for how I remember (narrative notes that drift).
 
 ### [LensArray](/systems/lensarray/): evaluation accommodation
 
-"Is this good?" is twelve questions disguised as one. Give that compound evaluation to a model and the criteria blur together. Structural assessment contaminates narrative assessment. The result is a blended average that tells you nothing actionable.
+Ask a model to evaluate a page for voice, structure, narrative, and brand at the same time and the criteria bleed together. You get a blended average: everything is "good" or "needs work" with no way to act on it. The model can't hold those dimensions independently any more than a student can hold three compound instructions at once.
 
-LensArray decomposes evaluation into distinct layers of concern, each staffed with lenses extracted from real practitioners. Each lens runs independently with its own criteria and its own definition of success. A coordinator collects verdicts and maps where they agree and where they disagree. The maker resolves the disagreements.
-
-**The constraint it accommodates:** Models flatten compound evaluations. Concurrent criteria contaminate each other. Independent layers, each with one clear question, produce verdicts you can act on.
+LensArray separates them. Each layer of concern gets its own lenses, extracted from real practitioners, running independently. A coordinator collects verdicts. Where lenses agree, strong signal. Where they disagree, a decision for the maker.
 
 ### Voice sampling: voice accommodation
 
-Ask a model to write in someone's voice and it produces competent content marketing that sounds like everyone and no one. The model's training data is dominated by published writing: polished, performative, audience-aware. If your AI output sounds generic no matter how much you describe the target voice, this is why.
-
-The voice pipeline samples from conversation transcripts instead. Three years of sessions, dictated voice notes, rough thinking full of false starts. The pipeline extracts patterns (sentence rhythm, vocabulary I reach for, what I never say) and encodes them as constraints on all written output.
-
-**The constraint it accommodates:** Models default to a training-data average that reads like published writing. Sampling from conversation instead of publication gives the model source material that matches the target register.
+Models default to a training-data average that reads like published writing: polished, performative, everyone and no one. The voice pipeline samples from conversation transcripts instead. Three years of sessions, dictated voice notes, rough thinking full of false starts. It extracts patterns (sentence rhythm, vocabulary I reach for, what I never say) and encodes them as constraints on all written output. Conversation is how someone actually communicates. Published writing is performance.
 
 ### Knowledge traversal: retrieval accommodation
 
-The first time an idea appears in conversation history, it probably was not called by its final name. Keyword search misses the origin. Grep cannot find the embryonic mention because the term did not exist yet.
+"Accommodation design" didn't start with that name. The first time the idea appeared in my conversation history, I was describing what happened in a classroom. Keyword search would never find it. Grep can't locate a term that didn't exist yet.
 
-The knowledge traversal skill reads chronologically through conversation exports, carries understanding forward, and catches mentions that no search would find. It builds understanding through sequential processing, not indexed lookup.
-
-**The constraint it accommodates:** Standard retrieval systems assume you already know what you are looking for. Chronological traversal matches how the model actually builds understanding.
+The knowledge traversal skill reads chronologically through conversation exports, carries understanding forward, and catches those embryonic mentions. It builds understanding through sequential processing, not indexed lookup, which matches how the model actually works.
 
 ### Skill architecture: task decomposition accommodation
 
-Give a model twelve objectives in a single prompt and it prioritizes the first few. The rest degrade. Instruction ordering changes which objectives get attention. If you have noticed that the end of a complex prompt gets ignored, this is the constraint.
+Give a model twelve objectives in a single prompt and it prioritizes the first few. The rest degrade. Instruction ordering changes which objectives get attention.
 
-Every skill has one objective, one output, no knowledge of other skills. Twenty-two single-purpose diagnostics and five coordinators. The coordinators dispatch skills in parallel where they are independent, sequentially where one depends on another's output. The model never receives twelve goals at once.
-
-**The constraint it accommodates:** Models cannot hold twelve goals simultaneously without flattening them. One objective per skill, with coordinators handling the orchestration, keeps each task within the model's processing strengths.
+So every skill has one objective, one output, no knowledge of other skills. Twenty-two single-purpose diagnostics and five coordinators. The coordinators dispatch skills in parallel where they're independent, sequentially where one depends on another's output. The model never receives twelve goals at once. Same accommodation as the classroom: one instruction at a time, one visible result before the next step.
 
 ---
 
@@ -122,7 +110,7 @@ The same principle governs every tool in this process. A graphic organizer helps
 
 Every scaffold in the system should be questioned: is this building capability, or is this building dependency? The current AI tool development trend pushes toward longer system prompts, more elaborate orchestration, increasingly complex context documents. The accommodation framework asks which of those scaffolds are doing structural work and which have become permanent crutches.
 
-The goal is structure that holds on its own.
+If a tool has to stay permanently, I built a dependency. The question is always: can this come off yet?
 
 ---
 

@@ -58,7 +58,7 @@ The question is how to reconstruct that evaluative function in AI-mediated work.
 
 ### 3.1 LLM-as-Judge
 
-The dominant paradigm for AI evaluation is LLM-as-judge: a single model scores output against a rubric. The rubric may be generic ("rate creativity, coherence, and relevance on a scale of 1-5") or domain-specific. The model applies all criteria in a single pass.
+The dominant approach to AI evaluation is LLM-as-judge: a single model scores output against a rubric. The rubric may be generic ("rate creativity, coherence, and relevance on a scale of 1-5") or domain-specific. The model applies all criteria in a single pass.
 
 The architecture has the same flaw as my initial compound prompt. The model blends criteria. A piece of work that is structurally excellent but narratively weak receives a middling score that obscures both the strength and the weakness. The evaluative function is flattened.
 

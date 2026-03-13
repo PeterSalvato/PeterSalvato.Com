@@ -5,7 +5,7 @@ redirect_from:
 title: "I Needed a Better Tool"
 published: true
 order: 3
-description: "1,643 ChatGPT conversations in two years. Then I found Claude Code, and the thing that made it stick was that it could read my files."
+description: "Thousands of ChatGPT conversations in two years. Then I found Claude Code, and the thing that made it stick was that it could read my files."
 seo_keywords: ["Claude Code", "AI tools", "ChatGPT to Claude", "design engineer", "methodology-driven development", "Peter Salvato", "CLAUDE.md", "switching from ChatGPT to Claude", "AI tool comparison for developers", "best AI coding assistant", "file-aware AI", "AI that reads your codebase"]
 ---
 
@@ -13,13 +13,13 @@ I kept losing my thinking. Not my notes, not my files. The reasoning. The connec
 
 I was using ChatGPT for structural work: worldbuilding for a novel, a side project called ScopeForge, career planning, brand development. Months of interconnected thinking where one decision fed into the next. Every time the session closed, the next one started from zero. I could paste summaries, re-upload documents, try to reconstruct the thread. But the reasoning that connected all the pieces had evaporated. When I came back to something months later, I told the tool: I feel like I did so much ideation that got lost or buried.
 
-That loss is where Savepoint Syntax came from. I started typing "give me a savepoint" into conversations as a survival mechanism. The name came from saving video games as a kid. Same instinct: you're about to lose your progress, so you save your state before the session ends. Dump everything into a copyable block before the context closes. It showed up in cooking conversations, fitness conversations, gaming, web dev. It was a reflex before it was a protocol.
+That loss is where the savepoint reflex came from. I started typing "give me a savepoint" into conversations as a survival mechanism. The name came from saving video games as a kid. Same instinct: you're about to lose your progress, so you save your state before the session ends. Dump everything into a copyable block before the context closes. It showed up in cooking conversations, fitness conversations, gaming, web dev. It was a reflex before it was a protocol.
 
-## 1,643 conversations
+## The corpus before I knew it was one
 
-This isn't a story about a bad tool. Between January 2023 and early 2026, I had 1,643 conversations with ChatGPT. Cooking technique, career planning, teaching approaches for my kids, enterprise UI strategy, brand development. The first few months were simple lookups. Then in September 2024 something cracked open and I went from a few conversations a month to dozens a week. I was trying to figure out what I actually was, professionally, after twenty years of building things across so many domains that no single title fit. ChatGPT became the place I worked that out.
+This isn't a story about a bad tool. Over three years I had thousands of conversations with ChatGPT. Cooking technique, career planning, teaching approaches for my kids, enterprise UI strategy, brand development. The first few months were simple lookups. Then in September 2024 something cracked open and I went from a few conversations a month to dozens a week. I was trying to figure out what I actually was, professionally, after twenty years of building things across so many domains that no single title fit. ChatGPT became the place I worked that out.
 
-The tool helped me think. It just couldn't hold what I was thinking.
+I could think inside it. I just couldn't keep what I'd thought.
 
 ScopeForge made it undeniable. I'd been building a tool for mapping project context and dependencies, and every time I sat down to implement the next piece I had to re-explain the repo structure, the decisions I'd already made, what connected to what. Three messages later it would contradict the architecture we'd just agreed on. I said to it at one point: the issue I'm having is, ChatGPT is failing to help me in engineering tasks. It's just not capable enough.
 
@@ -41,12 +41,12 @@ In February 2026 I started building this site in Claude Code sessions. Not as a 
 
 The character of the work was completely different from the ChatGPT era. Those conversations were exploratory. I was trying to figure out who I am professionally, working through naming and positioning and existential questions about my career. The Claude Code sessions were building. I needed a real project to develop the governance system against, and the site became that project.
 
-Both tools were the right tool for the phase I was in. ChatGPT was where the pour happened: 1,643 sessions of unstructured thinking that became the source material everything else operates on. Claude Code was where the tools shaped it. The exploration generated the corpus. The building compiled it. Not separate phases. The pour produced the raw material the tools needed.
+Both tools were the right tool for the phase I was in. ChatGPT was where the pour happened: years of unstructured thinking that became the source material everything else operates on. Claude Code was where the tools shaped it. The exploration generated the corpus. The building compiled it. The pour produced the raw material the tools needed.
 
-I didn't switch because one is better in some abstract sense. I switched because the work changed, and I needed a tool that could work inside my file system and hold what we'd decided. And once it could hold what we'd decided, I could finally build on top of previous decisions instead of rebuilding them.
+I switched because the work changed, and I needed a tool that could work inside my file system and hold what we'd decided. Once it could, I could finally build on top of previous decisions instead of rebuilding them.
 
 ## Why it matters to me
 
-The reasoning I kept losing across sessions is the same thing my father held in his head on a construction site. The whole picture: how fifty trades connect, what depends on what, which decision downstream is going to break if this one drifts. He held it in his head, and when he left the site, the picture left with him. I've been trying to solve that my whole career. A plain file in a repository, read at the start of every session, is the closest I've gotten.
+The reasoning I kept losing across sessions is the same thing my father held in his head on a construction site. The whole picture: how fifty trades connect, what depends on what, which decision downstream is going to break if this one drifts. He held it in his head, and when he left the site, the picture left with him. I've been trying to solve that my whole career. CLAUDE.md, read at the start of every session, is the closest I've gotten.
 
 The [rest of these posts](/essays/what-i-built-this-year/) get into what I built once the foundation held.

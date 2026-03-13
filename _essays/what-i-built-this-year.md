@@ -9,38 +9,32 @@ description: "The same operation across different materials. This year I finally
 seo_keywords: ["design engineering", "design methodology", "AI governance", "creative evaluation framework", "operational methodology", "Peter Salvato", "FormWork", "building AI tools for creative work", "AI workflow for designers", "what can you build with AI in a year", "AI productivity for creatives"]
 ---
 
-I've been running the same operation my entire career. Read the room. Find the gap between what something is and how it lands. Build the structure that closes it. I learned it at a light table doing color separation. I spent twelve years doing it on an enterprise platform. This year the material changed again.
+In February I ran a full diagnostic pass on this site. Every lens came back clean. Voice protocol confirmed. Authenticity criteria confirmed. Structural restraint confirmed. The individual tools were each doing their job.
 
-The operation never needed AI. It needed whatever material was in front of me: ink, code, information architecture, brand systems. AI became the material when the existing tools couldn't keep up with how I think.
+Then I read the site as a visitor, top to bottom, and something was wrong. A hallucinated attribution had survived every check. It passed voice sampling (it sounded like me). It passed the Millman lens (the claim felt specific and grounded). It passed the Vignelli lens (the page was structurally clean). Five independent tools, all working correctly, and the result was wrong because nobody was responsible for how the pieces fit together.
 
-This site is the laboratory. Every page was compiled by the system described on the site itself. A methodology built from design practice, not from AI expertise. The site is both the testbed and the proof.
+That failure produced the last tool I built this year. But it only makes sense in the context of every failure that came before it.
 
-## Where the methodology comes from
+## The pour (realized last, existed first)
 
-The evaluation lenses come from design history I've studied for decades. Not "act as Vignelli" caricatures. Extracted evaluative frameworks from real practitioners' bodies of work. Millman's criteria for authenticity. Bierut's criteria for whether design is solving a problem or decorating one. Shaw's test for whether something feels like a world. They disagree with each other. That's the point. The SVA critique room worked because multiple perspectives evaluated the same work, and the tensions between them surfaced real decisions.
+Everything downstream depends on getting raw thinking into the system without friction. I didn't understand this until after I'd built the tools that process the material. Looking back, the pour had been running for three years before I recognized it as a practice: thousands of sessions of thinking out loud, dictating on drives, brainstorming at 2 AM. That raw material carried my actual voice, my actual sentence structure, my actual way of moving between ideas. Every tool I built afterward draws from it. Without the pour, the tools have nothing real to work with.
 
-[Read the full post: Lens Extraction](/essays/persona-extraction/)
+## SavePoint
 
-The voice protocol comes from how I actually talk, not how I write for publication. LLMs learn from published writing, and published writing is a performance. My real voice is in three years of conversation transcripts: rough, unstructured, full of false starts. That's the raw material. Twenty-five years of design practice taught me to hear when something drifts from the original intent. The protocol externalizes that instinct so it scales.
+Context kept evaporating across sessions. I'd have a breakthrough, the session would close, and the reasoning that connected everything would disappear. The next session started from zero. I started typing "give me a savepoint" before conversations ended. Same instinct as saving a video game before a boss fight: you're about to lose your progress, so you dump your state. That survival reflex became SavePoint. It preserved the thinking across session boundaries so the next session could pick up where the last one left off.
 
-[Read the full post: Voice Governance](/essays/voice-governance/)
+## Voice protocol
 
-The coordination architecture comes from a familiar problem: individual specialists who each work correctly can still produce wrong results if nobody is responsible for how it all fits together. Seventeen diagnostic skills that each do one thing, coordinators that dispatch them in parallel, convergence that surfaces where they agree and disagree. My job is to read the disagreements and decide which value wins.
+The output stopped sounding like the person who poured the material in. The tools were producing competent prose that could have been anyone's. LLMs learn from published writing, and published writing is performance. My real voice is in conversation transcripts: rough, full of false starts, full of direction changes. Twenty-five years of design practice taught me to hear when something drifts from the original intent. The voice protocol externalized that instinct so it could run at scale. It governs every sentence on this site.
 
-[Read the full post: The Integrated System](/essays/the-system/)
+## LensArray
 
-## How it started
+"Is this good?" was not one question. It was twelve questions collapsed into one, and the answer was always vague. I needed evaluation decomposed into independent dimensions. Millman's criteria for authenticity. Bierut's criteria for whether design is solving a problem or decorating one. Shaw's test for whether something feels like a world. Extracted from real practitioners' bodies of work, codified as testable diagnostics. They disagree with each other. The disagreements are where the real decisions live.
 
-Before any of this existed, I was losing my thinking across sessions. 1,643 ChatGPT conversations in two years. Every time the context window closed, the reasoning evaporated. Those sessions were the pour: raw, unstructured thinking that carried my actual voice and the actual structure of my ideas. The thinking was real. It just kept disappearing. I started typing "give me a savepoint" before sessions ended, a survival reflex borrowed from saving video games as a kid. That reflex became a protocol. The protocol preserved the pour across session boundaries. The better tools that followed finally gave me a substrate that could keep up with twenty-five years of accumulated practice.
+## The coordination layer
 
-[Read the full post: I Needed a Better Tool](/essays/i-needed-a-better-tool/)
-
-## The proof
-
-The system compiled this site from three years of my conversations. A blind evaluator read the result and concluded it was "unequivocally human-written." The governance was so effective it erased the evidence of its own operation.
-
-[Read the full post: The Site Is the Proof](/essays/the-site-is-the-proof/)
+Individual tools, each working correctly, producing wrong results. That hallucinated attribution was the proof. Seventeen diagnostic skills that each do one thing. Coordinators that dispatch them in parallel. Convergence that surfaces where they agree and disagree. My job is to read the disagreements and decide which value wins. The coordination layer exists because correctness at the component level does not guarantee correctness at the system level. I learned that on construction sites before I learned it here.
 
 ---
 
-The methodology behind all of this is documented on the [FormWork](/systems/formwork/) page. The design practice predates the AI tools. The operational methodology comes from construction sites, print shops, enterprise platforms, and classrooms. AI is the current material.
+Each tool exists because the previous one failed or was not enough. The pour gave the tools material. SavePoint kept the material from evaporating. The voice protocol kept the output honest. LensArray decomposed evaluation into real decisions. The coordination layer caught what the individual tools could not. The methodology behind all of it is documented on the [FormWork](/systems/formwork/) page.

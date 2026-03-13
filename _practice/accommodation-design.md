@@ -127,7 +127,7 @@ The design principle: build the syntax for what the model needs to reconstruct c
 
 ### 4.2 Evaluation Decomposition: LensArray
 
-"Is this good?" is twelve questions disguised as one. Give a model that compound evaluation and the criteria bleed together. Structural assessment contaminates narrative assessment. You get a blended average, not independent verdicts.
+A single evaluation prompt asking a model to assess voice, structure, narrative, and brand simultaneously produces a blended average. The criteria bleed together. Structural assessment contaminates narrative assessment. You get mush, not independent verdicts.
 
 I built [LensArray](/systems/lensarray/): a decomposed evaluation system. Work gets evaluated across distinct layers of concern (structural, narrative), each staffed with lenses extracted from real practitioners' bodies of work. Vignelli for restraint. Bierut for problem-solving. Millman for authenticity. Each lens runs independently with its own criteria and its own definition of success. A coordinator collects verdicts and maps where they agree (act on it) and where they disagree (the practitioner decides).
 
@@ -147,13 +147,13 @@ The current industry focus on agentic development inverts this relationship. An 
 
 ### 4.4 Voice Governance
 
-LLMs generate text from training data dominated by published writing: polished, performative, audience-aware. Ask the model to write in a specific person's voice and it produces competent content marketing that sounds like everyone and no one.
+LLMs generate text from training data dominated by published writing: polished, performative, audience-aware. Ask the model to write in a specific person's voice and the output is fluent, correct, and indistinguishable from every other fluent, correct AI draft.
 
 I built a voice pipeline that samples from conversation transcripts (1,643 ChatGPT sessions, 700+ Claude sessions, Gemini exports) instead of published writing. Rough, unstructured, full of false starts. That's how I actually talk. The pipeline extracts patterns (sentence rhythm, how I start explaining something, vocabulary I reach for, what I never say) and encodes them as constraints on all written output.
 
 Published writing is performance. Conversation is how someone actually communicates. Sampling from conversation instead of publication gives the model source material that matches the target register.
 
-A blind evaluation by a third-party AI assessment tool rated the output "unequivocally human-written."
+A blind third-party assessment could not distinguish the output from direct human writing.
 
 ### 4.5 Knowledge Traversal
 
@@ -213,11 +213,11 @@ If both systems are treated as having processing realities to accommodate, sever
 
 **Prompt architecture becomes accommodation design.** The first question shifts from "what output do I want?" to "what does each system need to do this job well?" The model needs decomposed tasks. The human needs friction removed. Every decision changes: instruction structure, task granularity, evaluation design, session management, and how raw thinking enters the system.
 
-**Federal education law already codifies the design pattern.** Individualized specification of goals, success criteria, required accommodations, and progress monitoring. The CLAUDE.md file (persistent system context) is functionally an IEP: what the system needs to know, how it should approach tasks, what constitutes success.
+Federal education law already codifies the design pattern. IDEA mandates individualized specification of goals, success criteria, required accommodations, and progress monitoring. The CLAUDE.md file (persistent system context) is functionally an IEP: what the system needs to know, how it should approach tasks, what constitutes success.
 
-**Task decomposition is accommodation, not optimization.** Current practice treats decomposition as an engineering technique. The accommodation framing shows that decomposition is necessary because the system cannot process compound tasks. Same reason it's necessary in the classroom. The system needs it to do the work.
+Why does the industry treat task decomposition as an optimization technique? The accommodation framing shows that decomposition is necessary because the system cannot process compound tasks. Same reason it's necessary in the classroom. The system needs it to do the work.
 
-**Every scaffold should be questioned.** Current AI tool development trends toward increasingly complex system prompts, longer context documents, more elaborate orchestration. The accommodation framework asks: which of these scaffolds is building capability, and which is building dependency?
+Current AI tool development trends toward increasingly complex system prompts, longer context documents, more elaborate orchestration. The accommodation framework asks a question about every one of them: which scaffolds are building capability, and which are building dependency?
 
 **The practitioner profile changes.** If AI governance requires accommodation design, the field needs practitioners trained in reading processing realities and designing for them. That skill set lives in special education, instructional design, and certain branches of design practice. The insight that AI systems need accommodation could not have originated within computer science because computer science does not teach accommodation.
 
@@ -227,7 +227,7 @@ If both systems are treated as having processing realities to accommodate, sever
 
 The AI governance field is building constraint systems for a problem that requires accommodation systems. Constraining a system fights its limitations. Accommodating a system designs for them.
 
-This framework was developed through direct transfer from special education pedagogy to AI system architecture, supported by twenty-five years of applied practice across construction, print production, enterprise software, brand systems, and design education. The applied process, FormWork, accommodates both systems in the room. The pour accommodates the human: get the thinking out with as little friction as possible, so the raw material carries the maker's actual voice and the actual structure of their ideas. Five tools accommodate the model: context preservation, evaluation decomposition, task decomposition, voice governance, and retrieval accommodation. Each came from the same question applied to a different processing constraint: what does this system actually need to do this job well?
+This framework was developed through direct transfer from special education pedagogy to AI system architecture, supported by twenty-five years of applied practice across construction, print production, enterprise software, brand systems, and design education. The applied process, FormWork, accommodates both systems in the room. The pour is the first accommodation, aimed at the human: remove friction at the point of capture so the raw material carries the maker's actual voice and the real structure of their ideas. Five tools provide the second accommodation, aimed at the model: context preservation, evaluation decomposition, task decomposition, voice governance, and retrieval accommodation. Each came from the same question applied to a different processing constraint: what does this system actually need to do this job well?
 
 Nobody else is asking that question about both systems simultaneously. The field needs practitioners who know how to ask it.
 

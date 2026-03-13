@@ -2,7 +2,7 @@
 layout: project
 title: "SavePoint Syntax"
 redirect_from: /governance/savepoint-syntax/
-subtitle: "Semantic Markup for Cognitive Waypoints"
+subtitle: "Semantic Markup for Turning Points in Thinking"
 icon: code
 status: "V3.1 Open Source"
 faculty: ["design", "uxia"]
@@ -19,11 +19,9 @@ cta:
   link: /practice/this-site
 ---
 
-Savepoint Syntax is a semantic markup format developed by Peter Salvato for marking cognitive turning points in AI-assisted work. It solves a specific problem: understanding shifts in the middle of a session, and nothing captures where the thinking turned. Notes accumulate. The connections between them do not survive.
+For five months, at the end of marathon sessions, I typed the same request: "give me a savepoint." The word showed up in twenty-plus conversations before it became a system. The reflex came before the syntax.
 
-Anyone who has returned to an AI conversation days later and found the model has no memory of where the work was headed has experienced the problem Savepoint addresses. The model processes everything said in a session, but when the thread closes, the context evaporates. The question that produced the syntax was not "how do I document my thinking?" It was: what does the model actually need to reconstruct where I was?
-
-The reflex came before the syntax. For five months, at the end of marathon sessions, I typed the same request: "give me a savepoint." The word showed up in twenty-plus conversations before it became a system.
+I kept losing the turning points. Not the notes, not the decisions, but the exact moment understanding shifted. A session would run for hours, something would click, and then the thread would close. The model processes everything said in a session, but none of it survives. I'd come back and the thinking was gone. The question that produced the syntax was not "how do I document my thinking?" It was: what does the model actually need to reconstruct where I was?
 
 > "I basically just don't want to lose any of the brainstorming ideation that we do. We wind up with these marathon sessions and your memory limitations cause us to lose things."
 > — from the session where the syntax was born, March 2025
@@ -126,4 +124,4 @@ The continuity I lost before the syntax existed stopped happening. The markers w
 
 The syntax runs across everything now: [Encore's](/evidence/encore/) platform decisions, [Aiden Jae's](/evidence/aiden-jae/) brand architecture, the portfolio site itself, the novel that started it. v3.1, open source.
 
-Savepoints mark where understanding shifts. [FormWork](/systems/formwork/) coordinates how the tools work together: SavePoint preserves context, [LensArray](/systems/lensarray/) decomposes evaluation into independent layers, skills execute one objective at a time. [This Site](/practice/this-site/) shows both running on the site you are reading.
+The syntax runs inside [FormWork](/systems/formwork/), alongside the other accommodation tools. But it started as a reflex, five months before I had language for any of this. I just didn't want to lose the thinking. [This Site](/practice/this-site/) shows the full process running on the site you're reading.

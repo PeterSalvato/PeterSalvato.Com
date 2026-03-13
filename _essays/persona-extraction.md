@@ -19,7 +19,7 @@ I needed a way to build the room and fill it with people whose judgment I trust,
 
 Everyone using AI for creative evaluation has tried some version of this. "Act as Massimo Vignelli and evaluate my grid." "Pretend you're Dieter Rams and critique this interface." "What would Paula Scher think of this layout?"
 
-The results are shallow. Vignelli becomes "use Helvetica and grids." Rams becomes "less is more." Scher becomes "make the type bigger." These are caricatures built from what's most commonly written about these people online. They capture the received wisdom, not the evaluative instinct underneath the visible decisions.
+The results are shallow. Vignelli becomes "use Helvetica and grids." Rams becomes "less is more." Scher becomes "make the type bigger." These are caricatures built from what's most commonly written about these people online. They capture the surface-level consensus, not the diagnostic habits underneath the visible decisions.
 
 The problem is how "act as" works. When you tell an AI to "act as" someone, it retrieves associations from training data. For well-known practitioners, those associations cluster around the most-repeated facts and the most-cited quotes. Vignelli's actual discipline around typographic hierarchy, his specific rules about when a grid should flex and when it should hold, his intolerance for arbitrary decoration that doesn't serve communication: none of that survives the compression. You get the Wikipedia version of a practitioner, not the practitioner.
 
@@ -81,7 +81,7 @@ The reader has already seen how criteria work from the Millman block, so I'll le
 
 One lens, one perspective. Multiple lenses, and you get what the critique room gave me at SVA. People who disagree, specifically, for reasons they can articulate.
 
-When the Millman lens says STRONG on a page and the Vignelli lens says WEAK, that's information. It means the page reads as authentic and vulnerable (Millman's criteria) but the design isn't earning its restraint (Vignelli's criteria). Those two things can both be true simultaneously, and the tension between them is where the actual decision lives. Do I lean into the raw personal directness at the expense of visual discipline? Or do I tighten the design system, knowing it might polish away some of the roughness that makes the page feel real?
+When the Millman lens says STRONG on a page and the Vignelli lens says WEAK, that's information. It means the page reads as authentic and vulnerable (Millman's criteria) but the design isn't earning its restraint (Vignelli's criteria). Those two things can both be true simultaneously, and the tension between them is where the actual decision lives. I can lean into the raw personal directness at the expense of visual discipline, or tighten the design system knowing it might polish away some of the roughness that makes the page feel real. That tension does not resolve itself. I have to decide which value wins.
 
 That's a genuine creative decision, surfaced by structure. Two specific, codified perspectives that disagree on a specific element for articulable reasons.
 
@@ -89,8 +89,6 @@ A convergence skill maps these patterns across all lenses. Where five or more le
 
 ## Why this matters beyond this site
 
-I developed this against my own site as a working laboratory, but the architecture is medium-independent. A restaurant could have a structural layer staffed with service design practitioners and a narrative layer staffed with practitioners whose restaurants have a feeling you remember. A record could have a production layer and a world-feel layer. A curriculum could have a pedagogical layer and a voice layer.
-
-Swap the layers. Swap the practitioners. The process holds: study the output, extract the framework, codify as testable criteria, validate against known work. Anyone can build their own room and staff it with the people whose judgment they trust.
+I developed this against my own site as a working laboratory, but the architecture is medium-independent. A restaurant could have a structural layer staffed with service design practitioners and a narrative layer staffed with practitioners whose dining rooms have a feeling you remember. The layers change depending on the medium. The process holds: study the output, extract the framework, codify as testable criteria, validate against known work. Anyone can build their own room and staff it with the people whose judgment they trust.
 
 I looked for someone else doing this specific thing: extracting evaluative frameworks from real practitioners' bodies of work into testable, codified diagnostic lenses that run independently and surface their disagreements as decision points. If it exists and I missed it, I'd genuinely like to know. This is how I approached it.

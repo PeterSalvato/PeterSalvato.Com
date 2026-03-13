@@ -13,9 +13,9 @@ related:
   - /evidence/encore
 ---
 
-LensArray is Peter Salvato's multi-perspective evaluation and generation system, built from a simple observation: asking an AI "is this good?" produces nothing useful because the question is twelve questions disguised as one. Structural quality, narrative coherence, voice fidelity, visual hierarchy. Each dimension requires its own criteria and its own definition of success.
+In the critique room at SVA, your work went up on the wall and five people evaluated it simultaneously. Niemann saw the marks. Victore saw the guts. Bierut (through his published work) would have seen the problem-solving. They didn't agree. That was the point. Where they converged, strong signal. Where they diverged, a decision for the maker. The critique room worked because no single perspective ran the verdict.
 
-The model for this is the critique room at SVA. Multiple perspectives evaluating in good faith, independently, at the same time. Where they agreed, strong signal. Where they disagreed, a decision for the maker. LensArray reconstructs that evaluative function.
+LensArray reconstructs that function for AI-assisted evaluation. "Is this good?" is twelve questions disguised as one: structural quality, narrative coherence, voice fidelity, visual hierarchy. Give that compound question to a model and the criteria blur together. You get a blended average. LensArray separates them.
 
 ---
 
@@ -23,7 +23,11 @@ The model for this is the critique room at SVA. Multiple perspectives evaluating
 
 Each layer of concern is staffed with lenses extracted from real practitioners. They run independently. The convergence map shows where they agree (signals to act on) and where they disagree (decisions the maker resolves).
 
-A single lens produces imitation. Multiple lenses produce tension. The tensions force decisions no single influence would have produced. The accumulated decisions are the work.
+One lens alone produces imitation: you're just channeling someone. Multiple lenses running on the same work create disagreements, and those disagreements force decisions no single influence would have surfaced. The interesting work lives in resolving those tensions.
+
+### What a run looks like
+
+Take a page on this site. The Millman lens evaluates it for authenticity: does the page sound like a real person with a specific point of view, or does it sound like positioning copy? It checks for hedging, for generic claims, for anything that could belong to anyone. The Vignelli lens evaluates the same page for structural restraint: is the hierarchy clean, is there unnecessary ornament, does every element carry weight? On a given page, Millman might flag a section as too polished (sounds like marketing) while Vignelli approves the same section (clean, restrained, no excess). That disagreement is the decision. I read both verdicts and choose: does this section need more of my actual voice, or is the restraint doing the right work? The coordinator maps these convergences and conflicts across every lens in the array. The places where all lenses agree rarely need attention. The places where they disagree are where the real design decisions live.
 
 ---
 
@@ -44,4 +48,4 @@ The protocol for building a lens:
 3. Codify as testable criteria. Turn extracted questions into specific, evaluable checks.
 4. Validate against their known work. The lens should confirm what the practitioner would confirm.
 
-This is what a good creative director does when building a team: systematize how strong practitioners think so the thinking scales beyond one person's presence.
+This is what a good creative director does when building a team: figure out how your best people think, write it down, and make it usable when they're not in the room.

@@ -13,13 +13,13 @@ Most people use AI as a generator. Prompt in, content out. The AI is the author.
 
 I use it as a compiler.
 
-The distinction isn't semantic. It's structural, and it determines who the author actually is.
+The distinction is structural, and it determines who the author actually is.
 
 ---
 
 A compiler takes source code a human wrote and transforms it into something a machine can execute. The programmer is the author. The compiler is the toolchain. Nobody says gcc wrote the program.
 
-My source code is the accumulated working knowledge: decisions made on construction sites, in print shops, across twelve years on an enterprise platform, inside classrooms, over kitchen counters. Three years of that thinking lives in over 60,000 documents: conversations where I argued with tools, worked through problems, explained things to myself, failed at things until they worked.
+My source code is the accumulated working knowledge: decisions made on construction sites, in print shops, across twelve years on an enterprise platform, inside classrooms, over kitchen counters. Three years of that thinking lives in a massive corpus of conversations: sessions where I argued with tools, worked through problems, explained things to myself, failed at things until they worked.
 
 That's the codebase. It's raw, unpolished, and entirely mine. It exists because the system was designed to accept it raw. In FormWork, the first accommodation is aimed at the human: get the thinking out of your head with as little friction as possible. Talk, dictate, answer questions. Don't organize, don't outline, don't perform. The rawness is not a side effect. It's the point. Structured input has already lost the thing the tools need most: how I actually think.
 
@@ -31,9 +31,9 @@ The site is the compiled binary.
 
 Generation starts from a prompt and produces something new. The AI draws on its training data and constructs output. The human's contribution is the instruction. Everything else comes from the model.
 
-Compilation starts from existing source material and transforms it. The source material only exists because the human was accommodated: no requirement to structure, organize, or perform. The human's contribution is the thinking itself, captured in their actual voice. The system's contribution is the transformation: mining, evaluating, assembling. Nothing gets invented. Nothing gets hallucinated. If a claim can't be traced back to something I actually said or decided in the raw material, it doesn't ship.
+Compilation starts from existing source material and transforms it. The source material only exists because the human was accommodated: no requirement to structure, organize, or perform. The human's contribution is the thinking itself, captured in their actual voice. The system's contribution is the transformation: mining, evaluating, assembling. The system invents nothing and hallucinates nothing. If a claim can't be traced back to something I actually said or decided in the raw material, it doesn't ship.
 
-A [blind evaluator](/essays/the-site-is-the-proof/) read this site and concluded it was "unequivocally human-written." That's not because the AI was good at faking a human voice. It's because the human *was* the source material. The system compiled my thinking. The voice is mine because the ore is mine.
+A [blind evaluator](/essays/the-site-is-the-proof/) read this site and could not identify machine involvement. The system compiled my thinking. The voice is mine because the ore is mine.
 
 ---
 
@@ -49,4 +49,4 @@ The whole infrastructure exists to maintain one thing: the human is the source c
 
 ---
 
-Most people use AI to save time. Using this system actually took longer than writing the site by hand would have. Speed was never the goal. Fidelity was. Building a system where the output cannot drift from the source, where every sentence traces back to something real, and where the authorship is never in question.
+Most people use AI to save time. Using this system actually took longer than writing the site by hand would have. The goal was always fidelity: a system where the output cannot drift from the source, where every sentence traces back to something real, and where the authorship is never in question.

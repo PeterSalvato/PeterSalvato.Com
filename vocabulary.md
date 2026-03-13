@@ -15,12 +15,12 @@ The working language of Peter Salvato's [accommodation design](/practice/accommo
 ---
 
 <span id="accommodation-design"></span>**Accommodation Design**
-A framework for AI system architecture that comes from special education. Instead of constraining a model's behavior, accommodation design asks what both systems in the room actually need. The model has processing constraints (context limits, attention degradation, instruction sensitivity). The human has processing constraints too (ideas lose fidelity when forced into structure at the point of capture). The pour accommodates the human: get the thinking out with as little friction as possible. The tools accommodate the model: structured input, decomposed tasks, independent evaluation. [FormWork](/systems/formwork/) coordinates both. The question originates from IEP design: read the system's processing profile, then design the task to meet it. The [whitepaper](/practice/accommodation-design/) documents the full framework.
+A framework for AI system architecture that comes from special education. Instead of constraining a model's behavior, accommodation design asks what each system actually needs to do its best work. The model has processing constraints (context limits, attention degradation, instruction sensitivity). The human has processing constraints too (ideas lose fidelity when forced into structure at the point of capture). The pour accommodates the human: get the thinking out with as little friction as possible. The tools accommodate the model: structured input, decomposed tasks, independent evaluation. [FormWork](/systems/formwork/) coordinates both. The question originates from IEP design: read the system's processing profile, then design the task to meet it. The [whitepaper](/practice/accommodation-design/) documents the full framework.
 
 ---
 
 <span id="drift"></span>**Drift**
-The gradual loss of original intent as work moves through execution. Deeper than technical debt or design debt. Debt assumes you know the standard and are cutting corners against it. Drift is when the standard itself becomes invisible. Reasonable decisions accumulate into something nobody chose. It happens to methods, not just to outputs: the thinking underneath the work erodes, which causes the work to erode. When AI output degrades over time and nobody can identify why, drift in the method is usually the cause. [Savepoint](/systems/savepoint/) addresses drift in thinking. [FormWork](/systems/formwork/) addresses drift in process. [Encore](/evidence/encore/) is what twelve years without drift looks like.
+Six months into a project, the output starts degrading. Nobody changed anything. Nobody made a bad call. But somewhere around month three, the original intent stopped being the thing everyone was checking against. That's drift. Deeper than technical debt (where you know the standard and cut corners against it). Drift is when the standard itself becomes invisible. Reasonable decisions accumulate into something nobody chose. It happens to methods, not just to outputs. [Savepoint](/systems/savepoint/) addresses drift in thinking. [FormWork](/systems/formwork/) addresses drift in process. [Encore](/evidence/encore/) is what twelve years without drift looks like.
 
 ---
 
@@ -30,12 +30,12 @@ The accommodation design process. Named from concrete construction: formwork is 
 ---
 
 <span id="scaffold"></span>**Scaffold**
-A temporary structure that supports the work while it's being built. In [Savepoint Syntax](/systems/savepoint/), scaffolding is a tag syntax. In [FormWork](/systems/formwork/), it's the tools that shape how the model processes. In [Aiden Jae](/evidence/aiden-jae/), it was photography direction encoded into the Shopify architecture. The forms differ. The function is the same. In accommodation design, a scaffold's purpose is to become unnecessary. If it stays permanently, it has built a dependency, not a capability.
+A temporary structure that supports the work while it's being built. A Savepoint tag, a graphic organizer, a photography brief encoded into Shopify architecture: different forms, same structural role. In accommodation design, a scaffold's purpose is to become unnecessary. If it stays permanently, it has built a dependency, not a capability.
 
 ---
 
 <span id="fidelity"></span>**Fidelity**
-How well a system holds its founding intent over time. The gap between what was meant and what survived. High fidelity means the thing that shipped still carries what the thing that was imagined carried. [Encore](/evidence/encore/) held fidelity for twelve years across three technology shifts.
+The gap between what was meant and what survived. [Encore](/evidence/encore/) held fidelity for twelve years across three technology shifts. Most projects lose it in months.
 
 ---
 
@@ -45,27 +45,27 @@ Any element, narrative, visual, or technical, that carries structural weight rat
 ---
 
 <span id="savepoint"></span>**Savepoint**
-A cognitive waypoint. The moment understanding shifted, the phrasing that locked in, the instant direction changed. More than a bookmark: a savepoint carries semantic payload, enough orientation to reconstruct where the thinking was when the context is gone. When you lose track of why an AI project took a particular direction, or when you return to a session and can't find the thread, that's the problem savepoints solve. See [Savepoint Syntax](/systems/savepoint/).
+A marker for the exact moment understanding shifted. The phrasing that locked in, the instant direction changed. More than a bookmark: a savepoint carries enough orientation to reconstruct where the thinking was when the context is gone. You come back to a project weeks later, scan the savepoints, and you're back in. See [Savepoint Syntax](/systems/savepoint/).
 
 ---
 
 <span id="context"></span>**Context**
-The active state of understanding that exists in the moment of working and disappears when the session ends, the thread closes, or attention shifts. The most perishable thing in knowledge work. Every practitioner who has returned to an AI conversation and found the model has no memory of where the thinking was has experienced context loss. [Savepoint Syntax](/systems/savepoint/) exists because context is fragile and the tools that should preserve it don't.
+The active state of understanding that exists in the moment of working and disappears when the session ends. I lost months of [New City](/evidence/new-city/) ideation this way: dozens of sessions of novel development, the continuity gone when the threads closed. The thinking had happened. The connections between ideas had happened. None of it survived. [Savepoint Syntax](/systems/savepoint/) exists because context is the most perishable thing in knowledge work, and the tools that should preserve it don't.
 
 ---
 
 <span id="attunement"></span>**Attunement**
-Reading the room before designing for it. The specific act of noticing what a group needs, what each person within that group needs, and where a specific individual will get lost. In [Encore](/evidence/encore/), attunement aimed at end users and at the developers building inside the platform. In [Aiden Jae](/evidence/aiden-jae/), attunement for a founder who knew her product but couldn't see how the screen was flattening it. The skill transfers across every medium. The person on the other end changes. The reading doesn't.
+Reading the room before designing for it. The specific act of noticing what a group needs, what each person within that group needs, and where a specific individual will get lost. In [Encore](/evidence/encore/), attunement aimed at end users and at the developers building inside the platform. In [Aiden Jae](/evidence/aiden-jae/), attunement for a founder who knew her product but couldn't see how the screen was flattening it. The skill is the same whether the room holds twelve students, a founder looking at her own product, or a development team building inside a platform.
 
 ---
 
 <span id="somatic-design"></span>**Somatic Design**
-Designing what the body registers before the mind names it. The layer between reading the room and building the framework. A well-sequenced experience (a product flow, a brand encounter, a page) lands physically before it registers intellectually. If the structure is visible, it has not done its job. The goal is that the person on the other end simply feels like the thing makes sense.
+Designing what the body registers before the mind names it. The layer between reading the room and building the framework. A well-sequenced product flow, a brand encounter, a page: it lands physically before it registers intellectually. The person on the other end simply feels like the thing makes sense. They don't see the structure. They feel the result.
 
 ---
 
 <span id="processing-profile"></span>**Processing Profile**
-What a system can and cannot handle. For a student: working memory capacity, attention span, sensory processing. For a language model: context window limits, attention degradation over long inputs, sensitivity to instruction ordering, tendency to flatten compound evaluations. When AI fails at a task, practitioners typically blame the model. A processing profile assessment usually reveals that the task design is the problem. You do not fight a processing profile. You design for it.
+What a system can and cannot handle. For a student: working memory capacity, attention span, sensory processing. For a language model: context window limits, attention degradation over long inputs, sensitivity to instruction ordering, tendency to flatten compound evaluations. When AI fails at a task, practitioners typically blame the model. A processing profile assessment usually reveals that the task was designed for a system that doesn't exist. You read the profile first, then design the task to meet it.
 
 ---
 

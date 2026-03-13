@@ -12,7 +12,7 @@ Peter Salvato is a design engineer. Construction sites, print shops, enterprise 
 
 ## Construction Sites
 
-My father was a general superintendent for general contractors in New York: Bovis, Gotham, Engel Burman. His job was holding the whole picture while fifty trades worked their piece. I grew up on those job sites. Before I understood design theory or information architecture, I understood that a structure either holds or it does not, and the difference is usually in the joints.
+My father was a general superintendent for general contractors in New York: Bovis, Gotham, Engel Burman. His job was holding the whole picture while fifty trades worked their piece. I grew up on those job sites, watching what happened when the steel met the concrete and when the trades had to coordinate at the joints.
 
 That is still how I think about systems. The interesting question is always where does this fail.
 
@@ -50,7 +50,7 @@ Before the enterprise work, I taught special education for the NYC Department of
 
 That skill (reading the room at the individual level, building structure that accommodates without requiring anyone to explain what they need) transferred directly into everything I have built since. The [accommodation design](/practice/accommodation-design/) framework started in those classrooms.
 
-Every system I have built since starts the same way: what does the thing receiving this actually need?
+Every system I have built since starts by reading the person on the other end before designing anything.
 
 ## Twelve Years at Cluen
 
@@ -62,17 +62,15 @@ I made the case for moving the platform to the browser, then built it. The platf
 
 ## The Household
 
-Breakfast was taking 90 minutes. Every meal was a decision tree nobody had the bandwidth to run by 7 AM. So I built the infrastructure.
-
-Routines that remove daily decisions. Defaults that work when nobody has the energy to choose. The same [attunement](/vocabulary/#attunement) I apply to platform design, reading what each person actually needs and building structure that accommodates without requiring anyone to ask, applied to the place that needed it most.
+The same read I bring to platforms and classrooms runs the house. Meal prep, morning routines, grocery systems. I built the infrastructure so nobody has to make decisions before they have the bandwidth for them.
 
 ## Music
 
-I grew up in New York's club and rave culture in the late nineties: Tunnel, Twilo, underground parties to major venues. I never DJed for a room. What I received from world-class DJs like Sasha and Digweed was an education in how sequenced experience works: how pacing builds, how peaks and valleys are designed before they are felt, how an entire room can feel the same thing at the same time.
+I grew up in New York's club and rave culture in the late nineties: Tunnel, Twilo, underground parties to major venues. DJs like Sasha and Digweed playing six-hour sets to rooms of 3,000 people. I never DJed for a room. What I took from those years was an ear for pacing and sequence.
 
 > "The entire room felt charged. You could read your emotions on the faces of other people."
 
-That education transferred to everything else. *Release* is an acoustic singer/songwriter record on all major streaming platforms, sequenced as an emotional arc, start to finish, the way a DJ would build a set. [MathOnTape](https://soundcloud.com/mathontape) is electronic music explorations branded as a project so I can work both the audio and the visual identity together. Neither has a commercial goal. They are practice.
+*Release* is an acoustic singer/songwriter record on all major streaming platforms, sequenced as an emotional arc the way a DJ would build a set. [MathOnTape](https://soundcloud.com/mathontape) is electronic music explorations branded as a project so I can work both the audio and the visual identity together. Neither has a commercial goal. They are practice.
 
 ## The New Material
 

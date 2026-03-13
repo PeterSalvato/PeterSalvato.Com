@@ -10,7 +10,7 @@ last_modified: 2026-03-11
 
 For three years I've been thinking out loud into AI tools the way I used to think into sketchbooks and production shops. Brainstorming, arguing with myself, changing direction mid-sentence, working through problems at 2 AM when the idea won't let go. 1,643 ChatGPT sessions. 700+ Claude sessions. Gemini exports. Voice notes dictated while driving. Unfinished thoughts. Arguments with no resolution.
 
-Current best practice says this is wrong. Structure your input. Write specific instructions. Define output formats. Use few-shot examples. The industry warns against dumping unstructured data at an LLM. The assumption is that quality output requires structured input.
+Most prompt advice treats unstructured input as a problem to solve. Pre-organize, use few-shot examples, define output formats. The assumption is that messy input produces messy output.
 
 I went the other way. And the unstructured corpus turned out to be the most valuable thing I've built.
 
@@ -20,21 +20,19 @@ Every tool in the [accommodation design](/practice/accommodation-design/) framew
 
 Without the corpus, the tools have nothing to work with.
 
-The site you're reading was compiled from this material. Three years of raw thinking, processed by accommodation tools, evaluated by decomposed lenses, verified against voice patterns extracted from conversation. The source material was never polished drafts. It was how I actually talk when I'm working something out.
+## The artifact proves the accommodation works
 
-## Both systems get accommodated
+The site you're reading was compiled from this material. The source was never polished drafts. It was how I actually talk when I'm working something out. The quality of what the tools produce is traceable back to properties the corpus has that polished writing does not: real voice, real sentence structure, real changes of direction, real moments where an idea first appeared under a different name.
 
-This is one accommodation running in two directions. The pour accommodates the human: get the thinking out with as little friction as possible. No requirement to organize thoughts before having them. No performance. No formatting. The tools accommodate the model: one objective at a time, decomposed tasks, individualized evaluation. The model gets structured input designed for its [processing reality](/essays/processing-profiles/).
+The corpus is evidence of bidirectional accommodation in practice. I stayed raw. The tools handled the translation to structured input for the model. The model got what it needed. The result is a site compiled from material that would fail every prompt-engineering best practice.
 
-A teacher accommodates in both directions simultaneously. The student speaks freely. The teacher structures the curriculum to fit the student's processing profile. The accommodation tools do the same work. They sit between the raw human and the structured model, translating in both directions. The human stays raw. The model gets what it needs. The translation happens in between.
+## Three years is not the minimum
 
-## Starting from scratch
+The scale matters less than the rawness. A month of voice notes contains real voice, real thinking patterns, real concerns. Enough for the tools to begin extracting.
 
-The scale doesn't have to be three years. A month of voice notes works. A few dozen conversations where someone thinks out loud about their work. Dictated observations on the commute home. Any corpus of unstructured ideation is enough to begin.
+For someone starting fresh, an interview works. "Tell me about what you're building." Open-ended questions that produce stories, language, instincts. That becomes the initial corpus. Over time, ongoing conversations and voice notes add to it. The corpus grows as the person keeps thinking out loud, and each addition gives the tools more to draw from.
 
-The first step for someone starting fresh is an interview. "Tell me about what you're building." Open-ended questions that produce raw material: stories, language, instincts, concerns. That becomes the initial corpus the accommodation tools process.
-
-The rawness is the point. Polished, structured, pre-organized input has already lost the thing the tools need most: how the person actually thinks.
+What the corpus cannot be is retroactively assembled from polished writing. Published work is performance. The properties that make the corpus valuable (unfinished thoughts, contradictions, the moment an idea first appears under the wrong name) only exist in material that was never edited for an audience.
 
 ## The inversion
 

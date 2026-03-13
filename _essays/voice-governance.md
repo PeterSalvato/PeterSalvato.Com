@@ -23,9 +23,9 @@ So when you ask an AI to write "in your voice" and give it your published work a
 
 The real voice lives in the conversations. The working messages. The unguarded explanations where someone is thinking out loud instead of presenting a finished thought.
 
-## 1,643 conversations
+## The conversations
 
-Between January 2023 and early 2026, I had 1,643 conversations with ChatGPT. Then I moved to Claude Code and accumulated 700+ session transcripts. Add in Claude.ai conversations, Gemini sessions, and the working notes across all of them. Indexed together, that's over 60,000 documents.
+Between January 2023 and early 2026, I talked to AI tools the way I used to talk into sketchbooks. ChatGPT first, then Claude Code, then Claude.ai and Gemini alongside them. Thousands of sessions. Indexed together, tens of thousands of documents.
 
 Most of that material is me talking. Explaining problems, working through decisions, arguing with myself about naming, reacting to what the tool produced, directing implementation. The way I start sentences, the vocabulary I reach for when I'm not performing, how I describe problems (feeling first or situation first), how I transition between ideas (connectors or hard breaks), what makes me funny and what makes me frustrated.
 

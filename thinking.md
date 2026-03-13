@@ -21,7 +21,7 @@ You learn to decompose. One objective. One visible result. Then the next step. T
 
 ---
 
-My father ran construction sites in New York: Bovis, Gotham, Engel Burman. General superintendent, holding the whole picture while fifty trades worked their piece. Before I understood information architecture or design theory, I understood that a structure either holds or it doesn't. The difference is usually in the joints.
+I grew up watching my father coordinate fifty trades on a construction site. Before I had language for information architecture or design theory, I understood that a structure either holds or it doesn't. The difference is usually in the joints. That's the processing profile: I see where things meet, where load transfers, where the failure will happen.
 
 ---
 
@@ -39,17 +39,17 @@ I made the case for the browser. Then I built the front end from scratch: modula
 
 ---
 
-I grew up in New York's club and rave culture in the late nineties. Tunnel, Twilo, underground parties to major venues. What I received from DJs like Sasha and Digweed was an education in pacing: how sequenced experience works, how peaks and valleys are designed before they're felt, how an entire room can feel the same thing at the same time. That education shows up in everything I build. The order matters. The transitions carry weight.
+Standing in a room of 3,000 people at Twilo while Sasha played a six-hour set, I could feel the sequence working. Peaks and valleys designed before they're felt. The whole room arriving at the same emotional place at the same time. That's reading a room at scale, and it's the same processing profile. I feel the pacing, the transitions, the points where attention shifts. It shows up in how I sequence a page, structure a product flow, build a brand encounter.
 
 ---
 
-Breakfast was taking 90 minutes. Every meal was a decision tree nobody had the bandwidth to run by 7 AM. So I built the infrastructure. Routines that remove daily decisions. Defaults that work when nobody has the energy to choose. The same read I apply to a platform or a classroom, applied to the place that needed it most.
+Breakfast was taking 90 minutes. Four people, every meal a decision tree nobody had the bandwidth to run by 7 AM. The processing profile doesn't shut off at the office door. I read the household the same way I read a platform or a classroom: who needs what, where is the friction, what structure removes decisions people don't have the energy to make. So I built meal systems, morning routines, grocery defaults. The accommodation move applied to the place that needed it most.
 
-> "If the structure peeks out, it didn't do its job."
+The goal is that nobody notices the infrastructure. They just notice that mornings work.
 
 ---
 
-This site was compiled from three years of my conversations. Over 60,000 documents of thinking out loud, mined by the tools described on this site, evaluated against lenses extracted from real practitioners, assembled under voice rules derived from how I actually talk. I built the workbench from AI tools the way a woodworker builds a bench from hand tools. The compilation is crafted. The voice is honed. The structure is shaped by hand.
+This site was compiled from three years of my conversations. Over 60,000 documents of thinking out loud, mined by the tools described on this site, evaluated against lenses extracted from real practitioners, assembled under voice rules derived from how I actually talk. I built the workbench from AI tools the way a woodworker builds a bench from hand tools. The compilation is mine. Every page went through the voice pipeline, the lens evaluations, the traversal system. The tools did analysis. I made the decisions.
 
 ---
 
@@ -59,6 +59,6 @@ But there's a second accommodation in every one of those situations. The student
 
 In AI work, that second accommodation is the pour: the deliberate act of getting the thinking out of your head with as little friction as possible. The tools accommodate the model. The pour accommodates the maker. Both are designed for the same reason: read what the system actually needs and build the structure to meet it.
 
-In every case, the people closest to the work couldn't see the gap because they were designing for what they needed the system to do. The question that changed every one of those situations: what does the system receiving this actually need?
+In every case, the people closest to the work couldn't see the gap because they were designing for what they needed the system to do. The shift that changed every one of those situations: stop designing for what you want and start reading what the other system in the room can actually handle.
 
-That question started in a self-contained classroom in Sunset Park, Brooklyn. It applies to every material I've worked in since. [Accommodation design](/practice/accommodation-design/) formalizes it. [FormWork](/systems/formwork/) operationalizes it. This site is what the process produces when I turn it on my own work.
+That shift started in a self-contained classroom in Sunset Park, Brooklyn. It applies to every material I've worked in since. [Accommodation design](/practice/accommodation-design/) is the framework, the theory. [FormWork](/systems/formwork/) is how I actually run the process. This site is what comes out when I turn both on my own work.

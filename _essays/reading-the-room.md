@@ -11,7 +11,7 @@ seo_keywords: ["reading the room", "design empathy", "somatic design", "attuneme
 
 You've been in the room where everything just worked.
 
-Not because someone explained what was happening. Not because you understood the structure. You just felt right inside it. The pacing made sense. The next thing that happened was the thing you needed. You didn't have to think about why. Your body already knew.
+You couldn't explain why. The pacing made sense. The next thing that happened was the thing you needed. You didn't have to think about it. Your body already knew.
 
 I've spent my career trying to figure out how to build that on purpose.
 
@@ -51,6 +51,4 @@ I didn't have language for any of this until recently. I just kept ending up in 
 
 ---
 
-I spent the last nine posts on this blog talking about the machinery: protocols, evaluation lenses, the compilation pipeline. All real, all important. But I skipped the part about what it's actually for.
-
-It's for this. Making sure somebody read the room before the structure got built.
+Everything else I've written here is about the machinery: protocols, evaluation lenses, the compilation pipeline. All real, all important. But the machinery exists to serve this. Someone has to read the room before the structure gets built. The tools make that reading repeatable. They don't replace it.

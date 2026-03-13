@@ -18,24 +18,22 @@ Dictate into your phone on the drive home. Brainstorm out loud into a voice note
 
 Every tool I've built for working with AI depends on having raw, unstructured human thinking to process. Voice sampling needs unpolished speech to extract how someone actually talks, because published writing is performance and conversation is the real thing. Knowledge traversal needs a body of unfiltered ideation to trace through, because the first time an idea appears, it probably wasn't called by its final name.
 
-The industry says structure your input. Write clear instructions. Define output formats. The assumption is that quality output requires organized input.
+Most prompt advice starts with organizing your thoughts: write clear instructions, define output formats, pre-structure everything before you hit enter. That puts the editing burden on you before you've even finished thinking.
 
 I went the other way for three years. Thousands of sessions of thinking out loud: brainstorming, arguing with myself, changing direction mid-sentence. That [unstructured corpus](/essays/the-unstructured-corpus/) turned out to be the most valuable thing I've built. The site you're reading was compiled from it.
 
-## Both systems get accommodated
+## The behavior accommodates the human
 
-This is one accommodation running in two directions. The pour accommodates the human: get the thinking out of your head with as little friction as possible. Talk, dictate, answer questions. No requirement to organize thoughts before having them. The tools accommodate the model: one objective at a time, decomposed tasks, structured evaluation. The model gets clean, organized input designed for its [processing reality](/essays/processing-profiles/).
+Talking instead of typing removes the friction between thinking and input. You don't compress, don't edit, don't organize before the thought is finished. The keyboard forces you to compose. Your voice lets you pour.
 
-A teacher accommodates in both directions simultaneously. The student speaks freely. The teacher structures the curriculum to fit the student's processing profile. The teacher handles the translation between unstructured student output and structured instructional input.
-
-The accommodation tools do the same work. They sit between the raw human and the structured model, translating in both directions. The human stays raw. The model gets what it needs. The translation happens in between.
+That pouring is the first half of what I call bidirectional accommodation. The human side. Get the thinking out with as little resistance as possible. The other half (structuring that raw material so the model can process it) is a separate problem, handled by separate tools. But it depends entirely on what goes in. If what goes in is already filtered, already polished, the tools downstream have less to work with. The behavior of talking, of staying raw, is what gives the rest of the system real material.
 
 ## Starting today
 
-You don't need three years of conversation history. A month of voice notes works. A few dozen conversations where you think out loud about your work. Dictated observations on the commute.
-
 Open your phone's voice memo app or start a conversation with any AI tool. Talk about what you're building, what's frustrating you, what you figured out yesterday. Don't perform. Don't organize. Just talk.
 
-That recording is the beginning of a corpus the tools can work with. The rawness is the point. Polished, pre-organized input has already lost the thing the tools need most: how you actually think.
+Brainstorm into a voice note at midnight. Answer your own questions out loud and let yourself change direction halfway through. One recording is enough to start. A month of them gives the tools a real body of material to process.
+
+The rawness is the point. When you talk instead of type, you stop editing before you've finished thinking. That unedited version carries your actual voice, your actual sentence structure, the way you actually move between ideas. It is the thing the tools need.
 
 The full concept is [input inversion](/practice/input-inversion/). The framework that produced it is [accommodation design](/practice/accommodation-design/).
