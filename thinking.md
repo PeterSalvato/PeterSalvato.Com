@@ -58,9 +58,9 @@ This site was compiled from three years of my conversations. Over 60,000 documen
 
 ---
 
-The thread across all of these is accommodation, and it runs in both directions. A student who can't hold three instructions needs the task decomposed. A product whose quality disappears on screen needs the display system redesigned. A platform stranded on the wrong surface needs someone to see where things are headed. A household burning 90 minutes on breakfast needs structure that removes the daily decisions. That's accommodation of the system receiving the work.
+The thread across all of these is accommodation, and it runs in both directions. A student who can't hold three instructions needs the task decomposed. A product whose quality disappears on screen needs the display system redesigned. A platform stranded on the wrong surface needs someone to see where things are headed. A household burning 90 minutes on breakfast needs structure that removes the daily decisions. That's the first direction: read what the system receiving the work actually needs.
 
-But there's a second accommodation in every one of those situations. The student needs permission to speak before organizing their thoughts. The founder needs to show her work without performing for the camera. The household needs defaults that work when nobody has the energy to choose. I need to think out loud into a voice note without structuring it for the model. That's accommodation of the human doing the work. Reducing friction on how ideas, decisions, and raw thinking enter the system.
+But there's a second accommodation in every one of those situations. The student needs permission to speak before organizing their thoughts. The founder needs to show her work without performing for the camera. The household needs defaults that work when nobody has the energy to choose. I need to think out loud into a voice note without structuring it for the model. Reducing friction on how ideas, decisions, and raw thinking enter the system.
 
 In AI work, that second accommodation is the pour: the deliberate act of getting the thinking out of your head with as little friction as possible. The tools accommodate the model. The pour accommodates the maker. Both are designed for the same reason: read what the system actually needs and build the structure to meet it.
 
