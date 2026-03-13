@@ -1,7 +1,7 @@
 ---
 layout: domain-index
-title: Evidence
+title: Proof
 tier_label: EVIDENCE
-description: "Where the methodology proved out. Applied work across enterprise platforms, brand systems, and this site itself."
+description: "Applied work across enterprise platforms, brand systems, and this site. Each one demonstrates the practice operating on real material."
 permalink: /evidence/
 ---

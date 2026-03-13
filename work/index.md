@@ -2,34 +2,48 @@
 layout: default
 title: "Work"
 permalink: /work/
-description: "Systems, applied work, and the practice behind them."
+description: "Ideas, tools, and applied work. Three entry paths into the same practice."
 seo_keywords: ["Peter Salvato work", "accommodation design", "AI governance", "design engineering", "FormWork", "SavePoint Syntax", "LensArray"]
 last_modified: 2026-03-13
 ---
 
-# Work
+<div class="work-index">
 
-## Systems
-
+<div class="work-group">
+<h2><a href="/practice/whitepapers/">Ideas</a></h2>
+<p class="work-group-description">Published research on accommodation design, AI governance, and the principles behind the tools.</p>
 <ul class="work-list">
-{% for page in site.systems %}
-  <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a> — {{ page.subtitle | default: page.description | truncatewords: 20 }}</li>
+{% assign whitepapers = site.practice | where: "practice_group", "whitepaper" | sort: "title" %}
+{% for item in whitepapers %}
+  {% if item.published != false %}
+  <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+  {% endif %}
 {% endfor %}
 </ul>
+</div>
 
-## Applied Work
-
+<div class="work-group">
+<h2><a href="/systems/">Tools</a></h2>
+<p class="work-group-description">Three systems for working with AI, built from accommodation design. Each one accommodates a specific processing constraint.</p>
 <ul class="work-list">
-{% for page in site.evidence %}
-  <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a> — {{ page.subtitle | default: page.description | truncatewords: 20 }}</li>
+{% for item in site.systems %}
+  {% if item.published != false and item.listed != false %}
+  <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+  {% endif %}
 {% endfor %}
 </ul>
+</div>
 
-## Practice
-
+<div class="work-group">
+<h2><a href="/evidence/">Proof</a></h2>
+<p class="work-group-description">Applied work across enterprise platforms, brand systems, and this site. Each one demonstrates the practice operating on real material.</p>
 <ul class="work-list">
-{% assign practice_pages = site.practice | sort: "title" %}
-{% for page in practice_pages %}
-  <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
+{% for item in site.evidence %}
+  {% if item.published != false and item.listed != false %}
+  <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+  {% endif %}
 {% endfor %}
 </ul>
+</div>
+
+</div>

@@ -40,7 +40,7 @@ layout: default
     {% assign rel_url_slash = rel_url | append: "/" %}
     {% assign rel_url_noslash = rel_url | remove_first: "/" %}
     {% for collection_name in site.collections %}
-      {% if collection_name.label == "governance" or collection_name.label == "infrastructure" or collection_name.label == "output" %}
+      {% if collection_name.label == "practice" or collection_name.label == "systems" or collection_name.label == "evidence" %}
         {% for item in collection_name.docs %}
           {% if item.url == rel_url or item.url == rel_url_slash %}
             {% assign related = related | push: item %}
@@ -58,7 +58,7 @@ layout: default
 {% else %}
   {% assign related = "" | split: "" %}
   {% for collection_name in site.collections %}
-    {% if collection_name.label == "governance" or collection_name.label == "infrastructure" or collection_name.label == "output" %}
+    {% if collection_name.label == "practice" or collection_name.label == "systems" or collection_name.label == "evidence" %}
       {% for item in collection_name.docs %}
         {% if item.url != page.url and item.listed != false and item.seo_keywords and page.seo_keywords %}
           {% for kw in page.seo_keywords %}
@@ -76,7 +76,7 @@ layout: default
 
   {% if related.size < 2 and page.faculty %}
   {% for collection_name in site.collections %}
-    {% if collection_name.label == "governance" or collection_name.label == "infrastructure" or collection_name.label == "output" %}
+    {% if collection_name.label == "practice" or collection_name.label == "systems" or collection_name.label == "evidence" %}
       {% for item in collection_name.docs %}
         {% if item.url != page.url and item.listed != false and item.faculty %}
           {% unless related contains item %}

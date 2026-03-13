@@ -1,13 +1,33 @@
 {
   "items": [
-    { "label": "Bio", "url": "/bio", "icon": "person" },
-    { "label": "Work", "url": "/work", "icon": "layers" },
-    { "label": "Writing", "url": "/essays/", "icon": "edit_note" },
-    { "label": "Contact", "url": "/contact", "icon": "mail" }
-  ],
-  "sections": [
-    { "label": "Practice", "url": "/practice/", "icon": "psychology" },
-    { "label": "Systems", "url": "/systems/", "icon": "hub" },
-    { "label": "Evidence", "url": "/evidence/", "icon": "verified" }
+    {
+      "label": "Bio",
+      "url": "/bio",
+      "icon": "person",
+      "children": [
+        { "label": "How I Think", "url": "/thinking/" },
+        { "label": "Vocabulary", "url": "/vocabulary/" }
+      ]
+    },
+    {
+      "label": "Work",
+      "url": "/work",
+      "icon": "layers",
+      "children": [
+        { "label": "Ideas", "url": "/practice/whitepapers/" },
+        { "label": "Tools", "url": "/systems/" },
+        { "label": "Proof", "url": "/evidence/" }
+      ]
+    },
+    {
+      "label": "Writing",
+      "url": "/essays/",
+      "icon": "edit_note"
+    },
+    {
+      "label": "Contact",
+      "url": "/contact",
+      "icon": "mail"
+    }
   ]
 }

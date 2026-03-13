@@ -14,7 +14,7 @@
   z-index: $z-sidebar;
 
   #sidebar-header {
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 
     #sidebar-title {
       font-size: $type-sidebar;
@@ -39,18 +39,22 @@
 
   #sidebar-menu {
 
-    // Flat nav list (current template structure)
     .nav-list {
       list-style: none;
       margin: 0;
       padding: 0;
 
-      li {
-        margin: 0;
+      > .nav-item {
+        margin-bottom: 4px;
       }
 
-      a {
+      > .nav-item.has-children {
+        margin-bottom: 12px;
+      }
+
+      > .nav-item > a {
         font-size: $type-caption;
+        font-weight: 600;
         letter-spacing: $tracking-normal;
         color: $color-text;
         text-decoration: none;
@@ -61,6 +65,10 @@
         transition: opacity $transition-fast;
 
         &:hover {
+          opacity: 1;
+        }
+
+        &.is-active {
           opacity: 1;
         }
 
@@ -80,36 +88,44 @@
           font-variation-settings: 'FILL' 1, 'wght' 500, 'opsz' 20;
           opacity: 1;
         }
+      }
 
-        &.is-active {
-          opacity: 1;
-          font-weight: 600;
+      .nav-sublist {
+        list-style: none;
+        margin: 2px 0 0 0;
+        padding: 0 0 0 28px;
+
+        li {
+          margin: 0;
+        }
+
+        a {
+          font-size: $type-xs;
+          letter-spacing: $tracking-normal;
+          color: $color-text-secondary;
+          text-decoration: none;
+          display: block;
+          padding: 2px 0;
+          opacity: $opacity-quiet;
+          transition: opacity $transition-fast;
+
+          &:hover {
+            opacity: 1;
+            color: $color-text;
+          }
+
+          &.is-active {
+            opacity: 1;
+            color: $color-text;
+            font-weight: 600;
+          }
         }
       }
-    }
-
-    // Section divider between nav groups
-    .nav-divider {
-      border: none;
-      border-top: $rule-light solid $color-border;
-      margin: 8px 0;
-    }
-
-    // Section label for grouped nav items
-    .nav-section-label {
-      font-size: $type-2xs;
-      font-weight: 700;
-      letter-spacing: $tracking-widest;
-      text-transform: uppercase;
-      color: $color-text-secondary;
-      margin: 12px 0 2px 0;
-      padding: 0;
     }
   }
 }
 
 // Hide Material Symbols icons until font is confirmed loaded.
-// Avoids flash of raw icon text (e.g. "person", "hub") on first load.
 html:not(.material-fonts-loaded) .material-symbols-outlined {
   visibility: hidden;
 }

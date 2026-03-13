@@ -1,152 +1,26 @@
 {
   "role_declaration": "Design engineer. Construction sites, print shops, enterprise platforms, brand systems, classrooms, AI governance.",
-  "featured": [
-    {
-      "title": "AI Governance as Accommodation Design",
-      "tier": "WRITING",
-      "color": "neutral",
-      "context": "A whitepaper applying special education pedagogy to AI system architecture.",
-      "status": "PUBLISHED",
-      "link": "/practice/accommodation-design/"
-    },
-    {
-      "title": "Essays",
-      "tier": "WRITING",
-      "color": "neutral",
-      "context": "Essays on design practice, education, AI governance, and how they connect.",
-      "status": "WRITING",
-      "link": "/essays/"
-    }
-  ],
   "manifesto": {
-    "short": "Twelve students in a self-contained classroom in Brooklyn. Every subject, every accommodation. A kid hears \"solve for the missing number, show your work, and explain your reasoning\" and starts working on the first instruction. The rest is gone. Not because the student can't do the work. Because the task was designed for a processing profile that isn't theirs.\n\nThat classroom taught me to ask one question before designing anything: what does the system receiving this actually need? Enterprise platforms, brand systems, AI governance. The question applies to every material I've worked in since.",
-    "content": "Twelve students in a self-contained classroom in Brooklyn. Every subject, every accommodation. A kid hears \"solve for the missing number, show your work, and explain your reasoning\" and starts working on the first instruction. The rest is gone. Not because the student can't do the work. Because the task was designed for a processing profile that isn't theirs.\n\nThat classroom taught me to ask one question before designing anything: what does the system receiving this actually need? Enterprise platforms, brand systems, AI governance. The question applies to every material I've worked in since.\n\nMy wife had a real jewelry brand and no way to show it through a screen. I built the brand system, the photography pipeline, and the platform together. One system, not three departments. She runs the business. A platform I started building in 2013 is still running, serving organizations you'd recognize. I still work alongside the person who wrote the original software.\n\nThis site was compiled from three years of my own thinking by the tools described on it."
+    "short": "Twelve students in a self-contained classroom in Brooklyn. Every subject, every accommodation. A kid hears \"solve for the missing number, show your work, and explain your reasoning\" and starts working on the first instruction. The rest is gone. Not because the student can't do the work. Because the task was designed for a processing profile that isn't theirs.\n\nThat classroom taught me to ask one question before designing anything: what does the system receiving this actually need? Enterprise platforms, brand systems, AI governance. The question applies to every material I've worked in since."
   },
-  "legend": [
-    { "tier": "Practice", "description": "Who I am and how I think. The writing, the creative work, and the context behind the tools." },
-    { "tier": "Systems", "description": "Three tools for working with AI, built from accommodation design." },
-    { "tier": "Evidence", "description": "Applied work across enterprise platforms, brand systems, and this site." }
-  ],
   "routes": [
     {
-      "id": "01",
-      "name": "PRACTICE",
-      "color": "neutral",
-      "url": "/practice/",
-      "definition": "Who I am and how I think.",
-      "description": "The thinking behind the tools and the work. Whitepapers on accommodation design, essays on practice, and the creative projects.",
-      "artifacts": [
-        {
-          "id": "1.0",
-          "title": "ACCOMMODATION DESIGN",
-          "context": "A whitepaper applying special education pedagogy to AI system architecture. The question comes from a self-contained classroom in Brooklyn.",
-          "spec": "Task decomposition as cognitive accommodation. Evaluation systems as differentiated assessment. Prompt architecture as IEP design.",
-          "result": "Published framework with DOI. Six applied tools.",
-          "status": "PUBLISHED",
-          "link": "/practice/accommodation-design"
-        },
-        {
-          "id": "1.1",
-          "title": "INPUT INVERSION",
-          "context": "The industry assumes quality AI output requires structured input. Three years of evidence says the opposite: raw, unstructured human thinking produces better results when purpose-built tools handle the translation.",
-          "spec": "A whitepaper challenging the foundational assumption of prompt engineering. Documents the practice, the evidence from adjacent fields, and the formal design principle.",
-          "result": "Published framework. Situated within converging industry evidence.",
-          "status": "PUBLISHED",
-          "link": "/practice/input-inversion"
-        },
-        {
-          "id": "1.2",
-          "title": "PROSTHETIC COGNITION",
-          "context": "The AI field frames models as tools or agents. Both miss the third relationship: a cognitive extension you rig to yourself.",
-          "spec": "A whitepaper proposing AI as cognitive prosthetic through mutual accommodation. Grounded in extended mind theory and three years of applied cognitive coupling.",
-          "result": "Published framework.",
-          "status": "PUBLISHED",
-          "link": "/practice/prosthetic-cognition"
-        },
-        {
-          "id": "1.3",
-          "title": "ESSAYS",
-          "context": "Essays on design practice, accommodation, AI governance, and why they connect.",
-          "spec": "Each essay unpacks one piece of the practice. Bridge essays open in the reader's language and introduce the framework vocabulary.",
-          "result": "Published and growing.",
-          "status": "WRITING",
-          "link": "/essays/"
-        },
-        {
-          "id": "1.4",
-          "title": "THIS SITE",
-          "context": "Compiled from a three-year corpus using the tools described on it.",
-          "spec": "The build log for a craftsman's workbench made of AI tools.",
-          "result": "Hand compilation with craftsman's tools. The process documented on the pages it produced.",
-          "status": "ACTIVE",
-          "link": "/practice/this-site"
-        }
-      ]
+      "name": "Ideas",
+      "url": "/practice/whitepapers/",
+      "definition": "Published research.",
+      "description": "Whitepapers on accommodation design, AI governance, and the principles behind the tools."
     },
     {
-      "id": "02",
-      "name": "SYSTEMS",
-      "color": "neutral",
+      "name": "Tools",
       "url": "/systems/",
       "definition": "What crystallized from the practice.",
-      "description": "Three tools for working with AI, built from accommodation design. Each one accommodates a specific processing constraint.",
-      "artifacts": [
-        {
-          "id": "2.1",
-          "title": "FORMWORK",
-          "context": "Named from concrete construction. The temporary structure you build before the pour.",
-          "spec": "The coordination harness that holds all the tools in position while the work is wet. SavePoint preserves context. LensArray decomposes evaluation. Skills execute one objective at a time. The voice pipeline shapes register. FormWork coordinates them.",
-          "result": "Every project page on this site was produced by this system.",
-          "status": "ACTIVE",
-          "link": "/systems/formwork"
-        },
-        {
-          "id": "2.2",
-          "title": "SAVEPOINT",
-          "context": "You're in the middle of a session and your thinking changes direction. Every tool saves what you said. None of them mark where it turned.",
-          "spec": "A cognitive waypoint you drop in the middle of your thinking. Each one carries semantic payload, enough to orient you or the model when the context is gone.",
-          "result": "Open source. v3.1. Works across solo work, team conversations, and AI sessions.",
-          "status": "V3.1 OPEN SOURCE",
-          "link": "/systems/savepoint"
-        },
-        {
-          "id": "2.3",
-          "title": "LENSARRAY",
-          "context": "The critique room at SVA reconstructed as evaluative infrastructure. Multiple perspectives, each codified and testable, run independently and read together.",
-          "spec": "Multi-perspective evaluation and generation through extracted practitioner lenses. The tensions between lenses force decisions no single influence would produce.",
-          "result": "Evaluation and generation modes.",
-          "status": "ACTIVE",
-          "link": "/systems/lensarray"
-        }
-      ]
+      "description": "Three systems for working with AI, built from accommodation design."
     },
     {
-      "id": "03",
-      "name": "EVIDENCE",
-      "color": "neutral",
+      "name": "Proof",
       "url": "/evidence/",
       "definition": "Where the methodology proved out.",
-      "description": "Applied work across enterprise platforms, brand systems, and this site. Each one demonstrates the practice and the tools operating on real work.",
-      "artifacts": [
-        {
-          "id": "3.1",
-          "title": "ENCORE",
-          "context": "A solid Windows Forms application serving some of the largest organizations in the world. The software was good. The delivery layer was about to strand it.",
-          "spec": "Made the case for moving to the browser, then built the whole front end from scratch.",
-          "result": "Twelve years in. The call held.",
-          "status": "DEPLOYED",
-          "link": "/evidence/encore"
-        },
-        {
-          "id": "3.2",
-          "title": "AIDEN JAE",
-          "context": "A trained merchandiser with a decades-long factory relationship in Bangkok. She had the product and the expertise. No brand, no platform, no way to put it in front of a stranger.",
-          "spec": "Built the entire system from scratch: brand identity, photography, custom Shopify architecture, packaging concepts. One integrated system.",
-          "result": "A running business. The quality comes through the screen because every piece of the system was designed to show it.",
-          "status": "DELIVERED",
-          "link": "/evidence/aiden-jae"
-        }
-      ]
+      "description": "Applied work across enterprise platforms, brand systems, and this site."
     }
   ],
   "contact": {

@@ -130,6 +130,55 @@ pre {
 }
 
 // ============================================================================
+// WORK INDEX
+// ============================================================================
+
+.work-index {
+  margin-top: $gap-large;
+}
+
+.work-group {
+  margin-bottom: $gap-xxlarge;
+
+  h2 {
+    margin-top: 0;
+
+    a {
+      text-decoration: none;
+      &:hover { opacity: $opacity-hover; }
+    }
+  }
+}
+
+.work-group-description {
+  color: $color-text-secondary;
+  font-size: $type-body;
+  margin-bottom: $gap-medium;
+}
+
+.work-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    margin-bottom: $gap-small;
+  }
+
+  a {
+    font-size: $type-body;
+    text-decoration: none;
+    border-bottom: $rule-light solid $color-border;
+    padding-bottom: 2px;
+    transition: border-color $transition-fast;
+
+    &:hover {
+      border-color: $color-text;
+    }
+  }
+}
+
+// ============================================================================
 // VOCABULARY TOOLTIPS
 // ============================================================================
 

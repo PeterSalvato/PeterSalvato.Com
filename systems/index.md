@@ -1,7 +1,7 @@
 ---
 layout: domain-index
-title: Systems
+title: Tools
 tier_label: SYSTEMS
-description: "What crystallized from the practice. Three tools for working with AI, built from accommodation design."
+description: "Three systems for working with AI, built from accommodation design. Each one accommodates a specific processing constraint."
 permalink: /systems/
 ---
