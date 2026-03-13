@@ -2,12 +2,6 @@
 // TEXTURES — Print registration effects
 // ============================================================================
 
-// Out-of-register effect for Chainprinter display headings.
-// Simulates a second press pass that didn't quite land.
-.press-type {
-  text-shadow: 1.5px 1px 0 rgba($color-spot, 0.15);
-}
-
 // Film grain overlay for photo and artifact treatments
 .film-grain {
   position: relative;

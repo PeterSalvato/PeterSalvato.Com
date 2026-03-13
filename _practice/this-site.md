@@ -112,12 +112,34 @@ The copy on this site traces back to things I said or decided in working session
 
 ---
 
+## How the visual system communicates
+
+A portfolio site has two jobs before anybody reads the copy: signal what kind of practitioner this is, and set the reading conditions for the work to land. Both are accommodation problems. The visual system either helps or gets in the way.
+
+The first CSS pass produced a site that looked like every other developer portfolio. Cards with shadows, rounded corners, generous line-height, fluid scaling. The layout said blog. The content said practitioner publishing research. The mismatch was the same one the copy had before the voice protocol caught it: the container contradicted the contents.
+
+The fix came from the same place the copy fix came from: reference practitioners who already solved the problem. Tufte's self-published books, set on the web as tufte-css. Butterick's Practical Typography. The Vignelli Canon. Muller-Brockmann's grid books. These all share a register: single or two-column text at a fixed measure, generous margins, a heading hierarchy that repeats identically on every page, restrained use of one accent, and a lot of white space doing structural work. Textbook, not magazine. The structure is the design.
+
+That register communicates something specific. A textbook layout says: this person organized their thinking before presenting it. The content is meant to be read, not scanned. The hierarchy repeats because the material is systematic. The restraint says the work carries its own weight.
+
+I pulled actual measurements from Tufte's CSS and calibrated against them. His body text runs at 21px with a line-height of 1.43. Butterick confirms the range: 15-25px on screen, line-height between 1.2 and 1.45, line length at 45-90 characters. The site had been running body text at 15-17px with a line-height of 1.6. Too small to hold attention, too loose to read as printed. Tightening the line-height to 1.45, widening the heading scale so h1 sits at 2x the body instead of 1.6x, and holding the content column at 65 characters brought the layout into the register it was always trying to reach.
+
+The deeper move was adopting print production constraints on a web build. A print designer working a two-color job does not have access to the full spectrum and then choose restraint. The budget gives them black and one spot color, and that limitation changes every decision downstream. Which elements get the spot ink. How hierarchy works without color gradients. Where emphasis lands when you cannot just make something a different hue. The constraint does the designing.
+
+The same principle applies here. Four fixed breakpoints define four static print formats: phone, tablet, laptop, ultrawide. Each is a designed layout, not a fluid adaptation, the way a textbook has a different page format in paperback and hardcover but neither one reflows sentence by sentence. One spot color (oxide red, #A64B2A) used the way a second ink works on press: for structural emphasis, not decoration. Cards stripped and replaced with ruled entries (top border, no box) because a box around every item says catalog and a ruled list says index. Metadata labels set in small caps the way a typesetter would mark running heads.
+
+These are not aesthetic preferences. They are process constraints borrowed from print production, applied to a screen medium. The result feels different because the decisions were made differently. A designer with unlimited web colors picks the one that looks best. A designer with one spot color decides what deserves ink. The site runs on the second kind of thinking.
+
+The visual register is accommodation design applied to the visitor. The same question the practice asks of every system: what does the person receiving this actually need from the container?
+
+---
+
 ## Tech stack
 
 **Generator:** Jekyll 4.4.1, native SCSS compilation
-**Styling:** Custom SCSS, no utility framework. Visual treatment (grain, halftone textures) produced by [PressWorks](/practice/pressworks/)
-**Typography:** Rubik (body), Chainprinter (structural headings, self-hosted), Space Mono (monospace)
-**Layout:** Fixed sidebar + main content, responsive to mobile
+**Styling:** Custom SCSS, no utility framework. Tufte-calibrated type scale. Visual treatment (grain, halftone textures) produced by [PressWorks](/practice/pressworks/)
+**Typography:** Rubik (body), Chainprinter (display headings, self-hosted), Space Mono (monospace). Body at 16-18px, line-height 1.45, 65ch measure.
+**Layout:** Four fixed print formats (phone, tablet, laptop, ultrawide). Fixed sidebar + main content. Not fluid.
 **Data:** JSON (navigation, index, vocabulary, contact)
 **Structured data:** JSON-LD (Person, CreativeWork, BreadcrumbList, FAQPage)
 **Hosting:** GitHub Pages, deployed on push

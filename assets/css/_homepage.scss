@@ -28,7 +28,6 @@
     margin-bottom: 0;
     margin-left: 8rem;
     opacity: 0.85;
-    @extend .press-type;
   }
 
   .hero-role {
@@ -77,7 +76,6 @@
       letter-spacing: $tracking-normal;
       margin: 0 0 $gap-small;
       transition: color $transition-fast;
-      @extend .press-type;
     }
 
     &:hover .section-card-name {
@@ -135,7 +133,6 @@
     font-size: $type-hero;
     text-transform: uppercase;
     margin-bottom: $gap-xlarge;
-    @extend .press-type;
   }
 
   p {

@@ -2,6 +2,8 @@
 // TYPOGRAPHY — Textbook register
 // ============================================================================
 
+// Tufte heading proportions: h1 at 2.3x body, h2 1.57x, h3 1.21x.
+// Top margins create chapter-like breaks (Tufte uses 2–3x body above h1).
 h1, h2, h3, h4, h5, h6 {
   font-family: $font-display;
   font-weight: 600;
@@ -15,7 +17,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: $type-title;
+  font-size: $type-display;
   line-height: $leading-tight;
   letter-spacing: $tracking-tight;
   text-transform: uppercase;

@@ -48,19 +48,21 @@ $font-body:    'Rubik', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-seri
 $font-display: 'Chainprinter', 'Space Mono', monospace;
 $font-mono:    'Space Mono', monospace;
 
-// Type scale — fluid, 1.2 ratio (minor third), textbook-tight
-$type-xs:       clamp(0.7rem, 0.65rem + 0.15vw, 0.75rem);
-$type-sm:       clamp(0.75rem, 0.7rem + 0.15vw, 0.833rem);
-$type-caption:  clamp(0.8rem, 0.75rem + 0.15vw, 0.875rem);
-$type-body-sm:  clamp(0.875rem, 0.83rem + 0.2vw, 0.95rem);
-$type-body:     clamp(0.95rem, 0.9rem + 0.25vw, 1.05rem);
-$type-body-lg:  clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
-$type-subhead:  clamp(1.05rem, 1rem + 0.3vw, 1.2rem);
-$type-head-sm:  clamp(1.1rem, 1.03rem + 0.35vw, 1.25rem);
-$type-head:     clamp(1.2rem, 1.1rem + 0.4vw, 1.35rem);
-$type-head-lg:  clamp(1.35rem, 1.2rem + 0.5vw, 1.5rem);
-$type-title:    clamp(1.5rem, 1.3rem + 0.65vw, 1.75rem);
-$type-display:  clamp(1.6rem, 1.35rem + 0.8vw, 1.95rem);
+// Type scale — Tufte-calibrated. Body at 16–18px, headings at 1.5–2.3x body.
+// Tufte: 21px body, h1 2.3x, h2 1.57x, h3 1.21x. Butterick: 15–25px body.
+// Adapted down slightly from Tufte (Rubik reads larger than ET Book).
+$type-xs:       clamp(0.75rem, 0.7rem + 0.15vw, 0.8rem);       // 12–13px
+$type-sm:       clamp(0.8rem, 0.75rem + 0.15vw, 0.875rem);      // 13–14px
+$type-caption:  clamp(0.875rem, 0.825rem + 0.15vw, 0.9375rem);  // 14–15px
+$type-body-sm:  clamp(0.9375rem, 0.9rem + 0.2vw, 1rem);         // 15–16px
+$type-body:     clamp(1rem, 0.95rem + 0.25vw, 1.125rem);         // 16–18px
+$type-body-lg:  clamp(1.0625rem, 1rem + 0.25vw, 1.1875rem);     // 17–19px
+$type-subhead:  clamp(1.125rem, 1.05rem + 0.3vw, 1.3125rem);    // 18–21px
+$type-head-sm:  clamp(1.25rem, 1.15rem + 0.4vw, 1.5rem);        // 20–24px
+$type-head:     clamp(1.375rem, 1.25rem + 0.5vw, 1.75rem);      // 22–28px
+$type-head-lg:  clamp(1.5rem, 1.35rem + 0.55vw, 1.875rem);      // 24–30px
+$type-title:    clamp(1.625rem, 1.45rem + 0.65vw, 2.125rem);    // 26–34px
+$type-display:  clamp(1.875rem, 1.6rem + 0.9vw, 2.5rem);        // 30–40px
 
 // Context-specific sizes
 $type-hero:        $type-display;
@@ -80,14 +82,14 @@ $tracking-wider:    0.1em;
 $tracking-widest:   0.12em;
 $tracking-spread:   0.2em;
 
-// Line-height
+// Line-height — Tufte body at 1.43, Butterick 1.2–1.45. Textbook, not blog.
 $leading-none:      1;
-$leading-tight:     1.1;
+$leading-tight:     1.15;
 $leading-snug:      1.3;
-$leading-normal:    1.5;
-$leading-relaxed:   1.6;
-$leading-loose:     1.7;
-$leading-spacious:  1.8;
+$leading-normal:    1.45;    // body text (was 1.5; Tufte uses 1.43)
+$leading-relaxed:   1.5;     // captions, decks (was 1.6)
+$leading-loose:     1.6;     // spacious contexts (was 1.7)
+$leading-spacious:  1.7;     // was 1.8
 
 // ----------------------------------------------------------------------------
 // RULES (borders)
