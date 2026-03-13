@@ -133,10 +133,9 @@ Four treatments for project page images. Applied via kramdown IAL:
 
 ## Site Structure (3 Tiers + About)
 
-1. **Governance** (red) — `_protocols/` → Savepoint Syntax, Order of the Aetherwright, Formwork Protocol
-2. **Deployments** (blue) — `_systems/` → Encore, Joinery, Aiden-Jae, Everyday Gold, Altrueism, Modernist Homestead
-3. **Practice** (green) — `_practice/` → New City, MathOnTape, Photogeography, The Deep Cuts, Echo & Bone, Versagrams, Colophon
-4. **About** (neutral) — `bio/` → Lineage narrative
+1. **Practice** — `_practice/` → Bio, How I Think, Vocabulary, Writing, Meditations
+2. **Systems** — `_systems/` → FormWork, SavePoint, LensArray
+3. **Evidence** — `_evidence/` → Encore, Aiden Jae, Altrueism, New City, Colophon
 
 ---
 

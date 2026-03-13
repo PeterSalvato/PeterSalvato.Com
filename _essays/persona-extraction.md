@@ -6,7 +6,7 @@ title: "Lens Extraction"
 published: true
 order: 2
 description: "\"Act as Vignelli\" gives you a caricature. Extracting evaluative frameworks from bodies of work gives you testable diagnostic lenses. The difference matters."
-seo_keywords: ["lens extraction", "AI evaluation", "creative evaluation framework", "Formwork Protocol", "design critique", "evaluative lenses", "Peter Salvato", "act as expert prompt problems", "AI persona prompting doesn't work", "better AI evaluation", "multi-perspective AI review", "design critique framework"]
+seo_keywords: ["lens extraction", "AI evaluation", "creative evaluation framework", "FormWork", "LensArray", "design critique", "evaluative lenses", "Peter Salvato", "act as expert prompt problems", "AI persona prompting doesn't work", "better AI evaluation", "multi-perspective AI review", "design critique framework"]
 ---
 
 At SVA, the critique room worked like this. You hang your work. Your peers and teachers sit around you. Everyone evaluates in good faith, from their own perspective, trying to make the work the best the room can make it. Where they agree, you have a strong signal. Where they disagree, you have a decision to make. The accumulated decisions are yours. The work that comes out belongs to you, not to any single voice in the room.
@@ -49,7 +49,7 @@ I needed an authenticity diagnostic. Does this portfolio read as a real person w
 
 **M1. What can only this person do?** Is positioning genuinely distinct, or could you swap in twenty other names? Look for specifics that anchor identity to actual history. Red flag: positioning that describes a category, not a person.
 
-**M2. Does vulnerability match authority?** Are failures and what broke shown alongside what worked? Is difficulty demonstrated through iterations and breakage, or just claimed? Red flag: only polished success stories. When I first ran this criterion against my own infrastructure pages, M2 flagged immediately: the Formwork page described the protocol as though it arrived fully formed. There was no iteration, no breakage. The difficulty was claimed but the wreckage wasn't shown.
+**M2. Does vulnerability match authority?** Are failures and what broke shown alongside what worked? Is difficulty demonstrated through iterations and breakage, or just claimed? Red flag: only polished success stories. When I first ran this criterion against my own infrastructure pages, M2 flagged immediately: the FormWork page described the process as though it arrived fully formed. There was no iteration, no breakage. The difficulty was claimed but the wreckage wasn't shown.
 
 **M3. Best-day self or a character?** Does the voice sound like a real person with real stakes, or like a brand strategy document? Is there a gap between the stated philosophy and how the thing actually reads?
 

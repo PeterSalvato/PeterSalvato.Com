@@ -6,7 +6,7 @@ title: "What I Built This Year"
 published: true
 order: 8
 description: "The same operation across different materials. This year I finally had tools that could keep up with the velocity."
-seo_keywords: ["design engineering", "design methodology", "AI governance", "creative evaluation framework", "operational methodology", "Peter Salvato", "Formwork Protocol", "building AI tools for creative work", "AI workflow for designers", "what can you build with AI in a year", "AI productivity for creatives"]
+seo_keywords: ["design engineering", "design methodology", "AI governance", "creative evaluation framework", "operational methodology", "Peter Salvato", "FormWork", "building AI tools for creative work", "AI workflow for designers", "what can you build with AI in a year", "AI productivity for creatives"]
 ---
 
 I've been running the same operation my entire career. Read the room. Find the gap between what something is and how it lands. Build the structure that closes it. I learned it at a light table doing color separation. I spent twelve years doing it on an enterprise platform. This year the material changed again.
@@ -43,4 +43,4 @@ The system compiled this site from three years of my conversations. A blind eval
 
 ---
 
-The methodology behind all of this is documented on the [Formwork](/systems/formwork/) page. The design practice predates the AI tools. The operational methodology comes from construction sites, print shops, enterprise platforms, and classrooms. AI is the current material.
+The methodology behind all of this is documented on the [FormWork](/systems/formwork/) page. The design practice predates the AI tools. The operational methodology comes from construction sites, print shops, enterprise platforms, and classrooms. AI is the current material.

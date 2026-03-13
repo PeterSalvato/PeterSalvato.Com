@@ -27,7 +27,7 @@ March 2026
 
 ## Abstract
 
-Current approaches to AI governance focus on constraining model behavior: safety guardrails, compliance frameworks, output filtering, prompt engineering as control mechanism. This paper proposes an alternative framework derived from special education pedagogy: accommodation design. Rather than asking how to constrain a model, accommodation design asks what the model's processing reality requires to produce quality output. The framework treats prompt architecture as individualized education planning, task decomposition as cognitive accommodation, and evaluation systems as differentiated assessment. It is demonstrated through three years of applied architecture: a context preservation syntax, a multi-lens evaluation protocol, a decomposed skill system, a voice governance pipeline, a knowledge traversal system, and an input inversion methodology, all deployed on a production site compiled by the system it describes. A literature review confirms that this specific framing does not exist in current research.
+Current approaches to AI governance focus on constraining model behavior: safety guardrails, compliance frameworks, output filtering, prompt engineering as control mechanism. This paper proposes an alternative framework derived from special education pedagogy: accommodation design. Rather than asking how to constrain a model, accommodation design asks what the model's processing reality requires to produce quality output. The framework treats prompt architecture as individualized education planning, task decomposition as cognitive accommodation, and evaluation systems as differentiated assessment. The applied process, FormWork, is a coordination harness (named from concrete construction) that holds six accommodation tools in position while work is being produced: a context preservation syntax (SavePoint), a decomposed evaluation system (LensArray), a single-objective skill architecture, a voice governance pipeline, a knowledge traversal system, and an input inversion methodology. All six are deployed on a production site compiled by the system it describes. A literature review confirms that this specific framing does not exist in current research.
 
 ---
 
@@ -101,11 +101,19 @@ The central claim: AI systems have specific processing realities that can be acc
 
 ---
 
-## 4. Applied Evidence
+## 4. Applied Evidence: FormWork
 
-I've applied this framework across three years of continuous development (2023-2026). Six tools, each built from the same question applied to a different processing constraint. All of them depend on one foundational practice: the accumulation of raw, unstructured human thinking as the substrate the tools operate on.
+I've applied this framework across three years of continuous development (2023-2026), building a set of tools I call FormWork.
 
-### 4.1 Context Preservation: Savepoint Syntax
+The name comes from concrete construction. You build formwork before you pour. The temporary structure shapes the work while things are fluid: it holds the boards in position, keeps the pour contained, gives the wet material somewhere to go. Once the concrete sets, the form comes off. The shape holds on its own.
+
+FormWork is that temporary structure around a project. It is not any single tool. It is the harness that holds all the tools in position while the work is wet. The tools do their jobs. The harness coordinates them. When the work is done, the formwork comes off. The work stands.
+
+The pour is unstructured human thinking: brainstorming, voice notes, arguing with myself, changing direction mid-sentence. Three years of that produced the corpus everything else operates on. The tools shape it. FormWork holds the tools. Out comes the work.
+
+Six tools, each built from the same question applied to a different processing constraint. All of them depend on one foundational practice: the accumulation of raw, unstructured human thinking as the substrate the tools operate on.
+
+### 4.1 Context Preservation: SavePoint Syntax
 
 I kept losing my thinking between sessions. Not the notes. The exact moment something clicked, the point where my understanding shifted. The model couldn't find its way back in because there was nothing marking where the thinking had been.
 
@@ -117,11 +125,11 @@ The design principle: build the syntax for what the model needs to reconstruct c
 
 **Open source:** [Savepoint Syntax v3.1](https://github.com/PeterSalvato/Savepoint.Protocol)
 
-### 4.2 Evaluation Decomposition: Formwork
+### 4.2 Evaluation Decomposition: LensArray
 
 "Is this good?" is twelve questions disguised as one. Give a model that compound evaluation and the criteria bleed together. Structural assessment contaminates narrative assessment. You get a blended average, not independent verdicts.
 
-I built [Formwork](/systems/formwork/): a layered evaluation system. Work gets evaluated across distinct layers of concern (structural, narrative), each staffed with lenses extracted from real practitioners' bodies of work. Vignelli for restraint. Bierut for problem-solving. Millman for authenticity. Each lens runs independently with its own criteria and its own definition of success. A coordinator collects verdicts and maps where they agree (act on it) and where they disagree (the practitioner decides).
+I built [LensArray](/systems/lensarray/): a decomposed evaluation system. Work gets evaluated across distinct layers of concern (structural, narrative), each staffed with lenses extracted from real practitioners' bodies of work. Vignelli for restraint. Bierut for problem-solving. Millman for authenticity. Each lens runs independently with its own criteria and its own definition of success. A coordinator collects verdicts and maps where they agree (act on it) and where they disagree (the practitioner decides).
 
 The IEP parallel is direct: individualized criteria, independent assessment, the practitioner resolving conflicts between goals that measure different things.
 
@@ -177,7 +185,7 @@ The field's emphasis on structured input may itself be a constraint-based approa
 
 ## 5. The Recursive Proof
 
-petersalvato.com was compiled using the system described on it. Every page was evaluated by Formwork. Every piece of copy was verified against voice samples extracted by the voice pipeline. The knowledge traversal skill traced concept lineage across three years of conversation history. Savepoint Syntax marked cognitive turning points throughout.
+petersalvato.com was compiled using the system described on it. FormWork held the tools in position while the work was wet: LensArray evaluated every page across independent dimensions. The voice pipeline verified every piece of copy against patterns extracted from conversation. The knowledge traversal skill traced concept lineage across three years of conversation history. SavePoint Syntax marked cognitive turning points throughout. The formwork came off. The site stands.
 
 The site is an artifact produced by the framework. The accommodation architecture built the thing that explains the accommodation architecture. This recursive proof is the strongest form of evidence available for a design methodology: a deployed system producing visible, assessable results.
 
@@ -229,9 +237,10 @@ Nobody else is asking that question. The field needs practitioners who know how 
 
 The following open-source tools were built using this framework:
 
-- **[Savepoint Syntax](https://github.com/PeterSalvato/Savepoint.Protocol)**: Context preservation markup (v3.1)
-- **[Formwork Protocol](/systems/formwork/)**: The accommodation design process
-- **[Formwork Skills Architecture](https://github.com/PeterSalvato/formwork)**: Task decomposition as IEP design (lenses, diagnostics, coordinators)
+- **[FormWork](/systems/formwork/)**: The accommodation design process. The harness that coordinates all tools during a project.
+- **[SavePoint Syntax](https://github.com/PeterSalvato/Savepoint.Protocol)**: Context preservation markup (v3.1)
+- **[LensArray](/systems/lensarray/)**: Decomposed evaluation with practitioner-extracted lenses
+- **[Skills Architecture](https://github.com/PeterSalvato/formwork)**: Task decomposition as IEP design (single-objective diagnostics, coordinators)
 
 The production site [petersalvato.com](/) was compiled using these tools.
 
@@ -251,7 +260,7 @@ The production site [petersalvato.com](/) was compiled using these tools.
 - Frontiers in AI (2024). "Large Language Models for Whole-Learner Support: Opportunities and Challenges."
 - LogRocket (2025). "Prompt Engineering Best Practices."
 - Salvato, P. (2025). Savepoint Syntax v3.1. Open source. [github.com/PeterSalvato/Savepoint.Protocol](https://github.com/PeterSalvato/Savepoint.Protocol)
-- Salvato, P. (2026). Formwork Protocol. [petersalvato.com/systems/formwork/](/systems/formwork/)
+- Salvato, P. (2026). FormWork. [petersalvato.com/systems/formwork/](/systems/formwork/)
 - Salvato, P. (2026). "The IEP for AI Systems." [petersalvato.com/essays/the-iep-for-ai-systems/](/essays/the-iep-for-ai-systems/)
 
 ---

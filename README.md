@@ -8,9 +8,9 @@ Peter Salvato's portfolio site, a Design Engineer's workbench.
 
 This is the source for [petersalvato.com](https://petersalvato.com), a portfolio organized across three tiers:
 
-- **Governance**: Governing logic and cognitive firmware (Savepoint Syntax, Order of the Ætherwright, Formwork Protocol)
-- **Systems**: Production deployments under constraint (Encore, Aiden-Jae, Modernist Homestead, The Sovereign Stack)
-- **Practice**: Creative research and expression (New City, MathOnTape, Photogeography, The Deep Cuts, Echo & Bone, Versagrams)
+- **Practice**: Who I am and how I think. Writing, creative work, and the context behind the tools.
+- **Systems**: Three tools for working with AI (FormWork, SavePoint, LensArray), built from accommodation design.
+- **Evidence**: Applied work across enterprise platforms, brand systems, and this site.
 
 ## Tech Stack
 

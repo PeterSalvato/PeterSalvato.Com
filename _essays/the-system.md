@@ -6,7 +6,7 @@ title: "The Integrated System"
 published: true
 order: 4
 description: "Coordinators dispatch independent diagnostics in parallel, surface where they agree and disagree, and leave the decisions to the maker."
-seo_keywords: ["AI skill architecture", "coordinator pattern", "AI governance system", "creative evaluation", "Formwork Protocol", "Peter Salvato", "Claude Code skills", "AI agent architecture", "how to build AI workflows", "modular AI system", "multi-agent coordination", "AI task orchestration"]
+seo_keywords: ["AI skill architecture", "coordinator pattern", "AI governance system", "creative evaluation", "FormWork", "Peter Salvato", "Claude Code skills", "AI agent architecture", "how to build AI workflows", "modular AI system", "multi-agent coordination", "AI task orchestration"]
 ---
 
 I had seventeen skills and no way to run them together. Each one worked on its own. The Millman lens could evaluate a page for authenticity. The Grip Test could tell me if copy landed with a stranger. The voice protocol could catch AI writing patterns. But running them manually, one at a time, collecting the results in my head, trying to notice where they agreed and where they didn't: that's the same coordination problem my father solved on construction sites. Fifty trades, each good at their piece, nobody responsible for how it all fits together.
@@ -29,7 +29,7 @@ The **Millman lens** takes a portfolio page and evaluates it against five criter
 
 Coordinators run multiple skills together. The **audit coordinator** runs a baseline check and then fires five evaluative lenses at once: Millman, Bierut, Appleton, Peers, and Victore. Each lens evaluates the same pages from a different perspective. The audit collects all verdicts and presents them together. The **design review coordinator** captures screenshots at four breakpoints, then runs nine visual lenses covering restraint, type craft, personality, grid, and five other dimensions. If the print-craft lens scores below PRESSED, the coordinator offers a texture generation pass: the lens identifies the gap, the generative skill fills it, and I approve or reject what it produces.
 
-The rule that makes this work: individual skills stay single-purpose. Coordinators handle the structure. No skill needs to know what else is running. The methodology underneath is documented on the [Formwork Protocol](/systems/formwork/) page.
+The rule that makes this work: individual skills stay single-purpose. Coordinators handle the structure. No skill needs to know what else is running. The methodology underneath is documented on the [FormWork](/systems/formwork/) page.
 
 ## What the full pass surfaces
 
@@ -62,4 +62,4 @@ Every generative output in the system follows the same pattern. The print-craft 
 
 Everything described here is documented in a single manifest file. Every skill, what it does, what calls it, what it needs, what it returns. The manifest is the set of plans: the document my father carried that let him hold the whole structure in his head while every individual trade worked their piece. Nobody on site had to know how the plumbing connected to the electrical. He did. That's what the manifest does here.
 
-The methodology governing all of this is the [Formwork Protocol](/systems/formwork/). The protocol describes the approach. What you're reading is one implementation, built against twelve years of enterprise platform work and twenty years of design practice.
+The methodology governing all of this is [FormWork](/systems/formwork/). The protocol describes the approach. What you're reading is one implementation, built against twelve years of enterprise platform work and twenty years of design practice.

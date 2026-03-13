@@ -58,7 +58,7 @@ Back in New York, I had a project support position at Metis Associates. When tha
 
 Twelve years is long enough to see three major technology shifts come and go. Long enough to learn that the hard part is not building something. It is keeping it alive while everything around it changes, and keeping everyone working on it aligned while the decisions accumulate.
 
-I made the case for moving the platform to the browser, then built it. The platform never stopped running while I rebuilt the layer it ran on. The [Formwork Protocol](/systems/formwork/) came from watching what happened over those twelve years when the decisions lived in my head instead of in the project.
+I made the case for moving the platform to the browser, then built it. The platform never stopped running while I rebuilt the layer it ran on. [FormWork](/systems/formwork/) came from watching what happened over those twelve years when the decisions lived in my head instead of in the project.
 
 ## The Household
 
@@ -78,6 +78,6 @@ That education transferred to everything else. *Release* is an acoustic singer/s
 
 In 2023 I started thinking out loud into AI tools the way I'd been thinking into sketchbooks and production shops for twenty years. The first thing I did was what I'd done with every system before it: ask what it actually needs to do the job. How does it find context? Where does it lose the thread? What does it need from me so the thinking survives? The tool was new. The question was the same.
 
-The worst loss was a novel. Months of [New City](/evidence/new-city/) ideation distributed across dozens of sessions, the continuity severed when the sessions closed. That loss built the [Savepoint Syntax](/systems/savepoint/). The first version failed immediately. Three more before the structure held. Then the same problem surfaced in code: contributors contradicting each other's architectural decisions. That produced the [Formwork Protocol](/systems/formwork/).
+The worst loss was a novel. Months of [New City](/evidence/new-city/) ideation distributed across dozens of sessions, the continuity severed when the sessions closed. That loss built the [Savepoint Syntax](/systems/savepoint/). The first version failed immediately. Three more before the structure held. Then the same problem surfaced in code: contributors contradicting each other's architectural decisions. That produced [FormWork](/systems/formwork/).
 
 The failure modes were not new. Joints that cannot carry load, context that drifts when nobody maintains fidelity to it, structures that break when the people operating them cannot see what has already been decided. I have been solving that problem since construction sites. That corpus, three years of sessions and thousands of conversations, became the raw material this site was compiled from. The tools change. The engineering does not.

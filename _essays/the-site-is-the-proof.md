@@ -6,7 +6,7 @@ title: "The Site Is the Proof"
 published: true
 order: 7
 description: "A blind evaluator read this site and concluded it was unequivocally human-written. It wasn't. Every page was compiled from three years of conversations by the system described on the site."
-seo_keywords: ["AI governance", "anti-slop", "voice protocol", "systems architecture", "compiled portfolio", "Peter Salvato", "Formwork Protocol", "provenance", "AI content that passes human review", "how to make AI writing sound human", "AI slop detection", "AI quality control", "portfolio built with AI"]
+seo_keywords: ["AI governance", "anti-slop", "voice protocol", "systems architecture", "compiled portfolio", "Peter Salvato", "FormWork", "provenance", "AI content that passes human review", "how to make AI writing sound human", "AI slop detection", "AI quality control", "portfolio built with AI"]
 ---
 
 In March 2026, I asked Gemini to review petersalvato.com. I provided no prior knowledge, no context about who I am, and no explanation of how the site was built. I wanted a blind evaluation of the voice, the structure, and the "humanity" of the work. The evaluator spent time with the pages and then delivered its verdict. It praised the "anti-slop" quality of the writing. It noted the idiosyncratic taxonomy as a sign of a specific mental model. It identified what it called "pragmatic cynicism" and "contextual asymmetry" as clear markers of a human author who had actually lived through the projects described. The conclusion was definitive: the site was "unequivocally" human-derived. The only way AI could have been involved, the evaluator noted, was if someone had used an LLM to tighten up existing, very strong human drafts.
@@ -41,7 +41,7 @@ Gemini used a striking phrase for this: "Museum of the Distilled, not the Distil
 
 This leads to a recursive proof. The argument for the system isn't found in a white paper; it's found in the pages you are reading right now.
 
-The Formwork page describes evaluation layers; those layers were used to evaluate the Formwork page. The voice protocol page describes how to extract authentic voice from conversations; the copy on that page was verified against voice samples extracted from my own conversations. The Savepoint Syntax page describes how to mark cognitive turning points; that page exists because savepoints marked the turns during its own construction. [This Site](/practice/this-site/) describes the build process; the build process produced the page.
+The [FormWork](/systems/formwork/) page describes the coordination harness and its tools; those tools were used to build the FormWork page. The voice protocol page describes how to extract authentic voice from conversations; the copy on that page was verified against voice samples extracted from my own conversations. The Savepoint Syntax page describes how to mark cognitive turning points; that page exists because savepoints marked the turns during its own construction. [This Site](/practice/this-site/) describes the build process; the build process produced the page.
 
 Every tool described on this site was used to produce the site.
 

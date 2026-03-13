@@ -107,7 +107,7 @@ The first time an idea appears in the corpus, it probably wasn't called by its f
 
 Cognitive turning points need marking as they happen, or they disappear into the stream. **Savepoint Syntax** drops machine-readable tags inline during conversation: the moment something clicked, the moment understanding shifted. When the tools re-enter the corpus later, the savepoints tell them where the important moments were.
 
-Finally, "is this good?" is twelve questions disguised as one. **Evaluation lenses** (Formwork) decompose it into independent dimensions, each assessed against its own criteria by a lens extracted from a real practitioner's body of work. The model never evaluates across multiple dimensions at once.
+Finally, "is this good?" is twelve questions disguised as one. **[LensArray](/systems/lensarray/)** decomposes it into independent dimensions, each assessed against its own criteria by a lens extracted from a real practitioner's body of work. The model never evaluates across multiple dimensions at once.
 
 ### 4.3 The Output
 
@@ -209,9 +209,10 @@ The question for practitioners is not "how do I write a better prompt?" It is "h
 
 The following open-source tools implement input inversion:
 
-- **[Savepoint Syntax](https://github.com/PeterSalvato/Savepoint.Protocol)**: Context preservation markup for cognitive turning points (v3.1)
-- **[Formwork Protocol](/systems/formwork/)**: Decomposed evaluation with practitioner-extracted lenses
-- **[Formwork Skills Architecture](https://github.com/PeterSalvato/formwork)**: Accommodation tools including voice sampling, knowledge traversal, and interview
+- **[FormWork](/systems/formwork/)**: The accommodation design process. Coordination harness for all tools during a project.
+- **[SavePoint Syntax](https://github.com/PeterSalvato/Savepoint.Protocol)**: Context preservation markup for cognitive turning points (v3.1)
+- **[LensArray](/systems/lensarray/)**: Decomposed evaluation with practitioner-extracted lenses
+- **[Skills Architecture](https://github.com/PeterSalvato/formwork)**: Accommodation tools including voice sampling, knowledge traversal, and interview
 
 The production site [petersalvato.com](/) was compiled from unstructured conversational data using these tools.
 

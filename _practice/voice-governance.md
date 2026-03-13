@@ -149,7 +149,7 @@ This is the accommodation insight. Constrain during generation, not filter after
 
 The first complete draft of petersalvato.com was produced without voice governance. Twenty-one pages of competent copy. Abstract openings, generic register, no human presence. Clean architecture, wrong voice.
 
-Every page was rewritten under the voice protocol. Some pages took three passes before the voice held. The Formwork Protocol page, which describes evaluation methodology, was one of the hardest. The instinct is to explain how evaluation works. The protocol demanded I show what evaluation produced: the SVA critique room, the construction metaphor, what happens when lenses disagree.
+Every page was rewritten under the voice protocol. Some pages took three passes before the voice held. The FormWork page, which describes the coordination process, was one of the hardest. The instinct is to explain how evaluation works. The protocol demanded I show what evaluation produced: the SVA critique room, the construction metaphor, what happens when lenses disagree.
 
 The same model, the same source material, the same project. The difference was the generation constraints. The constraints changed what the model could do, which changed the structure of what the model built, which changed whether a reader could hear a person in the text.
 

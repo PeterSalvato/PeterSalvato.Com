@@ -10,27 +10,27 @@ seo_keywords: ["design vocabulary", "systems thinking terminology", "mined langu
 
 The working language of Peter Salvato's [accommodation design](/practice/accommodation-design/) practice. These terms emerged from applied work across construction, print production, special education, enterprise software, and AI system architecture. They recur because the problems recur.
 
-[Accommodation Design](#accommodation-design) · [Attunement](#attunement) · [Context](#context) · [Drift](#drift) · [Fidelity](#fidelity) · [Formwork](#formwork) · [Input Inversion](#input-inversion) · [Load-bearing](#load-bearing) · [Processing Profile](#processing-profile) · [Savepoint](#savepoint) · [Scaffold](#scaffold) · [Somatic Design](#somatic-design)
+[Accommodation Design](#accommodation-design) · [Attunement](#attunement) · [Context](#context) · [Drift](#drift) · [Fidelity](#fidelity) · [FormWork](#formwork) · [Input Inversion](#input-inversion) · [Load-bearing](#load-bearing) · [Processing Profile](#processing-profile) · [Savepoint](#savepoint) · [Scaffold](#scaffold) · [Somatic Design](#somatic-design)
 
 ---
 
 <span id="accommodation-design"></span>**Accommodation Design**
-A framework for AI system architecture that comes from special education. Instead of constraining a model's behavior, accommodation design asks what the model actually needs to produce quality output. The question originates from IEP design: read the system's processing profile, then design the task to meet it. When AI output degrades despite increasingly refined prompts, the cause is usually task design, not model capability. The [whitepaper](/practice/accommodation-design/) documents the full framework. [Formwork](/systems/formwork/) implements it as process.
+A framework for AI system architecture that comes from special education. Instead of constraining a model's behavior, accommodation design asks what the model actually needs to produce quality output. The question originates from IEP design: read the system's processing profile, then design the task to meet it. When AI output degrades despite increasingly refined prompts, the cause is usually task design, not model capability. The [whitepaper](/practice/accommodation-design/) documents the full framework. [FormWork](/systems/formwork/) implements it as process.
 
 ---
 
 <span id="drift"></span>**Drift**
-The gradual loss of original intent as work moves through execution. Deeper than technical debt or design debt. Debt assumes you know the standard and are cutting corners against it. Drift is when the standard itself becomes invisible. Reasonable decisions accumulate into something nobody chose. It happens to methods, not just to outputs: the thinking underneath the work erodes, which causes the work to erode. When AI output degrades over time and nobody can identify why, drift in the method is usually the cause. [Savepoint](/systems/savepoint/) addresses drift in thinking. [Formwork](/systems/formwork/) addresses drift in evaluation. [Encore](/evidence/encore/) is what twelve years without drift looks like.
+The gradual loss of original intent as work moves through execution. Deeper than technical debt or design debt. Debt assumes you know the standard and are cutting corners against it. Drift is when the standard itself becomes invisible. Reasonable decisions accumulate into something nobody chose. It happens to methods, not just to outputs: the thinking underneath the work erodes, which causes the work to erode. When AI output degrades over time and nobody can identify why, drift in the method is usually the cause. [Savepoint](/systems/savepoint/) addresses drift in thinking. [FormWork](/systems/formwork/) addresses drift in process. [Encore](/evidence/encore/) is what twelve years without drift looks like.
 
 ---
 
-<span id="formwork"></span>**Formwork**
-The accommodation design process. Named from concrete construction: formwork is the temporary structure you pour into. It shapes the work while things are fluid. Once the concrete sets, the form comes off. Each tool in the [Formwork](/systems/formwork/) system accommodates a specific processing constraint in the model: [Savepoint Syntax](/systems/savepoint/) preserves context between sessions. [LensArray](/systems/lensarray/) decomposes evaluation into independent dimensions. Voice sampling extracts authentic register from conversation rather than publication. Knowledge traversal traces concepts chronologically rather than by keyword. The skill architecture gives the model one objective at a time.
+<span id="formwork"></span>**FormWork**
+The accommodation design process. Named from concrete construction: formwork is the temporary structure you build before the pour. It holds the boards in position, keeps the pour contained, gives the wet material somewhere to go. Once the concrete sets, the form comes off. [FormWork](/systems/formwork/) is not any single tool. It is the coordination harness that holds all the tools in position while the work is wet: [SavePoint Syntax](/systems/savepoint/) preserves context, [LensArray](/systems/lensarray/) decomposes evaluation, skills execute one objective at a time, the voice pipeline shapes register, knowledge traversal traces ideation history. The pour is unstructured human thinking. The tools shape it. FormWork holds the tools. Out comes the work.
 
 ---
 
 <span id="scaffold"></span>**Scaffold**
-A temporary structure that supports the work while it's being built. In [Savepoint Syntax](/systems/savepoint/), scaffolding is a tag syntax. In [Formwork](/systems/formwork/), it's the tools that shape how the model processes. In [Aiden Jae](/evidence/aiden-jae/), it was photography direction encoded into the Shopify architecture. The forms differ. The function is the same. In accommodation design, a scaffold's purpose is to become unnecessary. If it stays permanently, it has built a dependency, not a capability.
+A temporary structure that supports the work while it's being built. In [Savepoint Syntax](/systems/savepoint/), scaffolding is a tag syntax. In [FormWork](/systems/formwork/), it's the tools that shape how the model processes. In [Aiden Jae](/evidence/aiden-jae/), it was photography direction encoded into the Shopify architecture. The forms differ. The function is the same. In accommodation design, a scaffold's purpose is to become unnecessary. If it stays permanently, it has built a dependency, not a capability.
 
 ---
 

@@ -1,22 +1,22 @@
 ---
 layout: project
-title: "Formwork"
+title: "FormWork"
 redirect_from: /governance/formwork-protocol/
 subtitle: "The Accommodation Design Process"
 icon: layers
 status: "Active"
 faculty: ["design", "engineering", "uxia"]
-seo_keywords: ["AI accommodation design", "formwork protocol", "AI task decomposition", "context preservation", "evaluation lenses", "voice sampling AI", "knowledge traversal", "AI governance process", "accommodation design process", "cognitive accommodation AI", "how to build AI tools", "AI workflow for creative work", "better AI evaluation", "AI keeps forgetting context", "structured AI process"]
-description: "The accommodation design process. A set of tools that shape how AI systems receive and process work: context preservation, decomposed evaluation, voice sampling, knowledge traversal, task decomposition. Each tool accommodates a specific processing constraint. Together they form the pour."
+seo_keywords: ["AI accommodation design", "FormWork", "AI task decomposition", "context preservation", "evaluation lenses", "voice sampling AI", "knowledge traversal", "AI governance process", "accommodation design process", "cognitive accommodation AI", "how to build AI tools", "AI workflow for creative work", "better AI evaluation", "AI keeps forgetting context", "structured AI process"]
+description: "The accommodation design process. Named from concrete construction: the temporary structure that holds the tools in position while the work is wet. SavePoint, LensArray, skills, voice, knowledge traversal. FormWork coordinates them. The pour is unstructured thinking. Out comes the work. The formwork comes off."
 last_modified: 2026-03-11
 faq: true
 faq_items:
-  - question: "What is Formwork?"
-    answer: "The accommodation design process. A set of tools that shape how AI systems receive and process work. Savepoint Syntax preserves context between sessions. LensArray decomposes evaluation into independent layers. Voice sampling pulls from conversation, not publication. Knowledge traversal reads chronologically instead of searching. The skill architecture gives the model one objective at a time. Each tool accommodates a specific processing constraint. Together they form the process that produced this site."
+  - question: "What is FormWork?"
+    answer: "The accommodation design process. Not any single tool. The coordination harness that holds all the tools in position while the work is wet. SavePoint preserves context. LensArray decomposes evaluation. Skills execute one objective at a time. The voice pipeline shapes register. Knowledge traversal traces ideation history. FormWork coordinates them: which tool, when, in what order. The pour is unstructured human thinking. The tools shape it. FormWork holds the tools. Out comes the work. The formwork comes off."
   - question: "Where does the name come from?"
-    answer: "Concrete construction. You build formwork before you pour. The temporary structure shapes the work while things are fluid. Once the concrete sets, the form comes off. The shape holds on its own. Every tool in this process works the same way: temporary structure that shapes thinking while it's still moving."
+    answer: "Concrete construction. You build formwork before you pour. The temporary structure holds the boards in position, keeps the pour contained, gives the wet material somewhere to go. Once the concrete sets, the form comes off. The shape holds on its own."
   - question: "How is this different from prompt engineering?"
-    answer: "Prompt engineering starts with what you want and tries to steer the model toward it. Formwork starts with what the model needs and designs the task to meet that processing reality. The question isn't how do I get what I want. The question is what does this system actually need to do the job."
+    answer: "Prompt engineering starts with what you want and tries to steer the model toward it. FormWork starts with what the model needs and designs the task to meet that processing reality. The question isn't how do I get what I want. The question is what does this system actually need to do the job."
   - question: "Does this only work for design?"
     answer: "The architecture is medium-independent. A chef, an educator, a writer, an engineer all face the same structural problem: compound tasks that need decomposing, context that needs preserving, evaluation that needs separating into independent concerns. The tools accommodate processing constraints. Those constraints don't change by field."
 related:
@@ -28,9 +28,11 @@ cta:
   link: /practice/accommodation-design/
 ---
 
-Formwork is Peter Salvato's [accommodation design](/practice/accommodation-design/) process: a set of tools that shape how AI systems receive and process work. Each tool accommodates a specific processing constraint in the model. Together they form the process that produced this site.
+FormWork is the [accommodation design](/practice/accommodation-design/) process. Not any single tool. The harness that holds all the tools in position while the work is wet.
 
-The name comes from concrete construction. You build formwork before you pour. The temporary structure shapes the work while things are fluid. Once the concrete sets, the form comes off. The shape holds on its own. Every tool in this system follows that pattern.
+The name comes from concrete construction. You build formwork before you pour. The temporary structure shapes the work while things are fluid. It holds the boards in position, keeps the pour contained, gives the wet material somewhere to go. Once the concrete sets, the form comes off. The shape holds on its own.
+
+The pour is unstructured human thinking: brainstorming, voice notes, conversations where I argue with myself and change direction mid-sentence. Three years of that produced the corpus everything else operates on. The tools shape it. FormWork holds the tools. Out comes the work. The formwork comes off.
 
 ---
 
@@ -38,13 +40,13 @@ The name comes from concrete construction. You build formwork before you pour. T
 
 [Accommodation design](/practice/accommodation-design/) is the framework, the theory, the "why." It originated in a special education classroom in Brooklyn where I ran twelve IEPs simultaneously and learned to read what a system needs before designing the task.
 
-Formwork is the process, the toolkit, the "how." The question underneath every tool is the same one I learned to ask in that classroom: what does this system actually need to do this job well?
+FormWork is the process, the coordination, the "how." Each tool inside the harness accommodates a specific processing constraint. The question underneath every tool is the same one I learned to ask in that classroom: what does this system actually need to do this job well?
 
 ---
 
 ## The tools
 
-### Savepoint Syntax: context accommodation
+### SavePoint Syntax: context accommodation
 
 Models have no persistent memory between sessions. When a thread closes, the context evaporates. The thinking that happened, the moment something clicked, the point where understanding shifted: none of it survives into the next session. If you have ever returned to an AI conversation and found the model has no memory of where the work was headed, this is the constraint.
 
@@ -52,11 +54,11 @@ Models have no persistent memory between sessions. When a thread closes, the con
 
 **The constraint it accommodates:** No persistent memory between sessions. Savepoints give the model enough orientation to reconstruct where the thinking was.
 
-### LensArray: evaluation accommodation
+### [LensArray](/systems/lensarray/): evaluation accommodation
 
 "Is this good?" is twelve questions disguised as one. Give that compound evaluation to a model and the criteria blur together. Structural assessment contaminates narrative assessment. The result is a blended average that tells you nothing actionable.
 
-[LensArray](/systems/lensarray/) decomposes evaluation into distinct layers of concern, each staffed with lenses extracted from real practitioners. Each lens runs independently with its own criteria and its own definition of success. A coordinator collects verdicts and maps where they agree and where they disagree. The maker resolves the disagreements.
+LensArray decomposes evaluation into distinct layers of concern, each staffed with lenses extracted from real practitioners. Each lens runs independently with its own criteria and its own definition of success. A coordinator collects verdicts and maps where they agree and where they disagree. The maker resolves the disagreements.
 
 **The constraint it accommodates:** Models flatten compound evaluations. Concurrent criteria contaminate each other. Independent layers, each with one clear question, produce verdicts you can act on.
 
@@ -88,13 +90,13 @@ Every skill has one objective, one output, no knowledge of other skills. Twenty-
 
 ## How they work together
 
-The tools form a process, not a collection.
+FormWork is the harness. The tools do their jobs inside it.
 
-Raw, unstructured thinking goes in: voice notes, brainstorming sessions, conversations where I argue with myself and change direction mid-sentence. Three years of that produced the corpus everything else operates on.
+The pour goes in: raw, unstructured thinking. Voice notes, brainstorming sessions, conversations where I argue with myself and change direction mid-sentence. Three years of that produced the corpus everything else operates on.
 
-Savepoint Syntax marks where the thinking turned. Knowledge traversal traces how ideas developed across the corpus. The voice pipeline extracts how I actually communicate. LensArray evaluates the output across independent dimensions. The skill architecture keeps every task within the model's processing range.
+SavePoint Syntax marks where the thinking turned. Knowledge traversal traces how ideas developed across the corpus. The voice pipeline extracts how I actually communicate. LensArray evaluates the output across independent dimensions. The skill architecture keeps every task within the model's processing range. FormWork coordinates them: which tool, when, in what order.
 
-[petersalvato.com](/) was compiled through this process. Every page evaluated by independent lenses. Every piece of copy verified against voice patterns extracted from conversation. Context preserved across hundreds of sessions by savepoints. Concepts traced through three years of unstructured thinking by the traversal system. Each skill receiving one clear objective at a time.
+[petersalvato.com](/) was compiled through this process. Every page evaluated by independent lenses. Every piece of copy verified against voice patterns extracted from conversation. Context preserved across hundreds of sessions by savepoints. Concepts traced through three years of unstructured thinking by the traversal system. Each skill receiving one clear objective at a time. The formwork came off. The site stands.
 
 ---
 
@@ -110,4 +112,4 @@ The goal is structure that holds on its own.
 
 ---
 
-[petersalvato.com](/) was compiled using Formwork. [This Site](/practice/this-site/) shows the tools in action: the evaluation system, the context preservation, the voice pipeline, the knowledge traversal.
+[petersalvato.com](/) was compiled inside FormWork. [This Site](/practice/this-site/) shows the process: the pour, the tools, the coordination, the work that stands after the formwork came off.

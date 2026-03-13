@@ -35,7 +35,7 @@ A monolithic prompt that says "evaluate this portfolio for voice quality, struct
 
 The fix is the same fix. Decompose. One skill per evaluation dimension. Each skill has one clear objective. Each skill produces a visible result before the next one runs.
 
-I call the single-purpose skills "atomics." Each one does one thing. The [Formwork Protocol](/systems/formwork/) runs them as separate diagnostics: one lens tests for structural restraint (extracted from Vignelli's body of work), another tests for narrative identity (extracted from Victore's), another tests for whether a stranger would understand this in sixty seconds. They don't know about each other. They don't need to. Their job is to measure one thing accurately.
+I call the single-purpose skills "atomics." Each one does one thing. [LensArray](/systems/lensarray/) runs them as separate diagnostics: one lens tests for structural restraint (extracted from Vignelli's body of work), another tests for narrative identity (extracted from Victore's), another tests for whether a stranger would understand this in sixty seconds. They don't know about each other. They don't need to. Their job is to measure one thing accurately.
 
 Same operation as the classroom. Break the complex task into pieces the system can hold. Let each piece produce a clear result. Sequence them so nothing gets lost.
 
@@ -49,7 +49,7 @@ The coordinator pattern in my skill architecture works the same way. A coordinat
 
 The coordinator is scaffolding. It holds the structure while the pieces do the work. If I hardcoded the synthesis logic into the atomics themselves, each one would need to know about all the others. They'd be coupled. Change one and you'd break three. Instead, the coordinator carries the structural knowledge. The atomics stay simple, single-purpose, and independently testable.
 
-When I built the [audit coordinator](/systems/formwork/), it dispatches nine evaluation lenses in parallel. Each lens runs independently. The coordinator collects nine separate verdicts and identifies where they agree and where they contradict. That contradiction is the valuable signal. Two lenses scoring the same work differently means there's a real tension to resolve. The coordinator surfaces it. The atomics just measured.
+When I built the audit coordinator, it dispatches nine evaluation lenses in parallel. Each lens runs independently. The coordinator collects nine separate verdicts and identifies where they agree and where they contradict. That contradiction is the valuable signal. Two lenses scoring the same work differently means there's a real tension to resolve. The coordinator surfaces it. The atomics just measured.
 
 Same principle as a well-designed classroom. The structure holds while the learners do the work. The structure doesn't do the learning for them. And the goal is always the same: build the capacity so the scaffolding can come down.
 
@@ -61,7 +61,7 @@ The hardest part of running twelve IEPs simultaneously isn't the paperwork. It's
 
 This is exactly the problem with evaluating creative work. "Is this portfolio good?" is not a meaningful question. Good by whose criteria? Structural lenses say the grid is clean and the typography is consistent. Narrative lenses say it feels like it could be anyone's site. Both verdicts are correct. They're measuring against different criteria.
 
-The Formwork Protocol handles this the way an IEP handles a classroom. Each evaluation lens has its own criteria, its own definition of success, its own pass/fail threshold. The lenses don't vote. They don't average. They each produce an independent verdict against their own standard. The convergence analysis (where lenses agree) and the contradiction analysis (where they disagree) are both useful outputs. A consensus means the work is solid on that dimension. A contradiction means there's a design decision to make.
+[LensArray](/systems/lensarray/) handles this the way an IEP handles a classroom. Each evaluation lens has its own criteria, its own definition of success, its own pass/fail threshold. The lenses don't vote. They don't average. They each produce an independent verdict against their own standard. The convergence analysis (where lenses agree) and the contradiction analysis (where they disagree) are both useful outputs. A consensus means the work is solid on that dimension. A contradiction means there's a design decision to make.
 
 In the classroom, when two IEP goals conflicted (one student needed quiet, another needed verbal processing), the resolution was a structural decision: where to seat them, when to schedule which activity, how to create pockets of different conditions within one room. The conflict wasn't a problem. It was information about what the room needed to accommodate.
 

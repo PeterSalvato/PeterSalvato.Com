@@ -3,7 +3,7 @@ layout: default
 title: "Work"
 permalink: /work/
 description: "Systems, applied work, and the practice behind them."
-seo_keywords: ["Peter Salvato work", "accommodation design", "AI governance", "design engineering", "Formwork", "Savepoint Syntax", "LensArray"]
+seo_keywords: ["Peter Salvato work", "accommodation design", "AI governance", "design engineering", "FormWork", "SavePoint Syntax", "LensArray"]
 last_modified: 2026-03-13
 ---
 

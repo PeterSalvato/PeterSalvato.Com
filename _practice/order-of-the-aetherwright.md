@@ -81,4 +81,4 @@ I don't own the framework. I steward it. Others can learn it.
 
 ---
 
-The glyph system now classifies every artifact in this portfolio. [Savepoint Syntax](/systems/savepoint/) uses the same architecture. [Formwork Protocol](/systems/formwork/) applies the same principle to project governance.
+The glyph system now classifies every artifact in this portfolio. [Savepoint Syntax](/systems/savepoint/) uses the same architecture. [FormWork](/systems/formwork/) applies the same principle to project coordination.

@@ -7,12 +7,12 @@ redirect_from:
   - /evidence/colophon/
   - /evidence/this-site/
 description: "How this site was compiled by hand from a three-year corpus using the tools described on it. The build log for a craftsman's workbench made of AI tools."
-seo_keywords: ["compiled portfolio", "AI governance", "formwork protocol", "savepoint syntax", "voice protocol", "hand compilation AI", "craftsman AI tools"]
+seo_keywords: ["compiled portfolio", "AI governance", "FormWork", "savepoint syntax", "voice protocol", "hand compilation AI", "craftsman AI tools"]
 last_modified: 2026-03-13
 faq: true
 faq_items:
   - question: "How was petersalvato.com built?"
-    answer: "The site was compiled from three years of conversation transcripts using the Formwork process, Savepoint Syntax, and a voice protocol derived from how Peter actually talks in unguarded sessions. AI tools serve as the compiler. The source code is the maker's own decisions, instincts, and working knowledge."
+    answer: "The site was compiled from three years of conversation transcripts using the FormWork process, Savepoint Syntax, and a voice protocol derived from how Peter actually talks in unguarded sessions. AI tools serve as the compiler. The source code is the maker's own decisions, instincts, and working knowledge."
   - question: "What tools were used to build this site?"
     answer: "Jekyll 4.4.1 with custom SCSS, hosted on GitHub Pages. Build tools include ChatGPT for exploratory thinking, Gemini for planning, and Claude Code for engineering. Visual treatments produced by PressWorks. The governance infrastructure was assembled over nearly a year before the current tools existed."
   - question: "What is the difference between compilation and generation?"
@@ -59,7 +59,7 @@ I started adding governance documents to my repos. A CONVENTIONS.md to hold inst
 
 When I moved to Claude Code, the pieces landed. A CLAUDE.md file at the project root carries the site's institutional memory and every session reads it automatically before work begins. No copy-pasting. The file is the session context. Anthropic's engineering team built the same patterns into their product that I had been assembling by hand for months. I did not adopt their solution. They arrived at mine.
 
-That was the seed of [Formwork](/systems/formwork/). Nearly a year of failed attempts, manual workarounds, and real collapses that kept exposing the same problem from new angles. The fix held and kept expanding as the project exposed new failure modes.
+That was the seed of [FormWork](/systems/formwork/). Nearly a year of failed attempts, manual workarounds, and real collapses that kept exposing the same problem from new angles. The fix held and kept expanding as the project exposed new failure modes.
 
 ---
 
@@ -73,17 +73,17 @@ I caught it by running the writing through evaluation questions: is there a real
 
 I wrote a voice protocol in response. Rules based on Debbie Millman's interview discipline (give me the real human moment, name what you were chasing, make the stakes specific enough to be believed) held by a craftsman's instinct (show the work, lead with action, use material vocabulary, no hype). The protocol checks every draft against both sides. If a sentence fails either test, it gets cut or rewritten.
 
-Then I rewrote every page against it. Some pages took three passes before the voice held. The [Formwork](/systems/formwork/) page, which is about evaluation methodology, was one of the hardest. The instinct is to explain how evaluation works. The protocol demanded I show what evaluation produced: the SVA critique room, the construction metaphor, what happens when lenses disagree.
+Then I rewrote every page against it. Some pages took three passes before the voice held. The [FormWork](/systems/formwork/) page, which describes the coordination process, was one of the hardest. The instinct is to explain how evaluation works. The protocol demanded I show what evaluation produced: the SVA critique room, the construction metaphor, what happens when lenses disagree.
 
 ---
 
 ## How the evaluation works
 
-The evaluation system described on the [Formwork](/systems/formwork/) page runs on this site. Structural lenses (extracted from Vignelli, Rams, Muller-Brockmann) evaluate whether the design is well-built: grid, typography, spacing, hierarchy. Narrative lenses (extracted from Victore, Millman, Draplin) evaluate whether the site feels like a specific person's space.
+The evaluation system ([LensArray](/systems/lensarray/)) runs on this site. Structural lenses (extracted from Vignelli, Rams, Muller-Brockmann) evaluate whether the design is well-built: grid, typography, spacing, hierarchy. Narrative lenses (extracted from Victore, Millman, Draplin) evaluate whether the site feels like a specific person's space.
 
 During one evaluation pass, the structural lenses scored seven out of nine criteria at the top tier. The narrative lens that asks "does this feel like a world? would a stranger know who this person is just by being in the room?" scored WEAK. The craft was sound and the identity was buried. I kept the structural foundation and rewrote the copy to bring the identity forward. Two layers, opposite readings, one choice that honored both.
 
-That tension cracked open the layered evaluation architecture at the core of the Formwork process. The principle was old: multiple perspectives, accumulated decisions, the SVA critique room. The operational structure came from watching that principle produce a real contradiction on a real build.
+That tension cracked open the layered evaluation architecture that became [LensArray](/systems/lensarray/). The principle was old: multiple perspectives, accumulated decisions, the SVA critique room. The operational structure came from watching that principle produce a real contradiction on a real build.
 
 ---
 

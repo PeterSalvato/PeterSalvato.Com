@@ -119,7 +119,7 @@ The pattern is: broken notebooks (thinking preserved, retrieval impossible) → 
 
 ### 5.2 The Coupling at Scale
 
-Since 2023 I have maintained continuous cognitive coupling with AI systems: 1,643 ChatGPT sessions of raw thinking, 700+ Claude Code sessions of implementation, and Gemini exports. The coupling produced a deployed professional site, a published methodology (accommodation design), and an open-source toolkit (Savepoint Syntax, Formwork). It was not planned as a research program. It accumulated naturally from treating the model as a thinking extension. I didn't assign it work. I thought with it.
+Since 2023 I have maintained continuous cognitive coupling with AI systems: 1,643 ChatGPT sessions of raw thinking, 700+ Claude Code sessions of implementation, and Gemini exports. The coupling produced a deployed professional site, a published methodology (accommodation design), and an open-source toolkit (SavePoint Syntax, FormWork). It was not planned as a research program. It accumulated naturally from treating the model as a thinking extension. I didn't assign it work. I thought with it.
 
 The key output is the accumulated cognitive state: a rich, evolving representation of how one practitioner thinks, stored in a format the extended system can access and process. Voice patterns extracted from conversation history let the system write in a register that matches how I actually communicate, verified as "unequivocally human-written" by third-party assessment. Knowledge traversal across the full corpus traces how ideas evolved across months, catching connections no keyword search could find.
 
@@ -129,7 +129,7 @@ A tool couldn't do this. A tool processes what you give it in the moment. The pr
 
 The coupling requires investment in the interface. Five purpose-built tools handle the translation.
 
-**Savepoint Syntax** marks cognitive turning points as they happen, so the extended system can find its way back to important moments. It started as the retrieval system my sketchbooks never had: "the analog analog to grep," as I described it while designing the handwritten version. **Formwork** decomposes evaluation into independent dimensions with practitioner-specific criteria. Together they handle context preservation and quality assessment.
+**SavePoint Syntax** marks cognitive turning points as they happen, so the extended system can find its way back to important moments. It started as the retrieval system my sketchbooks never had: "the analog analog to grep," as I described it while designing the handwritten version. **[LensArray](/systems/lensarray/)** decomposes evaluation into independent dimensions with practitioner-specific criteria. Together they handle context preservation and quality assessment.
 
 On the task side, the **skill architecture** structures every operation as a single objective, keeping the model within its processing strengths. The **voice pipeline** works the other direction: it extracts communication patterns from raw conversation so the system's output matches my cognitive register.
 
@@ -225,9 +225,10 @@ Build the interface. That's the whole practice. Make it fit how you actually thi
 
 The following open-source tools implement the cognitive coupling described in this paper:
 
-- **[Savepoint Syntax](https://github.com/PeterSalvato/Savepoint.Protocol)**: Context preservation at cognitive turning points (v3.1)
-- **[Formwork Protocol](/systems/formwork/)**: Decomposed evaluation with practitioner-extracted lenses
-- **[Formwork Skills Architecture](https://github.com/PeterSalvato/formwork)**: Interface layer for cognitive coupling (voice, knowledge, evaluation, task decomposition)
+- **[FormWork](/systems/formwork/)**: The accommodation design process. Coordination harness for all tools during a project.
+- **[SavePoint Syntax](https://github.com/PeterSalvato/Savepoint.Protocol)**: Context preservation at cognitive turning points (v3.1)
+- **[LensArray](/systems/lensarray/)**: Decomposed evaluation with practitioner-extracted lenses
+- **[Skills Architecture](https://github.com/PeterSalvato/formwork)**: Interface layer for cognitive coupling (voice, knowledge, evaluation, task decomposition)
 
 The production site [petersalvato.com](/) was compiled through the cognitive coupling described in this paper.
 

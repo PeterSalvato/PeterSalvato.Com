@@ -126,4 +126,4 @@ The continuity I lost before the syntax existed stopped happening. The markers w
 
 The syntax runs across everything now: [Encore's](/evidence/encore/) platform decisions, [Aiden Jae's](/evidence/aiden-jae/) brand architecture, the portfolio site itself, the novel that started it. v3.1, open source.
 
-Savepoints mark where understanding shifts. [Formwork](/systems/formwork/) structures how the work gets evaluated: distinct layers of concern, run independently, read together. [This Site](/practice/this-site/) shows both running on the site you are reading.
+Savepoints mark where understanding shifts. [FormWork](/systems/formwork/) coordinates how the tools work together: SavePoint preserves context, [LensArray](/systems/lensarray/) decomposes evaluation into independent layers, skills execute one objective at a time. [This Site](/practice/this-site/) shows both running on the site you are reading.
