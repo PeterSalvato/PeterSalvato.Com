@@ -7,12 +7,12 @@ icon: layers
 status: "Active"
 faculty: ["design", "engineering", "uxia"]
 seo_keywords: ["AI accommodation design", "FormWork", "AI task decomposition", "context preservation", "evaluation lenses", "voice sampling AI", "knowledge traversal", "AI governance process", "accommodation design process", "cognitive accommodation AI", "how to build AI tools", "AI workflow for creative work", "better AI evaluation", "AI keeps forgetting context", "structured AI process"]
-description: "The accommodation design process. Named from concrete construction: the temporary structure that holds the tools in position while the work is wet. The pour is the first phase: deliberately generating source material in your own voice. SavePoint, LensArray, skills, voice, knowledge traversal shape it. FormWork coordinates them. Out comes the work. The formwork comes off."
+description: "The accommodation design process. Named from concrete construction: the temporary structure that holds the tools in position while the work is wet. It starts with the pour: getting the idea out of your head with as little friction as possible. The pour accommodates the human. Every other tool accommodates the model. FormWork coordinates them. Out comes the work. The formwork comes off."
 last_modified: 2026-03-11
 faq: true
 faq_items:
   - question: "What is FormWork?"
-    answer: "The accommodation design process. Not any single tool. The coordination harness that holds all the tools in position while the work is wet. The pour is the first phase: deliberately generating source material in your own voice, so that ideas, sentence structure, word choice, and imagery are embedded in the data before any tool touches it. SavePoint preserves context. LensArray decomposes evaluation. Skills execute one objective at a time. The voice pipeline shapes register. Knowledge traversal traces ideation history. FormWork coordinates them: which tool, when, in what order. The nature of what goes in determines the shape of what comes out."
+    answer: "The accommodation design process. Not any single tool. The coordination harness that holds all the tools in position while the work is wet. It starts with the pour: getting the idea out of your head with as little friction as possible. Talk, dictate, answer questions. The raw material carries your voice, your thinking, the way you actually connect ideas. Every other tool in the harness accommodates the model. The pour accommodates the maker. SavePoint preserves context. LensArray decomposes evaluation. Skills execute one objective at a time. The voice pipeline shapes register. Knowledge traversal traces ideation history. FormWork coordinates them: which tool, when, in what order. The nature of what goes in determines the shape of what comes out."
   - question: "Where does the name come from?"
     answer: "Concrete construction. You build formwork before you pour. The temporary structure holds the boards in position, keeps the pour contained, gives the wet material somewhere to go. Once the concrete sets, the form comes off. The shape holds on its own."
   - question: "How is this different from prompt engineering?"
@@ -32,13 +32,7 @@ FormWork is the [accommodation design](/practice/accommodation-design/) process.
 
 The name comes from concrete construction. You build formwork before you pour. The temporary structure shapes the work while things are fluid. It holds the boards in position, keeps the pour contained, gives the wet material somewhere to go. Once the concrete sets, the form comes off. The shape holds on its own.
 
-The pour is the first phase of the process: deliberately generating source material in your own voice. Brainstorming, voice notes, conversations where I argue with myself and change direction mid-sentence. It can be three years of accumulated thinking or a focused dump session. If the source material doesn't exist yet, the interview skill extracts it.
-
-This phase is required, not optional. Without it, the tools have nothing real to work from. The voice pipeline can't preserve a voice that isn't in the source material. Knowledge traversal can't trace thinking that was never captured. The tools don't generate what's missing. They shape what's there.
-
-The source material is conversational because the model's training data is dominated by polished published writing. Feed it written prose and the output regresses toward that average. Conversational material gives the voice pipeline something that actually sounds like the maker: the sentence rhythms, word choices, and specific imagery they reach for when they're thinking, not performing.
-
-The pour also carries the real structure of the thinking. How you sequence ideas in conversation, where you backtrack, what you connect to what: that reveals the actual architecture of the work. A summary or outline flattens it. The pour preserves it. The nature of what goes in determines the shape of what comes out.
+In concrete construction, you pour before anything else. In FormWork, the pour is the same: deliberately generating source material in your own voice before any tool touches it. The nature of what goes in determines the shape of what comes out.
 
 ---
 
@@ -48,9 +42,23 @@ The pour also carries the real structure of the thinking. How you sequence ideas
 
 FormWork is the process, the coordination, the "how." Each tool inside the harness accommodates a specific processing constraint. The question underneath every tool is the same one I learned to ask in that classroom: what does this system actually need to do this job well?
 
+That question applies to both systems in the room. The model has processing constraints. So does the human.
+
 ---
 
 ## The tools
+
+### The pour: extraction accommodation
+
+You have an idea and you need to get it out of your head. Most workflows ask you to structure your thinking before you begin: outline it, organize it, write it up. That's a friction point. Structure at the point of capture kills the thing you're trying to capture. The idea calcifies into something less than what it actually is.
+
+The pour removes that friction. Talk. Dictate. Answer questions. Don't organize, don't outline, don't write. The system is designed so the gap between "I have an idea" and "it's captured" is as small as possible. Spin up an interview skill and it extracts what's in your head through conversation. Record a voice note from the car. Dump a brainstorming session. The material stays raw, conversational, unstructured, and that's the point: it carries your actual voice, your actual thinking, the way you actually connect ideas.
+
+This is FormWork's first accommodation, and the only one aimed at the human. Every other tool in the harness accommodates the model. This one accommodates the maker. And the rest of the system only works because this one came first. Without the pour, the tools have nothing real to work from.
+
+The pour isn't a one-time step. It's available throughout the process. A new facet emerges mid-project, you spin up an interview and fill it. The corpus grows as the project grows, and the tools can re-sample from it at any point.
+
+**The constraint it accommodates:** Humans lose fidelity when forced to structure ideas at the point of capture. Removing friction on input preserves the raw thinking, the natural voice, and the real architecture of the idea.
 
 ### SavePoint Syntax: context accommodation
 

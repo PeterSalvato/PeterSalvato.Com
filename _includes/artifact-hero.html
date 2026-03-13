@@ -29,7 +29,17 @@
         </div>
     </div>
 
-    <p class="artifact-link">Read full spec &rarr;</p>
+    {% if item.description %}
+    <p class="artifact-context">{{ item.description }}</p>
+    {% endif %}
+
+    {% if item.status %}
+    <div class="dossier-meta">
+        <span class="dossier-status">{{ item.status }}</span>
+    </div>
+    {% endif %}
+
+    <p class="artifact-link">Read &rarr;</p>
 </a>
 
 {% else %}

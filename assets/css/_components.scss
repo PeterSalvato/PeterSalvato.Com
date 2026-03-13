@@ -138,10 +138,17 @@ pre {
 }
 
 .work-group {
-  margin-bottom: $gap-xxlarge;
+  margin-bottom: $gap-xxxlarge;
+  padding-bottom: $gap-xxlarge;
+  border-bottom: $rule-light solid $color-border;
+
+  &:last-child {
+    border-bottom: none;
+  }
 
   h2 {
     margin-top: 0;
+    font-size: $type-head-lg;
 
     a {
       text-decoration: none;
@@ -153,28 +160,18 @@ pre {
 .work-group-description {
   color: $color-text-secondary;
   font-size: $type-body;
-  margin-bottom: $gap-medium;
+  line-height: $leading-relaxed;
+  margin-bottom: $gap-large;
+  max-width: 60ch;
 }
 
-.work-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+.work-cards {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: $gap-medium;
 
-  li {
-    margin-bottom: $gap-small;
-  }
-
-  a {
-    font-size: $type-body;
-    text-decoration: none;
-    border-bottom: $rule-light solid $color-border;
-    padding-bottom: 2px;
-    transition: border-color $transition-fast;
-
-    &:hover {
-      border-color: $color-text;
-    }
+  .artifact-card {
+    margin-bottom: 0;
   }
 }
 

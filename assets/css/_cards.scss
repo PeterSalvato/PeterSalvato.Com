@@ -184,6 +184,19 @@
       margin-top: $gap-small;
     }
 
+    .artifact-context {
+      margin-top: $gap-medium;
+      font-size: $type-body-sm;
+      line-height: $leading-relaxed;
+      color: $color-text-secondary;
+      max-width: 65ch;
+    }
+
+    .dossier-meta {
+      margin-top: $gap-medium;
+      font-size: $type-xs;
+    }
+
     // Push the action link to the card bottom
     .artifact-link {
       margin-top: auto;
