@@ -14,9 +14,7 @@ related:
   - /practice/this-site
 ---
 
-In February I ran a full diagnostic pass on this site. Every lens came back clean. Voice protocol confirmed. Authenticity criteria confirmed. Structural restraint confirmed. The individual tools were each doing their job.
-
-Then I read the site as a visitor, top to bottom, and something was wrong. A hallucinated attribution had survived every check. It passed voice sampling (it sounded like me). It passed the Millman lens (the claim felt specific and grounded). It passed the Vignelli lens (the page was structurally clean). Five independent tools, all working correctly, and the result was wrong because nobody was responsible for how the pieces fit together.
+In February I read this site top to bottom as a visitor and found a fabricated claim. A sentence about work I never did, written in my voice, that sounded specific and grounded. It had survived every quality check I had. Five independent tools had evaluated the page. All five passed it. The sentence was still wrong.
 
 That failure produced the last tool I built this year. But it only makes sense in the context of every failure that came before it.
 

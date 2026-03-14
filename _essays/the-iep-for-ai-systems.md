@@ -14,11 +14,9 @@ related:
   - /practice/prosthetic-cognition
 ---
 
-I've been solving the same problem my entire career. Take something too complex for the system receiving it, decompose it into pieces the system can actually process, build structure to hold the pieces in relation, and make sure they produce a coherent result when they come back together.
-
-I've done this on construction sites, in print shops, on enterprise platforms, and inside AI skill architectures. But I learned it in a classroom.
-
 I taught a self-contained 4/5 bridge class in Sunset Park, Brooklyn. Twelve kids, every subject, every accommodation, every IEP goal. Self-contained means there's no other teacher running the plan. You are the plan. You build it, run it, and adjust it in real time when it falls apart at 10:15 on a Tuesday because the thing that worked yesterday doesn't work today.
+
+The same problem keeps showing up everywhere I work. Take something too complex for the system receiving it, decompose it into pieces the system can actually process, build structure to hold the pieces in relation, and make sure they produce a coherent result when they come back together. Construction sites, print shops, enterprise platforms, AI skill architectures. The classroom is where I learned it.
 
 An IEP is an Individualized Education Program. Federal law requires one for every student receiving special education services. It specifies what the student needs, how progress gets measured, what accommodations are required, and what success looks like for that specific learner. Specific to the individual learner, not the class or the grade level.
 

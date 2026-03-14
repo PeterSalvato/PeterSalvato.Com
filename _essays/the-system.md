@@ -14,13 +14,15 @@ related:
   - /systems/lensarray
 ---
 
-I had seventeen skills and no way to run them together. Each one worked on its own. The Millman lens could evaluate a page for authenticity. The Grip Test could tell me if copy landed with a stranger. The voice protocol could catch AI writing patterns. But running them manually, one at a time, collecting the results in my head, trying to notice where they agreed and where they didn't: that's the same coordination problem my father solved on construction sites. Fifty trades, each good at their piece, nobody responsible for how it all fits together.
+I caught the system inventing a detail about Encore during a copy pass. A sentence about a feature the platform never had. It read well. It sounded specific. It was fabricated. Every individual quality check passed: it sounded like me, the opening landed with a stranger, the page was structurally clean. Five independent tools, all working correctly, and the result was wrong.
+
+The problem was coordination. I had seventeen skills and no way to run them together. Each one worked on its own, but nothing connected what the system wrote to what actually happened. That's the same problem my father solved on construction sites. Fifty trades, each good at their piece, nobody responsible for how it all fits together.
 
 So I built the coordination layer.
 
 ## What happens without one
 
-I caught the system inventing an Encore implementation detail during a copy pass. A sentence about a feature the platform never had. It read well. It sounded specific. It was fabricated. No skill flagged it because no skill was checking claims against verified history. The voice protocol confirmed the sentence sounded like me. The Grip Test confirmed the opening landed. Every individual diagnostic passed. The coordination failure was upstream: nothing connected what the system wrote to what actually happened.
+That fabrication passed because no skill was checking claims against verified history. The voice protocol confirmed the sentence sounded like me. The Grip Test confirmed the opening landed. Every individual diagnostic passed. The coordination failure was upstream.
 
 I built the no-hallucination policy the same week. Every skill that writes copy now operates under a hard constraint: no skill may invent, infer, or assume any detail about the work. Every concrete claim must trace to a verified source in a Personal Knowledge Base spanning three years of session transcripts, conversation exports, and project records. When a skill can't find verification, it stops and asks. At no point is "make something up that sounds right" an option.
 

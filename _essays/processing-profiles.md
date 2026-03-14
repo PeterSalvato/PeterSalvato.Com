@@ -12,11 +12,11 @@ related:
   - /practice/prosthetic-cognition
 ---
 
-The first thing you do when you get a new student's IEP is read the processing profile. Working memory capacity. Attention span. How they take in information. Where they lose the thread. You don't start teaching until you know how that student's brain works, because the instruction has to fit the student.
+Your AI forgets the beginning of a long conversation for the same reason a student loses the third instruction in a compound prompt. The system ran out of room.
 
-I wrote dozens of these in a classroom in Sunset Park. Each one starts with the same move: assess the processing reality, then design the instruction to fit.
+In a special education classroom, the first thing you do with a new student is read the processing profile. Working memory capacity. Attention span. How they take in information. Where they lose the thread. You don't start teaching until you know how that student's brain works, because the instruction has to fit the student. I wrote dozens of these in a classroom in Sunset Park. Each one starts with the same move: assess the processing reality, then design the instruction to fit.
 
-When I started working with language models in 2023, I noticed something. The models have processing profiles too. Nobody was documenting them as processing profiles. The specs exist (context windows, token limits, attention mechanisms) but they're treated as product features. Engineering constraints. Numbers on a spec sheet.
+When I started working with language models in 2023, I recognized the pattern. The models have processing profiles too. Nobody was documenting them as processing profiles. The specs exist (context windows, token limits, attention mechanisms) but they're treated as product features. Engineering constraints. Numbers on a spec sheet.
 
 They're cognitive constraints you design around.
 
