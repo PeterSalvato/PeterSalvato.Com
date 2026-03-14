@@ -1,23 +1,25 @@
 {
   "items": [
     {
-      "label": "About",
-      "url": "/thinking/",
-      "icon": "psychology",
+      "label": "Work",
+      "url": "/evidence/encore/",
+      "icon": "cases",
       "children": [
-        { "label": "How I Think", "url": "/thinking/" },
-        { "label": "Bio", "url": "/bio/" },
-        { "label": "Vocabulary", "url": "/vocabulary/" }
+        { "label": "Encore", "url": "/evidence/encore/" },
+        { "label": "Aiden Jae", "url": "/evidence/aiden-jae/" },
+        { "label": "Altrueism", "url": "/evidence/altrueism/" },
+        { "label": "New City", "url": "/evidence/new-city/" }
       ]
     },
     {
-      "label": "Work",
-      "url": "/work/",
-      "icon": "layers",
+      "label": "How I Work",
+      "url": "/systems/formwork/",
+      "icon": "handyman",
       "children": [
-        { "label": "Practice", "url": "/practice/" },
-        { "label": "Tools", "url": "/systems/" },
-        { "label": "Proof", "url": "/evidence/" }
+        { "label": "FormWork", "url": "/systems/formwork/" },
+        { "label": "SavePoint", "url": "/systems/savepoint/" },
+        { "label": "LensArray", "url": "/systems/lensarray/" },
+        { "label": "This Site", "url": "/practice/this-site/" }
       ]
     },
     {
@@ -28,6 +30,16 @@
         { "label": "Research", "url": "/essays/#research" },
         { "label": "Essays", "url": "/essays/#standalone" },
         { "label": "Series", "url": "/essays/#series" }
+      ]
+    },
+    {
+      "label": "About",
+      "url": "/thinking/",
+      "icon": "psychology",
+      "children": [
+        { "label": "How I Think", "url": "/thinking/" },
+        { "label": "Bio", "url": "/bio/" },
+        { "label": "Vocabulary", "url": "/vocabulary/" }
       ]
     },
     {

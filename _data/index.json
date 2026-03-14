@@ -5,22 +5,22 @@
   },
   "routes": [
     {
-      "name": "Practice",
-      "url": "/practice/",
-      "definition": "Published research and applied methods.",
-      "description": "Whitepapers, creative tools, and the work behind the methodology."
+      "name": "Work",
+      "url": "/evidence/encore/",
+      "definition": "What I've built.",
+      "description": "Enterprise platforms, brand systems, product photography, and a novel."
     },
     {
-      "name": "Tools",
-      "url": "/systems/",
-      "definition": "What crystallized from the practice.",
-      "description": "Three systems for working with AI, built from accommodation design."
+      "name": "How I Work",
+      "url": "/systems/formwork/",
+      "definition": "The tools and the process.",
+      "description": "Three systems for working with AI, built from twelve years of doing it without them."
     },
     {
-      "name": "Proof",
-      "url": "/evidence/",
-      "definition": "Where the methodology proved out.",
-      "description": "Applied work across enterprise platforms, brand systems, and this site."
+      "name": "Writing",
+      "url": "/essays/",
+      "definition": "What I'm thinking about.",
+      "description": "Essays, whitepapers, and series on AI governance, accommodation design, and the work itself."
     }
   ],
   "contact": {
