@@ -131,3 +131,75 @@
   font-size: 48px;
   color: $color-ink-faint;
 }
+
+// ============================================================================
+// CONNECTION CARDS — Network links with bridge reasons
+// ============================================================================
+
+.page-connections {
+  margin-top: $space-xxl;
+  padding-top: $space-xl;
+  border-top: 1px solid $color-rule;
+
+  h2 {
+    font-family: $font-display;
+    font-size: $type-h3;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin-bottom: $space-lg;
+  }
+}
+
+.connections-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: $space-md;
+}
+
+.connection-card {
+  display: flex;
+  align-items: flex-start;
+  gap: $space-md;
+  padding: $space-md $space-lg;
+  border: 1px solid $color-rule;
+  background: $color-white;
+  text-decoration: none;
+  color: inherit;
+  transition: border-color $transition-fast;
+
+  &:hover {
+    border-color: $color-rule-dark;
+
+    .connection-title {
+      color: $color-accent;
+    }
+  }
+}
+
+.connection-icon {
+  flex-shrink: 0;
+  font-size: 24px;
+  color: $color-ink-faint;
+  margin-top: 2px;
+}
+
+.connection-body {
+  min-width: 0;
+}
+
+.connection-title {
+  font-family: $font-display;
+  font-size: $type-body-sm;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin: 0;
+  transition: color $transition-fast;
+}
+
+.connection-reason {
+  font-size: $type-caption;
+  color: $color-ink-light;
+  line-height: $leading-body;
+  margin-top: $space-xs;
+  max-width: 55ch;
+}

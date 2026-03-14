@@ -1,0 +1,63 @@
+{% comment %}
+  Network connections include.
+  Renders this page's connections from _data/connections.yml
+  with bridge reasons that explain why the work is connected.
+
+  Usage: {% include connections.html %}
+  Looks up the current page by matching its URL against connection map entries.
+{% endcomment %}
+
+{% assign page_url = page.url | remove: "/" %}
+{% assign conn_entry = nil %}
+
+{% for entry in site.data.connections %}
+  {% assign entry_url = entry[1].url | remove: "/" %}
+  {% if entry_url == page_url %}
+    {% assign conn_entry = entry[1] %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+{% if conn_entry and conn_entry.connections.size > 0 %}
+<nav class="page-connections" aria-label="Connected work">
+  <h2>Connected Work</h2>
+  <div class="connections-grid">
+    {% for conn in conn_entry.connections %}
+      {% assign conn_page = nil %}
+      {% assign conn_url_slash = conn.url %}
+
+      {% comment %} Find the actual page object to get title, icon, subtitle {% endcomment %}
+      {% for collection in site.collections %}
+        {% for doc in collection.docs %}
+          {% if doc.url == conn_url_slash %}
+            {% assign conn_page = doc %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+        {% if conn_page %}{% break %}{% endif %}
+      {% endfor %}
+
+      {% unless conn_page %}
+        {% for pg in site.pages %}
+          {% if pg.url == conn_url_slash %}
+            {% assign conn_page = pg %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+      {% endunless %}
+
+      {% if conn_page %}
+      <a href="{{ conn.url | relative_url }}" class="connection-card">
+        {% if conn_page.icon %}
+        <span class="connection-icon material-symbols-outlined">{{ conn_page.icon }}</span>
+        {% endif %}
+        <div class="connection-body">
+          <h3 class="connection-title">{{ conn_page.title }}</h3>
+          <p class="connection-reason">{{ conn.reason }}</p>
+        </div>
+      </a>
+      {% endif %}
+    {% endfor %}
+  </div>
+</nav>
+{% endif %}
