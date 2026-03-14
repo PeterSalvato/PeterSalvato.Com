@@ -195,6 +195,16 @@ What should the default interface be? Speech. The industry's investment in voice
 
 If raw input is more valuable than structured input, the competitive advantage shifts to tool design. The practitioner who builds the best translation layer between raw human thinking and model-ready input produces the best output, regardless of how "good" their prompts are.
 
+**The corpus compounds.** A structured prompt gets used once. You write it, the model processes it, the output arrives, the prompt is spent. An unstructured corpus works differently. The same conversations can be traversed from completely different angles, and each traversal produces a genuinely different compiled document.
+
+Read three years of conversations looking for where accommodation thinking shows up in how I describe my design process, and you get one focused document. Read the same conversations looking for where print production instincts shaped my approach to digital systems, and you get another. The raw material is identical. The interpretive frame changed. The output is new.
+
+Each compiled document goes back into the data source. The next traversal has access to the original conversations and every previously compiled document. A focused document on accommodation patterns and a focused document on structural thinking can be traversed together to surface connections that neither one contains alone. The corpus gets richer without the maker adding new input.
+
+This is why unstructured input is not just richer at the point of capture. It is a better long-term investment. Structured prompts are consumable. You use them and they're done. An unstructured corpus is generative. The same material I recorded in 2023 is still producing new compiled documents in 2026, each traversal asking a question I hadn't thought to ask when I was talking. The knowledge traversal tool makes this practical: sequential processing through a large corpus, holding a specific conceptual angle, compiling a focused output that would take a human researcher weeks to produce manually. The LLM doesn't get tired of reading the same conversations again. It just reads them differently.
+
+The competitive implication is direct. Two practitioners with the same tools and the same model, one who accumulated three years of unstructured thinking and one who wrote three years of structured prompts, are not in the same position. The first has a renewable source that yields new compiled documents on demand. The second has a folder of spent instructions.
+
 ---
 
 ## 10. Conclusion
