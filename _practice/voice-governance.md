@@ -16,6 +16,8 @@ related:
   - /essays/voice-governance
 ---
 
+AI-generated text has a voice problem: it all sounds the same. The standard fix is to write first, then check against style guidelines, then revise. I found that applying voice rules during generation, not after, produces structurally different output. This paper documents a forty-rule protocol built from how I actually talk in conversation, not from how I write when I know someone is reading.
+
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18986297.svg)](https://doi.org/10.5281/zenodo.18986297)
 
 **Source:** [github.com/PeterSalvato/voice-governance](https://github.com/PeterSalvato/voice-governance)

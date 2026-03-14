@@ -28,7 +28,11 @@ cta:
   link: /practice/accommodation-design/
 ---
 
-FormWork is the [accommodation design](/practice/accommodation-design/) process. Not any single tool. The harness that holds all the tools in position while the work is wet.
+I was six months into using Claude for serious production work when the pattern became obvious. Sessions would run for hours. The output was sharp at the start, then gradually lost the thread. I'd add more context, write longer prompts, stack instructions. The output kept degrading.
+
+The instinct is to blame the model. But I had seen this before, in a special education classroom in Brooklyn. Give a student three instructions at once and they process the first one. The rest drops. You don't solve that by speaking louder. You redesign the task for what the student can actually handle.
+
+That same move, applied to AI tools, is what I've been building for the last three years. FormWork is the process. Not any single tool. The coordination harness that holds all the tools in position while the work is wet.
 
 The name comes from concrete construction. You build formwork before you pour. The temporary structure shapes the work while things are fluid. It holds the boards in position, keeps the pour contained, gives the wet material somewhere to go. Once the concrete sets, the form comes off. The shape holds on its own.
 
@@ -81,6 +85,12 @@ Models default to a training-data average that reads like published writing: pol
 "Accommodation design" didn't start with that name. The first time the idea appeared in my conversation history, I was describing what happened in a classroom. Keyword search would never find it. Grep can't locate a term that didn't exist yet.
 
 The knowledge traversal skill reads chronologically through conversation exports, carries understanding forward, and catches those embryonic mentions. It builds understanding through sequential processing, not indexed lookup, which matches how the model actually works.
+
+But retrieval is only the first pass. The same corpus can be traversed again from a completely different angle. Read three years of conversations looking for where mid-century modern design thinking shows up in how I make decisions, and you get one compiled document. Read the same conversations looking for where typographic hierarchy thinking appears in how I structure systems, and you get a different one. Same raw material, different interpretive frame, genuinely different output.
+
+Each traversal produces a focused document that goes back into the data source. Now the next traversal has access to the original conversations and the previously compiled documents. The corpus gets richer without new input from the maker. A compiled document on accommodation patterns and a compiled document on structural thinking can be traversed together to surface connections neither one contains alone.
+
+This is not retrieval. Retrieval pulls something out and it's done. This is a production loop. The same conversations I recorded in 2023 are still generating new compiled documents in 2026, each traversal asking a question I hadn't thought to ask when I was talking. The raw material doesn't get used up. It compounds.
 
 ### Skill architecture: task decomposition accommodation
 

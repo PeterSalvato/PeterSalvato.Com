@@ -17,6 +17,8 @@ related:
   - /essays/the-iep-for-ai-systems
 ---
 
+This started in a special education classroom in Brooklyn, where I ran twelve individualized learning plans at once and learned to design tasks for how each student actually processed information. Three years ago I recognized the same constraints in AI tools and started building around them. This paper is where I formalize it. The applied process is [FormWork](/systems/formwork/).
+
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18941231.svg)](https://doi.org/10.5281/zenodo.18941231)
 
 **Peter Salvato**

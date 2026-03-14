@@ -16,6 +16,8 @@ related:
   - /essays/persona-extraction
 ---
 
+Ask AI to evaluate your work and you get a blended average: everything is "good" or "needs work" with no way to act on it. In the critique room at SVA, five people evaluated the same piece and disagreed. That was the point. This paper documents how I extract a real practitioner's evaluative framework, codify it as testable criteria, and run multiple lenses independently against the same work. Where they disagree is where the real decisions live.
+
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18986295.svg)](https://doi.org/10.5281/zenodo.18986295)
 
 **Source:** [github.com/PeterSalvato/lens-extraction](https://github.com/PeterSalvato/lens-extraction)
