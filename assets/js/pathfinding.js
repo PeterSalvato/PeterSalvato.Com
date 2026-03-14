@@ -58,4 +58,58 @@
       return path.pages.indexOf(url) !== -1;
     }
   };
+
+  // Layer 4: Adapt connection cards based on visitor path
+  function adaptConnections() {
+    var cards = document.querySelectorAll('.connection-card[data-connection-url]');
+    if (!cards.length) return;
+
+    var previous = path.previous;
+    var seen = path.pages;
+
+    cards.forEach(function (card) {
+      var url = card.getAttribute('data-connection-url');
+
+      // Mark the page the visitor just came from
+      if (previous && url === previous) {
+        card.classList.add('connection--source');
+      }
+
+      // Mark pages already visited
+      if (seen.indexOf(url) !== -1) {
+        card.classList.add('connection--visited');
+      }
+    });
+
+    // Reorder: source first, then unseen, then visited
+    var grid = document.querySelector('.connections-grid');
+    if (!grid) return;
+
+    var allCards = Array.prototype.slice.call(grid.querySelectorAll('.connection-card'));
+    var source = [];
+    var unseen = [];
+    var visited = [];
+
+    allCards.forEach(function (card) {
+      if (card.classList.contains('connection--source')) {
+        source.push(card);
+      } else if (card.classList.contains('connection--visited')) {
+        visited.push(card);
+      } else {
+        unseen.push(card);
+      }
+    });
+
+    var sorted = source.concat(unseen).concat(visited);
+    sorted.forEach(function (card) {
+      grid.appendChild(card);
+    });
+  }
+
+  // Run after DOM is ready
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', adaptConnections);
+  } else {
+    adaptConnections();
+  }
 })();

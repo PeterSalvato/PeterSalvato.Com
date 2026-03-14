@@ -203,3 +203,17 @@
   margin-top: $space-xs;
   max-width: 55ch;
 }
+
+// Adaptive states (set by pathfinding.js)
+.connection--source {
+  border-color: $color-accent;
+  border-width: 2px;
+}
+
+.connection--visited {
+  opacity: 0.5;
+
+  &:hover {
+    opacity: 1;
+  }
+}

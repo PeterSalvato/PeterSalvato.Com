@@ -47,7 +47,7 @@
       {% endunless %}
 
       {% if conn_page %}
-      <a href="{{ conn.url | relative_url }}" class="connection-card">
+      <a href="{{ conn.url | relative_url }}" class="connection-card" data-connection-url="{{ conn.url }}">
         {% if conn_page.icon %}
         <span class="connection-icon material-symbols-outlined">{{ conn_page.icon }}</span>
         {% endif %}
