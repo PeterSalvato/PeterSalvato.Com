@@ -9,7 +9,8 @@ layout: default
              alt="PPP brand mark — three registration plates of a P in governance red, infrastructure blue, and output green"
              loading="eager">
     </div>
-    <h1>I make things. The scale changes. The discipline doesn't.</h1>
+    <h1>Peter Salvato</h1>
+    <p class="hero-role">Design Engineer</p>
 </div>
 
 <!-- Section Cards — mirror the nav, explain the depth -->
@@ -23,13 +24,6 @@ layout: default
     </a>
     {% endfor %}
 </div>
-
-<!-- Manifesto -->
-{% if site.data.index.manifesto.short %}
-<div id="homepage-manifesto">
-    {{ site.data.index.manifesto.short | newline_to_br }}
-</div>
-{% endif %}
 
 <script>
   document.querySelectorAll('.section-card[data-section]').forEach(function(card) {

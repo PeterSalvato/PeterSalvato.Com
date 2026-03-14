@@ -27,6 +27,14 @@
     line-height: $leading-tight;
     max-width: 20ch;
   }
+
+  .hero-role {
+    font-family: $font-mono;
+    font-size: $type-body-sm;
+    color: $color-ink-light;
+    letter-spacing: 0.03em;
+    margin-top: $space-sm;
+  }
 }
 
 #section-cards {
