@@ -21,6 +21,7 @@
 {% if conn_entry and conn_entry.connections.size > 0 %}
 <nav class="page-connections" aria-label="Connected work">
   <h2>Connected Work</h2>
+  <p class="connections-acknowledgment" aria-live="polite"></p>
   <div class="connections-grid">
     {% for conn in conn_entry.connections %}
       {% assign conn_page = nil %}

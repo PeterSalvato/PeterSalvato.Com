@@ -150,6 +150,18 @@
   }
 }
 
+.connections-acknowledgment {
+  font-family: $font-mono;
+  font-size: $type-fine;
+  color: $color-ink-faint;
+  letter-spacing: 0.03em;
+  margin-bottom: $space-md;
+
+  &:empty {
+    display: none;
+  }
+}
+
 .connections-grid {
   display: grid;
   grid-template-columns: 1fr;

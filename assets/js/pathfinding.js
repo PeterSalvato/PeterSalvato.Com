@@ -1,13 +1,13 @@
 /**
  * Pathfinding — Session-based visitor path tracking
- * Layer 3 of the adaptive system.
  *
  * Tracks which pages the visitor has seen, in what order,
  * and which page they came from. Stores in sessionStorage only.
  * Nothing persists. Nothing leaves the browser.
  *
- * Layer 4 (path-aware bridge text) reads this data to adjust
- * connection card emphasis and intro copy.
+ * Layer 3: Session tracking (pages visited, previous page)
+ * Layer 4: Card adaptation (source highlight, visited dim, reorder)
+ * Layer 5: Acknowledgment (quiet signal after 3+ pages visited)
  */
 (function () {
   'use strict';
@@ -104,6 +104,17 @@
     sorted.forEach(function (card) {
       grid.appendChild(card);
     });
+
+    // Layer 5: Acknowledgment
+    var ack = document.querySelector('.connections-acknowledgment');
+    if (ack && path.pages.length >= 3 && visited.length > 0) {
+      var unseenCount = unseen.length + source.length;
+      if (unseenCount > 0 && visited.length > 0) {
+        ack.textContent = unseenCount + ' new from here. ' + visited.length + ' you\u2019ve seen.';
+      } else if (unseenCount === 0) {
+        ack.textContent = 'You\u2019ve been to all of these.';
+      }
+    }
   }
 
   // Run after DOM is ready
