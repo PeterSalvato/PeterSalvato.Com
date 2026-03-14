@@ -1,0 +1,668 @@
+# Connection Map
+# Every page's network of related work with bridge reasons.
+# These are discussed on the page, not just linked.
+# The reason field is the on-ramp: why these two things are connected
+# in language a visitor can stand on.
+
+# ============================================================================
+# WORK — What I Built
+# ============================================================================
+
+encore:
+  url: /evidence/encore/
+  connections:
+    - target: formwork
+      url: /systems/formwork/
+      reason: "Twelve years of lost context is what made me formalize how I work."
+    - target: savepoint
+      url: /systems/savepoint/
+      reason: "The institutional memory problem I kept hitting led directly to this."
+    - target: accommodation-design
+      url: /practice/accommodation-design/
+      reason: "I was doing accommodation design for a decade before I had a name for it."
+    - target: this-site
+      url: /practice/this-site/
+      reason: "The same tools I built from this experience compiled this site."
+    - target: how-i-think
+      url: /thinking/
+      reason: "Where the processing profile that drove all of this gets explained."
+    - target: how-i-got-here
+      url: /essays/how-i-got-here/
+      reason: "The full story of walking into a Windows Forms app in 2013."
+
+aiden-jae:
+  url: /evidence/aiden-jae/
+  connections:
+    - target: accommodation-design
+      url: /practice/accommodation-design/
+      reason: "The product was real. The display system was erasing it. Same problem, different material."
+    - target: pressworks
+      url: /practice/pressworks/
+      reason: "The product photography pipeline I built for the brand."
+    - target: voice-governance
+      url: /practice/voice-governance/
+      reason: "Brand voice that sounds like Randi, not like a template."
+    - target: how-i-think
+      url: /thinking/
+      reason: "Reading the code and the photograph at the same time."
+    - target: input-inversion
+      url: /practice/input-inversion/
+      reason: "Randi's raw material was better than anything structured input would produce."
+    - target: encore
+      url: /evidence/encore/
+      reason: "Enterprise platform and jewelry brand. Same accommodation move, different scale."
+
+altrueism:
+  url: /evidence/altrueism/
+  connections:
+    - target: aiden-jae
+      url: /evidence/aiden-jae/
+      reason: "Two brand systems built from the same principle: let the material speak."
+    - target: accommodation-design
+      url: /practice/accommodation-design/
+      reason: "Transparency as a design decision, not a marketing claim."
+    - target: pressworks
+      url: /practice/pressworks/
+      reason: "Print production tools applied to brand collateral."
+
+new-city:
+  url: /evidence/new-city/
+  connections:
+    - target: lens-extraction
+      url: /practice/lens-extraction/
+      reason: "Four simultaneous layers evaluated independently, like running multiple lenses."
+    - target: voice-governance
+      url: /practice/voice-governance/
+      reason: "Registration across layers is voice governance applied to prose."
+    - target: accommodation-design
+      url: /practice/accommodation-design/
+      reason: "Each beat designed for what the reader's system actually processes."
+    - target: reading-the-room
+      url: /essays/reading-the-room/
+      reason: "Somatic pacing in prose is reading the room on paper."
+
+# ============================================================================
+# TOOLS — How I Work
+# ============================================================================
+
+formwork:
+  url: /systems/formwork/
+  connections:
+    - target: accommodation-design
+      url: /practice/accommodation-design/
+      reason: "FormWork is accommodation design made operational."
+    - target: input-inversion
+      url: /practice/input-inversion/
+      reason: "The pour is input inversion in practice: raw thinking first, structure after."
+    - target: savepoint
+      url: /systems/savepoint/
+      reason: "SavePoint preserves context across sessions. FormWork coordinates within them."
+    - target: lensarray
+      url: /systems/lensarray/
+      reason: "LensArray evaluates what FormWork produces."
+    - target: encore
+      url: /evidence/encore/
+      reason: "Twelve years of enterprise work is where this process was born."
+    - target: this-site
+      url: /practice/this-site/
+      reason: "This site was compiled through FormWork. It's the build log."
+    - target: prosthetic-cognition
+      url: /practice/prosthetic-cognition/
+      reason: "FormWork is the harness that couples the practitioner to the tools."
+
+savepoint:
+  url: /systems/savepoint/
+  connections:
+    - target: semantic-hierarchy
+      url: /practice/semantic-hierarchy/
+      reason: "The whitepaper that argues why human-marked importance matters."
+    - target: encore
+      url: /evidence/encore/
+      reason: "Context loss across twelve years of enterprise work is why this exists."
+    - target: order-of-the-aetherwright
+      url: /practice/order-of-the-aetherwright/
+      reason: "SavePoint is the memory layer of the ritual system."
+    - target: formwork
+      url: /systems/formwork/
+      reason: "FormWork coordinates the session. SavePoint preserves it."
+    - target: why-does-chatgpt-get-worse
+      url: /essays/why-does-chatgpt-get-worse/
+      reason: "The essay that names the context degradation problem SavePoint solves."
+    - target: i-needed-a-better-tool
+      url: /essays/i-needed-a-better-tool/
+      reason: "The story of building SavePoint out of frustration with losing my place."
+
+lensarray:
+  url: /systems/lensarray/
+  connections:
+    - target: lens-extraction
+      url: /practice/lens-extraction/
+      reason: "The whitepaper behind the method. How practitioner lenses get extracted."
+    - target: formwork
+      url: /systems/formwork/
+      reason: "FormWork produces work. LensArray evaluates it."
+    - target: voice-governance
+      url: /practice/voice-governance/
+      reason: "Voice rules are one type of lens. LensArray runs many."
+    - target: this-site
+      url: /practice/this-site/
+      reason: "Every page on this site was evaluated through LensArray."
+    - target: accommodation-design
+      url: /practice/accommodation-design/
+      reason: "Decomposed evaluation is accommodation applied to quality assurance."
+
+# ============================================================================
+# PRACTICE — Whitepapers and Methods
+# ============================================================================
+
+accommodation-design:
+  url: /practice/accommodation-design/
+  connections:
+    - target: encore
+      url: /evidence/encore/
+      reason: "Twelve years of doing this before it had a name."
+    - target: aiden-jae
+      url: /evidence/aiden-jae/
+      reason: "A brand where the display system was erasing the product."
+    - target: formwork
+      url: /systems/formwork/
+      reason: "FormWork is how the framework becomes a daily process."
+    - target: the-iep-for-ai-systems
+      url: /essays/the-iep-for-ai-systems/
+      reason: "The essay that connects classroom accommodation to AI systems."
+    - target: what-special-ed-teachers-know
+      url: /essays/what-special-ed-teachers-already-know/
+      reason: "Where the accommodation instinct came from."
+    - target: input-inversion
+      url: /practice/input-inversion/
+      reason: "Accommodation in the other direction: what the human needs to get ideas out."
+    - target: how-i-think
+      url: /thinking/
+      reason: "The processing profile that makes accommodation design visible."
+
+input-inversion:
+  url: /practice/input-inversion/
+  connections:
+    - target: accommodation-design
+      url: /practice/accommodation-design/
+      reason: "Accommodation for the human side: reducing friction on how thinking enters the system."
+    - target: formwork
+      url: /systems/formwork/
+      reason: "The pour is input inversion made into a process step."
+    - target: prosthetic-cognition
+      url: /practice/prosthetic-cognition/
+      reason: "The prosthetic extends reach. Input inversion removes friction on the coupling."
+    - target: the-unstructured-corpus
+      url: /essays/the-unstructured-corpus/
+      reason: "Why raw thinking produces better results than structured prompts."
+    - target: compilation-not-generation
+      url: /essays/compilation-not-generation/
+      reason: "Compilation starts with unstructured material. That's input inversion."
+
+voice-governance:
+  url: /practice/voice-governance/
+  connections:
+    - target: lensarray
+      url: /systems/lensarray/
+      reason: "Voice rules run as a lens during evaluation."
+    - target: this-site
+      url: /practice/this-site/
+      reason: "Every page on this site went through the voice pipeline."
+    - target: aiden-jae
+      url: /evidence/aiden-jae/
+      reason: "Brand voice built to sound like Randi, not a template."
+    - target: formwork
+      url: /systems/formwork/
+      reason: "Voice constraints applied during generation, not after."
+    - target: accommodation-design
+      url: /practice/accommodation-design/
+      reason: "Constraining during generation is accommodation for the output system."
+
+lens-extraction:
+  url: /practice/lens-extraction/
+  connections:
+    - target: lensarray
+      url: /systems/lensarray/
+      reason: "LensArray runs the lenses. This paper explains how they're extracted."
+    - target: accommodation-design
+      url: /practice/accommodation-design/
+      reason: "Decomposed evaluation is the accommodation move applied to critique."
+    - target: formwork
+      url: /systems/formwork/
+      reason: "Lenses evaluate what FormWork produces."
+    - target: this-site
+      url: /practice/this-site/
+      reason: "This site was evaluated against lenses extracted from Bierut, Shaw, Victore, and others."
+
+prosthetic-cognition:
+  url: /practice/prosthetic-cognition/
+  connections:
+    - target: formwork
+      url: /systems/formwork/
+      reason: "FormWork is the harness that couples practitioner to prosthetic."
+    - target: input-inversion
+      url: /practice/input-inversion/
+      reason: "The pour reduces friction on the coupling between human and tool."
+    - target: accommodation-design
+      url: /practice/accommodation-design/
+      reason: "Mutual accommodation is what makes the prosthetic work."
+    - target: this-site
+      url: /practice/this-site/
+      reason: "This site is the prosthetic in action: hand compilation with AI tools."
+
+semantic-hierarchy:
+  url: /practice/semantic-hierarchy/
+  connections:
+    - target: savepoint
+      url: /systems/savepoint/
+      reason: "SavePoint is the implementation of human-marked semantic importance."
+    - target: accommodation-design
+      url: /practice/accommodation-design/
+      reason: "Machine scoring erases what matters. Accommodation asks what the system needs."
+    - target: encore
+      url: /evidence/encore/
+      reason: "Twelve years of watching institutional memory flatten is why this matters."
+
+sovereign-design-engine:
+  url: /practice/sovereign-design-engine/
+  connections:
+    - target: pressworks
+      url: /practice/pressworks/
+      reason: "PressWorks handles the print production. SDE handles the pipeline."
+    - target: mathontape
+      url: /practice/mathontape/
+      reason: "MathOnTape artwork runs through the SDE pipeline."
+    - target: accommodation-design
+      url: /practice/accommodation-design/
+      reason: "Headless pipeline is accommodation for the maker: no UI in the way."
+
+order-of-the-aetherwright:
+  url: /practice/order-of-the-aetherwright/
+  connections:
+    - target: savepoint
+      url: /systems/savepoint/
+      reason: "SavePoint is the memory layer of the ritual system."
+    - target: formwork
+      url: /systems/formwork/
+      reason: "FormWork is the operational process. The Order is the symbolic frame."
+    - target: this-site
+      url: /practice/this-site/
+      reason: "The glyphs and codex are from here. The site is where they live."
+    - target: how-i-think
+      url: /thinking/
+      reason: "The ritual makes the processing profile explicit and defensible."
+
+pressworks:
+  url: /practice/pressworks/
+  connections:
+    - target: sovereign-design-engine
+      url: /practice/sovereign-design-engine/
+      reason: "PressWorks does press logic. SDE does the pipeline."
+    - target: aiden-jae
+      url: /evidence/aiden-jae/
+      reason: "Product photography processed through the print production tools."
+    - target: mathontape
+      url: /practice/mathontape/
+      reason: "Album artwork halftoned, separated, and grained through PressWorks."
+    - target: accommodation-design
+      url: /practice/accommodation-design/
+      reason: "Terminal-native because the UI was in the way. Accommodation for the maker."
+
+mathontape:
+  url: /practice/mathontape/
+  connections:
+    - target: pressworks
+      url: /practice/pressworks/
+      reason: "The visual identity runs through the same print production tools."
+    - target: sovereign-design-engine
+      url: /practice/sovereign-design-engine/
+      reason: "Album art generated through the headless design pipeline."
+    - target: reading-the-room
+      url: /essays/reading-the-room/
+      reason: "DJing is reading the room. The music is the same skill as the design."
+    - target: how-i-think
+      url: /thinking/
+      reason: "Somatic processing. Feeling the sequence before the audience does."
+
+this-site:
+  url: /practice/this-site/
+  connections:
+    - target: formwork
+      url: /systems/formwork/
+      reason: "Compiled through FormWork. The build log."
+    - target: lensarray
+      url: /systems/lensarray/
+      reason: "Every page evaluated through extracted practitioner lenses."
+    - target: voice-governance
+      url: /practice/voice-governance/
+      reason: "Every page constrained during generation by the voice pipeline."
+    - target: savepoint
+      url: /systems/savepoint/
+      reason: "Three years of savepoints across conversation exports fed this."
+    - target: accommodation-design
+      url: /practice/accommodation-design/
+      reason: "The site enacts accommodation design on the visitor."
+    - target: prosthetic-cognition
+      url: /practice/prosthetic-cognition/
+      reason: "Hand compilation with AI tools. The prosthetic in action."
+    - target: input-inversion
+      url: /practice/input-inversion/
+      reason: "60,000 documents of raw thinking. The pour that fed everything."
+
+# ============================================================================
+# ABOUT
+# ============================================================================
+
+how-i-think:
+  url: /thinking/
+  connections:
+    - target: accommodation-design
+      url: /practice/accommodation-design/
+      reason: "The framework that came from this processing profile."
+    - target: encore
+      url: /evidence/encore/
+      reason: "Twelve years of applying this profile to enterprise software."
+    - target: aiden-jae
+      url: /evidence/aiden-jae/
+      reason: "The same profile applied to a jewelry brand."
+    - target: formwork
+      url: /systems/formwork/
+      reason: "How this profile becomes a repeatable process."
+    - target: how-i-got-here
+      url: /essays/how-i-got-here/
+      reason: "The chronological version of this story."
+    - target: why-does-my-brain
+      url: /essays/why-does-my-brain-turn-everything-into-a-system/
+      reason: "The essay version of the question this page answers."
+
+# ============================================================================
+# WRITING — Essays
+# ============================================================================
+
+how-i-got-here:
+  url: /essays/how-i-got-here/
+  connections:
+    - target: how-i-think
+      url: /thinking/
+      reason: "The profile version of this story. Less chronology, more operation."
+    - target: encore
+      url: /evidence/encore/
+      reason: "Walking into a Windows Forms app in 2013 and staying twelve years."
+    - target: accommodation-design
+      url: /practice/accommodation-design/
+      reason: "Construction sites to classrooms to enterprise. The through-line was always accommodation."
+    - target: this-site
+      url: /practice/this-site/
+      reason: "The latest chapter of the same story."
+
+why-does-my-brain:
+  url: /essays/why-does-my-brain-turn-everything-into-a-system/
+  connections:
+    - target: how-i-think
+      url: /thinking/
+      reason: "The answer to the question this essay asks."
+    - target: formwork
+      url: /systems/formwork/
+      reason: "The system that the system-building brain eventually built."
+    - target: accommodation-design
+      url: /practice/accommodation-design/
+      reason: "Turning everything into a system is the processing profile. Accommodation design is what it produces."
+    - target: this-site
+      url: /practice/this-site/
+      reason: "The site itself is a system. Because of course it is."
+
+i-needed-a-better-tool:
+  url: /essays/i-needed-a-better-tool/
+  connections:
+    - target: savepoint
+      url: /systems/savepoint/
+      reason: "The tool I built when I couldn't find one that worked."
+    - target: formwork
+      url: /systems/formwork/
+      reason: "The larger process the tool fits into."
+    - target: lensarray
+      url: /systems/lensarray/
+      reason: "Another tool born from the same frustration."
+    - target: encore
+      url: /evidence/encore/
+      reason: "Twelve years of context loss made the frustration visceral."
+
+why-does-chatgpt-get-worse:
+  url: /essays/why-does-chatgpt-get-worse/
+  connections:
+    - target: accommodation-design
+      url: /practice/accommodation-design/
+      reason: "The framework that explains why it happens and what to do about it."
+    - target: savepoint
+      url: /systems/savepoint/
+      reason: "The tool built to solve this specific problem."
+    - target: input-inversion
+      url: /practice/input-inversion/
+      reason: "Long structured prompts make it worse. Raw thinking doesn't."
+    - target: processing-profiles
+      url: /essays/processing-profiles/
+      reason: "The deeper explanation of why context windows behave like working memory."
+
+the-iep-for-ai-systems:
+  url: /essays/the-iep-for-ai-systems/
+  connections:
+    - target: accommodation-design
+      url: /practice/accommodation-design/
+      reason: "The whitepaper that formalizes what this essay introduces."
+    - target: what-special-ed-teachers-know
+      url: /essays/what-special-ed-teachers-already-know/
+      reason: "The companion piece. Teachers already know the fix."
+    - target: prosthetic-cognition
+      url: /practice/prosthetic-cognition/
+      reason: "The IEP is a scaffold. The prosthetic is the long-term relationship."
+    - target: semantic-hierarchy
+      url: /practice/semantic-hierarchy/
+      reason: "Decomposing compound tasks is the same move as decomposing evaluation."
+    - target: encore
+      url: /evidence/encore/
+      reason: "I was writing IEPs for a platform before I realized that's what I was doing."
+
+what-special-ed-teachers-know:
+  url: /essays/what-special-ed-teachers-already-know/
+  connections:
+    - target: accommodation-design
+      url: /practice/accommodation-design/
+      reason: "The framework teachers already use, applied to AI."
+    - target: the-iep-for-ai-systems
+      url: /essays/the-iep-for-ai-systems/
+      reason: "The companion piece. What the IEP looks like for a model."
+    - target: prosthetic-cognition
+      url: /practice/prosthetic-cognition/
+      reason: "Teachers build scaffolding that comes off. That's a prosthetic."
+    - target: input-inversion
+      url: /practice/input-inversion/
+      reason: "Let the student speak before organizing. Same principle."
+
+processing-profiles:
+  url: /essays/processing-profiles/
+  connections:
+    - target: accommodation-design
+      url: /practice/accommodation-design/
+      reason: "Processing profiles are what accommodation design reads."
+    - target: why-does-chatgpt-get-worse
+      url: /essays/why-does-chatgpt-get-worse/
+      reason: "Context windows are the model's processing profile."
+    - target: prosthetic-cognition
+      url: /practice/prosthetic-cognition/
+      reason: "Matching the prosthetic to the profile is what makes it work."
+    - target: how-i-think
+      url: /thinking/
+      reason: "My processing profile is the one I know best."
+
+reading-the-room:
+  url: /essays/reading-the-room/
+  connections:
+    - target: accommodation-design
+      url: /practice/accommodation-design/
+      reason: "Reading the room is what accommodation design starts with."
+    - target: encore
+      url: /evidence/encore/
+      reason: "Reading a platform's room for twelve years."
+    - target: aiden-jae
+      url: /evidence/aiden-jae/
+      reason: "Reading the gap between what the product was and how the screen showed it."
+    - target: mathontape
+      url: /practice/mathontape/
+      reason: "A DJ reads the room. Same skill, different material."
+    - target: everybodys-got-a-plan
+      url: /essays/everybodys-got-a-plan/
+      reason: "Reading the room at the breakfast table. Four processing profiles, 7 AM."
+
+compilation-not-generation:
+  url: /essays/compilation-not-generation/
+  connections:
+    - target: this-site
+      url: /practice/this-site/
+      reason: "This site is the compiled output. The proof."
+    - target: formwork
+      url: /systems/formwork/
+      reason: "FormWork is the compilation process."
+    - target: input-inversion
+      url: /practice/input-inversion/
+      reason: "Compilation starts with raw material. Input inversion is how the material enters."
+    - target: voice-governance
+      url: /practice/voice-governance/
+      reason: "Voice constraints during compilation are what make the output sound like me."
+
+the-site-is-the-proof:
+  url: /essays/the-site-is-the-proof/
+  connections:
+    - target: this-site
+      url: /practice/this-site/
+      reason: "The build log behind the proof."
+    - target: formwork
+      url: /systems/formwork/
+      reason: "The process that compiled it."
+    - target: accommodation-design
+      url: /practice/accommodation-design/
+      reason: "A blind evaluator said it was human-written. The accommodation worked."
+    - target: lensarray
+      url: /systems/lensarray/
+      reason: "The blind evaluation itself is a lens array in practice."
+
+the-unstructured-corpus:
+  url: /essays/the-unstructured-corpus/
+  connections:
+    - target: input-inversion
+      url: /practice/input-inversion/
+      reason: "The whitepaper that formalizes why unstructured input works."
+    - target: formwork
+      url: /systems/formwork/
+      reason: "The pour is where the unstructured corpus enters."
+    - target: this-site
+      url: /practice/this-site/
+      reason: "60,000 documents. Three years. This site came out of that corpus."
+    - target: savepoint
+      url: /systems/savepoint/
+      reason: "Savepoints mark what matters in the unstructured stream."
+
+talk-to-it:
+  url: /essays/talk-to-it/
+  connections:
+    - target: input-inversion
+      url: /practice/input-inversion/
+      reason: "Dictation is input inversion at the physical layer. Voice before typing."
+    - target: formwork
+      url: /systems/formwork/
+      reason: "The pour can be spoken. FormWork handles what comes after."
+    - target: prosthetic-cognition
+      url: /practice/prosthetic-cognition/
+      reason: "Speaking to the tool is the most natural coupling."
+
+what-does-the-system-need:
+  url: /essays/what-does-the-system-actually-need/
+  connections:
+    - target: accommodation-design
+      url: /practice/accommodation-design/
+      reason: "The origin moment. Four criteria in one prompt. Same degradation as a classroom."
+    - target: formwork
+      url: /systems/formwork/
+      reason: "The process built from the answer to this question."
+    - target: encore
+      url: /evidence/encore/
+      reason: "I was asking this question at Encore for a decade before I named it."
+
+the-integrated-system:
+  url: /essays/the-integrated-system/
+  connections:
+    - target: formwork
+      url: /systems/formwork/
+      reason: "The coordination layer described here."
+    - target: savepoint
+      url: /systems/savepoint/
+      reason: "One of the independent components the coordinator dispatches."
+    - target: lensarray
+      url: /systems/lensarray/
+      reason: "Another independent component. They run in parallel."
+    - target: this-site
+      url: /practice/this-site/
+      reason: "The integrated system compiled this site."
+
+what-i-built-this-year:
+  url: /essays/what-i-built-this-year/
+  connections:
+    - target: savepoint
+      url: /systems/savepoint/
+      reason: "Context evaporated. So I built this."
+    - target: voice-governance
+      url: /practice/voice-governance/
+      reason: "Output stopped sounding like me. So I built this."
+    - target: lensarray
+      url: /systems/lensarray/
+      reason: "Evaluation was one question pretending to be twelve. So I built this."
+    - target: formwork
+      url: /systems/formwork/
+      reason: "Each tool exists because the previous one failed. FormWork holds them all."
+    - target: this-site
+      url: /practice/this-site/
+      reason: "The proof that all of it works together."
+
+voice-governance-essay:
+  url: /essays/voice-governance/
+  connections:
+    - target: voice-governance
+      url: /practice/voice-governance/
+      reason: "The whitepaper version. Formal argument for generation-time constraints."
+    - target: lensarray
+      url: /systems/lensarray/
+      reason: "Voice rules as one type of evaluative lens."
+    - target: accommodation-design
+      url: /practice/accommodation-design/
+      reason: "Constraining during generation accommodates the output system."
+    - target: this-site
+      url: /practice/this-site/
+      reason: "Every page went through the voice pipeline."
+
+lens-extraction-essay:
+  url: /essays/lens-extraction/
+  connections:
+    - target: lens-extraction
+      url: /practice/lens-extraction/
+      reason: "The whitepaper version. Full argument for decomposed evaluation."
+    - target: lensarray
+      url: /systems/lensarray/
+      reason: "LensArray runs the extracted lenses."
+    - target: accommodation-design
+      url: /practice/accommodation-design/
+      reason: "Decomposed evaluation is the accommodation move applied to critique."
+
+everybodys-got-a-plan:
+  url: /essays/everybodys-got-a-plan/
+  connections:
+    - target: accommodation-design
+      url: /practice/accommodation-design/
+      reason: "Four processing profiles at one breakfast table."
+    - target: input-inversion
+      url: /practice/input-inversion/
+      reason: "Nobody has bandwidth to structure decisions at 7 AM. Defaults accommodate that."
+    - target: how-i-think
+      url: /thinking/
+      reason: "The processing profile doesn't shut off at the office door."
+    - target: reading-the-room
+      url: /essays/reading-the-room/
+      reason: "Reading the room at home is harder than at work."
