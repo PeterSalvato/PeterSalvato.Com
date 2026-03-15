@@ -41,9 +41,11 @@
   }
 
   .artifact-subtitle {
-    font-size: $type-body-sm;
-    font-style: italic;
-    color: $color-ink-light;
+    font-family: $font-mono;
+    font-size: $type-caption;
+    font-style: normal;
+    color: $color-ink-faint;
+    letter-spacing: 0.03em;
     margin-top: $space-xs;
   }
 
@@ -52,6 +54,7 @@
     color: $color-ink-light;
     line-height: $leading-body;
     max-width: 55ch;
+    margin-top: $space-sm;
   }
 
   .dossier-meta {
@@ -93,10 +96,12 @@
   }
 
   .artifact-subtitle {
-    font-size: $type-body;
-    font-style: italic;
-    color: $color-ink-light;
-    margin-top: $space-xs;
+    font-family: $font-mono;
+    font-size: $type-body-sm;
+    font-style: normal;
+    color: $color-ink-faint;
+    letter-spacing: 0.03em;
+    margin-top: $space-sm;
   }
 
   .dossier-meta {
