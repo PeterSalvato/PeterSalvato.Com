@@ -86,8 +86,13 @@
     transform: translateX($sidebar-width);
   }
 
+  #main-content {
+    overflow-x: hidden;
+  }
+
   #container {
     max-width: 100%;
+    transform: none;
   }
 
   // Homepage
