@@ -33,6 +33,28 @@ pre {
   }
 }
 
+// Inline images (markdown {:.image.diagram} etc.)
+img.image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: $space-lg 0;
+
+  &.diagram {
+    padding: $space-sm;
+    background-color: $color-white;
+    border: 1px solid $color-rule;
+  }
+
+  &.photo {
+    border: 1px solid $color-rule;
+  }
+
+  &.logo {
+    max-width: 200px;
+  }
+}
+
 // Image galleries
 .image-gallery {
   display: grid;
