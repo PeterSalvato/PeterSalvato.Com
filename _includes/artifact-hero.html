@@ -15,10 +15,6 @@
         <div class="artifact-mark-container">
             <img src="{{ hero_image | relative_url }}" alt="" class="artifact-mark" aria-hidden="true">
         </div>
-        {% elsif item.icon %}
-        <div class="artifact-mark-container artifact-mark-icon">
-            <span class="material-symbols-outlined">{{ item.icon }}</span>
-        </div>
         {% endif %}
 
         <div class="artifact-hero-title">
@@ -54,10 +50,6 @@
         {% elsif hero_image %}
         <div class="artifact-mark-container">
             <img src="{{ hero_image | relative_url }}" alt="" class="artifact-mark" aria-hidden="true">
-        </div>
-        {% elsif item.icon %}
-        <div class="artifact-mark-container artifact-mark-icon">
-            <span class="material-symbols-outlined">{{ item.icon }}</span>
         </div>
         {% endif %}
 
