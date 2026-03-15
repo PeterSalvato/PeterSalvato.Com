@@ -27,27 +27,32 @@ seo_keywords: ["design engineering", "design methodology", "systems architecture
   </div>
 
   <div class="essays-panel" id="panel-series">
-    <div class="series-cards">
-      {% for series_entry in site.data.series %}
-        {% assign series_key = series_entry[0] %}
-        {% assign series_info = series_entry[1] %}
-        {% assign series_posts = site.essays | where: "series", series_key | sort: "order" %}
-        {% assign published_count = 0 %}
-        {% for post in series_posts %}{% if post.published %}{% assign published_count = published_count | plus: 1 %}{% endif %}{% endfor %}
-        <a href="#" class="artifact-card artifact-card--link series-card" data-series="{{ series_key }}">
-          <div class="artifact-hero-header">
-            <div class="artifact-hero-title">
-              <h3>{{ series_info.title }}</h3>
-            </div>
-          </div>
+    {% for series_entry in site.data.series %}
+      {% assign series_key = series_entry[0] %}
+      {% assign series_info = series_entry[1] %}
+      {% assign series_posts = site.essays | where: "series", series_key | sort: "order" %}
+      {% assign published_count = 0 %}
+      {% for post in series_posts %}{% if post.published %}{% assign published_count = published_count | plus: 1 %}{% endif %}{% endfor %}
+      {% if published_count > 0 %}
+      <div class="series-block" id="series-{{ series_key }}">
+        <div class="series-header">
+          <h3>{{ series_info.title }}</h3>
           <p class="artifact-context">{{ series_info.description }}</p>
           <div class="dossier-meta">
             {% if series_info.status %}<span class="dossier-status">{{ series_info.status }}</span>{% endif %}
             <span class="dossier-status">{{ published_count }}/{{ series_info.chapters | default: "?" }} published</span>
           </div>
-        </a>
-      {% endfor %}
-    </div>
+        </div>
+        <div class="series-posts">
+          {% for post in series_posts %}
+            {% if post.published %}
+              {% include artifact-hero.html item=post url=post.url is_link=true %}
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+      {% endif %}
+    {% endfor %}
   </div>
 
   <div class="essays-panel" id="panel-standalone">
