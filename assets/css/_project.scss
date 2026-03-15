@@ -2,6 +2,16 @@
 // PROJECT — Practice/Systems/Evidence page layout
 // ============================================================================
 
+// Project content — global image safety
+.project-content {
+  overflow-x: hidden;
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
 // Content blocks (JS-generated from h2 + text + images)
 .content-block {
   margin-bottom: $space-xxl;
@@ -11,6 +21,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: $space-xl;
+  min-width: 0;
 }
 
 .content-block--text-only .block-body {
@@ -25,6 +36,17 @@
   position: sticky;
   top: $space-lg;
   align-self: start;
+  min-width: 0;
+  overflow: hidden;
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.block-text {
+  min-width: 0;
 }
 
 // Figures
