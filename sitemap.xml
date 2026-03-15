@@ -13,28 +13,28 @@ layout: null
     <lastmod>{{ page.last_modified | date: "%Y-%m-%d" }}</lastmod>{% endif %}
   </url>
   {% endif %}{% endunless %}{% endfor %}
-  {% for doc in site.governance %}{% if doc.published != false %}
+  {% for doc in site.practice %}{% if doc.published != false %}
   <url>
     <loc>{{ doc.url | absolute_url }}</loc>{% if doc.last_modified %}
     <lastmod>{{ doc.last_modified | date: "%Y-%m-%d" }}</lastmod>{% endif %}
   </url>
   {% endif %}{% endfor %}
-  {% for doc in site.infrastructure %}{% if doc.published != false %}
+  {% for doc in site.systems %}{% if doc.published != false %}
   <url>
     <loc>{{ doc.url | absolute_url }}</loc>{% if doc.last_modified %}
     <lastmod>{{ doc.last_modified | date: "%Y-%m-%d" }}</lastmod>{% endif %}
   </url>
   {% endif %}{% endfor %}
-  {% for doc in site.output %}{% if doc.published != false %}
+  {% for doc in site.evidence %}{% if doc.published != false %}
   <url>
     <loc>{{ doc.url | absolute_url }}</loc>{% if doc.last_modified %}
     <lastmod>{{ doc.last_modified | date: "%Y-%m-%d" }}</lastmod>{% endif %}
   </url>
   {% endif %}{% endfor %}
-  {% for post in site.blog %}
+  {% for doc in site.essays %}{% if doc.published != false %}
   <url>
-    <loc>{{ post.url | absolute_url }}</loc>{% if post.date %}
-    <lastmod>{{ post.date | date: "%Y-%m-%d" }}</lastmod>{% endif %}
+    <loc>{{ doc.url | absolute_url }}</loc>{% if doc.date %}
+    <lastmod>{{ doc.date | date: "%Y-%m-%d" }}</lastmod>{% endif %}
   </url>
-  {% endfor %}
+  {% endif %}{% endfor %}
 </urlset>
