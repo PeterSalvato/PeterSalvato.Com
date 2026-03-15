@@ -31,7 +31,7 @@ seo_keywords: ["design engineering", "design methodology", "systems architecture
       {% for series_entry in site.data.series %}
         {% assign series_key = series_entry[0] %}
         {% assign series_info = series_entry[1] %}
-        {% assign series_posts = site.essays | where: "series", series_key | sort: "chapter" %}
+        {% assign series_posts = site.essays | where: "series", series_key | sort: "order" %}
         {% assign published_count = 0 %}
         {% for post in series_posts %}{% if post.published %}{% assign published_count = published_count | plus: 1 %}{% endif %}{% endfor %}
         <a href="#" class="artifact-card artifact-card--link series-card" data-series="{{ series_key }}">
