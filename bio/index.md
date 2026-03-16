@@ -8,13 +8,13 @@ seo_keywords: ["Peter Salvato", "design engineer", "SVA", "visual communication"
 last_modified: 2026-02-26
 ---
 
-Peter Salvato is a design engineer. Construction sites, print shops, enterprise platforms, brand systems, and classrooms. The methodology predates the AI tools. The tools serve it.
+Peter Salvato is a design engineer. Construction sites, print shops, enterprise platforms, brand systems, and classrooms. The methodology came first. The AI tools arrived later and fit inside it.
 
 ## Construction Sites
 
 My father was a general superintendent for general contractors in New York: Bovis, Gotham, Engel Burman. His job was holding the whole picture while fifty trades worked their piece. I grew up on those job sites, watching what happened when the steel met the concrete and when the trades had to coordinate at the joints.
 
-That is still how I think about systems. The interesting question is always where does this fail.
+That is still how I think about systems. I look at what is supposed to connect, and I can usually tell where the failure will happen before it does.
 
 ## SVA
 
@@ -78,4 +78,4 @@ In 2023 I started thinking out loud into AI tools the way I'd been thinking into
 
 The worst loss was a novel. Months of [New City](/evidence/new-city/) ideation distributed across dozens of sessions, the continuity severed when the sessions closed. That loss built the [Savepoint Syntax](/systems/savepoint/). The first version failed immediately. Three more before the structure held. Then the same problem surfaced in code: contributors contradicting each other's architectural decisions. That produced [FormWork](/systems/formwork/).
 
-The failure modes were not new. Joints that cannot carry load, context that drifts when nobody maintains fidelity to it, structures that break when the people operating them cannot see what has already been decided. I have been solving that problem since construction sites. That corpus, three years of sessions and thousands of conversations, became the raw material this site was compiled from. The tools change. The engineering does not.
+The failure modes were not new. Joints that cannot carry load, context that drifts when nobody maintains fidelity to it, structures that break when the people operating them cannot see what has already been decided. I have been solving that problem since construction sites. That corpus, three years of sessions and thousands of conversations, became the raw material this site was compiled from. The tools are different now, but the engineering is the same engineering I learned watching my father coordinate fifty trades.

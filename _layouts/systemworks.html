@@ -13,6 +13,12 @@ layout: default
     <p class="hero-role">Design Engineer</p>
 </div>
 
+{% if content != "" %}
+<div id="homepage-intro">
+    {{ content }}
+</div>
+{% endif %}
+
 <!-- Section Cards — mirror the nav, explain the depth -->
 <div id="section-cards">
     {% for route in site.data.index.routes %}
