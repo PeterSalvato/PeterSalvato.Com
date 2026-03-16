@@ -8,8 +8,8 @@ chapter: 1
 description: "Four constraint profiles at one table. How a kitchen becomes a design problem, and why I started building systems instead of just cooking dinner."
 seo_keywords: ["neurodivergent kitchen systems", "ARFID meal planning", "celiac kitchen design", "accommodation design home", "executive function cooking", "kitchen systems design", "neurodivergent household", "food accommodation", "Peter Salvato"]
 related:
-  - /practice/accommodation-design
-  - /practice/prosthetic-cognition
+  - /essays/the-cook-who-falls-through-the-system/
+  - /essays/everybodys-got-a-plan/
 ---
 
 I spent three years assuming I was bad at feeding my family. Every failed dinner felt like a personal failure. I'd forget to defrost something, or I'd plan a meal that worked for two people but not four, or I'd get to 5 PM and realize I didn't have the bandwidth to think about what to cook, let alone cook it.
@@ -40,21 +40,17 @@ I've spent my career looking at that exact shape.
 
 ---
 
-I'm a design engineer. For twelve years I maintained an enterprise recruiting platform where I had to keep the system running while rebuilding the layers underneath it. I build AI governance tools that hold evaluation criteria across sessions so the work doesn't drift. I built a protocol that preserves context when working memory (mine, the model's, the team's) drops the thread.
-
-In every one of those projects, the work is the same: figure out what the system actually needs, and build structure around that instead of asking it to be something different. An AI model with an 8,000-token context window can't hold a 40,000-token conversation. A student who can't process compound instructions can't complete a multi-step task in one pass. So you break it apart. You scaffold it. You let the environment carry what the person or the system drops.
-
-I was doing this professionally for years before I realized the kitchen needed the same thing. The household has processing profiles the same way a software system does, the same way a classroom does. Four people with documented constraints, each one needing the environment designed around what they actually are.
+I do the same kind of work professionally. Figure out what the system actually needs, and build structure around that instead of asking it to be something different. I was doing it for years before I realized the kitchen needed the same thing. Four people with documented constraints, each one needing the environment designed around what they actually are.
 
 ---
 
 I stopped treating dinner as a willpower problem and started treating it as a design problem. That shift is what this series covers.
 
-Part of it is the kitchen: how I organize the space, how I structure the cook, how I use tools (sous vide, AI sequencing, modular meal architecture) to reduce the cognitive load of feeding four constraint profiles from one workspace.
+Part of it is the kitchen: how I organize the space, how I structure the cook, how I use tools to reduce the cognitive load of feeding four people from one workspace.
 
 Part of it is the garden: growing food, building growing systems, learning hydroponics and soil science from zero. Traditional homesteading practices combined with whatever technology actually reduces the burden.
 
-Part of it is automation: the systems layer. Task sequencing, externalized memory, home infrastructure that carries what working memory drops. Prosthetic architecture for a household where executive function is a constrained resource.
+Part of it is automation: task sequencing, externalized memory, home infrastructure that carries what working memory drops.
 
 The through-line is accommodation. What each person can and can't eat. What the climate and the soil can and can't support. What working memory can and can't hold.
 

@@ -10,7 +10,6 @@ last_modified: 2026-03-17
 related:
   - /essays/the-accommodation-kitchen/
   - /essays/everybodys-got-a-plan/
-  - /practice/accommodation-design/
 ---
 
 My parents had one move for a kid who wouldn't eat. Wait him out. When he gets hungry enough, he'll eat. It worked on me. Or at least it worked enough that I internalized it as the way you handle a kid at the table.
