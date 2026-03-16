@@ -105,13 +105,13 @@
     gap: $space-md;
 
     .hero-image {
-      width: 120px;
+      width: 250px;
     }
 
     .hero-text {
-      left: 0;
-      position: static;
-      top: 0;
+      position: relative;
+      left: 8rem;
+      top: -5rem;
       transform: none;
     }
 
