@@ -9,20 +9,24 @@
   margin-bottom: $space-xxl;
   display: flex;
   align-items: flex-start;
-  gap: $space-xl;
+  gap: $space-lg;
 
   .hero-image {
     flex-shrink: 0;
-    max-width: 200px;
+    width: 120px;
+  }
+
+  .hero-text {
+    padding-top: $space-xs;
   }
 
   h1 {
     font-family: $font-display;
-    font-size: $type-display;
+    font-size: 2.25rem;
     letter-spacing: 0.02em;
     text-transform: uppercase;
     line-height: $leading-tight;
-    max-width: 20ch;
+    margin-bottom: 0;
   }
 
   .hero-role {
@@ -30,7 +34,7 @@
     font-size: $type-body-sm;
     color: $color-ink-light;
     letter-spacing: 0.03em;
-    margin-top: $space-sm;
+    margin-top: $space-xs;
   }
 }
 

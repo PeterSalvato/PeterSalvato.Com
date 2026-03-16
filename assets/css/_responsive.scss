@@ -101,14 +101,14 @@
   // Homepage
   #homepage-hero {
     flex-direction: column;
-    gap: $space-lg;
+    gap: $space-md;
 
-    h1 {
-      font-size: $type-h2;
+    .hero-image {
+      width: 80px;
     }
 
-    .hero-image img {
-      max-width: 160px;
+    h1 {
+      font-size: 1.5rem;
     }
   }
 
@@ -120,6 +120,15 @@
   .system-footer .footer-columns {
     grid-template-columns: 1fr;
     gap: $space-xl;
+  }
+
+  .system-footer .subscribe-form {
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  .system-footer .subscribe-button {
+    align-self: flex-start;
   }
 
   .system-footer a {
@@ -244,8 +253,13 @@
   }
 
   #homepage-hero {
-    h1 { font-size: $type-h1; }
-    .hero-image img { max-width: 360px; }
+    .hero-image {
+      width: 100px;
+    }
+
+    h1 {
+      font-size: 1.875rem;
+    }
   }
 
   #section-cards {
@@ -287,6 +301,12 @@
   }
 
   #homepage-hero {
-    .hero-image img { max-width: 600px; }
+    .hero-image {
+      width: 150px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+    }
   }
 }
