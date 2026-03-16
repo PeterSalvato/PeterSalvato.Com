@@ -671,6 +671,178 @@ everybodys-got-a-plan:
 # VOCABULARY — Canonical Reference Pages
 # ============================================================================
 
+vocab-scaffold:
+  url: /vocabulary/scaffold/
+  connections:
+    - target: accommodation-design
+      url: /practice/accommodation-design/
+      reason: "Scaffolding is one of the three core IEP moves that transferred directly to AI architecture."
+    - target: the-iep-for-ai-systems
+      url: /essays/the-iep-for-ai-systems/
+      reason: "The classroom origin of the scaffold principle and how coordinator patterns carry it forward."
+    - target: formwork
+      url: /systems/formwork/
+      reason: "The concrete formwork metaphor: temporary by definition, because the work needs to stand alone."
+    - target: vocab-drift
+      url: /vocabulary/drift/
+      reason: "A scaffold that stays too long becomes invisible structure. That invisibility is how drift operates."
+    - target: what-special-ed-teachers-know
+      url: /essays/what-special-ed-teachers-already-know/
+      reason: "Teachers treat scaffolding as a technical term. This is the practitioner profile that transfers it."
+    - target: aiden-jae
+      url: /evidence/aiden-jae/
+      reason: "The photography brief: scaffolding a visual standard that did not yet exist as institutional knowledge."
+
+vocab-attunement:
+  url: /vocabulary/attunement/
+  connections:
+    - target: reading-the-room
+      url: /essays/reading-the-room/
+      reason: "The dance floor, the classroom, the same operation. The origin essay for this concept."
+    - target: attunement-one-skill
+      url: /essays/attunement-is-one-skill-with-many-names/
+      reason: "DJs, teachers, designers, cooks. One operation with a dozen domain-specific names."
+    - target: encore
+      url: /evidence/encore/
+      reason: "Attunement at both ends: the end user and the development team building inside the platform."
+    - target: aiden-jae
+      url: /evidence/aiden-jae/
+      reason: "Reading a founder who could not see how the screen was flattening what she knew."
+    - target: accommodation-design
+      url: /vocabulary/accommodation-design/
+      reason: "Attunement is the prerequisite. You read the profile first, then build the accommodation."
+    - target: somatic-design
+      url: /vocabulary/somatic-design/
+      reason: "What attunement produces when applied to sequence and pacing. The layer underneath reading."
+    - target: a-kid-in-the-computer-lab
+      url: /essays/a-kid-in-the-computer-lab/
+      reason: "Eliar in the computer lab. Twelve-year-old reading a room faster than the adults in it."
+
+vocab-somatic-design:
+  url: /vocabulary/somatic-design/
+  connections:
+    - target: somatic-design-essay
+      url: /essays/somatic-design-what-the-body-feels/
+      reason: "The half-degree rotation and why structure has to stay invisible to do its work."
+    - target: the-charged-room
+      url: /essays/the-charged-room/
+      reason: "Twilo and the dance floor architecture underneath. Where this principle was first felt."
+    - target: where-i-learned-pacing
+      url: /essays/where-i-learned-pacing/
+      reason: "How the pacing principle transferred from the dance floor to a classroom to AI systems."
+    - target: aiden-jae
+      url: /evidence/aiden-jae/
+      reason: "A brand system where every touchpoint continues the same somatic sequence."
+    - target: accommodation-design
+      url: /practice/accommodation-design/
+      reason: "Somatic design is accommodation operating at the pre-cognitive layer."
+    - target: formwork
+      url: /systems/formwork/
+      reason: "FormWork is the structural coordination layer. Somatic design is what the receiver experiences when it works."
+    - target: vocab-drift
+      url: /vocabulary/drift/
+      reason: "Somatic design is unusually vulnerable to drift because its load-bearing structure is never visible."
+
+vocab-context:
+  url: /vocabulary/context/
+  connections:
+    - target: savepoint
+      url: /systems/savepoint/
+      reason: "SavePoint was built because context is perishable. This page explains what is being preserved."
+    - target: encore
+      url: /evidence/encore/
+      reason: "Twelve years of institutional context held in one person's head. The cost when it wasn't in the room."
+    - target: new-city
+      url: /evidence/new-city/
+      reason: "Months of novel ideation lost when the sessions closed. The incident that made context loss concrete."
+    - target: i-needed-a-better-tool
+      url: /essays/i-needed-a-better-tool/
+      reason: "The specific experience of losing reasoning across AI sessions and what it produced."
+    - target: prosthetic-cognition
+      url: /practice/prosthetic-cognition/
+      reason: "The prosthetic relationship depends on preserving context at the interface between human and model."
+    - target: drift
+      url: /vocabulary/drift/
+      reason: "Drift is what accumulates when context is not preserved. Reasonable decisions made against invisible frames."
+    - target: formwork
+      url: /systems/formwork/
+      reason: "The coordination harness that holds the right context available at the right moment."
+
+vocab-load-bearing:
+  url: /vocabulary/load-bearing/
+  connections:
+    - target: aiden-jae
+      url: /evidence/aiden-jae/
+      reason: "Photography direction as load-bearing structure. Remove it and the brand argument collapses."
+    - target: altrueism
+      url: /evidence/altrueism/
+      reason: "Hand-drawn marks as load-bearing proof. They carry the transparency claim the copy makes."
+    - target: encore
+      url: /evidence/encore/
+      reason: "The SCSS design system as load-bearing governance structure for twelve years of platform evolution."
+    - target: vocab-drift
+      url: /vocabulary/drift/
+      reason: "Drift removes load-bearing elements without anyone noticing. The removal was never one decision."
+    - target: construction-sites-essay
+      url: /essays/construction-sites-where-does-this-fail/
+      reason: "My father on construction sites: knowing which walls are bearing weight and which are partition."
+    - target: drift-essay
+      url: /essays/drift-how-good-work-dies-slowly/
+      reason: "What happens when load-bearing elements degrade unnoticed. The four-pixel button and its consequences."
+    - target: formwork
+      url: /systems/formwork/
+      reason: "FormWork is itself load-bearing during process: the coordination structure that holds everything in position."
+
+vocab-input-inversion:
+  url: /vocabulary/input-inversion/
+  connections:
+    - target: input-inversion
+      url: /practice/input-inversion/
+      reason: "The full whitepaper. This page is the entry point; that one is the deep dive."
+    - target: talk-to-it
+      url: /essays/talk-to-it/
+      reason: "The practical case for talking instead of typing. Where to start."
+    - target: compilation-not-generation
+      url: /essays/compilation-not-generation/
+      reason: "The authorship distinction that input inversion makes possible."
+    - target: formwork
+      url: /systems/formwork/
+      reason: "The coordination harness that processes what the pour produces."
+    - target: accommodation-design
+      url: /practice/accommodation-design/
+      reason: "Input inversion is the human-side accommodation. The parent framework."
+    - target: i-needed-a-better-tool
+      url: /essays/i-needed-a-better-tool/
+      reason: "The corpus origin story. Three years of thinking out loud before there was a name for it."
+    - target: savepoint
+      url: /systems/savepoint/
+      reason: "Savepoints dropped during raw thinking let tools find the turning points in later corpus traversal."
+
+vocab-processing-profile:
+  url: /vocabulary/processing-profile/
+  connections:
+    - target: accommodation-design
+      url: /practice/accommodation-design/
+      reason: "The whitepaper built on reading processing profiles. This page is the entry point to that framework."
+    - target: processing-profiles
+      url: /essays/processing-profiles/
+      reason: "The essay that maps student constraints to model constraints, point by point."
+    - target: why-does-chatgpt-get-worse
+      url: /essays/why-does-chatgpt-get-worse/
+      reason: "Context window degradation is the most visible processing profile constraint in practice."
+    - target: savepoint
+      url: /systems/savepoint/
+      reason: "Built specifically for the model's no-persistent-memory constraint."
+    - target: lensarray
+      url: /systems/lensarray/
+      reason: "Decomposed evaluation is the accommodation for the model's compound-instruction failure mode."
+    - target: the-iep-for-ai-systems
+      url: /essays/the-iep-for-ai-systems/
+      reason: "The classroom origin story. Where reading a processing profile first became the method."
+    - target: how-i-think
+      url: /thinking/
+      reason: "The human processing profile that runs alongside the model's. Accommodation goes both ways."
+
 vocab-drift:
   url: /vocabulary/drift/
   connections:
