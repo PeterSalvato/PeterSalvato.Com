@@ -18,16 +18,16 @@ $font-display: 'Chainprinter', 'Space Mono', monospace;
 $font-mono:    'Space Mono', monospace;
 
 // ----------------------------------------------------------------------------
-// TYPE SCALE — 15px base, 21px body, 1.43 line-height, 2rem baseline
+// TYPE SCALE — 16px root, 18px body, distinct size per heading level
 // ----------------------------------------------------------------------------
-$type-display:   2.533rem;  // 38px — hero titles
-$type-h1:        2.133rem;  // 32px — page titles
-$type-h2:        1.867rem;  // 28px — section heads
-$type-h3:        1.4rem;    // 21px — subsections (matches body)
-$type-body:      1.4rem;    // 21px — main reading size
-$type-body-sm:   1.067rem;  // 16px — secondary text, nav
-$type-caption:   0.867rem;  // 13px — metadata, timestamps
-$type-fine:      0.8rem;    // 12px — fine print
+$type-display:   2.25rem;    // 36px — hero titles
+$type-h1:        1.875rem;   // 30px — page titles
+$type-h2:        1.5rem;     // 24px — section heads
+$type-h3:        1.25rem;    // 20px — subsections
+$type-body:      1.125rem;   // 18px — main reading size
+$type-body-sm:   1rem;       // 16px — secondary text, nav
+$type-caption:   0.8125rem;  // 13px — metadata, timestamps
+$type-fine:      0.75rem;    // 12px — fine print
 
 $leading-body:   1.43;
 $leading-tight:  1.2;
