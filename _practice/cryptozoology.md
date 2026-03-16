@@ -14,9 +14,9 @@ description: "Creatures that don't exist, presented with full scholarly visual c
 last_modified: 2026-02-21
 ---
 
-The field guide format establishes credibility through precision: taxonomic naming, classification grids, specimen notation, archival typography. Apply that apparatus to creatures that have never been confirmed to exist and something interesting happens. The format doesn't wink. It doesn't signal that this is a joke. It just documents, with the same seriousness it would bring to anything else.
+I wanted to see what happens when you apply the full apparatus of scholarly visual credibility to creatures that have never been confirmed to exist. Taxonomic naming, classification grids, specimen notation, archival typography. Fifty-three conversations over fourteen months, all AI-generated specimens, and the core question stayed the same the whole time: what does rigorous form do to content it has no business taking seriously?
 
-Cryptozoology is a pseudo-academic poster series treating folkloric cryptids with the full visual apparatus of legitimate zoological scholarship. The tone is not tongue-in-cheek. It is not credulous. It is deadpan documentation of imaginary things.
+The format does not wink. It does not signal that this is a joke. It just documents, with the same seriousness it would bring to anything else. That discipline of refusing to break character is the entire project.
 
 ## THE PRESSURE
 
@@ -30,11 +30,11 @@ The grid doesn't know if the subject is real. The taxonomic label doesn't verify
 
 **No ironic signals.** This is the hardest constraint. The temptation is to acknowledge the absurdity, a knowing caption, a slight stylistic break. The discipline is to refuse that move. The form takes the subject more seriously than the subject deserves, and that gap is the entire argument.
 
-**Each poster: a standalone document.** Creature, classification, behavioral notes, habitat data. The apparatus of legitimate scholarship, applied in full.
+**Each poster: a standalone document.** Creature, classification, behavioral notes, habitat data. Every element drawn from the apparatus of legitimate scholarship.
 
 ## THE PROOF
 
-One piece completed. The tone holds: deadpan, no irony, full scholarly apparatus applied without acknowledgment that the subject doesn't exist. The form does exactly what it should: establishes credibility the content hasn't earned.
+One piece completed. The tone holds: deadpan, no irony, full scholarly apparatus applied without acknowledgment that the subject does not exist.
 
 <!--
 Peter: Add the completed poster image here, and any notes on which creature, what the experience of making it was like, and which creatures are next.

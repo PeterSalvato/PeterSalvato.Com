@@ -14,15 +14,15 @@ description: "Swiss grid systems applied to emotional terrain. Words from global
 last_modified: 2026-02-21
 ---
 
-English has abandoned enormous territory. The feeling of realizing every stranger has a life as vivid and complex as yours: that's sonder. The longing for a home you can no longer return to: hiraeth. The restless feeling before a journey begins: resfeber. These states are real. They are navigable. English just didn't build the words.
+I collect words from other languages for states English has no name for. The feeling of realizing every stranger has a life as vivid and complex as yours: that is sonder. The longing for a home you can no longer return to: hiraeth. The restless feeling before a journey begins: resfeber. These states are real. They are navigable. English just never built the words.
 
-Sentimentology is a typographic poster series applying Swiss grid systems to the words that map where English stops. The constraint: typography doesn't illustrate emotion, it maps it. Color doesn't decorate; it locates. The grid is cartographic apparatus applied to interior terrain.
+Sentimentology is a typographic poster series applying Swiss grid systems to the words that map where English stops. The constraint: typography does not illustrate emotion, it maps it. Color does not decorate. It locates. The grid is cartographic apparatus applied to interior terrain.
 
 ## THE PRESSURE
 
 Most design that engages emotion treats feeling as something to be gestured at: expressive type, evocative color, mood imagery. The feeling is communicated through approximation. The precision of cartography (scale, coordinates, relationship between elements) is assumed to be incompatible with emotional subject matter.
 
-The assumption is wrong. Emotion has structure. Longing and wistfulness are different states with different topographies. What you can name, you can navigate. What you can map, you can hold long enough to understand.
+The assumption is wrong. Emotion has structure. Longing and wistfulness are different states with different topographies. Naming them makes them navigable. Mapping them makes them legible long enough to understand.
 
 ## THE BUILD
 

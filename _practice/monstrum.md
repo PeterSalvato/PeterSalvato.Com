@@ -14,15 +14,15 @@ description: "Visual taxonomy of the monstrous. Archival aesthetics and scholarl
 last_modified: 2026-02-21
 ---
 
-Kaiju are not entertainment. They are translation devices, cultural anxieties made flesh, given form, given a destruction pattern. Godzilla is nuclear anxiety. The creature that emerges from environmental collapse encodes what the culture couldn't say in policy or speech. The shape reveals what the society was forced to build. You can read the collective psychology in what it chose to make monstrous.
+I have spent 295 conversations over 22 months reading monsters as cultural diagnosis. Kaiju are not entertainment. They are translation devices: cultural anxieties made flesh, given form, given a destruction pattern. Godzilla is nuclear anxiety. The creature that emerges from environmental collapse encodes what the culture could not say in policy or speech. The shape reveals what the society was forced to build. You can read the collective psychology in what it chose to make monstrous.
 
-Monstrum is a visual taxonomy of the monstrous: creatures documented not as horror content but as cultural artifacts, read with the same scholarly apparatus a field guide brings to real species.
+Monstrum is a visual taxonomy of the monstrous: creatures documented as cultural artifacts, read with the same scholarly apparatus a field guide brings to real species.
 
 ## THE PRESSURE
 
 Horror imagery defaults to excess: scale, violence, spectacle, saturation. The assumption is that more amplifies fear. But excess dilutes the uncanny. The thing that actually unsettles is specific: a particular proportion, a particular behavior, a stillness where movement is expected. Amplify everything and the specificity disappears.
 
-The constraint that follows: restraint is not aesthetic preference, it is the mechanism. The grid that holds the creature steady, the archival presentation that refuses spectacle. These are what let the uncanny survive the frame.
+The constraint that follows: restraint is the mechanism. The grid holds the creature steady. The archival presentation refuses spectacle. Without that discipline, the uncanny disappears into noise.
 
 ## THE BUILD
 

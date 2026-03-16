@@ -14,9 +14,9 @@ description: "Purpose-built vehicles as engineering problems solved in steel. 12
 last_modified: 2026-02-21
 ---
 
-A Baja bug is not a restored Volkswagen. It is a solution to the problem of surviving high-speed desert terrain in a lightweight vehicle, and every modification is an answer to a specific question the desert asked. A rat rod is not a sentimental project. It is a philosophy of mechanical honesty made drivable: nothing hidden, everything load-bearing, exposed by design. These are engineering problems solved in steel. Motorology documents what the machines learned.
+I keep coming back to purpose-built vehicles because they are the clearest examples I know of form following constraint. A Baja bug is not a restored Volkswagen. It is a solution to the problem of surviving high-speed desert terrain in a lightweight vehicle, and every modification is an answer to a specific question the desert asked. A rat rod is mechanical honesty made drivable: nothing hidden, everything load-bearing, exposed by design. These are engineering problems solved in steel.
 
-A systematic visual taxonomy of purpose-built vehicles. Baja bugs, rat rods, overlanders, camper vans, choppers, lowriders, each one a distinct response to a distinct environmental and cultural constraint.
+Motorology is a systematic visual taxonomy of purpose-built vehicles. Baja bugs, rat rods, overlanders, camper vans, choppers, lowriders, each one a distinct response to a distinct environmental and cultural constraint.
 
 ## THE PRESSURE
 
@@ -28,7 +28,7 @@ The same rigor that makes a zoological field guide useful applies here: classifi
 
 **12-column grids, industrial palette, DIN and Akzidenz-Grotesk typography.** The layouts read as engineering documentation: technical drawings, spec sheets, systematic annotation. The visual language is borrowed from the environment the vehicles come from: industrial, functional, built for legibility under load.
 
-**Each poster documents the constraint the vehicle answered.** Desert survival. Rock crawling. Durability across distance. Freedom of movement as cultural expression. Identity made mobile. The machine is the solution; the poster documents the problem it was built to solve and how.
+**Each poster documents the constraint the vehicle answered.** Desert survival. Rock crawling. Durability across distance. Freedom of movement as cultural expression. Identity made mobile. The problem and how the machine answers it.
 
 **Vehicle categories confirmed:** Baja bugs, rat rods, overlanders, camper vans, choppers, lowriders.
 
