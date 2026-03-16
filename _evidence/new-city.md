@@ -19,15 +19,15 @@ cta:
   link: /systems/savepoint
 ---
 
-I had never written a novel. I had a story idea and wanted to find out whether the same design thinking I use everywhere else would hold in a material I had never worked in. Brand systems, enterprise platforms, music production. The methodology transfers across all of them. Could it transfer to fiction?
+I had never written a novel. I had a story idea and wanted to find out whether the same design thinking I use everywhere else would hold in a material I'd never worked in. Brand systems, enterprise platforms, music production. The methodology transfers across all of them. I wanted to know if it would transfer to fiction.
 
-I built the architecture first. The same layered registration approach from the visual work ([Aiden Jae](/evidence/aiden-jae/), [Altrueism](/evidence/altrueism/)), except prose has a channel the visual work does not: what the reader's body does.
+I built the architecture first. The same layered registration approach from the visual work ([Aiden Jae](/evidence/aiden-jae/), [Altrueism](/evidence/altrueism/)), but prose has a channel the visual work doesn't: what the reader's body does.
 
 ## The fractal
 
 Three acts at the top. Western arc. A reader knows how to be inside a three-act story. The middle act splits in two, creating four major movements.
 
-Each movement contains four parts. Each part follows a Kishōtenketsu cycle: introduction, development, twist, reconciliation. Kishōtenketsu sequences perception, not conflict. The reader's understanding shifts. Nothing needs to be won for the story to move.
+Each movement contains four parts. Each part follows a Kishōtenketsu cycle: introduction, development, twist, reconciliation. Kishōtenketsu sequences perception, not conflict. The reader's understanding shifts, and nothing needs to be won for the story to move.
 
 Each part splits again. Four beats, each its own Kishōtenketsu cycle. The Western structure is the door the reader walks through. The perception-sequencing governs what happens inside every room.
 
@@ -43,7 +43,7 @@ Each beat is specced across three dimensions simultaneously.
 
 **Reader.** What the reader physically experiences. Prose register, sentence rhythm, sensory channel, compression or expansion. The somatic layer.
 
-If the story moment is claustrophobic but the prose is expansive, the reader's body gets a contradictory signal. Misregistration. The reader feels it before they can name it. The same problem as a brand identity that contradicts its own photography, or a sonic texture that fights its visual language. Registration is registration regardless of the material.
+If the story moment is claustrophobic but the prose is expansive, the reader's body gets a contradictory signal. Misregistration. The reader feels it before they can name it. Same problem as a brand identity that contradicts its own photography, or a sonic texture that fights its visual language. The material changes. The registration problem doesn't.
 
 ## The somatic layer
 
@@ -53,21 +53,21 @@ Register transitions are state transitions, specced at the beat level. The shift
 
 The goal is to produce a somatic response in the reader that mirrors what the character experiences. Rhythm, syntax, pacing, sensory density. Language that communicates physically. The reader's nervous system picks up what the character's nervous system is doing.
 
-This is [attunement](/vocabulary/#attunement) applied to prose: design for how someone actually processes an experience, not just what information they receive. The same principle behind accessibility and accommodation work, applied to fiction.
+This is [attunement](/vocabulary/#attunement) applied to prose. Design for how someone actually processes an experience, not just what information they receive.
 
 ## Why this structure
 
-The story follows a character through an unmasking process. Perception-sequencing governs the structure instead of conflict because unmasking is not something you win. It is something you come to understand. The somatic layer exists because the character's experience often precedes language. The reader needs to arrive at that understanding the same way the character does.
+The story follows a character through an unmasking process. Perception-sequencing governs the structure instead of conflict because unmasking is not something you win. It's something you come to understand. The somatic layer exists because the character's experience often precedes language. The reader needs to arrive at that understanding the same way the character does.
 
 One rule, derived before any structural decision: revelation comes through understanding, not through winning.
 
-Kishōtenketsu resolves through recontextualization. The reader arrives at a new understanding without confrontation. This is load-bearing at every layer of the fractal. If any layer contradicts the governing constraint, it is architecturally wrong. That test applies everywhere.
+Kishōtenketsu resolves through recontextualization. The reader arrives at a new understanding without confrontation. This is load-bearing at every layer of the fractal. If any layer contradicts the governing constraint, it's architecturally wrong.
 
-The character demands the structure. The structure demands the layers. The layers demand the registration. Every decision traces back to one question: how does this person actually experience the world, and how do I put a reader inside that experience without explaining it away.
+So the character determines the structure. The structure determines the layers. The layers determine the registration. Every decision traces back to one question: how does this person actually experience the world, and how do I put a reader inside that experience without explaining it away.
 
 ---
 
-The architecture is the deliverable. The novel is the test case.
+The architecture is the deliverable here. The novel is where I find out if it holds.
 
 ![New City concept poster, encampment]({{ '/assets/img/New_City_01_web.jpg' | relative_url }}){:.image.artifact}
 

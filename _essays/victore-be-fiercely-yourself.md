@@ -11,7 +11,7 @@ order: 15
 icon: edit_note
 ---
 
-James Victore lives in Beacon, New York. His studio is in a barn behind the house. I stayed the weekend once, slept in the barn, and watched the whole thing operate. Family and practice running through the same rooms. Kids in the kitchen, work on the walls, no separation between the two. The house was the studio was the life.
+James Victore lives in Beacon, New York. His studio is in a barn behind the house. I stayed the weekend once, slept in the barn, and watched the whole thing operate. Family and practice running through the same rooms. Kids in the kitchen, work on the walls, no separation between the two. The house and the studio and the life were all the same thing.
 
 That weekend we built a screen print press in his basement. Real construction. Framing, hinge mechanism, the whole rig. It worked. We pulled a few prints and the registration was clean. Then I mixed the ink for the next run and added too much reducer. Thinned it past the point where it would hold on the screen. The prints bled. The batch was ruined.
 
@@ -29,8 +29,8 @@ Information architecture had that. Page structure had that. The relationship bet
 
 That's what pulled me into the book industry, into Sterling Publishing, into catalog layout and production systems. Not because I lost interest in graphic design. Because I found the part of design where I could be fierce the way Victore meant it. Uncompromising, specific, willing to fight for the decision. The fight just happened to be about structure instead of surface.
 
-Victore and Niemann operated on different frequencies at SVA. Victore gave permission. Be yourself, be loud about it, don't apologize. Niemann and Blechman gave precision. Reduce, clarify, find the single image that carries the whole idea. I needed both. Permission without precision is noise. Precision without permission is craft with nothing behind it.
+Victore and Niemann operated on different frequencies at SVA. Victore gave permission: be yourself, be loud about it, don't apologize. Niemann and Blechman gave precision: reduce, clarify, find the single image that carries the whole idea. I needed both because neither one works alone. Permission without precision just produces noise. And precision without permission is technically good work that doesn't have anything behind it.
 
-My version turned out to be the place where design thinking was testable. Where you could point at a decision and say: this is correct, and here's why, and no amount of aesthetic preference changes that. Personal graphic design practice survived alongside it. I still design. I still care about the surface. But the surface is the parallel track. The structural work is where I found something I could defend without flinching.
+My version turned out to be the place where design thinking was testable. Where you could point at a decision and say: this is correct, and here's why, and no amount of aesthetic preference changes that. I still design. I still care about the surface. But the structural work is where I found something I could defend without flinching, and I think that's what Victore was actually trying to teach us. Find the thing you can be fierce about.
 
-The ink lesson from the basement never really left. You can solve the hard problem. You can build the press. But if you get careless at the point of contact, the thing that actually touches the material, none of the engineering matters. The prints still bleed.
+The ink lesson from the basement never really left. You can solve the hard problem, you can build the press, but if you get careless at the point of contact (the thing that actually touches the material) none of the engineering matters. I still think about that when I'm finishing something. The last step carries as much weight as the first.

@@ -19,7 +19,7 @@ You've built [scaffolding](/vocabulary/scaffold/): a graphic organizer for parag
 
 You've written individualized success criteria. One student's goal is a complete sentence. The student next to them is writing a paragraph with a topic sentence and supporting detail. Same assignment. Completely different definitions of done.
 
-You already know how to design for AI. The field just hasn't asked you yet.
+You already know how to design for AI. Nobody in the AI field has figured that out yet, but I think they will.
 
 ## The mapping
 
@@ -31,12 +31,12 @@ Everything you do in a classroom maps directly to AI system design:
 
 **Individualized criteria.** Evaluating writing for "voice quality" and "structural integrity" in the same prompt produces a blended average. Separate them. Give each dimension its own criteria and its own definition of success. Run them independently. This is how IEP goals work: each goal has its own measurable objective, its own baseline, its own progress monitoring.
 
-**Progress monitoring.** Each output gets assessed against specific criteria before the next task begins. Iterative evaluation loops. Continuous assessment against individualized goals. You do this every day.
+**Progress monitoring.** Each output gets assessed against specific criteria before the next task begins. Iterative evaluation loops. Continuous assessment against individualized goals. You already do this every day.
 
 ## Why the field needs you
 
-The question that drives good IEP design ("what does this student actually need to succeed at this task?") is the same question that produces better AI architecture: what does this system actually need to do this job well? The people who've been asking that question about human learners for their entire careers are the people the field needs most.
+The question that drives good IEP design ("what does this student actually need to succeed at this task?") is the same question that produces better AI architecture: what does this system actually need to do this job well? And the people who've been asking that question about human learners for years are exactly who the field needs.
 
-I taught a self-contained 4/5 bridge class in Sunset Park, Brooklyn. Twelve students, every subject, every accommodation. The framework I built for AI governance came directly from that room. I call it [accommodation design](/vocabulary/accommodation-design/). The skill set is transferable because the underlying problem is the same: a system with specific processing constraints receiving tasks designed for a different processing profile.
+I taught a self-contained 4/5 bridge class in Sunset Park, Brooklyn. Twelve students, every subject, every accommodation. The framework I built for AI governance came directly from that room. I call it [accommodation design](/vocabulary/accommodation-design/), and the reason it transfers is that the underlying problem is the same: a system with specific processing constraints receiving tasks designed for a different processing profile.
 
-You've been doing this work your entire career. The system receiving the accommodation just changed.
+You've been doing this work for years. The system changed. The skill set didn't.

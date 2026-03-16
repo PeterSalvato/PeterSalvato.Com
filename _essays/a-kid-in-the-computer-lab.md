@@ -37,6 +37,6 @@ He didn't say much. He didn't need to. His shoulders came down.
 
 After that, things were different between us. Not dramatic. He didn't become a different kid. He still got loud. He still broke protocol. But there was a frequency between us that hadn't been there before, and we both knew it. He'd look at me before he did something, and sometimes that was enough. Sometimes it wasn't. But he knew I was reading the room the same way he was, and that changed what was possible.
 
-I think about Eliar a lot. I think about what it costs a twelve-year-old to make himself the problem so someone else doesn't have to be. I think about how fast an aide with a form can flatten that into three checkboxes and a parent phone call. I think about how close I came to missing it. A different angle. A louder room. A day when I was less patient. I could have filled out the same form and never known.
+I think about Eliar a lot. What it costs a twelve-year-old to make himself the problem so someone else doesn't have to be. How fast an aide with a form can flatten that into three checkboxes and a parent phone call. And how close I came to missing it. A different angle. A louder room. A day when I was less patient. I could have filled out the same form and never known.
 
-I didn't miss it. That's the part that stays with me. I was watching, and I saw it. And when I told him I saw it, something opened up that protocol can't account for.
+I didn't miss it. That's the part that stays with me. I was watching, and I saw it. And when I told him I saw it, something shifted between us that no form was ever going to capture.

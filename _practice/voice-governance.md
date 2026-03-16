@@ -38,13 +38,13 @@ AI-generated text exhibits a consistent voice problem: competent prose that soun
 
 LLMs generate text from training data dominated by published writing: polished, performative, audience-aware. The statistical center of that data produces a specific voice: hedged, parallel, abstract-leading, em-dash-heavy, fortune-cookie-closing prose. Ask the model to write in a specific person's voice and it produces competent content marketing that sounds like everyone and no one.
 
-This is not a capability limitation. The model can generate text in virtually any style. The problem is that its default patterns are deeply embedded, and those defaults reassert themselves within paragraphs even when the model has been instructed to write differently. A paragraph that begins in a practitioner's voice drifts back to the statistical center by its third sentence. The default is gravitational.
+This is not a capability limitation. The model can generate text in virtually any style. The problem is that its default patterns are deeply embedded, and those defaults reassert themselves within paragraphs even when the model has been instructed to write differently. A paragraph that begins in a practitioner's voice drifts back to the statistical center by its third sentence. The defaults have gravity.
 
 I discovered this empirically. The first complete draft of petersalvato.com was produced through conventional AI-assisted writing: provide context, describe the desired voice, generate text, review and edit. Twenty-one project pages. Every one of them opened with an abstract concept before any real situation was established. "This project explores the intersection of..." on a page that should have said what broke and what I built to fix it.
 
-The pages were competent. None of them sounded like a person had written them.
+The pages were competent. Not one of them sounded like a person had written it.
 
-I tried the standard fixes. Longer style descriptions. More examples of the target voice. "Write like a practitioner, not a marketer." "Be direct and specific." "Sound like a real person." The model followed the instruction for a sentence, sometimes two, and then the defaults came back. Abstract openings. Mechanical parallelism. Three consecutive sections with identical skeleton structures. The gravitational pull of the training distribution was stronger than any style prompt.
+I tried the standard fixes. Longer style descriptions. More examples of the target voice. "Write like a practitioner, not a marketer." "Be direct and specific." "Sound like a real person." The model followed the instruction for a sentence, sometimes two, and then the defaults came back. Abstract openings. Mechanical parallelism. Three consecutive sections with identical skeleton structures. The pull of the training distribution was stronger than any style prompt I could write.
 
 
 ## 2. The Industry's Architecture
@@ -122,7 +122,7 @@ I wrote a voice governance protocol in response to the copy failure. Codified ru
 
 When the model receives these constraints before generation begins, the output takes a different shape from the first token. The model routes around its defaults. It cannot open with an abstract concept because the rules prohibit it. It cannot close with a fortune-cookie because the rules prohibit it. It cannot fall into mechanical parallelism because the rules flag it.
 
-The constraints do not tell the model what to write. They tell the model what it cannot do. What remains after the prohibitions is the voice, because the defaults have been removed.
+The constraints don't tell the model what to write. They tell it what it can't do. What remains after the prohibitions is the voice, because the defaults have been removed.
 
 
 ### 4.2 Voice Extraction From Conversation
@@ -203,11 +203,11 @@ The closest adjacent work is research on "AI slop" detection and mitigation, whi
 
 ## 8. Implications
 
-**Voice is not style.** Style is surface: word choice, sentence length, formality level. Voice is structural: what does this person lead with, what do they never tolerate, what is the relationship between the specific and the abstract, how do they use evidence. Style can be adjusted post-hoc. Voice cannot, because voice is embedded in the structure of the text, not its surface features.
+**Voice is not style.** Style is surface: word choice, sentence length, formality level. Voice is structural: what does this person lead with, what do they never tolerate, what's the relationship between the specific and the abstract, how do they use evidence. Style can be adjusted post-hoc. Voice can't, because voice is in the structure of the text, not its surface.
 
 Where should voice extraction sample from? Conversation. Published writing is performed. It has been edited for an audience. The patterns in conversation are the actual voice. The patterns in published writing are the voice after it has been filtered.
 
-The same model, the same content, the same prompt: output produced under voice constraints has a different paragraph structure than output produced without them and then edited. Generation constraints shape the bones. Post-hoc editing changes the skin.
+The same model, the same content, the same prompt: output produced under voice constraints has a different paragraph structure than output produced without them and then edited. The constraints shape the bones. Post-hoc editing changes the skin.
 
 **The protocol is the IEP.** Decompose "sound like this person" into specific, testable rules. Give the model one constraint at a time. Scaffold the generation so the model can succeed. The accommodation must happen before and during production, not after. The design pattern is the same one that governs a classroom: make the requirements explicit before the work begins.
 

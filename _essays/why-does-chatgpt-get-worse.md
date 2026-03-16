@@ -39,8 +39,8 @@ The same fix works for AI:
 
 These are accommodations for a system with specific processing constraints. Working memory limits, attention degradation, sensitivity to instruction ordering. In special education, this is called a [processing profile](/essays/processing-profiles/): a documented picture of how a specific learner takes in and processes information, used to design instruction that fits.
 
-Language models have [processing profiles](/vocabulary/processing-profile/){:.vocab-ref} too. The specs are published (context windows, token limits, attention mechanisms) but they're treated as engineering numbers. They're cognitive constraints you design around. The same way a teacher designs around a student's working memory ceiling.
+Language models have [processing profiles](/vocabulary/processing-profile/){:.vocab-ref} too. The specs are published (context windows, token limits, attention mechanisms) but they're treated as engineering numbers. I think they're closer to cognitive constraints, and once you see them that way, you can design around them the same way a teacher designs around a student's working memory ceiling.
 
-I spent a year teaching special education in Brooklyn. The framework I use now for AI system design came directly from that classroom. I call it [accommodation design](/vocabulary/accommodation-design/): instead of fighting a system's limitations with more rules and longer prompts, you design the task to fit how the system actually processes.
+I spent a year teaching special education in Brooklyn. The framework I use now for AI system design came directly from that classroom. I call it [accommodation design](/vocabulary/accommodation-design/), and the core idea is simple: instead of fighting a system's limitations with more rules and longer prompts, you design the task to fit how the system actually processes.
 
-The [full whitepaper](/practice/accommodation-design/) documents the framework. The short version: your AI isn't getting dumber. You're asking it to hold more than it can carry.
+The [full whitepaper](/practice/accommodation-design/) documents the framework. The short version is that your AI isn't getting dumber. You're just asking it to hold more than it can hold at once, and nobody told you that was happening.
