@@ -4,7 +4,7 @@ title: "The Cook Who Falls Through the System"
 series: "modernist-homestead"
 chapter: 5
 description: "What happens when the person running the household system is the one who needs accommodation most."
-seo_keywords: ["ADHD cooking", "executive function kitchen", "household accommodation", "neurodivergent meal planning", "family dinner systems"]
+seo_keywords: ["executive function cooking", "executive function kitchen", "household accommodation", "neurodivergent meal planning", "family dinner systems"]
 published: true
 last_modified: 2026-03-17
 related:
@@ -73,7 +73,7 @@ But I want to be honest about this. The system doesn't fix me.
 
 There are days where I wake up and I don't have the capacity to set the system up. The batch cook didn't happen. The fridge is empty. I'm starting from zero at 5 PM with nothing in reserve. On those days, the system is just an idea I had last week that didn't survive contact with this week.
 
-I think people imagine that once you build the system, you're done. Like it's a machine you turn on. It's not. It's a practice, and the person practicing it has the same constraints the system was built to accommodate. I'm the cook and I'm the one with ADHD. The system was designed around my executive function limits, and some days those limits are lower than what I planned for.
+I think people imagine that once you build the system, you're done. Like it's a machine you turn on. It's not. It's a practice, and the person practicing it has the same constraints the system was built to accommodate. I'm the cook and I'm the one whose executive function runs out before dinner starts. The system was designed around those limits, and some days they're lower than what I planned for.
 
 What the system changes is the floor. On a day when everything works, dinner is calm and nobody goes to the store and everyone eats. On a day when nothing works, the infrastructure from last week's batch cook might still have something in the fridge I can fall back on. The worst case is less bad. But it still happens.
 

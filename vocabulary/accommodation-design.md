@@ -123,7 +123,7 @@ A monolithic evaluation prompt asking a model to assess voice, structure, narrat
 
 ### Household Kitchen
 
-Four people, four constraint profiles. Celiac disease. Two children with ARFID (opposite restrictions). ADHD affecting executive function at the time of day when dinner needs to happen. The accommodation: stop treating dinner as a willpower problem and start treating it as a design problem. Batch the shared base (group body), apply the cuisine framework (persona), accommodate individually at assembly (the last mile). Three layers, one operation. Same structural pattern as the classroom, the codebase, the evaluation system.
+Four people, four constraint profiles. Celiac disease. Two children with ARFID, ADHD, and ASD (opposite dietary restrictions). Executive function that runs out at the time of day when dinner needs to happen. The accommodation: stop treating dinner as a willpower problem and start treating it as a design problem. Batch the shared base (group body), apply the cuisine framework (persona), accommodate individually at assembly (the last mile). Three layers, one operation. Same structural pattern as the classroom, the codebase, the evaluation system.
 
 ---
 

@@ -26,7 +26,7 @@ My son has ARFID. He won't eat rice, noodles, quinoa, or most grains. He won't e
 
 My daughter has ARFID with the opposite profile. She won't eat meat. Her acceptable protein list: cheese, black beans, hummus, eggs on a good day, chicken under duress. Two kids, same diagnosis, opposite restrictions.
 
-I have ADHD. By late afternoon, the executive function I need to plan and sequence a meal has already been spent. Most days. The capacity to hold a recipe in my head, track multiple timers, remember what needs to happen in what order, and adjust when something goes wrong is a finite resource. It runs out before dinner starts.
+By late afternoon, the executive function I need to plan and sequence a meal has already been spent. Most days. The capacity to hold a recipe in my head, track multiple timers, remember what needs to happen in what order, and adjust when something goes wrong is a finite resource. It runs out before dinner starts.
 
 These don't cancel each other out. They compound. A meal that works for my son's grain restriction still has to be gluten-free for me, still has to offer a protein my daughter will eat, and still has to be something I can plan and execute when my working memory is running on fumes. Every dinner is a four-variable problem.
 
