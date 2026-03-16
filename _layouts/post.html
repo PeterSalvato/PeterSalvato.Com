@@ -20,20 +20,34 @@ layout: default
     {{ content }}
   </div>
 
-  {% comment %} Sequential navigation: prev/next by order {% endcomment %}
-  {% if page.order %}
-  {% assign all_blog = site.essays | sort: "order" %}
-  {% assign current_order = page.order %}
+  {% comment %} Sequential navigation: prev/next within same series or among standalones {% endcomment %}
+  {% if page.series %}
+  {% assign nav_posts = site.essays | where: "series", page.series | sort: "chapter" %}
+  {% assign current_pos = page.chapter %}
   {% assign prev_post = nil %}
   {% assign next_post = nil %}
-  {% for sp in all_blog %}
-    {% if sp.order < current_order %}
+  {% for sp in nav_posts %}
+    {% if sp.chapter < current_pos %}
       {% assign prev_post = sp %}
     {% endif %}
-    {% if sp.order > current_order and next_post == nil %}
+    {% if sp.chapter > current_pos and next_post == nil %}
       {% assign next_post = sp %}
     {% endif %}
   {% endfor %}
+  {% elsif page.order %}
+  {% assign nav_posts = site.essays | where_exp: "post", "post.series == nil" | sort: "order" %}
+  {% assign current_pos = page.order %}
+  {% assign prev_post = nil %}
+  {% assign next_post = nil %}
+  {% for sp in nav_posts %}
+    {% if sp.order < current_pos %}
+      {% assign prev_post = sp %}
+    {% endif %}
+    {% if sp.order > current_pos and next_post == nil %}
+      {% assign next_post = sp %}
+    {% endif %}
+  {% endfor %}
+  {% endif %}
   {% if prev_post or next_post %}
   <nav class="series-nav" aria-label="Post navigation">
     <div class="series-nav-links">
@@ -53,7 +67,6 @@ layout: default
       {% endif %}
     </div>
   </nav>
-  {% endif %}
   {% endif %}
 
   {% include connections.html %}
