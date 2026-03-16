@@ -51,9 +51,9 @@ There is a third relationship that neither framing captures: the model as an ext
 
 ## 2. The Extended Mind
 
-Andy Clark and David Chalmers proposed the extended mind thesis in 1998: cognitive processes are not confined to the brain. When external resources are reliably available, consistently used, and directly integrated into cognitive workflow, they become part of the cognitive system itself. A notebook that someone consults automatically and trusts implicitly is not a tool they use to think. It is part of how they think.
+Andy Clark and David Chalmers proposed the extended mind thesis in 1998: cognitive processes are not confined to the brain. When external resources are reliably available, consistently used, and directly integrated into cognitive workflow, they become part of the cognitive system itself. A notebook that someone consults automatically and trusts implicitly becomes part of how they think.
 
-Clark returned to this thesis in 2025, writing in Nature Communications that generative AI represents the clearest case yet for extended cognition: "It is our basic nature to build hybrid thinking systems." He argues that humans are "natural-born cyborgs," defined not by biological boundaries but by the full mosaic of resources they integrate into their thinking. The extended mind is not a philosophical curiosity. It is a description of how cognition already works.
+Clark returned to this thesis in 2025, writing in Nature Communications that generative AI represents the clearest case yet for extended cognition: "It is our basic nature to build hybrid thinking systems." He argues that humans are "natural-born cyborgs," defined not by biological boundaries but by the full mosaic of resources they integrate into their thinking. The extended mind describes how cognition already works.
 
 The CHI 2025 Tools for Thought Workshop (Yokohama, April 2025) convened 56 researchers to bridge the science of how AI affects human cognition with the design practice of building AI tools that augment it. The workshop identified a critical design challenge: AI systems that merely automate cognitive tasks can atrophy the capacities they replace, while systems designed as cognitive extensions can strengthen the practitioner's own thinking by operating at the boundary between what the human holds and what the system extends.
 
@@ -117,7 +117,7 @@ In July 2025, I asked the question the CHI 2025 Tools for Thought Workshop was o
 
 Before the digital version existed, I designed a handwritten savepoint for physical journals: XML-style tags written by hand, visually distinct from the surrounding handwriting. You can flip through pages and spot them because the tag structure has a uniform shape that regular notes don't. It's a visual retrieval system for a physical medium. The same interface design problem, solved with a pen.
 
-The pattern is: broken notebooks (thinking preserved, retrieval impossible) to handwritten savepoint tags (visual scanning, the analog analog to grep) to digital Savepoint Syntax (machine-readable, searchable) to AI coupling (the full prosthetic, where the system can read the tags and reconstruct context). Four generations of the same design problem. Each one improved at the interface. The AI version is the most capable, but the instinct to preserve thinking and make it retrievable goes back to the first sketchbook. The tools changed. The need didn't.
+The pattern is: broken notebooks (thinking preserved, retrieval impossible) to handwritten savepoint tags (visual scanning, the analog analog to grep) to digital Savepoint Syntax (machine-readable, searchable) to AI coupling (the full prosthetic, where the system can read the tags and reconstruct context). Four generations of the same design problem. Each one improved at the interface. The AI version is the most capable, but the instinct to preserve thinking and make it retrievable goes back to the first sketchbook. I've been trying to solve the same retrieval problem since I was carrying sketchbooks around Brooklyn.
 
 ### 5.2 The Coupling at Scale
 
@@ -157,7 +157,7 @@ The tools I built are each a response to a specific delegation failure. Voice sa
 
 The one category where delegation works is mechanical infrastructure: repo cleanup, file management, build tasks. I can hand those off and review the result. The difference is that mechanical work has objectively verifiable outcomes (the file moved, the build passed). Creative and intellectual work has judgment-dependent outcomes. When judgment leaves the loop, the output degrades in ways that are hard to measure but impossible to miss.
 
-The prosthetic framing addresses this directly by keeping the practitioner in the cognitive loop. The model extends reach, not replaces judgment. Evaluation stays with the practitioner. Direction stays with the practitioner. The model never sets its own goals or assesses its own quality. It processes, extends, and produces. The practitioner thinks, directs, and judges.
+The prosthetic framing addresses this by keeping the practitioner in the cognitive loop. The model extends reach. Evaluation stays with the practitioner. Direction stays with the practitioner. The model processes, extends, and produces. The practitioner thinks, directs, and judges.
 
 The prosthetic framing keeps the practitioner's capacities active because they're still being exercised, just at greater scale and speed. Delegation removes the exercise. Over time, the cognitive consequences diverge: the practitioner who stays in the loop gets sharper at the work the system extends, while the one who delegates gets further from the judgment that made the delegation safe in the first place.
 
@@ -179,7 +179,7 @@ This is why mass-market AI products feel like tools rather than extensions. They
 
 ## 8. Implications
 
-**The productive unit is the coupled system, not the model or the human.** Quality output comes from the coupling between human cognition and model processing. Evaluating the model in isolation (benchmarks, capability tests) misses the point. The relevant question is: how good is the coupled system?
+**The productive unit is the coupled system.** Quality output comes from the coupling between human cognition and model processing, and evaluating the model in isolation (benchmarks, capability tests) misses the point. The relevant question is: how good is the coupled system?
 
 If the coupling determines quality, then interface design is the high-value skill. The skill profile shifts from prompt engineering (optimizing input to the model) to cognitive interface design (optimizing the coupling between human and model). The practitioners who build the best interfaces produce the best work.
 
@@ -211,13 +211,13 @@ Each tier builds on the previous one. The solo practice is running. The two-enti
 
 ## 9. Conclusion
 
-The AI field's two dominant framings, tool and agent, both miss the most productive relationship: cognitive extension through mutual accommodation.
+The AI field's two dominant framings, tool and agent, describe relationships I've tried and moved past. The most productive relationship I've found is cognitive extension through mutual accommodation.
 
 The model extends the practitioner's cognitive reach. The practitioner provides cognitive intent, judgment, and the pour: raw material captured with as little friction as possible. Purpose-built interfaces handle the coupling. The result is a hybrid cognitive system that produces output neither component could achieve independently.
 
 This is not a metaphor. Clark's extended mind thesis describes it philosophically. The CHI 2025 research program studies it empirically. The bionic hand research demonstrates the mechanism physically. And I've been doing it for three years, producing a deployed site, a published methodology, and an open-source toolkit in the process.
 
-The interface layer is the practice. Purpose-built tools, fitted to how one practitioner actually thinks, extending cognitive reach into space the mind alone can't sustain. Three years of building that produced the artifact you are reading.
+The interface layer is the practice. Purpose-built tools, fitted to how one practitioner actually thinks, extending cognitive reach into space the mind alone can't sustain. The tools are still changing. The coupling is still tightening. This paper is one output of a process that keeps producing new ones.
 
 ---
 

@@ -99,7 +99,7 @@ The mapping is direct:
 | Checkpoint pacing | Savepoint systems | Working memory has limits; mark progress before coherence degrades |
 | Accommodation removal | Scaffold reduction | Build capability, not dependency |
 
-The central claim: both systems in the room have processing realities that can be accommodated. The model needs structured input, decomposed tasks, and independent evaluation. The human needs friction removed at the point of capture, so that raw thinking enters the system without losing fidelity to structure. The pour accommodates the human: remove friction at capture so the raw thinking enters clean. The tools accommodate the model by decomposing tasks and structuring evaluation for its actual processing constraints. The quality of the output depends on how well the task design meets both sets of processing needs.
+The central claim: both systems in the room have processing realities that can be accommodated. The pour accommodates the human: remove friction at the point of capture so raw thinking enters the system without losing fidelity to structure. The tools accommodate the model by decomposing tasks and structuring evaluation for its actual processing constraints. The quality of the output depends on how well the task design meets both sets of processing needs.
 
 ---
 

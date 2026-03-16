@@ -127,7 +127,7 @@ The constraints don't tell the model what to write. They tell it what it can't d
 
 ### 4.2 Voice Extraction From Conversation
 
-The source material for the protocol is not published writing. Published writing is performance. The practitioner has already edited, compressed, and shaped their thinking for an audience. Training on performance produces performed output.
+The source material for the protocol is conversation, because published writing is performance. The practitioner has already edited, compressed, and shaped their thinking for an audience. Training on performance produces performed output.
 
 The source material is the pour: conversation transcripts accumulated over three years across ChatGPT, Claude, and Gemini. Rough, unstructured, full of false starts. That is how I actually talk. This raw corpus is what the voice pipeline operates on. The pipeline extracts patterns from that material: sentence rhythm, how I start explaining something, vocabulary I reach for, what I never say.
 
@@ -216,7 +216,7 @@ The accommodation principle generalizes beyond voice. Any AI processing tendency
 
 ## 9. Conclusion
 
-The AI writing field is organized around a generate-then-filter architecture. Produce text, then check voice, then revise. This paper argues that the architecture is backwards. Voice constraints applied during generation produce structurally different output than the same constraints applied after generation. The difference is not cosmetic. The bones are different.
+The AI writing field is organized around a generate-then-filter architecture. Produce text, then check voice, then revise. This paper argues that the architecture is backwards. Voice constraints applied during generation produce structurally different output than the same constraints applied after generation. The difference is structural.
 
 Voice governance provides the generation constraint architecture: codified rules extracted from conversation, applied during production, preventing the model's default patterns from activating. The result is text that a third-party detection tool classified as human-written, produced by the same model that generates detectable AI text without the constraints.
 

@@ -57,7 +57,7 @@ Running twelve of these simultaneously teaches you something that is hard to lea
 
 In 2023 the same pattern showed up in a different system. A compound prompt asking a language model to evaluate a portfolio across four dimensions at once produced a blended average that was none of them. The first criterion got full attention. Each one after that degraded. Criteria contaminated each other. The model was not broken. The task was wrong for the profile.
 
-The fix was the same fix used in the classroom. Decompose. One dimension per prompt. One objective. One output. Then collect the results.
+The classroom instinct kicked in immediately. Separate the dimensions. Give the model one thing to evaluate at a time, one objective, one output. Collect the results after.
 
 ---
 

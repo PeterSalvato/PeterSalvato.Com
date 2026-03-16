@@ -62,7 +62,7 @@ The thread across all of these is accommodation, and it runs in both directions.
 
 But there's always a second accommodation happening. My student also needs permission to speak before organizing her thoughts. My wife needs to show her work without performing for the camera. And I need to think out loud into a voice note without structuring it for the model first. The friction on the input side matters as much as the structure on the output side.
 
-In AI work, that second accommodation is the pour: the deliberate act of getting the thinking out of your head with as little friction as possible. The tools accommodate the model. The pour accommodates the maker. Both exist because the same question applies in both directions: what does this system actually need, and what structure meets it.
+In AI work, that second accommodation is the pour: the deliberate act of getting the thinking out of your head with as little friction as possible. The tools accommodate the model. The pour accommodates the maker. Both exist because the same question applies in both directions: what does the receiving system require, and what structure meets it.
 
 In every case, the people closest to the work couldn't see the gap because they were focused on what they needed the system to do. The shift was learning to read the other system in the room, the one receiving the work, and designing for what it could actually handle.
 

@@ -25,7 +25,7 @@ You already know how to design for AI. Nobody in the AI field has figured that o
 
 Everything you do in a classroom maps directly to AI system design:
 
-**Task decomposition.** A language model given four objectives in one prompt processes the first with full attention. Each one after that degrades. The fix is the same fix you use in the classroom: one objective at a time, one clear output before the next step.
+**Task decomposition.** A language model given four objectives in one prompt processes the first with full attention. Each one after that degrades. You already know how to handle this: break the compound instruction apart, let each piece finish before the next one starts.
 
 **Scaffolding.** A coordinator pattern dispatches tasks to the model one at a time, collects results, and synthesizes them. The model never sees the full complexity. When the task is simple enough that the model handles it reliably, the [scaffold](/vocabulary/scaffold/){:.vocab-ref} can come off. Same principle as removing the graphic organizer.
 
@@ -35,7 +35,7 @@ Everything you do in a classroom maps directly to AI system design:
 
 ## Why the field needs you
 
-The question that drives good IEP design ("what does this student actually need to succeed at this task?") is the same question that produces better AI architecture: what does this system actually need to do this job well? And the people who've been asking that question about human learners for years are exactly who the field needs.
+The question that drives good IEP design ("what does this student actually need to succeed at this task?") is the same question that produces better AI architecture: what does this system require to succeed at this task? And the people who've been asking that question about human learners for years are exactly who the field needs.
 
 I taught a self-contained 4/5 bridge class in Sunset Park, Brooklyn. Twelve students, every subject, every accommodation. The framework I built for AI governance came directly from that room. I call it [accommodation design](/vocabulary/accommodation-design/), and the reason it transfers is that the underlying problem is the same: a system with specific processing constraints receiving tasks designed for a different processing profile.
 

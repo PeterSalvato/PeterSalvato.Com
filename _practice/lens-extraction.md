@@ -40,7 +40,7 @@ AI evaluation of creative and professional work typically operates in one of two
 
 I asked an AI that question in 2023. The first approach was conventional: a compound prompt asking the model to evaluate a portfolio site across voice quality, structural integrity, narrative coherence, and brand alignment. The model processed the first criterion with full attention. Each subsequent criterion got less. The output blurred all four together into a blended average that was none of them. Criteria contaminated each other. Contradictions showed up within a single evaluation pass.
 
-I recognized it immediately. A compound instruction given to a system that cannot process it whole produces failure. I had seen this every day in the classroom. The fix is the same fix. Decompose. One dimension per prompt. One clear objective. One clear output. Run them independently.
+I recognized it immediately. A compound instruction given to a system that cannot process it whole produces failure. I had seen this every day in the classroom. The solution was obvious once I saw it that way. Break the compound prompt apart. One dimension per pass. One objective, one output. Run each evaluation on its own.
 
 That solves the compound-evaluation problem. It does not solve the criteria problem: who decides what "good" means for each dimension?
 

@@ -36,7 +36,7 @@ That's a structural decision about how complex work gets delivered to a system t
 
 A monolithic prompt that says "evaluate this portfolio for voice quality, structural integrity, narrative coherence, and brand alignment" is four tasks disguised as one. The model receives the first criterion, starts working, and the others drift. Output quality degrades as the instruction gets longer. [Context gets polluted](/vocabulary/context/). The model can't hold all four evaluation frames simultaneously, so it collapses them into a blended average that's none of the four.
 
-The fix is the same fix. Decompose. One skill per evaluation dimension. Each skill has one clear objective. Each skill produces a visible result before the next one runs.
+The move that works in the classroom works here too. Pull the compound apart. Give each evaluation dimension its own skill, its own objective, its own visible result before the next one fires.
 
 I call the single-purpose skills "atomics." Each one does one thing. [LensArray](/systems/lensarray/) runs them as separate diagnostics: one lens tests for structural restraint (extracted from Vignelli's body of work), another tests for narrative identity (extracted from Victore's), another tests for whether a stranger would understand this in sixty seconds. They don't know about each other. They don't need to. Their job is to measure one thing accurately.
 
@@ -84,7 +84,7 @@ I didn't study AI governance and then discover it maps to pedagogy. I spent a ye
 
 Decompose the complex task. [Scaffold](/vocabulary/scaffold/){:.vocab-ref} the structure. Individualize the criteria. Monitor progress against specific goals. Adjust when the feedback says your plan isn't working.
 
-But underneath all of that is a simpler move. Before I built any of the architecture, before I decomposed a single prompt, I asked the same question I asked about every student in that classroom: what does this system actually need to do this job? Not what do I want from it. What does it need from me.
+But underneath all of that is a simpler move. Before I built any of the architecture, before I decomposed a single prompt, I asked the same question I asked about every student in that classroom: what does this system require from me to succeed at this task? Not what do I want from it. What does it need from me.
 
 That question applies in both directions. The model needs decomposed tasks, structured input, independent evaluation. The human needs friction removed at the point of capture, so the raw thinking enters the system intact. In [FormWork](/systems/formwork/), that's the pour: get the idea out of your head, talk, dictate, answer questions, and let the tools handle the rest. The accommodation runs both ways.
 

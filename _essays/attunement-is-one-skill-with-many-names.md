@@ -15,7 +15,7 @@ You're three hours into a set and the floor shifts. A pocket near the left speak
 
 A year later I'm standing in front of twenty-two seventh graders and one kid in the back row has gone still. Not disruptive, not checked out. Still. The worksheet is face-down on his desk. I've seen that stillness before. It's the same signal as the thinning pocket on the dance floor. Something isn't landing. I walk over, crouch next to his desk, and rephrase the prompt using different language. He picks up his pencil.
 
-Same operation. Different room.
+The room changed. The operation didn't.
 
 In UX it's called user research. You watch someone try to complete a task and you track where they hesitate, where they tap twice, where their eyes drift. You're reading the gap between what they expected and what happened. In writing it's knowing what the reader needs to feel next. In cooking it's reading the table: who's slowing down, who needs acid to cut through richness, who's ready for the next course. In construction it's reading the site. The grade, the soil, the way water moves through a lot after rain. You figure out what the space requires before you impose anything on it.
 

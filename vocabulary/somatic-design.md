@@ -88,7 +88,7 @@ Pull the photography without the identity system and the images look good but do
 
 A DJ who understands pacing drops the energy by twenty percent at the right moment. The crowd does not leave. The room settles into something lower. Then the build comes back and the next peak lands in the body because there was space for it.
 
-The person on the dance floor does not think: "that was a structural choice." They feel feelings. They are inside an experience. If they stop and notice the sequencing, the sequencing failed. The structure peeked out.
+The person on the dance floor does not think: "that was a structural choice." They feel feelings. They are inside an experience. If they stop and notice the sequencing, the sequencing failed. It became visible, and visible structure is structure that stopped working.
 
 This same principle runs every session I have built for AI systems. Task decomposition is pacing. You read the system's processing profile and design the sequence around what it can absorb. One objective at a time. Check the output. Then the next. A well-decomposed prompt sequence does not feel like twelve separate tasks. It feels like one coherent thing that happened to land exactly right.
 
@@ -96,7 +96,7 @@ This same principle runs every session I have built for AI systems. Task decompo
 
 I write fiction to a beat spec. Three-act structure, scene-level pacing targets, tension curves plotted before a word of prose exists. The reader never sees any of that. They just feel the pull. They turn the page because their body is ahead of their mind, already leaning into the next beat.
 
-If they stop and think "this feels really well-structured," something broke. The structure peeked out. The goal is that they simply feel compelled, without knowing why.
+If they stop and think "this feels really well-structured," something broke. The scaffolding showed through the wall. The goal is that they simply feel compelled, without knowing why.
 
 This is the same operation as the spiral curriculum and the DJ set. The practitioner holds the structure. The receiver gets the experience. The structure earns its keep by becoming invisible.
 

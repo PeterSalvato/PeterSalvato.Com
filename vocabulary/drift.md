@@ -67,7 +67,7 @@ Drift operates through three mechanisms. All three are invisible in the moment a
 
 ### Accumulated reasonable decisions
 
-No single decision causes drift. Each one is defensible on its own terms. The engineer who chose 12px padding instead of 16px made a reasonable call. The problem is that the next engineer also makes a reasonable call, and so does the one after that, and the cumulative effect is something nobody designed.
+No single decision causes drift. Each one is defensible on its own terms. The engineer who chose 12px padding instead of 16px made a reasonable call. The problem is that the next engineer also makes a reasonable call, and so does the one after that, and the cumulative effect is a system that no longer maps to any original intent.
 
 The fix is not better engineers or stricter reviews. The fix is a system that holds the line so the people inside it can focus on the work that actually requires their judgment. Encode the baseline once. Make deviation require intent instead of making consistency require vigilance.
 

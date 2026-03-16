@@ -16,7 +16,7 @@ faq_items:
   - question: "Where does the name come from?"
     answer: "Concrete construction. You build formwork before you pour. The temporary structure holds the boards in position, keeps the pour contained, gives the wet material somewhere to go. Once the concrete sets, the form comes off. The shape holds on its own."
   - question: "How is this different from prompt engineering?"
-    answer: "Prompt engineering starts with what you want and tries to steer the model toward it. FormWork starts with what the model needs and designs the task to meet that processing reality. The question isn't how do I get what I want. The question is what does this system actually need to do the job."
+    answer: "Prompt engineering starts with what you want and tries to steer the model toward it. FormWork starts with what the model needs and designs the task to meet that processing reality. The question isn't how do I get what I want. The question is what does this system require to handle the task."
   - question: "Does this only work for design?"
     answer: "The architecture is medium-independent. A chef, an educator, a writer, an engineer all face the same structural problem: compound tasks that need decomposing, context that needs preserving, evaluation that needs separating into independent concerns. The tools accommodate processing constraints. Those constraints don't change by field."
 related:
@@ -44,7 +44,7 @@ In concrete construction, you pour before anything else. In FormWork, the pour i
 
 [Accommodation design](/practice/accommodation-design/) is the framework, the theory, the "why." It originated in a special education classroom in Brooklyn where I ran twelve IEPs simultaneously and learned to read what a system needs before designing the task.
 
-FormWork is the process, the coordination, the "how." Each tool inside the harness accommodates a specific processing constraint. The question underneath every tool is the same one I learned to ask in that classroom: what does this system actually need to do this job well?
+FormWork is the process, the coordination, the "how." Each tool inside the harness accommodates a specific processing constraint. The question underneath every tool is the same one I learned to ask in that classroom: what does this processing reality demand from the task design?
 
 That question applies to the model and to the human. Both have processing constraints. Both need the task designed for what they can actually handle.
 
@@ -108,7 +108,7 @@ The pour goes in first. Voice notes, brainstorming sessions, conversations where
 
 SavePoint Syntax marks where the thinking turned. Knowledge traversal traces how ideas developed across the corpus. The voice pipeline extracts how I actually communicate. LensArray evaluates the output across independent dimensions. The skill architecture keeps every task within the model's processing range. FormWork coordinates them: which tool, when, in what order.
 
-[petersalvato.com](/) was compiled through this process. Every page evaluated by independent lenses. Every piece of copy verified against voice patterns extracted from conversation. Context preserved across hundreds of sessions by savepoints. Concepts traced through three years of unstructured thinking by the traversal system. Each skill receiving one clear objective at a time. The formwork came off. The site stands.
+[petersalvato.com](/) was compiled through this process. Every page evaluated by independent lenses. Every piece of copy verified against voice patterns extracted from conversation. Context preserved across hundreds of sessions by savepoints. Concepts traced through three years of unstructured thinking by the traversal system. Each skill receiving one clear objective at a time. The temporary structure is gone. What it held keeps its shape.
 
 ---
 
@@ -124,4 +124,4 @@ If a tool has to stay permanently, I built a dependency.
 
 ---
 
-[petersalvato.com](/) was compiled inside FormWork. [This Site](/practice/this-site/) shows the process: the pour, the tools, the coordination, the work that stands after the formwork came off.
+[petersalvato.com](/) was compiled inside FormWork. [This Site](/practice/this-site/) shows the process: the pour, the tools, the coordination, the work that holds its own weight once the scaffolding is removed.

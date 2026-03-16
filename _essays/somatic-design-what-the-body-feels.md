@@ -25,7 +25,7 @@ True Grit Texture Supply and RetroSupply Co make faithful digital reproductions 
 
 PressWorks came out of that. The visual experiments, the print meditations. That body of work was me figuring out how to retranslate a physical vocabulary back into digital. Not the look. The instinct for where structure belongs and how much of it the viewer should never consciously register.
 
-The governing principle is simple: if the structure peeks out, it didn't do its job.
+The governing principle is simple: the moment someone can point to the structure, it stopped carrying the experience.
 
 The best transition between two tracks is the one nobody notices. The listener doesn't think "that was a smooth blend." Their energy just stays where it was, or shifts exactly where I wanted it to shift. The moment someone notices the mix, the mix failed.
 

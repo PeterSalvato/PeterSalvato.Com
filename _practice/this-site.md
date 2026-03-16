@@ -137,7 +137,7 @@ The same principle applies here. Four fixed breakpoints define four static print
 
 These are process constraints borrowed from print production, applied to a screen medium. The result feels different because the decisions were made differently. A designer with unlimited web colors picks the one that looks best. A designer with one spot color decides what deserves ink.
 
-The visual register is accommodation design applied to the visitor. The same question the practice asks of every system: what does the person receiving this actually need from the container?
+The visual register is accommodation design applied to the visitor. The same question the practice asks of every system: what does the person on the other side of this page require from the container?
 
 ---
 

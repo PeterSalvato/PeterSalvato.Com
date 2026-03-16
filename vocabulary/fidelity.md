@@ -41,7 +41,7 @@ A designer has an intent. It passes through a brief, a handoff, a review, a buil
 
 Fidelity is not about quality. A high-quality product can have low fidelity to what was originally meant. A rough prototype can have perfect fidelity to the idea it was built to test. The question isn't "is this good?" It's "does this still resemble what was meant?"
 
-Fidelity erodes at handoff points. Every time understanding passes from one context to another — person to person, session to session, concept to execution — some meaning leaks. The erosion is usually invisible in the moment. It accumulates into a gap nobody designed.
+Fidelity erodes at handoff points. Every time understanding passes from one context to another — person to person, session to session, concept to execution — some meaning leaks. The erosion is usually invisible in the moment. It accumulates into a gap between what was meant and what arrived.
 
 Three types of fidelity loss keep showing up across every domain I work in. Voice fidelity: ideas lose their character when forced into structure at the point of capture. Context fidelity: active reasoning evaporates when the session closes. Visual fidelity: design intent degrades through implementation when the intent was never externalized.
 

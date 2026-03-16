@@ -52,7 +52,7 @@ Building it took about a year. Keeping it coherent for twelve years is where mos
 
 Most people who hear "twelve years on one platform" assume the interesting part is the technology. The interesting part is drift.
 
-Technical debt is when you know the standard and cut corners against it. Drift is different. The standard itself goes invisible over time, and nobody notices because every individual decision along the way was reasonable. Any long-lived platform faces it. A series of reasonable decisions accumulate into something nobody chose. The thing a module was supposed to do stops matching what it actually does, because the intent wasn't encoded anywhere durable.
+Technical debt is when you know the standard and cut corners against it. Drift is different. The standard itself goes invisible over time, and nobody notices because every individual decision along the way was reasonable. Any long-lived platform faces it. Reasonable decisions stack up until the product no longer reflects any single intent. The thing a module was supposed to do stops matching what it actually does, because the intent wasn't encoded anywhere durable.
 
 That's the structure I've spent twelve years building and maintaining: a way to keep original intent legible through every iteration, so the thing that ships still matches the thing someone needed. Design systems, naming conventions, component patterns. Governance that lives in the codebase, not in a document someone has to remember to read.
 

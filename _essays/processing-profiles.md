@@ -44,4 +44,4 @@ This is a CLAUDE.md file. The persistent system context that tells the model wha
 
 Every special education teacher reading this recognizes the framework. Processing profiles, task decomposition, [scaffolding](/vocabulary/scaffold/){:.vocab-ref}, individualized criteria, progress monitoring. This is the daily work.
 
-The people who know how to ask "[what does this system actually need?](/essays/what-does-the-system-actually-need/)" are the ones who've been asking it about human learners for years. The skill set is already in classrooms. The framework is [accommodation design](/vocabulary/accommodation-design/), and the whitepaper documents the full architecture.
+The people who know how to ask "[what does the system require?](/essays/what-does-the-system-actually-need/)" are the ones who've been asking it about human learners for years. The skill set is already in classrooms. The framework is [accommodation design](/vocabulary/accommodation-design/), and the whitepaper documents the full architecture.

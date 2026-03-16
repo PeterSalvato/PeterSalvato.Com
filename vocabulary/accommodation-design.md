@@ -68,7 +68,7 @@ These are architectural patterns. Federal law enforces them because the stakes a
 
 In 2023, the same processing failures showed up in a different system. A compound prompt asking a language model to evaluate across four dimensions at once produced a blended average that was none of them. The first criterion got full attention. Each one after that degraded. Criteria contaminated each other. The model couldn't hold four evaluation frames simultaneously.
 
-The fix was the same fix. Decompose. One dimension per prompt. One clear objective. One clear output.
+The response was straightforward. Pull the compound apart. Isolate each dimension. One prompt, one objective, one output.
 
 ---
 

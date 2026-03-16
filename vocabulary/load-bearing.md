@@ -43,7 +43,7 @@ The term comes from construction. A load-bearing wall carries the weight of the 
 
 Design systems work the same way. A visual choice can look significant and carry nothing. Another can look incidental and hold the whole thing up. The error is treating the two as interchangeable: adding decoration without knowing what is structural, or removing an element without knowing what it was holding.
 
-Load-bearing status is not a property of the element itself. It is a property of the system the element lives inside. Photography is decorative in a product catalog where the brand is established by other means. The same photography is load-bearing in a brand where the visual quality is the only proof of the product's quality. Same photographs. Different structural role.
+Load-bearing status is not a property of the element itself. It is a property of the system the element lives inside. Photography is decorative in a product catalog where the brand is established by other means. The same photography is load-bearing in a brand where the visual quality is the only proof of the product's quality. The photographs are identical. What they carry depends on the system around them.
 
 ---
 
@@ -103,7 +103,7 @@ Twelve years on an enterprise platform. The SCSS design system was not a style g
 
 The system held the original intent legible through every handoff. It was the structure that made it possible for hundreds of engineers to touch the same product over a decade without producing something nobody designed. The variables file was the artifact: a design system encoded as constraints that held the line so the people inside it could focus on work that required their judgment.
 
-Remove the design system (or let it degrade, which amounts to the same thing) and [drift](/vocabulary/drift/) fills the space. Hundreds of reasonable decisions accumulate into something nobody chose. Each one fine in isolation. The cumulative effect: a product that stops feeling like one product. The design system was load-bearing. Its presence was the condition under which coherence was possible.
+Remove the design system (or let it degrade, which amounts to the same thing) and [drift](/vocabulary/drift/) fills the space. Hundreds of reasonable decisions compound until the product stops feeling like one product. Each one fine in isolation. The cumulative effect: a product that stops feeling like one product. The design system was load-bearing. Its presence was the condition under which coherence was possible.
 
 ---
 

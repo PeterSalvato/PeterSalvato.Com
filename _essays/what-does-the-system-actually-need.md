@@ -23,7 +23,7 @@ The fix in the classroom: one instruction at a time. One clear objective. One vi
 
 The fix for the model: one evaluation dimension per prompt. One clear criterion. One output before the next dimension runs.
 
-Same fix. Different system.
+The accommodation was identical. Only the system receiving it changed.
 
 ## The framework
 
