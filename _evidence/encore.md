@@ -5,10 +5,10 @@ title: "Encore"
 subtitle: "12-Year Enterprise Platform Evolution"
 icon: cases
 status: "Deployed"
-context: "A solid Windows Forms application serving some of the largest organizations in the world. The software was good. The delivery layer was about to become the constraint."
+context: "A solid Windows Forms application serving enterprise clients under NDA. The software was good. The delivery layer was about to become the constraint."
 faculty: ["design", "engineering", "uxia"]
 seo_keywords: ["Enterprise Architecture", "Legacy Modernization", "Design Systems", "Long-term Maintenance", "Platform Durability"]
-description: "Twelve-year enterprise platform evolution (2013-2025). Migrated a desktop Windows Forms recruiting platform to a browser-based modular JS framework while it served some of the largest organizations in the world."
+description: "Twelve-year enterprise platform evolution (2013-2025). Migrated a desktop Windows Forms recruiting platform to a browser-based modular JS framework while it served enterprise clients under NDA."
 last_modified: 2026-02-21
 related:
   - /systems/formwork
@@ -22,7 +22,7 @@ I arrived in 2013 through a friend from the songwriter community in Park Slope. 
 
 What I found was a Windows Forms application. Desktop-only, OS-dependent. The software underneath was solid, built by the founder who started it in his dorm room a decade earlier and was still running it. The delivery layer was the constraint. I made the case for the browser: OS-agnostic, wider reach, better positioned. They said yes.
 
-I built the front-end from scratch. A modular namespaced JS framework, a full SCSS design system, information architecture across one of the most complex recruiting platforms in the world. Rolling dev, staging, and production servers meant the platform never stopped running while I built the layer it now runs on.
+I built the front-end from scratch. A modular namespaced JS framework, a full SCSS design system, information architecture across an enterprise recruiting platform whose clients I can't name (the company doesn't disclose them). Rolling dev, staging, and production servers meant the platform never stopped running while I built the layer it now runs on.
 
 The rest of the industry went browser-based over the next few years. The call was right.
 

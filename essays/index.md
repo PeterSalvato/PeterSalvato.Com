@@ -9,7 +9,7 @@ seo_keywords: ["design engineering", "design methodology", "systems architecture
 ---
 
 <div class="blog-index">
-  <h1>Essays</h1>
+  <h1>Writing</h1>
 
   <div class="essays-tabs">
     <button class="essays-tab active" data-tab="research">Research</button>
