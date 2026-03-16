@@ -101,10 +101,11 @@
   // Homepage
   #homepage-hero {
     flex-direction: column;
+    align-items: flex-start;
     gap: $space-md;
 
     .hero-image {
-      width: 80px;
+      width: 120px;
     }
 
     h1 {
@@ -254,7 +255,7 @@
 
   #homepage-hero {
     .hero-image {
-      width: 100px;
+      width: 200px;
     }
 
     h1 {
@@ -302,7 +303,7 @@
 
   #homepage-hero {
     .hero-image {
-      width: 150px;
+      width: 360px;
     }
 
     h1 {

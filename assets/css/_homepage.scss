@@ -8,16 +8,15 @@
   padding: 0;
   margin-bottom: $space-xxl;
   display: flex;
-  align-items: flex-start;
-  gap: $space-lg;
+  align-items: flex-end;
 
   .hero-image {
     flex-shrink: 0;
-    width: 120px;
+    width: 300px;
   }
 
   .hero-text {
-    padding-top: $space-xs;
+    padding-bottom: $space-sm;
   }
 
   h1 {
