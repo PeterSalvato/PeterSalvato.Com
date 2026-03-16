@@ -23,6 +23,10 @@ The client made handcrafted objects with sustainable ethics. Their world was com
 
 A script font tells you "handmade" the same way every other craft brand tells you "handmade." It's shorthand, and shorthand was the problem. The brand needed to reflect the actual character of the work, not play a version of it for the audience.
 
+![Altrueism wordmark color variations]({{ '/assets/img/3_web.jpg' | relative_url }}){:.image.artifact}
+
+![Altrueism brand collateral mockup]({{ '/assets/img/5-1_web.jpg' | relative_url }}){:.image.artifact}
+
 ![Altrueism site before redesign]({{ '/assets/img/Altrueism_before.jpg' | relative_url }}){:.image.diagram}
 
 ---
@@ -39,11 +43,7 @@ The breakthrough: the visual system needed to make the client's actual working s
 
 Every visual element had to be load-bearing, and if the irregularity was there, it had to earn its place. I think that tension is what gives the system its feel: rigorous structure with rough surfaces.
 
-![Altrueism wordmark color variations]({{ '/assets/img/3_web.jpg' | relative_url }}){:.image.artifact}
-
 ![Altrueism hand-drawn chevron pattern]({{ '/assets/img/2_web.jpg' | relative_url }}){:.image.artifact}
-
-![Altrueism brand collateral mockup]({{ '/assets/img/5-1_web.jpg' | relative_url }}){:.image.artifact}
 
 ![Altrueism tote bag, burgundy]({{ '/assets/img/4_web.jpg' | relative_url }}){:.image.photo}
 
@@ -51,14 +51,14 @@ Every visual element had to be load-bearing, and if the irregularity was there, 
 
 ![Altrueism packaging system]({{ '/assets/img/12_web.jpg' | relative_url }}){:.image.artifact}
 
-![Altrueism homepage wireframe]({{ '/assets/img/Altrueism_wireframe-1.jpg' | relative_url }}){:.image.diagram}
-
-![Altrueism product listing]({{ '/assets/img/Altrueism_wireframe-2.jpg' | relative_url }}){:.image.diagram}
-
-![Altrueism product detail]({{ '/assets/img/Altrueism_wireframe-3.jpg' | relative_url }}){:.image.diagram}
-
 ---
 
 Full identity, visual language, packaging, brand book. Restrained wordmark, earthen palette, humanist typography with intentional breathing room, print materials on recycled stock with visible fiber. The brand book was written so the client could actually make decisions with it. Every element has a reason, and the reason is always functional.
 
 Delivered as one integrated system. I don't know what they ended up doing with all of it after handoff, but the structure was there if they wanted to use it.
+
+![Altrueism homepage wireframe]({{ '/assets/img/Altrueism_wireframe-1.jpg' | relative_url }}){:.image.diagram}
+
+![Altrueism product listing]({{ '/assets/img/Altrueism_wireframe-2.jpg' | relative_url }}){:.image.diagram}
+
+![Altrueism product detail]({{ '/assets/img/Altrueism_wireframe-3.jpg' | relative_url }}){:.image.diagram}

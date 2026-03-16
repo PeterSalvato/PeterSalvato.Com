@@ -9,14 +9,10 @@ layout: default
   {% endif %}
 {% endfor %}
 
-<article class="versogram-detail">
-  {% include versogram-card.html song=song full=true %}
+{% capture lyrics_content %}{{ content }}{% endcapture %}
 
-  {% if page.content != "" %}
-  <div class="versogram-notes">
-    {{ content }}
-  </div>
-  {% endif %}
+<article class="versogram-detail">
+  {% include versogram-card.html song=song full=true lyrics=lyrics_content %}
 </article>
 
 {% include connections.html %}

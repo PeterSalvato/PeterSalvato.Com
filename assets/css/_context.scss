@@ -32,3 +32,39 @@
     }
   }
 }
+
+// ---------------------------------------------------------------------------
+// Printed card — distressed ink over colored background
+// ---------------------------------------------------------------------------
+
+.printed-card {
+  position: relative;
+  overflow: hidden;
+
+  img {
+    display: block;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+  }
+
+  .printed-card-caption {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    font-family: $font-mono;
+    font-size: $type-fine;
+    letter-spacing: 0.04em;
+    margin-top: $space-sm;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: url('/assets/img/Texturelabs_Paper_350L.jpg') center / cover;
+    mix-blend-mode: screen;
+    pointer-events: none;
+    z-index: 2;
+  }
+}

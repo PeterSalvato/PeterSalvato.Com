@@ -17,6 +17,10 @@ related:
   - /systems/formwork
 ---
 
+![CMYK Process separation: four print passes on a white canvas, halftone screening visible at plate level]({{ '/assets/img/Printshop_cmyk.png' | relative_url }}){:.image.diagram}
+
+---
+
 I came up in print shops. USA Tees in Brooklyn, Atlas Embroidery in Fort Lauderdale. Production artist in the art department, but I had to understand every step of the process: offset presses, color separation, screen printing. Halftone screens at specific angles, registration dialed in by hand, ink density controlled plate by plate.
 
 Then I spent 20 years in Adobe.
@@ -36,12 +40,10 @@ So now I run a press from the terminal.
 
 PressWorks is a bash script wrapping ImageMagick. Sixteen operations. Three presets. Every parameter exposed. Halftone frequency in lines per inch. Misregistration offset in pixels, per channel. Color separation into CMYK or RGB plates. Recombination with ink color and blend mode. Grain type, amount, opacity. Curves and levels. Duotone and tritone with named ink colors.
 
-![CMYK Process separation: four print passes on a white canvas, halftone screening visible at plate level]({{ '/assets/img/Printshop_cmyk.png' | relative_url }}){:.image.diagram}
-
 The mid-century preset runs desaturation, halftone screening, paper grain, and misregistration in sequence. Same inputs produce the same output every time. I can hand someone the exact command and they get the same print.
 
 That level of control matters because it's what I had in the print shop. Photoshop gives you a filter with a slider. PressWorks gives you the individual plates. I can separate an image into four channels, adjust the screening angle on the cyan plate independently, shift its registration by one pixel, and recombine. Same logic as a press floor, just running in a terminal.
 
 Every texture on this site came through PressWorks. The grain on the page surface, the halftone treatments, the desaturated color palette. [LensArray](/systems/lensarray/) borrows the language directly: evaluation happens in distinct layers, like plates in a screen print. The plate-by-plate process is the same, just running in code instead of on a Heidelberg.
 
-The tool is still being built. The operations work. The presets produce what I need. But the coverage isn't complete yet: img2img workflows, batch processing across an entire asset directory, tighter integration with the [Sovereign Design Engine](/practice/sovereign-design-engine/) pipeline. I'm adding capabilities as the site demands them, still filling the cases.
+The tool is still being built. The operations work and the presets produce what I need. I'm adding capabilities as the site demands them: img2img workflows, batch processing across an asset directory, tighter integration with the [Sovereign Design Engine](/practice/sovereign-design-engine/) pipeline. The coverage grows as the work requires it.

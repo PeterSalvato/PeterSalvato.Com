@@ -14,6 +14,18 @@ description: "Constraint-locked photography. Fixed aspect ratios encode the rela
 last_modified: 2026-02-25
 ---
 
+<div class="photogeography-gallery">
+{% for photo in site.data.photogeography.photos %}
+  {% if photo.batch == 1 %}
+  <a href="{{ '/photogeography/' | append: photo.slug | append: '/' | relative_url }}" class="photogeography-gallery-link">
+    {% include photogeography-card.html photo=photo full=false %}
+  </a>
+  {% endif %}
+{% endfor %}
+</div>
+
+---
+
 My father was into photography. A neighbor gave me an SLR (the Minolta) when I was a kid, and I ended up in a photo class at Kingsborough. From there it became the visual component of everything: travel, relocation, documentation. Narrative image.
 
 When I look back at them now, they read as a roadmap of a life, not a portfolio, not a curated aesthetic experience, but evidence. These places existed. I was in them. Something caught my eye. Decades of that.
@@ -48,18 +60,6 @@ No image is cropped to fit a format. No image's format is changed in post. The c
 
 ---
 
-If you can't crop, you reposition. If you can't change the ratio, you learn to see in the shape the format demands. Fewer options means you actually have to see what's in front of you. This started as an experiment inside [Meditations](/practice/meditations/) and grew into its own system once the archive got serious enough to need one.
+If you can't crop, you reposition. If you can't change the ratio, you learn to see in the shape the format demands. Fewer options means you actually have to see what's in front of you. The project started as an experiment and grew into its own system once the archive got serious enough to need one.
 
-The archive holds the record. Everything else stays out of the way.
-
-## THE WORK
-
-<div class="photogeography-gallery">
-{% for photo in site.data.photogeography.photos %}
-  {% if photo.batch == 1 %}
-  <a href="{{ '/photogeography/' | append: photo.slug | append: '/' | relative_url }}" class="photogeography-gallery-link">
-    {% include photogeography-card.html photo=photo full=false %}
-  </a>
-  {% endif %}
-{% endfor %}
-</div>
+The [Sovereign Design Engine](/practice/sovereign-design-engine/) renders the final output: 11x17 tabloid posters with EXIF-driven metadata, GPS coordinates, camera, date, aspect ratio classification. Same principle as [Versograms](/practice/versograms/): lock the format, let the content differentiate each piece.

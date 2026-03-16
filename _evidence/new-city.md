@@ -23,6 +23,14 @@ I had never written a novel. I had a story idea and wanted to find out whether t
 
 I built the architecture first. The same layered registration approach from the visual work ([Aiden Jae](/evidence/aiden-jae/), [Altrueism](/evidence/altrueism/)), but prose has a channel the visual work doesn't: what the reader's body does.
 
+![New City concept poster, encampment]({{ '/assets/img/New_City_01_web.jpg' | relative_url }}){:.image.artifact}
+
+![New City concept poster, market district]({{ '/assets/img/New_City_02_web.jpg' | relative_url }}){:.image.artifact}
+
+![New City concept poster, settlement]({{ '/assets/img/New_City_03_web.jpg' | relative_url }}){:.image.artifact}
+
+---
+
 ## The fractal
 
 Three acts at the top. Western arc. A reader knows how to be inside a three-act story. The middle act splits in two, creating four major movements.
@@ -68,9 +76,3 @@ So the character determines the structure, which determines the layers, which de
 ---
 
 The architecture is what I'm showing here. The novel is still in progress, and that's where I find out whether any of this actually holds.
-
-![New City concept poster, encampment]({{ '/assets/img/New_City_01_web.jpg' | relative_url }}){:.image.artifact}
-
-![New City concept poster, market district]({{ '/assets/img/New_City_02_web.jpg' | relative_url }}){:.image.artifact}
-
-![New City concept poster, settlement]({{ '/assets/img/New_City_03_web.jpg' | relative_url }}){:.image.artifact}

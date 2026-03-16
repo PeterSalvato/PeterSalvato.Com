@@ -17,7 +17,12 @@ layout: default
     {% if page.image %}
     <div class="context-editorial">
         <div class="context-editorial-image">
-            <img src="{{ page.image | relative_url }}" alt="{{ page.title }}">
+            <div class="printed-card">
+                <img src="{{ page.image | relative_url }}" alt="{{ page.title }}">
+                {% if page.image_caption %}
+                <span class="printed-card-caption">{{ page.image_caption }}</span>
+                {% endif %}
+            </div>
         </div>
         <div class="context-editorial-text">
             {{ content }}

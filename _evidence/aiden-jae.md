@@ -22,9 +22,13 @@ My wife studied oil painting at Parsons and Brooklyn College. She designs fine j
 
 She had the product and the expertise. What she didn't have was any way to put it in front of someone. No brand, no platform, no photography system. I built all of it.
 
-![A gold ring being finished with a rotary tool at Beauty Gems Bangkok]({{ '/assets/img/AidenJae_bench.jpg' | relative_url }}){:.image.photo}
-
 The first question was what made this brand different from everything else in the category, and then making sure every piece of the system proved it. She works in solid recycled gold at a price point between fast fashion and traditional luxury. The sustainability is baked into how the business actually operates. But none of that means anything if the customer can't see it.
+
+![Banyan Balance Ring Stack]({{ '/assets/img/AidenJae_banyan_rings.jpg' | relative_url }}){:.image.photo}
+
+![Daybreak Ring with sunstone and sapphire]({{ '/assets/img/AidenJae_daybreak_ring.jpg' | relative_url }}){:.image.photo}
+
+![A gold ring being finished with a rotary tool at Beauty Gems Bangkok]({{ '/assets/img/AidenJae_bench.jpg' | relative_url }}){:.image.photo}
 
 ![Banyan texture rings on green felt]({{ '/assets/img/AidenJae_gold_rings_felt.jpg' | relative_url }}){:.image.photo}
 
@@ -85,15 +89,17 @@ A generic Shopify template treats every product the same: same grid, same spacin
 
 Each product page includes the material story, production notes, and design rationale alongside the piece. The platform shows the work instead of hiding it behind marketing copy. That was the whole point.
 
-![Aiden Jae product page]({{ '/assets/img/AidenJae_site_product.png' | relative_url }}){:.image.diagram}
-
 Each collection carries its own visual identity within the brand system. Banyan is the signature textured gold, Knotted Tropics is gemstone and hemp, then Sunrise, Sunset, Star Light, Star Bright. The grid adapts. Different materials and moods, same underlying logic.
-
-![Aiden Jae collections page]({{ '/assets/img/AidenJae_site_collections.png' | relative_url }}){:.image.diagram}
 
 From the announcement bar to the footer, the whole site runs as one integrated system. You see the materials, the process, the sourcing. Nothing is dressed up.
 
+![Aiden Jae product page]({{ '/assets/img/AidenJae_site_product.png' | relative_url }}){:.image.diagram}
+
+![Aiden Jae collections page]({{ '/assets/img/AidenJae_site_collections.png' | relative_url }}){:.image.diagram}
+
 ![Aiden Jae homepage]({{ '/assets/img/AidenJae_site_homepage.png' | relative_url }}){:.image.diagram}
+
+![Aiden Jae about page]({{ '/assets/img/AidenJae_site_about.png' | relative_url }}){:.image.diagram}
 
 ---
 
@@ -101,18 +107,12 @@ New product lines with different materials and different photography needs still
 
 The photography only adds up to something because the identity system gives it structure. And the identity only holds because the platform enforces it at every level. The pieces are interdependent.
 
-![Banyan Balance Ring Stack]({{ '/assets/img/AidenJae_banyan_rings.jpg' | relative_url }}){:.image.photo}
-
-![Daybreak Ring with sunstone and sapphire]({{ '/assets/img/AidenJae_daybreak_ring.jpg' | relative_url }}){:.image.photo}
-
-![Aiden Jae about page]({{ '/assets/img/AidenJae_site_about.png' | relative_url }}){:.image.diagram}
-
 ![Banyan Hoops]({{ '/assets/img/AidenJae_hoops.jpg' | relative_url }}){:.image.photo}
+
+![Knotted Tropics collection]({{ '/assets/img/AidenJae_hero_knotted_tropics.jpg' | relative_url }}){:.image.photo}
 
 ---
 
 The scope was a business's entire communicative infrastructure from scratch: identity, photography, platform, packaging, market positioning. One system, where every piece depends on the others to work.
-
-![Knotted Tropics collection]({{ '/assets/img/AidenJae_hero_knotted_tropics.jpg' | relative_url }}){:.image.photo}
 
 [MathOnTape](/practice/mathontape/) has the same interdependency between visual and sonic systems. That's the kind of problem I keep ending up with.

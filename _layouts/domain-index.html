@@ -35,13 +35,13 @@ layout: default
                     {% include artifact-hero.html item=item url=item.url is_link=true %}
                 {% endif %}
             {% endfor %}
-        {% elsif page.tier_label == "SYSTEMS" %}
+        {% elsif page.tier_label == "SYSTEMS" or page.tier_label == "HOW I WORK" %}
             {% for item in site.systems %}
                 {% if item.listed != false and item.published != false %}
                     {% include artifact-hero.html item=item url=item.url is_link=true %}
                 {% endif %}
             {% endfor %}
-        {% elsif page.tier_label == "EVIDENCE" %}
+        {% elsif page.tier_label == "EVIDENCE" or page.tier_label == "WORK" %}
             {% for item in site.evidence %}
                 {% if item.listed != false and item.published != false %}
                     {% include artifact-hero.html item=item url=item.url is_link=true %}

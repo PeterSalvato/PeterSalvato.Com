@@ -1,14 +1,16 @@
 {% comment %}
   Versogram poster card component.
   Parameters:
-    song  — song object from _data/versograms.json
-    full  — if true, render full-size with lyrics. if false, render as gallery card.
+    song   — song object from _data/versograms.json
+    full   — if true, render full poster layout. if false, render gallery thumbnail.
+    lyrics — raw lyrics HTML (only used when full=true)
 {% endcomment %}
 
 {% assign s = include.song %}
 {% assign is_full = include.full %}
 
-<div class="versogram-card{% if is_full %} versogram-card--full{% endif %}">
+{% if is_full %}
+<div class="versogram-card versogram-card--full">
 
   <div class="versogram-headline">
     {% if s.headline_svg != "" %}
@@ -16,40 +18,89 @@
     {% else %}
       <h2 class="versogram-title-text">{{ s.title }}</h2>
     {% endif %}
-    <span class="versogram-artist">{{ s.artist }}</span>
   </div>
 
+  <div class="versogram-body">
+    <div class="versogram-image">
+      {% if s.image != "" %}
+        <img src="{{ s.image | relative_url }}" alt="{{ s.title }} by {{ s.artist }}">
+      {% else %}
+        <div class="versogram-image-placeholder"></div>
+      {% endif %}
+    </div>
+
+    <div class="versogram-sidebar">
+      {% if s.qr_svg != "" %}
+      <div class="versogram-qr">
+        <img src="{{ s.qr_svg | relative_url }}" alt="QR code for {{ s.title }}">
+      </div>
+      {% endif %}
+
+      <div class="versogram-sidebar-meta">
+        <span class="versogram-label">{{ s.artist }}</span>
+        <span class="versogram-value">{{ s.title }}</span>
+      </div>
+
+      {% if s.ai_model != "" %}
+      <div class="versogram-sidebar-meta">
+        <span class="versogram-label">Model</span>
+        <span class="versogram-value">{{ s.ai_model }}</span>
+      </div>
+      {% endif %}
+
+      {% if s.ai_seed != "" %}
+      <div class="versogram-sidebar-meta">
+        <span class="versogram-label">Seed</span>
+        <span class="versogram-value">{{ s.ai_seed }}</span>
+      </div>
+      {% endif %}
+
+      {% if s.ai_guidance != "" %}
+      <div class="versogram-sidebar-meta">
+        <span class="versogram-label">Guidance Scale</span>
+        <span class="versogram-value">{{ s.ai_guidance }}</span>
+      </div>
+      {% endif %}
+
+      {% if s.ai_sampler != "" %}
+      <div class="versogram-sidebar-meta">
+        <span class="versogram-label">Sampler</span>
+        <span class="versogram-value">{{ s.ai_sampler }}</span>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+
+  <div class="versogram-lyrics">
+    {% if include.lyrics %}
+      {{ include.lyrics }}
+    {% endif %}
+  </div>
+
+  <div class="versogram-footer">
+    <div class="versogram-footer-qr">
+      {% if s.qr_svg != "" %}
+        <img src="{{ s.qr_svg | relative_url }}" alt="QR code">
+      {% endif %}
+    </div>
+  </div>
+
+</div>
+
+{% else %}
+<div class="versogram-card">
   <div class="versogram-image">
     {% if s.image != "" %}
       <img src="{{ s.image | relative_url }}" alt="{{ s.title }} by {{ s.artist }}">
+    {% endif %}
+  </div>
+  <div class="versogram-caption">
+    {% if s.headline_svg != "" %}
+      <img src="{{ s.headline_svg | relative_url }}" alt="{{ s.title }}" class="versogram-title-svg">
     {% else %}
-      <div class="versogram-image-placeholder"></div>
+      <span class="versogram-title-text">{{ s.title }}</span>
     {% endif %}
+    <span class="versogram-artist">{{ s.artist }}</span>
   </div>
-
-  {% if is_full and s.lyrics != "" %}
-  <div class="versogram-lyrics">
-    {{ s.lyrics | newline_to_br }}
-  </div>
-  {% endif %}
-
-  <div class="versogram-meta">
-    <span class="versogram-meta-artist">{{ s.artist }}</span>
-    {% if s.album != "" %}
-      <span class="versogram-meta-album">{{ s.album }}</span>
-    {% endif %}
-    {% if s.year != "" %}
-      <span class="versogram-meta-year">{{ s.year }}</span>
-    {% endif %}
-    {% if is_full and s.ai_model != "" %}
-      <span class="versogram-meta-ai">{{ s.ai_model }}{% if s.ai_seed != "" %} / {{ s.ai_seed }}{% endif %}</span>
-    {% endif %}
-  </div>
-
-  {% if s.qr_svg != "" %}
-  <div class="versogram-qr">
-    <img src="{{ s.qr_svg | relative_url }}" alt="QR code for {{ s.title }}">
-  </div>
-  {% endif %}
-
 </div>
+{% endif %}

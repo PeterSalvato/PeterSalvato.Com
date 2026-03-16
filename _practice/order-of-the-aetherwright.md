@@ -77,8 +77,8 @@ Read left to right: input and narrative research, then systems and craft, then i
 /Æ/#|∅||∅|||▶⟩⟩[studies.miniposters.oneoff]/
 ```
 
-I don't own the framework. I steward it. Others can learn it.
+I don't own the framework. I steward it. The distinction matters: a personal system dies with the person. An institutional framework can be learned, practiced, and maintained by others.
 
 ---
 
-The glyph system now classifies every artifact in this portfolio. [Savepoint Syntax](/systems/savepoint/) uses the same architecture. [FormWork](/systems/formwork/) applies the same principle to project coordination.
+The glyph system now classifies every artifact in this portfolio. [SavePoint](/systems/savepoint/) uses the same architecture for context preservation across sessions. [FormWork](/systems/formwork/) applies the same principle to project coordination: make the method explicit enough that it survives contact with someone who didn't build it.

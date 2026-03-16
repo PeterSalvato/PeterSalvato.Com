@@ -2,150 +2,142 @@
 // VERSOGRAMS — Poster card component and gallery
 // ============================================================================
 
-// The card IS the poster composition. Same markup at gallery and detail scale.
+// ---------------------------------------------------------------------------
+// Gallery thumbnail card
+// ---------------------------------------------------------------------------
 
 .versogram-card {
-  background: #1a1a1a;
-  color: #f0ece4;
-  padding: $space-lg;
-  display: grid;
-  grid-template-rows: auto 1fr auto auto;
-  gap: $space-md;
-  aspect-ratio: 3 / 4;
-  overflow: hidden;
+  border: 1px solid $color-rule;
+  background: #fff;
 }
 
-// ---------------------------------------------------------------------------
-// Headline: SVG title + artist
-// ---------------------------------------------------------------------------
+.project-content .versogram-card img,
+.versogram-card img {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
 
-.versogram-headline {
-  display: flex;
-  flex-direction: column;
-  gap: $space-xs;
+.versogram-caption {
+  padding: 0.75rem;
 }
 
 .versogram-title-svg {
   width: 100%;
-  max-height: 3rem;
+  max-height: 1.5rem;
   object-fit: contain;
   object-position: left center;
-  filter: brightness(0) invert(1);
 }
 
 .versogram-title-text {
   font-family: $font-display;
-  font-size: $type-h2;
+  font-size: $type-caption;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  margin: 0;
-  color: #f0ece4;
 }
 
 .versogram-artist {
+  display: block;
   font-family: $font-mono;
   font-size: $type-fine;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: #8a8279;
+  color: $color-ink-light;
+  margin-top: 0.25rem;
 }
 
 // ---------------------------------------------------------------------------
-// Image: SX-70 Polaroid frame
-// ---------------------------------------------------------------------------
-
-.versogram-image {
-  position: relative;
-  background: #0d0d0d;
-  overflow: hidden;
-
-  img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-  }
-}
-
-.versogram-image-placeholder {
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(135deg, #1a1a1a 0%, #2a2520 50%, #1a1a1a 100%);
-}
-
-// ---------------------------------------------------------------------------
-// Lyrics
-// ---------------------------------------------------------------------------
-
-.versogram-lyrics {
-  font-family: $font-body;
-  font-size: $type-caption;
-  line-height: $leading-loose;
-  color: #c0b8a8;
-  columns: 2;
-  column-gap: $space-lg;
-  overflow: hidden;
-}
-
-// ---------------------------------------------------------------------------
-// Metadata footer
-// ---------------------------------------------------------------------------
-
-.versogram-meta {
-  display: flex;
-  flex-wrap: wrap;
-  gap: $space-sm $space-md;
-  font-family: $font-mono;
-  font-size: $type-fine;
-  letter-spacing: 0.04em;
-  color: #5c5347;
-  border-top: 1px solid #2a2520;
-  padding-top: $space-sm;
-}
-
-// ---------------------------------------------------------------------------
-// QR code
-// ---------------------------------------------------------------------------
-
-.versogram-qr {
-  position: absolute;
-  bottom: $space-lg;
-  right: $space-lg;
-  width: 48px;
-  height: 48px;
-
-  img {
-    width: 100%;
-    height: 100%;
-    filter: brightness(0) invert(0.4);
-  }
-}
-
-// ---------------------------------------------------------------------------
-// Card in context: make it position-relative for QR placement
-// ---------------------------------------------------------------------------
-
-.versogram-card {
-  position: relative;
-}
-
-// ---------------------------------------------------------------------------
-// Full detail: no aspect ratio constraint, lyrics visible
+// Full poster card (detail page) — matches Illustrator reference
 // ---------------------------------------------------------------------------
 
 .versogram-card--full {
-  aspect-ratio: auto;
-  max-width: 600px;
-  margin: 0 auto;
+  width: 680px;
+  aspect-ratio: 8.5 / 11;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid $color-rule;
+}
 
-  .versogram-image {
-    aspect-ratio: 4 / 3;
-  }
+// Row 1: Headline
+.versogram-card--full .versogram-headline {
+  margin-bottom: 3%;
+}
 
-  .versogram-qr {
-    width: 64px;
-    height: 64px;
+.versogram-card--full .versogram-title-svg {
+  width: 100%;
+  max-height: none;
+  height: auto;
+}
+
+// Row 2: Image + Sidebar side by side
+.versogram-body {
+  display: flex;
+  gap: 5%;
+  margin-bottom: 4%;
+}
+
+.versogram-card--full .versogram-image {
+  flex: 0 0 62%;
+
+  img {
+    width: 100%;
+    height: auto;
   }
+}
+
+.versogram-sidebar {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.versogram-qr img {
+  width: 80px;
+  height: 80px;
+}
+
+.versogram-sidebar-meta {
+  display: flex;
+  flex-direction: column;
+}
+
+.versogram-label {
+  font-family: $font-body;
+  font-size: $type-fine;
+  font-style: italic;
+  color: $color-ink-light;
+}
+
+.versogram-value {
+  font-family: $font-body;
+  font-size: $type-body;
+  font-style: italic;
+  color: $color-ink;
+}
+
+// Row 3: Lyrics in 2 columns
+.versogram-card--full .versogram-lyrics {
+  columns: 2;
+  column-gap: 5%;
+  font-size: $type-caption;
+  line-height: 1.6;
+  color: $color-ink;
+  white-space: pre-line;
+  margin-bottom: auto;
+}
+
+// Row 4: Footer with QR bottom-right
+.versogram-card--full .versogram-footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-top: 2rem;
+}
+
+.versogram-footer-qr img {
+  width: 64px;
+  height: 64px;
 }
 
 // ---------------------------------------------------------------------------
@@ -154,7 +146,7 @@
 
 .versograms-gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: repeat(4, 1fr);
   gap: $space-lg;
   margin-top: $space-xl;
 }
@@ -162,23 +154,6 @@
 .versograms-gallery-link {
   text-decoration: none;
   color: inherit;
-  transition: transform $transition-fast;
-
-  &:hover {
-    transform: translateY(-2px);
-  }
-}
-
-// Gallery cards: smaller, no lyrics
-.versograms-gallery .versogram-card {
-  .versogram-lyrics {
-    display: none;
-  }
-
-  .versogram-qr {
-    width: 32px;
-    height: 32px;
-  }
 }
 
 // ---------------------------------------------------------------------------
@@ -186,32 +161,41 @@
 // ---------------------------------------------------------------------------
 
 .versogram-detail {
-  max-width: $container-max;
+  max-width: 720px;
 }
 
 .versogram-notes {
   margin-top: $space-xl;
-  color: $color-ink;
 }
 
 // ---------------------------------------------------------------------------
 // Responsive
 // ---------------------------------------------------------------------------
 
+@media (max-width: 1023px) {
+  .versograms-gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .versogram-card--full {
+    width: 100%;
+  }
+}
+
 @media (max-width: 599px) {
   .versograms-gallery {
     grid-template-columns: 1fr;
   }
 
-  .versogram-card {
-    padding: $space-md;
+  .versogram-body {
+    flex-direction: column;
   }
 
-  .versogram-lyrics {
+  .versogram-card--full .versogram-image {
+    flex: none;
+  }
+
+  .versogram-card--full .versogram-lyrics {
     columns: 1;
-  }
-
-  .versogram-card--full {
-    max-width: 100%;
   }
 }

@@ -94,5 +94,13 @@ seo_keywords: ["design engineering", "design methodology", "systems architecture
       history.replaceState(null, '', '#' + name);
     });
   });
+
+  // Handle hash changes from sidebar/external links
+  window.addEventListener('hashchange', function() {
+    var h = window.location.hash.replace('#', '');
+    if (h && document.getElementById('panel-' + h)) {
+      activate(h);
+    }
+  });
 })();
 </script>
