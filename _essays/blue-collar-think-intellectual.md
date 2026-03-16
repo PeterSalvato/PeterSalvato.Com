@@ -37,7 +37,7 @@ I carry that. When I look at any system, software or otherwise, the first questi
 
 ## The gap
 
-My father read constantly. History, politics, trade journals. He thought about his work at a level that didn't match the setting. The guys on the site respected him because he could solve problems on the ground, with his hands if necessary, in the weather, under pressure. But the reason he could solve them was that he'd already thought through the whole structure before the problem arrived. Blue collar setting. Intellectual operation.
+My father read constantly. History, trade journals. He thought about his work at a level that didn't match the setting. The guys on the site respected him because he could solve problems on the ground, with his hands if necessary, in the weather, under pressure. But the reason he could solve them was that he'd already thought through the whole structure before the problem arrived. Blue collar setting. Intellectual operation.
 
 I didn't have language for that when I was young. I just knew that the adults around me were doing sophisticated work without performing sophistication. Nobody on a job site talks about systems thinking. They talk about getting the steel up before the concrete crew shows up on Thursday. But the planning underneath that conversation is as rigorous as anything happening in an office with whiteboards and post-its.
 
