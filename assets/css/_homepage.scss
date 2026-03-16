@@ -40,8 +40,14 @@
   }
 }
 
-#homepage-intro {
-  margin-bottom: 2rem;
+#homepage-intro-lead {
+  margin-bottom: $space-lg;
+  max-width: 65ch;
+}
+
+#homepage-intro-rest {
+  margin-bottom: $space-lg;
+  max-width: 65ch;
 }
 
 #section-cards {

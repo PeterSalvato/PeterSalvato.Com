@@ -13,9 +13,10 @@ layout: default
     </div>
 </div>
 
-{% if content != "" %}
-<div id="homepage-intro">
-    {{ content }}
+{% assign paragraphs = content | split: '</p>' %}
+{% if paragraphs.size > 0 %}
+<div id="homepage-intro-lead">
+    {{ paragraphs[0] }}</p>
 </div>
 {% endif %}
 
@@ -30,6 +31,12 @@ layout: default
     </a>
     {% endfor %}
 </div>
+
+{% if paragraphs.size > 1 %}
+<div id="homepage-intro-rest">
+    {% for p in paragraphs offset:1 %}{% if p != '' %}{{ p }}</p>{% endif %}{% endfor %}
+</div>
+{% endif %}
 
 <script>
   document.querySelectorAll('.section-card[data-section]').forEach(function(card) {
