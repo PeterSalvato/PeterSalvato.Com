@@ -35,7 +35,7 @@ Gluten operations and gluten-free operations happen in serial, never in parallel
 
 My son won't eat cooked vegetables, so I rotate raw ones: chopped, prepped, available. My daughter's acceptable protein list is short. Cheese, black beans, hummus. Eggs on a good day. Chicken under duress. We still struggle with this. ARFID isn't pickiness. It's neurological. The list doesn't expand because someone tried harder.
 
-The modular system helps because nobody is forced to eat the same plate. The batch cook produces components. Rice. Beans. Three preparations of vegetables. Two proteins. Bread. At dinner, each person assembles from what's available. My daughter builds her plate from the things she can eat. My son builds his from different things. I eat what's celiac-safe. The system made the options visible before we sat down.
+The modular system helps because nobody is forced to eat the same plate. The batch cook produces components: rice, beans, three preparations of vegetables, two proteins, bread. At dinner, each person assembles from what's available. My daughter builds her plate from the things she can eat. My son builds his from different things. I eat what's celiac-safe. The system makes the options visible before we sit down.
 
 On a good day.
 
@@ -57,8 +57,8 @@ The systems don't fix the constraints. They make the good days more likely and t
 
 ---
 
-The kitchen is the room where all of it comes home. The constraints are medical and neurological. The stakes are whether my kids eat. But the methodology is the same thing I do professionally: read the people in the system, document their profiles, build structure that accommodates without requiring anyone to explain what they need. Make the environment carry what working memory drops.
+The kitchen is where all of it comes home. The constraints are medical and neurological. The stakes are whether my kids eat. But the methodology is the same thing I do professionally: read the people in the system, figure out their profiles, build structure that accommodates without requiring anyone to explain what they need.
 
-Some days the environment carries it. Some days I'm standing in the kitchen at 7 PM with the gloves on, making a sandwich I can't eat, and the plan is already gone. The system doesn't save you from that. It saves you from having to rebuild the whole thing from scratch the next morning.
+Some days the environment carries it. Some days I'm standing in the kitchen at 7 PM with the gloves on, making a sandwich I can't eat, and the plan is already gone. The system doesn't save you from that night. But the structure is still there the next morning, and you don't have to rebuild everything from scratch.
 
 The constraints don't go away.

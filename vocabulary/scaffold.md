@@ -63,7 +63,7 @@ A scaffold operates in three phases.
 
 **Assessment.** Before building the scaffold, read the gap. What can the system do independently? What does it need support to accomplish? Scaffolding built without this assessment is over-engineering at best. The scaffold should fit the actual gap, not the worst-case gap.
 
-**Support.** The scaffold holds the structure the system cannot yet hold for itself. The graphic organizer holds the paragraph structure. The coordinator holds the dispatch logic. The photography brief holds the visual standard. The scaffold is doing real structural work. It is not decoration.
+**Support.** The scaffold holds the structure the system cannot yet hold for itself. The graphic organizer holds the paragraph structure. The coordinator holds the dispatch logic. The photography brief holds the visual standard. The scaffold is doing real structural work, not decoration.
 
 **Removal.** This is the phase most scaffolds miss. Removal should be planned from the start. The question isn't "when can we remove this?" but "what does the system need to demonstrate before this comes off?" If you can't answer that question, you haven't designed a scaffold. You've designed a permanent fixture and called it temporary.
 
@@ -79,7 +79,7 @@ A scaffold that stays permanent has one of two problems: either the capability w
 
 A student with processing delays needs to write a structured paragraph: topic sentence, two supporting details, closing sentence. Holding all four components simultaneously while also writing is too much. The graphic organizer externalizes the structure: four labeled boxes, one per component, fill them in, then write the paragraph from the boxes.
 
-The scaffold works. The student produces paragraphs with clear structure. The question is whether the scaffold is building the skill or compensating for its absence. The teacher watches. Two weeks later, the student is reaching for the organizer before starting any writing task, even simple ones where it is not needed. That is the dependency signal. The teacher removes the organizer and gives the student a blank page. The paragraph falls apart.
+The scaffold works. The student produces paragraphs with clear structure. The question is whether the scaffold is building the skill or compensating for its absence. The teacher watches. Two weeks later, the student is reaching for the organizer before starting any writing task, even simple ones where it isn't needed. That's the dependency signal. The teacher removes the organizer and gives the student a blank page. The paragraph falls apart.
 
 The scaffold didn't fail. The removal timing failed. The organizer was removed before the skill was solid. The correct move: put the organizer back, continue building, and check again before removing.
 
@@ -87,7 +87,7 @@ The scaffold didn't fail. The removal timing failed. The organizer was removed b
 
 A LensArray evaluation runs nine independent lenses against the same piece of work: structural restraint, narrative identity, voice consistency, stranger-legibility, and five others. Each lens has its own criteria and its own definition of success. They run in parallel because they are independent. The coordinator dispatches them, collects nine verdicts, maps where they agree, and surfaces where they contradict.
 
-The coordinator is scaffolding. It carries the dispatch logic so the lenses do not need to know about each other. Each lens stays single-purpose and independently testable. If the lenses needed to know about each other, they would be coupled, and changing one would break three.
+The coordinator is scaffolding. It carries the dispatch logic so the lenses don't need to know about each other. Each lens stays single-purpose and independently testable. If the lenses needed to know about each other, they would be coupled, and changing one would break three.
 
 The coordinator comes off when the evaluation is complete. It doesn't persist between evaluations. It doesn't accumulate state. Each evaluation run builds the coordinator fresh, uses it, and releases it.
 

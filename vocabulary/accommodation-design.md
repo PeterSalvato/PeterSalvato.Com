@@ -66,7 +66,7 @@ Running twelve IEPs simultaneously teaches you three things fast. The feedback i
 
 These are architectural patterns. Federal law enforces them because the stakes are a child's education. You learn them fast or you fail kids.
 
-In 2023, the same processing failures showed up in a different system. A compound prompt asking a language model to evaluate across four dimensions at once produced a blended average that was none of them. The first criterion got full attention. Each one after that degraded. Criteria contaminated each other. The model could not hold four evaluation frames simultaneously.
+In 2023, the same processing failures showed up in a different system. A compound prompt asking a language model to evaluate across four dimensions at once produced a blended average that was none of them. The first criterion got full attention. Each one after that degraded. Criteria contaminated each other. The model couldn't hold four evaluation frames simultaneously.
 
 The fix was the same fix. Decompose. One dimension per prompt. One clear objective. One clear output.
 
@@ -129,7 +129,7 @@ Four people, four constraint profiles. Celiac disease. Two children with ARFID (
 
 ## The Literature Gap
 
-A systematic search of current research (2024-2026) confirms that this specific framing does not exist. Two established lanes:
+I looked. This specific framing doesn't exist in the current research (2024-2026). Two established lanes:
 
 1. **AI as accommodation tool for human learners.** Using AI to support students with disabilities. The accommodation flows from practitioner to learner, with AI as delivery mechanism.
 

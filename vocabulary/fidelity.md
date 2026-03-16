@@ -51,7 +51,7 @@ Three types of fidelity loss keep showing up across every domain I work in. Voic
 
 Twelve years on [Encore](/evidence/encore/) produced the clearest demonstration of fidelity held over time. Three complete technology shifts. The original intent: a browser-based platform that could serve the complexity of enterprise recruiting without drowning the person using it. That intent is still legible in the product. The design system encoded the standard in the code itself, not in documentation that developers ignore. Constraints that hold their own shape without depending on someone to enforce them.
 
-The counterexample is in the same project. The picture of how the whole thing fit together lived in one person's head. When that person wasn't in the room, the picture wasn't in the room. Features shipped that contradicted architecture built over years, because the people shipping them did not have the context for why the architecture was shaped that way. The intent was there. It could not survive the handoff.
+The counterexample is in the same project. The picture of how the whole thing fit together lived in one person's head. When that person wasn't in the room, the picture wasn't in the room. Features shipped that contradicted architecture built over years, because the people shipping them didn't have the context for why the architecture was shaped that way. The intent was there. It couldn't survive the handoff.
 
 The pattern repeats at every scale. A voice note dictated on the commute contains the real shape of an idea: the specific phrasing, the exact analogy, the emphasis that makes it land. Transcribed into an outline an hour later, those qualities are gone. The outline is accurate. It has low fidelity to the original idea.
 
@@ -118,7 +118,7 @@ A design system that lives in documentation has lower fidelity because the hando
 - **[Accommodation Design](/vocabulary/accommodation-design/)** — Ideas lose fidelity when forced into structure at the point of capture. Accommodation design removes that friction from the human side and handles structure on the tool side.
 - **[Input Inversion](/vocabulary/input-inversion/)** — The design principle that reverses the burden of structure from the human to the tooling. Fidelity is highest when the source material is unprocessed.
 - **[Load-bearing](/vocabulary/load-bearing/)** — Fidelity loss often begins by removing load-bearing elements that were never identified as such. The removal felt safe. The system felt it later.
-- **[Scaffold](/vocabulary/scaffold/)** — A scaffold that stays permanent builds dependency. A scaffold that disappears too early is not a fidelity problem; it was always temporary.
+- **[Scaffold](/vocabulary/scaffold/)** — A scaffold that stays permanent builds dependency. A scaffold that disappears too early isn't a fidelity problem; it was always temporary.
 
 ---
 

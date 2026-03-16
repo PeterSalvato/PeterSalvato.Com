@@ -39,7 +39,7 @@ related:
 
 Six months into a project, the output starts degrading. Nobody changed anything. Nobody made a bad call. But somewhere around month three, the original intent stopped being the thing everyone was checking against. That is drift.
 
-Drift is not technical debt. Technical debt is a known shortcut. You take it on purpose: ship the quick version, log the cost, plan to pay it back. It sits on a backlog. Someone owns it. Drift does not work that way. Nobody logs drift because nobody sees it happening. Each individual decision looks fine. The cumulative effect is invisible until it is catastrophic.
+Drift is not technical debt. Technical debt is a known shortcut. You take it on purpose: ship the quick version, log the cost, plan to pay it back. It sits on a backlog. Someone owns it. Drift does not work that way. Nobody logs drift because nobody sees it happening. Each individual decision looks fine. The cumulative effect is invisible until it's catastrophic.
 
 The distinction matters because the fixes are different. Technical debt responds to prioritization: put it on the backlog, allocate time, pay it down. Drift doesn't respond to prioritization because nobody knows it's there. You can't schedule a fix for something the team doesn't perceive as broken.
 
@@ -89,11 +89,11 @@ Method drift is harder to catch because the people inside the process adapted gr
 
 ### Enterprise Platform (Encore)
 
-Twelve years on one product. The SCSS design system was specifically a set of constraints encoded in the code itself: if a color value was not in the variables file, it did not belong. If a component was not built from the existing patterns, the code made that visible. Not documentation sitting in a shared drive that developers ignore. Actual constraints that enforce consistency.
+Twelve years on one product. The SCSS design system was specifically a set of constraints encoded in the code itself: if a color value wasn't in the variables file, it didn't belong. If a component wasn't built from the existing patterns, the code made that visible. Not documentation sitting in a shared drive that developers ignore. Actual constraints that enforce consistency.
 
 Building it was a project. Keeping it clean for twelve years was the practice. The whole point was to keep the original intent legible through every handoff, so the thing that shipped still resembled the thing someone needed.
 
-The institutional memory problem: the picture of how the whole thing fit together lived in one person's head. When that person was not in the room, the picture was not in the room. Features would ship that contradicted architecture maintained for years, because the people shipping them did not have the context for why the architecture was shaped that way.
+The institutional memory problem: the picture of how the whole thing fit together lived in one person's head. When that person wasn't in the room, the picture wasn't in the room. Features would ship that contradicted architecture maintained for years, because the people shipping them didn't have the context for why the architecture was shaped that way.
 
 ### AI Session Context
 
