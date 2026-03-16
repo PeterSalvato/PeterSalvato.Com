@@ -15,7 +15,7 @@ The form asks for your address before your name. You know this because you've al
 
 I spent years paying that cost before I understood what it was. Not the big moments. Not the meeting where you lose the thread because someone changed topics without signaling. Those you can name. It's the accumulation underneath. The open-plan office where you rebuild your mental workspace every time someone walks past your desk. The Slack channel where eight conversations run in parallel and you have to hold all eight models at once or lose context on three of them. The weekly planning meeting that takes forty-five minutes but costs you the next two hours, because the switching between discussion topics burned through whatever focus you had left for the afternoon.
 
-These aren't complaints. They're design observations. Every one of those is a system asking more of the person than it needs to.
+Every one of those is a design observation. A system asking more of the person than it needs to.
 
 The morning system I run at home exists because I learned this the hard way. Four family members, twelve active IEPs at work, code and design and writing and household logistics. If I try to context-switch between all of that on demand, I'm useless by noon. So I batch. I sequence. I build structure around the switching points so the transitions cost less. The batch cooking system exists for the same reason. Some days the tank is low before breakfast. On those days, the system needs to carry more weight so the person carries less.
 
