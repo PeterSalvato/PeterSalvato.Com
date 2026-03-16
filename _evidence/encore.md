@@ -40,11 +40,11 @@ The rest of the industry went browser-based. Twelve years in, the call held.
 
 ## What twelve years actually looks like
 
-The browser migration took about a year. After that, the real work started: keeping it clean.
+The browser migration took about a year. After that, the real work started: making the platform scale without losing coherence.
 
-A feature would start with a clear purpose. It would pass through discussions, reviews, other developers' hands, and arrive in production stripped of the thing that made it worth building. Copy-pasted code blocks. Naming conventions ignored. Modules that drifted from what they were supposed to do. The SCSS design system I built was specifically a set of constraints encoded in the code itself: if a color value wasn't in the variables file, it didn't belong. If a component wasn't built from the existing patterns, the code made that visible. Not documentation sitting in a shared drive that developers ignore. Actual constraints that enforce consistency.
+Enterprise recruiting is dense. A single search touches candidate pipelines, relationship networks, business development tracking, scorecard evaluations, activity history. Every feature I built had to handle that density and stay navigable. The SCSS design system encodes the constraints directly in the code: if a color value isn't in the variables file, it doesn't belong. If a component isn't built from the existing patterns, the code makes that visible. Constraints that enforce consistency at the point of development, so the platform stays coherent as it grows.
 
-Building it was a project. Keeping it clean for twelve years was the practice.
+Building it was a project. Keeping it coherent for twelve years is the practice.
 
 ---
 
@@ -52,9 +52,9 @@ Building it was a project. Keeping it clean for twelve years was the practice.
 
 Most people who hear "twelve years on one platform" assume the interesting part is the technology. The interesting part is drift.
 
-Technical debt is when you know the standard and cut corners against it. Drift is when the standard itself goes invisible. Nobody makes a bad decision. A series of reasonable decisions accumulate into something nobody chose. The thing a module was supposed to do stops matching what it actually does, and nobody catches it because nobody remembers what it was supposed to do.
+Technical debt is when you know the standard and cut corners against it. Drift is when the standard itself goes invisible. Any long-lived platform faces it. A series of reasonable decisions accumulate into something nobody chose. The thing a module was supposed to do stops matching what it actually does, because the intent wasn't encoded anywhere durable.
 
-The structure I spent twelve years maintaining was specifically this: a way to keep the original intent legible through every handoff, so the thing that shipped still resembled the thing someone needed. That's governance work. Load-bearing documentation. A design system that made the right thing easier to do than the wrong thing.
+That's the structure I've spent twelve years building and maintaining: a way to keep original intent legible through every iteration, so the thing that ships still matches the thing someone needed. Design systems, naming conventions, component patterns. Governance that lives in the codebase, not in a document someone has to remember to read.
 
 ---
 
@@ -62,20 +62,20 @@ The structure I spent twelve years maintaining was specifically this: a way to k
 
 The platform accommodates two audiences at once.
 
-The end user gets information architecture that handles the complexity of enterprise recruiting without drowning the person using it. Candidate pipelines, relationship mapping, business development tracking, scorecard systems. The density is real. Making that density navigable is design work.
+The end user gets information architecture that handles enterprise recruiting complexity without drowning the person using it. Candidate pipelines, relationship mapping, business development tracking, scorecard systems. The density is real. Making that density navigable is design work.
 
-The dev team gets internal systems that make the right thing easier to do than the wrong thing. The variables file became the artifact: a design system encoded in code. Naming conventions, color systems, spacing values, component patterns. The team adopted them because they made the work faster, not because anyone mandated them. Internal APIs, patterns that peers actually use because they remove friction.
+The development team gets internal systems that make the right thing easier to do than the wrong thing. The variables file became the shared artifact: a design system encoded in code. Naming conventions, color systems, spacing values, component patterns. The team adopted them because they made the work faster. Internal APIs and patterns that peers actually use because they remove friction.
 
 The same operation at both ends. Read what the system receiving the work actually needs, and build structure that meets it. The end user is one system. The development team is the other. Twelve years of that is where the [accommodation design](/practice/accommodation-design/) framework comes from.
 
 ---
 
-## The institutional memory problem
+## The whole picture
 
-The picture of how the whole thing fit together lived in my head. When I wasn't in the room, the picture wasn't in the room. Features would ship that contradicted architecture I'd spent years maintaining, because the people shipping them didn't have the context for why the architecture was shaped that way.
+Any complex platform has the same problem: the picture of how the whole thing fits together is larger than any one person's view of it. Features touch architecture that was shaped by decisions made years earlier, and the reasoning behind those decisions needs to be available at the moment someone is building on top of them.
 
-My father had the same problem on construction sites. He held the whole picture while fifty trades worked their piece. When he left the site, the picture left with him. Everything I've built since has been an attempt to solve that: externalize the picture so it survives without the person who made it.
+My father had the same problem on construction sites. He held the whole picture while fifty trades worked their piece. The picture had to survive handoffs. Everything I've built since has been an attempt to solve that: externalize the picture so it's available to whoever needs it next.
 
-That's the problem [SavePoint](/systems/savepoint/) solves: the turning points disappear when the context closes. And that's the coordination problem [FormWork](/systems/formwork/) solves: making sure the right context is available at the right moment, so the structure holds without depending on one person's memory.
+That's the problem [SavePoint](/systems/savepoint/) addresses: preserving the turning points that explain why something is shaped the way it is. And that's the coordination problem [FormWork](/systems/formwork/) solves: making sure the right context is available at the right moment, so the structure holds across every handoff.
 
-Anyone can ship version 1.0. Living with a system for twelve years, managing its evolution, its entropy, its politics, proves something a portfolio of short engagements never can.
+Anyone can ship version 1.0. Living with a platform for twelve years, keeping it coherent through growth and change, is a different kind of work entirely.
