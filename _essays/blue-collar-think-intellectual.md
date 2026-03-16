@@ -33,7 +33,7 @@ My father's real skill was knowing where things fail.
 
 A building doesn't fail in the middle of a trade's work. The plumber doesn't mess up the plumbing. The electrician doesn't mess up the electrical. It fails where one trade's work meets another. The joint between the ductwork and the framing. The transition from foundation to structure. The place where the waterproofing has to hand off to the flashing. Every failure he anticipated was at an intersection.
 
-I carry that. When I look at any system, software or otherwise, the first question I ask is: where does this fail? And the answer is almost always at the joints. Where one person's responsibility ends and another's begins. Where one layer meets the next. Where the handoff happens.
+I carry that. When I look at any system, software or otherwise, the first question I ask is: where does this fail? And the answer is almost always at the joints. Where one person's responsibility ends and another's begins. Where one layer meets the next. Where someone has to hand something off and hope the other side catches it.
 
 ## The gap
 
@@ -41,7 +41,7 @@ My father read constantly. History, trade journals. He thought about his work at
 
 I didn't have language for that when I was young. I just knew that the adults around me were doing sophisticated work without performing sophistication. Nobody on a job site talks about systems thinking. They talk about getting the steel up before the concrete crew shows up on Thursday. But the planning underneath that conversation is as rigorous as anything happening in an office with whiteboards and post-its.
 
-That's where I learned to work. Not in a classroom, not from a book. From watching someone hold a building in his head while standing in mud, and from the fact that when he left a site, the picture left with him. Everything I've built since has been shaped by both of those facts.
+That's where I learned to work. Watching someone hold a building in his head while standing in mud, and watching what happened when he left a site and the picture left with him. Everything I've built since has been shaped by both of those facts.
 
 When he walked off a job, the next person had to reconstruct the whole picture from scratch. The knowledge lived in him, not in the system. I watched that happen enough times to know it was a problem worth solving. Not because my father did anything wrong. He did it exactly right, for a job that only one person was doing at a time. The problem was the format. A building's worth of coordination stored in one head, with no way to hand it off intact.
 

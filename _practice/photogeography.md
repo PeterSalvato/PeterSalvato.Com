@@ -2,7 +2,7 @@
 layout: project
 redirect_from: /output/photogeography/
 practice_group: meditations
-published: false
+published: true
 title: "Photogeography"
 subtitle: "Format-Locked Visual Archive"
 icon: construction

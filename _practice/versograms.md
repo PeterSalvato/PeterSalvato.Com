@@ -4,7 +4,7 @@ redirect_from:
   - /output/versagrams/
   - /practice/versagrams/
 practice_group: meditations
-published: false
+published: true
 title: "Versograms"
 subtitle: "Song Lyrics as Typographic Architecture"
 icon: construction
@@ -40,11 +40,9 @@ The furniture-from-different-stores problem: type and image designed separately 
 
 <div class="versograms-gallery">
 {% for song in site.data.versograms.songs %}
-  {% if song.batch == 1 %}
   <a href="{{ '/versograms/' | append: song.slug | append: '/' | relative_url }}" class="versograms-gallery-link">
     {% include versogram-card.html song=song full=false %}
   </a>
-  {% endif %}
 {% endfor %}
 </div>
 

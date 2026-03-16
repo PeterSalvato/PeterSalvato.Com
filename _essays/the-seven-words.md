@@ -10,7 +10,7 @@ chapter: 9
 order: 5
 icon: edit_note
 ---
-Every field has words for what it does. Carpentry has plumb, true, flush. Music has groove, pocket, feel. Print production has registration, bleed, trap. They're not jargon. They're handles you grab when you need to point at something specific and say: that, right there, that's the thing.
+Every field has words for what it does. Carpentry has plumb, true, flush. Music has groove, pocket, feel. Print production has registration, bleed, trap. Handles you grab when you need to point at something specific and say: that, right there, that's the thing.
 
 I work across enough materials that I needed my own. Seven words keep showing up. Print shop, classroom, enterprise software, AI system design. I didn't set out to build a vocabulary. These are just the words that kept fitting when nothing else did.
 
@@ -72,4 +72,4 @@ A teacher does the same thing. You scan the room. One student is checked out. An
 
 ---
 
-Seven words. Print shops, construction sites, classrooms, nightclubs, enterprise software, design critiques. I kept thinking I was starting over, but the verbs were always the same even when nothing else was.
+Seven words. Print shops, construction sites, classrooms, nightclubs, enterprise software, design critiques. I kept thinking I was starting over every time the material changed. It took years to notice I was reaching for the same seven handles no matter what I was building.

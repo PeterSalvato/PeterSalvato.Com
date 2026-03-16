@@ -119,6 +119,20 @@ The copy on this site traces back to things I said or decided in working session
 
 ---
 
+## How the same corpus keeps producing
+
+The knowledge skill finds moments. But the corpus is richer than any single query can surface.
+
+The same conversation history can be traversed multiple times from different angles. A search for "what broke during the Encore rebuild" and a search for "where did the accommodation design concept come from" will cross some of the same sessions. The second traversal catches things the first one passed over, because the context from the first pass changes what I recognize as relevant. The compiled output from one angle feeds back into the data source as a new document, and the next traversal is richer because of it.
+
+The shape of it is closer to clay than to extraction. The first pass is the dump: raw ideation, unstructured, everything on the table. The second pass shapes it. I re-traverse the same material with a specific question and a compiled document comes out the other end. Then new material goes in (an interview, a working session where something clicked, a conversation that reframed an old problem) and the next traversal pulls from a larger, more connected body.
+
+During a re-traversal, all five systems are running at once. SavePoint marks the turns as they happen. The voice protocol constrains the output. Input Inversion keeps the entry point verbal and unstructured so I stay in thinking mode instead of editing mode. Accommodation Design reads my processing profile and adjusts what the tool surfaces. FormWork coordinates the whole operation: which lenses to run, what to evaluate, when to compile. I am sitting inside the rig I built, using it on itself.
+
+This is recursive enrichment. Each pass through the corpus produces a document that did not exist before. That document becomes part of the corpus. The next pass has more to work with. The site you are reading was compiled this way, and the compilation is still running.
+
+---
+
 ## How the visual system communicates
 
 A portfolio site has two jobs before anybody reads the copy: signal what kind of practitioner this is, and set the reading conditions for the work to land. Both are accommodation problems. The visual system either helps or gets in the way.
@@ -138,6 +152,30 @@ The same principle applies here. Four fixed breakpoints define four static print
 These are process constraints borrowed from print production, applied to a screen medium. The result feels different because the decisions were made differently. When you only have one spot color, the question stops being "what looks best" and becomes "what deserves ink," which turns out to produce better decisions even when the full spectrum is available.
 
 The visual register is accommodation design applied to the visitor. The same question the practice asks of every system: what does the person on the other side of this page require from the container?
+
+---
+
+## How each principle shows up in the room
+
+The tools I built to make this site are also running on it. Each one corresponds to something you experience as a visitor, whether you notice it or not.
+
+[Accommodation Design](/practice/accommodation-design/) asks: what does the system receiving this actually need? On the build side, that question shaped the pour (low-friction input so my actual thinking comes through) and the visual register (print constraints that set reading conditions). On the visitor side, it shapes the adaptive pathfinding. The site tracks what you have seen and adjusts what it surfaces. Connection cards at the bottom of each page change based on where you have been. If you have already read the FormWork page, the card linking to it acknowledges that instead of pitching it again. The site is reading your path and accommodating it.
+
+[Input Inversion](/practice/input-inversion/) says: let raw material come in unstructured, and build the structure after. On the build side, that produced three years of unstructured conversation as source material. On the visitor side, the same principle runs in reverse. Your browsing is unstructured. You click what interests you, skip what does not, double back. The session tracking turns that unstructured behavior into a visitor profile: what you have read, how deep you have gone, which domains you have touched. The structure comes after the input, for you and for me.
+
+[Voice Governance](/practice/voice-governance/) constrains output during generation. Every page on this site was written under the voice protocol and verified against the fingerprint. That constraint is invisible to you, but the result is audible. The pages sound like one person wrote them because one person's voice was enforced as a build rule, not applied as a polish pass.
+
+[SavePoint](/systems/savepoint/) preserves context across sessions. On the build side, savepoints mark where the thinking was so I can pick up weeks later without losing the thread. On the visitor side, the connections system does something parallel. The network of bridge reasons between pages ([connections data](/practice/this-site/)) preserves the relational context: why this page connects to that one, what the bridge is, where the idea continues. Your session carries forward through the connections the same way my build sessions carry forward through savepoints.
+
+The site is built from its own subject matter. The tools described on these pages are the tools that made these pages. That is the proof I can offer that they work.
+
+---
+
+## This page stays open
+
+Every other page on this site has a version that closes. The Encore case study covers twelve years but the page itself is finished. FormWork describes the system as it stands. Those pages will be revised, but each revision closes.
+
+This page does not close. The build is ongoing. The corpus is still growing. The re-traversal is still producing new compiled output. The governance is still being refined as new failure modes surface. What you are reading now is the current state of a process that has not stopped, and I do not expect it to.
 
 ---
 
