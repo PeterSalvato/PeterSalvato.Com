@@ -20,13 +20,13 @@ Then I told it the truth. Every page on this site was compiled by the system des
 
 ---
 
-The source material for this compiler isn’t a set of drafts. It’s a raw corpus of my own thinking. Between January 2023 and early 2026, I accumulated thousands of conversations across ChatGPT, Claude Code, Gemini, and Claude.ai. Three years of thinking out loud: arguing with tools, working through complex architectural problems, explaining things to myself, and failing at things until they finally worked. This material is raw, unpolished, and entirely conversational. It isn’t finished writing. It’s the ore.
+The source material for this compiler isn’t a set of drafts. It’s a raw corpus of my own thinking. Between January 2023 and early 2026, I accumulated thousands of conversations across ChatGPT, Claude Code, Gemini, and Claude.ai. Three years of thinking out loud: arguing with tools, working through complex architectural problems, explaining things to myself, and failing at things until they finally worked. This material is raw, unpolished, and entirely conversational. It was never meant to be read directly. It was meant to be compiled.
 
 I use AI as a refinery, not a generator. My conversations are the data. The system I built mines that data, evaluates it against a set of rigorous standards, and compiles it into the result you see here.
 
 ---
 
-That corpus exists because the system was designed to accept raw thinking. In [FormWork](/systems/formwork/), the first accommodation is aimed at the human: get the idea out of your head with as little friction as possible. Talk, dictate, answer questions. No requirement to organize or perform. The material stays conversational, and that's the point. It carries my actual voice, my actual sentence rhythms, the imagery I reach for when I'm thinking, not writing. The tools that follow can only preserve what the source material already contains. If the input had been structured, polished, performed, the output would sound like everyone. The rawness is what makes the compilation mine.
+That corpus exists because the system was designed to accept raw thinking. In [FormWork](/systems/formwork/), the first accommodation is aimed at the human: get the idea out of your head with as little friction as possible. Talk, dictate, answer questions. No requirement to organize or perform. The material stays conversational, and that's the point. It carries my actual voice, my actual sentence rhythms, the imagery I reach for when I'm thinking, not writing. The tools that follow can only preserve what the source material already contains. If the input had been structured, polished, performed, the output would sound like everyone. The rawness is what carries the voice through.
 
 The pipeline that operates on this source material is four tools, each one built to solve a specific gap between human thought and machine output.
 
@@ -40,22 +40,18 @@ Finally, a coordinator dispatches the entire process in parallel. Structural len
 
 ---
 
-The thing that surprised me is how invisible it becomes when it works. The output is so consistent with my actual voice, so free of machine artifacts, and so grounded in specific details that a sophisticated AI evaluator concluded it must have been hand-written. The governance worked well enough that it erased the evidence of its own operation.
+The thing that surprised me is how invisible it becomes when it works. The output is so consistent with my actual voice, so free of machine artifacts, and so grounded in specific details that a sophisticated AI evaluator concluded it must have been hand-written. The governance worked well enough that a reader would never guess the machinery was there.
 
-The site presents results that look hand-crafted. The machinery that produced them is described on every page, but because it's so effective at removing its own fingerprints, the reader assumes the human did the manual labor of writing. I'm still not sure how I feel about that, honestly. The compilation hid the fact that the site was compiled.
+The site presents results that look hand-crafted. The machinery that produced them is described on every page, but because it's so effective at removing its own fingerprints, the reader assumes the human did the manual labor of writing. I'm still not sure how I feel about that, honestly. The whole point is that the system compiled my thinking, and the fact that it worked means nobody sees the system at all.
 
 ---
 
-The argument for the system isn't in a white paper. It's in the pages you're reading right now.
-
-The [FormWork](/systems/formwork/){:.vocab-ref} page describes the coordination harness and its tools. Those same tools compiled that page. The voice protocol was verified against samples extracted from my own conversations. [Savepoint Syntax](/systems/savepoint/) exists because savepoints marked the cognitive turns during its own construction. And [This Site](/practice/this-site/) describes the build process that produced it.
-
-Every tool described on this site was used to produce it.
+The [FormWork](/systems/formwork/){:.vocab-ref} page describes the coordination harness and its tools. Those same tools compiled that page. The voice protocol was verified against samples extracted from my own conversations. [Savepoint Syntax](/systems/savepoint/) exists because savepoints marked the cognitive turns during its own construction. And [This Site](/practice/this-site/) describes the build process that produced it. So the argument for the system isn't in a white paper somewhere. You're already reading it.
 
 ---
 
 The question for the next few years isn't whether AI can produce good work. It clearly can. The question is whether it can produce *your* work: output that a blind evaluator cannot distinguish from your best hand-written thinking. That level of [fidelity](/vocabulary/fidelity/){:.vocab-ref} is only possible when the constraints are yours, the source material is yours, and the governance is yours.
 
-This system took longer than writing the site by hand would have. The goal was [fidelity](/vocabulary/fidelity/){:.vocab-ref}: a system where the output cannot drift from the source, where every sentence traces back to something real, and where the methodology is proven by its own product.
+This system took longer than writing the site by hand would have. The goal was always a tight loop between the source and the output: every sentence traces back to something real, and the methodology is proven by its own product.
 
-The evaluator called the voice "High-Taste Human." The system produced something a machine couldn't identify as machine-produced, because the machine wasn't the author. The source material was three years of me thinking out loud, and the system was built to make sure I didn't disappear inside it. Whether that worked is something I'm still figuring out.
+The evaluator called the voice "High-Taste Human." The system produced something a machine couldn't identify as machine-produced, because the machine wasn't the author. The source material was three years of me thinking out loud, and the system was built to make sure the thinking survived the compilation process. I think it did. But I'm also aware that the better the system works, the harder it is to see the system working, and I haven't fully sorted out what that means yet.

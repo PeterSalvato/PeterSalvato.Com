@@ -17,11 +17,11 @@ I never DJed. I received. I stood on that floor and felt what sequencing does wh
 
 ## What pacing actually is
 
-Pacing is attunement made structural. You read the state of the system receiving your work, then you design the sequence around what you read. In FormWork, pacing depends on the pour. The unstructured thinking carries the maker's actual process: how they sequence ideas, where they backtrack, what they connect to what. You can't pace effectively without reading that material. The pour tells you what the maker's thinking actually looks like, which tells you how to sequence the tools around it.
+You read the state of the system receiving your work, then you design the sequence around what you read. In FormWork, pacing depends on the pour. The unstructured thinking carries the maker's actual process: how they sequence ideas, where they backtrack, what they connect to what. You can't pace effectively without reading that material. The pour tells you what the maker's thinking actually looks like, which tells you how to sequence the tools around it.
 
 A DJ doing this well is processing in real time: energy level, fatigue, where the room peaked last, how long ago, what hasn't been heard yet. The decision about the next track is made from what the room is showing you right now. You can plan a set list. The good DJs I watched abandoned it within the first hour because the room told them something the plan didn't know.
 
-This is a literal skill. Reading a room and adjusting the sequence of what you deliver based on what the room can absorb right now.
+I watched DJs do this for years before I realized I was learning something transferable. Reading a room and adjusting the sequence of what you deliver based on what the room can absorb right now.
 
 ## The same skill in a different room
 
@@ -31,9 +31,7 @@ The pacing problem is identical. Push too fast and you lose the back of the room
 
 So you read the room. You watch for the signals: fidgeting, glazed eyes, the kid who stopped writing. And you adjust. You break the lesson into segments. You spiral: introduce a concept, move forward, come back to it later at a higher level. The repetition is pacing. The spacing is pacing. The decision to stop and do a physical activity before the next cognitive push is pacing.
 
-Spiral curriculum design is a DJ set. Introduce a theme early, build on it, return to it, build higher. You sequence for what the room can absorb, not for the order the textbook presents it.
-
-I didn't learn this from a pedagogy textbook. I learned it from standing on a dance floor at 3 AM and feeling what happens when someone sequences energy for the body instead of the head.
+The spiral curriculum does the same thing a DJ set does. Introduce a theme early, build on it, return to it, build higher. You sequence for what the room can absorb, and the textbook order rarely matches that.
 
 ## The same skill in a context window
 
@@ -43,12 +41,10 @@ Task decomposition is pacing. You read the system's processing profile and desig
 
 The skill architecture I built works this way. Twenty-two single-purpose skills, each handling one objective. Five coordinators that sequence them. The coordinators decide the order based on what depends on what, the same way a DJ decides the next track based on where the room is right now. A responsive sequence.
 
-Evaluation works this way too. Ask a model to evaluate something on six dimensions simultaneously and you get a blended average. The dimensions contaminate each other. Run them one at a time and each evaluation is honest about what it sees. The pacing of the evaluation matters as much as the criteria.
+Evaluation works this way too. Ask a model to evaluate something on six dimensions simultaneously and you get a blended average. The dimensions contaminate each other. Run them one at a time and each evaluation is honest about what it sees. I learned that the hard way after watching LensArray produce flattened scores until I separated the passes.
 
 ## The principle underneath
 
-Every system I've built sequences elements for a receiver with specific processing constraints: a crowd that's been dancing for four hours, a student with attention limits documented in an IEP, a model with a context window and attention degradation.
+The receiver changes. A crowd that's been dancing for four hours, a student with attention limits documented in an IEP, a model with a context window and attention degradation. The operation stays the same: figure out what the system can absorb right now, and design the sequence around that.
 
-Attunement is the read: what can this system actually absorb right now. Pacing is what you do with the answer: designing the sequence around that read.
-
-A good DJ set doesn't feel sequenced. A good lesson doesn't feel scaffolded. A well-decomposed prompt sequence doesn't feel like twelve separate tasks. When it works, nobody notices the structure, and I think that's how you know it's working. That's [accommodation design](/practice/accommodation-design/) at the somatic level.
+I keep coming back to what made those Twilo sets work. When the pacing was right, nobody noticed the structure. The lesson felt like one continuous thing. The prompt sequence felt like a conversation. The structure disappears into the experience, and that's what I'm trying to build into [accommodation design](/practice/accommodation-design/) at every level.

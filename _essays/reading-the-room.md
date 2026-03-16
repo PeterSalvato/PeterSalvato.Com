@@ -14,11 +14,9 @@ related:
   - /evidence/aiden-jae
 ---
 
-You've been in the room where everything just worked.
+You've been in a room where everything just worked. The pacing made sense. The next thing that happened was the thing you needed, and you didn't have to think about why.
 
-You couldn't explain why. The pacing made sense. The next thing that happened was the thing you needed. You didn't have to think about it. Your body already knew.
-
-I've spent my career trying to figure out how to build that on purpose.
+I kept ending up in those rooms and wanting to understand the machinery behind them.
 
 ---
 
@@ -30,7 +28,7 @@ But something was happening that I couldn't ignore. The entire room felt charged
 
 That's the part that mattered. Not any single night (the nights bleed together, honestly) but the cumulative realization that this wasn't magic. Someone was doing this to a room full of people, deliberately, through selection and sequencing. They knew what track to pull. They knew when the room needed a valley after a peak. They knew how to hold tension long enough that the release meant something.
 
-And I thought: this is a skill. It transfers.
+And I started to realize the thing I was watching had structure I could learn from.
 
 ---
 
@@ -52,8 +50,8 @@ A dance floor and a classroom don't look like they have much in common. But I wa
 
 When it works, nobody notices. The student doesn't get humiliated. The dance floor doesn't lose its energy. The person on the other end just feels like it makes sense.
 
-I didn't have language for any of this until recently. I just kept ending up in rooms (enterprise platforms, brand systems, fiction, music) and doing the same thing without knowing that's what I was doing. Different rooms, same operation. It took a long time to see the pattern clearly enough to say it out loud.
+I didn't have language for any of this until recently. I just kept ending up in rooms (enterprise platforms, brand systems, fiction, music) and doing the same thing without knowing that's what I was doing. It took a long time to see the pattern clearly enough to say it out loud, and I'm still figuring out how much of it I can formalize and how much stays intuitive.
 
 ---
 
-Everything else I've written here is about the machinery: protocols, evaluation lenses, the compilation pipeline. All real, all important. But the machinery exists to serve this. Someone has to read the room before the structure gets built, and that part is still a person standing in the room paying attention.
+Everything else I've written here is about the machinery: protocols, evaluation lenses, the compilation pipeline. All real, all important. But the machinery exists to serve this. The read comes first. The structure follows. And the read is still the part I'm most interested in building well, because it's the part that changes every time the room does.
