@@ -24,7 +24,7 @@ What I found was a Windows Forms application. Desktop-only, OS-dependent. The so
 
 I built the front-end from scratch. A modular namespaced JS framework, a full SCSS design system, information architecture across one of the most complex recruiting platforms in the world. Rolling dev, staging, and production servers meant the platform never stopped running while I built the layer it now runs on.
 
-The rest of the industry went browser-based. Twelve years in, the call held.
+The rest of the industry went browser-based over the next few years. The call was right.
 
 ![Encore Max across desktop, laptop, and mobile]({{ '/assets/img/Encore_devices.png' | relative_url }}){:.image.diagram}
 
@@ -44,7 +44,7 @@ The browser migration took about a year. After that, the real work started: maki
 
 Enterprise recruiting is dense. A single search touches candidate pipelines, relationship networks, business development tracking, scorecard evaluations, activity history. Every feature I built had to handle that density and stay navigable. The SCSS design system encodes the constraints directly in the code: if a color value isn't in the variables file, it doesn't belong. If a component isn't built from the existing patterns, the code makes that visible. Constraints that enforce consistency at the point of development, so the platform stays coherent as it grows.
 
-Building it was a project. Keeping it coherent for twelve years is the practice.
+Building it took about a year. Keeping it coherent for twelve years is where most of the actual work has been.
 
 ---
 
@@ -52,7 +52,7 @@ Building it was a project. Keeping it coherent for twelve years is the practice.
 
 Most people who hear "twelve years on one platform" assume the interesting part is the technology. The interesting part is drift.
 
-Technical debt is when you know the standard and cut corners against it. Drift is when the standard itself goes invisible. Any long-lived platform faces it. A series of reasonable decisions accumulate into something nobody chose. The thing a module was supposed to do stops matching what it actually does, because the intent wasn't encoded anywhere durable.
+Technical debt is when you know the standard and cut corners against it. Drift is different. The standard itself goes invisible over time, and nobody notices because every individual decision along the way was reasonable. Any long-lived platform faces it. A series of reasonable decisions accumulate into something nobody chose. The thing a module was supposed to do stops matching what it actually does, because the intent wasn't encoded anywhere durable.
 
 That's the structure I've spent twelve years building and maintaining: a way to keep original intent legible through every iteration, so the thing that ships still matches the thing someone needed. Design systems, naming conventions, component patterns. Governance that lives in the codebase, not in a document someone has to remember to read.
 
@@ -74,8 +74,8 @@ The same operation at both ends. Read what the system receiving the work actuall
 
 Any complex platform has the same problem: the picture of how the whole thing fits together is larger than any one person's view of it. Features touch architecture that was shaped by decisions made years earlier, and the reasoning behind those decisions needs to be available at the moment someone is building on top of them.
 
-My father had the same problem on construction sites. He held the whole picture while fifty trades worked their piece. The picture had to survive handoffs. Everything I've built since has been an attempt to solve that: externalize the picture so it's available to whoever needs it next.
+My father had the same problem on construction sites. He held the whole picture while fifty trades worked their piece. The picture had to survive handoffs. Everything I've built since has been an attempt to solve that: make the reasoning behind structural decisions available at the moment someone is building on top of them, not locked in one person's head.
 
-That's the problem [SavePoint](/systems/savepoint/) addresses: preserving the turning points that explain why something is shaped the way it is. And that's the coordination problem [FormWork](/systems/formwork/) solves: making sure the right context is available at the right moment, so the structure holds across every handoff.
+That's the problem [SavePoint](/systems/savepoint/) addresses: preserving the turning points that explain why something is shaped the way it is. And [FormWork](/systems/formwork/) is how I coordinate that across handoffs, making sure the right context is available at the right moment so the structure holds.
 
-Anyone can ship version 1.0. Living with a platform for twelve years, keeping it coherent through growth and change, is a different kind of work entirely.
+Shipping version 1.0 is a year of work. The twelve years after that, keeping the platform coherent through growth and change, is where I've learned most of what I know about how systems stay alive.

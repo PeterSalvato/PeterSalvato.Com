@@ -24,15 +24,15 @@ She had the product and the expertise. What she didn't have was any way to put i
 
 ![A gold ring being finished with a rotary tool at Beauty Gems Bangkok]({{ '/assets/img/AidenJae_bench.jpg' | relative_url }}){:.image.photo}
 
-The first question was what made this brand different from everything else in the category, and then making sure every piece of the system proved it. She works in solid recycled gold at a price point between fast fashion and traditional luxury. The sustainability is how the business operates, not a badge. But none of that means anything if the customer can't see it.
+The first question was what made this brand different from everything else in the category, and then making sure every piece of the system proved it. She works in solid recycled gold at a price point between fast fashion and traditional luxury. The sustainability is baked into how the business actually operates. But none of that means anything if the customer can't see it.
 
 ![Banyan texture rings on green felt]({{ '/assets/img/AidenJae_gold_rings_felt.jpg' | relative_url }}){:.image.photo}
 
 ---
 
-The identity came first. Clean typographic wordmark. A palette pulled from the materials: warm browns, muted sage, cream, a pink accent. Generous whitespace. Typography that stays out of the way. The visual language had to feel restrained and elegant without performing luxury. The product is the luxury, not the branding.
+The identity came first. Clean typographic wordmark. A palette pulled from the materials: warm browns, muted sage, cream, a pink accent. Generous whitespace. Typography that stays out of the way. The visual language had to feel restrained and elegant without performing luxury. The product itself had to carry the weight. The branding just needed to get out of the way.
 
-These became rules, not preferences. Every visual element either reinforces what the product actually is or it gets cut. Write "elegantly crafted with love" and the design language exposes it as hollow. If the visual system is built right, the wrong copy can't hide.
+We held to those as hard rules. Every visual element either reinforces what the product actually is or it gets cut. Write "elegantly crafted with love" and the design language exposes it as hollow. If the visual system is built right, the wrong copy can't hide.
 
 <div class="palette-grid">
   <div class="palette-swatch">
@@ -69,11 +69,11 @@ These became rules, not preferences. Every visual element either reinforces what
 
 I did all the photography. Camera and post. This is where a brand like this either proves itself or lies. Lighting that shows how gold actually catches light, how a stone sits in a setting, what the texture looks like up close. No retouching that hides the hand-finishing. No color grading that promises something the piece doesn't deliver. Top-down for the primary shot, angled for the secondary, detail for the third. The aspect ratios change because each piece has different visual weight. The system doesn't force the photograph into a preset box.
 
-When you see the actual texture of recycled gold under honest light, you're seeing the quality and the sourcing story without reading a word. The photography carries more than the copy ever could.
+When you see the actual texture of recycled gold under honest light, you're seeing the quality and the sourcing story without reading a word. The photography does most of the communicating on this site.
 
 ![Hands wearing Aiden Jae rings among tropical foliage]({{ '/assets/img/AidenJae_lifestyle_palms.jpg' | relative_url }}){:.image.photo}
 
-I designed the packaging concepts. The pouches are wool felt, sewn in-house. When the package arrives, the material the customer touches tells the same story the photography started. Every touchpoint is one system. Not separate departments doing separate things.
+I designed the packaging concepts. The pouches are wool felt, sewn in-house. When the package arrives, the material the customer touches tells the same story the photography started. Every touchpoint is one system, built by the same person with the same intent.
 
 ![Custom wool jewelry pouch being sewn]({{ '/assets/img/AidenJae_jewelry_pouch.png' | relative_url }}){:.image.photo}
 
@@ -83,7 +83,7 @@ I designed the packaging concepts. The pouches are wool felt, sewn in-house. Whe
 
 A generic Shopify template treats every product the same: same grid, same spacing, same assumptions. A quality ring in that grid looks like a commodity. So I built a custom system: Liquid templates, SCSS framework, product page architecture. The typography, spacing, and hierarchy reinforce the identity the photography establishes. The template serves the brand instead of overriding it.
 
-Product pages are structured more like case studies than product listings: material story, production notes, design rationale sitting alongside the piece. The platform shows the work instead of hiding it behind marketing copy. That was the whole point.
+Each product page includes the material story, production notes, and design rationale alongside the piece. The platform shows the work instead of hiding it behind marketing copy. That was the whole point.
 
 ![Aiden Jae product page]({{ '/assets/img/AidenJae_site_product.png' | relative_url }}){:.image.diagram}
 
@@ -91,15 +91,15 @@ Each collection carries its own visual identity within the brand system. Banyan 
 
 ![Aiden Jae collections page]({{ '/assets/img/AidenJae_site_collections.png' | relative_url }}){:.image.diagram}
 
-From the announcement bar to the footer, the whole site runs as one integrated system. The brand shows you its work instead of performing for you.
+From the announcement bar to the footer, the whole site runs as one integrated system. You see the materials, the process, the sourcing. Nothing is dressed up.
 
 ![Aiden Jae homepage]({{ '/assets/img/AidenJae_site_homepage.png' | relative_url }}){:.image.diagram}
 
 ---
 
-The system scales because it's built on principles, not templates. New product lines with different materials and different photography needs still hold the brand logic. The way things are photographed, spaced, and presented does the storytelling before anyone clicks the About page.
+New product lines with different materials and different photography needs still hold the brand logic, because the system is built on principles that flex across collections. The way things are photographed, spaced, and presented does the storytelling before anyone clicks the About page.
 
-Copy the photography without the identity system and the images look good but don't add up to anything. Copy the identity without the platform and the design contradicts itself on every product page. The pieces are interdependent.
+The photography only adds up to something because the identity system gives it structure. And the identity only holds because the platform enforces it at every level. The pieces are interdependent.
 
 ![Banyan Balance Ring Stack]({{ '/assets/img/AidenJae_banyan_rings.jpg' | relative_url }}){:.image.photo}
 
@@ -111,8 +111,8 @@ Copy the photography without the identity system and the images look good but do
 
 ---
 
-This wasn't a website project. It was a business's entire communicative infrastructure built from scratch: identity, photography, platform, packaging, market positioning. One system. Pull any piece out and the rest doesn't hold.
+The scope was a business's entire communicative infrastructure from scratch: identity, photography, platform, packaging, market positioning. One system, where every piece depends on the others to work.
 
 ![Knotted Tropics collection]({{ '/assets/img/AidenJae_hero_knotted_tropics.jpg' | relative_url }}){:.image.photo}
 
-[MathOnTape](/practice/mathontape/) works the same way. Pull the visual system away from the sonic system and the whole thing breaks.
+[MathOnTape](/practice/mathontape/) has the same interdependency between visual and sonic systems. That's the kind of problem I keep ending up with.
