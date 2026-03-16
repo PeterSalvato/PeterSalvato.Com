@@ -671,6 +671,31 @@ everybodys-got-a-plan:
 # VOCABULARY — Canonical Reference Pages
 # ============================================================================
 
+vocab-drift:
+  url: /vocabulary/drift/
+  connections:
+    - target: encore
+      url: /evidence/encore/
+      reason: "What twelve years of fighting drift looks like. The flagship evidence."
+    - target: drift-essay
+      url: /essays/drift-how-good-work-dies-slowly/
+      reason: "The four-pixel button and what it taught about invisible quality loss."
+    - target: savepoint
+      url: /systems/savepoint/
+      reason: "The tool built specifically to catch drift at the moment it happens."
+    - target: formwork
+      url: /systems/formwork/
+      reason: "The coordination harness that prevents method drift."
+    - target: accommodation-design
+      url: /practice/accommodation-design/
+      reason: "Drift is what happens when accommodation stops."
+    - target: voice-governance-essay
+      url: /essays/voice-governance/
+      reason: "Voice drift: how AI copy converges toward a generic average without governance."
+    - target: i-needed-a-better-tool
+      url: /essays/i-needed-a-better-tool/
+      reason: "Context drift across AI sessions. The problem that became SavePoint."
+
 vocab-accommodation-design:
   url: /vocabulary/accommodation-design/
   connections:

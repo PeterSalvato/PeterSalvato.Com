@@ -19,8 +19,8 @@ A framework for AI system architecture that comes from special education. Instea
 
 ---
 
-<span id="drift"></span>**Drift**
-Six months into a project, the output starts degrading. Nobody changed anything. Nobody made a bad call. But somewhere around month three, the original intent stopped being the thing everyone was checking against. That's drift. Deeper than technical debt (where you know the standard and cut corners against it). Drift is when the standard itself becomes invisible. Reasonable decisions accumulate into something nobody chose. It happens to methods, not just to outputs. [Savepoint](/systems/savepoint/) addresses drift in thinking. [FormWork](/systems/formwork/) addresses drift in process. [Encore](/evidence/encore/) is what twelve years without drift looks like.
+<span id="drift"></span>**[Drift](/vocabulary/drift/)**
+Six months into a project, the output starts degrading. Nobody changed anything. Nobody made a bad call. But somewhere around month three, the original intent stopped being the thing everyone was checking against. That's drift. Deeper than technical debt (where you know the standard and cut corners against it). Drift is when the standard itself becomes invisible. Reasonable decisions accumulate into something nobody chose. It happens to methods, not just to outputs. [Savepoint](/systems/savepoint/) addresses drift in thinking. [FormWork](/systems/formwork/) addresses drift in process. [Encore](/evidence/encore/) is what twelve years without drift looks like. [Full reference page](/vocabulary/drift/)
 
 ---
 
