@@ -20,7 +20,7 @@ When I look back at them now, they read as a roadmap of a life, not a portfolio,
 
 Photogeography is a formal system for that archive, one that preserves the record rather than curating it into something else. The geolocation data isn't supplementary. It's the content: coordinates, timestamp, the camera and film that determined how I saw it.
 
-What makes the photographs worth looking at is the specificity. Three locked aspect ratios, no cropping, no post-processing. A life document that reads as a life document.
+What makes the photographs worth looking at is the specificity. Three locked aspect ratios, no cropping, no post-processing. The photographs look like what they are: specific places, specific moments, preserved without editorializing.
 
 ---
 
@@ -50,7 +50,7 @@ No image is cropped to fit a format. No image's format is changed in post. The c
 
 If you can't crop, you reposition. If you can't change the ratio, you learn to see in the shape the format demands. Fewer options means you actually have to see what's in front of you. This started as an experiment inside [Meditations](/practice/meditations/) and grew into its own system once the archive got serious enough to need one.
 
-A visual archive that works as a record, not a portfolio.
+The archive holds the record. Everything else stays out of the way.
 
 ## THE WORK
 

@@ -8,7 +8,7 @@ icon: construction
 logo: /assets/img/MathOnTape.stacked.logo.svg
 logo_type: stacked
 status: "In Development"
-context: "Experimental electronic music where the visual identity and the sonic texture are built as one system. Not parallel outputs. One brand, two surfaces."
+context: "Experimental electronic music where the visual identity and the sonic texture are built as one system. One brand, two surfaces built as a single system."
 faculty: ["design", "engineering"]
 seo_keywords: ["Electronic Music", "Brand Systems", "Visual-Sonic Integration", "Design Systems", "Creative Branding"]
 description: "Experimental electronic music where visual identity and sonic texture are built as one brand system. Halftone as tape hiss, misregistration as distortion. One system, two surfaces."
@@ -30,7 +30,7 @@ The design system doesn't illustrate the music. It correlates directly with it. 
 
 Releases are named like archival documents: series codes, catalog numbers, album art treated as field manuals. The project presents itself as institutional documentation of a personal obsession.
 
-Pull the visual system away from the sonic system and both break. That's integration: not two things made to look alike, but two surfaces of the same governing logic.
+Pull the visual system away from the sonic system and both break. The visual and sonic layers are the same system expressed in two materials.
 
 ![MathOnTape tour poster]({{ '/assets/img/MathOnTape_poster_web.jpg' | relative_url }}){:.image.artifact}
 

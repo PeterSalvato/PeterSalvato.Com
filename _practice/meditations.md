@@ -22,7 +22,7 @@ related:
 
 Lock one variable, let everything else move, find out what happens. Each series locks a constraint: a grid system, a format, a typographic rule, an aspect ratio tied to a specific camera. Then it gets populated with subject matter the constraint was never designed for. What survives is the finding. When something develops enough weight, it graduates into its own project.
 
-The subject list came from a brain dump: kaijus, cryptids, stoicism, song lyrics, red light districts, uncommon words from other languages, cars that earned their names. I wanted to see what they looked like when I ran them through design constraints instead of just illustrating them. Not fan art. Not decoration. The goal was for the work to add something to each topic, not just display it.
+The subject list came from a brain dump: kaijus, cryptids, stoicism, song lyrics, red light districts, uncommon words from other languages, cars that earned their names. I wanted to see what they looked like when I ran them through design constraints instead of just illustrating them. The goal was for the work to add something to each topic, not just display it.
 
 This is the sketchbook. No client, no deadline. Still an art school kid playing with his design education.
 

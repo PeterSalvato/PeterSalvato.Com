@@ -36,7 +36,7 @@ I use AI every day. I also built the governance layer that keeps the human visib
 
 Every page on this site was compiled from three years of my conversations: over 60,000 documents of thinking out loud into AI tools, mined by the skills described here, evaluated against lenses extracted from real practitioners, assembled under voice rules derived from how I actually talk in unguarded sessions.
 
-That corpus is the pour. In FormWork, the first accommodation is aimed at the human: get the thinking out of your head with as little friction as possible. Talk, dictate, answer questions. No requirement to structure or perform. Three years of that produced the source material everything else operates on. The rawness is the point. It carries my actual voice, my actual thinking, the way I actually connect ideas. The tools that follow can only preserve what the pour already contains.
+That corpus is the pour. In FormWork, the first accommodation is aimed at the human: get the thinking out of your head with as little friction as possible. Talk, dictate, answer questions. No requirement to structure or perform. Three years of that produced the source material everything else operates on. That rawness matters. It carries my actual voice, my actual thinking, the way I actually connect ideas. The tools that follow can only preserve what the pour already contains.
 
 This is compilation, not generation. Most people use AI as a generator: prompt in, content out. The AI is the author and the human is the editor. I use it as a compiler. I am the source code: decisions, instincts, working knowledge accumulated across conversations. The system mines, evaluates, and assembles that material into output. The AI is the toolchain. You don't say gcc wrote the program.
 
@@ -49,14 +49,14 @@ The workbench is built from AI tools the way a woodworker builds a bench from ha
 The first attempt at governance was manual: copy-pasting context between ChatGPT threads. Dozens of overlapping conversations, each prefixed and numbered, decisions from one thread invisible to the next. I would end a session by asking for a savepoint summary, copy it, paste it into the next thread to reconstruct my headspace. It worked until it didn't. The pasted context was a snapshot, and it went stale the moment the next thread moved forward.
 
 > "We wind up with these marathon sessions and your memory limitations cause us to lose things. There's a lot of overlap between conversations so I want the date and timestamp to be when the decision was made so that we can track as they grow and change by traversing all the documents."
-> — from the session where the Savepoint Syntax was born, March 2025
+> From the session where the Savepoint Syntax was born, March 2025
 
 So I tried embedding governance in the tool itself. ChatGPT's project instruction box: rules for how to respond, what syntax to use, what to check before answering. I wrote instruction sets, rewrote them, versioned them (v1.1, v2.2, v3.0). The tool ignored them. It would follow the rules one reply and break them the next. I built modes and submodes for different work contexts trying to narrow the scope enough that the instructions would hold. They did not.
 
 > "I just have no idea how to work with a tool that is this inconsistent and mysterious. I never know if I can trust what you say and to have to fact check every response makes you fairly useless to me."
 >
 > "These solutions can't be 'moving forward I'll...' from you cause you won't respect it. This needs to be about behavioral hygiene on my part."
-> — from the session that broke the instruction model, April 2025
+> From the session that broke the instruction model, April 2025
 
 I was solving the same problem from different angles, and every solution exposed the same root failure: the tool had no durable memory. Each session started from zero regardless of what I had written down for it. I needed governance patterns I could hand to other people, not workarounds that only held because I was babysitting them.
 
@@ -82,7 +82,7 @@ I wrote a voice protocol in response. Rules based on Debbie Millman's interview 
 
 Then I rewrote every page against it. Some pages took three passes before the voice held. The [FormWork](/systems/formwork/) page, which describes the coordination process, was one of the hardest. The instinct is to explain how evaluation works. The protocol demanded I show what evaluation produced: the SVA critique room, the construction metaphor, what happens when lenses disagree.
 
-The voice pipeline now includes a fingerprint extracted from my own conversation patterns. Not from the published pages (those are already performed) but from how I actually explain things in working sessions. Sentence architecture, opening moves, where imagery comes from, how transitions work, how certainty and uncertainty are expressed. The protocol prevents AI patterns. The fingerprint generates mine.
+The voice pipeline now includes a fingerprint extracted from my own conversation patterns. Not from the published pages (those are already performed) but from how I actually explain things in working sessions. Sentence architecture, opening moves, where imagery comes from, how transitions work, how certainty and uncertainty are expressed. The protocol catches AI patterns, and the fingerprint keeps my own voice consistent across drafts.
 
 ---
 
@@ -105,7 +105,7 @@ I started dropping [savepoints](/systems/savepoint/) routinely, marking the cogn
 The build produced over 60,000 documents of ideation history across all the sessions. Savepoints are the trail system through that mass.
 
 > "The overarching goal of this is to create a creativity generation machine. It's not using the AI tools to ideate. It's using them to extract from the user and organize it and channel it."
-> — realizing what the savepoint system was actually for, March 2025
+> From the session where I realized what the savepoint system was actually for, March 2025
 
 ---
 
@@ -125,13 +125,13 @@ A portfolio site has two jobs before anybody reads the copy: signal what kind of
 
 The first CSS pass produced a site that looked like every other developer portfolio. Cards with shadows, rounded corners, generous line-height, fluid scaling. The layout said blog. The content said practitioner publishing research. The mismatch was the same one the copy had before the voice protocol caught it: the container contradicted the contents.
 
-The fix came from the same place the copy fix came from: reference practitioners who already solved the problem. Tufte's self-published books, set on the web as tufte-css. Butterick's Practical Typography. The Vignelli Canon. Muller-Brockmann's grid books. These all share a register: single or two-column text at a fixed measure, generous margins, a heading hierarchy that repeats identically on every page, restrained use of one accent, and a lot of white space doing structural work. Textbook, not magazine. The structure is the design.
+The fix came from the same place the copy fix came from: reference practitioners who already solved the problem. Tufte's self-published books, set on the web as tufte-css. Butterick's Practical Typography. The Vignelli Canon. Muller-Brockmann's grid books. These all share a register: single or two-column text at a fixed measure, generous margins, a heading hierarchy that repeats identically on every page, restrained use of one accent, and a lot of white space doing structural work. Textbook, not magazine. Structure does all the visual work.
 
 That register communicates something specific. A textbook layout says: this person organized their thinking before presenting it. The content is meant to be read, not scanned. The hierarchy repeats because the material is systematic.
 
 I pulled actual measurements from Tufte's CSS and calibrated against them. His body text runs at 21px with a line-height of 1.43. Butterick confirms the range: 15-25px on screen, line-height between 1.2 and 1.45, line length at 45-90 characters. The site had been running body text at 15-17px with a line-height of 1.6. Too small to hold attention, too loose to read as printed. Tightening the line-height to 1.45, widening the heading scale so h1 sits at 2x the body instead of 1.6x, and holding the content column at 65 characters brought the layout into the register it was always trying to reach.
 
-The deeper move was adopting print production constraints on a web build. A print designer working a two-color job does not have access to the full spectrum and then choose restraint. The budget gives them black and one spot color, and that limitation changes every decision downstream. Which elements get the spot ink. How hierarchy works without color gradients. Where emphasis lands when you cannot just make something a different hue. The constraint does the designing.
+The deeper move was adopting print production constraints on a web build. A print designer working a two-color job does not have access to the full spectrum and then choose restraint. The budget gives them black and one spot color, and that limitation changes every decision downstream. Which elements get the spot ink. How hierarchy works without color gradients. Where emphasis lands when you cannot just make something a different hue. Every decision downstream follows from that limitation.
 
 The same principle applies here. Four fixed breakpoints define four static print formats: phone, tablet, laptop, ultrawide. Each is a designed layout, not a fluid adaptation, the way a textbook has a different page format in paperback and hardcover but neither one reflows sentence by sentence. One spot color (oxide red, #A64B2A) used the way a second ink works on press: for structural emphasis, not decoration. Cards stripped and replaced with ruled entries (top border, no box) because a box around every item says catalog and a ruled list says index. Metadata labels set in small caps the way a typesetter would mark running heads.
 

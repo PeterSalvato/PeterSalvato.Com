@@ -20,7 +20,7 @@ I've been DJing since then. Not for crowds, not for a dance floor. Ambient track
 
 ---
 
-*The Deep Cuts* is the attempt to write that guide. Its proposal: make the listener the architect. The moment you're responsible for what plays next, you have to hear relationships, recognize connections, understand how meaning assembles when order changes. DJing is not the goal. It is the forcing function.
+*The Deep Cuts* is the attempt to write that guide. Its proposal: make the listener the architect. The moment you're responsible for what plays next, you have to hear relationships, recognize connections, understand how meaning assembles when order changes. DJing is the forcing function, the thing that makes you hear structure instead of just listening.
 
 Four dimensions structure the curriculum. **Selection:** hear what distinguishes one piece from another. **Transition:** recognize structural similarities that allow connection. **Sequence:** understand how meaning changes when order changes. **Timing:** grasp rhythm's multiple scales operating simultaneously.
 

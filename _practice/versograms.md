@@ -16,9 +16,7 @@ description: "Song lyrics as typographic architecture. Polaroid-vertical format,
 last_modified: 2026-03-16
 ---
 
-Most song posters illustrate what a song is "about." The image references the mood. The lyrics get set in whatever type looks good. Neither element is derived from the same source, so they coexist without cohering.
-
-The feeling of the song lives in the relationship between words and image, but the design process treats them as separate problems.
+I kept looking at song posters where the image references the mood and the lyrics get set in whatever type looks good. Neither element is derived from the same source, so they coexist without cohering. The feeling of the song lives in the relationship between words and image, but most design processes treat them as separate problems.
 
 I wanted to see what happens when the lyrics are the actual generative input. Not reference material for an illustration. The text itself, fed into AI image generation within the typographic parameters the grid establishes. What comes back is specific to that song, because the input is the actual words, not an interpretation of them.
 
@@ -26,7 +24,7 @@ I wanted to see what happens when the lyrics are the actual generative input. No
 
 Lyrics carry structural rhythm, density, emotional weight that most visual treatments strip away. A poster for "Cherub Rock" and a poster for "Limit to Your Love" should not look like the same decision. But if the format changes per piece, you're just decorating. The constraint has to be fixed. The content has to be what makes each piece distinct.
 
-The furniture-from-different-stores problem: type and image designed separately fit together technically but never quite right. One element gets treated as primary, the other as support. You can't design a relationship by designing its parts in isolation.
+The furniture-from-different-stores problem: type and image designed separately fit together technically but never quite right. One element gets treated as primary, the other as support. Designing the parts separately means the relationship between them is an accident.
 
 ## THE BUILD
 

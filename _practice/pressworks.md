@@ -22,7 +22,7 @@ I came up in print shops. USA Tees in Brooklyn, Atlas Embroidery in Fort Lauderd
 Then I spent 20 years in Adobe.
 
 > "This is what I want the site to feel like. It's kind of a middle-aged printmaker who once upon a time got his degree in mechanical engineering. Greasy hands with a small shop. Mid-century jazz music playing on the radio. Tortoise shell glasses. Kind of like 1990 Old Mill Basin Brooklyn, saying something sarcastic and giving you the side eye over his glasses."
-> — describing the whole identity, April 2025
+> (describing the whole identity, April 2025)
 
 You learn things on a press floor that don't translate to a screen. The order you lay plates down matters. The overlap matters. The slight misalignment of a plate loaded a fraction off center is what makes a real print look like a real print. Off-register makes it human. My prints were always in registration. Pulling the digital space *out* of registration to feel like print is a deliberate design choice.
 
@@ -40,8 +40,8 @@ PressWorks is a bash script wrapping ImageMagick. Sixteen operations. Three pres
 
 The mid-century preset runs desaturation, halftone screening, paper grain, and misregistration in sequence. Same inputs produce the same output every time. I can hand someone the exact command and they get the same print.
 
-That level of control matters because it's what I had in the print shop. Photoshop gives you a filter with a slider. PressWorks gives you the individual plates. I can separate an image into four channels, adjust the screening angle on the cyan plate independently, shift its registration by one pixel, and recombine. That's how a press works. That's how this works.
+That level of control matters because it's what I had in the print shop. Photoshop gives you a filter with a slider. PressWorks gives you the individual plates. I can separate an image into four channels, adjust the screening angle on the cyan plate independently, shift its registration by one pixel, and recombine. Same logic as a press floor, just running in a terminal.
 
-Every texture on this site came through PressWorks. The grain on the page surface, the halftone treatments, the desaturated color palette. [LensArray](/systems/lensarray/) borrows the language directly: evaluation happens in distinct layers, like plates in a screen print. The metaphor is literal. The same plate-by-plate process, running in code instead of on a Heidelberg.
+Every texture on this site came through PressWorks. The grain on the page surface, the halftone treatments, the desaturated color palette. [LensArray](/systems/lensarray/) borrows the language directly: evaluation happens in distinct layers, like plates in a screen print. The plate-by-plate process is the same, just running in code instead of on a Heidelberg.
 
 The tool is still being built. The operations work. The presets produce what I need. But the coverage isn't complete yet: img2img workflows, batch processing across an entire asset directory, tighter integration with the [Sovereign Design Engine](/practice/sovereign-design-engine/) pipeline. I'm adding capabilities as the site demands them, still filling the cases.

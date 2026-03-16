@@ -12,7 +12,7 @@ last_modified: 2026-03-11
 faq: true
 faq_items:
   - question: "What is FormWork?"
-    answer: "The accommodation design process. Not any single tool. The coordination harness that holds all the tools in position while the work is wet. It starts with the pour: getting the idea out of your head with as little friction as possible. Talk, dictate, answer questions. The raw material carries your voice, your thinking, the way you actually connect ideas. Every other tool in the harness accommodates the model. The pour accommodates the maker. SavePoint preserves context. LensArray decomposes evaluation. Skills execute one objective at a time. The voice pipeline shapes register. Knowledge traversal traces ideation history. FormWork coordinates them: which tool, when, in what order. The nature of what goes in determines the shape of what comes out."
+    answer: "The accommodation design process. Not any single tool. The coordination harness that holds all the tools in position while the work is wet. It starts with the pour: getting the idea out of your head with as little friction as possible. Talk, dictate, answer questions. The raw material carries your voice, your thinking, the way you actually connect ideas. Every other tool in the harness accommodates the model. The pour accommodates the maker. SavePoint preserves context. LensArray decomposes evaluation. Skills execute one objective at a time. The voice pipeline shapes register. Knowledge traversal traces ideation history. FormWork coordinates them: which tool, when, in what order. The raw material is what gives the downstream tools something real to work with."
   - question: "Where does the name come from?"
     answer: "Concrete construction. You build formwork before you pour. The temporary structure holds the boards in position, keeps the pour contained, gives the wet material somewhere to go. Once the concrete sets, the form comes off. The shape holds on its own."
   - question: "How is this different from prompt engineering?"
@@ -36,7 +36,7 @@ That same move, applied to AI tools, is what I've been building for the last thr
 
 The name comes from concrete construction. You build formwork before you pour. The temporary structure shapes the work while things are fluid. It holds the boards in position, keeps the pour contained, gives the wet material somewhere to go. Once the concrete sets, the form comes off. The shape holds on its own.
 
-In concrete construction, you pour before anything else. In FormWork, the pour is the same: deliberately generating source material in your own voice before any tool touches it. The nature of what goes in determines the shape of what comes out.
+In concrete construction, you pour before anything else. In FormWork, the pour is the same: deliberately generating source material in your own voice before any tool touches it. Raw, unperformed source material is what gives the downstream tools something real to work with.
 
 ---
 
@@ -62,7 +62,7 @@ What that looks like in practice: a five-minute voice note from the car. An inte
 
 The only requirement is that you don't perform. No audience awareness. No structuring for the model. No outline. The rawness is what makes the downstream tools work. The voice pipeline can only extract your patterns from material that sounds like you, and the knowledge traversal can only trace your thinking through material that contains it.
 
-This is FormWork's first accommodation, and the only one aimed at the human. Every other tool in the harness accommodates the model. This one accommodates the maker. The rest of the system only works because this one came first.
+This is FormWork's first accommodation, and the only one aimed at the human. Every other tool in the harness accommodates the model. This one accommodates the maker. Every other tool in the harness depends on having that raw material to work from.
 
 The pour isn't a one-time step. It's available throughout the process. A new facet emerges mid-project, you spin up an interview and fill it. The corpus grows as the project grows, and the tools can re-sample from it at any point.
 
@@ -108,7 +108,7 @@ The pour goes in first. Voice notes, brainstorming sessions, conversations where
 
 SavePoint Syntax marks where the thinking turned. Knowledge traversal traces how ideas developed across the corpus. The voice pipeline extracts how I actually communicate. LensArray evaluates the output across independent dimensions. The skill architecture keeps every task within the model's processing range. FormWork coordinates them: which tool, when, in what order.
 
-[petersalvato.com](/) was compiled through this process. Every page evaluated by independent lenses. Every piece of copy verified against voice patterns extracted from conversation. Context preserved across hundreds of sessions by savepoints. Concepts traced through three years of unstructured thinking by the traversal system. Each skill receiving one clear objective at a time. The temporary structure is gone. What it held keeps its shape.
+[petersalvato.com](/) was compiled through this process. Every page evaluated by independent lenses. Every piece of copy verified against voice patterns extracted from conversation. Context preserved across hundreds of sessions by savepoints. Concepts traced through three years of unstructured thinking by the traversal system. Each skill receiving one clear objective at a time. The process ran, the tools did their work, and the output stands without them.
 
 ---
 
@@ -120,8 +120,8 @@ The same principle governs every tool in this process. A graphic organizer helps
 
 Every scaffold in the system should be questioned: is this building capability, or is this building dependency? The current AI tool development trend pushes toward longer system prompts, more elaborate orchestration, increasingly complex context documents. The accommodation framework asks which of those scaffolds are doing structural work and which have become permanent crutches.
 
-If a tool has to stay permanently, I built a dependency.
+A tool that has to stay permanently is a dependency, and I try to catch those early.
 
 ---
 
-[petersalvato.com](/) was compiled inside FormWork. [This Site](/practice/this-site/) shows the process: the pour, the tools, the coordination, the work that holds its own weight once the scaffolding is removed.
+[petersalvato.com](/) was compiled inside FormWork. [This Site](/practice/this-site/) shows the process: the pour, the tools, the coordination, what the output looks like after the scaffolding is removed.

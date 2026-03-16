@@ -24,7 +24,7 @@ The production problem is always the same: the content lives in one environment 
 I have projects that need to become physical objects: a photography archive as tabloid posters, a song lyric series as prints, a book on DJ methodology as bound spreads. The physical artifact is the point. The Engine is the crate I reach into: a personal repertoire of templates, type scales, and production constraints that I know well enough to assemble quickly for any new piece.
 
 > "My design aesthetic is decidedly print-focused and gritty, off-register. When doing print or graphics I can mimic this perfectly, but I want to come up with a way to do it for the web."
-> — the problem that produced both the Engine and [PressWorks](/practice/pressworks/), April 2025
+> (the problem that produced both the Engine and [PressWorks](/practice/pressworks/), April 2025)
 
 The production tool for this is InDesign. I don't own it. And even when I did, every layout variant was a manual file. I prefer to keep out of Adobe as much as possible.
 

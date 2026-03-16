@@ -4,7 +4,7 @@ title: "LensArray"
 subtitle: "Multi-Perspective Evaluation and Generation"
 icon: handyman
 status: "Active"
-description: "Evaluation and generation through extracted practitioner lenses. Staff each layer with perspectives you trust, run them independently, read the convergence. The tensions between lenses are where the interesting decisions live."
+description: "Evaluation and generation through extracted practitioner lenses. Staff each layer with perspectives you trust, run them independently, read the convergence. The tensions between lenses surface the decisions that actually matter."
 seo_keywords: ["multi-perspective evaluation", "AI design critique", "evaluation lenses", "design review framework", "creative evaluation AI", "SVA critique room", "independent evaluation dimensions", "AI quality assessment", "how to evaluate AI output", "AI review process"]
 last_modified: 2026-03-11
 related:
@@ -27,7 +27,7 @@ One lens alone produces imitation: you're just channeling someone. Multiple lens
 
 ### What a run looks like
 
-Take a page on this site. The Millman lens evaluates it for authenticity: does the page sound like a real person with a specific point of view, or does it sound like positioning copy? It checks for hedging, for generic claims, for anything that could belong to anyone. The Vignelli lens evaluates the same page for structural restraint: is the hierarchy clean, is there unnecessary ornament, does every element carry weight? On a given page, Millman might flag a section as too polished (sounds like marketing) while Vignelli approves the same section (clean, restrained, no excess). That disagreement is the decision. I read both verdicts and choose: does this section need more of my actual voice, or is the restraint doing the right work? The coordinator maps these convergences and conflicts across every lens in the array. The places where all lenses agree rarely need attention. The places where they disagree are where the real design decisions live.
+Take a page on this site. The Millman lens evaluates it for authenticity: does the page sound like a real person with a specific point of view, or does it sound like positioning copy? It checks for hedging, for generic claims, for anything that could belong to anyone. The Vignelli lens evaluates the same page for structural restraint: is the hierarchy clean, is there unnecessary ornament, does every element carry weight? On a given page, Millman might flag a section as too polished (sounds like marketing) while Vignelli approves the same section (clean, restrained, no excess). That disagreement is the decision. I read both verdicts and choose: does this section need more of my actual voice, or is the restraint doing the right work? The coordinator maps these convergences and conflicts across every lens in the array. Full agreement across lenses rarely needs attention. Disagreement is where I actually have to make a call.
 
 ---
 
@@ -48,4 +48,4 @@ The protocol for building a lens:
 3. Codify as testable criteria. Turn extracted questions into specific, evaluable checks.
 4. Validate against their known work. The lens should confirm what the practitioner would confirm.
 
-This is what a good creative director does when building a team: figure out how your best people think, write it down, make it usable when they're not in the room.
+A good creative director does the same thing when building a team: studies how the best people on the floor actually think, documents it, and makes it available when they're not in the room.

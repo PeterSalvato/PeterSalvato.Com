@@ -28,7 +28,7 @@ March 2026
 
 ## Abstract
 
-Current AI memory systems determine importance computationally: frequency scoring, recency weighting, surprise metrics, embedding similarity. This paper argues that semantic importance is not a property of content but a relationship between content and intent, and that only the human participant can identify which moments in a conversation stream represent cognitive turning points. The paper presents Savepoint Syntax, a human-marked semantic hierarchy system developed over three years of applied practice, and contrasts it with machine-determined approaches (MemGPT, LUFY, Semantic Anchoring, Google Titans/MIRAS, MemOS). It introduces a bilateral accommodation model where the AI identifies the shape of potential turning points and the human's declared intent context gives them weight. A literature review of AI memory research (2024-2026) confirms that no existing system places human-marked importance at the center of its architecture. The paper situates this gap within the accommodation design framework (Salvato, 2026): the AI's memory disability (no durable memory, no continuity, no ability to distinguish weight) produces a specific harm (semantic flattening), which requires a specific accommodation (human-marked hierarchy supported by AI pattern recognition).
+Current AI memory systems determine importance computationally: frequency scoring, recency weighting, surprise metrics, embedding similarity. This paper argues that semantic importance is not a property of content but a relationship between content and intent. Only the human participant can identify which moments in a conversation stream represent cognitive turning points. The paper presents Savepoint Syntax, a human-marked semantic hierarchy system developed over three years of applied practice, and contrasts it with machine-determined approaches (MemGPT, LUFY, Semantic Anchoring, Google Titans/MIRAS, MemOS). It introduces a bilateral accommodation model where the AI identifies the shape of potential turning points and the human's declared intent context gives them weight. A literature review of AI memory research (2024-2026) confirms that no existing system places human-marked importance at the center of its architecture. The paper situates this gap within the accommodation design framework (Salvato, 2026): the AI's memory disability (no durable memory, no continuity, no ability to distinguish weight) produces a specific harm (semantic flattening), which requires a specific accommodation (human-marked hierarchy supported by AI pattern recognition).
 
 ---
 
@@ -44,7 +44,7 @@ The result is semantic flattening. Over time, across sessions, the human's think
 
 I experienced this directly. In early 2025, months of ideation for a novel (New City) were distributed across dozens of AI sessions. When the sessions closed, the continuity was severed. The thinking was preserved in conversation exports, but without any marking of which moments were turning points, the archive was flat. Keyword search could find topics. Nothing could find the moments where my understanding shifted.
 
-The human disappears not because the AI replaced them but because the AI could not see what mattered.
+The human disappears from the record because nothing in the system can register what mattered to them.
 
 
 ## 2. How the Field Is Responding
@@ -188,7 +188,7 @@ Savepoint Syntax did not arrive as a finished protocol. It failed three times be
 
 **Version 3.1** added project scoping when the archive exceeded 60,000 documents. Without project tags, searching the archive for savepoints relevant to a specific project returned results from every project. The addition was an accommodation of scale.
 
-Each version failure was an accommodation failure. The format did not fit the practitioner's processing reality. Version 1.0 did not constrain enough (the practitioner drifts without structure). Version 2.0 constrained the wrong thing (the practitioner's flow state). Version 3.0 got the constraint right but did not scale. The design principle throughout: build the syntax for what the model needs to reconstruct context, not for what the human needs to remember. That distinction is the accommodation move.
+Each version failure was an accommodation failure. The format did not fit the practitioner's processing reality. Version 1.0 did not constrain enough (the practitioner drifts without structure). Version 2.0 constrained the wrong thing (the practitioner's flow state). Version 3.0 got the constraint right but did not scale. The design principle throughout: build the syntax for what the model needs to reconstruct context, not for what the human needs to remember. That distinction is where the accommodation happens.
 
 
 ## 6. Literature Gap
@@ -205,7 +205,7 @@ The field has three established lanes:
 
 The gap: nobody is asking who decides what mattered. Every system assumes the machine decides. No system places the human's intent-relative assessment of importance at the center of its architecture. No system proposes that semantic weight is a relationship between content and intent rather than a property of content alone.
 
-The closest work, Semantic Anchoring (Chatterjee, 2025), enriches memory with linguistic structure, but the enrichment is computational. The human's assessment of which moments were turning points never enters the system. The paper represents the state of the art in structural memory enrichment. The gap it leaves is the gap between structural importance (what the text looks like) and semantic importance (what the moment meant to the person thinking).
+The closest work, Semantic Anchoring (Chatterjee, 2025), enriches memory with linguistic structure, but the enrichment is computational. The human's assessment of which moments were turning points never enters the system. The paper represents the state of the art in structural memory enrichment. What it does not address is semantic importance: what that moment meant to the person who was thinking through it, as opposed to what the text looks like structurally.
 
 
 ## 7. Implications
@@ -228,11 +228,11 @@ If semantic importance is a relationship between content and intent, several thi
 
 The AI memory research community is building increasingly sophisticated systems for determining what matters in conversation history. Surprise metrics, frequency scoring, discourse analysis, embedding similarity. Each approach treats importance as a property of the content: something the machine can compute from the text alone.
 
-This paper proposes a different framing. Semantic importance is not a property of content. It is a relationship between content and intent. The same sentence is filler in one context and a governing decision in another. The machine can score the text. Only the human knows what it meant.
+This paper proposes a different framing. Semantic importance is not a property of content. It is a relationship between content and intent. The same sentence is filler in one context and a governing decision in another. The machine can score the text, but it has no access to what that text meant to the practitioner.
 
 Savepoint Syntax provides the infrastructure for human-marked semantic hierarchy: structured tags dropped at cognitive turning points, supported by AI pattern recognition, shaped by the practitioner's declared intent. The system has been in continuous use for over a year across more than 60,000 documents of ideation history. It was built as accommodation for a specific disability (the model's inability to distinguish weight) producing a specific harm (the flattening of the practitioner's thinking across the conversation archive).
 
-The field is building better recall. The missing piece is weight. The human is the only source of that weight, and the infrastructure that preserves it is what keeps the human present in AI-mediated work.
+The field is building better recall. The missing piece is weight. Without a human source for that weight, and infrastructure designed to preserve it, the practitioner's presence in AI-mediated work erodes over time.
 
 ---
 

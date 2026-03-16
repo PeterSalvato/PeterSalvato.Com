@@ -9,7 +9,7 @@ icon: construction
 logo: /assets/img/EchoAndBone_logo.svg
 logo_type: wordmark
 status: "In Development"
-context: "Archetypes kept appearing across every domain: mythology, visual design, narrative architecture. Not as decoration. As load-bearing elements."
+context: "Archetypes kept appearing across every domain: mythology, visual design, narrative architecture. As load-bearing elements, present in every domain."
 faculty: ["design"]
 seo_keywords: ["Archetypal Patterns", "Symbolic Systems", "Stoic Philosophy", "Typography Research", "Meaning Architecture"]
 description: "Symbolic taxonomy of archetypal patterns. Stoic philosophy as first test case: three prints where visual element encodes content at the level of symbol, not illustration."
@@ -30,13 +30,13 @@ The question the project is built to answer: what does it look like to document 
 
 ## THE BUILD
 
-**The pairing logic.** Each print pairs one Stoic concept with one visual symbol. The constraint: the visual element has to encode the same content as the text, not illustrate it, not decorate it.
+**The pairing logic.** Each print pairs one Stoic concept with one visual symbol. The constraint: the visual element has to encode the same content as the text, encode the same content through a different channel.
 
-The skull is the most immediately legible symbol of mortality in Western visual culture. Paired with Stoic concepts about mortality, obligation, and highest purpose, it creates resonance through structural alignment: two things encoding the same content through different channels. The form is the argument: if this archetype is structural, the documentation should read as structural.
+The skull is the most immediately legible symbol of mortality in Western visual culture. Paired with Stoic concepts about mortality, obligation, and highest purpose, it creates resonance through structural alignment: two things encoding the same content through different channels. Form and content carry the same load: if this archetype is structural, the documentation should read as structural.
 
 **Stoicism as first test case.** Stoicism works as an entry point because its governing principles are stated as axioms. Memento Mori, Amor Fati, Summum Bonum: these are not illustrations of Stoic feeling, they are the load-bearing concepts of the system. They can be examined structurally: what does each one do, what does it govern, why does it persist across cultures and centuries. The taxonomy begins with what is most explicit.
 
-**Typography as structural argument.** The typographic treatment is not decorative. Type and symbol together form one diagram: the concept named, the concept visualized, the resonance legible without explanation. "The visual form is the argument: if archetypes are structural, the documentation should read as engineering rather than illustration."
+**Typography as structural argument.** The typographic treatment is not decorative. Type and symbol together form one diagram: the concept named, the concept visualized, the resonance legible without explanation. Visual form and textual content function as a single diagram: the concept named, the concept visualized, the resonance legible without explanation.
 
 ## THE PROOF
 
