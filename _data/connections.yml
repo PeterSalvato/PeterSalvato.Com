@@ -666,3 +666,32 @@ everybodys-got-a-plan:
     - target: reading-the-room
       url: /essays/reading-the-room/
       reason: "Reading the room at home is harder than at work."
+
+# ============================================================================
+# VOCABULARY — Canonical Reference Pages
+# ============================================================================
+
+vocab-accommodation-design:
+  url: /vocabulary/accommodation-design/
+  connections:
+    - target: accommodation-design
+      url: /practice/accommodation-design/
+      reason: "The full whitepaper. This page is the entry point; that one is the deep dive."
+    - target: the-iep-for-ai-systems
+      url: /essays/the-iep-for-ai-systems/
+      reason: "The classroom origin story told as narrative."
+    - target: what-does-the-system-need
+      url: /essays/what-does-the-system-actually-need/
+      reason: "Where the framework gets named and the question gets stated."
+    - target: processing-profiles
+      url: /essays/processing-profiles/
+      reason: "The mapping between student constraints and model constraints."
+    - target: formwork
+      url: /systems/formwork/
+      reason: "The coordination harness that holds all accommodation tools in position."
+    - target: why-chatgpt-gets-worse
+      url: /essays/why-does-chatgpt-get-worse/
+      reason: "The problem accommodation design solves, explained for someone who has never heard the term."
+    - target: encore
+      url: /evidence/encore/
+      reason: "What twelve years of applied accommodation looks like in an enterprise platform."
