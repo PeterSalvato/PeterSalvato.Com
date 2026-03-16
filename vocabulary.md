@@ -10,7 +10,7 @@ seo_keywords: ["design vocabulary", "systems thinking terminology", "mined langu
 
 The working language of Peter Salvato's [accommodation design](/practice/accommodation-design/) practice. These terms emerged from applied work across construction, print production, special education, enterprise software, and AI system architecture. They recur because the problems recur.
 
-[Accommodation Design](/vocabulary/accommodation-design/) · [Attunement](/vocabulary/attunement/) · [Context](/vocabulary/context/) · [Drift](/vocabulary/drift/) · [Fidelity](/vocabulary/fidelity/) · [FormWork](#formwork) · [Input Inversion](/vocabulary/input-inversion/) · [Load-bearing](/vocabulary/load-bearing/) · [Processing Profile](/vocabulary/processing-profile/) · [Savepoint](#savepoint) · [Scaffold](/vocabulary/scaffold/) · [Somatic Design](/vocabulary/somatic-design/)
+[Accommodation Design](/vocabulary/accommodation-design/) · [Attunement](/vocabulary/attunement/) · [Context](/vocabulary/context/) · [Drift](/vocabulary/drift/) · [Fidelity](/vocabulary/fidelity/) · [FormWork](/systems/formwork/) · [Input Inversion](/vocabulary/input-inversion/) · [Load-bearing](/vocabulary/load-bearing/) · [Processing Profile](/vocabulary/processing-profile/) · [SavePoint](/systems/savepoint/) · [Scaffold](/vocabulary/scaffold/) · [Somatic Design](/vocabulary/somatic-design/)
 
 ---
 
@@ -24,8 +24,8 @@ Six months into a project, the output starts degrading. Nobody changed anything.
 
 ---
 
-<span id="formwork"></span>**FormWork**
-The accommodation design process. Named from concrete construction: formwork is the temporary structure you build before the pour. It holds the boards in position, keeps the pour contained, gives the wet material somewhere to go. Once the concrete sets, the form comes off. [FormWork](/systems/formwork/) is not any single tool. It is the coordination harness that holds all the tools in position while the work is wet: [SavePoint Syntax](/systems/savepoint/) preserves context, [LensArray](/systems/lensarray/) decomposes evaluation, skills execute one objective at a time, the voice pipeline shapes register, knowledge traversal traces ideation history. The pour is the first phase: deliberately generating source material in the maker's own voice, so that ideas, sentence structure, word choice, and imagery are embedded in the data before any tool touches it. The nature of what goes in determines the shape of what comes out.
+<span id="formwork"></span>**[FormWork](/systems/formwork/)**
+The accommodation design process. Named from concrete construction: formwork is the temporary structure you build before the pour. It holds the boards in position, keeps the pour contained, gives the wet material somewhere to go. Once the concrete sets, the form comes off. [FormWork](/systems/formwork/) is not any single tool. It is the coordination harness that holds all the tools in position while the work is wet: [SavePoint Syntax](/systems/savepoint/) preserves context, [LensArray](/systems/lensarray/) decomposes evaluation, skills execute one objective at a time, the voice pipeline shapes register, knowledge traversal traces ideation history. The pour is the first phase: deliberately generating source material in the maker's own voice, so that ideas, sentence structure, word choice, and imagery are embedded in the data before any tool touches it. The nature of what goes in determines the shape of what comes out. [Full reference page](/systems/formwork/)
 
 ---
 
@@ -44,8 +44,8 @@ Any element, narrative, visual, or technical, that carries structural weight rat
 
 ---
 
-<span id="savepoint"></span>**Savepoint**
-A marker for the exact moment understanding shifted. The phrasing that locked in, the instant direction changed. More than a bookmark: a savepoint carries enough orientation to reconstruct where the thinking was when the context is gone. You come back to a project weeks later, scan the savepoints, and you're back in. See [Savepoint Syntax](/systems/savepoint/).
+<span id="savepoint"></span>**[SavePoint](/systems/savepoint/)**
+A marker for the exact moment understanding shifted. The phrasing that locked in, the instant direction changed. More than a bookmark: a savepoint carries enough orientation to reconstruct where the thinking was when the context is gone. You come back to a project weeks later, scan the savepoints, and you're back in. [Full reference page](/systems/savepoint/)
 
 ---
 
