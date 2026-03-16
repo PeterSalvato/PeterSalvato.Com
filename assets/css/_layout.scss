@@ -30,6 +30,8 @@
 }
 
 .system-footer {
-  padding-left: calc(#{$sidebar-width} + #{$space-xxl});
+  padding-left: $space-xxl;
   padding-right: $space-xxl;
+  position: relative;
+  z-index: $z-sidebar + 1;
 }

@@ -7,11 +7,12 @@
   padding-top: $space-xxl;
   padding-bottom: $space-xxl;
   margin-top: $space-xxxl;
+  background: $color-paper;
 
   .footer-columns {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: $space-xxl;
+    grid-template-columns: repeat(5, 1fr);
+    gap: $space-xl;
   }
 
   h4 {

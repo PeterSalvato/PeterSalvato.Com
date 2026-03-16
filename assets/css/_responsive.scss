@@ -77,8 +77,8 @@
   }
 
   .system-footer {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: $space-md;
+    padding-right: $space-md;
   }
 
   body.nav-open #sidebar-nav {
@@ -231,8 +231,12 @@
   }
 
   .system-footer {
-    padding-left: calc(#{$sidebar-width-sm} + #{$space-xl});
+    padding-left: $space-xl;
     padding-right: $space-xl;
+
+    .footer-columns {
+      grid-template-columns: repeat(3, 1fr);
+    }
   }
 
   #container {
@@ -274,7 +278,7 @@
   }
 
   .system-footer {
-    padding-left: calc(#{$sidebar-width} + #{$space-xxxl});
+    padding-left: $space-xxxl;
     padding-right: $space-xxxl;
   }
 
