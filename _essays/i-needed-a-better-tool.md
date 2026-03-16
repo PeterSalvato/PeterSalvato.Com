@@ -14,7 +14,7 @@ related:
   - /systems/lensarray
 ---
 
-I kept losing my thinking. Not my notes, not my files. The reasoning. The connections between ideas that only existed inside a conversation. The session would end and all of it was gone.
+I kept losing my thinking. The notes were fine, the files were fine. The reasoning was the thing that disappeared. The connections between ideas that only existed inside a conversation. The session would end and all of it was gone.
 
 I was using ChatGPT for structural work: worldbuilding for a novel, a side project called ScopeForge, career planning, brand development. Months of interconnected thinking where one decision fed into the next. Every time the session closed, the next one started from zero. I could paste summaries, re-upload documents, try to reconstruct the thread. But the reasoning that connected all the pieces had evaporated. When I came back to something months later, I told the tool: I feel like I did so much ideation that got lost or buried.
 
@@ -22,7 +22,7 @@ That loss is where the savepoint reflex came from. I started typing "give me a s
 
 ## The corpus before I knew it was one
 
-This isn't a story about a bad tool. Over three years I had thousands of conversations with ChatGPT. Cooking technique, career planning, teaching approaches for my kids, enterprise UI strategy, brand development. The first few months were simple lookups. Then in September 2024 something cracked open and I went from a few conversations a month to dozens a week. I was trying to figure out what I actually was, professionally, after twenty years of building things across so many domains that no single title fit. ChatGPT became the place I worked that out.
+This isn't a story about a bad tool, though. Over three years I had thousands of conversations with ChatGPT. Cooking technique, career planning, teaching approaches for my kids, enterprise UI strategy, brand development. The first few months were simple lookups. Then in September 2024 something cracked open and I went from a few conversations a month to dozens a week. I was trying to figure out what I actually was, professionally, after twenty years of building things across so many domains that no single title fit. ChatGPT became the place I worked that out.
 
 I could think inside it. I just couldn't keep what I'd thought.
 
@@ -44,11 +44,11 @@ That's the thing I'd been building workarounds for since I first started losing 
 
 In February 2026 I started building this site in Claude Code sessions. Not as a portfolio to showcase my history. As a laboratory to develop and test the methodology. The layouts, the design system, the navigation, the SEO infrastructure, all of it happening inside the repo where the tool could see everything and I didn't have to re-explain anything between sessions.
 
-The character of the work was completely different from the ChatGPT era. Those conversations were exploratory. I was trying to figure out who I am professionally, working through naming and positioning and existential questions about my career. The Claude Code sessions were building. I needed a real project to develop the governance system against, and the site became that project.
+The character of the work was completely different from the ChatGPT era. Those conversations were exploratory, me trying to figure out who I am professionally, working through naming and positioning and existential questions about my career. The Claude Code sessions were building. I needed a real project to develop the governance system against, and the site became that project.
 
-Both tools were the right tool for the phase I was in. ChatGPT was where the pour happened: years of unstructured thinking that became the source material everything else operates on. Claude Code was where the tools shaped it. The exploration generated the corpus. The building compiled it. The pour produced the raw material the tools needed.
+Both tools were the right tool for the phase I was in. ChatGPT was where the pour happened: years of unstructured thinking that became the source material everything else operates on. Claude Code was where the tools shaped it. All that exploration produced the raw material, and the building compiled it into something that could hold.
 
-I switched because the work changed, and I needed a tool that could work inside my file system and hold what we'd decided. Once it could, I could finally build on top of previous decisions instead of rebuilding them.
+I switched because the work changed. I needed a tool that could work inside my file system and hold what we'd decided. Once it could, I could finally build on top of previous decisions instead of rebuilding them every session.
 
 ## Why it matters to me
 

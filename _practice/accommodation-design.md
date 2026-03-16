@@ -75,7 +75,7 @@ I gave it a prompt: evaluate this portfolio for voice quality, structural integr
 
 I recognized it immediately. A compound instruction given to a system that can't process it whole. I'd seen this every day in the classroom. The fix is the same fix. Decompose. One dimension per prompt. One clear objective. One clear output. Run them independently.
 
-Same structural accommodation, different system.
+Same fix, different system.
 
 ---
 
@@ -111,7 +111,7 @@ The name comes from concrete construction. You build formwork before you pour. T
 
 FormWork is that temporary structure around a project. It is not any single tool. It is the harness that holds all the tools in position while the work is wet. The tools do their jobs. The harness coordinates them. When the work is done, the formwork comes off. The work stands.
 
-The pour is deliberately generating source material in your own voice. Brainstorming, voice notes, arguing with myself, changing direction mid-sentence. It can accumulate over years, get extracted in a single interview session, or arrive as a dictation from the car. The pour isn't a one-time step at the start. It's available throughout the process: a new facet emerges, you spin up an interview and fill it. The corpus grows as the project grows. This is required because without it, the tools have nothing real to work from. The voice pipeline can't preserve a voice that isn't in the source material. Knowledge traversal can't trace thinking that was never captured. The source material is conversational because the model's training data is dominated by polished published writing. Conversational material gives the tools something that actually sounds like the maker, not the model's average. The pour also carries the real structure of the thinking: how ideas connect, where they backtrack, what sequences naturally. The nature of what goes in determines the shape of what comes out. The tools shape it. FormWork holds the tools. Out comes the work.
+The pour is deliberately generating source material in your own voice. Brainstorming, voice notes, arguing with myself, changing direction mid-sentence. It can accumulate over years, get extracted in a single interview session, or arrive as a dictation from the car. The pour isn't a one-time step at the start. It's available throughout the process: a new facet emerges, you spin up an interview and fill it. The corpus grows as the project grows. This is required because without it, the tools have nothing real to work from. The voice pipeline can't preserve a voice that isn't in the source material. Knowledge traversal can't trace thinking that was never captured. The source material is conversational because the model's training data is dominated by polished published writing. Conversational material gives the tools something that actually sounds like the maker, not the model's average. The pour also carries the real structure of the thinking: how ideas connect, where they backtrack, what sequences naturally. The nature of what goes in determines the shape of what comes out. The tools shape it. FormWork holds the tools.
 
 Six tools, each built from the same question applied to a different processing constraint. All of them depend on one foundational practice: the deliberate generation of source material that carries the maker's voice and the actual structure of their thinking.
 
@@ -189,7 +189,7 @@ The field's emphasis on structured input may itself be a constraint-based approa
 
 petersalvato.com was compiled using the system described on it. FormWork held the tools in position while the work was wet: LensArray evaluated every page across independent dimensions. The voice pipeline verified every piece of copy against patterns extracted from conversation. The knowledge traversal skill traced concept lineage across three years of conversation history. SavePoint Syntax marked cognitive turning points throughout. The formwork came off. The site stands.
 
-The site is an artifact produced by the framework. The accommodation architecture built the thing that explains the accommodation architecture. A deployed system producing visible, assessable results, compiled by the process it describes.
+The site is an artifact produced by the framework. The accommodation architecture built the thing that explains it. A deployed system producing visible, assessable results, compiled by the process it describes.
 
 ---
 
@@ -217,21 +217,21 @@ If both systems are treated as having processing realities to accommodate, sever
 
 Federal education law already codifies the design pattern. IDEA mandates individualized specification of goals, success criteria, required accommodations, and progress monitoring. The CLAUDE.md file (persistent system context) is functionally an IEP: what the system needs to know, how it should approach tasks, what constitutes success.
 
-Why does the industry treat task decomposition as an optimization technique? The accommodation framing shows that decomposition is necessary because the system cannot process compound tasks. Same reason it's necessary in the classroom. The system needs it to do the work.
+The industry treats task decomposition as an optimization technique. The accommodation framing shows it's necessary because the system cannot process compound tasks. Same reason it's necessary in the classroom.
 
 Current AI tool development trends toward increasingly complex system prompts, longer context documents, more elaborate orchestration. The accommodation framework asks a question about every one of them: which scaffolds are building capability, and which are building dependency?
 
-**The practitioner profile changes.** If AI governance requires accommodation design, the field needs practitioners trained in reading processing realities and designing for them. That skill set lives in special education, instructional design, and certain branches of design practice. The insight that AI systems need accommodation could not have originated within computer science because computer science does not teach accommodation.
+**The practitioner profile changes.** If AI governance requires accommodation design, the field needs practitioners trained in reading processing realities and designing for them. That skill set lives in special education, instructional design, and certain branches of design practice. This kind of thinking could not have originated within computer science, because computer science does not teach accommodation.
 
 ---
 
 ## 8. Conclusion
 
-The AI governance field is building constraint systems for a problem that requires accommodation systems. Constraining a system fights its limitations. Accommodating a system designs for them.
+The AI governance field is building constraint systems for a problem that requires accommodation systems. Constraint fights limitations. Accommodation designs for them.
 
 This framework was developed through direct transfer from special education pedagogy to AI system architecture, supported by twenty-five years of applied practice across construction, print production, enterprise software, brand systems, and design education. The applied process, FormWork, accommodates both systems in the room. The pour is the first accommodation, aimed at the human: remove friction at the point of capture so the raw material carries the maker's actual voice and the real structure of their ideas. Five tools provide the second accommodation, aimed at the model: context preservation, evaluation decomposition, task decomposition, voice governance, and retrieval accommodation. Each came from the same question applied to a different processing constraint: what does this system actually need to do this job well?
 
-Nobody else is asking that question about both systems simultaneously. The practitioner profile that asks it (trained in reading processing realities and designing for them) does not come from computer science. It comes from a classroom.
+Nobody else is asking that question about both systems simultaneously. And the practitioner profile that asks it (trained in reading processing realities and designing for them) does not come from computer science. It comes from a classroom.
 
 ---
 

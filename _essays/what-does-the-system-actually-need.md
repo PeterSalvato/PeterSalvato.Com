@@ -23,7 +23,7 @@ The fix in the classroom: one instruction at a time. One clear objective. One vi
 
 The fix for the model: one evaluation dimension per prompt. One clear criterion. One output before the next dimension runs.
 
-Same structural accommodation, different system.
+Same fix. Different system.
 
 ## The framework
 
@@ -33,9 +33,9 @@ For a student: working memory capacity, attention profile, sensory processing, p
 
 For a large language model: context window limits, attention degradation over long inputs, sensitivity to instruction ordering, tendency to blend concurrent criteria, loss of coherence across extended sessions.
 
-The AI governance field is organized around constraining model behavior. Safety guardrails, compliance frameworks, output filtering. When output degrades, the response is more constraint: longer prompts, tighter formatting, more rules. The prompts grow. The output keeps degrading.
+Most of the AI governance field is organized around constraining model behavior. Safety guardrails, compliance frameworks, output filtering. When output degrades, the response is more constraint: longer prompts, tighter formatting, more rules. The prompts grow and the output keeps degrading.
 
-Accommodation takes the opposite approach. Instead of fighting the model's limitations, you design the task to work within them. Decompose compound instructions. Evaluate one dimension at a time. Build temporary [scaffolding](/vocabulary/scaffold/) that carries the structure without creating dependency. Monitor progress against specific, individualized goals.
+Accommodation goes the other way. Instead of fighting the model's limitations, you design the task to work within them. Decompose compound instructions. Evaluate one dimension at a time. Build temporary [scaffolding](/vocabulary/scaffold/) that carries the structure without creating dependency. Monitor progress against specific goals.
 
 These are the same architectural patterns that federal law (IDEA, the Individuals with Disabilities Education Act) requires for students with disabilities. I didn't invent them. I learned them in a classroom and recognized them when the same processing failures showed up in a different system.
 
@@ -43,8 +43,8 @@ These are the same architectural patterns that federal law (IDEA, the Individual
 
 [Accommodation design](/vocabulary/accommodation-design/){:.vocab-ref} is a structural claim: AI systems have specific processing realities that can be accommodated, and the quality of the output depends on how well the task design meets those processing needs.
 
-The distinction matters. Prompt engineering treats the model as a system that needs better instructions. [Accommodation design](/vocabulary/accommodation-design/){:.vocab-ref} treats the model as a system with a [processing profile](/essays/processing-profiles/) that the task needs to fit. One puts the burden on the instructions. The other puts it on the task architecture.
+The distinction matters. Prompt engineering treats the model as a system that needs better instructions. [Accommodation design](/vocabulary/accommodation-design/){:.vocab-ref} treats the model as a system with a [processing profile](/essays/processing-profiles/) that the task needs to fit. The burden shifts from "write a better prompt" to "design a better task."
 
 The full framework is documented in the whitepaper [AI Governance as Accommodation Design](/practice/accommodation-design/), with six tools built over three years of applied architecture. The [IEP essay](/essays/the-iep-for-ai-systems/) goes deep on the classroom origin: decomposition, [scaffolding](/vocabulary/scaffold/){:.vocab-ref}, individualized criteria. This essay names the framework and the question that drives it.
 
-The question is simple. What does this system actually need to do this job well? The AI governance field is full of people answering a different question: how do I make it do what I want? Those two questions produce completely different architecture.
+The question is simple: what does this system actually need to do this job well? Most of the AI governance field is answering a different question, which is how do I make it do what I want. And you end up in a completely different place depending on which one you start with.

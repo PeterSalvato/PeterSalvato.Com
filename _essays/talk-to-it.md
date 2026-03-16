@@ -17,13 +17,13 @@ When you type a prompt, you're already editing. You feel the friction of the key
 
 Talk instead.
 
-Dictate into your phone on the drive home. Brainstorm out loud into a voice note at 2 AM when the idea won't let go. Open a conversation and just speak. Let it be messy. Let it be unfinished. Let yourself say "no wait, that's not what I mean" and keep going.
+Dictate into your phone on the drive home. Brainstorm out loud into a voice note at 2 AM when the idea won't let go. Open a conversation and just speak. It doesn't need to be clean. Say "no wait, that's not what I mean" and keep going.
 
 ## Why the mess matters
 
-Every tool I've built for working with AI depends on having raw, unstructured human thinking to process. Voice sampling needs unpolished speech to extract how someone actually talks, because published writing is performance and conversation is the real thing. Knowledge traversal needs a body of unfiltered ideation to trace through, because the first time an idea appears, it probably wasn't called by its final name.
+Every tool I've built for working with AI depends on having raw, unstructured human thinking to process. Voice sampling needs unpolished speech to figure out how someone actually talks, because published writing is already a performance. Knowledge traversal needs a body of unfiltered ideation to trace through, because the first time an idea shows up in your conversation history, you probably called it something else.
 
-Most prompt advice starts with organizing your thoughts: write clear instructions, define output formats, pre-structure everything before you hit enter. That puts the editing burden on you before you've even finished thinking.
+Most prompt advice starts with organizing your thoughts: write clear instructions, define output formats, pre-structure everything before you hit enter. That puts the editing burden on you before you've even finished thinking, which is exactly backwards.
 
 I went the other way for three years. Thousands of sessions of thinking out loud: brainstorming, arguing with myself, changing direction mid-sentence. That [unstructured corpus](/essays/the-unstructured-corpus/) turned out to be the most valuable thing I've built. The site you're reading was compiled from it.
 
@@ -31,7 +31,7 @@ I went the other way for three years. Thousands of sessions of thinking out loud
 
 Talking instead of typing removes the friction between thinking and input. You don't compress, don't edit, don't organize before the thought is finished. The keyboard forces you to compose. Your voice lets you pour.
 
-That pouring is the first half of what I call bidirectional accommodation. The human side. Get the thinking out with as little resistance as possible. The other half (structuring that raw material so the model can process it) is a separate problem, handled by separate tools. But it depends entirely on what goes in. If what goes in is already filtered, already polished, the tools downstream have less to work with. The behavior of talking, of staying raw, is what gives the rest of the system real material.
+That pouring is the first half of what I call bidirectional accommodation. The human side. Get the thinking out with as little resistance as possible. The other half (structuring that raw material so the model can process it) is a separate problem, handled by separate tools. But it depends entirely on what goes in. If what goes in is already filtered, already polished, the tools downstream have less to work with.
 
 ## Starting today
 
@@ -39,6 +39,6 @@ Open your phone's voice memo app or start a conversation with any AI tool. Talk 
 
 Brainstorm into a voice note at midnight. Answer your own questions out loud and let yourself change direction halfway through. One recording is enough to start. A month of them gives the tools a real body of material to process.
 
-The rawness is the point. When you talk instead of type, you stop editing before you've finished thinking. That unedited version carries your actual voice, your actual sentence structure, the way you actually move between ideas. It is the thing the tools need.
+When you talk instead of type, you stop editing before you've finished thinking. That unedited version carries your actual voice, your actual sentence structure, the way you actually move between ideas. The tools downstream need that material more than they need clean prompts.
 
 The full concept is [input inversion](/vocabulary/input-inversion/). The framework that produced it is [accommodation design](/vocabulary/accommodation-design/).

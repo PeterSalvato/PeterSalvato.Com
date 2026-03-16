@@ -41,7 +41,7 @@ The AI industry operates on a foundational assumption: the quality of AI output 
 
 Best-practice guidance is consistent. "Write clear, specific instructions." "Define the output format." "Use few-shot examples." "Apply chain-of-thought reasoning." "Avoid dumping unstructured data at an LLM" (LogRocket, 2025). The prompt engineering field has produced taxonomies of 58 distinct prompting techniques (Schulhoff et al., 2024) and a cottage industry of courses, certifications, and role definitions organized around the same claim: better-structured input produces better output.
 
-The assumption is intuitive. It feels obviously true. And the evidence is starting to contradict it.
+The assumption feels obviously true. And the evidence is starting to contradict it.
 
 ---
 
@@ -59,7 +59,7 @@ Andrej Karpathy (founding member of OpenAI) publicly reframed the field in June 
 
 Andrew Ng's team demonstrated the point empirically. On the HumanEval coding benchmark, GPT-3.5 with a single optimized prompt achieved 48.1% accuracy. GPT-4 with a single optimized prompt reached 67%. GPT-3.5 wrapped in an agentic workflow (multiple steps, decomposed tasks, iterative evaluation) hit 95.1%. A weaker, cheaper model nearly doubled the advanced model's performance by changing how the system worked, not what the input said.
 
-The implication is direct: optimizing the prompt has a ceiling. Designing the system around the prompt has a much higher one. The structured-input assumption optimizes the wrong layer.
+The implication is direct: optimizing the prompt has a ceiling. Designing the system around the prompt has a much higher one.
 
 ### 2.3 Voice Input Produces Richer Material
 
@@ -115,7 +115,7 @@ Finally, compound evaluation collapses when a model tries to assess multiple dim
 
 The production site petersalvato.com was compiled from this unstructured corpus. Every page was processed by the accommodation tools, evaluated by decomposed lenses, and verified against voice patterns extracted from conversation. A blind third-party assessment classified the output as direct human writing, not AI-assisted.
 
-The quality came from the depth of the raw material, not from structuring the input. A structured prompt gives the tools one sanitized snapshot. The unstructured corpus gave them three years of how I actually think.
+The quality came from the depth of the raw material, not from structuring the input. A structured prompt gives the tools one sanitized snapshot. The unstructured corpus gave them three years of how I actually think, including the parts I would have edited out.
 
 ---
 
@@ -177,9 +177,9 @@ Input inversion does not require three years and thousands of sessions. The prin
 
 **A few dozen conversations.** Open-ended sessions where the practitioner thinks out loud about their work. "Tell me about what you're building." The interview skill processes these into stories, language patterns, and concept maps.
 
-**A single dictated session.** Even one conversation where someone speaks freely about their work produces richer material than a carefully structured brief. The rawness is the asset, not the obstacle.
+**A single dictated session.** Even one conversation where someone speaks freely about their work produces richer material than a carefully structured brief. The rawness is what makes it work.
 
-The barrier to entry is not technical infrastructure. It's the willingness to stop organizing input and start organizing tools. The industry has trained practitioners to perform for the model: clean prompts, specific instructions, defined formats. Input inversion asks them to stop performing and start thinking out loud.
+The barrier to entry is not technical infrastructure. It's the willingness to stop organizing input and start organizing tools. The industry has trained practitioners to perform for the model: clean prompts, specific instructions, defined formats. Input inversion asks you to stop performing and start thinking out loud.
 
 ---
 
@@ -215,7 +215,7 @@ Input inversion formalizes what this evidence suggests: reverse the burden of st
 
 This principle was developed through three years of applied practice and is demonstrated by a production site compiled entirely from unstructured conversational data. It extends the [accommodation design framework](/practice/accommodation-design/) (Salvato, 2026) into a bidirectional pattern: structure for the model, freedom for the human.
 
-The practitioner who builds the best translation layer between raw human thinking and model-ready input produces the best output. The prompts were never the bottleneck. The tooling was.
+The practitioner who builds the best translation layer between raw human thinking and model-ready input produces the best output. The prompts were never the bottleneck.
 
 ---
 

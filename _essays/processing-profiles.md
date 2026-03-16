@@ -16,17 +16,15 @@ Your AI forgets the beginning of a long conversation for the same reason a stude
 
 In a special education classroom, the first thing you do with a new student is read the processing profile. Working memory capacity. Attention span. How they take in information. Where they lose the thread. You don't start teaching until you know how that student's brain works, because the instruction has to fit the student. I wrote dozens of these in a classroom in Sunset Park. Each one starts with the same move: assess the processing reality, then design the instruction to fit.
 
-When I started working with language models in 2023, I recognized the pattern. The models have processing profiles too. Nobody was documenting them as processing profiles. The specs exist (context windows, token limits, attention mechanisms) but they're treated as product features. Engineering constraints. Numbers on a spec sheet.
-
-They're cognitive constraints you design around.
+When I started working with language models in 2023, I recognized the pattern. The models have processing profiles too. Nobody was calling them that. The specs exist (context windows, token limits, attention mechanisms) but they're treated as product features. Numbers on a spec sheet. I think they're closer to cognitive constraints, and you can design around them the same way.
 
 ## The mapping
 
 A context window is a working memory ceiling. The model can hold this much. After that, things start dropping. Earlier context gets less attention. Details from the beginning of a long prompt carry less weight by the end. Any teacher who's worked with processing delays recognizes this pattern. The first instruction is clear. The third one is fuzzy. The fifth one is gone.
 
-You wouldn't give a student a 500-word instruction and expect them to hold all of it. You break it into pieces. Token limits are the same constraint. The model processes this many tokens with this level of quality. Beyond that, quality degrades. Same reasoning, same accommodation.
+You wouldn't give a student a 500-word instruction and expect them to hold all of it. You break it into pieces. Token limits work the same way. The model processes this many tokens with this level of quality. Beyond that, quality degrades. So you break it into pieces.
 
-Run a lesson too long without a checkpoint and you watch attention degrade in real time. The model does the same thing over long inputs. Both need pacing. Both need checkpoints. Both need the complex task broken into pieces that fit their processing window. Primacy and recency effects work the same way: students and models give more weight to what they hear first and last. The middle gets compressed. Curriculum design accounts for this. Prompt design should too.
+Run a lesson too long without a checkpoint and you watch attention degrade in real time. The model does the same thing over long inputs. Both need pacing, both need checkpoints, both need the complex task broken into pieces that fit their processing window. And primacy and recency effects show up in both: students and models give more weight to what they hear first and last. The middle gets compressed. Curriculum design accounts for this. Prompt design should too.
 
 ## The IEP for a language model
 
@@ -44,6 +42,6 @@ This is a CLAUDE.md file. The persistent system context that tells the model wha
 
 ## Why teachers already know this
 
-Every special education teacher reading this recognizes the framework. Processing profiles, task decomposition, [scaffolding](/vocabulary/scaffold/){:.vocab-ref}, individualized criteria, progress monitoring. This is the daily work. This is what the classroom requires.
+Every special education teacher reading this recognizes the framework. Processing profiles, task decomposition, [scaffolding](/vocabulary/scaffold/){:.vocab-ref}, individualized criteria, progress monitoring. This is the daily work.
 
-The people who know how to ask "[what does this system actually need?](/essays/what-does-the-system-actually-need/)" are the people who've been asking it about human learners for their entire careers. The skill set is already in classrooms. The framework is [accommodation design](/vocabulary/accommodation-design/). The whitepaper documents the full architecture.
+The people who know how to ask "[what does this system actually need?](/essays/what-does-the-system-actually-need/)" are the ones who've been asking it about human learners for years. The skill set is already in classrooms. The framework is [accommodation design](/vocabulary/accommodation-design/), and the whitepaper documents the full architecture.

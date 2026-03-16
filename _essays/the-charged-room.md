@@ -11,36 +11,34 @@ order: 2
 icon: edit_note
 ---
 
-I can't tell you which night it was. They ran together after a while.
+Twilo on West 27th, Saturday nights, late nineties. Sasha and Digweed in the booth. Three thousand people on the floor. I went back dozens of times and I can't separate the nights from each other anymore. What I remember is the sustained thing. Two DJs holding that many people in one direction for six, eight, ten hours.
 
-Twilo on West 27th, Saturday nights, late nineties. Sasha and Digweed in the booth. Three thousand people on the floor. I went back dozens of times, and what I remember isn't any single set or any single track. I remember the sustained thing. Two DJs holding that many bodies in one direction for six, eight, ten hours.
+You could look across the floor and see it on people's faces. Everyone arriving at the same place at the same moment. And then the energy would drop, maybe twenty percent, on purpose, and nobody left. The room settled. Breathing changed. Conversations started at the edges. Then the build came back, and because there had been space, the next peak hit harder. The room had somewhere to go because someone had made room for it to get there.
 
-You could look across the floor and see the same feeling on strangers' faces. Everyone locked in at the same moment. And then it would shift. The energy would drop twenty percent, on purpose, and nobody left. The room settled into something lower. Breathing changed. Conversations started at the edges. Then the build came back, and because there had been space, the next peak hit harder than it would have if the room had stayed at full intensity the whole time.
+I felt that at Twilo, at Tunnel on Danny Tenaglia nights (the curfew party in the back room and the primary room running simultaneously), at Roseland, at underground parties through Family Affair in Ohio, across the whole Brooklyn club circuit through the nineties. Different rooms. Same feeling. And because I kept going back, I started to figure out that someone was making decisions I could feel but couldn't see.
 
-I felt that dozens of times. Twilo, Tunnel on Danny Tenaglia nights (the curfew party in the back room and the primary room running simultaneously), Roseland Ballroom, underground parties through Family Affair in Ohio, the whole Brooklyn club circuit through the nineties. The rooms were different. The feeling was the same. And because I kept going back, something started to clarify. There was architecture underneath. Someone was making decisions I could feel but couldn't see.
-
-When the energy dropped, that was a decision. When the key shifted, that was a decision. When the tension held for two tracks longer than felt comfortable, that was a decision. The structure was there. I could feel it doing its work. And the sign that it was working was that I couldn't see it.
+When the energy dropped, that was a decision. When the key shifted, that was a decision. When the tension held for two tracks longer than felt comfortable, that was a decision. I could feel the structure doing its work. I just couldn't see it yet.
 
 ## The recognition
 
-At some point I started noticing that the feeling was repeatable. Same arc, different nights. If it was repeatable, someone was doing it on purpose. And if someone was doing it on purpose, it was a skill I could learn.
+At some point I started noticing that the arc was repeatable. Same shape, different nights. And if it was repeatable, someone was doing it on purpose. That meant it was a skill.
 
-I never DJed those rooms. I was never going to. I was a bedroom DJ, and the distinction matters. Bedroom DJing isn't failed club DJing. It's a different practice. You develop a deeper relationship with music through interaction. You learn what tracks do by putting them next to each other, hearing how a transition changes meaning, feeling what sequence does to energy. The crate builds through taste. You buy what moves you. Curation happens later, at sequencing time, when you're deciding what this particular hour needs to feel like.
+I never DJed those rooms. I was a bedroom DJ, and that's a different thing. You develop a deeper relationship with music through interaction. You learn what tracks do by putting them next to each other, hearing how a transition changes meaning, feeling what sequence does to energy. You buy what moves you. The crate builds over years. Curation happens later, when you're sitting in front of the decks deciding what this particular hour needs to feel like.
 
-The process has two moves. You decide the intended experience first. Then you reach with both hands. One hand is intuition: tracks pulled from memory because something in your body says they belong here. The other hand is system: key signatures, energy levels, BPM ranges, where the arc needs to go. The two hands work together. Neither one alone builds the thing.
+There are two moves. You figure out the intended experience first. Then you reach with both hands. One hand is intuition: tracks pulled from memory because something in your body says they belong here. The other hand is system: key signatures, energy levels, BPM ranges, where the arc needs to go. Neither one works alone. Intuition without structure drifts. Structure without intuition is dead on arrival. I think most people who do this well don't think about the two hands separately, but they're always both working.
 
 ## The arc
 
-I made an album called Release. Fourteen tracks, all original production, sequenced as a single emotional arc. The album moves from trouble to resolution, and every track earns its position in that sequence.
+I made an album called Release. Fourteen tracks, all original production, sequenced as a single emotional arc from trouble to resolution. Every track earns its position in that sequence.
 
-There were tracks I loved that didn't make it. Strong tracks. Tracks I was proud of. But they didn't serve the arc. Something inside you feels a regret that you can't show something of quality, but if it degrades the larger picture then it's not a choice. You cut it. The tracklist is a sequence designed to do something specific to the person listening.
+There were tracks I loved that didn't make it. Strong tracks. Tracks I was proud of. But they didn't serve the arc, and that's not really a choice. You cut them. The tracklist is a sequence designed to do something specific to the person listening, and a great track in the wrong position does more damage than a decent track in the right one.
 
-That's the discipline. Selection is the easy part. Sequencing is where the meaning lives. The same fourteen tracks in a different order tell a different story. The same twelve tracks with two additions in the right places change the emotional shape of the whole thing. You're not choosing songs. You're composing an experience across time.
+The same fourteen tracks in a different order tell a different story. The same twelve tracks with two additions in the right places change the emotional shape of the whole thing. Selection is the part most people focus on. Sequencing is where the actual work happens.
 
 ## What the body learned
 
-The dance floor taught me something I couldn't have learned from a book. You feel the valley before you understand why it was placed there. You feel the build before you can name the technique. The body gets there first. The mind catches up later.
+I couldn't have learned this from a book. You feel the valley before you understand why it was placed there. You feel the build before you can name the technique. Your body processes the structure first and your mind figures out what happened later, if it bothers to figure it out at all.
 
-A good set feels like something that happened to you. You don't notice the sequencing. You don't think about the transitions. You just feel the arc. The moment someone notices the structure, the structure failed.
+When a set is working, it feels like something that happened to you. You don't notice the sequencing. You don't think about the transitions. You just feel the arc. The structure is doing its job exactly to the degree that you can't see it.
 
-I spent years on those dance floors absorbing that before I had any use for it. I didn't know where it would go. I just knew the feeling was too consistent to be accidental, and it kept showing up in rooms that had nothing to do with music.
+I spent years absorbing that on dance floors before I had any use for it. I didn't know where it would go. I just knew the feeling was too consistent to be an accident, and I kept recognizing it in rooms that had nothing to do with music.

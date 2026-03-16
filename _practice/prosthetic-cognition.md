@@ -45,7 +45,7 @@ The AI field offers practitioners two mental models for their relationship with 
 
 Both framings assume a clean boundary between the human and the system. In the tool model, cognition happens inside the human and the tool processes the output. In the agent model, cognition happens inside both systems independently, with the human supervising.
 
-There is a third relationship that neither framing captures: the model as an extension of the practitioner's own cognitive process. A prosthetic. Something you rig to yourself that extends what you can reach.
+There is a third relationship that neither framing captures: the model as an extension of the practitioner's own cognitive process. Something you rig to yourself that extends what you can reach.
 
 ---
 
@@ -83,7 +83,7 @@ The model provides:
 - **Production capacity.** Generate, revise, and iterate at a speed that matches the pace of thinking.
 - **Consistency.** Apply constraints (voice rules, structural requirements, evaluation criteria) without fatigue.
 
-Neither component produces quality output alone. The model without the practitioner generates competent mediocrity. The practitioner without the model cannot process the volume, maintain the consistency, or hold the full context simultaneously. The coupled system does what neither can do independently.
+Neither component produces quality output alone. The model without the practitioner generates competent mediocrity. The practitioner without the model can't process the volume, maintain the consistency, or hold the full context simultaneously.
 
 ---
 
@@ -117,7 +117,7 @@ In July 2025, I asked the question the CHI 2025 Tools for Thought Workshop was o
 
 Before the digital version existed, I designed a handwritten savepoint for physical journals: XML-style tags written by hand, visually distinct from the surrounding handwriting. You can flip through pages and spot them because the tag structure has a uniform shape that regular notes don't. It's a visual retrieval system for a physical medium. The same interface design problem, solved with a pen.
 
-The pattern is: broken notebooks (thinking preserved, retrieval impossible) → handwritten savepoint tags (visual scanning, the analog analog to grep) → digital Savepoint Syntax (machine-readable, searchable) → AI coupling (the full prosthetic, where the system can read the tags and reconstruct context). Four generations of the same design problem. Each one is a cognitive prosthetic. Each one improved at the interface. The AI is the most capable, but the relationship is lifelong.
+The pattern is: broken notebooks (thinking preserved, retrieval impossible) to handwritten savepoint tags (visual scanning, the analog analog to grep) to digital Savepoint Syntax (machine-readable, searchable) to AI coupling (the full prosthetic, where the system can read the tags and reconstruct context). Four generations of the same design problem. Each one improved at the interface. The AI is the most capable version, but the relationship is lifelong.
 
 ### 5.2 The Coupling at Scale
 
@@ -125,7 +125,7 @@ Since 2023 I have maintained continuous cognitive coupling with AI systems: thre
 
 The key output is the accumulated cognitive state: a rich, evolving representation of how one practitioner thinks, stored in a format the extended system can access and process. Voice patterns extracted from conversation history let the system write in a register that matches how I actually communicate. Third-party blind assessment could not identify the output as AI-assisted. Knowledge traversal across the full corpus traces how ideas evolved across months, catching connections no keyword search could find.
 
-A tool couldn't do this. A tool processes what you give it in the moment. The prosthetic relationship accumulates cognitive state over time. The coupling improves because the pour keeps growing: more unstructured thinking, more raw material for the tools to work with. The corpus exists because the system was designed to accept thinking as it actually happens, not as a polished deliverable.
+A tool can't do this. A tool processes what you give it in the moment. The prosthetic relationship accumulates cognitive state over time. The coupling improves because the pour keeps growing: more unstructured thinking, more raw material for the tools to work with. The corpus exists because the system was designed to accept thinking as it actually happens, not as a polished deliverable.
 
 ### 5.3 The Interface Layer
 
@@ -159,7 +159,7 @@ The one category where delegation works is mechanical infrastructure: repo clean
 
 The prosthetic framing addresses this directly by keeping the practitioner in the cognitive loop. The model extends reach, not replaces judgment. Evaluation stays with the practitioner. Direction stays with the practitioner. The model never sets its own goals or assesses its own quality. It processes, extends, and produces. The practitioner thinks, directs, and judges.
 
-This is the difference between a prosthetic and an autonomous system. A prosthetic extends what you can do. An autonomous system does it for you. The long-term cognitive consequences are opposite: the prosthetic strengthens the capacities it extends (by exercising them at greater scale and speed), while delegation atrophies them (by removing the exercise).
+A prosthetic extends what you can do. An autonomous system does it for you. The long-term cognitive consequences go in opposite directions: the prosthetic strengthens the capacities it extends (by exercising them at greater scale and speed), while delegation atrophies them (by removing the exercise).
 
 The bionic hand research illustrates this precisely. The AI handled grip adjustment. The human handled intent and motor planning. The result was greater precision with less mental effort. The AI didn't replace the human's motor planning. It extended it into a finer-grained execution space than the human could reach alone. The human's planning capacity stayed active. The AI amplified its reach.
 
@@ -173,7 +173,7 @@ AI as cognitive prosthetic works the same way. You still think. You still judge.
 
 The harness metaphor is precise in one more way: fit matters. A climbing harness that doesn't fit your body is dangerous. A cognitive extension that doesn't fit your thinking is counterproductive. The interface layer (the tools that handle coupling) must be designed for the specific practitioner's cognitive patterns, not for a generic user. Voice sampling, knowledge traversal, evaluation criteria: all of these are individualized to the practitioner. The prosthetic is custom-fitted.
 
-This is why mass-market AI products feel like tools rather than extensions. They're one-size-fits-all harnesses. They work for generic tasks. They fail at the tight coupling that produces the real work. The practitioner who builds their own interface layer gets a custom fit. The coupling tightens. The harness disappears into use.
+This is why mass-market AI products feel like tools rather than extensions. They're one-size-fits-all harnesses. They work for generic tasks. They fail at the tight coupling that produces the real work. The practitioner who builds their own interface layer gets a custom fit, and over time the coupling tightens enough that the harness disappears into use.
 
 ---
 
@@ -217,7 +217,7 @@ The model extends the practitioner's cognitive reach. The practitioner provides 
 
 This is not a metaphor. Andy Clark's extended mind thesis describes it philosophically. The CHI 2025 research program studies it empirically. The bionic hand research demonstrates the mechanism physically. This paper documents it through three years of applied cognitive coupling that produced a deployed site, a published methodology, and an open-source toolkit.
 
-The interface layer is the practice. Purpose-built tools, fitted to how one practitioner actually thinks, extending cognitive reach into space the mind alone cannot sustain. Three years of that produced the artifact you are reading.
+The interface layer is the practice. Purpose-built tools, fitted to how one practitioner actually thinks, extending cognitive reach into space the mind alone can't sustain. Three years of building that produced the artifact you are reading.
 
 ---
 

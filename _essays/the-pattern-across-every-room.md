@@ -17,7 +17,7 @@ At work it was a migration plan for a legacy codebase. I'd spent thirty minutes 
 
 At the stove I was reading the onions. Reaching into what I knew about heat and sugar and timing. Picking a lower temperature because the pan was thin and the pieces were uneven. Sequencing the steps so the garlic went in late enough to not burn.
 
-Same four moves. Different room.
+I keep finding the same four moves in every room I walk into.
 
 ## The Selector
 
@@ -27,13 +27,13 @@ Once I started paying attention, I couldn't stop seeing it. Every room I'd ever 
 
 Four moves. I started calling it The Selector.
 
-**Read.** What does this room actually need right now? Not what it says it needs. Not what I planned to give it. What's actually happening in front of me. The energy in the room, the state of the system, the constraints nobody mentioned yet.
+**Read.** What does this room actually need right now? What's actually happening in front of me. The energy in the room, the state of the system, the constraints nobody mentioned yet.
 
-**Reach.** Into the accumulated repertoire. Everything I've studied, built, broken, repaired. Design history, musical knowledge, pedagogical tools, cooking technique, architectural patterns. The crate. You spend decades filling it, and then you spend the rest of your life reaching into it.
+**Reach.** Into whatever you've accumulated. Everything I've studied, built, broken, repaired. Design history, musical knowledge, pedagogical tools, cooking technique, architectural patterns. I think of it as the crate. You spend decades filling it, and then you spend the rest of your life reaching into it.
 
-**Select.** Not the best option. The right option for this room at this moment. A track that's technically perfect but wrong for this crowd at 1 AM is the wrong track. A teaching method that works beautifully in theory but overwhelms this particular student is the wrong method. Selection is judgment, and judgment is where the years show.
+**Select.** The right option for this room at this moment, which is almost never the theoretically best option. A track that's technically perfect but wrong for this crowd at 1 AM is the wrong track. A teaching method that works beautifully in theory but overwhelms this particular student is the wrong method. Selection is judgment. And judgment is mostly just years.
 
-**Sequence.** Because order matters. Pacing matters. The arc matters. You can have every right element and still lose the room if you put them in the wrong order. The first thing you play sets the expectation. The first thing you teach sets the frame. The first migration step determines whether the team trusts you for step two.
+**Sequence.** Order matters more than people think. You can have every right element and still lose the room if you put them in the wrong order. The first thing you play sets the expectation. The first thing you teach sets the frame. The first migration step determines whether the team trusts you for step two.
 
 ## The Same Operation in Every Room
 
@@ -49,7 +49,7 @@ Even writing this post. I'm reading you, the reader, trying to gauge what you've
 
 Here's the honest part. I was doing this for twenty years before I could name it. The Selector wasn't a framework I developed and then applied. It was a pattern I recognized after the fact, by looking at the shape of my own decisions across wildly different contexts.
 
-DJing taught it to me physically. The read-reach-select-sequence cycle happened in real time, hundreds of times a night, with immediate feedback. The floor tells you instantly whether you selected right. That somatic training carried into every room after. I learned to read energy before I learned to read code.
+DJing taught it to me physically. The read-reach-select-sequence cycle happened in real time, hundreds of times a night, with immediate feedback. The floor tells you instantly whether you selected right. That somatic training carried into every room after, and I think it's the reason I default to reading energy before reading anything else.
 
 Teaching reinforced it. A classroom gives you the same real-time feedback loop, just slower. You read a face and know in three seconds whether your selection landed. You adjust. You reach again. The cycle runs continuously.
 
@@ -59,6 +59,6 @@ By the time I was working in enterprise software, the pattern was so deep I didn
 
 Once you see the pattern, the question shifts. It's no longer "what do I do in this new room?" It's "how does each of these four moves actually work, and how do I get better at each one?"
 
-Reading a room is its own skill. It can be sharpened. The reach depends on what you've put in the crate, and how you've organized it. Selection is the hardest move to teach because it's where experience becomes judgment. And sequencing is where most people lose the room, because they have the right pieces in the wrong order.
+Reading a room is its own skill. It can be sharpened. The reach depends on what you've put in the crate, and how you've organized it. Selection is the hardest move to teach because it lives in judgment, not technique. And sequencing is where most people lose the room, because they have the right pieces in the wrong order and don't realize the order was the problem.
 
-That's where this series goes next. The pattern is visible now. The next movement takes each step apart.
+That's where this series goes next.

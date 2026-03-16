@@ -9,7 +9,7 @@ status: "Active"
 context: "The content lives in one environment and the design tool lives on another machine. Every time I need to produce something physical, I leave the place where the content was built and manually lay out what I already have structured as data."
 faculty: ["design", "engineering"]
 seo_keywords: ["Print Production Pipeline", "CSS Paged Media", "Headless Design", "Local-First Design Tools", "Print-Ready PDF", "Design Engineering"]
-description: "Headless, code-driven design pipeline. Source images and metadata in, print-ready PDFs out. No Adobe, local-first, offline-capable. Powers Photogeography posters, Versagrams prints, and Deep Cuts book spreads."
+description: "Headless, code-driven design pipeline. Source images and metadata in, print-ready PDFs out. No Adobe, local-first, offline-capable. Powers Photogeography posters, Versograms prints, and Deep Cuts book spreads."
 last_modified: 2026-03-01
 related:
   - /practice/pressworks
@@ -36,9 +36,9 @@ The core design constraint: every CSS value resolves to a fixed measurement. Inc
 
 ---
 
-Three template types run through the engine now. Photogeography produces 11x17 tabloid posters with EXIF-driven metadata: GPS coordinates, camera, date, aspect ratio classification. Versagrams produces 8.5x11 posters with per-song display fonts, AI-generated imagery, and lyrics split into balanced columns. The Deep Cuts (a book in progress on DJ methodology) produces 6x9 book spreads with facing pages and margin notes.
+Three template types run through the engine now. Photogeography produces 11x17 tabloid posters with EXIF-driven metadata: GPS coordinates, camera, date, aspect ratio classification. Versograms produces 8.5x11 posters with per-song display fonts, AI-generated imagery, and lyrics split into balanced columns. The Deep Cuts (a book in progress on DJ methodology) produces 6x9 book spreads with facing pages and margin notes.
 
-![Versagrams poster rendered by the Sovereign Design Engine: per-song display font, AI-generated imagery, 4-column lyrics, metadata sidebar]({{ '/assets/img/SDE_versagram_poster.png' | relative_url }}){:.image.artifact}
+![Versograms poster rendered by the Sovereign Design Engine: per-song display font, AI-generated imagery, 4-column lyrics, metadata sidebar]({{ '/assets/img/SDE_versogram_poster.png' | relative_url }}){:.image.artifact}
 
 Each template reads a JSON manifest. Each manifest can override CSS custom properties for per-piece adjustments. Every design is a text file in Git. Every build is deterministic: same manifest, same template, same output. The pipeline runs entirely offline, on my own hardware, with no subscription and no cloud dependency.
 
