@@ -27,9 +27,9 @@ Here's what I had to reckon with: it wasn't the developers' fault.
 
 Every time an engineer had to decide how to style a button, how to space a component, how to handle an edge case in the UI, the system was asking them for a judgment call the system should have made for them. Not because they lacked judgment. Because the system had no opinion. It offered no constraints, no defaults, no governed tokens. It just said "build the thing" and left every micro-decision to whoever happened to pick up the ticket.
 
-A hundred engineers making a hundred reasonable decisions will produce a hundred slightly different products. That's not a failure of the people. The system had no opinion, so everyone brought their own.
+A hundred engineers making a hundred reasonable decisions will produce a hundred slightly different products. That's not a people problem. That's a governance problem.
 
-The system failed to hold the standard. Not because someone forgot to write documentation. Because the standard was never encoded in a form that could hold itself without human intervention at every step. The humans were doing their best inside a system that asked too much of them. Every one of those four-pixel discrepancies was someone trying to get the work right with no structural opinion to lean on.
+The standard was never encoded in a form that could survive without human intervention at every step. The humans were doing their best inside a system that asked too much of them. Every one of those four-pixel discrepancies was someone trying to get the work right with no structural opinion to lean on.
 
 This is what pushed me toward governance as a design material. Not policy or process or bureaucracy. The layer that absorbs the decisions the system shouldn't be asking people to make. You encode the baseline once. You make deviation require intent instead of making consistency require vigilance. The default path produces the right output. The wrong output takes effort.
 

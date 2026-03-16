@@ -54,4 +54,4 @@ I didn't have language for any of this until recently. I just kept ending up in 
 
 ---
 
-Everything else I've written here is about the machinery: protocols, evaluation lenses, the compilation pipeline. All real, all important. But the machinery exists to serve this. The read comes first. The structure follows. And the read is still the part I'm most interested in building well, because it's the part that changes every time the room does.
+Everything else I've written here is about the machinery: protocols, evaluation lenses, the compilation pipeline. All real, all important. But the machinery exists to serve this. The read has to land before any structure is worth building, and it's still the part I'm most interested in getting better at because I haven't found the ceiling yet.

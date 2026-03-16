@@ -57,7 +57,7 @@ I recognized the same requirement in every system I've worked inside since. An e
 
 The test is removal. Pull the element out, mentally or literally, and watch what happens. If the system holds, the element was decoration. If the system collapses, or reveals that it was propped up against something that is now gone, the element was load-bearing.
 
-This is not the same as asking whether an element is good, important, or worth keeping. Decorative elements can be good. Load-bearing elements can be ugly. The distinction is structural, not evaluative.
+The distinction is structural, not evaluative. Decorative elements can be good. Load-bearing elements can be ugly. The question is what the element carries, not what it's worth.
 
 ---
 

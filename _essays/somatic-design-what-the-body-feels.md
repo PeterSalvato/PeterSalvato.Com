@@ -33,4 +33,4 @@ I write fiction to a beat spec. Three-act structure, scene-level pacing targets,
 
 In the classroom, the same thing ran the [scaffolding](/vocabulary/scaffold/). Each problem is slightly harder than the last, but the gap is calibrated so that the student just feels capable. They don't feel scaffolded. They feel like they figured it out. That's the whole point.
 
-I think most of my work lives in that gap between what the body registers and what the conscious mind can name. I'm still figuring out how to talk about it without making it sound more mysterious than it is. It's not mystical. It's craft. You learn where the accidents go, and you place them on purpose.
+I think most of my work lives in that gap between what the body registers and what the conscious mind can name. I'm still figuring out how to talk about it without making it sound more mysterious than it is. It's not mystical. It's craft. After enough reps you start to feel where an accident would help, and then it stops being an accident, which is a weird thing to get good at.

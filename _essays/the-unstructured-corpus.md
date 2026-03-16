@@ -43,6 +43,6 @@ What the corpus can't be is retroactively assembled from polished writing. Publi
 
 Structured input puts the burden on the human. You pre-organize your thoughts to compensate for the model's limitations. The alternative is building tools that handle the translation.
 
-I stopped organizing my input and started organizing my tools. The tools accommodate the model's processing reality. My thinking stays raw. And the output quality went up because the tools had richer material to work with. The mess is what made it work.
+I stopped organizing my input and started organizing my tools. The tools accommodate the model's processing reality. My thinking stays raw. And the output quality went up because the tools had richer material to work with. The rawness of the input gave the tools more to work with than a clean outline ever would have, which is not an argument for being disorganized so much as an argument for knowing where to put the organization.
 
 The full framework is documented in the [accommodation design whitepaper](/practice/accommodation-design/). [Input inversion](/vocabulary/input-inversion/) is Section 4.6.

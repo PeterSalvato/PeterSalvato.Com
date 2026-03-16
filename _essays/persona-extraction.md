@@ -80,7 +80,7 @@ I needed a restraint diagnostic. Is the design system producing clarity through 
 
 **V5. Does structural limitation produce coherence?** Across the whole project, do the constraints read as intentional? The test: disciplined, or ran out of ideas?
 
-The reader has already seen how criteria work from the Millman block, so I'll let one verdict carry the Vignelli demonstration. "V2 HOLDS: the grid creates consistent rhythm across pages, but the sidebar column isn't doing compositional work on short-content pages. It holds space without organizing anything." That finding tells me exactly where the joint is loose. "Nice grid" doesn't.
+The reader has already seen how criteria work from the Millman block, so I'll let one verdict carry the Vignelli demonstration. "V2 HOLDS: the grid creates consistent rhythm across pages, but the sidebar column isn't doing compositional work on short-content pages. It holds space without organizing anything." That finding tells me exactly where the joint is loose, and what to do about it.
 
 ## Where it gets interesting: convergence
 

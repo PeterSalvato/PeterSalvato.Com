@@ -135,7 +135,7 @@ The deeper move was adopting print production constraints on a web build. A prin
 
 The same principle applies here. Four fixed breakpoints define four static print formats: phone, tablet, laptop, ultrawide. Each is a designed layout, not a fluid adaptation, the way a textbook has a different page format in paperback and hardcover but neither one reflows sentence by sentence. One spot color (oxide red, #A64B2A) used the way a second ink works on press: for structural emphasis, not decoration. Cards stripped and replaced with ruled entries (top border, no box) because a box around every item says catalog and a ruled list says index. Metadata labels set in small caps the way a typesetter would mark running heads.
 
-These are process constraints borrowed from print production, applied to a screen medium. The result feels different because the decisions were made differently. A designer with unlimited web colors picks the one that looks best. A designer with one spot color decides what deserves ink.
+These are process constraints borrowed from print production, applied to a screen medium. The result feels different because the decisions were made differently. When you only have one spot color, the question stops being "what looks best" and becomes "what deserves ink," which turns out to produce better decisions even when the full spectrum is available.
 
 The visual register is accommodation design applied to the visitor. The same question the practice asks of every system: what does the person on the other side of this page require from the container?
 

@@ -46,7 +46,7 @@ The site presents results that look hand-crafted. The machinery that produced th
 
 ---
 
-The [FormWork](/systems/formwork/){:.vocab-ref} page describes the coordination harness and its tools. Those same tools compiled that page. The voice protocol was verified against samples extracted from my own conversations. [Savepoint Syntax](/systems/savepoint/) exists because savepoints marked the cognitive turns during its own construction. And [This Site](/practice/this-site/) describes the build process that produced it. So the argument for the system isn't in a white paper somewhere. You're already reading it.
+The [FormWork](/systems/formwork/){:.vocab-ref} page describes the coordination harness and its tools. Those same tools compiled that page. The voice protocol was verified against samples extracted from my own conversations. [Savepoint Syntax](/systems/savepoint/) exists because savepoints marked the cognitive turns during its own construction. And [This Site](/practice/this-site/) describes the build process that produced it. The argument for the system is the output you've been reading, which was compiled by the process it describes.
 
 ---
 

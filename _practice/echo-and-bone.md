@@ -48,4 +48,4 @@ Three prints. The taxonomy is what they're the beginning of.
 
 ![Summum Bonum]({{ '/assets/img/EchoAndBone_SummumBonum.jpg' | relative_url }}){:.image.artifact}
 
-The framework is already informing other work: the Order of the Aetherwright's glyph system, the character design in New City. Pattern is framework. Story is specific assembly.
+The framework is already informing other work: the Order of the Aetherwright's glyph system, the character design in New City. The pattern gives you the structural logic, and the specific assembly is where it becomes something you can actually use.

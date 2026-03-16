@@ -44,10 +44,10 @@ At Encore, I watched it happen in real time. A feature would start with a clear 
 
 The structure holds the intent steady while you carry it through the build. My father was doing that on the job site. I was doing it at the light table. The breakfast defaults do it too, honestly. Protect the thing (a building, a composition, a functional morning) from the accumulation of unstructured decisions.
 
-And it goes both directions. Bringing craft-level attention to modern tooling, and bringing modern technological approaches down to handcraft. The construction superintendent and the screen printer and the software architect are all running the same process: decompose the whole into workable pieces, build each piece with [fidelity](/vocabulary/fidelity/) to the original intent, and make sure the pieces register when they come back together.
+And it goes both directions. Craft-level attention applied to modern tooling. Modern technological approaches applied to handcraft. The construction superintendent and the screen printer and the software architect are all running the same process: decompose the whole into workable pieces, build each piece with [fidelity](/vocabulary/fidelity/) to the original intent, and make sure the pieces register when they come back together.
 
 ## What I know now
 
-My father held the whole picture in his head, and that was the problem. When he left a job site, the picture left with him. Everything I've built since has been an attempt to solve that: externalize the picture so it survives without the person who made it.
+My father held the whole picture in his head, and that was the problem. When he left a job site, the picture left with him. Everything I've built since has been an attempt to solve that: externalize the picture so it doesn't leave the room when the person who made it does.
 
-So that's why. My brain turns everything into a system because the alternative is a building that only stands while the superintendent is watching. The breakfast defaults, the voice protocol, the twelve years of platform governance. None of them are the work. They're what makes the work portable, so it holds up even after I walk away from it.
+So that's why. My brain turns everything into a system because the alternative is a building that only stands while the superintendent is watching. The breakfast defaults, the voice protocol, the twelve years of platform governance. None of them are the work. They're the part that lets someone else pick up where I left off, which is the only test I trust for whether the structure actually worked.

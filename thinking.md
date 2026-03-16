@@ -66,4 +66,4 @@ In AI work, that second accommodation is the pour: the deliberate act of getting
 
 In every case, the people closest to the work couldn't see the gap because they were focused on what they needed the system to do. The shift was learning to read the other system in the room, the one receiving the work, and designing for what it could actually handle.
 
-That shift started in a self-contained classroom in Sunset Park, Brooklyn, and it applies to every material I've worked in since. I wrote up the thinking as [accommodation design](/practice/accommodation-design/). [FormWork](/systems/formwork/) is how I actually run it. And this site is what happens when I point both of them at my own work.
+That shift started in a self-contained classroom in Sunset Park, Brooklyn, and it applies to every material I've worked in since. I wrote up the thinking as [accommodation design](/practice/accommodation-design/). [FormWork](/systems/formwork/) is how I actually run it. And this site is what happens when I point both of them at my own work, which turned out to be the hardest application because I kept confusing what I wanted to say with what the page needed to hold.

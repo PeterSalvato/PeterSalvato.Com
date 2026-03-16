@@ -39,4 +39,4 @@ The question that drives good IEP design ("what does this student actually need 
 
 I taught a self-contained 4/5 bridge class in Sunset Park, Brooklyn. Twelve students, every subject, every accommodation. The framework I built for AI governance came directly from that room. I call it [accommodation design](/vocabulary/accommodation-design/), and the reason it transfers is that the underlying problem is the same: a system with specific processing constraints receiving tasks designed for a different processing profile.
 
-You've been doing this work for years. The system changed. The skill set didn't.
+You've been doing this work for years. The system you're designing for is a language model now instead of a student, but the diagnostic muscle is the same one you've been building since your first IEP meeting.

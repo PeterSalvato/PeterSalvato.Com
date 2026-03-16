@@ -57,7 +57,7 @@ Multiply that by twelve years of active development. Hundreds of engineers touch
 
 Every time an engineer had to decide how to style a button, how to space a component, how to handle an edge case, the system was asking them for a judgment call the system should have made for them. The system had no opinion. It offered no constraints, no defaults, no governed tokens. It just said "build the thing" and left every micro-decision to whoever picked up the ticket.
 
-A hundred engineers making a hundred reasonable decisions will produce a hundred slightly different products. That's not a people problem. That's a governance problem.
+A hundred engineers making a hundred reasonable decisions will produce a hundred slightly different products. The failure is structural, not personal. The system had no opinion, so everyone brought their own.
 
 ---
 

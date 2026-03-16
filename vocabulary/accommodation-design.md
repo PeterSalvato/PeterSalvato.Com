@@ -46,7 +46,7 @@ The model has processing constraints. Context window limits, attention degradati
 
 Both systems get accommodated. The [pour](#the-pour) accommodates the human: get the thinking out with as little friction as possible. The tools accommodate the model: structured input, decomposed tasks, independent evaluation. [FormWork](/systems/formwork/) coordinates both directions.
 
-The distinction from prompt engineering matters. Prompt engineering treats the model as a system that needs better instructions. Accommodation design treats the model as a system with a [processing profile](/vocabulary/processing-profile/) that the task needs to fit. Prompt engineering puts the burden on the instructions. Accommodation design puts it on the task architecture.
+The distinction from prompt engineering matters. Prompt engineering treats the model as a system that needs better instructions. Accommodation design treats the model as a system with a [processing profile](/vocabulary/processing-profile/) that the task needs to fit. The burden shifts from the instructions to the task architecture.
 
 ---
 

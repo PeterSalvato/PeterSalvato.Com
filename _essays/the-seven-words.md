@@ -72,4 +72,4 @@ A teacher does the same thing. You scan the room. One student is checked out. An
 
 ---
 
-Seven words. Print shops, construction sites, classrooms, nightclubs, enterprise software, design critiques. The materials changed every time. The operations didn't.
+Seven words. Print shops, construction sites, classrooms, nightclubs, enterprise software, design critiques. I kept thinking I was starting over, but the verbs were always the same even when nothing else was.
