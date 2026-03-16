@@ -16,7 +16,10 @@
   }
 
   .hero-text {
-    padding-bottom: $space-sm;
+    left: -9rem;
+    position: relative;
+    top: 1rem;
+    transform: rotate(-0.5deg);
   }
 
   h1 {
