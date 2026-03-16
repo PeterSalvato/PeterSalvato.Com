@@ -4,7 +4,7 @@ title: "Attunement Is One Skill with Many Names"
 date: 2026-03-15
 published: true
 description: "DJ reads the room. Teacher reads the student. Designer reads the user."
-seo_keywords: ['attunement', 'reading the room', 'cross-domain', 'Peter Salvato', 'design engineering']
+seo_keywords: ['attunement', 'reading the room', 'cross-domain', 'Peter Salvato', 'design engineering', 'empathy as transferable skill', 'how teachers DJs and designers read people', 'user empathy in design practice', 'designing for how people actually feel', 'cross-domain empathy skills', 'reading people across professions']
 series: "engineering-intent"
 chapter: 13
 order: 9

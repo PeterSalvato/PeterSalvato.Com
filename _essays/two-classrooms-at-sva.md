@@ -4,7 +4,7 @@ title: "Two Classrooms at SVA"
 date: 2026-03-09
 published: true
 description: "Niemann and Blechman taught precision. Victore taught permission. Two classrooms, two principles. Everything after that is application."
-seo_keywords: ['design-history', 'attunement', 'fidelity', 'Peter Salvato', 'design engineering']
+seo_keywords: ['design-history', 'attunement', 'fidelity', 'Peter Salvato', 'design engineering', 'SVA graphic design', 'Christoph Niemann', 'R.O. Blechman', 'James Victore', 'precision vs permission in design', 'finding your creative voice', 'rigor and freedom creative work', 'design school lessons that stuck']
 series: "engineering-intent"
 chapter: 7
 order: 4

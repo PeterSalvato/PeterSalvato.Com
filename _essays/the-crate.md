@@ -4,7 +4,7 @@ title: "The Crate"
 date: 2026-03-09
 published: true
 description: "A DJ organizes records by what they do, not what they are. Same crate every night. The room changes what your hands find."
-seo_keywords: ['music', 'the selector', 'sequencing', 'Peter Salvato', 'design engineering']
+seo_keywords: ['music', 'the selector', 'sequencing', 'Peter Salvato', 'design engineering', 'organizing creative work by intent', 'creative selection process', 'intuition vs system in creative work', 'how to curate a body of work', 'DJ set design thinking', 'taste and structure']
 series: "engineering-intent"
 chapter: 12
 order: 8

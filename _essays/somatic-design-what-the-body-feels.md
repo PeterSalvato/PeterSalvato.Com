@@ -4,7 +4,7 @@ title: "Somatic Design: What the Body Feels"
 date: 2026-03-09
 published: true
 description: "Rotate a text block half a degree. Nobody mentions the rotation. They say it feels handmade. Their body already knows."
-seo_keywords: ['somatic design', 'Peter Salvato', 'design engineering']
+seo_keywords: ['somatic design', 'Peter Salvato', 'design engineering', 'why good design feels right', 'designing for physical response', 'my design looks right but feels wrong', 'intuition in design', 'felt quality in design', 'why technically perfect work feels dead', 'haptic design experience']
 series: "engineering-intent"
 chapter: 14
 order: 10

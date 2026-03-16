@@ -4,7 +4,7 @@ title: "Teaching Design from Zero"
 date: 2026-03-15
 published: true
 description: "Willing adults who mostly wanted to be there."
-seo_keywords: ['teaching', 'scaffolding', 'design education', 'Peter Salvato', 'design engineering']
+seo_keywords: ['teaching', 'scaffolding', 'design education', 'Peter Salvato', 'design engineering', 'teaching design to non-designers', 'perception before rules', 'how to teach visual thinking', 'learning to see design', 'scaffolding creative education', 'design education without jargon']
 series: "engineering-intent"
 chapter: 22
 order: 12

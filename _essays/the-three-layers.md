@@ -4,7 +4,7 @@ title: "The Three Layers"
 date: 2026-03-09
 published: true
 description: "Sunday dinner: one batch of braised short ribs, three different plates. The same structure runs a classroom, a codebase, a product."
-seo_keywords: ['three layer model', 'Peter Salvato', 'design engineering']
+seo_keywords: ['three layer model', 'Peter Salvato', 'design engineering', 'why one size fits all solutions fail', 'personalization vs customization design', 'designing for individual needs at scale', 'accommodation at the individual level', 'systems that actually work for everyone', 'accommodation design']
 series: "engineering-intent"
 chapter: 11
 order: 7

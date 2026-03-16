@@ -4,7 +4,7 @@ title: "A Kid in the Computer Lab"
 date: 2026-03-09
 published: true
 description: "Twelve IEPs, twelve sets of accommodations. One kid is stuck and staring at a screen. What you do next depends on what you noticed first."
-seo_keywords: ['education', 'attunement', 'Peter Salvato', 'design engineering']
+seo_keywords: ['education', 'attunement', 'accommodation design', 'Peter Salvato', 'design engineering', 'IEP accommodation strategies', 'seeing the student not the behavior', 'special education observation', 'what makes a good teacher', 'reading students not managing them']
 series: "engineering-intent"
 chapter: 6
 order: 3

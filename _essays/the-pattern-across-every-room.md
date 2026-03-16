@@ -4,7 +4,7 @@ title: "The Pattern Across Every Room"
 date: 2026-03-08
 published: true
 description: "Twenty-five years of the same four moves in every room. Stove, codebase, classroom, dance floor."
-seo_keywords: ["design patterns", "methodology transfer", "cross-domain", "systems thinking", "design engineering", "Peter Salvato"]
+seo_keywords: ["design patterns", "methodology transfer", "cross-domain", "systems thinking", "design engineering", "Peter Salvato", "skills that transfer across fields", "cross-disciplinary design thinking", "why the same approach works everywhere", "transferable creative skills", "one method many materials", "generalist vs specialist design"]
 series: "engineering-intent"
 chapter: 23
 order: 13

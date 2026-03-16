@@ -4,7 +4,7 @@ title: "Victore: Be Fiercely Yourself"
 date: 2026-03-09
 published: true
 description: "I stayed the weekend at Victore's studio in Beacon. We built a screen print press in his basement. Then I ruined a batch of prints with too much reducer."
-seo_keywords: ['design-history', 'attunement', 'fidelity', 'Peter Salvato', 'design engineering']
+seo_keywords: ['design-history', 'attunement', 'fidelity', 'Peter Salvato', 'design engineering', 'James Victore mentorship', 'finding creative authenticity', 'when to be bold in design', 'creative voice requires precision', 'screenprinting craft', 'fierceness and care in creative work']
 series: "engineering-intent"
 chapter: 26
 order: 15

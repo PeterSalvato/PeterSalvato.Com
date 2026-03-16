@@ -4,7 +4,7 @@ title: "Drift: How Good Work Dies Slowly"
 date: 2026-03-09
 published: true
 description: "A four-pixel padding difference between two screens. Nobody files a ticket for four pixels. That's how good work dies."
-seo_keywords: ['enterprise', 'drift', 'Peter Salvato', 'design engineering']
+seo_keywords: ['enterprise', 'drift', 'Peter Salvato', 'design engineering', 'why does software quality decline over time', 'design system degradation', 'preventing UX drift', 'how good products get worse', 'technical debt design systems', 'quality erosion enterprise software', 'design consistency across teams']
 series: "engineering-intent"
 chapter: 64
 order: 16
