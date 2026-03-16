@@ -60,11 +60,11 @@ The structure I spent twelve years maintaining was specifically this: a way to k
 
 ## Both ends
 
-I focus more on making things efficient for the dev team than on making the software more efficient. That distinction matters.
+The platform accommodates two audiences at once.
 
-The platform accommodates the end user: information architecture that handles the complexity of enterprise recruiting without drowning the person using it. Candidate pipelines, relationship mapping, business development tracking, scorecard systems. The density is real. Making that density navigable is design work.
+The end user gets information architecture that handles the complexity of enterprise recruiting without drowning the person using it. Candidate pipelines, relationship mapping, business development tracking, scorecard systems. The density is real. Making that density navigable is design work.
 
-But the internal systems accommodate the dev team. The variables file became the artifact: a design system encoded in code. Naming conventions, color systems, spacing values, component patterns. The team adopted them because they made the work faster, not because anyone mandated them. Internal APIs, patterns that peers actually use because they remove friction.
+The dev team gets internal systems that make the right thing easier to do than the wrong thing. The variables file became the artifact: a design system encoded in code. Naming conventions, color systems, spacing values, component patterns. The team adopted them because they made the work faster, not because anyone mandated them. Internal APIs, patterns that peers actually use because they remove friction.
 
 The same operation at both ends. Read what the system receiving the work actually needs, and build structure that meets it. The end user is one system. The development team is the other. Twelve years of that is where the [accommodation design](/practice/accommodation-design/) framework comes from.
 
