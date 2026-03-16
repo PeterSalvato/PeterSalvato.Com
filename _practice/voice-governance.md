@@ -38,7 +38,7 @@ AI-generated text exhibits a consistent voice problem: competent prose that soun
 
 LLMs generate text from training data dominated by published writing: polished, performative, audience-aware. The statistical center of that data produces a specific voice: hedged, parallel, abstract-leading, em-dash-heavy, fortune-cookie-closing prose. Ask the model to write in a specific person's voice and it produces competent content marketing that sounds like everyone and no one.
 
-This is not a capability limitation. The model can generate text in virtually any style. The problem is that its default patterns are deeply embedded, and those defaults reassert themselves within paragraphs even when the model has been instructed to write differently. A paragraph that begins in a practitioner's voice drifts back to the statistical center by its third sentence. The defaults have gravity.
+This is not a capability limitation. The model can generate text in virtually any style. The problem is that its default patterns are deeply embedded, and those defaults reassert themselves within paragraphs even when the model has been instructed to write differently. A paragraph that begins in a practitioner's voice drifts back to the statistical center by its third sentence. The pull is constant, and it is stronger than any style prompt I could write.
 
 I found this out the hard way. The first complete draft of petersalvato.com was produced through conventional AI-assisted writing: provide context, describe the desired voice, generate text, review and edit. Twenty-one project pages. Every one of them opened with an abstract concept before any real situation was established. "This project explores the intersection of..." on a page that should have said what broke and what I built to fix it.
 
@@ -64,7 +64,7 @@ The academic approach trains or fine-tunes models on a corpus of the target writ
 
 ### 2.2 Persona Prompting
 
-"You are a senior design engineer with 25 years of experience." The model generates a caricature. It performs confidence, uses jargon, and structures its responses the way it predicts a senior design engineer would structure them. Change the persona label and the output changes less than you would expect. The persona is a costume. The voice underneath doesn't change much.
+"You are a senior design engineer with 25 years of experience." The model generates a caricature. It performs confidence, uses jargon, and structures its responses the way it predicts a senior design engineer would structure them. Change the persona label and the output changes less than you would expect. The persona changes the surface. The underlying voice, the sentence structure, the rhythm, the way the model builds a paragraph, stays the same regardless of the label.
 
 ### 2.3 Controllable Generation
 
@@ -122,7 +122,7 @@ I wrote a voice governance protocol in response to the copy failure. Codified ru
 
 When the model receives these constraints before generation begins, the output takes a different shape from the first token. The model routes around its defaults. It cannot open with an abstract concept because the rules prohibit it. It cannot close with a fortune-cookie because the rules prohibit it. It cannot fall into mechanical parallelism because the rules flag it.
 
-The constraints don't tell the model what to write. They tell it what it can't do. What remains after the prohibitions is the voice, because the defaults have been removed.
+The constraints don't tell the model what to write. They tell it what it can't do. Once the defaults are blocked, the model has to find another way to build the paragraph. That other way is closer to the target voice, because the most common failure modes have been taken off the table.
 
 
 ### 4.2 Voice Extraction From Conversation
@@ -144,7 +144,7 @@ When constraints are applied during generation, the model builds the paragraph a
 
 When constraints are applied after generation, the model builds the paragraph around its defaults and then tries to edit it. The bones are wrong. The structure was built to support abstraction-first, parallel, neatly-resolved prose. Changing the words does not change the bones.
 
-This is the accommodation insight. Constrain during generation, not filter after. The same text, produced under different architectural conditions, has a different structure. The constraints shape the production, not just the output.
+This is the accommodation insight. Constrain during generation, not filter after. The same text, produced under different architectural conditions, has a different structure. The paragraph that was built under constraints has different bones than the paragraph that was built freely and then edited to match.
 
 
 ## 5. Applied Evidence
@@ -167,7 +167,7 @@ The same model produces detectable AI-generated text without the protocol and un
 
 The protocol catches patterns that the writer cannot hear in their own copy. After reading twenty drafts, the em-dash frequency becomes invisible. The fortune-cookie closers sound fine. The mechanical parallelism feels like "good structure." The protocol makes the patterns visible by prohibiting them. When the model cannot use them, the writer can see what remains, and what remains is either specific and grounded or it is empty.
 
-The voice protocol is a diagnostic and a generation constraint simultaneously. It tells you what is wrong with the draft by preventing it from being wrong in those specific ways. If the constrained output is still flat, the problem is not the voice. The problem is the content.
+The voice protocol is a diagnostic and a generation constraint simultaneously. It tells you what is wrong with the draft by preventing it from being wrong in those specific ways. If the constrained output is still flat, the voice was never the issue. The content itself needs work.
 
 
 ## 6. Connection to Accommodation Design
@@ -203,11 +203,11 @@ The closest adjacent work is research on "AI slop" detection and mitigation, whi
 
 ## 8. Implications
 
-**Voice is not style.** Style is surface: word choice, sentence length, formality level. Voice is structural: what does this person lead with, what do they never tolerate, what's the relationship between the specific and the abstract, how do they use evidence. Style can be adjusted post-hoc. Voice can't, because voice is in the structure of the text, not its surface.
+**Voice is not style.** Style is surface: word choice, sentence length, formality level. Voice is structural: what does this person lead with, what do they never tolerate, what's the relationship between the specific and the abstract, how do they use evidence. Style can be adjusted after the fact. Voice lives in the paragraph structure, and that structure is set during generation.
 
 Where should voice extraction sample from? Conversation. Published writing is performed. It has been edited for an audience. The patterns in conversation are the actual voice. The patterns in published writing are the voice after it has been filtered.
 
-The same model, the same content, the same prompt: output produced under voice constraints has a different paragraph structure than output produced without them and then edited. The constraints shape the bones. Post-hoc editing changes the skin.
+The same model, the same content, the same prompt: output produced under voice constraints has a different paragraph structure than output produced without them and then edited. The constraints reach the structure. Post-hoc editing only reaches the words.
 
 **The protocol is the IEP.** Decompose "sound like this person" into specific, testable rules. Give the model one constraint at a time. Scaffold the generation so the model can succeed. The accommodation must happen before and during production, not after. The design pattern is the same one that governs a classroom: make the requirements explicit before the work begins.
 
@@ -220,7 +220,7 @@ The AI writing field is organized around a generate-then-filter architecture. Pr
 
 Voice governance provides the generation constraint architecture: codified rules extracted from conversation, applied during production, preventing the model's default patterns from activating. The result is text that a third-party detection tool classified as human-written, produced by the same model that generates detectable AI text without the constraints.
 
-The insight is accommodation design applied to voice. The model has a processing tendency (statistical center of training data). The tendency produces a specific harm (the human disappears). The accommodation (generation constraints, not post-hoc filters) is designed for the model's processing reality: give it explicit rules before it begins, the same way you give a student explicit scaffolding before they attempt the task. The accommodation happens at the point of production, where it can shape the structure, not at the point of review, where it can only change the surface.
+The insight is accommodation design applied to voice. The model has a processing tendency (statistical center of training data). The tendency produces a specific harm (the human disappears). The accommodation (generation constraints, not post-hoc filters) is designed for the model's processing reality: give it explicit rules before it begins, the same way you give a student explicit scaffolding before they attempt the task. The accommodation has to happen during production. By the time you are reviewing output, the structure is already set, and changing words on top of the wrong structure does not fix it.
 
 ---
 

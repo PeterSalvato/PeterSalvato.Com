@@ -45,7 +45,7 @@ The AI field offers practitioners two mental models for their relationship with 
 
 Both framings assume a clean boundary between the human and the system. In the tool model, cognition happens inside the human and the tool processes the output. In the agent model, cognition happens inside both systems independently, with the human supervising.
 
-There is a third relationship that neither framing captures: the model as an extension of the practitioner's own cognitive process. Something you rig to yourself that extends what you can reach.
+There is a third relationship that neither framing captures: the model as an extension of the practitioner's own cognitive process. The way I actually use it is closer to rigging something to myself that extends what I can reach, the way a climbing harness extends where you can safely operate. You're still doing the work. The extension just lets you do it in places you couldn't sustain on your own.
 
 ---
 
@@ -83,7 +83,7 @@ The model provides:
 - **Production capacity.** Generate, revise, and iterate at a speed that matches the pace of thinking.
 - **Consistency.** Apply constraints (voice rules, structural requirements, evaluation criteria) without fatigue.
 
-Neither component produces quality output alone. The model without the practitioner generates competent mediocrity. The practitioner without the model can't process the volume, maintain the consistency, or hold the full context simultaneously.
+Neither component produces quality output alone. The model on its own generates competent mediocrity: correct enough, tonally dead. And I can't hold three years of conversations in working memory, or evaluate a page across six dimensions at once, or maintain voice consistency across thirty pages without fatigue. The coupling is where the quality comes from.
 
 ---
 
@@ -99,7 +99,7 @@ In human-AI cognitive coupling, the interface layer consists of purpose-built to
 
 **The coupling is bidirectional.** The practitioner adapts their workflow to the model's capabilities (checking in at context boundaries, decomposing evaluation criteria, marking important moments). The model's output is shaped by the practitioner's cognitive patterns (voice constraints, domain-specific criteria, value hierarchies). Over time, the coupling tightens. The practitioner develops intuitions for what the model handles well and what it doesn't. The system's accumulated context (conversation history, voice samples, evaluation patterns) becomes increasingly specific to this practitioner's cognitive signature.
 
-This is what Clark means by a hybrid thinking system. The boundaries blur. The practitioner stops experiencing the model as a separate tool they operate and starts experiencing it as an extension of their own cognitive process.
+This is what Clark means by a hybrid thinking system. After enough time, the boundary between "my thinking" and "the system's processing" stops feeling meaningful. I don't operate the model the way I operate a tool. I think with it, the way I used to think with a sketchbook, except it can hold more and find things I forgot I said.
 
 ---
 
@@ -117,7 +117,7 @@ In July 2025, I asked the question the CHI 2025 Tools for Thought Workshop was o
 
 Before the digital version existed, I designed a handwritten savepoint for physical journals: XML-style tags written by hand, visually distinct from the surrounding handwriting. You can flip through pages and spot them because the tag structure has a uniform shape that regular notes don't. It's a visual retrieval system for a physical medium. The same interface design problem, solved with a pen.
 
-The pattern is: broken notebooks (thinking preserved, retrieval impossible) to handwritten savepoint tags (visual scanning, the analog analog to grep) to digital Savepoint Syntax (machine-readable, searchable) to AI coupling (the full prosthetic, where the system can read the tags and reconstruct context). Four generations of the same design problem. Each one improved at the interface. The AI is the most capable version, but the relationship is lifelong.
+The pattern is: broken notebooks (thinking preserved, retrieval impossible) to handwritten savepoint tags (visual scanning, the analog analog to grep) to digital Savepoint Syntax (machine-readable, searchable) to AI coupling (the full prosthetic, where the system can read the tags and reconstruct context). Four generations of the same design problem. Each one improved at the interface. The AI version is the most capable, but the instinct to preserve thinking and make it retrievable goes back to the first sketchbook. The tools changed. The need didn't.
 
 ### 5.2 The Coupling at Scale
 
@@ -159,7 +159,7 @@ The one category where delegation works is mechanical infrastructure: repo clean
 
 The prosthetic framing addresses this directly by keeping the practitioner in the cognitive loop. The model extends reach, not replaces judgment. Evaluation stays with the practitioner. Direction stays with the practitioner. The model never sets its own goals or assesses its own quality. It processes, extends, and produces. The practitioner thinks, directs, and judges.
 
-A prosthetic extends what you can do. An autonomous system does it for you. The long-term cognitive consequences go in opposite directions: the prosthetic strengthens the capacities it extends (by exercising them at greater scale and speed), while delegation atrophies them (by removing the exercise).
+The prosthetic framing keeps the practitioner's capacities active because they're still being exercised, just at greater scale and speed. Delegation removes the exercise. Over time, the cognitive consequences diverge: the practitioner who stays in the loop gets sharper at the work the system extends, while the one who delegates gets further from the judgment that made the delegation safe in the first place.
 
 The bionic hand research illustrates this precisely. The AI handled grip adjustment. The human handled intent and motor planning. The result was greater precision with less mental effort. The AI didn't replace the human's motor planning. It extended it into a finer-grained execution space than the human could reach alone. The human's planning capacity stayed active. The AI amplified its reach.
 
@@ -173,7 +173,7 @@ AI as cognitive prosthetic works the same way. You still think. You still judge.
 
 The harness metaphor is precise in one more way: fit matters. A climbing harness that doesn't fit your body is dangerous. A cognitive extension that doesn't fit your thinking is counterproductive. The interface layer (the tools that handle coupling) must be designed for the specific practitioner's cognitive patterns, not for a generic user. Voice sampling, knowledge traversal, evaluation criteria: all of these are individualized to the practitioner. The prosthetic is custom-fitted.
 
-This is why mass-market AI products feel like tools rather than extensions. They're one-size-fits-all harnesses. They work for generic tasks. They fail at the tight coupling that produces the real work. The practitioner who builds their own interface layer gets a custom fit, and over time the coupling tightens enough that the harness disappears into use.
+This is why mass-market AI products feel like tools rather than extensions. They're one-size-fits-all harnesses. They work for generic tasks. They fail at the tight coupling that produces the real work. The practitioner who builds their own interface layer gets a custom fit, and over time the coupling tightens enough that the tools stop feeling like separate steps in a workflow. I don't think about running the voice pipeline anymore. I just write and check the output against how I actually talk.
 
 ---
 

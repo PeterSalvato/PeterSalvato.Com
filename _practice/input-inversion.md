@@ -59,7 +59,7 @@ Andrej Karpathy (founding member of OpenAI) publicly reframed the field in June 
 
 Andrew Ng's team demonstrated the point empirically. On the HumanEval coding benchmark, GPT-3.5 with a single optimized prompt achieved 48.1% accuracy. GPT-4 with a single optimized prompt reached 67%. GPT-3.5 wrapped in an agentic workflow (multiple steps, decomposed tasks, iterative evaluation) hit 95.1%. A weaker, cheaper model nearly doubled the advanced model's performance by changing how the system worked, not what the input said.
 
-The implication is direct: optimizing the prompt has a ceiling. Designing the system around the prompt has a much higher one.
+The implication is direct: prompt optimization hits diminishing returns quickly. The gains from system design are larger and they compound.
 
 ### 2.3 Voice Input Produces Richer Material
 
@@ -85,7 +85,7 @@ This is foundational practice in special education. A student with processing de
 
 The parallel to AI interaction is direct. A practitioner required to pre-structure their input before communicating with a model will produce less raw material for the system to work with. The prompts are cleaner. They're also thinner. The false starts, contradictions, mid-sentence direction changes, and moments of sudden clarity that characterize real thinking never reach the model. The accommodation tools that could process that raw material into high-quality structured input never get to operate on it.
 
-The structured-input assumption puts the burden on the human to make up for the model's processing limits. Input inversion reverses that: build tools that handle the translation, and let the human stay raw.
+The structured-input assumption puts the burden on the human to make up for the model's processing limits. Input inversion moves that burden to the tooling. Purpose-built tools handle the translation. The human contributes raw thinking, uncompressed, in whatever form it naturally takes.
 
 ---
 
@@ -139,7 +139,7 @@ The inverted model produces better results for three reasons:
 
 **Better tools for the job.** The accommodation tools are designed specifically for the translation between raw human thinking and model-ready input. They handle voice extraction, knowledge traversal, story mining, context marking, and decomposed evaluation. A human pre-structuring their prompt is doing ad hoc translation without specialized tooling.
 
-**Preserved cognitive state.** The act of pre-structuring disrupts the thinking it's trying to capture. A practitioner who pauses to format their insight into a well-structured prompt has already lost the flow state that produced the insight. Voice dictation and raw conversational input preserve the cognitive state the thinking happened in.
+**Preserved cognitive state.** The act of pre-structuring disrupts the thinking it's trying to capture. You have an insight, you stop to format it into a clean prompt, and by the time you're done formatting, you've lost the thread that produced the insight in the first place. Voice dictation and raw conversational input preserve the cognitive state the thinking happened in.
 
 ---
 
@@ -177,9 +177,9 @@ Input inversion does not require three years and thousands of sessions. The prin
 
 **A few dozen conversations.** Open-ended sessions where the practitioner thinks out loud about their work. "Tell me about what you're building." The interview skill processes these into stories, language patterns, and concept maps.
 
-**A single dictated session.** Even one conversation where someone speaks freely about their work produces richer material than a carefully structured brief. The rawness is what makes it work.
+**A single dictated session.** Even one conversation where someone speaks freely about their work produces richer material than a carefully structured brief.
 
-The barrier to entry is not technical infrastructure. It's the willingness to stop organizing input and start organizing tools. The industry has trained practitioners to perform for the model: clean prompts, specific instructions, defined formats. Input inversion asks you to stop performing and start thinking out loud.
+I think the barrier to entry is less about technical infrastructure and more about habit. The industry has trained practitioners to perform for the model: clean prompts, specific instructions, defined formats. Unlearning that performance is harder than building the tools. Input inversion asks you to stop organizing your input and start organizing the system that processes it, and most people find the first part harder than the second.
 
 ---
 
@@ -203,7 +203,7 @@ Each compiled document goes back into the data source. The next traversal has ac
 
 This is why unstructured input is not just richer at the point of capture. It is a better long-term investment. Structured prompts are consumable. You use them and they're done. An unstructured corpus is generative. The same material I recorded in 2023 is still producing new compiled documents in 2026, each traversal asking a question I hadn't thought to ask when I was talking. The knowledge traversal tool makes this practical: sequential processing through a large corpus, holding a specific conceptual angle, compiling a focused output that would take a human researcher weeks to produce manually. The LLM doesn't get tired of reading the same conversations again. It just reads them differently.
 
-Two practitioners with the same tools and the same model, one who accumulated three years of unstructured thinking and one who wrote three years of structured prompts, are not in the same position. The first has a source that keeps yielding new compiled documents on demand. The second has a folder of spent instructions.
+Two practitioners with the same tools and the same model, one who accumulated three years of unstructured thinking and one who wrote three years of structured prompts, are not in the same position. The first can run a new traversal tomorrow and get a document that surfaces connections they hadn't considered. The second would need to start writing new prompts from scratch.
 
 ---
 
@@ -215,7 +215,7 @@ Input inversion formalizes what this evidence suggests: reverse the burden of st
 
 This principle came out of three years of applied practice and is demonstrated by a production site compiled entirely from unstructured conversational data. It extends the [accommodation design framework](/practice/accommodation-design/) (Salvato, 2026) into a bidirectional pattern: structure for the model, freedom for the human.
 
-The practitioner who builds the best translation layer between raw human thinking and model-ready input produces the best output. The prompts were never the bottleneck.
+The competitive advantage is in the tooling between the human and the model, and in the depth of the raw material those tools have to work with. That is where the quality comes from.
 
 ---
 
