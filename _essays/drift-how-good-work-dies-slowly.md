@@ -33,6 +33,6 @@ The system failed to hold the standard. Not because someone forgot to write docu
 
 This is what pushed me toward governance as a design material. Not governance as policy or process or bureaucracy. Governance as the layer that absorbs the decisions the system shouldn't be asking people to make. You encode the baseline once. You make deviation require intent instead of making consistency require vigilance. The default path produces the right output. The wrong output takes effort.
 
-That idea eventually became FormWork. But the seed was sitting in front of a screen full of almost-right buttons, realizing that twelve years of reasonable decisions had produced something nobody designed.
+That idea eventually became [FormWork](/systems/formwork/). But the seed was sitting in front of a screen full of almost-right buttons, realizing that twelve years of reasonable decisions had produced something nobody designed.
 
 Drift taught me that consistency isn't a visual design problem. It's a structural one. And the fix isn't better designers or stricter reviews. The fix is a system that holds the line so the people inside it can focus on the work that actually requires their judgment.

@@ -843,6 +843,31 @@ vocab-processing-profile:
       url: /thinking/
       reason: "The human processing profile that runs alongside the model's. Accommodation goes both ways."
 
+vocab-fidelity:
+  url: /vocabulary/fidelity/
+  connections:
+    - target: encore
+      url: /evidence/encore/
+      reason: "Twelve years of fidelity held through governance, not memory. The clearest demonstration of what fidelity looks like when it holds."
+    - target: savepoint
+      url: /systems/savepoint/
+      reason: "Built specifically to hold context fidelity at session boundaries, where reasoning evaporates when threads close."
+    - target: drift-essay
+      url: /essays/drift-how-good-work-dies-slowly/
+      reason: "The four-pixel button: how fidelity erodes through accumulated reasonable decisions nobody logged."
+    - target: voice-governance-essay
+      url: /essays/voice-governance/
+      reason: "Voice fidelity: why AI copy loses it and how the pipeline holds it by sampling conversations, not published writing."
+    - target: i-needed-a-better-tool
+      url: /essays/i-needed-a-better-tool/
+      reason: "Context fidelity loss across sessions. The reasoning evaporated when threads closed."
+    - target: accommodation-design
+      url: /practice/accommodation-design/
+      reason: "Ideas lose fidelity when forced into structure at the point of capture. Accommodation design addresses this from both directions."
+    - target: vocab-drift
+      url: /vocabulary/drift/
+      reason: "Drift is how fidelity erodes over time. The two concepts are the mechanism and the measure."
+
 vocab-drift:
   url: /vocabulary/drift/
   connections:

@@ -82,5 +82,15 @@ h4 {
     &:hover {
       text-decoration-color: $color-accent;
     }
+
+    &.vocab-ref {
+      color: inherit;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+        text-decoration-color: rgba($color-accent, 0.4);
+      }
+    }
   }
 }

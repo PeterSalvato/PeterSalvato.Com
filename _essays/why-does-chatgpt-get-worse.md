@@ -19,7 +19,7 @@ It's a processing constraint.
 
 ## What's actually happening
 
-A language model has a context window: the total amount of text it can hold in working memory at once. Early in a conversation, everything fits. The model gives full attention to your prompt and its own previous responses. As the conversation grows, older content gets compressed. Details from the beginning carry less weight. By the time you're deep into a long session, the model is working with a fading picture of what you discussed an hour ago.
+A language model has a [context window](/vocabulary/context/): the total amount of text it can hold in working memory at once. Early in a conversation, everything fits. The model gives full attention to your prompt and its own previous responses. As the conversation grows, older content gets compressed. Details from the beginning carry less weight. By the time you're deep into a long session, the model is working with a fading picture of what you discussed an hour ago.
 
 This is the same thing a teacher sees when a lesson runs too long without a checkpoint. Student attention is finite. You can watch it degrade in real time. The material from the first ten minutes is clear. The material from minute forty is gone.
 
@@ -29,7 +29,7 @@ In a classroom, you don't give a student forty minutes of continuous instruction
 
 The same fix works for AI:
 
-**Break long conversations into focused sessions.** When the topic shifts, start a new conversation. The model gets a fresh context window with full attention on the new problem.
+**Break long conversations into focused sessions.** When the topic shifts, start a new conversation. The model gets a fresh [context window](/vocabulary/context/){:.vocab-ref} with full attention on the new problem.
 
 **One objective per prompt.** "Evaluate this for voice quality, structural integrity, and brand alignment" is three tasks disguised as one. The model processes the first with full attention. Each one after that gets less. Give it one at a time.
 
@@ -39,8 +39,8 @@ The same fix works for AI:
 
 These are accommodations for a system with specific processing constraints. Working memory limits, attention degradation, sensitivity to instruction ordering. In special education, this is called a [processing profile](/essays/processing-profiles/): a documented picture of how a specific learner takes in and processes information, used to design instruction that fits.
 
-Language models have processing profiles too. The specs are published (context windows, token limits, attention mechanisms) but they're treated as engineering numbers. They're cognitive constraints you design around. The same way a teacher designs around a student's working memory ceiling.
+Language models have [processing profiles](/vocabulary/processing-profile/){:.vocab-ref} too. The specs are published (context windows, token limits, attention mechanisms) but they're treated as engineering numbers. They're cognitive constraints you design around. The same way a teacher designs around a student's working memory ceiling.
 
-I spent a year teaching special education in Brooklyn. The framework I use now for AI system design came directly from that classroom. I call it [accommodation design](/practice/accommodation-design/): instead of fighting a system's limitations with more rules and longer prompts, you design the task to fit how the system actually processes.
+I spent a year teaching special education in Brooklyn. The framework I use now for AI system design came directly from that classroom. I call it [accommodation design](/vocabulary/accommodation-design/): instead of fighting a system's limitations with more rules and longer prompts, you design the task to fit how the system actually processes.
 
 The [full whitepaper](/practice/accommodation-design/) documents the framework. The short version: your AI isn't getting dumber. You're asking it to hold more than it can carry.

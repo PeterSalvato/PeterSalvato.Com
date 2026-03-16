@@ -35,17 +35,17 @@ A tradesman carries his own tools, calibrated to his hand. That's a point of pri
 
 ## The same pattern, twelve years later
 
-I recognized this at Encore and ignored it for a long time. Twelve years building and maintaining an enterprise platform. I held the architecture in my head: where every module connected, which components were load-bearing, what would break if you changed this one SCSS variable three levels deep. I could navigate twelve years of accumulated decisions because I'd made most of them.
+I recognized this at Encore and ignored it for a long time. Twelve years building and maintaining an enterprise platform. I held the architecture in my head: where every module connected, which components were [load-bearing](/vocabulary/load-bearing/), what would break if you changed this one SCSS variable three levels deep. I could navigate twelve years of accumulated decisions because I'd made most of them.
 
 That's strength. It's also fragility. What happens when I'm not in the room? The same thing that happened on the construction site. The picture leaves.
 
-I was the scaffolding. And scaffolding is supposed to come off. That's the whole point of it. You put it up so the structure can stand, and then you take it away. But I never took it away because the structure couldn't stand without me. I hadn't externalized the picture. I hadn't built anything that could hold what I was holding.
+I was the [scaffolding](/vocabulary/scaffold/). And [scaffolding](/vocabulary/scaffold/){:.vocab-ref} is supposed to come off. That's the whole point of it. You put it up so the structure can stand, and then you take it away. But I never took it away because the structure couldn't stand without me. I hadn't externalized the picture. I hadn't built anything that could hold what I was holding.
 
 ## The honest part
 
 The methodology I use now, the decomposition, the separation of concerns, the insistence on making structure visible, all of it comes from watching this failure up close. First on construction sites. Then in my own work.
 
-I built FormWork because I needed a coordination harness that wasn't me. I built SavePoint because context kept leaving when I left. These aren't products I invented out of ambition. They're patches on a failure I kept repeating.
+I built [FormWork](/systems/formwork/) because I needed a coordination harness that wasn't me. I built [SavePoint](/systems/savepoint/) because context kept leaving when I left. These aren't products I invented out of ambition. They're patches on a failure I kept repeating.
 
 The interesting question is always where does this fail. I got that from the job sites, from watching fifty trades work their piece and knowing that the building doesn't care how good any single trade is if the joints don't register. But the harder version of that question, the one I avoided for a long time, points inward. Where does this fail when the failure is you? When the single point of failure is the person who built the methodology in the first place?
 

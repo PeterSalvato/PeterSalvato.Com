@@ -74,7 +74,7 @@ Eleven of the twelve items are mechanical. They require checking specific, verif
 
 Item 2 is not mechanical. It asks whether the writing passes the Grip Test at Grip or Lock level, but answering that requires judgment about a stranger's experience. You already understand the work, so you can't tell whether a stranger would.
 
-I named it after my friend Ben. I showed him an early draft of the Savepoint Syntax page and asked what he thought. He said he could get "a fingernail hold" on it. He could tell it was something, but he couldn't feel why it mattered. That phrase became the standard.
+I named it after my friend Ben. I showed him an early draft of the [SavePoint](/systems/savepoint/) Syntax page and asked what he thought. He said he could get "a fingernail hold" on it. He could tell it was something, but he couldn't feel why it mattered. That phrase became the standard.
 
 The Grip Test has three ratings:
 

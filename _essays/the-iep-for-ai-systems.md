@@ -34,7 +34,7 @@ Task decomposition means breaking that into discrete steps. Each step has one cl
 
 That's a structural decision about how complex work gets delivered to a system that can't process it whole. That sentence describes a fourth grader in Sunset Park. It also describes a large language model receiving a compound evaluation prompt.
 
-A monolithic prompt that says "evaluate this portfolio for voice quality, structural integrity, narrative coherence, and brand alignment" is four tasks disguised as one. The model receives the first criterion, starts working, and the others drift. Output quality degrades as the instruction gets longer. Context gets polluted. The model can't hold all four evaluation frames simultaneously, so it collapses them into a blended average that's none of the four.
+A monolithic prompt that says "evaluate this portfolio for voice quality, structural integrity, narrative coherence, and brand alignment" is four tasks disguised as one. The model receives the first criterion, starts working, and the others drift. Output quality degrades as the instruction gets longer. [Context gets polluted](/vocabulary/context/). The model can't hold all four evaluation frames simultaneously, so it collapses them into a blended average that's none of the four.
 
 The fix is the same fix. Decompose. One skill per evaluation dimension. Each skill has one clear objective. Each skill produces a visible result before the next one runs.
 
@@ -46,11 +46,11 @@ The operation is identical to the classroom. Break the complex task into pieces 
 
 ## Scaffold, then remove
 
-Scaffolding in special education is temporary support structure. You provide it while the student is building competence, and you remove it as the competence solidifies. A graphic organizer helps a student plan a paragraph. Once the student can plan without the organizer, the organizer goes away. If you leave the scaffold in place permanently, you've built a dependency, not a skill.
+[Scaffolding](/vocabulary/scaffold/) in special education is temporary support structure. You provide it while the student is building competence, and you remove it as the competence solidifies. A graphic organizer helps a student plan a paragraph. Once the student can plan without the organizer, the organizer goes away. If you leave the scaffold in place permanently, you've built a dependency, not a skill.
 
 The coordinator pattern in my skill architecture works the same way. A coordinator is a thin orchestration layer that dispatches atomic skills, collects their results, and synthesizes a verdict. The coordinator doesn't do the evaluation. It manages the flow. The dispatch rules determine which atomics run in parallel (because they're independent) and which run in sequence (because one depends on another's output).
 
-The coordinator is scaffolding. It holds the structure while the pieces do the work. If I hardcoded the synthesis logic into the atomics themselves, each one would need to know about all the others. They'd be coupled. Change one and you'd break three. Instead, the coordinator carries the structural knowledge. The atomics stay simple, single-purpose, and independently testable.
+The coordinator is [scaffolding](/vocabulary/scaffold/){:.vocab-ref}. It holds the structure while the pieces do the work. If I hardcoded the synthesis logic into the atomics themselves, each one would need to know about all the others. They'd be coupled. Change one and you'd break three. Instead, the coordinator carries the structural knowledge. The atomics stay simple, single-purpose, and independently testable.
 
 When I built the audit coordinator, it dispatches nine evaluation lenses in parallel. Each lens runs independently. The coordinator collects nine separate verdicts and identifies where they agree and where they contradict. That contradiction is the valuable signal. Two lenses scoring the same work differently means there's a real tension to resolve. The coordinator surfaces it. The atomics just measured.
 
@@ -74,7 +74,7 @@ Evaluation lenses work the same way. When structural and narrative lenses disagr
 
 ## One lane
 
-The AI governance conversation is dominated by two groups. Computer scientists who think about model architecture. Business strategists who think about risk and compliance. Neither group has stood in a room where the system you're managing is twelve human beings with twelve different definitions of success, and the feedback loop is immediate because a ten-year-old will tell you in real time when your scaffolding isn't working.
+The AI governance conversation is dominated by two groups. Computer scientists who think about model architecture. Business strategists who think about risk and compliance. Neither group has stood in a room where the system you're managing is twelve human beings with twelve different definitions of success, and the feedback loop is immediate because a ten-year-old will tell you in real time when your [scaffolding](/vocabulary/scaffold/){:.vocab-ref} isn't working.
 
 Special education teaches you that complex systems with variable inputs require individualized evaluation criteria, temporary support structures, and task decomposition. Because the alternative is a room that doesn't function.
 
@@ -82,10 +82,10 @@ Every IEP is a governance document. It specifies what gets measured, how it gets
 
 I didn't study AI governance and then discover it maps to pedagogy. I spent a year in a self-contained classroom in Sunset Park, then spent eighteen years applying the same structural patterns to enterprise platforms, brand systems, and design evaluation. When I started building AI skill systems, the architecture was already in my hands.
 
-Decompose the complex task. Scaffold the structure. Individualize the criteria. Monitor progress against specific goals. Adjust when the feedback says your plan isn't working.
+Decompose the complex task. [Scaffold](/vocabulary/scaffold/){:.vocab-ref} the structure. Individualize the criteria. Monitor progress against specific goals. Adjust when the feedback says your plan isn't working.
 
 But underneath all of that is a simpler move. Before I built any of the architecture, before I decomposed a single prompt, I asked the same question I asked about every student in that classroom: what does this system actually need to do this job? Not what do I need from it. What does it need from me.
 
-That question applies in both directions. The model needs decomposed tasks, structured input, independent evaluation. The human needs friction removed at the point of capture, so the raw thinking enters the system intact. In FormWork, that's the pour: get the idea out of your head, talk, dictate, answer questions, and let the tools handle the rest. The accommodation runs both ways, the same move I learned in the classroom applied to a different kind of processing constraint.
+That question applies in both directions. The model needs decomposed tasks, structured input, independent evaluation. The human needs friction removed at the point of capture, so the raw thinking enters the system intact. In [FormWork](/systems/formwork/), that's the pour: get the idea out of your head, talk, dictate, answer questions, and let the tools handle the rest. The accommodation runs both ways, the same move I learned in the classroom applied to a different kind of processing constraint.
 
-That question changes everything. It's the difference between treating a model like an employee who should be better and treating it like a system with a specific processing reality that you can accommodate. Token limits are a working memory profile. Context windows are the attention span you're designing for. The model needs someone who bothered to ask how it works before handing it twelve things at once.
+That question changes everything. It's the difference between treating a model like an employee who should be better and treating it like a system with a specific processing reality that you can accommodate. Token limits are a working memory [processing profile](/vocabulary/processing-profile/). [Context windows](/vocabulary/context/){:.vocab-ref} are the attention span you're designing for. The model needs someone who bothered to ask how it works before handing it twelve things at once.

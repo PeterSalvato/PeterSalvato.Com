@@ -25,7 +25,7 @@ Flavors are a palette. Samin Nosrat had it right: salt, fat, acid, heat. These a
 
 Textures are design decisions. What the mouth experiences is as composed as what the eye sees. Crispy against soft. Dense against airy. These are choices you make when you understand what's possible, not accidents you get when you follow instructions.
 
-This is Input Inversion applied to the kitchen. A recipe constrains the input: exact steps, exact measurements, exact ingredients. My approach constrains the logic (flavor systems, technique repertoire) and leaves the input open. What's available. What the family wants tonight. What my energy allows.
+This is [Input Inversion](/vocabulary/input-inversion/) applied to the kitchen. A recipe constrains the input: exact steps, exact measurements, exact ingredients. My approach constrains the logic (flavor systems, technique repertoire) and leaves the input open. What's available. What the family wants tonight. What my energy allows.
 
 That last point matters more than it sounds. I have celiac disease and Crohn's. Recipes are especially useless when you can't use half the ingredients. You need to understand the system so you can substitute without breaking it. Swap the flour, adjust the binding, keep the flavor architecture intact. That requires knowing what each ingredient is doing structurally, not just that it appears on line four.
 

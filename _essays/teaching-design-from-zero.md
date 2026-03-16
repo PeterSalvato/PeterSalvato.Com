@@ -15,7 +15,7 @@ The room at Kingsborough was nothing like what came later. No resistant teenager
 
 I loved the material. That part is hard to overstate. Standing in front of a room full of people who had never thought about why a poster works, or why one layout feels stable and another feels like it's falling off the page. Introducing them to something I cared about deeply, knowing they were willing to receive it. That combination (willing room, material you love) is rare, and I recognized it even then.
 
-The challenge was scaffolding. The motivation was already there. The behavior was fine. The question was pure construction: how do you take someone from zero knowledge of graphic design to understanding visual communication? Where does the ladder start? What's the first rung?
+The challenge was [scaffolding](/vocabulary/scaffold/). The motivation was already there. The behavior was fine. The question was pure construction: how do you take someone from zero knowledge of graphic design to understanding visual communication? Where does the ladder start? What's the first rung?
 
 You can't open with theory. You can't open with history. You open with looking. Here is a thing. What do you see? Not what does it mean, not what is the designer trying to say. What do you see? Color, shape, weight, position. The vocabulary comes after the looking, not before it.
 

@@ -21,7 +21,7 @@ I went the other way. And the unstructured corpus turned out to be the most valu
 
 ## The substrate
 
-Every tool in the [accommodation design](/practice/accommodation-design/) framework depends on this corpus. Voice sampling needs unstructured speech to sample from, because published writing is performance and conversation is how someone actually talks. Knowledge traversal needs a body of unfiltered ideation to trace through, because the first time an idea appears in conversation history, it probably wasn't called by its final name. The interview process needs raw material to mine for real stories and real language, because the stories that matter are rarely the ones you'd put on a resume.
+Every tool in the [accommodation design](/vocabulary/accommodation-design/) framework depends on this corpus. Voice sampling needs unstructured speech to sample from, because published writing is performance and conversation is how someone actually talks. Knowledge traversal needs a body of unfiltered ideation to trace through, because the first time an idea appears in conversation history, it probably wasn't called by its final name. The interview process needs raw material to mine for real stories and real language, because the stories that matter are rarely the ones you'd put on a resume.
 
 Without the corpus, the tools have nothing to work with.
 
@@ -45,4 +45,4 @@ Structured input puts the burden on the human. You pre-organize your thoughts to
 
 I stopped organizing my input and started organizing my tools. The tools accommodate the model's processing reality. My thinking stays raw. The output quality went up because the tools had richer material to work with, not in spite of the mess but because of it.
 
-The full framework is documented in the [accommodation design whitepaper](/practice/accommodation-design/). Input inversion is Section 4.6.
+The full framework is documented in the [accommodation design whitepaper](/practice/accommodation-design/). [Input inversion](/vocabulary/input-inversion/) is Section 4.6.

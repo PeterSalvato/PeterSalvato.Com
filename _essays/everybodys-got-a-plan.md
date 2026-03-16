@@ -43,7 +43,7 @@ On a good day.
 
 I plan meals toward the end of my work day. I work from home in software, so the transition from desk to kitchen is a hallway. I'll use an AI assistant (ChatGPT, Gemini, Claude from my phone) with my preferences and recipes loaded. Here's what I'm making tonight, here's what I have, give me the task sequence. Then through the cook I'll check things off. What's next. Something went wrong with the rice, what do I adjust. The AI holds the sequencing so my working memory doesn't have to.
 
-That's the same thing SavePoint does for context between work sessions. The same thing LensArray does for evaluation criteria in a project. The tool holds what the mind drops. In the kitchen, the thing the mind drops is the order of operations, and the cost of dropping it is burned rice or a missed step that means dinner is thirty minutes later, which means the kids are hungrier, which means the ARFID is worse, which means less food gets eaten. The stakes cascade.
+That's the same thing [SavePoint](/systems/savepoint/) does for context between work sessions. The same thing [LensArray](/systems/lensarray/) does for evaluation criteria in a project. The tool holds what the mind drops. In the kitchen, the thing the mind drops is the order of operations, and the cost of dropping it is burned rice or a missed step that means dinner is thirty minutes later, which means the kids are hungrier, which means the ARFID is worse, which means less food gets eaten. The stakes cascade.
 
 ---
 

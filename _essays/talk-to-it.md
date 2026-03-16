@@ -41,4 +41,4 @@ Brainstorm into a voice note at midnight. Answer your own questions out loud and
 
 The rawness is the point. When you talk instead of type, you stop editing before you've finished thinking. That unedited version carries your actual voice, your actual sentence structure, the way you actually move between ideas. It is the thing the tools need.
 
-The full concept is [input inversion](/practice/input-inversion/). The framework that produced it is [accommodation design](/practice/accommodation-design/).
+The full concept is [input inversion](/vocabulary/input-inversion/). The framework that produced it is [accommodation design](/vocabulary/accommodation-design/).

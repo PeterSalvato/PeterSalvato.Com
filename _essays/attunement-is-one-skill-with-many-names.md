@@ -21,7 +21,7 @@ Same operation. Different room.
 
 In UX it's called user research. You watch someone try to complete a task and you track where they hesitate, where they tap twice, where their eyes drift. You're reading the gap between what they expected and what happened. In writing it's knowing what the reader needs to feel next. In cooking it's reading the table: who's slowing down, who needs acid to cut through richness, who's ready for the next course. In construction it's reading the site. The grade, the soil, the way water moves through a lot after rain. Understanding what the space requires before you impose anything on it.
 
-Every domain has its own vocabulary for this. Educators call it attunement, or differentiated instruction, or meeting the learner where they are. DJs talk about feeling the energy. UX designers build empathy maps. Writers talk about reading their reader. Cooks talk about reading the table.
+Every domain has its own vocabulary for this. Educators call it [attunement](/vocabulary/attunement/), or differentiated instruction, or meeting the learner where they are. DJs talk about feeling the energy. UX designers build empathy maps. Writers talk about reading their reader. Cooks talk about reading the table.
 
 Nobody connects these.
 

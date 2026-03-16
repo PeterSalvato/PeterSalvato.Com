@@ -33,6 +33,6 @@ The best transition between two tracks is the one nobody notices. The listener d
 
 I write fiction to a beat spec. Three-act structure, scene-level pacing targets, tension curves plotted before a word of prose exists. The reader never sees any of that. They just feel the pull. They turn the page because their body is ahead of their mind, already leaning into the next beat. If they stop and think "this feels really well-structured," something broke.
 
-In the classroom, the same principle ran the scaffolding. Each problem is slightly harder than the last, but the gap is calibrated so precisely that the student just feels capable. They don't feel scaffolded. They feel like they figured it out.
+In the classroom, the same principle ran the [scaffolding](/vocabulary/scaffold/). Each problem is slightly harder than the last, but the gap is calibrated so precisely that the student just feels capable. They don't feel scaffolded. They feel like they figured it out.
 
 That gap between what the body registers and what the conscious mind can name is where design actually lives.

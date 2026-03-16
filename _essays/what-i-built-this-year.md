@@ -24,7 +24,7 @@ Everything downstream depends on getting raw thinking into the system without fr
 
 ## SavePoint
 
-Context kept evaporating across sessions. I'd have a breakthrough, the session would close, and the reasoning that connected everything would disappear. The next session started from zero. I started typing "give me a savepoint" before conversations ended. Same instinct as saving a video game before a boss fight: you're about to lose your progress, so you dump your state. That survival reflex became SavePoint. It preserved the thinking across session boundaries so the next session could pick up where the last one left off.
+Context kept evaporating across sessions. I'd have a breakthrough, the session would close, and the reasoning that connected everything would disappear. The next session started from zero. I started typing "give me a savepoint" before conversations ended. Same instinct as saving a video game before a boss fight: you're about to lose your progress, so you dump your state. That survival reflex became [SavePoint](/systems/savepoint/). It preserved the thinking across session boundaries so the next session could pick up where the last one left off.
 
 ## Voice protocol
 
@@ -40,4 +40,4 @@ Individual tools, each working correctly, producing wrong results. That hallucin
 
 ---
 
-Each tool exists because the previous one failed or was not enough. The pour gave the tools material. SavePoint kept the material from evaporating. The voice protocol kept the output honest. LensArray decomposed evaluation into real decisions. The coordination layer caught what the individual tools could not. The methodology behind all of it is documented on the [FormWork](/systems/formwork/) page.
+Each tool exists because the previous one failed or was not enough. The pour gave the tools material. [SavePoint](/systems/savepoint/){:.vocab-ref} kept the material from evaporating. The voice protocol kept the output honest. [LensArray](/systems/lensarray/) decomposed evaluation into real decisions. The coordination layer caught what the individual tools could not. The methodology behind all of it is documented on the [FormWork](/systems/formwork/) page.

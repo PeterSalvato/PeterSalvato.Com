@@ -37,4 +37,4 @@ I didn't think of this as design work at the time. I thought of it as survival. 
 
 It was only later, years later, that I recognized the pattern. The same operation I was doing at work (reading a system's constraints, building structure that accommodates them, removing the recurring friction) was the same thing I'd been doing in my kitchen every Sunday. Same method. Different material.
 
-The kitchen is where I learned it. Before I had language for any of it. Before I knew what accommodation design was or that it had a name. I just knew that four people needed to eat, and the morning couldn't keep taking 90 minutes.
+The kitchen is where I learned it. Before I had language for any of it. Before I knew what [accommodation design](/vocabulary/accommodation-design/) was or that it had a name. I just knew that four people needed to eat, and the morning couldn't keep taking 90 minutes.

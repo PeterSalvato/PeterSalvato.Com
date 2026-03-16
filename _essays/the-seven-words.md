@@ -36,17 +36,17 @@ Decomposition is breaking a whole into parts that can each stand independently. 
 
 A classroom in the Bronx, 2007. A student who couldn't organize a five-paragraph essay. Not because he didn't have ideas. Because the gap between having ideas and producing a structured document was too wide to cross in one step.
 
-So I built a graphic organizer. Boxes. Arrows. Sentence starters. The scaffolding held his ideas in position while he figured out where they went. Six weeks later, he stopped using the organizer. He didn't need it. The capability was his now, and the temporary structure had done its job by becoming unnecessary.
+So I built a graphic organizer. Boxes. Arrows. Sentence starters. The [scaffolding](/vocabulary/scaffold/) held his ideas in position while he figured out where they went. Six weeks later, he stopped using the organizer. He didn't need it. The capability was his now, and the temporary structure had done its job by becoming unnecessary.
 
-That's the test. If the scaffold stays permanently, you've built a dependency, not a capability. The goal is always the same: meet the person where they are, hold the weight they can't hold yet, and come off when they can.
+That's the test. If the [scaffold](/vocabulary/scaffold/){:.vocab-ref} stays permanently, you've built a dependency, not a capability. The goal is always the same: meet the person where they are, hold the weight they can't hold yet, and come off when they can.
 
 ## Fidelity
 
 Encore, 2004. I built a content management platform for the entertainment industry. Twelve years later, it was still running. Same architecture. Same information design. Same structural logic. Three complete technology shifts happened underneath it, and the intent survived all of them.
 
-Most projects lose fidelity in months. Not because anyone makes a bad decision, but because the gap between what was meant and what gets built widens with every handoff, every new developer, every quarterly pivot. Fidelity is that gap. Small gap, high fidelity. The original intent survives. Large gap, low fidelity. You end up with something nobody designed.
+Most projects lose [fidelity](/vocabulary/fidelity/) in months. Not because anyone makes a bad decision, but because the gap between what was meant and what gets built widens with every handoff, every new developer, every quarterly pivot. [Fidelity](/vocabulary/fidelity/){:.vocab-ref} is that gap. Small gap, high [fidelity](/vocabulary/fidelity/){:.vocab-ref}. The original intent survives. Large gap, low [fidelity](/vocabulary/fidelity/){:.vocab-ref}. You end up with something nobody designed.
 
-Twelve years is not normal. I know that. But it proved something: fidelity is holdable. It takes specific structural choices, and it takes someone who refuses to let the standard slide. Which leads to the next word.
+Twelve years is not normal. I know that. But it proved something: [fidelity](/vocabulary/fidelity/){:.vocab-ref} is holdable. It takes specific structural choices, and it takes someone who refuses to let the standard slide. Which leads to the next word.
 
 ## Drift
 
@@ -54,7 +54,7 @@ Encore again. Different angle.
 
 Six months into any project, the output starts degrading. Nobody changed anything. Nobody made a bad call. But somewhere around month three, the original intent stopped being the thing everyone was checking against. Good-enough decisions accumulated into something nobody chose.
 
-This is deeper than cutting corners. When you cut corners, you know the standard and you're choosing not to meet it. Drift is when the standard itself goes invisible. You can't violate something you've stopped seeing.
+This is deeper than cutting corners. When you cut corners, you know the standard and you're choosing not to meet it. [Drift](/vocabulary/drift/) is when the standard itself goes invisible. You can't violate something you've stopped seeing.
 
 I grew up in the Bronx in the eighties. I watched it happen to entire neighborhoods. One broken window stays broken. Then two. Then the standard for what "maintained" means shifts without anyone noticing. Nobody decided to let the block fall apart. The standard just went invisible, one reasonable decision at a time.
 

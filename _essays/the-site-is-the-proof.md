@@ -26,11 +26,11 @@ I use AI as a refinery, not a generator. I am the source material. My conversati
 
 ---
 
-That corpus exists because the system was designed to accept raw thinking. In FormWork, the first accommodation is aimed at the human: get the idea out of your head with as little friction as possible. Talk, dictate, answer questions. No requirement to organize or perform. The material stays conversational, and that's the point. It carries my actual voice, my actual sentence rhythms, the imagery I reach for when I'm thinking, not writing. The tools that follow can only preserve what the source material already contains. If the input had been structured, polished, performed, the output would sound like everyone. The rawness is what makes the compilation mine.
+That corpus exists because the system was designed to accept raw thinking. In [FormWork](/systems/formwork/), the first accommodation is aimed at the human: get the idea out of your head with as little friction as possible. Talk, dictate, answer questions. No requirement to organize or perform. The material stays conversational, and that's the point. It carries my actual voice, my actual sentence rhythms, the imagery I reach for when I'm thinking, not writing. The tools that follow can only preserve what the source material already contains. If the input had been structured, polished, performed, the output would sound like everyone. The rawness is what makes the compilation mine.
 
 The pipeline that operates on this source material is composed of four tools, each designed to solve a specific gap in the relationship between human thought and machine output.
 
-First, a knowledge skill traverses the full corpus. It doesn't matter if the data is a JSON export from ChatGPT or a Markdown log from Claude Code; the skill identifies "real moments." It looks for what actually happened, what I actually said in the heat of a project, and what decisions were actually made. This is the foundation of the site's fidelity. The system is specifically prevented from inventing anything. Every claim traces to a verified source in the corpus, or it gets cut. ([I Needed a Better Tool](/essays/i-needed-a-better-tool/))
+First, a knowledge skill traverses the full corpus. It doesn't matter if the data is a JSON export from ChatGPT or a Markdown log from Claude Code; the skill identifies "real moments." It looks for what actually happened, what I actually said in the heat of a project, and what decisions were actually made. This is the foundation of the site's [fidelity](/vocabulary/fidelity/). The system is specifically prevented from inventing anything. Every claim traces to a verified source in the corpus, or it gets cut. ([I Needed a Better Tool](/essays/i-needed-a-better-tool/))
 
 Second, a voice protocol ensures the output matches how I actually talk. Most people write for publication by performing a version of themselves. They use "furthermore" and "moreover"; they "delve" into "vibrant tapestries." In my conversations, I don't talk like that. I am matter-of-fact, occasionally cynical, and focused on specifics. The voice protocol uses a 12-item checklist to catch AI writing patterns, marketing language, and performed formality. It extracts the voice from my unguarded sessions and applies it to the compiled output. ([Voice Governance](/essays/voice-governance/))
 
@@ -48,14 +48,14 @@ The site presents results that look hand-crafted. The machinery that produced th
 
 The argument for the system isn't found in a white paper. It's found in the pages you are reading right now.
 
-The [FormWork](/systems/formwork/) page describes the coordination harness and its tools. Those same tools compiled that page. The voice protocol was verified against samples extracted from my own conversations. [Savepoint Syntax](/systems/savepoint/) exists because savepoints marked the cognitive turns during its own construction. And [This Site](/practice/this-site/) describes the build process that produced it.
+The [FormWork](/systems/formwork/){:.vocab-ref} page describes the coordination harness and its tools. Those same tools compiled that page. The voice protocol was verified against samples extracted from my own conversations. [Savepoint Syntax](/systems/savepoint/) exists because savepoints marked the cognitive turns during its own construction. And [This Site](/practice/this-site/) describes the build process that produced it.
 
 Every tool described on this site was used to produce the site.
 
 ---
 
-The question for the next few years isn't whether AI can produce good work. It clearly can. The question is whether it can produce *your* work: output that a blind evaluator cannot distinguish from your best hand-written thinking. That level of fidelity is only possible when the constraints are yours, the source material is yours, and the governance is yours.
+The question for the next few years isn't whether AI can produce good work. It clearly can. The question is whether it can produce *your* work: output that a blind evaluator cannot distinguish from your best hand-written thinking. That level of [fidelity](/vocabulary/fidelity/){:.vocab-ref} is only possible when the constraints are yours, the source material is yours, and the governance is yours.
 
-This system took longer than writing the site by hand would have. The goal was fidelity: a system where the output cannot drift from the source, where every sentence traces back to something real, and where the methodology is proven by its own product.
+This system took longer than writing the site by hand would have. The goal was [fidelity](/vocabulary/fidelity/){:.vocab-ref}: a system where the output cannot drift from the source, where every sentence traces back to something real, and where the methodology is proven by its own product.
 
 The evaluator called the voice "High-Taste Human." The system produced something a machine couldn't identify as machine-produced, because the machine wasn't the author. The source material was three years of a specific person thinking out loud into a system built to make sure he didn't disappear inside it.
