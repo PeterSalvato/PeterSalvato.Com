@@ -3,6 +3,7 @@ _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+assets/css/main.css
 .DS_Store
 Gemfile.lock
 vendor/
