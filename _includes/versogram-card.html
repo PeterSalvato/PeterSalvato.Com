@@ -1,0 +1,55 @@
+{% comment %}
+  Versogram poster card component.
+  Parameters:
+    song  — song object from _data/versograms.json
+    full  — if true, render full-size with lyrics. if false, render as gallery card.
+{% endcomment %}
+
+{% assign s = include.song %}
+{% assign is_full = include.full %}
+
+<div class="versogram-card{% if is_full %} versogram-card--full{% endif %}">
+
+  <div class="versogram-headline">
+    {% if s.headline_svg != "" %}
+      <img src="{{ s.headline_svg | relative_url }}" alt="{{ s.title }}" class="versogram-title-svg">
+    {% else %}
+      <h2 class="versogram-title-text">{{ s.title }}</h2>
+    {% endif %}
+    <span class="versogram-artist">{{ s.artist }}</span>
+  </div>
+
+  <div class="versogram-image">
+    {% if s.image != "" %}
+      <img src="{{ s.image | relative_url }}" alt="{{ s.title }} by {{ s.artist }}">
+    {% else %}
+      <div class="versogram-image-placeholder"></div>
+    {% endif %}
+  </div>
+
+  {% if is_full and s.lyrics != "" %}
+  <div class="versogram-lyrics">
+    {{ s.lyrics | newline_to_br }}
+  </div>
+  {% endif %}
+
+  <div class="versogram-meta">
+    <span class="versogram-meta-artist">{{ s.artist }}</span>
+    {% if s.album != "" %}
+      <span class="versogram-meta-album">{{ s.album }}</span>
+    {% endif %}
+    {% if s.year != "" %}
+      <span class="versogram-meta-year">{{ s.year }}</span>
+    {% endif %}
+    {% if is_full and s.ai_model != "" %}
+      <span class="versogram-meta-ai">{{ s.ai_model }}{% if s.ai_seed != "" %} / {{ s.ai_seed }}{% endif %}</span>
+    {% endif %}
+  </div>
+
+  {% if s.qr_svg != "" %}
+  <div class="versogram-qr">
+    <img src="{{ s.qr_svg | relative_url }}" alt="QR code for {{ s.title }}">
+  </div>
+  {% endif %}
+
+</div>

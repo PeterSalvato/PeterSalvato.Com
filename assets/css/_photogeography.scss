@@ -1,0 +1,196 @@
+// ============================================================================
+// PHOTOGEOGRAPHY — Photo card component and gallery
+// ============================================================================
+
+// The card is image + caption + metadata. Format-locked: 3:2, 4:3, 1:1.
+
+.photogeography-card {
+  background: #1a1a1a;
+  color: #f0ece4;
+  padding: $space-lg;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  gap: $space-md;
+  position: relative;
+  overflow: hidden;
+}
+
+// ---------------------------------------------------------------------------
+// Format-locked aspect ratios — the image container respects capture format
+// ---------------------------------------------------------------------------
+
+.photogeography-card--3x2 .photogeography-image {
+  aspect-ratio: 3 / 2;
+}
+
+.photogeography-card--4x3 .photogeography-image {
+  aspect-ratio: 4 / 3;
+}
+
+.photogeography-card--1x1 .photogeography-image {
+  aspect-ratio: 1 / 1;
+}
+
+// ---------------------------------------------------------------------------
+// Image
+// ---------------------------------------------------------------------------
+
+.photogeography-image {
+  position: relative;
+  background: #0d0d0d;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+}
+
+.photogeography-image-placeholder {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #1a1a1a 0%, #2a2520 50%, #1a1a1a 100%);
+}
+
+// ---------------------------------------------------------------------------
+// Caption: title + location + metadata
+// ---------------------------------------------------------------------------
+
+.photogeography-caption {
+  display: flex;
+  flex-direction: column;
+  gap: $space-xs;
+}
+
+.photogeography-title-svg {
+  width: 100%;
+  max-height: 2.5rem;
+  object-fit: contain;
+  object-position: left center;
+  filter: brightness(0) invert(1);
+}
+
+.photogeography-title-text {
+  font-family: $font-display;
+  font-size: $type-h3;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin: 0;
+  color: #f0ece4;
+}
+
+.photogeography-location {
+  font-family: $font-body;
+  font-size: $type-caption;
+  color: #c0b8a8;
+}
+
+// ---------------------------------------------------------------------------
+// Metadata
+// ---------------------------------------------------------------------------
+
+.photogeography-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $space-sm $space-md;
+  font-family: $font-mono;
+  font-size: $type-fine;
+  letter-spacing: 0.04em;
+  color: #5c5347;
+  border-top: 1px solid #2a2520;
+  padding-top: $space-sm;
+}
+
+// ---------------------------------------------------------------------------
+// QR code
+// ---------------------------------------------------------------------------
+
+.photogeography-qr {
+  position: absolute;
+  bottom: $space-lg;
+  right: $space-lg;
+  width: 48px;
+  height: 48px;
+
+  img {
+    width: 100%;
+    height: 100%;
+    filter: brightness(0) invert(0.4);
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Full detail view
+// ---------------------------------------------------------------------------
+
+.photogeography-card--full {
+  max-width: 700px;
+  margin: 0 auto;
+
+  .photogeography-qr {
+    width: 64px;
+    height: 64px;
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Gallery grid
+// ---------------------------------------------------------------------------
+
+.photogeography-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: $space-lg;
+  margin-top: $space-xl;
+}
+
+.photogeography-gallery-link {
+  text-decoration: none;
+  color: inherit;
+  transition: transform $transition-fast;
+
+  &:hover {
+    transform: translateY(-2px);
+  }
+}
+
+// Gallery cards: smaller QR
+.photogeography-gallery .photogeography-card {
+  .photogeography-qr {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Detail page
+// ---------------------------------------------------------------------------
+
+.photogeography-detail {
+  max-width: $container-max;
+}
+
+.photogeography-notes {
+  margin-top: $space-xl;
+  color: $color-ink;
+}
+
+// ---------------------------------------------------------------------------
+// Responsive
+// ---------------------------------------------------------------------------
+
+@media (max-width: 599px) {
+  .photogeography-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .photogeography-card {
+    padding: $space-md;
+  }
+
+  .photogeography-card--full {
+    max-width: 100%;
+  }
+}

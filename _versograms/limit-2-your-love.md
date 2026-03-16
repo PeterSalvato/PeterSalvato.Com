@@ -1,0 +1,6 @@
+---
+layout: versogram
+slug: limit-2-your-love
+title: "Limit 2 Your Love"
+description: "Versogram: Limit 2 Your Love by James Blake"
+---

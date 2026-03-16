@@ -19,14 +19,14 @@ cta:
   link: /practice/this-site
 ---
 
-For five months, at the end of marathon sessions, I typed the same request: "give me a savepoint." The word showed up in twenty-plus conversations before it became a system. The reflex came before the syntax.
+For five months, at the end of marathon sessions, I typed the same request: "give me a savepoint." The word showed up in twenty-plus conversations before it became a system. The reflex showed up before the syntax did.
 
-I kept losing the turning points. Not the notes, not the decisions, but the exact moment understanding shifted. A session would run for hours, something would click, and then the thread would close. The model processes everything said in a session, but none of it survives. I'd come back and the thinking was gone. The question that produced the syntax was not "how do I document my thinking?" It was: what does the model actually need to reconstruct where I was?
+I kept losing the turning points. Not the notes. Not the decisions. The exact moment understanding shifted. A session would run for hours, something would click, and then the thread would close. The model processes everything said in a session, but none of it survives. I'd come back and the thinking was gone. The question that produced the syntax was not "how do I document my thinking?" It was: what does the model actually need to reconstruct where I was?
 
 > "I basically just don't want to lose any of the brainstorming ideation that we do. We wind up with these marathon sessions and your memory limitations cause us to lose things."
 > — from the session where the syntax was born, March 2025
 
-What came out was a markup format. A way to mark, inline, the exact point where understanding shifted, without stopping the flow. The tag went through months of revision. One result I did not anticipate: I could go back through months of ideation and find the exact moment a decision locked in. A trail system through the archive.
+What came out was a markup format. A way to mark, inline, the exact point where understanding shifted, without stopping the flow. The tag went through months of revision. One thing I didn't anticipate: I could go back through months of ideation and find the exact moment a decision locked in. A trail system through the archive.
 
 ---
 
@@ -153,7 +153,7 @@ v3.2 adds one optional field: `context`. One sentence of actual substance. What 
 
 The v3.1 version of this savepoint had the same `#` line. Without `context:`, a future session has to dig through the conversation to reconstruct the three-layer strategy. With it, the savepoint is self-contained. That's the difference between an index entry and a preservation format.
 
-The self-closing tag hasn't changed since v3.0. Each revision since has added optional fields in response to a specific retrieval failure: couldn't filter by project (v3.1 added `project:`), couldn't find it by search terms (v3.1 added `keywords:`), couldn't reconstruct what it meant (v3.2 added `context:`). The protocol is shaped by the retrieval, not the capture. Every field earned its place by failing without it.
+The self-closing tag hasn't changed since v3.0. Each revision since has added optional fields in response to a specific retrieval failure: couldn't filter by project (v3.1 added `project:`), couldn't find it by search terms (v3.1 added `keywords:`), couldn't reconstruct what it meant (v3.2 added `context:`). The protocol is shaped by retrieval, not capture. Every field earned its place by failing without it.
 
 The syntax runs across everything now: [Encore's](/evidence/encore/) platform decisions, [Aiden Jae's](/evidence/aiden-jae/) brand architecture, the portfolio site itself, the novel that started it. v3.2, open source.
 

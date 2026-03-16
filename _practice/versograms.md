@@ -1,9 +1,11 @@
 ---
 layout: project
-redirect_from: /output/versagrams/
+redirect_from:
+  - /output/versagrams/
+  - /practice/versagrams/
 practice_group: meditations
 published: false
-title: "Versagrams"
+title: "Versograms"
 subtitle: "Song Lyrics as Typographic Architecture"
 icon: construction
 status: "In Development"
@@ -11,7 +13,7 @@ context: "Most song posters illustrate what a song is 'about.' The image referen
 faculty: ["design"]
 seo_keywords: ["Typography Design", "Song Lyrics", "Constraint-Based Generation", "Poster Series", "Visual-Textual Integration"]
 description: "Song lyrics as typographic architecture. Polaroid-vertical format, Swiss grid, AI-generated imagery from lyric content. Fixed constraint across 16 songs."
-last_modified: 2026-02-25
+last_modified: 2026-03-16
 ---
 
 Most song posters illustrate what a song is "about." The image references the mood. The lyrics get set in whatever type looks good. Neither element is derived from the same source, so they coexist without cohering.
@@ -36,10 +38,18 @@ The furniture-from-different-stores problem: type and image designed separately 
 
 **Physical artifact.** Collectible prints, small-batch. A Spotify playlist accompanies the digital presentation.
 
-**First batch:** 16 songs. Among them: "Soft Serve" (Soul Coughing), "2 Wicky" (Hooverphonic), "Limit to Your Love" (James Blake), "Cherub Rock" (Smashing Pumpkins), "46 & 2" (Tool).
+## THE WORK
+
+<div class="versograms-gallery">
+{% for song in site.data.versograms.songs %}
+  {% if song.batch == 1 %}
+  <a href="{{ '/versograms/' | append: song.slug | append: '/' | relative_url }}" class="versograms-gallery-link">
+    {% include versogram-card.html song=song full=false %}
+  </a>
+  {% endif %}
+{% endfor %}
+</div>
 
 ## THE PROOF
 
 A fixed container with a shared constraint makes the relationship between type and image legible, and makes it repeatable across 16 songs without any two pieces feeling like the same decision made twice. [Meditations](/practice/meditations/) works from the same premise: lock the visual system, populate it with content the constraint wasn't designed for, and see what emerges.
-
-In development. First songs selected, layout system in progress.

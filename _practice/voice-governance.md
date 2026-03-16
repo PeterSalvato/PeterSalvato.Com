@@ -40,7 +40,7 @@ LLMs generate text from training data dominated by published writing: polished, 
 
 This is not a capability limitation. The model can generate text in virtually any style. The problem is that its default patterns are deeply embedded, and those defaults reassert themselves within paragraphs even when the model has been instructed to write differently. A paragraph that begins in a practitioner's voice drifts back to the statistical center by its third sentence. The defaults have gravity.
 
-I discovered this empirically. The first complete draft of petersalvato.com was produced through conventional AI-assisted writing: provide context, describe the desired voice, generate text, review and edit. Twenty-one project pages. Every one of them opened with an abstract concept before any real situation was established. "This project explores the intersection of..." on a page that should have said what broke and what I built to fix it.
+I found this out the hard way. The first complete draft of petersalvato.com was produced through conventional AI-assisted writing: provide context, describe the desired voice, generate text, review and edit. Twenty-one project pages. Every one of them opened with an abstract concept before any real situation was established. "This project explores the intersection of..." on a page that should have said what broke and what I built to fix it.
 
 The pages were competent. Not one of them sounded like a person had written it.
 
@@ -64,7 +64,7 @@ The academic approach trains or fine-tunes models on a corpus of the target writ
 
 ### 2.2 Persona Prompting
 
-"You are a senior design engineer with 25 years of experience." The model generates a caricature. It performs confidence, uses jargon, and structures its responses the way it predicts a senior design engineer would structure them. Change the persona label and the output changes less than you would expect. The persona is a costume. The voice underneath is the same.
+"You are a senior design engineer with 25 years of experience." The model generates a caricature. It performs confidence, uses jargon, and structures its responses the way it predicts a senior design engineer would structure them. Change the persona label and the output changes less than you would expect. The persona is a costume. The voice underneath doesn't change much.
 
 ### 2.3 Controllable Generation
 
@@ -95,7 +95,7 @@ Generate-then-filter is the equivalent of giving a student a compound task, lett
 
 A teacher working with a student who has processing limitations does not say: "Write an essay. I will tell you what is wrong after you are done." The teacher scaffolds the production: provide the structure, constrain the approach, define success criteria before the work begins. The accommodation happens at the point of production, not at the point of review.
 
-Post-hoc voice correction is post-hoc accommodation. It does not work for the same reason post-hoc instruction does not work: the processing that produced the output already happened with the wrong architecture. Fixing the output does not fix the process.
+Post-hoc voice correction is post-hoc accommodation. It doesn't work for the same reason post-hoc instruction doesn't work: the processing that produced the output already happened with the wrong architecture. Fixing the output doesn't fix the process.
 
 
 ## 4. Voice Governance as Generation Constraint
@@ -220,7 +220,7 @@ The AI writing field is organized around a generate-then-filter architecture. Pr
 
 Voice governance provides the generation constraint architecture: codified rules extracted from conversation, applied during production, preventing the model's default patterns from activating. The result is text that a third-party detection tool classified as human-written, produced by the same model that generates detectable AI text without the constraints.
 
-The insight is accommodation design applied to voice. The model has a processing tendency (statistical center of training data). The tendency produces a specific harm (the human disappears). The accommodation (generation constraints, not post-hoc filters) is designed for the model's processing reality: give it explicit rules before it begins, the same way you give a student explicit scaffolding before they attempt the task. The accommodation happens at the point of production, where it can shape the structure. Not at the point of review, where it can only change the surface.
+The insight is accommodation design applied to voice. The model has a processing tendency (statistical center of training data). The tendency produces a specific harm (the human disappears). The accommodation (generation constraints, not post-hoc filters) is designed for the model's processing reality: give it explicit rules before it begins, the same way you give a student explicit scaffolding before they attempt the task. The accommodation happens at the point of production, where it can shape the structure, not at the point of review, where it can only change the surface.
 
 ---
 

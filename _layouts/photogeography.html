@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+{% assign photo = nil %}
+{% for p in site.data.photogeography.photos %}
+  {% if p.slug == page.slug %}
+    {% assign photo = p %}
+  {% endif %}
+{% endfor %}
+
+<article class="photogeography-detail">
+  {% include photogeography-card.html photo=photo full=true %}
+
+  {% if page.content != "" %}
+  <div class="photogeography-notes">
+    {{ content }}
+  </div>
+  {% endif %}
+</article>
+
+{% include connections.html %}

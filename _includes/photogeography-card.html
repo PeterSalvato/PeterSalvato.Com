@@ -1,0 +1,55 @@
+{% comment %}
+  Photogeography card component.
+  Parameters:
+    photo — photo object from _data/photogeography.json
+    full  — if true, render full-size with extended metadata. if false, render as gallery card.
+{% endcomment %}
+
+{% assign p = include.photo %}
+{% assign is_full = include.full %}
+
+<div class="photogeography-card photogeography-card--{{ p.format | replace: ':', 'x' }}{% if is_full %} photogeography-card--full{% endif %}">
+
+  <div class="photogeography-image">
+    {% if p.image != "" %}
+      <img src="{{ p.image | relative_url }}" alt="{{ p.title }}{% if p.location_label != '' %}, {{ p.location_label }}{% endif %}">
+    {% else %}
+      <div class="photogeography-image-placeholder"></div>
+    {% endif %}
+  </div>
+
+  <div class="photogeography-caption">
+    {% if p.headline_svg != "" %}
+      <img src="{{ p.headline_svg | relative_url }}" alt="{{ p.title }}" class="photogeography-title-svg">
+    {% elsif p.title != "" %}
+      <h2 class="photogeography-title-text">{{ p.title }}</h2>
+    {% endif %}
+
+    {% if p.location_label != "" %}
+      <span class="photogeography-location">{{ p.location_label }}</span>
+    {% endif %}
+
+    <div class="photogeography-meta">
+      {% if p.latitude != "" and p.longitude != "" %}
+        <span class="photogeography-meta-coords">{{ p.latitude }}, {{ p.longitude }}</span>
+      {% endif %}
+      {% if p.timestamp != "" %}
+        <span class="photogeography-meta-timestamp">{{ p.timestamp }}</span>
+      {% endif %}
+      {% if p.camera != "" %}
+        <span class="photogeography-meta-camera">{{ p.camera }}</span>
+      {% endif %}
+      {% if p.film != "" %}
+        <span class="photogeography-meta-film">{{ p.film }}</span>
+      {% endif %}
+      <span class="photogeography-meta-format">{{ p.format }}</span>
+    </div>
+  </div>
+
+  {% if p.qr_svg != "" %}
+  <div class="photogeography-qr">
+    <img src="{{ p.qr_svg | relative_url }}" alt="QR code for {{ p.title }}">
+  </div>
+  {% endif %}
+
+</div>

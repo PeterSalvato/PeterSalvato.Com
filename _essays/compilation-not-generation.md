@@ -18,7 +18,7 @@ Most people use AI as a generator. Prompt in, content out. The AI is the author.
 
 I use it as a compiler.
 
-The distinction is structural, and it determines who the author actually is.
+The distinction matters because it determines who the author actually is.
 
 ---
 
@@ -26,31 +26,29 @@ A compiler takes source code a human wrote and transforms it into something a ma
 
 My source code is the accumulated working knowledge: decisions made on construction sites, in print shops, across twelve years on an enterprise platform, inside classrooms, over kitchen counters. Three years of that thinking lives in a massive corpus of conversations: sessions where I argued with tools, worked through problems, explained things to myself, failed at things until they worked.
 
-That's the codebase. It's raw, unpolished, and entirely mine. It exists because the system was designed to accept it raw. In [FormWork](/systems/formwork/), the first accommodation is aimed at the human: get the thinking out of your head with as little friction as possible. Talk, dictate, answer questions. Don't organize, don't outline, don't perform. The rawness is not a side effect. It's the point. Structured input has already lost the thing the tools need most: how I actually think.
+That's the codebase. It's raw, unpolished, and entirely mine. It exists because the system was designed to accept it raw. In [FormWork](/systems/formwork/), the first accommodation is aimed at the human: get the thinking out of your head with as little friction as possible. Talk, dictate, answer questions. Don't organize, don't outline, don't perform. The rawness is the point. Structured input has already lost the thing the tools need most, which is how I actually think.
 
-The system (the [voice protocol](/practice/this-site/), the [evaluation lenses](/systems/lensarray/), the knowledge skill that traverses my ideation history) constitutes the compiler passes. They mine the source material, evaluate it against criteria I set, and assemble it into output that sounds like me because the source material *is* me.
-
-The site is the compiled binary.
+The system (the [voice protocol](/practice/this-site/), the [evaluation lenses](/systems/lensarray/), the knowledge skill that traverses my ideation history) is the compiler passes. They mine the source material, evaluate it against criteria I set, and assemble it into output that sounds like me because the source material *is* me. The site is what comes out the other end.
 
 ---
 
 Generation starts from a prompt and produces something new. The AI draws on its training data and constructs output. The human's contribution is the instruction. Everything else comes from the model.
 
-Compilation starts from existing source material and transforms it. The source material only exists because the human was accommodated: no requirement to structure, organize, or perform. The human's contribution is the thinking itself, captured in their actual voice. The system's contribution is the transformation: mining, evaluating, assembling. The system invents nothing and hallucinates nothing. If a claim can't be traced back to something I actually said or decided in the raw material, it doesn't ship.
+Compilation starts from existing source material and transforms it. The source material only exists because the human was accommodated: no requirement to structure, organize, or perform. The human's contribution is the thinking itself, captured in their actual voice. The system's contribution is the transformation: mining, evaluating, assembling. The system invents nothing. If a claim can't be traced back to something I actually said or decided in the raw material, it doesn't ship.
 
-A [blind evaluator](/essays/the-site-is-the-proof/) read this site and could not identify machine involvement. The system compiled my thinking. The voice is mine because the ore is mine.
+A [blind evaluator](/essays/the-site-is-the-proof/) read this site and could not identify machine involvement. The system compiled my thinking, and the voice came through because the ore was mine.
 
 ---
 
 This distinction matters for one reason: authorship.
 
-If you use AI as a generator, the AI is the author and you're the editor. Your contribution is taste, choosing which outputs to keep. That's real work, but it's curatorial, not authorial.
+If you use AI as a generator, the AI is the author and you're the editor. Your contribution is taste, choosing which outputs to keep. That's real work, but it's curatorial.
 
-If you use AI as a compiler, you are the author. Your accumulated practice, your specific decisions, your voice as it actually sounds in unguarded conversation. That's the source code. The system transforms it. The system doesn't originate it.
+If you use AI as a compiler, you are the author. Your accumulated practice, your specific decisions, your voice as it actually sounds in unguarded conversation. That's the source code. The system transforms it but doesn't originate any of it.
 
 I built the [governance layer](/systems/) to make sure that line stays clear. The [Savepoint Syntax](/systems/savepoint/) preserves my cognitive turning points so the system can't drift from where my thinking actually went. [FormWork](/systems/formwork/){:.vocab-ref} coordinates the tools that shape the work: [SavePoint](/systems/savepoint/){:.vocab-ref} preserves decisions so no session contradicts what's already been settled, [LensArray](/systems/lensarray/){:.vocab-ref} evaluates across independent dimensions. The voice protocol catches the moment the output stops sounding like me and starts sounding like a machine performing me.
 
-The whole infrastructure exists to maintain one thing: the human is the source code, and the compiled output proves it.
+The whole infrastructure exists to keep that line clear. I'm the source code. The compiled output should make that obvious.
 
 ---
 

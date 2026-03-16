@@ -16,7 +16,7 @@ related:
 
 Read ten AI-assisted "About" pages and you'll notice they sound identical. The same cadence, the same transitions, the same way of building to a point. Different words, same voice. The person disappears and what's left is the tool's default register.
 
-You can fix this partially with style guides, voice examples, tone specifications. The output gets better than the default, but it still won't sound like the person. It sounds like an AI doing an impression of a style guide. The reason is structural, and once I understood it, I could build a solution.
+You can fix this partially with style guides, voice examples, tone specifications. The output gets better than the default, but it still won't sound like the person. It sounds like an AI doing an impression of a style guide. The reason is structural, and once I figured out why, I could build something that actually works.
 
 ## Why it happens
 
@@ -26,7 +26,7 @@ The way someone writes a LinkedIn post is not how they think. The way someone wr
 
 So when you ask an AI to write "in your voice" and give it your published work as examples, you're handing it the performance. The AI learns to imitate that, and since most people's published performances converge toward the same conventions (clean transitions, parallel structure, building to a thesis), the output converges too. Different people, same register.
 
-The real voice lives in the conversations. The working messages. The unguarded explanations where someone is thinking out loud instead of presenting a finished thought.
+The real voice lives in conversations. Working messages. The unguarded explanations where someone is thinking out loud instead of presenting a finished thought.
 
 ## The conversations
 
@@ -34,7 +34,7 @@ Between January 2023 and early 2026, I talked to AI tools the way I used to talk
 
 Most of that material is me talking. Explaining problems, working through decisions, arguing with myself about naming, reacting to what the tool produced, directing implementation. The way I start sentences, the vocabulary I reach for when I'm not performing, how I describe problems (feeling first or situation first), how I transition between ideas (connectors or hard breaks), what makes me funny and what makes me frustrated.
 
-That conversational material is the actual voice. Published writing filters it out.
+That conversational material is the actual voice. Published writing filters it out, which is why you can't use published writing as the source.
 
 ## The pipeline
 
@@ -44,7 +44,7 @@ That conversational material is the actual voice. Published writing filters it o
 
 The voice-sample skill reads my conversation transcripts and captures observations about how I actually talk. The output isn't a style guide. It's a tuning fork. It tracks sentence rhythm (short bursts or long flowing thoughts?), opening moves ("so basically...", "the thing is...", "yeah let's..."), natural vocabulary, transitions, humor, qualifying phrases. Each session that does copy work adds observations to a persistent file, and over time it builds a detailed fingerprint.
 
-The key constraint: voice sampling reads conversations, not published pages. The published pages are the output. The conversations are the source. Those are different things, and conflating them is how you end up with AI voice that sounds polished but empty.
+The key constraint: voice sampling reads conversations, not published pages. Published pages are the output. Conversations are the source. Conflating those is how you end up with AI voice that sounds polished but empty.
 
 ### Governance constraint
 
@@ -88,6 +88,6 @@ Every page should land at Grip or Lock for a stranger. If a page sits at Fingern
 
 ## What this solves
 
-The pipeline constrains the space of possible output so that the things AI writing typically gets wrong are caught before they ship. The voice sample sets the tuning reference. The governance rules eliminate the most common failure modes. The checklist catches what slips through. Voice still requires a person. What the pipeline does is keep the tool from overwriting that person with its default register.
+The pipeline constrains the space of possible output so the things AI writing typically gets wrong are caught before they ship. The voice sample sets the tuning reference. The governance rules knock out the most common failure modes. The checklist catches what slips through. Voice still requires a person. What the pipeline does is keep the tool from overwriting that person with its default register.
 
-Every published page on my site has been through this pipeline. Read them back to back and you'll hear a specific person with real opinions and a specific way of getting to the point. The person didn't disappear. That's what the pipeline is for.
+Every published page on my site has been through this pipeline. Read them back to back and you'll hear a specific person with real opinions and a specific way of getting to the point. That's the thing I was trying to protect.

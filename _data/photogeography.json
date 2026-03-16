@@ -1,0 +1,22 @@
+{
+  "photos": [
+    {
+      "sequence": 1,
+      "batch": 1,
+      "slug": "example",
+      "title": "",
+      "format": "3:2",
+      "camera": "",
+      "film": "",
+      "location_label": "",
+      "latitude": "",
+      "longitude": "",
+      "timestamp": "",
+      "image": "",
+      "headline_svg": "",
+      "qr_svg": "",
+      "qr_url": "",
+      "notes": ""
+    }
+  ]
+}

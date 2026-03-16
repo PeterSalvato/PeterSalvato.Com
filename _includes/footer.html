@@ -4,32 +4,57 @@
         <div class="footer-column">
             <h4>Work</h4>
             <ul>
-                <li><a href="{{ '/practice/' | relative_url }}">Practice</a></li>
-                <li><a href="{{ '/systems/' | relative_url }}">Tools</a></li>
-                <li><a href="{{ '/evidence/' | relative_url }}">Proof</a></li>
+                <li><a href="{{ '/evidence/encore/' | relative_url }}">Encore</a></li>
+                <li><a href="{{ '/evidence/aiden-jae/' | relative_url }}">Aiden Jae</a></li>
+                <li><a href="{{ '/evidence/altrueism/' | relative_url }}">Altrueism</a></li>
+                <li><a href="{{ '/evidence/new-city/' | relative_url }}">New City</a></li>
+            </ul>
+        </div>
+
+        <!-- Column 2: How I Work -->
+        <div class="footer-column">
+            <h4>How I Work</h4>
+            <ul>
+                <li><a href="{{ '/systems/formwork/' | relative_url }}">FormWork</a></li>
+                <li><a href="{{ '/systems/savepoint/' | relative_url }}">SavePoint</a></li>
+                <li><a href="{{ '/systems/lensarray/' | relative_url }}">LensArray</a></li>
+                <li><a href="{{ '/practice/this-site/' | relative_url }}">This Site</a></li>
+                <li><a href="{{ '/practice/accommodation-design/' | relative_url }}">Accommodation Design</a></li>
+                <li><a href="{{ '/practice/input-inversion/' | relative_url }}">Input Inversion</a></li>
+                <li><a href="{{ '/practice/prosthetic-cognition/' | relative_url }}">Prosthetic Cognition</a></li>
+                <li><a href="{{ '/practice/voice-governance/' | relative_url }}">Voice Governance</a></li>
+                <li><a href="{{ '/practice/lens-extraction/' | relative_url }}">Lens Extraction</a></li>
+                <li><a href="{{ '/practice/semantic-hierarchy/' | relative_url }}">Semantic Hierarchy</a></li>
+            </ul>
+        </div>
+
+        <!-- Column 3: Practice -->
+        <div class="footer-column">
+            <h4>Practice</h4>
+            <ul>
+                <li><a href="{{ '/practice/pressworks/' | relative_url }}">PressWorks</a></li>
+                <li><a href="{{ '/practice/order-of-the-aetherwright/' | relative_url }}">Aetherwright</a></li>
+                <li><a href="{{ '/practice/mathontape/' | relative_url }}">MathOnTape</a></li>
+                <li><a href="{{ '/practice/sovereign-design-engine/' | relative_url }}">Sovereign Design Engine</a></li>
+            </ul>
+        </div>
+
+        <!-- Column 4: Writing -->
+        <div class="footer-column">
+            <h4>Writing</h4>
+            <ul>
                 <li><a href="{{ '/essays/' | relative_url }}">Essays</a></li>
             </ul>
         </div>
 
-        <!-- Column 2: Context -->
+        <!-- Column 5: About -->
         <div class="footer-column">
-            <h4>Context</h4>
+            <h4>About</h4>
             <ul>
                 <li><a href="{{ '/thinking/' | relative_url }}">How I Think</a></li>
-                <li><a href="{{ '/vocabulary' | relative_url }}">Vocabulary</a></li>
                 <li><a href="{{ '/bio/' | relative_url }}">Bio</a></li>
-                <li><a href="{{ '/practice/this-site' | relative_url }}">This Site</a></li>
-            </ul>
-        </div>
-
-        <!-- Column 3: Connect -->
-        <div class="footer-column">
-            <h4>Connect</h4>
-            <ul>
-                <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-                {% for link in site.data.index.contact.links %}
-                <li><a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.title }}</a></li>
-                {% endfor %}
+                <li><a href="{{ '/vocabulary/' | relative_url }}">Vocabulary</a></li>
+                <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
             </ul>
             <div class="copyright">&copy; 2026 Peter Salvato</div>
         </div>

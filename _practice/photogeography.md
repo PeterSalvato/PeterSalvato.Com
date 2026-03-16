@@ -51,3 +51,15 @@ No image is cropped to fit a format. No image's format is changed in post. The c
 If you can't crop, you reposition. If you can't change the ratio, you learn to see in the shape the format demands. Fewer options means you actually have to see what's in front of you. This started as an experiment inside [Meditations](/practice/meditations/) and grew into its own system once the archive got serious enough to need one.
 
 A visual archive that works as a record, not a portfolio.
+
+## THE WORK
+
+<div class="photogeography-gallery">
+{% for photo in site.data.photogeography.photos %}
+  {% if photo.batch == 1 %}
+  <a href="{{ '/photogeography/' | append: photo.slug | append: '/' | relative_url }}" class="photogeography-gallery-link">
+    {% include photogeography-card.html photo=photo full=false %}
+  </a>
+  {% endif %}
+{% endfor %}
+</div>

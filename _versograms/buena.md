@@ -1,0 +1,6 @@
+---
+layout: versogram
+slug: buena
+title: "Buena"
+description: "Versogram: Buena by Morphine"
+---

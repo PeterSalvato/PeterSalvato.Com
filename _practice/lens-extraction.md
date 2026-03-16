@@ -49,9 +49,9 @@ That solves the compound-evaluation problem. It does not solve the criteria prob
 
 Generic evaluation criteria produce generic evaluation. "Is the typography clean?" is answerable but uninformative. "Does the type system demonstrate the economy of means and systematic limitation that Vignelli consistently demanded across forty years of practice?" produces a different evaluation entirely.
 
-The difference is not precision alone. It is perspective. A generic criterion evaluates against a statistical average of what "good" means. An extracted criterion evaluates against a specific practitioner's consistent, documented standards. The first tells you whether the work is competent. The second tells you whether the work would satisfy someone whose judgment you trust.
+The difference is not just precision. It's perspective. A generic criterion evaluates against a statistical average of what "good" means. An extracted criterion evaluates against a specific practitioner's consistent, documented standards. The first tells you whether the work is competent. The second tells you whether the work would satisfy someone whose judgment you trust.
 
-The model for this existed before AI. The critique room at the School of Visual Arts. Multiple faculty evaluating the same work independently, from different perspectives, in good faith, at the same time. Where they agreed, strong signal. Where they disagreed, a decision for the maker. The evaluative function was decomposed across independent perspectives, and the disagreements were the most valuable output. Not noise. Decision points.
+The model for this existed before AI. The critique room at the School of Visual Arts. Multiple faculty evaluating the same work independently, from different perspectives, in good faith, at the same time. Where they agreed, strong signal. Where they disagreed, a decision for the maker. The evaluative function was decomposed across independent perspectives, and the disagreements were the most valuable output. The disagreements were the most valuable output.
 
 The question is how to reconstruct that evaluative function in AI-mediated work.
 
@@ -133,7 +133,7 @@ Each lens runs independently. Each produces its own verdict. The coordinator col
 
 A single lens produces imitation. If you extract Vignelli and apply only Vignelli, you get work that looks like Vignelli's. Multiple lenses produce tension. Vignelli demands restraint. Victore demands personality. Vignelli says remove everything unnecessary. Victore says put yourself into everything. Those two instructions, applied to the same page, force a decision no single influence would have produced.
 
-The tensions between lenses are where the interesting decisions live. Over time, the accumulated resolutions become the work itself. The maker resolves every disagreement. The system identifies where the disagreements are. That is the accommodation: the system does the parallel evaluation the maker cannot hold simultaneously, and the maker provides the judgment the system cannot perform.
+The tensions between lenses are where the interesting decisions live. Over time, the accumulated resolutions become the work itself. The system identifies where the disagreements are. The maker resolves them. That's the accommodation: the system does the parallel evaluation the maker can't hold simultaneously, and the maker provides the judgment the system can't perform.
 
 The IEP parallel is direct. Individualized criteria, independent assessment, the practitioner resolving conflicts between goals that measure different things. A student's IEP has multiple goals that sometimes conflict (build independence vs. provide support). The teacher navigates the tension. The framework holds both goals without pretending they are the same dimension.
 
@@ -190,7 +190,7 @@ The accommodation is bilateral. The AI cannot evaluate across all dimensions sim
 
 **Disagreement is signal, not noise.** Multi-perspective systems should expect and value disagreement between lenses. The disagreements identify exactly where the maker's judgment is needed. A system that eliminates disagreement by averaging has removed the most valuable output.
 
-**The maker stays in the loop.** Lens extraction does not replace the maker's judgment. It identifies where the maker's judgment is required and provides the specific criteria each perspective would bring to the decision. The final choice is always the maker's. The system was designed to produce that outcome.
+**The maker stays in the loop.** Lens extraction doesn't replace the maker's judgment. It identifies where the maker's judgment is required and provides the specific criteria each perspective would bring to the decision. The final choice is always the maker's.
 
 **The protocol is replicable.** Any practitioner with a documented body of work can be extracted into a lens. Any domain with multiple evaluative perspectives can benefit from decomposed, lens-based evaluation. The protocol is not limited to visual design. Any field where "is this good?" is multiple questions disguised as one is a candidate.
 
@@ -199,9 +199,9 @@ The accommodation is bilateral. The AI cannot evaluate across all dimensions sim
 
 The AI evaluation field is organized around single-perspective scoring. One model, one rubric, one score. The evaluative function is flattened into a number that obscures what is strong, what is weak, and where the maker's judgment is needed.
 
-Lens extraction reconstructs the multi-perspective evaluation that working practitioners have always relied on. Multiple perspectives, extracted from real practice, running independently, with convergence and divergence both treated as signal. The tensions between lenses force decisions that no single perspective would produce. Those decisions, accumulated across every page, are what make the work specific to its maker.
+Lens extraction reconstructs the multi-perspective evaluation that working practitioners have always relied on. Multiple perspectives, extracted from real practice, running independently, with convergence and divergence both treated as signal. The tensions between lenses force decisions that no single perspective would produce. Those decisions, accumulated across every page, are what make the work belong to its maker.
 
-The protocol is derived from the accommodation design framework: decompose the compound task, individualize the criteria, let the practitioner resolve the conflicts. The same move that works in a self-contained classroom works in AI-mediated evaluation, because the processing limitation is the same. Compound tasks degrade. Decomposed tasks produce usable results. The evaluative function is no exception.
+The protocol is derived from the accommodation design framework: decompose the compound task, individualize the criteria, let the practitioner resolve the conflicts. The same move that works in a self-contained classroom works in AI-mediated evaluation. The processing limitation is the same.
 
 ---
 

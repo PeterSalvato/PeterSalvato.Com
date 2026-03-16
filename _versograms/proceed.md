@@ -1,0 +1,6 @@
+---
+layout: versogram
+slug: proceed
+title: "Proceed"
+description: "Versogram: Proceed by The Roots"
+---

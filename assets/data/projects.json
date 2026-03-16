@@ -1,0 +1,526 @@
+{
+  "meta": {
+    "generated": "2026-03-15",
+    "purpose": "Project art scaffolding for Illustrator",
+    "artboard_defaults": {
+      "hero": { "width": 1440, "height": 810, "format": "png" },
+      "og": { "width": 1200, "height": 630, "format": "png" },
+      "thumbnail": { "width": 600, "height": 400, "format": "jpg" }
+    }
+  },
+  "projects": [
+    {
+      "slug": "aiden-jae",
+      "collection": "evidence",
+      "title": "Aiden Jae",
+      "subtitle": "Building a Brand from Raw Material to Running Business",
+      "status": "Delivered",
+      "icon": "cases",
+      "url": "/evidence/aiden-jae/",
+      "description": "Jewelry brand built from raw material to running business. Custom Shopify architecture where the code respects the photograph. Identity, platform, packaging as one system.",
+      "logo": "/assets/img/aj_stacked_logo.svg",
+      "published": true,
+      "existing_assets": 46,
+      "asset_prefixes": ["AidenJae_", "aj_"],
+      "art_needs": {
+        "hero": true,
+        "og": false,
+        "diagrams": false
+      }
+    },
+    {
+      "slug": "altrueism",
+      "collection": "evidence",
+      "title": "Altrueism",
+      "subtitle": "Transparency as Visual Architecture",
+      "status": "Delivered",
+      "icon": "cases",
+      "url": "/evidence/altrueism/",
+      "description": "Brand identity for handcrafted objects and sustainable ethics. Restrained wordmark, humanist type, earthen palette. Transparency as visual architecture.",
+      "logo": "/assets/img/Altruesm_stacked_web.png",
+      "published": true,
+      "existing_assets": 8,
+      "asset_prefixes": ["Altrueism_", "Altruesm_"],
+      "art_needs": {
+        "hero": true,
+        "og": false,
+        "diagrams": false
+      }
+    },
+    {
+      "slug": "encore",
+      "collection": "evidence",
+      "title": "Encore",
+      "subtitle": "12-Year Enterprise Platform Evolution",
+      "status": "Deployed",
+      "icon": "cases",
+      "url": "/evidence/encore/",
+      "description": "Twelve-year enterprise platform evolution (2013-2025). Migrated a desktop Windows Forms recruiting platform to a browser-based modular JS framework while it served some of the largest organizations in the world.",
+      "logo": "/assets/img/Encore_logo.png",
+      "published": true,
+      "existing_assets": 11,
+      "asset_prefixes": ["Encore_", "Cluen_"],
+      "art_needs": {
+        "hero": true,
+        "og": false,
+        "diagrams": true
+      }
+    },
+    {
+      "slug": "new-city",
+      "collection": "evidence",
+      "title": "New City",
+      "subtitle": "Registration Architecture Applied to Prose",
+      "status": "In Development",
+      "icon": "cases",
+      "url": "/evidence/new-city/",
+      "description": "Registration architecture applied to prose. Four simultaneous layers across a three-layer fractal. Each beat specced for story, narrative structure, and somatic reader experience.",
+      "logo": null,
+      "published": true,
+      "existing_assets": 6,
+      "asset_prefixes": ["New_City_"],
+      "art_needs": {
+        "hero": true,
+        "og": false,
+        "diagrams": true
+      }
+    },
+    {
+      "slug": "accommodation-design",
+      "collection": "practice",
+      "title": "AI Governance as Accommodation Design",
+      "subtitle": "A Pedagogical Framework for Human-AI System Architecture",
+      "status": "Published",
+      "icon": "construction",
+      "url": "/practice/accommodation-design/",
+      "description": "A whitepaper applying special education pedagogy to AI system architecture. Rather than constraining behavior, accommodation design asks what both systems in the room actually need.",
+      "logo": null,
+      "published": true,
+      "existing_assets": 0,
+      "asset_prefixes": [],
+      "art_needs": {
+        "hero": true,
+        "og": true,
+        "diagrams": true
+      }
+    },
+    {
+      "slug": "input-inversion",
+      "collection": "practice",
+      "title": "Input Inversion",
+      "subtitle": "Why Unstructured Human Thinking Produces Better AI Output",
+      "status": "Published",
+      "icon": "construction",
+      "url": "/practice/input-inversion/",
+      "description": "A whitepaper challenging the foundational assumption of prompt engineering: that quality AI output requires structured human input.",
+      "logo": null,
+      "published": true,
+      "existing_assets": 0,
+      "asset_prefixes": [],
+      "art_needs": {
+        "hero": true,
+        "og": true,
+        "diagrams": true
+      }
+    },
+    {
+      "slug": "prosthetic-cognition",
+      "collection": "practice",
+      "title": "A Different Kind of Harness",
+      "subtitle": "AI as Cognitive Prosthetic Through Mutual Accommodation",
+      "status": "Published",
+      "icon": "construction",
+      "url": "/practice/prosthetic-cognition/",
+      "description": "A whitepaper proposing that AI is most productive as a cognitive prosthetic: an extension of the practitioner's thinking through mutual accommodation.",
+      "logo": null,
+      "published": true,
+      "existing_assets": 0,
+      "asset_prefixes": [],
+      "art_needs": {
+        "hero": true,
+        "og": true,
+        "diagrams": true
+      }
+    },
+    {
+      "slug": "voice-governance",
+      "collection": "practice",
+      "title": "Voice Governance",
+      "subtitle": "Generation Constraints vs. Post-Hoc Filtering in AI-Mediated Writing",
+      "status": "Published",
+      "icon": "construction",
+      "url": "/practice/voice-governance/",
+      "description": "A whitepaper arguing that voice constraints applied during AI text generation produce structurally different output than the same constraints applied as post-hoc filters.",
+      "logo": null,
+      "published": true,
+      "existing_assets": 0,
+      "asset_prefixes": [],
+      "art_needs": {
+        "hero": true,
+        "og": true,
+        "diagrams": true
+      }
+    },
+    {
+      "slug": "lens-extraction",
+      "collection": "practice",
+      "title": "Lens Extraction",
+      "subtitle": "Decomposed Evaluation Through Practitioner-Derived Criteria",
+      "status": "Published",
+      "icon": "construction",
+      "url": "/practice/lens-extraction/",
+      "description": "A protocol for extracting named practitioners' evaluative frameworks, codifying them as testable criteria, and running multiple lenses independently against the same work.",
+      "logo": null,
+      "published": true,
+      "existing_assets": 0,
+      "asset_prefixes": [],
+      "art_needs": {
+        "hero": true,
+        "og": true,
+        "diagrams": true
+      }
+    },
+    {
+      "slug": "semantic-hierarchy",
+      "collection": "practice",
+      "title": "Semantic Flattening",
+      "subtitle": "Why Machine-Scored Memory Systems Erase What Matters Most",
+      "status": "Published",
+      "icon": "construction",
+      "url": "/practice/semantic-hierarchy/",
+      "description": "A whitepaper arguing that semantic importance in AI memory is a relationship between content and intent, not a property of content alone.",
+      "logo": null,
+      "published": true,
+      "existing_assets": 0,
+      "asset_prefixes": [],
+      "art_needs": {
+        "hero": true,
+        "og": true,
+        "diagrams": true
+      }
+    },
+    {
+      "slug": "this-site",
+      "collection": "practice",
+      "title": "This Site",
+      "subtitle": null,
+      "status": null,
+      "icon": null,
+      "url": "/practice/this-site/",
+      "description": "How this site was compiled by hand from a three-year corpus using the tools described on it.",
+      "logo": null,
+      "published": true,
+      "existing_assets": 0,
+      "asset_prefixes": [],
+      "art_needs": {
+        "hero": false,
+        "og": true,
+        "diagrams": false
+      }
+    },
+    {
+      "slug": "pressworks",
+      "collection": "practice",
+      "title": "PressWorks",
+      "subtitle": null,
+      "status": "Active",
+      "icon": "construction",
+      "url": "/practice/pressworks/",
+      "description": "Terminal-native print production. Models plate-by-plate press logic as composable shell operations.",
+      "logo": null,
+      "published": true,
+      "existing_assets": 6,
+      "asset_prefixes": ["Printshop_", "PPPP", "ppp-"],
+      "art_needs": {
+        "hero": true,
+        "og": false,
+        "diagrams": true
+      }
+    },
+    {
+      "slug": "order-of-the-aetherwright",
+      "collection": "practice",
+      "title": "Order of the Aetherwright",
+      "subtitle": "Symbolic Structure for Creative Work",
+      "status": "Active",
+      "icon": "construction",
+      "url": "/practice/order-of-the-aetherwright/",
+      "description": "A symbolic operating system for creative method. Glyphs, a living Codex, and daily ritual that makes the practice explicit enough to defend.",
+      "logo": "/assets/img/AE_sigil@4x.png",
+      "published": true,
+      "existing_assets": 3,
+      "asset_prefixes": ["AE_", "aetherwright_"],
+      "art_needs": {
+        "hero": true,
+        "og": false,
+        "diagrams": false
+      }
+    },
+    {
+      "slug": "mathontape",
+      "collection": "practice",
+      "title": "MathOnTape",
+      "subtitle": "Visual-Sonic Brand Integration",
+      "status": "In Development",
+      "icon": "construction",
+      "url": "/practice/mathontape/",
+      "description": "Experimental electronic music where visual identity and sonic texture are built as one brand system.",
+      "logo": "/assets/img/MathOnTape.stacked.logo.svg",
+      "published": true,
+      "existing_assets": 4,
+      "asset_prefixes": ["MathOnTape"],
+      "art_needs": {
+        "hero": true,
+        "og": false,
+        "diagrams": false
+      }
+    },
+    {
+      "slug": "sovereign-design-engine",
+      "collection": "practice",
+      "title": "Sovereign Design Engine",
+      "subtitle": "Headless Design Pipeline for Print-Ready Output",
+      "status": "Active",
+      "icon": "construction",
+      "url": "/practice/sovereign-design-engine/",
+      "description": "Headless, code-driven design pipeline. Source images and metadata in, print-ready PDFs out.",
+      "logo": null,
+      "published": true,
+      "existing_assets": 1,
+      "asset_prefixes": ["SDE_"],
+      "art_needs": {
+        "hero": true,
+        "og": false,
+        "diagrams": true
+      }
+    },
+    {
+      "slug": "cryptozoology",
+      "collection": "practice",
+      "title": "Cryptozoology",
+      "subtitle": "Pseudo-Academic Visual Archive",
+      "status": "In Development",
+      "icon": "construction",
+      "url": "/practice/cryptozoology/",
+      "description": "Creatures that don't exist, presented with full scholarly visual credibility.",
+      "logo": null,
+      "published": false,
+      "existing_assets": 0,
+      "asset_prefixes": [],
+      "art_needs": {
+        "hero": true,
+        "og": false,
+        "diagrams": false
+      }
+    },
+    {
+      "slug": "echo-and-bone",
+      "collection": "practice",
+      "title": "Echo & Bone",
+      "subtitle": "Symbolic Taxonomy of Archetypal Patterns",
+      "status": "In Development",
+      "icon": "construction",
+      "url": "/practice/echo-and-bone/",
+      "description": "Symbolic taxonomy of archetypal patterns. Stoic philosophy as first test case.",
+      "logo": "/assets/img/EchoAndBone_logo.svg",
+      "published": false,
+      "existing_assets": 4,
+      "asset_prefixes": ["EchoAndBone_"],
+      "art_needs": {
+        "hero": true,
+        "og": false,
+        "diagrams": false
+      }
+    },
+    {
+      "slug": "meditations",
+      "collection": "practice",
+      "title": "Meditations",
+      "subtitle": "Constraint-Based Graphic Explorations",
+      "status": "In Development",
+      "icon": "construction",
+      "url": "/practice/meditations/",
+      "description": "Constraint-based graphic explorations. Each series locks a visual system then populates it with content the constraint wasn't designed for.",
+      "logo": null,
+      "published": false,
+      "existing_assets": 0,
+      "asset_prefixes": [],
+      "art_needs": {
+        "hero": true,
+        "og": false,
+        "diagrams": false
+      }
+    },
+    {
+      "slug": "monstrum",
+      "collection": "practice",
+      "title": "Monstrum",
+      "subtitle": "Visual Taxonomy of the Monstrous",
+      "status": "In Development",
+      "icon": "construction",
+      "url": "/practice/monstrum/",
+      "description": "Visual taxonomy of the monstrous. Archival aesthetics and scholarly apparatus applied to creatures every culture builds.",
+      "logo": null,
+      "published": false,
+      "existing_assets": 0,
+      "asset_prefixes": [],
+      "art_needs": {
+        "hero": true,
+        "og": false,
+        "diagrams": false
+      }
+    },
+    {
+      "slug": "motorology",
+      "collection": "practice",
+      "title": "Motorology",
+      "subtitle": "Systematic Visual Taxonomy of Purpose-Built Vehicles",
+      "status": "In Development",
+      "icon": "construction",
+      "url": "/practice/motorology/",
+      "description": "Purpose-built vehicles as engineering problems solved in steel.",
+      "logo": null,
+      "published": false,
+      "existing_assets": 0,
+      "asset_prefixes": [],
+      "art_needs": {
+        "hero": true,
+        "og": false,
+        "diagrams": false
+      }
+    },
+    {
+      "slug": "photogeography",
+      "collection": "practice",
+      "title": "Photogeography",
+      "subtitle": "Format-Locked Visual Archive",
+      "status": "In Development",
+      "icon": "construction",
+      "url": "/practice/photogeography/",
+      "description": "Constraint-locked photography. Fixed aspect ratios encode the relational mode of each encounter.",
+      "logo": null,
+      "published": false,
+      "existing_assets": 0,
+      "asset_prefixes": [],
+      "art_needs": {
+        "hero": true,
+        "og": false,
+        "diagrams": false
+      }
+    },
+    {
+      "slug": "sentimentology",
+      "collection": "practice",
+      "title": "Sentimentology",
+      "subtitle": "Emotional Mapping Through Swiss Grid Systems",
+      "status": "In Development",
+      "icon": "construction",
+      "url": "/practice/sentimentology/",
+      "description": "Swiss grid systems applied to emotional terrain. Words from global languages for states English abandoned.",
+      "logo": null,
+      "published": false,
+      "existing_assets": 0,
+      "asset_prefixes": [],
+      "art_needs": {
+        "hero": true,
+        "og": false,
+        "diagrams": false
+      }
+    },
+    {
+      "slug": "the-deep-cuts",
+      "collection": "practice",
+      "title": "The Deep Cuts",
+      "subtitle": "DJ Methodology as Active Listening",
+      "status": "In Development",
+      "icon": "construction",
+      "url": "/practice/the-deep-cuts/",
+      "description": "DJ methodology as active listening pedagogy.",
+      "logo": null,
+      "published": false,
+      "existing_assets": 0,
+      "asset_prefixes": [],
+      "art_needs": {
+        "hero": true,
+        "og": false,
+        "diagrams": false
+      }
+    },
+    {
+      "slug": "versograms",
+      "collection": "practice",
+      "title": "Versograms",
+      "subtitle": "Song Lyrics as Typographic Architecture",
+      "status": "In Development",
+      "icon": "construction",
+      "url": "/practice/versograms/",
+      "description": "Song lyrics as typographic architecture. Polaroid-vertical format, Swiss grid, AI-generated imagery.",
+      "logo": null,
+      "published": false,
+      "existing_assets": 1,
+      "asset_prefixes": ["SDE_versogram"],
+      "art_needs": {
+        "hero": true,
+        "og": false,
+        "diagrams": false
+      }
+    },
+    {
+      "slug": "formwork",
+      "collection": "systems",
+      "title": "FormWork",
+      "subtitle": "The Accommodation Design Process",
+      "status": "Active",
+      "icon": "handyman",
+      "url": "/systems/formwork/",
+      "description": "The accommodation design process. Named from concrete construction: the temporary structure that holds the tools in position while the work is wet.",
+      "logo": null,
+      "published": true,
+      "existing_assets": 0,
+      "asset_prefixes": [],
+      "art_needs": {
+        "hero": true,
+        "og": true,
+        "diagrams": true
+      }
+    },
+    {
+      "slug": "lensarray",
+      "collection": "systems",
+      "title": "LensArray",
+      "subtitle": "Multi-Perspective Evaluation and Generation",
+      "status": "Active",
+      "icon": "handyman",
+      "url": "/systems/lensarray/",
+      "description": "Evaluation and generation through extracted practitioner lenses. Staff each layer with perspectives you trust, run them independently, read the convergence.",
+      "logo": null,
+      "published": true,
+      "existing_assets": 0,
+      "asset_prefixes": [],
+      "art_needs": {
+        "hero": true,
+        "og": true,
+        "diagrams": true
+      }
+    },
+    {
+      "slug": "savepoint",
+      "collection": "systems",
+      "title": "SavePoint Syntax",
+      "subtitle": "Semantic Markup for Turning Points in Thinking",
+      "status": "V3.2 Open Source",
+      "icon": "handyman",
+      "url": "/systems/savepoint/",
+      "description": "Semantic markup for cognitive waypoints. Marks where understanding shifts before the context closes.",
+      "logo": null,
+      "published": true,
+      "existing_assets": 0,
+      "asset_prefixes": [],
+      "art_needs": {
+        "hero": true,
+        "og": true,
+        "diagrams": true
+      }
+    }
+  ]
+}

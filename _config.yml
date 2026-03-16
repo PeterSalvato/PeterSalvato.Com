@@ -22,6 +22,12 @@ collections:
   essays:
     output: true
     permalink: /essays/:path/
+  versograms:
+    output: true
+    permalink: /versograms/:path/
+  photogeography:
+    output: true
+    permalink: /photogeography/:path/
   # Retired pages (no output)
   retired:
     output: false

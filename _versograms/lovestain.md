@@ -1,0 +1,6 @@
+---
+layout: versogram
+slug: lovestain
+title: "Lovestain"
+description: "Versogram: Lovestain by Jose Gonzalez"
+---

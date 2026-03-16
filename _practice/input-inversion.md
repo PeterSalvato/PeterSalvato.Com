@@ -65,7 +65,7 @@ The implication is direct: optimizing the prompt has a ceiling. Designing the sy
 
 Research on speech-to-text interaction consistently shows that spoken input produces more detailed, higher-quality material than typed input. Speech recognition notes averaged 320.6 words versus 180.8 for typed notes, with higher ratings for clarity, completeness, and information density.
 
-The mechanism is straightforward. Humans speak at 125-150 words per minute and type at 40. The friction of the keyboard compresses thought. By the time a typed prompt reaches the model, the human has already edited, compressed, and filtered the raw thinking. The unfiltered version, the one that contains false starts, mid-sentence corrections, and the moment where the idea actually crystallized, never makes it into the prompt.
+The mechanism is simple. Humans speak at 125-150 words per minute and type at 40. The friction of the keyboard compresses thought. By the time a typed prompt reaches the model, the human has already edited, compressed, and filtered the raw thinking. The unfiltered version, the one that contains false starts, mid-sentence corrections, and the moment where the idea actually crystallized, never makes it into the prompt.
 
 Voice input bypasses that filter. The human thinks out loud. The full texture of the thinking reaches the system.
 
@@ -203,7 +203,7 @@ Each compiled document goes back into the data source. The next traversal has ac
 
 This is why unstructured input is not just richer at the point of capture. It is a better long-term investment. Structured prompts are consumable. You use them and they're done. An unstructured corpus is generative. The same material I recorded in 2023 is still producing new compiled documents in 2026, each traversal asking a question I hadn't thought to ask when I was talking. The knowledge traversal tool makes this practical: sequential processing through a large corpus, holding a specific conceptual angle, compiling a focused output that would take a human researcher weeks to produce manually. The LLM doesn't get tired of reading the same conversations again. It just reads them differently.
 
-The competitive implication is direct. Two practitioners with the same tools and the same model, one who accumulated three years of unstructured thinking and one who wrote three years of structured prompts, are not in the same position. The first has a renewable source that yields new compiled documents on demand. The second has a folder of spent instructions.
+Two practitioners with the same tools and the same model, one who accumulated three years of unstructured thinking and one who wrote three years of structured prompts, are not in the same position. The first has a source that keeps yielding new compiled documents on demand. The second has a folder of spent instructions.
 
 ---
 
@@ -213,7 +213,7 @@ The AI industry's foundational assumption, that quality output requires structur
 
 Input inversion formalizes what this evidence suggests: reverse the burden of structure from the human to the tooling. Let humans think out loud. Build tools that translate raw thinking into model-ready input. The output improves because the source material is richer, more detailed, and more honest than anything a structured prompt captures.
 
-This principle was developed through three years of applied practice and is demonstrated by a production site compiled entirely from unstructured conversational data. It extends the [accommodation design framework](/practice/accommodation-design/) (Salvato, 2026) into a bidirectional pattern: structure for the model, freedom for the human.
+This principle came out of three years of applied practice and is demonstrated by a production site compiled entirely from unstructured conversational data. It extends the [accommodation design framework](/practice/accommodation-design/) (Salvato, 2026) into a bidirectional pattern: structure for the model, freedom for the human.
 
 The practitioner who builds the best translation layer between raw human thinking and model-ready input produces the best output. The prompts were never the bottleneck.
 

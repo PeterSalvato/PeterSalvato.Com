@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+{% assign song = nil %}
+{% for s in site.data.versograms.songs %}
+  {% if s.slug == page.slug %}
+    {% assign song = s %}
+  {% endif %}
+{% endfor %}
+
+<article class="versogram-detail">
+  {% include versogram-card.html song=song full=true %}
+
+  {% if page.content != "" %}
+  <div class="versogram-notes">
+    {{ content }}
+  </div>
+  {% endif %}
+</article>
+
+{% include connections.html %}

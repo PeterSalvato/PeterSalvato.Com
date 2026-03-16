@@ -18,19 +18,19 @@ At SVA, the critique room worked like this. You hang your work. Your peers and t
 
 That room is hard to reconstruct outside of school. In practice, most evaluation collapses to one perspective: the maker's own instinct, one mentor's preference, one client's taste. And one perspective produces imitation. You follow a single influence and the result looks derivative.
 
-I needed a way to build the room and fill it with people whose judgment I trust, but codified. Their evaluative instinct, extracted and testable.
+I needed a way to build that room and fill it with people whose judgment I trust, but codified so I could run it any time. Their evaluative instinct, extracted and testable.
 
 ## The "act as" problem
 
 Everyone using AI for creative evaluation has tried some version of this. "Act as Massimo Vignelli and evaluate my grid." "Pretend you're Dieter Rams and critique this interface." "What would Paula Scher think of this layout?"
 
-The results are shallow. Vignelli becomes "use Helvetica and grids." Rams becomes "less is more." Scher becomes "make the type bigger." These are caricatures built from what's most commonly written about these people online. They capture the surface-level consensus, not the diagnostic habits underneath the visible decisions.
+The results are shallow. Vignelli becomes "use Helvetica and grids." Rams becomes "less is more." Scher becomes "make the type bigger." These are caricatures built from what's most commonly written about these people online, the surface-level consensus instead of the diagnostic habits underneath the visible decisions.
 
 The problem is how "act as" works. When you tell an AI to "act as" someone, it retrieves associations from training data. For well-known practitioners, those associations cluster around the most-repeated facts and the most-cited quotes. Vignelli's actual discipline around typographic hierarchy, his specific rules about when a grid should flex and when it should hold, his intolerance for arbitrary decoration that doesn't serve communication: none of that survives the compression. You get the Wikipedia version of a practitioner, not the practitioner.
 
 ## Extraction instead of imitation
 
-When I was building the Vignelli lens, I kept finding the same question underneath his visible decisions. In interviews, in his writing about the New York subway map, across decades of his projects: does the change make the hierarchy legible at distance, or only close up? He wasn't stating a style preference. He was running a diagnostic. Once I saw it as a diagnostic habit rather than an aesthetic, I could extract it.
+When I was building the Vignelli lens, I kept finding the same question underneath his visible decisions. In interviews, in his writing about the New York subway map, across decades of his projects: does the change make the hierarchy legible at distance, or only close up? He wasn't stating a style preference. He was running a diagnostic. Once I saw it that way, as a diagnostic habit rather than an aesthetic, I could figure out how to extract it.
 
 Four steps. The order matters.
 
@@ -40,7 +40,7 @@ Four steps. The order matters.
 
 **Codify as testable criteria.** Turn the extracted questions into specific checks that produce clear verdicts when applied to real work. "Does the type system use deliberate limitation to produce clarity?" is evaluable. "Is this Vignelli-like?" is not. Each criterion needs to return a verdict when you run it against a real project.
 
-**Validate against their known work.** Run the criteria against work the original practitioner produced or praised. If your Vignelli lens doesn't confirm what Vignelli actually built, the extraction is wrong. It's the difference between a diagnostic tool and a costume.
+**Validate against their known work.** Run the criteria against work the original practitioner produced or praised. If your Vignelli lens doesn't confirm what Vignelli actually built, the extraction is wrong. You built a costume, not a diagnostic tool.
 
 ## What the lenses actually look like
 
@@ -86,7 +86,7 @@ The reader has already seen how criteria work from the Millman block, so I'll le
 
 One lens, one perspective. Multiple lenses, and you get what the critique room gave me at SVA. People who disagree, specifically, for reasons they can articulate.
 
-When the Millman lens says STRONG on a page and the Vignelli lens says WEAK, that's information. It means the page reads as authentic and vulnerable (Millman's criteria) but the design isn't earning its restraint (Vignelli's criteria). Those two things can both be true simultaneously, and the tension between them is where the actual decision lives. I can lean into the raw personal directness at the expense of visual discipline, or tighten the design system knowing it might polish away some of the roughness that makes the page feel real. That tension does not resolve itself. I have to decide which value wins.
+When the Millman lens says STRONG on a page and the Vignelli lens says WEAK, that's information. It means the page reads as authentic and vulnerable (Millman's criteria) but the design isn't earning its restraint (Vignelli's criteria). Those two things can both be true simultaneously, and the tension between them is where the actual decision lives. I can lean into the raw personal directness at the expense of visual discipline, or tighten the design system knowing it might polish away some of the roughness that makes the page feel real. That tension doesn't resolve on its own. I have to decide which value wins.
 
 That's a genuine creative decision, surfaced by structure. Two specific, codified perspectives that disagree on a specific element for articulable reasons.
 

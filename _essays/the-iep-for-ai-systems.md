@@ -54,7 +54,7 @@ The coordinator is [scaffolding](/vocabulary/scaffold/){:.vocab-ref}. It holds t
 
 When I built the audit coordinator, it dispatches nine evaluation lenses in parallel. Each lens runs independently. The coordinator collects nine separate verdicts and identifies where they agree and where they contradict. That contradiction is the valuable signal. Two lenses scoring the same work differently means there's a real tension to resolve. The coordinator surfaces it. The atomics just measured.
 
-A well-designed classroom works the same way. The structure holds while the learners do the work, and it comes down once the capacity is built.
+A well-designed classroom works the same way. You hold the structure while the learners do the work, and you take it down once you see they don't need it anymore.
 
 ---
 
@@ -68,15 +68,15 @@ This is exactly the problem with evaluating creative work. "Is this portfolio go
 
 In the classroom, when two IEP goals conflicted (one student needed quiet, another needed verbal processing), the resolution was a structural decision: where to seat them, when to schedule which activity, how to create pockets of different conditions within one room. The conflict wasn't a problem. It was information about what the room needed to accommodate.
 
-Evaluation lenses work the same way. When structural and narrative lenses disagree, the disagreement tells me what decision I need to make as the designer. The conflict is the most useful output the system produces.
+Evaluation lenses work the same way. When structural and narrative lenses disagree, the disagreement tells me what decision I need to make as the designer. That's often the most useful thing the system gives me.
 
 ---
 
 ## One lane
 
-The AI governance conversation is dominated by two groups. Computer scientists who think about model architecture. Business strategists who think about risk and compliance. Neither group has stood in a room where the system you're managing is twelve human beings with twelve different definitions of success, and the feedback loop is immediate because a ten-year-old will tell you in real time when your [scaffolding](/vocabulary/scaffold/){:.vocab-ref} isn't working.
+The AI governance conversation is dominated by two groups. Computer scientists who think about model architecture. Business strategists who think about risk and compliance. Neither group has stood in a room where the system you're managing is twelve kids with twelve different definitions of success, and the feedback loop is immediate because a ten-year-old will tell you in real time when your [scaffolding](/vocabulary/scaffold/){:.vocab-ref} isn't working.
 
-Special education teaches you that complex systems with variable inputs require individualized evaluation criteria, temporary support structures, and task decomposition. Because the alternative is a room that doesn't function.
+Special education teaches you that complex systems with variable inputs need individualized evaluation criteria, temporary support structures, and task decomposition. Because the alternative is a room that falls apart.
 
 Every IEP is a governance document. It specifies what gets measured, how it gets measured, what accommodations the system provides, and what success looks like. It gets reviewed. It gets updated. It gets enforced by federal law because the stakes are that high.
 
@@ -84,8 +84,8 @@ I didn't study AI governance and then discover it maps to pedagogy. I spent a ye
 
 Decompose the complex task. [Scaffold](/vocabulary/scaffold/){:.vocab-ref} the structure. Individualize the criteria. Monitor progress against specific goals. Adjust when the feedback says your plan isn't working.
 
-But underneath all of that is a simpler move. Before I built any of the architecture, before I decomposed a single prompt, I asked the same question I asked about every student in that classroom: what does this system actually need to do this job? Not what do I need from it. What does it need from me.
+But underneath all of that is a simpler move. Before I built any of the architecture, before I decomposed a single prompt, I asked the same question I asked about every student in that classroom: what does this system actually need to do this job? Not what do I want from it. What does it need from me.
 
-That question applies in both directions. The model needs decomposed tasks, structured input, independent evaluation. The human needs friction removed at the point of capture, so the raw thinking enters the system intact. In [FormWork](/systems/formwork/), that's the pour: get the idea out of your head, talk, dictate, answer questions, and let the tools handle the rest. The accommodation runs both ways, the same move I learned in the classroom applied to a different kind of processing constraint.
+That question applies in both directions. The model needs decomposed tasks, structured input, independent evaluation. The human needs friction removed at the point of capture, so the raw thinking enters the system intact. In [FormWork](/systems/formwork/), that's the pour: get the idea out of your head, talk, dictate, answer questions, and let the tools handle the rest. The accommodation runs both ways.
 
-That question changes everything. It's the difference between treating a model like an employee who should be better and treating it like a system with a specific processing reality that you can accommodate. Token limits are a working memory [processing profile](/vocabulary/processing-profile/). [Context windows](/vocabulary/context/){:.vocab-ref} are the attention span you're designing for. The model needs someone who bothered to ask how it works before handing it twelve things at once.
+Once you start asking that question, it changes how you see the whole field. It's the difference between treating a model like an employee who should be better and treating it like a system with a specific processing reality that you can design around. Token limits are a working memory [processing profile](/vocabulary/processing-profile/). [Context windows](/vocabulary/context/){:.vocab-ref} are the attention span you're designing for. The model just needs someone who bothered to figure out how it works before handing it twelve things at once.

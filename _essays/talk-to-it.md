@@ -35,7 +35,7 @@ That pouring is the first half of what I call bidirectional accommodation. The h
 
 ## Starting today
 
-Open your phone's voice memo app or start a conversation with any AI tool. Talk about what you're building, what's frustrating you, what you figured out yesterday. Don't perform. Don't organize. Just talk.
+Open your phone's voice memo app or start a conversation with any AI tool. Talk about what you're building, what's frustrating you, what you figured out yesterday. Don't organize it. Just talk.
 
 Brainstorm into a voice note at midnight. Answer your own questions out loud and let yourself change direction halfway through. One recording is enough to start. A month of them gives the tools a real body of material to process.
 

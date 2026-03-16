@@ -67,7 +67,7 @@ A prosthetic limb does not replace the person. It extends the body's capability 
 
 University of Utah researchers demonstrated this empirically with an AI-enhanced bionic hand (Nature Communications, 2025). When the AI handled grip adjustment autonomously based on sensor data, study participants showed greater grip precision, greater grip security, and less mental effort. The human provided intent (reach for this object). The AI handled the fine motor execution. The interface (sensor array plus neural network) coupled them.
 
-The same relationship describes the most productive form of human-AI cognitive work.
+That same relationship describes what I think is the most productive form of human-AI cognitive work.
 
 The practitioner provides:
 - **Cognitive intent.** What am I trying to understand, build, or evaluate?
@@ -121,7 +121,7 @@ The pattern is: broken notebooks (thinking preserved, retrieval impossible) to h
 
 ### 5.2 The Coupling at Scale
 
-Since 2023 I have maintained continuous cognitive coupling with AI systems: three years of raw thinking across ChatGPT, Claude Code, and Gemini. The coupling produced a deployed professional site, a published methodology (accommodation design), and an open-source toolkit (SavePoint Syntax, FormWork). It was not planned as a research program. It accumulated naturally from treating the model as a thinking extension. I didn't assign it work. I thought with it.
+Since 2023 I have maintained continuous cognitive coupling with AI systems: three years of raw thinking across ChatGPT, Claude Code, and Gemini. The coupling produced a deployed professional site, a published methodology (accommodation design), and an open-source toolkit (SavePoint Syntax, FormWork). It was not planned as a research program. It accumulated naturally from treating the model as a thinking extension. I wasn't assigning it work. I was thinking with it.
 
 The key output is the accumulated cognitive state: a rich, evolving representation of how one practitioner thinks, stored in a format the extended system can access and process. Voice patterns extracted from conversation history let the system write in a register that matches how I actually communicate. Third-party blind assessment could not identify the output as AI-assisted. Knowledge traversal across the full corpus traces how ideas evolved across months, catching connections no keyword search could find.
 
@@ -215,7 +215,7 @@ The AI field's two dominant framings, tool and agent, both miss the most product
 
 The model extends the practitioner's cognitive reach. The practitioner provides cognitive intent, judgment, and the pour: raw material captured with as little friction as possible. Purpose-built interfaces handle the coupling. The result is a hybrid cognitive system that produces output neither component could achieve independently.
 
-This is not a metaphor. Andy Clark's extended mind thesis describes it philosophically. The CHI 2025 research program studies it empirically. The bionic hand research demonstrates the mechanism physically. This paper documents it through three years of applied cognitive coupling that produced a deployed site, a published methodology, and an open-source toolkit.
+This is not a metaphor. Clark's extended mind thesis describes it philosophically. The CHI 2025 research program studies it empirically. The bionic hand research demonstrates the mechanism physically. And I've been doing it for three years, producing a deployed site, a published methodology, and an open-source toolkit in the process.
 
 The interface layer is the practice. Purpose-built tools, fitted to how one practitioner actually thinks, extending cognitive reach into space the mind alone can't sustain. Three years of building that produced the artifact you are reading.
 

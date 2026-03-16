@@ -1,0 +1,6 @@
+---
+layout: versogram
+slug: beware
+title: "Beware"
+description: "Versogram: Beware by Deftones"
+---

@@ -23,7 +23,7 @@ LensArray reconstructs that function for AI-assisted evaluation. "Is this good?"
 
 Each layer of concern is staffed with lenses extracted from real practitioners. They run independently. The convergence map shows where they agree (signals to act on) and where they disagree (decisions the maker resolves).
 
-One lens alone produces imitation: you're just channeling someone. Multiple lenses running on the same work create disagreements, and those disagreements force decisions no single influence would have surfaced. The interesting work lives in resolving those tensions.
+One lens alone produces imitation: you're just channeling someone. Multiple lenses running on the same work create disagreements, and those disagreements force decisions no single influence would have surfaced.
 
 ### What a run looks like
 
@@ -48,4 +48,4 @@ The protocol for building a lens:
 3. Codify as testable criteria. Turn extracted questions into specific, evaluable checks.
 4. Validate against their known work. The lens should confirm what the practitioner would confirm.
 
-This is what a good creative director does when building a team: figure out how your best people think, write it down, and make it usable when they're not in the room.
+This is what a good creative director does when building a team: figure out how your best people think, write it down, make it usable when they're not in the room.

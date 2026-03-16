@@ -28,9 +28,9 @@ I had years of that. The same method held across [Encore's](/evidence/encore/) t
 
 That compulsion to formalize (to name something, give it a mark, give it structure) is an artifact of studying graphic design and growing up in consumerist America in the eighties and nineties. Branding is how my brain makes something real enough to maintain. The act of giving the method a name, a visual system, a set of rules was the act of turning instinct into something I could actually defend and teach.
 
-Once visible, so was the problem: invisible methods erode. Not catastrophically. Incrementally. A decision made under deadline pressure. A compromise that felt reasonable once. A principle abandoned because explaining it was harder than ignoring it. None of them feel like failures. Together they are.
+Once visible, so was the problem: invisible methods erode. Not catastrophically. Incrementally. A decision made under deadline pressure. A compromise that felt reasonable once. A principle abandoned because explaining it was harder than ignoring it. None of them feel like failures in the moment. Together they add up.
 
-This isn't technical debt or design debt. Debt assumes you know the standard and you're cutting corners against it. [Drift](/vocabulary/#drift) is when the standard itself goes invisible. You can't articulate what you're drifting from because the method was never explicit. That's a layer deeper. The method underneath the work erodes, and then the work erodes, and nobody can point to the moment it started because there wasn't one.
+This isn't technical debt or design debt. Debt assumes you know the standard and you're choosing to cut corners against it. [Drift](/vocabulary/#drift) is when the standard itself goes invisible. You can't articulate what you're drifting from because the method was never explicit. That's a layer deeper. The method underneath the work erodes, and then the work erodes, and nobody can point to the moment it started because there wasn't one.
 
 ---
 

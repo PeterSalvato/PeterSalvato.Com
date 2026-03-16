@@ -46,7 +46,7 @@ The model has processing constraints. Context window limits, attention degradati
 
 Both systems get accommodated. The [pour](#the-pour) accommodates the human: get the thinking out with as little friction as possible. The tools accommodate the model: structured input, decomposed tasks, independent evaluation. [FormWork](/systems/formwork/) coordinates both directions.
 
-The distinction from prompt engineering matters. Prompt engineering treats the model as a system that needs better instructions. Accommodation design treats the model as a system with a [processing profile](/vocabulary/processing-profile/) that the task needs to fit. One puts the burden on the instructions. The other puts it on the task architecture.
+The distinction from prompt engineering matters. Prompt engineering treats the model as a system that needs better instructions. Accommodation design treats the model as a system with a [processing profile](/vocabulary/processing-profile/) that the task needs to fit. Prompt engineering puts the burden on the instructions. Accommodation design puts it on the task architecture.
 
 ---
 
@@ -56,7 +56,7 @@ A self-contained special education classroom in Sunset Park, Brooklyn. Twelve st
 
 Each student has an Individualized Education Program (IEP): a governance document required by federal law (IDEA, the Individuals with Disabilities Education Act). It specifies what gets measured, how it gets measured, what accommodations the system provides, and what success looks like for that specific learner.
 
-Running twelve IEPs simultaneously teaches you three things fast, because the feedback is immediate:
+Running twelve IEPs simultaneously teaches you three things fast. The feedback is immediate:
 
 **Decomposition.** "Solve for the missing number, show your work, and explain your reasoning" is three tasks disguised as one. A student with processing delays hears the first instruction, starts working, and the rest is gone. You learn to give one instruction at a time. One clear objective. One visible result before the next step.
 
@@ -64,11 +64,11 @@ Running twelve IEPs simultaneously teaches you three things fast, because the fe
 
 **Individualized criteria.** One student's goal is a complete sentence. The student next to them is writing a paragraph with topic sentence and supporting detail. Same assignment. Completely different definitions of done.
 
-These are architectural patterns. Federal law enforces them because the stakes are a child's education.
+These are architectural patterns. Federal law enforces them because the stakes are a child's education. You learn them fast or you fail kids.
 
 In 2023, the same processing failures showed up in a different system. A compound prompt asking a language model to evaluate across four dimensions at once produced a blended average that was none of them. The first criterion got full attention. Each one after that degraded. Criteria contaminated each other. The model could not hold four evaluation frames simultaneously.
 
-The fix was the same fix. Decompose. One dimension per prompt. One clear objective. One clear output. Same structural accommodation, different system.
+The fix was the same fix. Decompose. One dimension per prompt. One clear objective. One clear output.
 
 ---
 
@@ -95,9 +95,9 @@ The mapping is direct:
 
 The pour is the first accommodation, aimed at the human. Named from concrete construction: you build [FormWork](/systems/formwork/) before you pour. The temporary structure shapes the work while things are fluid.
 
-The pour means deliberately generating source material in your own voice. Brainstorming, voice notes, arguing with yourself, changing direction mid-sentence. It can accumulate over years, get extracted in a single interview session, or arrive as a dictation from the car. The pour is not a one-time step at the start. It is available throughout the process.
+The pour means deliberately generating source material in your own voice. Brainstorming, voice notes, arguing with yourself, changing direction mid-sentence. It can accumulate over years, get extracted in a single interview session, or arrive as a dictation from the car. It's not a one-time step at the start. It's available throughout the process.
 
-This is [input inversion](/practice/input-inversion/). The standard approach says structure your input for the model. Accommodation design says the opposite: remove friction at the point of capture so the raw material carries the maker's actual voice and the real structure of their thinking. The tools structure it afterward. A teacher does not require a student to organize their thoughts before speaking. The student speaks. The teacher captures it. Then they find the structure in what was already expressed.
+This is [input inversion](/practice/input-inversion/). The standard approach says structure your input for the model. Accommodation design says the opposite: remove friction at the point of capture so the raw material carries the maker's actual voice and the real structure of their thinking. The tools structure it afterward. A teacher doesn't require a student to organize their thoughts before speaking. The student speaks. The teacher captures it. Then they find the structure in what was already expressed.
 
 ### Both Systems
 
@@ -107,7 +107,7 @@ The framework accommodates in both directions simultaneously:
 
 **The human's side.** Permission to be unstructured. No requirement to organize thoughts before having them. Friction removed at the point of capture. Raw thinking enters the system without losing fidelity to premature structure.
 
-The quality of the output depends on how well the task design meets both sets of processing needs.
+The quality of the output depends on how well the task design meets both sets of needs.
 
 ---
 
@@ -135,7 +135,7 @@ A systematic search of current research (2024-2026) confirms that this specific 
 
 2. **AI performing empathy.** Training models to exhibit empathetic responses. The empathy is simulated output, not design input.
 
-Nobody is applying accommodation bidirectionally. Nobody is treating both the model's processing constraints and the human's cognitive constraints as profiles to be accommodated simultaneously. The AI governance field is populated by computer scientists (who approach the model as a system to optimize) and policy professionals (who approach it as a risk to manage). Neither discipline trains practitioners in accommodation. Special education does.
+Nobody is applying accommodation bidirectionally. Nobody is treating both the model's processing constraints and the human's cognitive constraints as profiles to be accommodated simultaneously. The AI governance field is populated by computer scientists (who approach the model as a system to optimize) and policy professionals (who approach it as a risk to manage). Neither discipline trains you in accommodation. Special education does.
 
 ---
 

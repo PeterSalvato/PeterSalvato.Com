@@ -44,7 +44,7 @@ Everyone in the room saw a behavior problem. I saw a kid pulling attention away 
 
 I told him I saw what he did. I asked him if I was right. He didn't say yes out loud, but I could read it. I told him we still had to follow protocol (he was going to be in some trouble) but I was going to stand between as much of it as I could.
 
-That moment built something between us. Not because I was kind. Because I read the room correctly.
+That moment built something between us. I read the room correctly, and he knew I did.
 
 ---
 
@@ -52,8 +52,8 @@ A dance floor and a classroom don't look like they have much in common. But I wa
 
 When it works, nobody notices. The student doesn't get humiliated. The dance floor doesn't lose its energy. The person on the other end just feels like it makes sense.
 
-I didn't have language for any of this until recently. I just kept ending up in rooms (enterprise platforms, brand systems, fiction, music) and doing the same thing without knowing that's what I was doing. The rooms changed. The operation didn't. It took a long time to see the pattern clearly enough to say it out loud.
+I didn't have language for any of this until recently. I just kept ending up in rooms (enterprise platforms, brand systems, fiction, music) and doing the same thing without knowing that's what I was doing. Different rooms, same operation. It took a long time to see the pattern clearly enough to say it out loud.
 
 ---
 
-Everything else I've written here is about the machinery: protocols, evaluation lenses, the compilation pipeline. All real, all important. But the machinery exists to serve this. Someone has to read the room before the structure gets built. The tools make that reading repeatable. They don't replace it.
+Everything else I've written here is about the machinery: protocols, evaluation lenses, the compilation pipeline. All real, all important. But the machinery exists to serve this. Someone has to read the room before the structure gets built, and that part is still a person standing in the room paying attention.

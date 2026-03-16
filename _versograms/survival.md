@@ -1,0 +1,6 @@
+---
+layout: versogram
+slug: survival
+title: "Survival"
+description: "Versogram: Survival by Bonobo"
+---

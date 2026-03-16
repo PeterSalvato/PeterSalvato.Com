@@ -26,7 +26,7 @@ That fabrication passed because no skill was checking claims against verified hi
 
 I built the no-hallucination policy the same week. Every skill that writes copy now operates under a hard constraint: no skill may invent, infer, or assume any detail about the work. Every concrete claim must trace to a verified source in a Personal Knowledge Base spanning three years of session transcripts, conversation exports, and project records. When a skill can't find verification, it stops and asks. At no point is "make something up that sounds right" an option.
 
-Individual skills that each work correctly can still produce wrong results if nothing coordinates what they know. The hallucination was an architecture failure, not a skill failure.
+Individual skills that each work correctly can still produce wrong results if nothing coordinates what they know. The hallucination was an architecture problem, not a skill problem.
 
 ## Two kinds of components
 
@@ -36,7 +36,7 @@ The **Millman lens** takes a portfolio page and evaluates it against five criter
 
 Coordinators run multiple skills together. The **audit coordinator** runs a baseline check and then fires five evaluative lenses at once: Millman, Bierut, Appleton, Peers, and Victore. Each lens evaluates the same pages from a different perspective. The audit collects all verdicts and presents them together. The **design review coordinator** captures screenshots at four breakpoints, then runs nine visual lenses covering restraint, type craft, personality, grid, and five other dimensions. If the print-craft lens scores below PRESSED, the coordinator triggers a texture generation pass: the lens identifies the gap, the generative skill fills it, and I approve or reject what it produces.
 
-The rule that makes this work: individual skills stay single-purpose. Coordinators handle the structure. No skill needs to know what else is running. The methodology underneath is documented on the [FormWork](/systems/formwork/) page.
+The rule that makes this work: individual skills stay single-purpose and coordinators handle the structure. No skill needs to know what else is running. The methodology underneath is on the [FormWork](/systems/formwork/) page.
 
 ## What the full pass surfaces
 
@@ -53,7 +53,7 @@ The **steward coordinator** is the top-level pass. It dispatches eight arms in p
 
 Each arm runs its own nested evaluations. The audit arm fires its own lenses. The design review arm fires its own visual lenses. Eight reports land in a timestamped directory.
 
-Eight independent reports sitting next to each other is a filing cabinet, not a diagnosis. What makes the system work is what happens after: convergence runs sequentially, reads the audit output, and maps where lenses agree and where they disagree. Agreements are high-confidence signals. Disagreements are decision points.
+Eight independent reports sitting next to each other is a filing cabinet, not a diagnosis. What makes the system work is what happens after: convergence runs sequentially, reads the audit output, and maps where lenses agree and where they disagree. Where they agree, I have a strong signal. Where they disagree, I have a decision to make.
 
 My job is to read the disagreements and decide which value wins for this page.
 
@@ -69,6 +69,6 @@ Every generative output in the system follows the same pattern. The print-craft 
 
 Everything described here is documented in a single manifest file. Every skill, what it does, what calls it, what it needs, what it returns. The manifest is the set of plans: the document my father carried that let him hold the whole structure in his head while every individual trade worked their piece. Nobody on site had to know how the plumbing connected to the electrical. He did. That's what the manifest does here.
 
-The coordination layer exists so that accommodating the model's processing constraints doesn't erase the human's thinking. The pour carries the original intent into the system. The coordination layer keeps it intact through compilation.
+The coordination layer exists so that accommodating the model's processing constraints doesn't erase the human's thinking. The pour carries the original intent into the system, and the coordination keeps it intact while the tools do their work.
 
-The methodology governing all of this is [FormWork](/systems/formwork/). The protocol describes the approach. What you're reading is one implementation, built against twelve years of enterprise platform work and twenty years of design practice.
+The methodology governing all of this is [FormWork](/systems/formwork/). What you're reading is one implementation, built against twelve years of enterprise platform work and twenty years of design practice.

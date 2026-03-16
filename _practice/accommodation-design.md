@@ -181,7 +181,7 @@ The scale doesn't have to be three years and thousands of sessions. A month of v
 
 The production site petersalvato.com was compiled from this unstructured corpus. Three years of raw thinking, processed by accommodation tools, evaluated by the decomposed lens system, verified against voice patterns extracted from conversation. The quality comes from the depth of the dataset and the accommodation of the processing, not from structuring the input.
 
-The field's emphasis on structured input may itself be a constraint-based approach: pre-structuring to compensate for processing limitations rather than accommodating those limitations with purpose-built tools.
+I think the field's emphasis on structured input may itself be a constraint-based approach: pre-structuring to compensate for processing limitations rather than accommodating them with purpose-built tools.
 
 ---
 

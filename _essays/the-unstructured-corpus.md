@@ -21,15 +21,15 @@ I went the other way. And the unstructured corpus turned out to be the most valu
 
 ## The substrate
 
-Every tool in the [accommodation design](/vocabulary/accommodation-design/) framework depends on this corpus. Voice sampling needs unstructured speech to sample from, because published writing is performance and conversation is how someone actually talks. Knowledge traversal needs a body of unfiltered ideation to trace through, because the first time an idea appears in conversation history, it probably wasn't called by its final name. The interview process needs raw material to mine for real stories and real language, because the stories that matter are rarely the ones you'd put on a resume.
+Every tool in the [accommodation design](/vocabulary/accommodation-design/) framework depends on this corpus. Voice sampling needs unstructured speech to sample from, because published writing is already cleaned up and conversation is where someone's actual patterns live. Knowledge traversal needs a body of unfiltered ideation to trace through, because the first time an idea shows up in your history, you probably called it something else entirely. The interview process needs raw material to mine for real stories and real language, because the stories that matter are rarely the ones you'd put on a resume.
 
-Without the corpus, the tools have nothing to work with.
+The tools need the corpus. That's the foundation.
 
 ## The artifact proves the accommodation works
 
-The site you're reading was compiled from this material. The source was never polished drafts. It was how I actually talk when I'm working something out. The quality of what the tools produce is traceable back to properties the corpus has that polished writing does not: real voice, real sentence structure, real changes of direction, real moments where an idea first appeared under a different name.
+The site you're reading was compiled from this material. The source was never polished drafts. It was how I actually talk when I'm working something out. And the quality of what the tools produce traces back to properties the corpus has that polished writing doesn't: real voice, real sentence structure, real changes of direction, real moments where an idea first appeared under the wrong name.
 
-The corpus is evidence of bidirectional accommodation in practice. I stayed raw. The tools handled the translation to structured input for the model. The model got what it needed. The result is a site compiled from material that would fail every prompt-engineering best practice.
+So the corpus is bidirectional accommodation in practice. I stayed raw. The tools handled the translation to structured input for the model. The model got what it needed. And the result is a site compiled from material that would fail every prompt-engineering best practice.
 
 ## Three years is not the minimum
 
@@ -37,12 +37,12 @@ The scale matters less than the rawness. A month of voice notes contains real vo
 
 For someone starting fresh, an interview works. "Tell me about what you're building." Open-ended questions that produce stories, language, instincts. That becomes the initial corpus. Over time, ongoing conversations and voice notes add to it. The corpus grows as the person keeps thinking out loud, and each addition gives the tools more to draw from.
 
-What the corpus cannot be is retroactively assembled from polished writing. Published work is performance. The properties that make the corpus valuable (unfinished thoughts, contradictions, the moment an idea first appears under the wrong name) only exist in material that was never edited for an audience.
+What the corpus can't be is retroactively assembled from polished writing. Published work has already been edited for an audience. The properties that make the corpus valuable (unfinished thoughts, contradictions, the moment an idea first shows up under the wrong name) only exist in material that was never edited for an audience.
 
 ## The inversion
 
 Structured input puts the burden on the human. You pre-organize your thoughts to compensate for the model's limitations. The alternative is building tools that handle the translation.
 
-I stopped organizing my input and started organizing my tools. The tools accommodate the model's processing reality. My thinking stays raw. The output quality went up because the tools had richer material to work with, not in spite of the mess but because of it.
+I stopped organizing my input and started organizing my tools. The tools accommodate the model's processing reality. My thinking stays raw. And the output quality went up because the tools had richer material to work with. The mess is what made it work.
 
 The full framework is documented in the [accommodation design whitepaper](/practice/accommodation-design/). [Input inversion](/vocabulary/input-inversion/) is Section 4.6.

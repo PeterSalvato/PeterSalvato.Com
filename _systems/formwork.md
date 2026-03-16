@@ -30,7 +30,7 @@ cta:
 
 I was six months into using Claude for serious production work when the pattern became obvious. Sessions would run for hours. The output was sharp at the start, then gradually lost the thread. I'd add more context, write longer prompts, stack instructions. The output kept degrading.
 
-The instinct is to blame the model. But I had seen this before, in a special education classroom in Brooklyn. Give a student three instructions at once and they process the first one. The rest drops. You don't solve that by speaking louder. You redesign the task for what the student can actually handle.
+The instinct is to blame the model. But I'd seen this before, in a special education classroom in Brooklyn. Give a student three instructions at once and they process the first one. The rest drops. You don't fix that by speaking louder. You redesign the task for what the student can actually handle.
 
 That same move, applied to AI tools, is what I've been building for the last three years. FormWork is the process. Not any single tool. The coordination harness that holds all the tools in position while the work is wet.
 
@@ -60,9 +60,9 @@ The pour removes that friction. Talk. Dictate. Answer questions. Don't organize,
 
 What that looks like in practice: a five-minute voice note from the car. An interview skill that asks you questions and pulls the thinking out through conversation. A brainstorming session dumped raw into a markdown file. Sometimes a single pour session fills the corpus. Sometimes it accumulates over years, a few voice notes a week, conversations where you argue with yourself, dictated observations between meetings. The output is messy: transcripts full of false starts, unfinished sentences, tangents that turn out to be the real insight. That mess is the point. It carries your actual voice, your actual thinking, the way you actually connect ideas.
 
-The only requirement is that you don't perform. No audience awareness. No structuring for the model. No outline. The rawness is what makes the downstream tools work, because the voice pipeline can only extract your patterns from material that sounds like you, and the knowledge traversal can only trace your thinking through material that contains it.
+The only requirement is that you don't perform. No audience awareness. No structuring for the model. No outline. The rawness is what makes the downstream tools work. The voice pipeline can only extract your patterns from material that sounds like you, and the knowledge traversal can only trace your thinking through material that contains it.
 
-This is FormWork's first accommodation, and the only one aimed at the human. Every other tool in the harness accommodates the model. This one accommodates the maker. And the rest of the system only works because this one came first. Without the pour, the tools have nothing real to work from.
+This is FormWork's first accommodation, and the only one aimed at the human. Every other tool in the harness accommodates the model. This one accommodates the maker. The rest of the system only works because this one came first.
 
 The pour isn't a one-time step. It's available throughout the process. A new facet emerges mid-project, you spin up an interview and fill it. The corpus grows as the project grows, and the tools can re-sample from it at any point.
 
@@ -90,7 +90,7 @@ But retrieval is only the first pass. The same corpus can be traversed again fro
 
 Each traversal produces a focused document that goes back into the data source. Now the next traversal has access to the original conversations and the previously compiled documents. The corpus gets richer without new input from the maker. A compiled document on accommodation patterns and a compiled document on structural thinking can be traversed together to surface connections neither one contains alone.
 
-This is not retrieval. Retrieval pulls something out and it's done. This is a production loop. The same conversations I recorded in 2023 are still generating new compiled documents in 2026, each traversal asking a question I hadn't thought to ask when I was talking. The raw material doesn't get used up. It compounds.
+This is not retrieval. Retrieval pulls something out and it's done. This is a production loop. The same conversations I recorded in 2023 are still generating new compiled documents in 2026, each traversal asking a question I hadn't thought to ask when I was talking. The raw material doesn't get used up.
 
 ### Skill architecture: task decomposition accommodation
 
@@ -120,7 +120,7 @@ The same principle governs every tool in this process. A graphic organizer helps
 
 Every scaffold in the system should be questioned: is this building capability, or is this building dependency? The current AI tool development trend pushes toward longer system prompts, more elaborate orchestration, increasingly complex context documents. The accommodation framework asks which of those scaffolds are doing structural work and which have become permanent crutches.
 
-If a tool has to stay permanently, I built a dependency. The question is always: can this come off yet?
+If a tool has to stay permanently, I built a dependency.
 
 ---
 
