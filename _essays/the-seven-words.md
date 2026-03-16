@@ -12,9 +12,9 @@ icon: edit_note
 ---
 Every field has words for what it does. Carpentry has plumb, true, flush. Music has groove, pocket, feel. Print production has registration, bleed, trap. The words aren't jargon. They're handles. You grab them when you need to point at something specific and say: that. Right there. That's the thing.
 
-I work across enough materials that I needed my own handles. Seven words keep showing up. They showed up in the print shop, in the classroom, in enterprise software, in AI system design. I didn't choose them. They chose me, by being the only words that fit the thing I was pointing at.
+I work across enough materials that I needed my own handles. Seven words keep showing up. They showed up in the print shop, in the classroom, in enterprise software, in AI system design. I didn't set out to build a vocabulary. These just kept being the only words that fit the thing I was pointing at.
 
-Here they are. Not as definitions. As the rooms they came from.
+Here they are. Not definitions. The rooms they came from.
 
 ## Registration
 
@@ -22,7 +22,7 @@ A print shop in Brooklyn, 2003. Four plates on a press: cyan, magenta, yellow, b
 
 I kept finding registration everywhere I went. At Encore, I was running three independent layers: information architecture, front-end interface, back-end logic. None of them could see the others. The product existed in their alignment, or it didn't exist at all. In the classroom, twelve students with twelve IEPs, each one an independent layer of accommodation. The class worked when those layers registered against each other. When they didn't, the room fell apart.
 
-The layers don't merge. They align.
+The layers don't merge. They land in the right position relative to each other, and the image appears.
 
 ## Decomposition
 
@@ -78,4 +78,4 @@ The system might be a person, a room, a codebase, a product. You read first. The
 
 ---
 
-Seven words. Seven rooms. They came from print shops, construction sites, classrooms, nightclubs, enterprise software, and design critiques. The materials were never the same twice. The operations were.
+Seven words. They came from print shops, construction sites, classrooms, nightclubs, enterprise software, and design critiques. Different materials every time. Same operations underneath.

@@ -33,4 +33,4 @@ I keep finding this. The best work I've done came from the tightest constraints.
 
 When you remove options, the remaining options have to work harder. And the work is better for it. I don't go looking for constraints because I think limitation builds character. I go looking for them because I've seen what happens when I don't have them. The work gets soft. The decisions get lazy. The output looks like everything else.
 
-Give me a locked set and a problem. I'll find more inside the constraint than I would have found with the freedom.
+Every time I look back at the work I'm proudest of, the constraints were tight. The open-ended stuff never lands as hard.

@@ -13,13 +13,13 @@ icon: edit_note
 
 Rotate a text block half a degree. Print it. Show it to someone. They won't mention the rotation. They'll say it feels handmade, or warm, or like a real thing. They can't point to why. Their body already knows.
 
-This is the territory I keep coming back to. The 0.5-to-1% skew that nobody sees but everybody feels. A slight misregistration between ink layers. A grain density that shifts how the eye tracks across a surface. Micro-decisions that never announce themselves and never need to.
+I keep coming back to this. The 0.5-to-1% skew that nobody sees but everybody feels. A slight misregistration between ink layers. A grain density that shifts how the eye tracks across a surface. Small decisions that never announce themselves and never need to.
 
-There's a clean line between decoration and design here, and most digital work lands on the wrong side of it.
+Most digital work lands on the wrong side of the line between decoration and design.
 
 Decoration is throwing a vintage texture on something because it looks vibey. Digital-only designers love distress overlays, halftone filters, paper grain at 40% opacity. They can represent the look of a letterpress pull or a risograph pass. But there's a layer missing. A performance aspect. The texture sits on top of the work like a coat of paint on plastic. It reads as aesthetic, not material.
 
-Design, the way I mean it, is intentional invisible structure producing a physical response. The texture isn't decorative. It's structural. The half-degree rotation is calibrated to trigger warmth without triggering awareness. The grain is weighted to move the eye left-to-right at a pace that matches the content's rhythm.
+Design, the way I mean it, is structure you can feel but can't see. The texture isn't decorative. It's doing work. The half-degree rotation is calibrated to trigger warmth without triggering awareness. The grain is weighted to move the eye left-to-right at a pace that matches the content's rhythm.
 
 The difference comes down to source experience.
 
@@ -35,4 +35,4 @@ I write fiction to a beat spec. Three-act structure, scene-level pacing targets,
 
 In the classroom, the same principle ran the [scaffolding](/vocabulary/scaffold/). Each problem is slightly harder than the last, but the gap is calibrated so precisely that the student just feels capable. They don't feel scaffolded. They feel like they figured it out.
 
-That gap between what the body registers and what the conscious mind can name is where design actually lives.
+That gap between what the body registers and what the conscious mind can name is where most of my work happens.

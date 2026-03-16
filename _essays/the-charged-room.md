@@ -11,11 +11,11 @@ order: 2
 icon: edit_note
 ---
 
-The nights bleed together. That's the point.
+I can't tell you which night it was. They ran together after a while.
 
-Twilo on West 27th, Saturday nights, late nineties. Sasha and Digweed in the booth. Three thousand people on the floor. I went back dozens of times, and what I remember isn't any single set or any single track. I remember the sustained thing. The current that ran through the room when two DJs had that many bodies moving in one direction for six, eight, ten hours.
+Twilo on West 27th, Saturday nights, late nineties. Sasha and Digweed in the booth. Three thousand people on the floor. I went back dozens of times, and what I remember isn't any single set or any single track. I remember the sustained thing. Two DJs holding that many bodies in one direction for six, eight, ten hours.
 
-You could look across the floor and read your own emotions on strangers' faces. Everyone arriving at the same feeling at the same moment. Not thinking about it. Inside it. The room charged in a way that was physical, readable, shared. And then it would shift. The energy would drop twenty percent, on purpose, and nobody left. The room settled into something lower. Breathing changed. Conversations started at the edges. Then the build came back, and because there had been space, the next peak landed in the body instead of bouncing off a crowd already at capacity.
+You could look across the floor and see the same feeling on strangers' faces. Everyone locked in at the same moment. And then it would shift. The energy would drop twenty percent, on purpose, and nobody left. The room settled into something lower. Breathing changed. Conversations started at the edges. Then the build came back, and because there had been space, the next peak hit harder than it would have if the room had stayed at full intensity the whole time.
 
 I felt that dozens of times. Twilo, Tunnel on Danny Tenaglia nights (the curfew party in the back room and the primary room running simultaneously), Roseland Ballroom, underground parties through Family Affair in Ohio, the whole Brooklyn club circuit through the nineties. The rooms were different. The feeling was the same. And because I kept going back, something started to clarify. There was architecture underneath. Someone was making decisions I could feel but couldn't see.
 
@@ -23,7 +23,7 @@ When the energy dropped, that was a decision. When the key shifted, that was a d
 
 ## The recognition
 
-Somewhere in the middle of all those nights, it stopped being just an experience and became a recognition. This feeling is repeatable. If it's repeatable, it's learnable. If it's learnable, it's a skill. And if it's a skill, it goes places.
+At some point I started noticing that the feeling was repeatable. Same arc, different nights. If it was repeatable, someone was doing it on purpose. And if someone was doing it on purpose, it was a skill I could learn.
 
 I never DJed those rooms. I was never going to. I was a bedroom DJ, and the distinction matters. Bedroom DJing isn't failed club DJing. It's a different practice. You develop a deeper relationship with music through interaction. You learn what tracks do by putting them next to each other, hearing how a transition changes meaning, feeling what sequence does to energy. The crate builds through taste. You buy what moves you. Curation happens later, at sequencing time, when you're deciding what this particular hour needs to feel like.
 
@@ -39,8 +39,8 @@ That's the discipline. Selection is the easy part. Sequencing is where the meani
 
 ## What the body learned
 
-The dance floor taught me something I couldn't have learned from a book. Pacing is somatic before it's cognitive. You feel the valley before you understand why it was placed there. You feel the build before you can name the technique. The body processes the structure first, and the mind catches up later, if it catches up at all.
+The dance floor taught me something I couldn't have learned from a book. You feel the valley before you understand why it was placed there. You feel the build before you can name the technique. The body gets there first. The mind catches up later.
 
-If the structure peeks out, it didn't do its job. If you notice the sequencing, the sequencing failed. If you don't notice the structure and you just feel feelings, the content achieved its intent. That's the test. A good set feels like something that happened to you.
+A good set feels like something that happened to you. You don't notice the sequencing. You don't think about the transitions. You just feel the arc. The moment someone notices the structure, the structure failed.
 
-I spent years on those dance floors absorbing that principle before I had any use for it. I didn't know where it would go. I just knew it was real, and I knew it transferred, because the feeling was too precise and too repeatable to belong to only one room.
+I spent years on those dance floors absorbing that before I had any use for it. I didn't know where it would go. I just knew the feeling was too consistent to be accidental, and it kept showing up in rooms that had nothing to do with music.
