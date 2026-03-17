@@ -17,13 +17,11 @@ related:
   - /systems/formwork
 ---
 
-![CMYK Process separation: four print passes on a white canvas, halftone screening visible at plate level]({{ '/assets/img/Printshop_cmyk.png' | relative_url }}){:.image.diagram}
-
----
-
 I came up in print shops. USA Tees in Brooklyn, Atlas Embroidery in Fort Lauderdale. Production artist in the art department, but I had to understand every step of the process: offset presses, color separation, screen printing. Halftone screens at specific angles, registration dialed in by hand, ink density controlled plate by plate.
 
 Then I spent 20 years in Adobe.
+
+![CMYK Process separation: four print passes on a white canvas, halftone screening visible at plate level]({{ '/assets/img/Printshop_cmyk.png' | relative_url }}){:.image.diagram}
 
 > "This is what I want the site to feel like. It's kind of a middle-aged printmaker who once upon a time got his degree in mechanical engineering. Greasy hands with a small shop. Mid-century jazz music playing on the radio. Tortoise shell glasses. Kind of like 1990 Old Mill Basin Brooklyn, saying something sarcastic and giving you the side eye over his glasses."
 > (describing the whole identity, April 2025)

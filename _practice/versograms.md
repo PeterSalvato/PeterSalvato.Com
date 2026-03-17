@@ -16,6 +16,10 @@ description: "Song lyrics as typographic architecture. Polaroid-vertical format,
 last_modified: 2026-03-16
 ---
 
+I kept looking at song posters where the image references the mood and the lyrics get set in whatever type looks good. Two elements from two different processes. They coexist without cohering. The feeling of a song lives in the relationship between words and image, but most design processes treat them as separate problems and hope the result looks intentional.
+
+I wanted to see what happens when the lyrics are the actual generative input. The text itself, fed into AI image generation within the typographic parameters the grid establishes. What comes back is specific to that song, because the input is the actual words, not someone's interpretation of them.
+
 <div class="versograms-gallery">
 {% for song in site.data.versograms.songs %}
   <a href="{{ '/versograms/' | append: song.slug | append: '/' | relative_url }}" class="versograms-gallery-link">
@@ -23,12 +27,6 @@ last_modified: 2026-03-16
   </a>
 {% endfor %}
 </div>
-
----
-
-I kept looking at song posters where the image references the mood and the lyrics get set in whatever type looks good. Two elements from two different processes. They coexist without cohering. The feeling of a song lives in the relationship between words and image, but most design processes treat them as separate problems and hope the result looks intentional.
-
-I wanted to see what happens when the lyrics are the actual generative input. The text itself, fed into AI image generation within the typographic parameters the grid establishes. What comes back is specific to that song, because the input is the actual words, not someone's interpretation of them.
 
 ---
 

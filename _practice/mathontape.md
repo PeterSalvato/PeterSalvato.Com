@@ -16,15 +16,13 @@ last_modified: 2026-02-25
 listed: false
 ---
 
-![MathOnTape tour poster]({{ '/assets/img/MathOnTape_poster_web.jpg' | relative_url }}){:.image.artifact}
-
-<iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/soundcloud%253Aplaylists%253A1327712356&color=%232f252e&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-
----
-
 I started making electronic music in the early 2000s. Dirty analog synths, magnetic tape, feedback loops. No audience, no commercial goal. Just a room full of gear and whatever came out of it. The music had a texture: warm, degraded, physical. Tape hiss and overdrive and the specific sound of a signal pushed too hard through old hardware.
 
 The problem was the packaging. Every time I made something I wanted to release, the cover art was a separate project. Finish the music, then go find a visual treatment that "fits." The cover and the music coexisted without cohering. Two processes, two aesthetics, one label slapped across both.
+
+![MathOnTape tour poster]({{ '/assets/img/MathOnTape_poster_web.jpg' | relative_url }}){:.image.artifact}
+
+<iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/soundcloud%253Aplaylists%253A1327712356&color=%232f252e&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
 
 ---
 

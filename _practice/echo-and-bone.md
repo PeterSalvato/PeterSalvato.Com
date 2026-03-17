@@ -16,17 +16,15 @@ description: "Symbolic taxonomy of archetypal patterns. Stoic philosophy as firs
 last_modified: 2026-02-21
 ---
 
+The same four patterns kept showing up across unrelated projects. A brand identity, a narrative structure, a household routine. Hero, Shadow, Wise Old Man, Trickster. I wasn't looking for mythology. I was looking at why certain structures hold weight across completely different materials. They repeat across cultures because they solve the same problem: how human perception organizes complexity. Girders, not decoration.
+
+Stoicism is the first test case because it states its governing principles as axioms, makes the structural logic explicit, and has centuries of verification behind it.
+
 ![Memento Mori]({{ '/assets/img/EchoAndBone_MementoMori.jpg' | relative_url }}){:.image.artifact}
 
 ![Amor Fati]({{ '/assets/img/EchoAndBone_AmorFati.jpg' | relative_url }}){:.image.artifact}
 
 ![Summum Bonum]({{ '/assets/img/EchoAndBone_SummumBonum.jpg' | relative_url }}){:.image.artifact}
-
----
-
-The same four patterns kept showing up across unrelated projects. A brand identity, a narrative structure, a household routine. Hero, Shadow, Wise Old Man, Trickster. I wasn't looking for mythology. I was looking at why certain structures hold weight across completely different materials. They repeat across cultures because they solve the same problem: how human perception organizes complexity. Girders, not decoration.
-
-I wanted to document them that way. Stoicism is the first test case because it states its governing principles as axioms, makes the structural logic explicit, and has centuries of verification behind it.
 
 ---
 

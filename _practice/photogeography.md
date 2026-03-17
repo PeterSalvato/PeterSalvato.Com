@@ -14,6 +14,10 @@ description: "Constraint-locked photography. Fixed aspect ratios encode the rela
 last_modified: 2026-02-25
 ---
 
+My father was into photography. A neighbor gave me an SLR (the Minolta) when I was a kid, and I ended up in a photo class at Kingsborough. From there it became the visual component of everything: travel, relocation, documentation. Narrative image.
+
+Photogeography is a formal system for that archive, one that preserves the record rather than curating it into something else. Three locked aspect ratios, no cropping, no post-processing. The geolocation data isn't supplementary. It's the content: coordinates, timestamp, the camera and film that determined how I saw it.
+
 <div class="photogeography-gallery">
 {% for photo in site.data.photogeography.photos %}
   {% if photo.batch == 1 %}
@@ -23,14 +27,6 @@ last_modified: 2026-02-25
   {% endif %}
 {% endfor %}
 </div>
-
----
-
-My father was into photography. A neighbor gave me an SLR (the Minolta) when I was a kid, and I ended up in a photo class at Kingsborough. From there it became the visual component of everything: travel, relocation, documentation. Narrative image.
-
-When I look back at them now, they read as a roadmap of a life, not a portfolio, not a curated aesthetic experience, but evidence. These places existed. I was in them. Something caught my eye. Decades of that.
-
-Photogeography is a formal system for that archive, one that preserves the record rather than curating it into something else. The geolocation data isn't supplementary. It's the content: coordinates, timestamp, the camera and film that determined how I saw it.
 
 What makes the photographs worth looking at is the specificity. Three locked aspect ratios, no cropping, no post-processing. The photographs look like what they are: specific places, specific moments, preserved without editorializing.
 
