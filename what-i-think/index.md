@@ -1,12 +1,12 @@
 ---
 layout: default
-title: "What I Think"
+title: "Thesis"
 permalink: /what-i-think/
 description: "The position underneath the tools, the papers, and the methodology. The industry is racing toward replacing the human. I'm building in the opposite direction."
 seo_keywords: ["human in the loop", "pro-human AI", "AI governance", "accommodation design", "human-centered AI"]
 ---
 
-# What I Think
+# Thesis
 
 Two engineers on different sides of the country are working on the same problem. This happens all the time. Ideas arrive in a cadence, different people discover the same territory because the conditions were ready for it. If both of them are using AI tools that flatten their thinking, their judgment, their instincts into the same defaults, they're both going to arrive at the same solution. Two people, one output. But if they have tools that let them retain themselves in the work, that's two different solutions. And the difference between those solutions is where innovation lives. Creativity drives that. The specific way one person's mind attacks a problem differently than another's. Flatten that out and you don't just lose voice. You lose the mechanism that produces new ideas.
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Essays"
+title: "Writing"
 permalink: /essays/
 redirect_from:
   - /blog/
