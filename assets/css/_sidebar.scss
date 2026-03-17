@@ -5,6 +5,16 @@
 #sidebar-nav {
 }
 
+.sidebar-mark {
+  display: block;
+  margin-bottom: $space-md;
+
+  img {
+    width: 80px;
+    height: auto;
+  }
+}
+
 #sidebar-header {
   margin-bottom: $space-xl;
 }
