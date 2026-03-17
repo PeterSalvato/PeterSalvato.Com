@@ -12,6 +12,10 @@
     overflow-x: hidden;
   }
 
+  body {
+    display: block;
+  }
+
   html.nav-open,
   html.nav-open body {
     overflow: hidden;
@@ -254,19 +258,12 @@
   .hamburger-btn { display: none; }
 
   #sidebar-nav {
-    position: fixed;
-    left: 0;
-    top: 0;
     width: $sidebar-width-sm;
-    height: 100vh;
     padding: $space-lg $space-md;
-    overflow-y: auto;
-    z-index: $z-sidebar;
   }
 
   #main-content {
     padding: $space-xl $space-xl $space-xxl;
-    padding-left: calc(#{$sidebar-width-sm} + #{$space-xl});
   }
 
   .system-footer {
@@ -309,19 +306,12 @@
   .hamburger-btn { display: none; }
 
   #sidebar-nav {
-    position: fixed;
-    left: 0;
-    top: 0;
     width: $sidebar-width;
-    height: 100vh;
     padding: $space-xxxl $space-xl;
-    overflow-y: auto;
-    z-index: $z-sidebar;
   }
 
   #main-content {
     padding: $space-xl $space-xxxl calc(#{$space-xxxl} * 1.5);
-    padding-left: calc(#{$sidebar-width} + #{$space-xxxl});
   }
 
   .system-footer {

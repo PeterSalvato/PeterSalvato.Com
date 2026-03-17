@@ -2,25 +2,27 @@
 // LAYOUT — Base page structure (laptop default, overridden in responsive)
 // ============================================================================
 
+body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .hamburger-btn {
   display: none;
 }
 
 #sidebar-nav {
-  position: fixed;
-  left: 0;
-  top: 0;
   width: $sidebar-width;
-  height: 100vh;
   padding: $space-xxl $space-lg;
-  overflow-y: auto;
-  z-index: $z-sidebar;
+  flex-shrink: 0;
+  align-self: flex-start;
 }
 
 #main-content {
+  flex: 1;
+  min-width: 0;
   min-height: 100vh;
   padding: $space-lg $space-xxl $space-xxxl;
-  padding-left: calc(#{$sidebar-width} + #{$space-xxl});
 }
 
 #container {
@@ -30,8 +32,7 @@
 }
 
 .system-footer {
+  width: 100%;
   padding-left: $space-xxl;
   padding-right: $space-xxl;
-  position: relative;
-  z-index: $z-sidebar + 1;
 }
