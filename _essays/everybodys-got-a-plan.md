@@ -47,7 +47,7 @@ That's the same thing [SavePoint](/systems/savepoint/) does for context between 
 
 ---
 
-Everybody's got a plan until they get punched in the mouth.
+Everybody's got a plan until they get punched in the mouth. Mike Tyson said that.
 
 The system is good. I believe in the system. And then Tuesday happens. Someone had a hard day at school and the sensory threshold is lower than usual. The protein I planned isn't available. I forgot to defrost something. The executive function I budgeted for dinner got spent on a work problem at 3 PM. Tuesday doesn't care about the system.
 
