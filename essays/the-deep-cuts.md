@@ -15,6 +15,7 @@ Music production as somatic design practice. What DJing, mixing, and sound desig
 
 ---
 
+{::nomarkdown}
 {% assign chapters = site.essays | where: "series", "the-deep-cuts" | sort: "order" %}
 {% assign has_published = false %}
 {% for post in chapters %}
@@ -23,6 +24,7 @@ Music production as somatic design practice. What DJing, mixing, and sound desig
   {% include artifact-hero.html item=post url=post.url is_link=true %}
   {% endif %}
 {% endfor %}
+{:/nomarkdown}
 
 {% unless has_published %}
 Chapters are being written. The practice page for [The Deep Cuts](/practice/the-deep-cuts/) describes the project.

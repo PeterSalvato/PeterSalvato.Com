@@ -23,12 +23,14 @@ This is a spiral curriculum. The early chapters start in physical spaces (constr
 
 ---
 
+{::nomarkdown}
 {% assign chapters = site.essays | where: "series", "engineering-intent" | sort: "order" %}
 {% for post in chapters %}
   {% if post.published %}
   {% include artifact-hero.html item=post url=post.url is_link=true %}
   {% endif %}
 {% endfor %}
+{:/nomarkdown}
 
 ---
 

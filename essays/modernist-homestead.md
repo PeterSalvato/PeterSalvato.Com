@@ -23,12 +23,14 @@ This series applies the same methodology I use on enterprise platforms and AI to
 
 ---
 
+{::nomarkdown}
 {% assign chapters = site.essays | where: "series", "modernist-homestead" | sort: "chapter" %}
 {% for post in chapters %}
   {% if post.published %}
   {% include artifact-hero.html item=post url=post.url is_link=true %}
   {% endif %}
 {% endfor %}
+{:/nomarkdown}
 
 ---
 
