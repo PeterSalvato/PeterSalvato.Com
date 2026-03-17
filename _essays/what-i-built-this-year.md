@@ -18,9 +18,9 @@ In February I read this site top to bottom as a visitor and found a fabricated c
 
 That failure produced the last tool I built this year. But it only makes sense if you see the failures that came before it.
 
-## The pour (realized last, existed first)
+## The dump (realized last, existed first)
 
-Everything downstream depends on getting raw thinking into the system without friction. I didn't understand this until after I'd built the tools that process the material. Looking back, the pour had been running for three years before I recognized it as a practice: thousands of sessions of thinking out loud, dictating on drives, brainstorming at 2 AM. That raw material carried my actual voice, my actual sentence structure, the way I actually move between ideas. Every tool I built afterward draws from it.
+Everything downstream depends on getting raw thinking into the system without friction. I didn't understand this until after I'd built the tools that process the material. Looking back, I'd been dumping for three years before I recognized it as a practice: thousands of sessions of thinking out loud, dictating on drives, brainstorming at 2 AM. That raw material carried my actual voice, my actual sentence structure, the way I actually move between ideas. Every tool I built afterward draws from it.
 
 ## SavePoint
 
@@ -40,4 +40,4 @@ Individual tools, each working correctly, producing wrong results. That hallucin
 
 ---
 
-Each tool exists because the previous one failed or was not enough. The pour gave the tools material. [SavePoint](/systems/savepoint/){:.vocab-ref} kept the material from evaporating. The voice protocol kept the output honest. [LensArray](/systems/lensarray/) decomposed evaluation into real decisions. The coordination layer caught what the individual tools could not. The methodology behind all of it is documented on the [FormWork](/systems/formwork/) page.
+Each tool exists because the previous one failed or was not enough. The dump gave the tools material. [SavePoint](/systems/savepoint/){:.vocab-ref} kept the material from evaporating. The voice protocol kept the output honest. [LensArray](/systems/lensarray/) decomposed evaluation into real decisions. The coordination layer caught what the individual tools could not. The methodology behind all of it is documented on the [FormWork](/systems/formwork/) page.

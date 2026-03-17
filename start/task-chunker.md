@@ -98,5 +98,5 @@ Don't ask me if I want things broken down. Just do it. If the steps are too smal
 <div class="lesson-nav">
 <a href="/start/savepoint/">Previous: SavePoint</a>
 <a href="/start/">Back to all lessons</a>
-<a href="/start/the-pour/">Next: The Pour</a>
+<a href="/start/brain-dump/">Next: Brain Dump</a>
 </div>

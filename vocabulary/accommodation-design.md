@@ -91,11 +91,9 @@ The mapping is direct:
 | Progress monitoring | Iterative evaluation loops | Continuous assessment against specific, individualized goals |
 | Checkpoint pacing | Savepoint systems | Working memory has limits; mark progress before coherence degrades |
 
-### The Pour
+### The dump
 
-The pour is the first accommodation, aimed at the human. Named from concrete construction: you build [FormWork](/systems/formwork/) before you pour. The temporary structure shapes the work while things are fluid.
-
-The pour means deliberately generating source material in your own voice. Brainstorming, voice notes, arguing with yourself, changing direction mid-sentence. It can accumulate over years, get extracted in a single interview session, or arrive as a dictation from the car. It's not a one-time step at the start. It's available throughout the process.
+The first accommodation is aimed at the human. You just talk. Brainstorm, dictate voice notes, argue with yourself, change direction mid-sentence. Dumps become source material. They can accumulate over years, get extracted in a single interview session, or arrive as a dictation from the car. Available throughout the process.
 
 This is [input inversion](/practice/input-inversion/). The standard approach says structure your input for the model. Accommodation design says the opposite: remove friction at the point of capture so the raw material carries the maker's actual voice and the real structure of their thinking. The tools structure it afterward. A teacher doesn't require a student to organize their thoughts before speaking. The student speaks. The teacher captures it. Then they find the structure in what was already expressed.
 
@@ -158,5 +156,5 @@ Nobody is applying accommodation bidirectionally. Nobody is treating both the mo
 - [Processing Profiles](/essays/processing-profiles/) — the mapping between student and model constraints
 - [Why Does ChatGPT Get Worse the More You Type?](/essays/why-does-chatgpt-get-worse/) — the problem accommodation design solves
 - [What Special Ed Teachers Already Know About AI](/essays/what-special-ed-teachers-already-know/) — the practitioner profile
-- [Talk to It, Don't Type at It](/essays/talk-to-it/) — the pour in practice
+- [Talk to It, Don't Type at It](/essays/talk-to-it/) — dumping in practice
 - [The Three Layers](/essays/the-three-layers/) — group body, persona, individual accommodation

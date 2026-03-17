@@ -83,11 +83,11 @@ Same request. One sounds like a person. The other sounds like it was generated.
 
 - **Start rough. Refine later.** Even "I talk casual, short sentences, no fancy words" is better than nothing. Add rules as you notice the AI getting it wrong.
 - **It works for everything.** Emails, cover letters, messages to teachers, complaint letters, social media posts, birthday cards. Anything where the words should sound like they came from you.
-- **Combine with The Pour.** Explain what you want to say out loud. Let the AI organize it. The voice instructions keep the output sounding like your explanation, not a rewrite.
+- **Combine with Brain Dump.** Explain what you want to say out loud. Let the AI organize it. The voice instructions keep the output sounding like your explanation, not a rewrite.
 
 ---
 
 <div class="lesson-nav">
-<a href="/start/the-pour/">Previous: The Pour</a>
+<a href="/start/brain-dump/">Previous: Brain Dump</a>
 <a href="/start/">Back to all lessons</a>
 </div>

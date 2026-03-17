@@ -106,7 +106,7 @@ The question the brief eventually reaches: when does the brief come off? When th
 ## Connected Concepts
 
 - **[Accommodation Design](/vocabulary/accommodation-design/)** — Scaffolding is one of the three core moves from IEP design that transferred directly to AI architecture. Decomposition, scaffolding, individualized criteria.
-- **[FormWork](/systems/formwork/)** — The concrete construction metaphor makes the scaffold logic explicit: the form holds the pour while the concrete is wet, then comes off. The shape holds on its own.
+- **[FormWork](/systems/formwork/)** — The concrete construction metaphor makes the scaffold logic explicit: the form holds the material while the concrete is wet, then comes off. The shape holds on its own.
 - **[Drift](/vocabulary/drift/)** — A scaffold that stays too long becomes part of the structure. Nobody removes it because nobody marks it as temporary. That invisibility is how drift operates.
 - **[Processing Profile](/vocabulary/processing-profile/)** — The scaffold should fit the actual processing gap, not a generic gap. Reading the profile first is what makes the scaffold useful instead of over-engineered.
 - **[Fidelity](/vocabulary/fidelity/)** — A scaffold removed too early causes fidelity loss: the system cannot hold the standard without the support structure. Removal timing determines whether capability or dependency was built.

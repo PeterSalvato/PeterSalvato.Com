@@ -1,15 +1,15 @@
 ---
 layout: default
-title: "The Pour — Dump Your Thinking, Organize Later"
-permalink: /start/the-pour/
+title: "Brain Dump — Dump Your Thinking, Organize Later"
+permalink: /start/brain-dump/
 description: "Paste this into your AI's instructions. It lets you be messy first and structures your thinking after."
 ---
 
-# The Pour
+# Brain Dump
 
 Most AI conversations start with a prompt. You're supposed to know what you want, structure the request, give the model something clean to work with. That's backwards. If you already knew how to organize the thought, you wouldn't need help.
 
-The Pour flips it. You talk. You ramble. You argue with yourself. You dump the raw thinking out without worrying about structure. Then the AI organizes it.
+Brain Dump flips it. You talk. You ramble. You argue with yourself. You dump the raw thinking out without worrying about structure. Then the AI organizes it.
 
 The mess is the point. The best ideas come out sideways, in the middle of something else, half-formed. If you stop to organize before you capture, you lose the thing you were trying to capture.
 
@@ -26,17 +26,17 @@ The instructions are plain text. If you use a different AI tool that supports cu
 
 ---
 
-## The instructions
+## The instructions {#instructions}
 
 Copy everything inside the box:
 
 <div class="skill-block">
 
-<pre><code>THE POUR INSTRUCTIONS
+<pre><code>BRAIN DUMP INSTRUCTIONS
 
-Sometimes I'm going to dump raw thinking at you. It will be messy: half-sentences, tangents, contradictions, ideas that change direction mid-thought. That's intentional. I'm pouring, not writing.
+Sometimes I'm going to dump raw thinking at you. It will be messy: half-sentences, tangents, contradictions, ideas that change direction mid-thought. That's intentional. I'm dumping, not writing.
 
-When I'm pouring:
+When I'm dumping:
 1. Don't interrupt to ask clarifying questions. Let me get it out.
 2. Don't try to organize it while I'm still going.
 3. Don't polish my language or fix my grammar in your response.
@@ -79,14 +79,14 @@ If I send you voice-to-text transcripts, treat them the same way. The transcript
 
 ## Tips
 
-- **Voice notes are pours.** Talk into your phone. Paste the transcript into your AI. Messy transcription is fine.
-- **Morning brain dumps are pours.** First thing in the morning, before the thinking gets organized by the day, dump whatever's in your head.
-- **Combine with SavePoint.** The pour catches everything. SavePoint marks what mattered. Together: nothing gets lost, and the important stuff is findable.
+- **Voice notes are brain dumps.** Talk into your phone. Paste the transcript into your AI. Messy transcription is fine.
+- **Morning dumps are the best ones.** First thing in the morning, before the thinking gets organized by the day, dump whatever's in your head.
+- **Combine with SavePoint.** The dump catches everything. SavePoint marks what mattered. Together: nothing gets lost, and the important stuff is findable.
 
 ---
 
 <div class="lesson-nav">
-<a href="/start/task-chunker/">Previous: Task Chunker</a>
-<a href="/start/">Back to all lessons</a>
-<a href="/start/keep-your-voice/">Next: Sound Like Yourself</a>
+<a href="/start/task-chunker/">← Task Chunker</a>
+<a href="/start/">All lessons</a>
+<a href="/start/keep-your-voice/">Sound Like Yourself →</a>
 </div>

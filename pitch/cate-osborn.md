@@ -44,7 +44,7 @@ So I built tools that document the trip and bring back the value. Three of them,
 
 [SavePoint](/systems/savepoint/) marks where a thought crystallized. When the hyperfocus ends and I context-switch (and I always context-switch), the insight doesn't disappear. It's marked. Timestamped. I can find it three weeks later when it connects to something else. Your audience could start using this today, in any AI conversation, in ten minutes.
 
-[FormWork](/systems/formwork/) coordinates the whole process. It starts with what I call the pour: get the thinking out with as little friction as possible. Voice memos, dictation, talking it through. No structure required at the point of capture. The accommodation is aimed at the human first. Then the tools structure it, organize it, connect it to what came before.
+[FormWork](/systems/formwork/) coordinates the whole process. It starts with getting the thinking out with as little friction as possible. Voice memos, dictation, talking it through. No structure required at the point of capture. The accommodation is aimed at the human first. Then the tools structure it, organize it, connect it to what came before.
 
 The [voice governance system](/essays/voice-governance/) makes sure that when AI touches my writing, it still sounds like me. Like the person who had the ideas, with the specific way I build a thought.
 
@@ -80,7 +80,7 @@ I built a [free series](/start/) that teaches exactly this. Four tools, each one
 
 <a class="essay-link" href="/start/">
 <strong>Start Here: Free AI Tools</strong>
-<span>Four tools you paste into your AI. They change how the conversation works. Task chunking, context preservation, the pour, voice protection.</span>
+<span>Four tools you paste into your AI. They change how the conversation works. Task chunking, context preservation, brain dumps, voice protection.</span>
 </a>
 
 Here's some of the longer writing behind the tools:
@@ -92,7 +92,7 @@ Here's some of the longer writing behind the tools:
 
 <a class="essay-link" href="/essays/talk-to-it/">
 <strong>Talk to It, Don't Type at It</strong>
-<span>Why verbal input produces better AI output. The pour in practice.</span>
+<span>Why verbal input produces better AI output. The brain dump as method.</span>
 </a>
 
 <a class="essay-link" href="/essays/why-does-chatgpt-get-worse/">

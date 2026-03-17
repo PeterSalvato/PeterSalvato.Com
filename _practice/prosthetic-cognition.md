@@ -74,7 +74,7 @@ The practitioner provides:
 - **Domain knowledge.** What does quality look like in this specific field?
 - **Judgment.** When two assessments conflict, which one governs?
 - **Values.** What matters, what doesn't, what's non-negotiable?
-- **Raw material (the pour).** Unstructured thinking, real stories, actual language, lived experience. The human half of the coupling depends on this material entering the system uncompressed: talk, dictate, answer questions. No requirement to organize or perform. The rawness is what makes the output belong to the maker.
+- **Raw material.** Unstructured thinking, real stories, actual language, lived experience. The human half of the coupling depends on this material entering the system uncompressed: talk, dictate, answer questions. No requirement to organize or perform. The rawness is what makes the output belong to the maker.
 
 The model provides:
 - **Extended working memory.** Hold the full context of a three-year project across sessions.
@@ -93,7 +93,7 @@ The quality of a prosthetic depends on the quality of the interface. A poorly fi
 
 In human-AI cognitive coupling, the interface layer consists of purpose-built tools that translate between how the human naturally thinks and how the model processes. These tools are described in the [accommodation design framework](/practice/accommodation-design/) (Salvato, 2026) and the [input inversion principle](/practice/input-inversion/) (Salvato, 2026). The relevant points for this paper:
 
-**The human side of the interface** accommodates how the practitioner actually thinks. The practitioner thinks out loud, dictates, brainstorms, contradicts themselves, changes direction. No formatting requirements. No structured prompts. No performance. This is the pour: the human's contribution to the coupled system, captured in whatever form it naturally takes. Removing friction on input preserves the raw thinking, the natural voice, and the real architecture of the idea. The interface accepts raw cognitive output and preserves its full texture.
+**The human side of the interface** accommodates how the practitioner actually thinks. The practitioner thinks out loud, dictates, brainstorms, contradicts themselves, changes direction. No formatting requirements. No structured prompts. No performance. This is the human's contribution to the coupled system, captured in whatever form it naturally takes. Removing friction on input preserves the raw thinking, the natural voice, and the real architecture of the idea. The interface accepts raw cognitive output and preserves its full texture.
 
 **The model side of the interface** structures tasks for the model's processing reality. One objective at a time. Decomposed evaluation. Independent assessment dimensions. Context markers at cognitive turning points. The interface translates raw human thinking into input the model can process without degradation.
 
@@ -125,7 +125,7 @@ Since 2023 I have maintained continuous cognitive coupling with AI systems: thre
 
 The key output is the accumulated cognitive state: a rich, evolving representation of how one practitioner thinks, stored in a format the extended system can access and process. Voice patterns extracted from conversation history let the system write in a register that matches how I actually communicate. Third-party blind assessment could not identify the output as AI-assisted. Knowledge traversal across the full corpus traces how ideas evolved across months, catching connections no keyword search could find.
 
-A tool can't do this. A tool processes what you give it in the moment. The prosthetic relationship accumulates cognitive state over time. The coupling improves because the pour keeps growing: more unstructured thinking, more raw material for the tools to work with. The corpus exists because the system was designed to accept thinking as it actually happens, not as a polished deliverable.
+A tool can't do this. A tool processes what you give it in the moment. The prosthetic relationship accumulates cognitive state over time. The coupling improves because the corpus keeps growing: more unstructured thinking, more raw material for the tools to work with. The corpus exists because the system was designed to accept thinking as it actually happens, not as a polished deliverable.
 
 ### 5.3 The Interface Layer
 
@@ -213,7 +213,7 @@ Each tier builds on the previous one. The solo practice is running. The two-enti
 
 The AI field's two dominant framings, tool and agent, describe relationships I've tried and moved past. The most productive relationship I've found is cognitive extension through mutual accommodation.
 
-The model extends the practitioner's cognitive reach. The practitioner provides cognitive intent, judgment, and the pour: raw material captured with as little friction as possible. Purpose-built interfaces handle the coupling. The result is a hybrid cognitive system that produces output neither component could achieve independently.
+The model extends the practitioner's cognitive reach. The practitioner provides cognitive intent, judgment, and raw material captured with as little friction as possible. Purpose-built interfaces handle the coupling. The result is a hybrid cognitive system that produces output neither component could achieve independently.
 
 This is not a metaphor. Clark's extended mind thesis describes it philosophically. The CHI 2025 research program studies it empirically. The bionic hand research demonstrates the mechanism physically. And I've been doing it for three years, producing a deployed site, a published methodology, and an open-source toolkit in the process.
 

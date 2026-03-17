@@ -46,7 +46,7 @@ In February 2026 I started building this site in Claude Code sessions. Not as a 
 
 The character of the work was completely different from the ChatGPT era. Those conversations were exploratory, me trying to figure out who I am professionally, working through naming and positioning and existential questions about my career. The Claude Code sessions were building. I needed a real project to develop the governance system against, and the site became that project.
 
-Both tools were the right tool for the phase I was in. ChatGPT was where the pour happened: years of unstructured thinking that became the source material everything else operates on. Claude Code was where the tools shaped it. All that exploration produced the raw material, and the building compiled it into something that could hold.
+Both tools were the right tool for the phase I was in. ChatGPT was where the raw thinking happened: years of unstructured exploration that became the source material everything else operates on. Claude Code was where the tools shaped it. All that exploration produced the raw material, and the building compiled it into something that could hold.
 
 I switched because the work changed. I needed a tool that could work inside my file system and hold what we'd decided. Once it could, I could finally build on top of previous decisions instead of rebuilding them every session.
 

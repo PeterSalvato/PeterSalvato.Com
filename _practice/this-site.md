@@ -17,7 +17,7 @@ related:
 faq: true
 faq_items:
   - question: "How was petersalvato.com built?"
-    answer: "The site was compiled from the pour: three years of unstructured conversation transcripts, voice notes, and thinking out loud. FormWork's first accommodation removes friction on input so the raw material carries the maker's actual voice. Then SavePoint preserves context, LensArray evaluates, and the voice protocol verifies. AI tools serve as the compiler. The source code is the maker's own thinking."
+    answer: "The site was compiled from three years of unstructured conversation transcripts, voice notes, and thinking out loud. FormWork's first accommodation removes friction on input so the raw material carries the maker's actual voice. Then SavePoint preserves context, LensArray evaluates, and the voice protocol verifies. AI tools serve as the compiler. The source code is the maker's own thinking."
   - question: "What tools were used to build this site?"
     answer: "Jekyll 4.4.1 with custom SCSS, hosted on GitHub Pages. Build tools include ChatGPT for exploratory thinking, Gemini for planning, and Claude Code for engineering. Visual treatments produced by PressWorks. The governance infrastructure was assembled over nearly a year before the current tools existed."
   - question: "What is the difference between compilation and generation?"
@@ -36,7 +36,7 @@ I use AI every day. I also built the governance layer that keeps the human visib
 
 Every page on this site was compiled from three years of my conversations: over 60,000 documents of thinking out loud into AI tools, mined by the skills described here, evaluated against lenses extracted from real practitioners, assembled under voice rules derived from how I actually talk in unguarded sessions.
 
-That corpus is the pour. In FormWork, the first accommodation is aimed at the human: get the thinking out of your head with as little friction as possible. Talk, dictate, answer questions. No requirement to structure or perform. Three years of that produced the source material everything else operates on. That rawness matters. It carries my actual voice, my actual thinking, the way I actually connect ideas. The tools that follow can only preserve what the pour already contains.
+In FormWork, the first accommodation is aimed at the human: get the thinking out of your head with as little friction as possible. Talk, dictate, answer questions. No requirement to structure or perform. Three years of that produced the source material everything else operates on. That rawness matters. It carries my actual voice, my actual thinking, the way I actually connect ideas. The tools that follow can only preserve what the raw material already contains.
 
 This is compilation, not generation. Most people use AI as a generator: prompt in, content out. The AI is the author and the human is the editor. I use it as a compiler. I am the source code: decisions, instincts, working knowledge accumulated across conversations. The system mines, evaluates, and assembles that material into output. The AI is the toolchain. You don't say gcc wrote the program.
 
@@ -159,7 +159,7 @@ The visual register is accommodation design applied to the visitor. The same que
 
 The tools I built to make this site are also running on it. Each one corresponds to something you experience as a visitor, whether you notice it or not.
 
-[Accommodation Design](/practice/accommodation-design/) asks: what does the system receiving this actually need? On the build side, that question shaped the pour (low-friction input so my actual thinking comes through) and the visual register (print constraints that set reading conditions). On the visitor side, it shapes the adaptive pathfinding. The site tracks what you have seen and adjusts what it surfaces. Connection cards at the bottom of each page change based on where you have been. If you have already read the FormWork page, the card linking to it acknowledges that instead of pitching it again. The site is reading your path and accommodating it.
+[Accommodation Design](/practice/accommodation-design/) asks: what does the system receiving this actually need? On the build side, that question shaped the input (low-friction capture so my actual thinking comes through) and the visual register (print constraints that set reading conditions). On the visitor side, it shapes the adaptive pathfinding. The site tracks what you have seen and adjusts what it surfaces. Connection cards at the bottom of each page change based on where you have been. If you have already read the FormWork page, the card linking to it acknowledges that instead of pitching it again.
 
 [Input Inversion](/practice/input-inversion/) says: let raw material come in unstructured, and build the structure after. On the build side, that produced three years of unstructured conversation as source material. On the visitor side, the same principle runs in reverse. Your browsing is unstructured. You click what interests you, skip what does not, double back. The session tracking turns that unstructured behavior into a visitor profile: what you have read, how deep you have gone, which domains you have touched. The structure comes after the input, for you and for me.
 

@@ -29,9 +29,9 @@ I went the other way for three years. Thousands of sessions of thinking out loud
 
 ## The behavior accommodates the human
 
-Talking instead of typing removes the friction between thinking and input. You don't compress, don't edit, don't organize before the thought is finished. The keyboard forces you to compose. Your voice lets you pour.
+Talking instead of typing removes the friction between thinking and input. You don't compress, don't edit, don't organize before the thought is finished. The keyboard forces you to compose. Your voice lets you dump.
 
-That pouring is the first half of what I call bidirectional accommodation. The human side. Get the thinking out with as little resistance as possible. The other half (structuring that raw material so the model can process it) is a separate problem, handled by separate tools. But it depends entirely on what goes in. If what goes in is already filtered, already polished, the tools downstream have less to work with.
+That dumping is the first half of what I call bidirectional accommodation. The human side. Get the thinking out with as little resistance as possible. The other half (structuring that raw material so the model can process it) is a separate problem, handled by separate tools. But it depends entirely on what goes in. If what goes in is already filtered, already polished, the tools downstream have less to work with.
 
 ## Starting today
 

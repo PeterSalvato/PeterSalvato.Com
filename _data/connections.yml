@@ -93,7 +93,7 @@ formwork:
       reason: "FormWork is accommodation design made operational."
     - target: input-inversion
       url: /practice/input-inversion/
-      reason: "The pour is input inversion in practice: raw thinking first, structure after."
+      reason: "Input inversion in practice: raw thinking first, structure after."
     - target: savepoint
       url: /systems/savepoint/
       reason: "SavePoint preserves context across sessions. FormWork coordinates within them."
@@ -188,7 +188,7 @@ input-inversion:
       reason: "Accommodation for the human side: reducing friction on how thinking enters the system."
     - target: formwork
       url: /systems/formwork/
-      reason: "The pour is input inversion made into a process step."
+      reason: "Input inversion made into a process step."
     - target: prosthetic-cognition
       url: /practice/prosthetic-cognition/
       reason: "The prosthetic extends reach. Input inversion removes friction on the coupling."
@@ -242,7 +242,7 @@ prosthetic-cognition:
       reason: "FormWork is the harness that couples practitioner to prosthetic."
     - target: input-inversion
       url: /practice/input-inversion/
-      reason: "The pour reduces friction on the coupling between human and tool."
+      reason: "Low-friction input reduces friction on the coupling between human and tool."
     - target: accommodation-design
       url: /practice/accommodation-design/
       reason: "Mutual accommodation is what makes the prosthetic work."
@@ -347,7 +347,7 @@ this-site:
       reason: "Hand compilation with AI tools. The prosthetic in action."
     - target: input-inversion
       url: /practice/input-inversion/
-      reason: "60,000 documents of raw thinking. The pour that fed everything."
+      reason: "60,000 documents of raw thinking. Three years of dumping that fed everything."
 
 # ============================================================================
 # ABOUT
@@ -553,7 +553,7 @@ the-unstructured-corpus:
       reason: "The whitepaper that formalizes why unstructured input works."
     - target: formwork
       url: /systems/formwork/
-      reason: "The pour is where the unstructured corpus enters."
+      reason: "Where the unstructured corpus enters the system."
     - target: this-site
       url: /practice/this-site/
       reason: "60,000 documents. Three years. This site came out of that corpus."
@@ -569,7 +569,7 @@ talk-to-it:
       reason: "Dictation is input inversion at the physical layer. Voice before typing."
     - target: formwork
       url: /systems/formwork/
-      reason: "The pour can be spoken. FormWork handles what comes after."
+      reason: "You can dump by talking. FormWork handles what comes after."
     - target: prosthetic-cognition
       url: /practice/prosthetic-cognition/
       reason: "Speaking to the tool is the most natural coupling."
@@ -807,7 +807,7 @@ vocab-input-inversion:
       reason: "The authorship distinction that input inversion makes possible."
     - target: formwork
       url: /systems/formwork/
-      reason: "The coordination harness that processes what the pour produces."
+      reason: "The coordination harness that processes what you dump into it."
     - target: accommodation-design
       url: /practice/accommodation-design/
       reason: "Input inversion is the human-side accommodation. The parent framework."

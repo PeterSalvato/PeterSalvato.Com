@@ -129,7 +129,7 @@ The constraints don't tell the model what to write. They tell it what it can't d
 
 The source material for the protocol is conversation, because published writing is performance. The practitioner has already edited, compressed, and shaped their thinking for an audience. Training on performance produces performed output.
 
-The source material is the pour: conversation transcripts accumulated over three years across ChatGPT, Claude, and Gemini. Rough, unstructured, full of false starts. That is how I actually talk. This raw corpus is what the voice pipeline operates on. The pipeline extracts patterns from that material: sentence rhythm, how I start explaining something, vocabulary I reach for, what I never say.
+The source material is conversation transcripts accumulated over three years across ChatGPT, Claude, and Gemini. Rough, unstructured, full of false starts. That is how I actually talk. This raw corpus is what the voice pipeline operates on. The pipeline extracts patterns from that material: sentence rhythm, how I start explaining something, vocabulary I reach for, what I never say.
 
 Published writing says: "The methodology was developed through iterative refinement of governance patterns." Conversation says: "I kept losing things between sessions. Not the notes. The exact moment something clicked." The conversation version is the actual voice. The published version is what the voice sounds like after it has been cleaned up.
 

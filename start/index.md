@@ -28,8 +28,8 @@ I built and tested these with [Claude](https://claude.ai). Each lesson walks you
 <span>Break any task into steps you can actually start. Energy estimates instead of time estimates. Built-in permission to stop.</span>
 </a>
 
-<a class="essay-link" href="/start/the-pour/">
-<strong>3. The Pour</strong>
+<a class="essay-link" href="/start/brain-dump/">
+<strong>3. Brain Dump</strong>
 <span>Dump your thinking without organizing it first. Talk, ramble, argue with yourself. Let the tool sort it out after.</span>
 </a>
 

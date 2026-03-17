@@ -17,7 +17,7 @@ I never DJed. I received. I stood on that floor and felt what sequencing does wh
 
 ## What pacing actually is
 
-You read the state of the system receiving your work, then you design the sequence around what you read. In FormWork, pacing depends on the pour. The unstructured thinking carries the maker's actual process: how they sequence ideas, where they backtrack, what they connect to what. You can't pace effectively without reading that material. The pour tells you what the maker's thinking actually looks like, which tells you how to sequence the tools around it.
+You read the state of the system receiving your work, then you design the sequence around what you read. In FormWork, pacing depends on the dump. The unstructured thinking carries the maker's actual process: how they sequence ideas, where they backtrack, what they connect to what. You can't pace effectively without reading that material. It tells you what the maker's thinking actually looks like, which tells you how to sequence the tools around it.
 
 A DJ doing this well is processing in real time: energy level, fatigue, where the room peaked last, how long ago, what hasn't been heard yet. The decision about the next track is made from what the room is showing you right now. You can plan a set list. The good DJs I watched abandoned it within the first hour because the room told them something the plan didn't know.
 

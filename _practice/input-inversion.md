@@ -129,7 +129,7 @@ The conventional model:
 
 The inverted model:
 
-**Human** (thinks out loud) → **Raw input** → **Accommodation tools** (structure for model) → **Model** → **Output**
+**Human** (thinks out loud) → **Dump** → **Accommodation tools** (structure for model) → **Model** → **Output**
 
 The difference is where the structuring happens. In the conventional model, the human does it before the input reaches any system. In the inverted model, purpose-built tools do it after the human has finished thinking. The human contributes raw material. The tools translate it into whatever structure the model needs.
 
@@ -151,7 +151,7 @@ The human's processing reality: ideas lose fidelity when forced into structure a
 
 The model's processing reality: context limits, attention degradation, instruction sensitivity. The accommodation is structured input: decomposed tasks, one objective at a time, individualized evaluation criteria, context markers at cognitive turning points.
 
-In [FormWork](/systems/formwork/), the pour is the first accommodation, aimed at the human. Every other tool accommodates the model. Both are designed from the same question: what does this system require to do its job?
+In [FormWork](/systems/formwork/), the dump is the first accommodation, aimed at the human. Every other tool accommodates the model. Both are designed from the same question: what does this system require to do its job?
 
 The classroom version of this: a student speaks freely, and the teacher takes what was expressed and builds the next instructional step around the student's processing profile. The burden of translation sits with the teacher, not the student. The student's job is to think. The teacher's job is to make that thinking usable.
 

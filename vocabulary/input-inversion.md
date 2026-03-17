@@ -68,7 +68,7 @@ The conventional workflow:
 
 The inverted workflow:
 
-**Human** (thinks out loud) → **Raw input** → **Accommodation tools** (structure for model) → **Model** → **Output**
+**Human** (thinks out loud) → **Dump** → **Accommodation tools** (structure for model) → **Model** → **Output**
 
 The difference is where the structuring happens and who does it. In the conventional model, the human organizes before the input reaches any system. In the inverted model, purpose-built tools organize after the human has finished thinking.
 
@@ -123,7 +123,7 @@ Input inversion extends that logic to the human side of the interface: design th
 ## Connected Concepts
 
 - **[Accommodation Design](/vocabulary/accommodation-design/)** — The parent framework. Input inversion is the accommodation aimed at the human side. Get the thinking out with as little friction as possible.
-- **[FormWork](/systems/formwork/)** — The coordination harness that holds all the accommodation tools in position. Input inversion describes the pour. FormWork coordinates everything after it.
+- **[FormWork](/systems/formwork/)** — The coordination harness that holds all the accommodation tools in position. Input inversion describes the dump. FormWork coordinates everything after it.
 - **[Processing Profile](/vocabulary/processing-profile/)** — What a system can and cannot handle. The human's processing profile (ideas lose fidelity when forced into structure at capture) is what input inversion accommodates.
 - **[Fidelity](/vocabulary/fidelity/)** — The gap between what was meant and what survived. Pre-structuring is the first place fidelity loss happens.
 - **[Drift](/vocabulary/drift/)** — What happens when accommodation stops. Voice drift (AI copy converging toward a generic average) is one form. Corpus-based voice sampling is the counter.
@@ -138,4 +138,4 @@ Input inversion extends that logic to the human side of the interface: design th
 - [I'm Compilative, Not Generative](/essays/compilation-not-generation/) — the authorship distinction and what it means for who actually wrote this
 - [I Needed a Better Tool](/essays/i-needed-a-better-tool/) — the corpus origin: three years of thinking out loud before there was a name for it
 - [AI Governance as Accommodation Design](/practice/accommodation-design/) — how input inversion fits the bidirectional accommodation pattern
-- [FormWork](/systems/formwork/) — the coordination harness that processes what the pour produces
+- [FormWork](/systems/formwork/) — the coordination harness that processes what the dump produces

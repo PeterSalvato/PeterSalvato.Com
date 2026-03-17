@@ -17,7 +17,7 @@ faq_items:
   - question: "How does Peter Salvato approach a project?"
     answer: "Start with the system receiving the work, not the person commissioning it. What does the student need, the end user need, the platform need? The answer to that question governs every design, engineering, and architectural decision that follows."
   - question: "How does accommodation design apply to AI?"
-    answer: "Language models have processing profiles: context windows are working memory ceilings, compound prompts degrade the same way compound classroom instructions do, attention diminishes over long inputs. But the human has a processing profile too: ideas lose fidelity when forced into structure at the point of capture. The accommodation framework designs for both. The pour accommodates the human. The tools accommodate the model."
+    answer: "Language models have processing profiles: context windows are working memory ceilings, compound prompts degrade the same way compound classroom instructions do, attention diminishes over long inputs. But the human has a processing profile too: ideas lose fidelity when forced into structure at the point of capture. The accommodation framework designs for both. Remove friction on input so the human's thinking comes through raw. Structure the tasks so the model can process them. Both directions, same question."
 ---
 
 A student in my classroom hears "solve for the missing number, show your work, and explain your reasoning" and processes the first instruction. The rest drops. Three tasks disguised as one, given to a system that can't hold them all at once.
@@ -62,7 +62,7 @@ The thread across all of these is accommodation, and it runs in both directions.
 
 But there's always a second accommodation happening. My student also needs permission to speak before organizing her thoughts. My wife needs to show her work without performing for the camera. And I need to think out loud into a voice note without structuring it for the model first. The friction on the input side matters as much as the structure on the output side.
 
-In AI work, that second accommodation is the pour: the deliberate act of getting the thinking out of your head with as little friction as possible. The tools accommodate the model. The pour accommodates the maker. Both exist because the same question applies in both directions: what does the receiving system require, and what structure meets it.
+In AI work, that second accommodation is the same move: get the thinking out of your head with as little friction as possible. Talk, dictate, think out loud. The tools structure things for the model. The low-friction input preserves what the maker actually meant. Both exist because the same question applies in both directions: what does the receiving system require, and what structure meets it.
 
 In every case, the people closest to the work couldn't see the gap because they were focused on what they needed the system to do. The shift was learning to read the other system in the room, the one receiving the work, and designing for what it could actually handle.
 
