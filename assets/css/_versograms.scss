@@ -3,11 +3,10 @@
 // ============================================================================
 
 // ---------------------------------------------------------------------------
-// Gallery thumbnail card
+// Gallery thumbnail card — mini poster
 // ---------------------------------------------------------------------------
 
 .versogram-card {
-  border: 1px solid $color-rule;
   background: #fff;
 }
 
@@ -19,8 +18,16 @@
   padding: 0;
 }
 
-.versogram-caption {
+.versogram-card--thumb {
+  border: 1px solid $color-rule;
   padding: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  aspect-ratio: 8.5 / 11;
+}
+
+.versogram-thumb-headline {
+  margin-bottom: 0.5rem;
 }
 
 .versogram-title-svg {
@@ -32,9 +39,27 @@
 
 .versogram-title-text {
   font-family: $font-display;
-  font-size: $type-caption;
+  font-size: $type-fine;
   letter-spacing: 0.04em;
   text-transform: uppercase;
+}
+
+.versogram-thumb-image {
+  flex: 1;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.versogram-thumb-footer {
+  padding-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.125rem;
 }
 
 .versogram-artist {
@@ -42,7 +67,6 @@
   font-family: $font-mono;
   font-size: $type-fine;
   color: $color-ink-light;
-  margin-top: 0.25rem;
 }
 
 // ---------------------------------------------------------------------------
