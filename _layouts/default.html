@@ -66,6 +66,13 @@
   })();
 </script>
 
+<!-- Lazy-load below-fold images -->
+<script>
+  document.querySelectorAll('#main-content img').forEach(function(img) {
+    if (!img.hasAttribute('loading')) img.setAttribute('loading', 'lazy');
+  });
+</script>
+
 <!-- Pathfinding — session-based visitor path tracking -->
 <script src="{{ '/assets/js/pathfinding.js' | relative_url }}"></script>
 

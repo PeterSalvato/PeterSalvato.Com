@@ -18,7 +18,7 @@ layout: default
     <div class="context-editorial">
         <div class="context-editorial-image">
             <div class="printed-card">
-                <img src="{{ page.image | relative_url }}" alt="{{ page.title }}">
+                <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" loading="lazy">
                 {% if page.image_caption %}
                 <span class="printed-card-caption">{{ page.image_caption }}</span>
                 {% endif %}

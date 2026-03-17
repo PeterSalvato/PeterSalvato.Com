@@ -82,6 +82,45 @@ new-city:
       reason: "Somatic pacing in prose is reading the room on paper."
 
 # ============================================================================
+# THESIS & ONRAMPS
+# ============================================================================
+
+what-i-think:
+  url: /what-i-think/
+  connections:
+    - target: accommodation-design
+      url: /practice/accommodation-design/
+      reason: "The framework behind the position. How keeping the human in the loop becomes a method."
+    - target: formwork
+      url: /systems/formwork/
+      reason: "The tool that puts this philosophy into daily practice."
+    - target: savepoint
+      url: /systems/savepoint/
+      reason: "Built because the machine doesn't get to decide what mattered."
+    - target: lensarray
+      url: /systems/lensarray/
+      reason: "One score is not evaluation. Real evaluation requires perspectives that can disagree."
+    - target: start
+      url: /start/
+      reason: "Free tools that put this philosophy into your hands today."
+
+start:
+  url: /start/
+  connections:
+    - target: formwork
+      url: /systems/formwork/
+      reason: "The full coordination system behind these simplified tools."
+    - target: savepoint
+      url: /systems/savepoint/
+      reason: "The complete SavePoint protocol. What the free version is built from."
+    - target: voice-governance
+      url: /practice/voice-governance/
+      reason: "The research behind keeping your voice intact when working with AI."
+    - target: what-i-think
+      url: /what-i-think/
+      reason: "Why these tools exist. The position underneath the method."
+
+# ============================================================================
 # TOOLS — How I Work
 # ============================================================================
 
@@ -106,6 +145,9 @@ formwork:
     - target: this-site
       url: /practice/this-site/
       reason: "This site was compiled through FormWork. It's the build log."
+    - target: start
+      url: /start/
+      reason: "Simplified versions of these tools. Paste them into any AI assistant and start today."
     - target: prosthetic-cognition
       url: /practice/prosthetic-cognition/
       reason: "FormWork is the harness that couples the practitioner to the tools."
@@ -131,6 +173,9 @@ savepoint:
     - target: i-needed-a-better-tool
       url: /essays/i-needed-a-better-tool/
       reason: "The story of building SavePoint out of frustration with losing my place."
+    - target: start
+      url: /start/
+      reason: "The free version. Paste it into your AI and start marking what matters."
 
 lensarray:
   url: /systems/lensarray/
@@ -150,6 +195,9 @@ lensarray:
     - target: accommodation-design
       url: /practice/accommodation-design/
       reason: "Decomposed evaluation is accommodation applied to quality assurance."
+    - target: what-i-think
+      url: /what-i-think/
+      reason: "The position underneath the tools. Why keeping the human in the loop matters."
 
 # ============================================================================
 # PRACTICE — Whitepapers and Methods
