@@ -34,23 +34,19 @@ seo_keywords: ["design engineering", "design methodology", "systems architecture
       {% assign published_count = 0 %}
       {% for post in series_posts %}{% if post.published %}{% assign published_count = published_count | plus: 1 %}{% endif %}{% endfor %}
       {% if published_count > 0 %}
-      <div class="series-block" id="series-{{ series_key }}">
-        <div class="series-header">
-          <h3>{{ series_info.title }}</h3>
-          <p class="artifact-context">{{ series_info.description }}</p>
-          <div class="dossier-meta">
-            {% if series_info.status %}<span class="dossier-status">{{ series_info.status }}</span>{% endif %}
-            <span class="dossier-status">{{ published_count }}/{{ series_info.chapters | default: "?" }} published</span>
+      <a href="{{ '/essays/' | append: series_key | append: '/' | relative_url }}" class="artifact-card artifact-card--link">
+        <div class="artifact-hero-header">
+          <div class="artifact-hero-title">
+            <h3>{{ series_info.title }}</h3>
           </div>
         </div>
-        <div class="series-posts">
-          {% for post in series_posts %}
-            {% if post.published %}
-              {% include artifact-hero.html item=post url=post.url is_link=true %}
-            {% endif %}
-          {% endfor %}
+        <p class="artifact-context">{{ series_info.description }}</p>
+        <div class="dossier-meta">
+          {% if series_info.status %}<span class="dossier-status">{{ series_info.status }}</span>{% endif %}
+          <span class="dossier-status">{{ published_count }}/{{ series_info.chapters | default: "?" }} published</span>
         </div>
-      </div>
+        <p class="artifact-link">Read &rarr;</p>
+      </a>
       {% endif %}
     {% endfor %}
   </div>
