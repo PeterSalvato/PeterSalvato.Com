@@ -62,4 +62,4 @@ No image is cropped to fit a format. No image's format is changed in post. The c
 
 If you can't crop, you reposition. If you can't change the ratio, you learn to see in the shape the format demands. Fewer options means you actually have to see what's in front of you. The project started as an experiment and grew into its own system once the archive got serious enough to need one.
 
-The [Sovereign Design Engine](/practice/sovereign-design-engine/) renders the final output: 11x17 tabloid posters with EXIF-driven metadata, GPS coordinates, camera, date, aspect ratio classification. Same principle as [Versograms](/practice/versograms/): lock the format, let the content differentiate each piece.
+The [Art Department](/practice/art-department/) renders the final output: 11x17 tabloid posters with EXIF-driven metadata, GPS coordinates, camera, date, aspect ratio classification. Same principle as [Versograms](/practice/versograms/): lock the format, let the content differentiate each piece.

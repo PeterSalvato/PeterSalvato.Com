@@ -15,7 +15,7 @@ seo_keywords: ["Meditations", "Constraint-Based Design", "Typography", "Poster D
 description: "Constraint-based graphic explorations. Each series locks a visual system then populates it with content the constraint wasn't designed for. Three Echo & Bone prints finished."
 last_modified: 2026-03-01
 related:
-  - /practice/sovereign-design-engine
+  - /practice/art-department
   - /practice/pressworks
   - /practice/order-of-the-aetherwright
 ---

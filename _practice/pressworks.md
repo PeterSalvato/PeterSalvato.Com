@@ -12,7 +12,7 @@ seo_keywords: ["Print Production Pipeline", "CMYK Halftone", "Risograph Duotone"
 description: "Terminal-native print production. Models plate-by-plate press logic as composable shell operations: CMYK separation, halftone screening, registration offset, grain, color manipulation. Built by a 20-year Adobe user who stopped thinking in Adobe's UI."
 last_modified: 2026-03-07
 related:
-  - /practice/sovereign-design-engine
+  - /practice/art-department
   - /evidence/encore
   - /systems/formwork
 ---
@@ -46,4 +46,4 @@ That level of control matters because it's what I had in the print shop. Photosh
 
 Every texture on this site came through PressWorks. The grain on the page surface, the halftone treatments, the desaturated color palette. [LensArray](/systems/lensarray/) borrows the language directly: evaluation happens in distinct layers, like plates in a screen print. The plate-by-plate process is the same, just running in code instead of on a Heidelberg.
 
-The tool is still being built. The operations work and the presets produce what I need. I'm adding capabilities as the site demands them: img2img workflows, batch processing across an asset directory, tighter integration with the [Sovereign Design Engine](/practice/sovereign-design-engine/) pipeline. The coverage grows as the work requires it.
+The tool is still being built. The operations work and the presets produce what I need. I'm adding capabilities as the site demands them: img2img workflows, batch processing across an asset directory, tighter integration with the [Art Department](/practice/art-department/) pipeline. The coverage grows as the work requires it.

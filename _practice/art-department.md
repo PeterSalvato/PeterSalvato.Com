@@ -1,15 +1,18 @@
 ---
 layout: project
-redirect_from: /infrastructure/sovereign-design-engine/
+redirect_from:
+  - /infrastructure/sovereign-design-engine/
+  - /practice/sovereign-design-engine/
+  - /practice/print-engine/
 practice_group: meditations
-title: "Sovereign Design Engine"
+title: "The Art Department"
 subtitle: "Headless Design Pipeline for Print-Ready Output"
 icon: construction
 status: "In Development"
 published: true
 context: "The content lives in one environment and the design tool lives on another machine. Every time I need to produce something physical, I leave the place where the content was built and manually lay out what I already have structured as data."
 faculty: ["design", "engineering"]
-seo_keywords: ["Print Production Pipeline", "CSS Paged Media", "Headless Design", "Local-First Design Tools", "Print-Ready PDF", "Design Engineering"]
+seo_keywords: ["Print Production Pipeline", "CSS Paged Media", "Headless Design", "Local-First Design Tools", "Print-Ready PDF", "Design Engineering", "Art Department"]
 description: "Headless, code-driven design pipeline. Source images and metadata in, print-ready PDFs out. No Adobe, local-first, offline-capable. Powers Photogeography posters, Versograms prints, and Deep Cuts book spreads."
 last_modified: 2026-03-01
 related:
@@ -20,16 +23,16 @@ cta:
   link: /practice/pressworks
 ---
 
-![Versograms poster rendered by the Sovereign Design Engine: per-song display font, AI-generated imagery, 4-column lyrics, metadata sidebar]({{ '/assets/img/SDE_versogram_poster.png' | relative_url }}){:.image.artifact}
+![Versograms poster rendered by The Art Department: per-song display font, AI-generated imagery, 4-column lyrics, metadata sidebar]({{ '/assets/img/SDE_versogram_poster.png' | relative_url }}){:.image.artifact}
 
 ---
 
 The production problem is always the same: the content lives in one environment and the design tool lives on another machine. Every time I need to produce something physical, I leave the place where the content was built, open a different application, and manually lay out what I already have structured as data. Proprietary files, no version control, no scripting.
 
-I have projects that need to become physical objects: a photography archive as tabloid posters, a song lyric series as prints, a book on DJ methodology as bound spreads. The physical artifact is the point. The Engine is the crate I reach into: a personal repertoire of templates, type scales, and production constraints that I know well enough to assemble quickly for any new piece.
+I have projects that need to become physical objects: a photography archive as tabloid posters, a song lyric series as prints, a book on DJ methodology as bound spreads. The physical artifact is the point. The Art Department is the crate I reach into: a personal repertoire of templates, type scales, and production constraints that I know well enough to assemble quickly for any new piece.
 
 > "My design aesthetic is decidedly print-focused and gritty, off-register. When doing print or graphics I can mimic this perfectly, but I want to come up with a way to do it for the web."
-> (the problem that produced both the Engine and [PressWorks](/practice/pressworks/), April 2025)
+> (the problem that produced both The Art Department and [PressWorks](/practice/pressworks/), April 2025)
 
 The production tool for this is InDesign. I don't own it. And even when I did, every layout variant was a manual file. I prefer to keep out of Adobe as much as possible.
 
@@ -45,4 +48,4 @@ Three template types run through the engine now. [Photogeography](/practice/phot
 
 Each template reads a JSON manifest. Each manifest can override CSS custom properties for per-piece adjustments. Every design is a text file in Git. Every build is deterministic: same manifest, same template, same output. The pipeline runs entirely offline, on my own hardware, with no subscription and no cloud dependency.
 
-The visual treatment (halftone screening, plate separation, registration offset) comes from [PressWorks](/practice/pressworks/), which models plate-by-plate production as composable shell operations. The Engine handles layout and data. PressWorks handles ink. Between them, a photograph's EXIF data becomes a tabloid poster and a song's lyrics become a collectible print, and the entire chain from source to print-ready PDF runs in the terminal.
+The visual treatment (halftone screening, plate separation, registration offset) comes from [PressWorks](/practice/pressworks/), which models plate-by-plate production as composable shell operations. The Art Department handles layout and data. PressWorks handles ink. Between them, a photograph's EXIF data becomes a tabloid poster and a song's lyrics become a collectible print, and the entire chain from source to print-ready PDF runs in the terminal.

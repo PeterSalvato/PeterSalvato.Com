@@ -263,15 +263,15 @@ semantic-hierarchy:
       url: /evidence/encore/
       reason: "Twelve years of watching institutional memory flatten is why this matters."
 
-sovereign-design-engine:
-  url: /practice/sovereign-design-engine/
+art-department:
+  url: /practice/art-department/
   connections:
     - target: pressworks
       url: /practice/pressworks/
-      reason: "PressWorks handles the print production. SDE handles the pipeline."
+      reason: "PressWorks handles print production. The Art Department handles the pipeline."
     - target: mathontape
       url: /practice/mathontape/
-      reason: "MathOnTape artwork runs through the SDE pipeline."
+      reason: "MathOnTape artwork runs through the Art Department pipeline."
     - target: accommodation-design
       url: /practice/accommodation-design/
       reason: "Headless pipeline is accommodation for the maker: no UI in the way."
@@ -295,9 +295,9 @@ order-of-the-aetherwright:
 pressworks:
   url: /practice/pressworks/
   connections:
-    - target: sovereign-design-engine
-      url: /practice/sovereign-design-engine/
-      reason: "PressWorks does press logic. SDE does the pipeline."
+    - target: art-department
+      url: /practice/art-department/
+      reason: "PressWorks does press logic. The Art Department does the pipeline."
     - target: aiden-jae
       url: /evidence/aiden-jae/
       reason: "Product photography processed through the print production tools."
@@ -314,8 +314,8 @@ mathontape:
     - target: pressworks
       url: /practice/pressworks/
       reason: "The visual identity runs through the same print production tools."
-    - target: sovereign-design-engine
-      url: /practice/sovereign-design-engine/
+    - target: art-department
+      url: /practice/art-department/
       reason: "Album art generated through the headless design pipeline."
     - target: reading-the-room
       url: /essays/reading-the-room/

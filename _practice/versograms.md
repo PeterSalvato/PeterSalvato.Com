@@ -48,4 +48,4 @@ The furniture-from-different-stores problem: type and image designed separately 
 
 ---
 
-Sixteen songs through the same fixed container. Each piece is distinct because the content (lyrics as generative input, not reference material) is what varies. The format stays locked. The [Sovereign Design Engine](/practice/sovereign-design-engine/) renders the final print-ready output: same JSON manifest, same template, same deterministic build. [Photogeography](/practice/photogeography/) applies the same principle to photography: lock the format, let the content do the differentiating.
+Sixteen songs through the same fixed container. Each piece is distinct because the content (lyrics as generative input, not reference material) is what varies. The format stays locked. The [Art Department](/practice/art-department/) renders the final print-ready output: same JSON manifest, same template, same deterministic build. [Photogeography](/practice/photogeography/) applies the same principle to photography: lock the format, let the content do the differentiating.

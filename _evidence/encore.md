@@ -12,7 +12,7 @@ description: "Twelve-year enterprise platform evolution (2013-2025). Migrated a 
 last_modified: 2026-02-21
 related:
   - /systems/formwork
-  - /practice/sovereign-design-engine
+  - /practice/art-department
 cta:
   text: "See the methodology behind twelve years of this"
   link: /systems/formwork

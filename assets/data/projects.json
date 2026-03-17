@@ -276,13 +276,13 @@
       }
     },
     {
-      "slug": "sovereign-design-engine",
+      "slug": "art-department",
       "collection": "practice",
-      "title": "Sovereign Design Engine",
+      "title": "The Art Department",
       "subtitle": "Headless Design Pipeline for Print-Ready Output",
       "status": "Active",
       "icon": "construction",
-      "url": "/practice/sovereign-design-engine/",
+      "url": "/practice/art-department/",
       "description": "Headless, code-driven design pipeline. Source images and metadata in, print-ready PDFs out.",
       "logo": null,
       "published": true,
