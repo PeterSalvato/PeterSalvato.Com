@@ -50,7 +50,7 @@ A marker for the exact moment understanding shifted. The phrasing that locked in
 ---
 
 <span id="context"></span>**[Context](/vocabulary/context/)**
-The active state of understanding that exists in the moment of working and disappears when the session ends. I lost months of [New City](/evidence/new-city/) ideation this way: dozens of sessions of novel development, the continuity gone when the threads closed. The thinking had happened. The connections between ideas had happened. None of it survived. [Savepoint Syntax](/systems/savepoint/) exists because context is the most perishable thing in knowledge work, and the tools that should preserve it don't. [Full reference page](/vocabulary/context/)
+The active state of understanding that exists in the moment of working and disappears when the session ends. I lost months of [New City](/practice/new-city/) ideation this way: dozens of sessions of novel development, the continuity gone when the threads closed. The thinking had happened. The connections between ideas had happened. None of it survived. [Savepoint Syntax](/systems/savepoint/) exists because context is the most perishable thing in knowledge work, and the tools that should preserve it don't. [Full reference page](/vocabulary/context/)
 
 ---
 

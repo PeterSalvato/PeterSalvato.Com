@@ -48,4 +48,4 @@ The skull is the most immediately legible symbol of mortality in Western visual 
 
 ---
 
-The same structural logic is already showing up in other work. The [Order of the Ætherwright's](/practice/order-of-the-aetherwright/) glyph system classifies creative domains the way this taxonomy classifies archetypes. The character design in [New City](/evidence/new-city/) uses archetypal roles as load-bearing narrative structure. The taxonomy gives you the structural logic. The specific assembly is where it becomes something you can build with.
+The same structural logic is already showing up in other work. The [Order of the Ætherwright's](/practice/order-of-the-aetherwright/) glyph system classifies creative domains the way this taxonomy classifies archetypes. The character design in [New City](/practice/new-city/) uses archetypal roles as load-bearing narrative structure. The taxonomy gives you the structural logic. The specific assembly is where it becomes something you can build with.

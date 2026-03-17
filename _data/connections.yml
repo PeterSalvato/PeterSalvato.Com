@@ -66,7 +66,7 @@ altrueism:
       reason: "Print production tools applied to brand collateral."
 
 new-city:
-  url: /evidence/new-city/
+  url: /practice/new-city/
   connections:
     - target: lens-extraction
       url: /practice/lens-extraction/
@@ -753,7 +753,7 @@ vocab-context:
       url: /evidence/encore/
       reason: "Twelve years of institutional context held in one person's head. The cost when it wasn't in the room."
     - target: new-city
-      url: /evidence/new-city/
+      url: /practice/new-city/
       reason: "Months of novel ideation lost when the sessions closed. The incident that made context loss concrete."
     - target: i-needed-a-better-tool
       url: /essays/i-needed-a-better-tool/

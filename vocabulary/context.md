@@ -31,7 +31,7 @@ related:
   - /systems/savepoint
   - /practice/prosthetic-cognition
   - /evidence/encore
-  - /evidence/new-city
+  - /practice/new-city
   - /essays/i-needed-a-better-tool
 ---
 
@@ -85,7 +85,7 @@ Then the threads closed. Not a crisis. Just the normal end of a session.
 
 I came back and the continuity was gone. The thinking had happened. The connections between ideas had happened. But the architecture existed in fragments across closed conversations, and none of it survived as a usable state I could resume from.
 
-What I lost wasn't the documents. I had the structural notes. What I lost was the live understanding that had been running alongside those notes: why a specific beat structure had been chosen, what it was meant to solve, what alternatives had been discarded. [New City](/evidence/new-city/) is the project that made context loss concrete for me.
+What I lost wasn't the documents. I had the structural notes. What I lost was the live understanding that had been running alongside those notes: why a specific beat structure had been chosen, what it was meant to solve, what alternatives had been discarded. [New City](/practice/new-city/) is the project that made context loss concrete for me.
 
 ### Encore (Institutional Memory)
 
@@ -119,5 +119,5 @@ The savepoint had the marker. It was missing the context. The v3.2 update added 
 - [SavePoint Syntax](/systems/savepoint/) — the protocol built to preserve context at cognitive turning points
 - [I Needed a Better Tool](/essays/i-needed-a-better-tool/) — the specific experience of losing reasoning across AI sessions
 - [Encore](/evidence/encore/) — what twelve years of institutional context loss looks like in an enterprise platform
-- [New City](/evidence/new-city/) — lost ideation and the architecture that emerged from trying to preserve it
+- [New City](/practice/new-city/) — lost ideation and the architecture that emerged from trying to preserve it
 - [A Different Kind of Harness](/practice/prosthetic-cognition/) — the prosthetic relationship depends entirely on preserving context at the interface

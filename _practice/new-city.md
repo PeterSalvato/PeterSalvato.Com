@@ -1,7 +1,10 @@
 ---
 layout: project
-redirect_from: /output/new-city/
+redirect_from:
+  - /output/new-city/
+  - /evidence/new-city/
 title: "New City"
+practice_group: meditations
 subtitle: "Registration Architecture Applied to Prose"
 icon: cases
 status: "In Development"

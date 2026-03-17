@@ -13,7 +13,7 @@ last_modified: 2026-03-13
 related:
   - /systems/formwork
   - /evidence/encore
-  - /evidence/new-city
+  - /practice/new-city
 cta:
   text: "See this protocol running on a real build"
   link: /practice/this-site
