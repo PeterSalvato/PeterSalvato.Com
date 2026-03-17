@@ -3,43 +3,22 @@
     {
       "label": "Work",
       "url": "/evidence/",
-      "icon": "cases",
-      "children": [
-        { "label": "Encore", "url": "/evidence/encore/" },
-        { "label": "Aiden Jae", "url": "/evidence/aiden-jae/" },
-        { "label": "Altrueism", "url": "/evidence/altrueism/" },
-        { "label": "New City", "url": "/evidence/new-city/" }
-      ]
+      "icon": "cases"
     },
     {
       "label": "How I Work",
       "url": "/systems/",
-      "icon": "handyman",
-      "children": [
-        { "label": "FormWork", "url": "/systems/formwork/" },
-        { "label": "SavePoint", "url": "/systems/savepoint/" },
-        { "label": "LensArray", "url": "/systems/lensarray/" },
-        { "label": "This Site", "url": "/practice/this-site/" }
-      ]
+      "icon": "handyman"
     },
     {
       "label": "Writing",
       "url": "/essays/",
-      "icon": "edit_note",
-      "children": [
-        { "label": "Essays", "url": "/essays/#standalone" },
-        { "label": "Series", "url": "/essays/#series" }
-      ]
+      "icon": "edit_note"
     },
     {
       "label": "About",
-      "url": "/about/",
-      "icon": "psychology",
-      "children": [
-        { "label": "How I Think", "url": "/thinking/" },
-        { "label": "Bio", "url": "/bio/" },
-        { "label": "Vocabulary", "url": "/vocabulary/" }
-      ]
+      "url": "/thinking/",
+      "icon": "psychology"
     },
     {
       "label": "Contact",
