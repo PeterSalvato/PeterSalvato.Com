@@ -3,6 +3,7 @@ layout: default
 title: "Brain Dump — Dump Your Thinking, Organize Later"
 permalink: /start/brain-dump/
 description: "Paste this into your AI's instructions. It lets you be messy first and structures your thinking after."
+seo_keywords: ["brain dump AI", "unstructured thinking", "AI brainstorming", "messy notes AI", "thought organization"]
 ---
 
 # Brain Dump

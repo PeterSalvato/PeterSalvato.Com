@@ -55,6 +55,11 @@
     color: $color-ink;
   }
 
+  &:focus-visible {
+    outline: 2px solid $color-accent;
+    outline-offset: 2px;
+  }
+
   &.is-active {
     color: $color-ink;
     font-weight: 600;
@@ -94,6 +99,11 @@ html.material-fonts-loaded .nav-icon {
 
     &:hover {
       color: $color-ink;
+    }
+
+    &:focus-visible {
+      outline: 2px solid $color-accent;
+      outline-offset: 2px;
     }
 
     &.is-active {

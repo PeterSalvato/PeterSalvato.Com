@@ -3,6 +3,7 @@ layout: default
 title: "Sound Like Yourself"
 permalink: /start/keep-your-voice/
 description: "Paste this into your AI's instructions. You're not a writer. You don't need to be. Your AI should sound like you explaining something, not like a document."
+seo_keywords: ["AI voice", "sound like yourself AI", "AI writing voice", "custom AI tone", "AI ghostwriting"]
 ---
 
 # Sound Like Yourself

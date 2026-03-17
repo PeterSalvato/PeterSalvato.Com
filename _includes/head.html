@@ -4,7 +4,9 @@
   <title>{% if page.title and page.title != site.title %}{% if page.title contains 'Peter Salvato' %}{{ page.title }}{% else %}{{ page.title }} | Peter Salvato{% endif %}{% else %}Peter Salvato | Design Engineer{% endif %}</title>
   <meta name="description" content="{% if page.description %}{{ page.description }}{% elsif page.context %}{{ page.context }}{% else %}{{ site.description }}{% endif %}">
   <meta name="author" content="{{ site.author }}">
+  {% if page.published == false %}<meta name="robots" content="noindex, nofollow">{% endif %}
   <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="alternate" type="application/rss+xml" title="Peter Salvato — Writing" href="{{ '/feed.xml' | absolute_url }}">
 
   <!-- SEO Keywords -->
   <meta name="keywords" content="{% if page.seo_keywords %}{{ page.seo_keywords | join: ', ' }}{% else %}{{ site.seo_keywords | join: ', ' }}{% endif %}">
@@ -160,6 +162,7 @@
     "creator": { "@id": "https://petersalvato.com/#peter-salvato" },
     "url": "{{ page.url | absolute_url }}",
     "dateModified": "{% if page.last_modified %}{{ page.last_modified }}{% elsif page.date %}{{ page.date | date: '%Y-%m-%d' }}{% endif %}",
+    "datePublished": "{% if page.date %}{{ page.date | date: '%Y-%m-%d' }}{% elsif page.last_modified %}{{ page.last_modified }}{% endif %}",
     "mainEntityOfPage": "{{ page.url | absolute_url }}",
     "keywords": "{% if page.seo_keywords %}{{ page.seo_keywords | join: ', ' }}{% endif %}"{% if page.altitude %},
     "genre": "{% if page.altitude == '01' %}Writing{% elsif page.altitude == '02' %}Systems{% elsif page.altitude == '03' %}Tools{% endif %}"{% endif %}
@@ -227,4 +230,16 @@
   }
   </script>
   {% endif %}
+
+  <!-- JSON-LD: WebSite -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Peter Salvato",
+    "url": "{{ '/' | absolute_url }}",
+    "author": { "@id": "https://petersalvato.com/#peter-salvato" },
+    "description": "{{ site.description }}"
+  }
+  </script>
 </head>

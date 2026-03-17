@@ -133,6 +133,11 @@ figure.figure {
     border-color: $color-ink;
     color: $color-ink;
   }
+
+  &:focus-visible {
+    outline: 2px solid $color-accent;
+    outline-offset: 2px;
+  }
 }
 
 .carousel-dots {
@@ -152,6 +157,11 @@ figure.figure {
 
   &.is-active {
     background-color: $color-ink;
+  }
+
+  &:focus-visible {
+    outline: 2px solid $color-accent;
+    outline-offset: 1px;
   }
 }
 
@@ -184,6 +194,11 @@ figure.figure {
   font-size: 2rem;
   cursor: pointer;
   z-index: $z-overlay + 1;
+
+  &:focus-visible {
+    outline: 2px solid $color-paper;
+    outline-offset: -4px;
+  }
 }
 
 .image-overlay-scroll {

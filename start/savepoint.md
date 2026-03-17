@@ -3,6 +3,7 @@ layout: default
 title: "SavePoint — Stop Losing Your Thinking"
 permalink: /start/savepoint/
 description: "Paste this into your AI's instructions. It starts marking the moments your thinking shifts so you can find them later."
+seo_keywords: ["SavePoint AI", "AI context preservation", "remember AI conversations", "AI session continuity", "thinking capture"]
 ---
 
 # SavePoint

@@ -1,0 +1,23 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Peter Salvato — Writing</title>
+    <description>{{ site.description | xml_escape }}</description>
+    <link>{{ '/essays/' | absolute_url }}</link>
+    <atom:link href="{{ '/feed.xml' | absolute_url }}" rel="self" type="application/rss+xml"/>
+    <language>en-us</language>
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+    {% for essay in site.essays reversed %}{% if essay.published != false %}
+    <item>
+      <title>{{ essay.title | xml_escape }}</title>
+      <description>{{ essay.description | default: essay.excerpt | xml_escape }}</description>
+      <link>{{ essay.url | absolute_url }}</link>
+      <guid isPermaLink="true">{{ essay.url | absolute_url }}</guid>
+      {% if essay.date %}<pubDate>{{ essay.date | date_to_rfc822 }}</pubDate>{% endif %}
+    </item>
+    {% endif %}{% endfor %}
+  </channel>
+</rss>

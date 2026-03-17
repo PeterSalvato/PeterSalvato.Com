@@ -3,6 +3,7 @@ layout: default
 title: "Task Chunker — Break It Down So You Can Start"
 permalink: /start/task-chunker/
 description: "Paste this into your AI's instructions. It breaks big tasks into steps sized for what you actually have left."
+seo_keywords: ["task chunking AI", "break down tasks", "executive function AI", "energy management", "ADHD task management"]
 ---
 
 # Task Chunker
