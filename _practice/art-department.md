@@ -23,10 +23,6 @@ cta:
   link: /practice/pressworks
 ---
 
-![Versograms poster rendered by The Art Department: per-song display font, AI-generated imagery, 4-column lyrics, metadata sidebar]({{ '/assets/img/SDE_versogram_poster.png' | relative_url }}){:.image.artifact}
-
----
-
 The production problem is always the same: the content lives in one environment and the design tool lives on another machine. Every time I need to produce something physical, I leave the place where the content was built, open a different application, and manually lay out what I already have structured as data. Proprietary files, no version control, no scripting.
 
 I have projects that need to become physical objects: a photography archive as tabloid posters, a song lyric series as prints, a book on DJ methodology as bound spreads. The physical artifact is the point. The Art Department is the crate I reach into: a personal repertoire of templates, type scales, and production constraints that I know well enough to assemble quickly for any new piece.
