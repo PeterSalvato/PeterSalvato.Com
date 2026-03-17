@@ -12,87 +12,63 @@
     overflow-x: hidden;
   }
 
-  body {
-    display: block;
-  }
-
-  html.nav-open,
-  html.nav-open body {
-    overflow: hidden;
-    position: fixed;
-    width: 100%;
-  }
-
   .hamburger-btn {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1px;
-    position: fixed;
-    top: $space-md;
-    right: $space-md;
-    z-index: $z-hamburger;
-    width: 44px;
-    height: 44px;
-    padding: 0;
-    background: $color-paper;
-    border: 1px solid $color-rule;
-    cursor: pointer;
-  }
-
-  .hamburger-line {
-    display: block;
-    width: 18px;
-    height: 2px;
-    background: $color-ink;
+    display: none;
   }
 
   #sidebar-nav {
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: $sidebar-width;
-    height: 100vh;
-    padding: $space-xl $space-lg;
-    overflow-y: auto;
-    z-index: $z-sidebar;
-    transform: translateX(-100%);
-    transition: transform $transition-slide;
+    width: 100%;
+    padding: $space-md 20px;
+
+    .sidebar-mark {
+      display: inline-block;
+      vertical-align: middle;
+      margin-bottom: 0;
+      margin-right: $space-md;
+
+      img {
+        width: 48px;
+      }
+    }
+
+    #sidebar-header {
+      display: flex;
+      align-items: center;
+      margin-bottom: $space-md;
+    }
+
+    #sidebar-title {
+      margin-bottom: 0;
+    }
+
+    .nav-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: $space-sm $space-lg;
+    }
+
+    .nav-item {
+      margin-bottom: 0;
+    }
 
     .nav-item > a {
       min-height: 44px;
       padding: $space-sm 0;
     }
 
-    .nav-sublist a {
-      min-height: 44px;
-      padding: $space-sm 0;
+    .nav-sublist {
+      display: none;
     }
   }
 
   #main-content {
-    padding: 72px 20px $space-xxl;
-    padding-left: 20px;
-    transform: translateX(0);
-    transition: transform $transition-slide;
+    padding: $space-lg 20px $space-xxl;
+    overflow-x: hidden;
   }
 
   .system-footer {
     padding-left: $space-md;
     padding-right: $space-md;
-  }
-
-  body.nav-open #sidebar-nav {
-    transform: translateX(0);
-  }
-
-  body.nav-open #main-content {
-    transform: translateX($sidebar-width);
-  }
-
-  #main-content {
-    overflow-x: hidden;
   }
 
   #container {
