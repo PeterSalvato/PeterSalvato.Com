@@ -18,33 +18,30 @@
 
   #sidebar-nav {
     width: 100%;
-    padding: $space-md 20px;
+    padding: $space-lg 20px $space-md;
+    text-align: center;
 
     .sidebar-mark {
-      display: inline-block;
-      vertical-align: middle;
-      margin-bottom: 0;
-      margin-right: $space-md;
+      margin-bottom: $space-sm;
 
       img {
-        width: 48px;
+        width: 60px;
+        margin: 0 auto;
       }
     }
 
     #sidebar-header {
-      display: flex;
-      align-items: center;
       margin-bottom: $space-md;
     }
 
     #sidebar-title {
-      margin-bottom: 0;
+      font-size: $type-body;
     }
 
     .nav-list {
       display: flex;
-      flex-wrap: wrap;
-      gap: $space-sm $space-lg;
+      justify-content: center;
+      gap: 0;
     }
 
     .nav-item {
@@ -53,7 +50,12 @@
 
     .nav-item > a {
       min-height: 44px;
-      padding: $space-sm 0;
+      padding: $space-sm $space-md;
+      font-size: $type-caption;
+    }
+
+    .nav-icon {
+      display: none;
     }
 
     .nav-sublist {
