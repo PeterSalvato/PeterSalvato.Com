@@ -74,7 +74,14 @@
     font-size: $type-caption;
     color: $color-accent;
     margin-top: $space-md;
-    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: $space-sm;
+
+    .status-badge {
+      margin-right: auto;
+    }
   }
 }
 
