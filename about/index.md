@@ -10,7 +10,7 @@ seo_keywords: ["Peter Salvato", "design engineer", "about", "processing profile"
     <div id="domain-index-header">
         <h1>ABOUT</h1>
         <div class="domain-index-intro">
-            <p>{{ page.description }}</p>
+            <p>Three angles on the same person: how I process problems, where the practice came from, and the working language that runs through it.</p>
         </div>
     </div>
 

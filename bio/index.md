@@ -9,7 +9,7 @@ seo_keywords: ["Peter Salvato", "design engineer", "SVA", "visual communication"
 last_modified: 2026-02-26
 ---
 
-Peter Salvato is a design engineer. Construction sites, print shops, enterprise platforms, brand systems, and classrooms. The methodology came first. The AI tools arrived later and fit inside it.
+Construction sites, print shops, enterprise platforms, brand systems, and classrooms. The methodology came first. The AI tools arrived later and fit inside it.
 
 ## Construction Sites
 
