@@ -5,6 +5,6 @@ description: "Peter Salvato. Design engineer. Construction sites, print shops, e
 seo_keywords: ["design engineer", "design systems", "systems architecture", "SVA", "visual communication", "FormWork", "Savepoint Syntax", "Peter Salvato", "AI governance"]
 ---
 
-I figure out what the person or system on the other end actually needs, then build the structure to meet it. Enterprise platforms, brand systems, AI tools, a household breakfast schedule. The material changes. The first move is the same.
+I learn tools bottom up. Screenprinting, photography, airbrushing, linocut, enterprise platforms, brand systems. Each one taken apart, figured out, added to the stack. The material changes. The way I learn doesn't.
 
-I wrote up the thinking as [accommodation design](/practice/accommodation-design/). I built the process as [FormWork](/systems/formwork/). This site was compiled from three years of my own conversations using both.
+Three years ago I picked up AI and studied it the same way. Built [my own tools and protocols](/systems/formwork/) where the defaults fell short. Then I used them to [compile this site](/practice/this-site/) in three weeks.
