@@ -11,6 +11,17 @@
   margin-bottom: $space-lg;
 }
 
+// Status badge
+.status-badge {
+  font-family: $font-mono;
+  font-size: $type-fine;
+  color: $color-ink-faint;
+  border: 1px solid $color-rule;
+  padding: 0.15em 0.5em;
+  border-radius: 2px;
+  white-space: nowrap;
+}
+
 // Code blocks
 code {
   font-family: $font-mono;

@@ -26,7 +26,7 @@ Side projects, personal work, things I make because the instinct doesn't shut of
       </div>
     </div>
     {% if item.description %}<p class="artifact-context">{{ item.description }}</p>{% endif %}
-    <p class="artifact-link">Read &rarr;</p>
+    <p class="artifact-link">{% if item.status == "In Development" %}<span class="status-badge">In progress</span> {% endif %}Read &rarr;</p>
   </a>
   {% endif %}
 {% endfor %}

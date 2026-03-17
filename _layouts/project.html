@@ -16,7 +16,7 @@ layout: default
 {% include artifact-hero.html item=page is_link=false %}
 
 {% if page.last_modified %}
-<div class="page-updated">Last updated {{ page.last_modified | date: "%B %Y" }}</div>
+<div class="page-updated">Last updated {{ page.last_modified | date: "%B %Y" }}{% if page.status == "In Development" %} · <span class="status-badge">In progress</span>{% endif %}</div>
 {% endif %}
 
 <div class="project-content">
