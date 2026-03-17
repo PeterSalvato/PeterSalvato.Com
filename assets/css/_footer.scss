@@ -9,38 +9,23 @@
   margin-top: $space-xxxl;
   background: $color-paper;
 
-  .footer-columns {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
+  .footer-nav {
+    display: flex;
+    justify-content: center;
     gap: $space-xl;
-  }
+    flex-wrap: wrap;
 
-  h4 {
-    font-family: $font-display;
-    font-size: $type-fine;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: $color-ink-faint;
-    margin-bottom: $space-md;
-    margin-top: 0;
-  }
+    a {
+      font-family: $font-display;
+      font-size: $type-fine;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: $color-ink-faint;
+      text-decoration: none;
 
-  ul {
-    list-style: none;
-    padding: 0;
-  }
-
-  li {
-    margin-bottom: $space-sm;
-  }
-
-  a {
-    font-size: $type-caption;
-    color: $color-ink-light;
-    text-decoration: none;
-
-    &:hover {
-      color: $color-ink;
+      &:hover {
+        color: $color-ink;
+      }
     }
   }
 
@@ -52,7 +37,7 @@
   }
 
   // --------------------------------------------------------------------------
-  // TOOLS LINK — Quiet link below footer columns to /start/
+  // TOOLS LINK — Quiet link below footer nav to /start/
   // --------------------------------------------------------------------------
 
   .footer-tools {
@@ -66,6 +51,7 @@
       font-size: $type-fine;
       letter-spacing: 0.03em;
       color: $color-ink-faint;
+      text-decoration: none;
 
       &:hover {
         color: $color-ink-light;
@@ -74,11 +60,10 @@
   }
 
   // --------------------------------------------------------------------------
-  // SUBSCRIBE — Email capture, lives above or below footer columns
+  // SUBSCRIBE — Email capture
   // --------------------------------------------------------------------------
 
   .subscribe {
-    grid-column: 1 / -1;
     border-top: 1px solid $color-rule;
     padding-top: $space-xl;
     margin-top: $space-lg;

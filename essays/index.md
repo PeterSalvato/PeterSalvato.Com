@@ -12,16 +12,15 @@ seo_keywords: ["design engineering", "design methodology", "systems architecture
   <h1>Writing</h1>
 
   <div class="essays-tabs">
-    <button class="essays-tab active" data-tab="research">Research</button>
-    <button class="essays-tab" data-tab="standalone">Essays</button>
+    <button class="essays-tab active" data-tab="standalone">Essays</button>
     <button class="essays-tab" data-tab="series">Series</button>
   </div>
 
-  <div class="essays-panel active" id="panel-research">
-    {% assign whitepapers = site.practice | where: "practice_group", "whitepaper" %}
-    {% for item in whitepapers %}
-      {% if item.published != false and item.listed != false %}
-        {% include artifact-hero.html item=item url=item.url is_link=true %}
+  <div class="essays-panel active" id="panel-standalone">
+    {% assign standalone_posts = site.essays | where_exp: "post", "post.series == nil" | sort: "order" %}
+    {% for post in standalone_posts %}
+      {% if post.published %}
+        {% include artifact-hero.html item=post url=post.url is_link=true %}
       {% endif %}
     {% endfor %}
   </div>
@@ -47,15 +46,6 @@ seo_keywords: ["design engineering", "design methodology", "systems architecture
         </div>
         <p class="artifact-link">Read &rarr;</p>
       </a>
-      {% endif %}
-    {% endfor %}
-  </div>
-
-  <div class="essays-panel" id="panel-standalone">
-    {% assign standalone_posts = site.essays | where_exp: "post", "post.series == nil" | sort: "order" %}
-    {% for post in standalone_posts %}
-      {% if post.published %}
-        {% include artifact-hero.html item=post url=post.url is_link=true %}
       {% endif %}
     {% endfor %}
   </div>
