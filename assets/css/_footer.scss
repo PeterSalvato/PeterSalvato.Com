@@ -1,5 +1,5 @@
 // ============================================================================
-// FOOTER — Quiet, structured, out of the way
+// FOOTER — Two layers: nav mirror + dig layer
 // ============================================================================
 
 .system-footer {
@@ -9,50 +9,56 @@
   margin-top: $space-xxxl;
   background: $color-paper;
 
-  .footer-columns {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
+  // --------------------------------------------------------------------------
+  // ROW 1: Primary nav mirror — convenience for end-of-page
+  // --------------------------------------------------------------------------
+
+  .footer-nav {
+    display: flex;
+    justify-content: center;
     gap: $space-xl;
-  }
+    flex-wrap: wrap;
 
-  h4 {
-    font-family: $font-display;
-    font-size: $type-fine;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: $color-ink-faint;
-    margin-bottom: $space-md;
-    margin-top: 0;
-  }
+    a {
+      font-family: $font-display;
+      font-size: $type-fine;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: $color-ink-faint;
+      text-decoration: none;
 
-  ul {
-    list-style: none;
-    padding: 0;
-  }
-
-  li {
-    margin-bottom: $space-sm;
-  }
-
-  a {
-    font-size: $type-caption;
-    color: $color-ink-light;
-    text-decoration: none;
-
-    &:hover {
-      color: $color-ink;
+      &:hover {
+        color: $color-ink;
+      }
     }
   }
 
-  .copyright {
+  // --------------------------------------------------------------------------
+  // ROW 2: Dig layer — curiosity rewards, quieter than nav
+  // --------------------------------------------------------------------------
+
+  .footer-dig {
+    display: flex;
+    justify-content: center;
+    gap: $space-lg;
+    flex-wrap: wrap;
     margin-top: $space-lg;
-    font-size: $type-fine;
-    color: $color-ink-faint;
-    text-align: center;
+
+    a {
+      font-size: $type-fine;
+      color: $color-ink-faint;
+      text-decoration: none;
+      opacity: 0.6;
+
+      &:hover {
+        opacity: 1;
+        color: $color-ink-light;
+      }
+    }
   }
 
   // --------------------------------------------------------------------------
-  // TOOLS LINK — Quiet link below footer columns to /start/
+  // TOOLS LINK
   // --------------------------------------------------------------------------
 
   .footer-tools {
@@ -66,6 +72,7 @@
       font-size: $type-fine;
       letter-spacing: 0.03em;
       color: $color-ink-faint;
+      text-decoration: none;
 
       &:hover {
         color: $color-ink-light;
@@ -74,11 +81,21 @@
   }
 
   // --------------------------------------------------------------------------
-  // SUBSCRIBE — Email capture, lives above or below footer columns
+  // COPYRIGHT
+  // --------------------------------------------------------------------------
+
+  .copyright {
+    margin-top: $space-lg;
+    font-size: $type-fine;
+    color: $color-ink-faint;
+    text-align: center;
+  }
+
+  // --------------------------------------------------------------------------
+  // SUBSCRIBE — Email capture (wired later)
   // --------------------------------------------------------------------------
 
   .subscribe {
-    grid-column: 1 / -1;
     border-top: 1px solid $color-rule;
     padding-top: $space-xl;
     margin-top: $space-lg;
