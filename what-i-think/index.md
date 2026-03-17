@@ -12,6 +12,12 @@ The AI industry is racing toward a future where the human is unnecessary. Faster
 
 I think the humanity is getting trampled.
 
+I spent my life learning craft. How to make things. How to take the tools I learned and the language I refined and create something worth looking at. That's what I value about people. Human creativity and insight. The specific way one person sees a problem differently than another person sees the same problem. That difference is the whole point.
+
+Here's what happens when two designers on different sides of the country are working on similar concepts. This happens all the time in design. Things trend, ideas arrive in a cadence, different people discover the same territory because the conditions were ready for it. If both of them are using AI tools that flatten their voice, their thinking, their judgment into the same defaults, they're both going to come out saying the same thing. Two people, one output. But if they have tools that let them retain themselves in the work, that's two different things of value. Because it's two different perspectives.
+
+The flattening isn't just a personal problem. It's a cultural one.
+
 I spent three years building tools for working with AI. Every one of them exists because the default behavior of these systems is to flatten the person using them. You talk to an AI and it smooths your voice into generic competence. You build something across sessions and the thinking that connected the pieces disappears between context windows. You ask it to evaluate your work and it scores everything with the same polite confidence, no real priorities, no real judgment.
 
 The models are powerful. The defaults are corrosive. And the industry is so focused on what the machine can do next that the question of what happens to the person using it barely registers.
