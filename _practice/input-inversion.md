@@ -17,7 +17,7 @@ related:
   - /essays/talk-to-it
 ---
 
-Everyone assumes you need to give AI structured, precise instructions to get good output. I spent three years proving the opposite. Raw thinking, voice notes, unfinished sentences, arguments with myself: when purpose-built tools handle the translation, the unstructured material produces better results than any prompt template. This paper documents why.
+I spent three years proving that raw, unstructured thinking produces better AI output than careful prompts. Voice notes, unfinished sentences, arguments with myself. When purpose-built tools handle the translation, the mess produces better results than any prompt template. This paper documents why.
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18962881.svg)](https://doi.org/10.5281/zenodo.18962881)
 

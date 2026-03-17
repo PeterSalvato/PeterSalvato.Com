@@ -16,7 +16,9 @@ related:
   - /essays/voice-governance
 ---
 
-AI-generated text has a voice problem: it all sounds the same. The standard fix is to write first, then check against style guidelines, then revise. I found that applying voice rules during generation, not after, produces structurally different output. This paper documents a forty-rule protocol built from how I actually talk in conversation, not from how I write when I know someone is reading.
+The first complete draft of this site was produced through conventional AI-assisted writing. Twenty-one project pages. Every one of them opened with an abstract concept before any real situation was established. "This project explores the intersection of..." on a page that should have said what broke and what I built to fix it. The pages were competent. Not one of them sounded like a person had written it.
+
+I found that applying voice rules during generation, not after, produces structurally different output. This paper documents a forty-rule protocol built from how I actually talk in conversation, not from how I write when I know someone is reading.
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18986297.svg)](https://doi.org/10.5281/zenodo.18986297)
 
@@ -39,10 +41,6 @@ AI-generated text exhibits a consistent voice problem: competent prose that soun
 LLMs generate text from training data dominated by published writing: polished, performative, audience-aware. The statistical center of that data produces a specific voice: hedged, parallel, abstract-leading, em-dash-heavy, fortune-cookie-closing prose. Ask the model to write in a specific person's voice and it produces competent content marketing that sounds like everyone and no one.
 
 This is not a capability limitation. The model can generate text in virtually any style. The problem is that its default patterns are deeply embedded, and those defaults reassert themselves within paragraphs even when the model has been instructed to write differently. A paragraph that begins in a practitioner's voice drifts back to the statistical center by its third sentence. The pull is constant, and it is stronger than any style prompt I could write.
-
-I found this out the hard way. The first complete draft of petersalvato.com was produced through conventional AI-assisted writing: provide context, describe the desired voice, generate text, review and edit. Twenty-one project pages. Every one of them opened with an abstract concept before any real situation was established. "This project explores the intersection of..." on a page that should have said what broke and what I built to fix it.
-
-The pages were competent. Not one of them sounded like a person had written it.
 
 I tried the standard fixes. Longer style descriptions. More examples of the target voice. "Write like a practitioner, not a marketer." "Be direct and specific." "Sound like a real person." The model followed the instruction for a sentence, sometimes two, and then the defaults came back. Abstract openings. Mechanical parallelism. Three consecutive sections with identical skeleton structures. The pull of the training distribution was stronger than any style prompt I could write.
 

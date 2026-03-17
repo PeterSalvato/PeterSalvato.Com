@@ -17,7 +17,9 @@ related:
   - /essays/the-unstructured-corpus
 ---
 
-AI is usually framed as either a tool you operate or an agent that acts on its own. Neither matches what I actually do with it. After three years of continuous daily use, the relationship is closer to a cognitive prosthetic: the model extends my reach (memory, parallel evaluation, pattern matching across years of notes) while I provide the direction and judgment. This paper formalizes that framing.
+I carried sketchbooks and journals for years. I'd write things down, draw, take notes, work through problems on paper. Then I'd never find it again. The notebook had no retrieval system. The thinking was preserved but inaccessible.
+
+AI gave me a retrieval system. After three years of continuous daily use, the relationship is closer to a cognitive prosthetic than a tool: the model extends my reach (memory, parallel evaluation, pattern matching across years of notes) while I provide the direction and judgment. This paper formalizes that framing.
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18962893.svg)](https://doi.org/10.5281/zenodo.18962893)
 
@@ -107,7 +109,7 @@ This is what Clark means by a hybrid thinking system. After enough time, the bou
 
 ### 5.1 The Pattern Before the Technology
 
-The cognitive prosthetic relationship predates AI. I carried sketchbooks and journals for years. I'd write things down, draw, take notes, work through problems on paper. Then I'd never find it again. The notebook had no retrieval system. The thinking was preserved but inaccessible. The prosthetic was broken at the interface.
+The cognitive prosthetic relationship predates AI. The sketchbooks I carried for years were a broken prosthetic: thinking preserved, retrieval impossible. The interface was the failure point.
 
 In May 2025 I wrote a whitepaper called "Cognitive Durability," framing the problem as "the protective structure that preserves the WHY behind ideas." I cited Hutchins on distributed cognition and cognitive scaffolding in learning theory. I was already working in the HCI space, building the argument that thinking needs structural preservation to remain useful over time.
 

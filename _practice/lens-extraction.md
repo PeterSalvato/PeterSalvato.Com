@@ -16,7 +16,9 @@ related:
   - /essays/persona-extraction
 ---
 
-Ask AI to evaluate your work and you get a blended average: everything is "good" or "needs work" with no way to act on it. In the critique room at SVA, five people evaluated the same piece and disagreed. That was the point. This paper documents how I extract a real practitioner's evaluative framework, codify it as testable criteria, and run multiple lenses independently against the same work. Where they disagree is where the real decisions live.
+"Is this good?" I asked an AI that question in 2023. A compound prompt: evaluate a portfolio site across voice quality, structural integrity, narrative coherence, and brand alignment. The model processed the first criterion with full attention. Each subsequent criterion got less. The output blurred all four into a blended average that was none of them.
+
+I recognized it immediately. A compound instruction given to a system that cannot process it whole. I had seen this every day in the classroom. In the critique room at SVA, five people evaluated the same piece and disagreed. That was the point. This paper documents how I extract a real practitioner's evaluative framework, codify it as testable criteria, and run multiple lenses independently against the same work. Where they disagree is where the real decisions live.
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18986295.svg)](https://doi.org/10.5281/zenodo.18986295)
 
@@ -36,11 +38,7 @@ AI evaluation of creative and professional work typically operates in one of two
 
 ## 1. Twelve Questions Disguised as One
 
-"Is this good?"
-
-I asked an AI that question in 2023. The first approach was conventional: a compound prompt asking the model to evaluate a portfolio site across voice quality, structural integrity, narrative coherence, and brand alignment. The model processed the first criterion with full attention. Each subsequent criterion got less. The output blurred all four together into a blended average that was none of them. Criteria contaminated each other. Contradictions showed up within a single evaluation pass.
-
-I recognized it immediately. A compound instruction given to a system that cannot process it whole produces failure. I had seen this every day in the classroom. The solution was obvious once I saw it that way. Break the compound prompt apart. One dimension per pass. One objective, one output. Run each evaluation on its own.
+Criteria contaminated each other. Contradictions showed up within a single evaluation pass. The solution was obvious once I saw it that way. Break the compound prompt apart. One dimension per pass. One objective, one output. Run each evaluation on its own.
 
 That solves the compound-evaluation problem. It does not solve the criteria problem: who decides what "good" means for each dimension?
 

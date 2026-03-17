@@ -16,6 +16,8 @@ related:
   - /essays/the-iep-for-ai-systems
 ---
 
+In early 2025, months of ideation for a novel were distributed across dozens of AI sessions. When the sessions closed, the continuity was severed. The thinking was preserved in conversation exports, but without any marking of which moments were turning points, the archive was flat. Keyword search could find topics. Nothing could find the moments where my understanding shifted.
+
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18986290.svg)](https://doi.org/10.5281/zenodo.18986290)
 
 **Source:** [github.com/PeterSalvato/semantic-hierarchy](https://github.com/PeterSalvato/semantic-hierarchy)
@@ -41,8 +43,6 @@ The model cannot tell the difference. It processes every token with equal attent
 This is not a performance issue. It is a structural disability. The model has no durable memory, no continuity across sessions, and no mechanism for distinguishing a cognitive turning point from a passing comment. Everything enters at the same weight and leaves at the same weight. The sharp turns, the moments something clicked, the decisions that changed everything downstream: the model treats them identically to the sentences surrounding them.
 
 The result is semantic flattening. Over time, across sessions, the human's thinking gets averaged. The corpus of conversation history becomes undifferentiated. A practitioner who has spent months building understanding through AI-mediated work finds that the accumulated record of that work has no hierarchy. The moments that mattered are buried in the moments that did not, and nothing in the system can tell them apart.
-
-I experienced this directly. In early 2025, months of ideation for a novel (New City) were distributed across dozens of AI sessions. When the sessions closed, the continuity was severed. The thinking was preserved in conversation exports, but without any marking of which moments were turning points, the archive was flat. Keyword search could find topics. Nothing could find the moments where my understanding shifted.
 
 The human disappears from the record because nothing in the system can register what mattered to them.
 
