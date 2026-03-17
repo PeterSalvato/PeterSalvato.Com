@@ -13,7 +13,7 @@ related:
   - /essays/the-cook-who-falls-through-the-system/
 ---
 
-I have Celiac disease. My son has ARFID and won't eat rice, noodles, or grains. My daughter has ARFID and won't eat meat. Both kids have ADHD and ASD. By 5 PM the executive function I need to make a single decision about dinner has already been spent on the hundred smaller decisions that started at breakfast.
+I have Celiac disease. My son has ARFID and won't eat rice, noodles, or grains. My daughter has ARFID and won't eat meat. Both kids are neurodivergent. By 5 PM the executive function I need to make a single decision about dinner has already been spent on the hundred smaller decisions that started at breakfast.
 
 Four people at one table. Every meal, every day. None of these resolve. They compound.
 

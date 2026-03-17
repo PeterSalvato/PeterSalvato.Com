@@ -99,7 +99,7 @@ This is the same mechanism as enterprise drift operating on a compressed timesca
 
 ### The Household Kitchen
 
-Four people, four constraint profiles. Celiac disease. Two children with ARFID, ADHD, and ASD (opposite dietary restrictions). Executive function that runs out at the time of day when dinner needs to happen.
+Four people, four constraint profiles. Celiac disease. Two neurodivergent children with ARFID (opposite dietary restrictions). Executive function that runs out at the time of day when dinner needs to happen.
 
 The processing profile for the household is not a list of problems. It is the design input. The constraint on executive function at 5 PM means the cook cannot hold a complex recipe in working memory, track multiple timers, and make real-time adjustments simultaneously. The accommodation: batch the shared base during a higher-capacity part of the day, apply the cuisine framework, accommodate individually at assembly. Three layers, one operation. The system carries what working memory cannot.
 
