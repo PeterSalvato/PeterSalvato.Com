@@ -8,7 +8,7 @@ seo_keywords: ["human in the loop", "pro-human AI", "AI governance", "accommodat
 
 # What I Think
 
-Two designers on different sides of the country are working on similar concepts. This happens all the time in design. Things trend, ideas arrive in a cadence, different people discover the same territory because the conditions were ready for it. If both of them are using AI tools that flatten their voice, their thinking, their judgment into the same defaults, they're both going to come out saying the same thing. Two people, one output. But if they have tools that let them retain themselves in the work, that's two different things of value. Because it's two different perspectives.
+Two engineers on different sides of the country are working on the same problem. This happens all the time. Ideas arrive in a cadence, different people discover the same territory because the conditions were ready for it. If both of them are using AI tools that flatten their thinking, their judgment, their instincts into the same defaults, they're both going to arrive at the same solution. Two people, one output. But if they have tools that let them retain themselves in the work, that's two different solutions. And the difference between those solutions is where innovation lives. Creativity drives that. The specific way one person's mind attacks a problem differently than another's. Flatten that out and you don't just lose voice. You lose the mechanism that produces new ideas.
 
 I spent my life learning craft. How to make things. How to take the tools I learned and the language I refined and create something worth looking at. That's what I value about people. Human creativity and insight. The specific way one person sees a problem differently than another person sees the same problem. That difference is the whole point.
 
@@ -40,6 +40,6 @@ Every tool I've built is a refusal. A refusal to let the machine decide what you
 
 I think this is punk, in a specific way. Not anti-AI. Pro-human. The technology is a tool. It's a good tool. But a tool that gradually erases the person using it is broken, no matter how capable it gets.
 
-The papers on this site make the technical case. The tools implement it. This page is just the position: I think the most interesting work in AI right now is not making the machine smarter. It's figuring out how to keep the human intact while using it.
+I think the most interesting work in AI right now is not making the machine smarter. It's figuring out how to keep the human intact while using it.
 
 That's what I'm building for.
