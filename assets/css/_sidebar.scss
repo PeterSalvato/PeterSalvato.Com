@@ -7,24 +7,33 @@
 
 .sidebar-mark {
   display: block;
-  margin-bottom: $space-md;
+  text-align: center;
+  margin-bottom: 0;
 
   img {
-    width: 100%;
+    width: 200px;
     height: auto;
+    margin: 0 auto;
   }
 }
 
 #sidebar-header {
-  margin-bottom: $space-xl;
+  margin: 0 auto $space-lg;
+  text-align: center;
 }
 
 #sidebar-title {
   font-family: $font-display;
-  font-size: $type-h2;
+  font-size: 2rem;
   letter-spacing: 0.06em;
   line-height: 1;
   text-transform: uppercase;
+  text-align: left;
+  position: relative;
+  width: 11rem;
+  margin-top: 0.5rem;
+  padding-left: 0.5rem;
+  transform: rotate(-1deg);
 
   a {
     color: $color-ink;
@@ -72,6 +81,10 @@
     color: $color-ink;
     font-weight: 600;
   }
+}
+
+.nav-text {
+  word-spacing: -5px;
 }
 
 // Material icons in nav

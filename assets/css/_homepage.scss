@@ -50,6 +50,10 @@
   grid-template-columns: repeat(3, 1fr);
   gap: $space-lg;
   margin-bottom: $space-xxl;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
 }
 
 .section-card {

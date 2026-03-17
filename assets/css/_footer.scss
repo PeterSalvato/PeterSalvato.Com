@@ -1,80 +1,51 @@
 // ============================================================================
-// FOOTER — Two layers: nav mirror + dig layer
+// FOOTER — Reversed color block
 // ============================================================================
 
+$footer-bg: #333;
+$footer-text: #ccc;
+$footer-text-bright: #fff;
+$footer-rule: rgba(255, 255, 255, 0.15);
+
 .system-footer {
-  border-top: 1px solid $color-rule;
-  padding-top: $space-xxl;
-  padding-bottom: $space-xxl;
-  margin-top: $space-xxxl;
+  background: $footer-bg;
+  color: $footer-text;
+  border-top: none;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  margin-top: 6rem;
 
   // --------------------------------------------------------------------------
-  // ROW 1: Primary nav mirror — convenience for end-of-page
+  // TWO-COLUMN NAV
   // --------------------------------------------------------------------------
 
-  .footer-nav {
+  .footer-columns {
     display: flex;
-    justify-content: center;
-    gap: $space-xl;
-    flex-wrap: wrap;
-
-    a {
-      font-family: $font-display;
-      font-size: $type-fine;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      color: $color-ink-faint;
-      text-decoration: none;
-
-      &:hover {
-        color: $color-ink;
-      }
-    }
+    gap: 1rem 6rem;
   }
 
-  // --------------------------------------------------------------------------
-  // ROW 2: Dig layer — curiosity rewards, quieter than nav
-  // --------------------------------------------------------------------------
-
-  .footer-dig {
-    display: flex;
-    justify-content: center;
-    gap: $space-lg;
-    flex-wrap: wrap;
-    margin-top: $space-lg;
-
-    a {
-      font-size: $type-fine;
-      color: $color-ink-faint;
-      text-decoration: none;
-      opacity: 0.85;
-
-      &:hover {
-        opacity: 1;
-        color: $color-ink-light;
-      }
-    }
+  .footer-col-heading {
+    font-family: $font-display;
+    font-size: $type-fine;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: $footer-text-bright;
+    margin-bottom: $space-md;
+    margin-top: 0;
   }
 
-  // --------------------------------------------------------------------------
-  // TOOLS LINK
-  // --------------------------------------------------------------------------
-
-  .footer-tools {
-    border-top: 1px solid $color-rule;
-    padding-top: $space-lg;
-    margin-top: $space-xl;
-    text-align: center;
+  .footer-col {
+    display: flex;
+    flex-direction: column;
+    gap: $space-sm;
 
     a {
-      font-family: $font-mono;
-      font-size: $type-fine;
-      letter-spacing: 0.03em;
-      color: $color-ink-faint;
+      font-size: $type-caption;
+      color: $footer-text;
       text-decoration: none;
 
       &:hover {
-        color: $color-ink-light;
+        color: $footer-text-bright;
       }
     }
   }
@@ -86,18 +57,17 @@
   .copyright {
     margin-top: $space-lg;
     font-size: $type-fine;
-    color: $color-ink-faint;
+    color: $footer-text;
+    opacity: 0.5;
     text-align: center;
   }
 
   // --------------------------------------------------------------------------
-  // SUBSCRIBE — Email capture (wired later)
+  // SUBSCRIBE
   // --------------------------------------------------------------------------
 
   .subscribe {
-    border-top: 1px solid $color-rule;
-    padding-top: $space-xl;
-    margin-top: $space-lg;
+    margin-top: $space-md;
   }
 
   .subscribe-heading {
@@ -105,7 +75,7 @@
     font-size: $type-fine;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: $color-ink-faint;
+    color: $footer-text;
     margin-bottom: $space-md;
     margin-top: 0;
   }
@@ -120,20 +90,20 @@
     flex: 1;
     font-family: $font-body;
     font-size: $type-caption;
-    color: $color-ink;
-    background: $color-paper;
-    border: 1px solid $color-rule;
+    color: $footer-text-bright;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid $footer-rule;
     padding: $space-sm $space-md;
     outline: none;
     transition: border-color $transition-fast;
 
     &::placeholder {
-      color: $color-ink-faint;
+      color: rgba(255, 255, 255, 0.4);
     }
 
     &:focus {
-      border-color: $color-ink-light;
-      outline: 2px solid $color-accent;
+      border-color: $footer-text;
+      outline: 2px solid $footer-text-bright;
       outline-offset: 2px;
     }
   }
@@ -141,21 +111,21 @@
   .subscribe-button {
     font-family: $font-body;
     font-size: $type-caption;
-    color: $color-ink;
-    background: $color-surface;
-    border: 1px solid $color-rule;
+    color: $footer-bg;
+    background: $footer-text;
+    border: 1px solid $footer-text;
     padding: $space-sm $space-lg;
     cursor: pointer;
     transition: background $transition-fast, border-color $transition-fast;
     white-space: nowrap;
 
     &:hover {
-      background: $color-rule;
-      border-color: $color-rule-dark;
+      background: $footer-text-bright;
+      border-color: $footer-text-bright;
     }
 
     &:focus-visible {
-      outline: 2px solid $color-accent;
+      outline: 2px solid $footer-text-bright;
       outline-offset: 2px;
     }
   }

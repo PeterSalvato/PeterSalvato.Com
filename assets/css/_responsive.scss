@@ -32,16 +32,28 @@
 
     #sidebar-header {
       width: 200px;
-      margin: 0 auto $space-md;
+      margin: 0 auto 1rem;
+      transform: translateX(-1.75rem) rotate(-0.5deg);
     }
 
     #sidebar-title {
-      font-size: $type-body;
+      font-size: 2rem;
+      letter-spacing: 0.06em;
+      line-height: 1;
+      text-align: left;
+      position: relative;
+      width: 11rem;
+      margin-top: -3rem;
+      padding-left: 0.5rem;
+      transform: rotate(0.25deg);
+      margin-bottom: 0;
+      left: 5rem;
     }
 
     .nav-list {
       display: flex;
-      justify-content: flex-start;
+      flex-wrap: wrap;
+      justify-content: space-around;
       gap: 0;
     }
 
@@ -51,8 +63,8 @@
 
     .nav-item > a {
       min-height: 44px;
-      padding: $space-sm $space-md;
-      font-size: $type-caption;
+      padding: 0.5rem;
+      font-size: 0.8125rem;
     }
 
     .nav-icon {
@@ -72,6 +84,15 @@
   .system-footer {
     padding-left: $space-md;
     padding-right: $space-md;
+
+    .footer-columns {
+      flex-wrap: wrap;
+    }
+
+    .footer-col:last-child {
+      width: 100%;
+      margin-top: $space-lg;
+    }
   }
 
   #container {
