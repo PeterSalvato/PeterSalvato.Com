@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>{{ page.title }} | Peter Salvato</title>
+  <link rel="icon" type="image/x-icon" href="{{ '/assets/favicon.ico' | relative_url }}">
+
+  <!-- Google Fonts: Rubik, Space Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+
+  <style>
+    body.pitch { margin: 0; padding: 0; }
+    body.pitch #main-content { padding-left: 0; padding: 2rem; }
+    body.pitch #container { max-width: 640px; margin: 0 auto; transform: none; }
+    .pitch-header { margin-bottom: 2rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(0,0,0,0.1); }
+    .pitch-from { font-family: 'Space Mono', monospace; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.5rem; }
+    .pitch-from a { text-decoration: none; color: inherit; }
+    .pitch-subtitle { font-size: 1.1rem; color: rgba(0,0,0,0.6); margin-top: 0.5rem; }
+    .pitch-content h2 { margin-top: 2.5rem; font-size: 1.1rem; font-family: 'Space Mono', monospace; }
+    .pitch-content a { color: #333; }
+    .pitch-content .essay-link { display: block; margin: 0.75rem 0; padding: 0.5rem 0.75rem; border-left: 2px solid rgba(0,0,0,0.15); text-decoration: none; color: inherit; }
+    .pitch-content .essay-link:hover { border-left-color: rgba(0,0,0,0.4); }
+    .pitch-content .essay-link strong { display: block; }
+    .pitch-content .essay-link span { font-size: 0.85rem; color: rgba(0,0,0,0.5); }
+
+    /* Gate */
+    .pitch-gate {
+      max-width: 340px;
+      margin: 20vh auto;
+      font-family: 'Rubik', sans-serif;
+    }
+    .pitch-gate .gate-label {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: rgba(0,0,0,0.4);
+      margin-bottom: 0.25rem;
+    }
+    .pitch-gate .gate-name {
+      font-size: 1.1rem;
+      font-weight: 500;
+      color: #111;
+      padding: 0.5rem 0;
+      border-bottom: 1px solid rgba(0,0,0,0.1);
+      margin-bottom: 1.25rem;
+    }
+    .pitch-gate form { display: flex; gap: 0.5rem; }
+    .pitch-gate input {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.85rem;
+      padding: 0.5rem 0.75rem;
+      border: 1px solid rgba(0,0,0,0.15);
+      background: transparent;
+      flex: 1;
+    }
+    .pitch-gate input:focus { outline: none; border-color: rgba(0,0,0,0.4); }
+    .pitch-gate button {
+      font-family: 'Space Mono', monospace;
+      font-size: 0.8rem;
+      padding: 0.5rem 1rem;
+      border: 1px solid rgba(0,0,0,0.15);
+      background: transparent;
+      cursor: pointer;
+    }
+    .pitch-gate button:hover { border-color: rgba(0,0,0,0.4); }
+    .pitch-gate .gate-error {
+      color: #c00;
+      font-size: 0.8rem;
+      margin-top: 0.5rem;
+      display: none;
+    }
+    .pitch-gate .gate-footer {
+      margin-top: 1.5rem;
+      font-size: 0.8rem;
+      color: rgba(0,0,0,0.35);
+    }
+    .pitch-gate .gate-footer a { color: rgba(0,0,0,0.5); }
+    .pitch-body { display: none; }
+  </style>
+</head>
+<body class="surface-grain pitch">
+
+<main id="main-content">
+  <div id="container">
+
+    <!-- Gate -->
+    <div class="pitch-gate" id="gate">
+      <div class="gate-label">Prepared for</div>
+      <div class="gate-name">{{ page.recipient_name }}</div>
+      <div class="gate-label" style="margin-bottom: 0.5rem;">Password</div>
+      <form onsubmit="return checkAccess()">
+        <input type="password" id="gate-pw" autofocus autocomplete="off">
+        <button type="submit">Open</button>
+      </form>
+      <p class="gate-error" id="gate-error">That password didn't match.</p>
+      <div class="gate-footer">From <a href="/">Peter Salvato</a></div>
+    </div>
+
+    <!-- Content -->
+    <div class="pitch-body" id="pitch-body">
+      <article>
+        <header class="pitch-header">
+          <p class="pitch-from"><a href="{{ '/' | relative_url }}">petersalvato.com</a></p>
+          <h1>{{ page.title }}</h1>
+          {% if page.subtitle %}
+          <p class="pitch-subtitle">{{ page.subtitle }}</p>
+          {% endif %}
+        </header>
+        <div class="pitch-content">
+          {{ content }}
+        </div>
+      </article>
+    </div>
+
+  </div>
+</main>
+
+<script>
+function simpleHash(str) {
+  var h = 0;
+  for (var i = 0; i < str.length; i++) {
+    h = ((h << 5) - h) + str.charCodeAt(i);
+    h = h & h;
+  }
+  return h;
+}
+
+function checkAccess() {
+  var pw = document.getElementById('gate-pw').value.toLowerCase().trim();
+  if (simpleHash(pw) === {{ page.pw_hash }}) {
+    document.getElementById('gate').style.display = 'none';
+    document.getElementById('pitch-body').style.display = 'block';
+    sessionStorage.setItem('pitch-{{ page.slug }}', '1');
+  } else {
+    document.getElementById('gate-error').style.display = 'block';
+  }
+  return false;
+}
+
+if (sessionStorage.getItem('pitch-{{ page.slug }}')) {
+  document.getElementById('gate').style.display = 'none';
+  document.getElementById('pitch-body').style.display = 'block';
+}
+</script>
+
+</body>
+</html>

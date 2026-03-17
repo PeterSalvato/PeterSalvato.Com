@@ -49,4 +49,90 @@
     font-size: $type-fine;
     color: $color-ink-faint;
   }
+
+  // --------------------------------------------------------------------------
+  // TOOLS LINK — Quiet link below footer columns to /start/
+  // --------------------------------------------------------------------------
+
+  .footer-tools {
+    border-top: 1px solid $color-rule;
+    padding-top: $space-lg;
+    margin-top: $space-xl;
+    text-align: center;
+
+    a {
+      font-family: $font-mono;
+      font-size: $type-fine;
+      letter-spacing: 0.03em;
+      color: $color-ink-faint;
+
+      &:hover {
+        color: $color-ink-light;
+      }
+    }
+  }
+
+  // --------------------------------------------------------------------------
+  // SUBSCRIBE — Email capture, lives above or below footer columns
+  // --------------------------------------------------------------------------
+
+  .subscribe {
+    grid-column: 1 / -1;
+    border-top: 1px solid $color-rule;
+    padding-top: $space-xl;
+    margin-top: $space-lg;
+  }
+
+  .subscribe-heading {
+    font-family: $font-display;
+    font-size: $type-fine;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: $color-ink-faint;
+    margin-bottom: $space-md;
+    margin-top: 0;
+  }
+
+  .subscribe-form {
+    display: flex;
+    gap: $space-sm;
+    max-width: 400px;
+  }
+
+  .subscribe-input {
+    flex: 1;
+    font-family: $font-body;
+    font-size: $type-caption;
+    color: $color-ink;
+    background: $color-paper;
+    border: 1px solid $color-rule;
+    padding: $space-sm $space-md;
+    outline: none;
+    transition: border-color $transition-fast;
+
+    &::placeholder {
+      color: $color-ink-faint;
+    }
+
+    &:focus {
+      border-color: $color-ink-light;
+    }
+  }
+
+  .subscribe-button {
+    font-family: $font-body;
+    font-size: $type-caption;
+    color: $color-ink;
+    background: $color-surface;
+    border: 1px solid $color-rule;
+    padding: $space-sm $space-lg;
+    cursor: pointer;
+    transition: background $transition-fast, border-color $transition-fast;
+    white-space: nowrap;
+
+    &:hover {
+      background: $color-rule;
+      border-color: $color-rule-dark;
+    }
+  }
 }
