@@ -152,6 +152,22 @@
     line-height: 2;
   }
 
+  // Vocabulary tooltips: reposition on small screens
+  .vocab-tooltip {
+    left: 0;
+    transform: translateX(0) translateY(4px);
+    max-width: calc(100vw - 40px);
+
+    &::after {
+      left: 20px;
+    }
+  }
+
+  .vocab-term:hover .vocab-tooltip,
+  .vocab-term:focus .vocab-tooltip {
+    transform: translateX(0) translateY(0);
+  }
+
   // Project pages
   .block-body {
     grid-template-columns: 1fr;

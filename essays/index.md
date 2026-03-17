@@ -59,12 +59,13 @@ seo_keywords: ["design engineering", "design methodology", "systems architecture
   var panels = document.querySelectorAll('.essays-panel');
 
   function activate(tabName) {
-    tabs.forEach(function(t) { t.classList.remove('active'); });
+    tabs.forEach(function(t) { t.classList.remove('active'); t.setAttribute('aria-selected', 'false'); });
     panels.forEach(function(p) { p.classList.remove('active'); });
     var tab = document.querySelector('.essays-tab[data-tab="' + tabName + '"]');
     var panel = document.getElementById('panel-' + tabName);
     if (tab && panel) {
       tab.classList.add('active');
+      tab.setAttribute('aria-selected', 'true');
       panel.classList.add('active');
     }
   }
@@ -75,11 +76,26 @@ seo_keywords: ["design engineering", "design methodology", "systems architecture
     activate(hash);
   }
 
-  tabs.forEach(function(tab) {
+  tabs.forEach(function(tab, i) {
+    tab.setAttribute('role', 'tab');
+    tab.setAttribute('aria-selected', tab.classList.contains('active'));
     tab.addEventListener('click', function() {
       var name = tab.dataset.tab;
       activate(name);
       history.replaceState(null, '', '#' + name);
+    });
+    tab.addEventListener('keydown', function(e) {
+      var target;
+      if (e.key === 'ArrowRight' || e.key === 'ArrowDown') {
+        target = tabs[(i + 1) % tabs.length];
+      } else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
+        target = tabs[(i - 1 + tabs.length) % tabs.length];
+      }
+      if (target) {
+        e.preventDefault();
+        target.focus();
+        target.click();
+      }
     });
   });
 

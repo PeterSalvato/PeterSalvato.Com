@@ -719,6 +719,22 @@ everybodys-got-a-plan:
 # VOCABULARY — Canonical Reference Pages
 # ============================================================================
 
+vocabulary:
+  url: /vocabulary/
+  connections:
+    - target: accommodation-design
+      url: /practice/accommodation-design/
+      reason: "The framework these terms describe. Start here if the vocabulary is new."
+    - target: how-i-think
+      url: /thinking/
+      reason: "The processing profile that produces this language."
+    - target: this-site
+      url: /practice/this-site/
+      reason: "Every term on this page is used across the site. This is where they come from."
+    - target: formwork
+      url: /systems/formwork/
+      reason: "The coordination process where most of these terms operate."
+
 vocab-scaffold:
   url: /vocabulary/scaffold/
   connections:
