@@ -16,9 +16,7 @@ description: "Song lyrics as typographic architecture. Polaroid-vertical format,
 last_modified: 2026-03-16
 ---
 
-I kept looking at song posters where the image references the mood and the lyrics get set in whatever type looks good. Two elements from two different processes. They coexist without cohering. The feeling of a song lives in the relationship between words and image, but most design processes treat them as separate problems and hope the result looks intentional.
-
-I wanted to see what happens when the lyrics are the actual generative input. The text itself, fed into AI image generation within the typographic parameters the grid establishes. What comes back is specific to that song, because the input is the actual words, not someone's interpretation of them.
+Sixteen songs through the same fixed container. Polaroid-style vertical, Swiss grid. The lyrics are the actual generative input for the AI imagery. Not a prompt about the song. The words themselves.
 
 <div class="versograms-gallery">
 {% for song in site.data.versograms.songs %}
@@ -28,22 +26,4 @@ I wanted to see what happens when the lyrics are the actual generative input. Th
 {% endfor %}
 </div>
 
----
-
-Lyrics carry structural rhythm, density, emotional weight that most visual treatments strip away. A poster for "Cherub Rock" and a poster for "Limit to Your Love" should not look like the same decision. But if the format changes per piece, you're just decorating. The constraint has to be fixed. The content has to be what makes each piece distinct.
-
-The furniture-from-different-stores problem: type and image designed separately fit together technically but never quite right. One element gets treated as primary, the other as support. The relationship between them is an accident of proximity.
-
----
-
-**Fixed format across every piece.** Polaroid-style vertical. Song title at the top. AI-generated image. Song lyrics. Song metadata, including QR code. This structure does not change per piece. The format is the same whether the song is Soul Coughing or Tool.
-
-**Typographic structure as shared constraint.** Swiss grid, rhythm, and proportion establish the framework. Not adjusted piece by piece. The system is fixed, and the content populates it.
-
-**Image generation from lyric content.** The AI reads the lyrics and generates imagery within the parameters the grid establishes. This is not: write a prompt about the song, generate an image, drop it in. The lyric text is the generative source. The grid is the constraint the image inhabits.
-
-**Physical artifact.** Collectible prints, small-batch. A Spotify playlist accompanies the digital presentation.
-
----
-
-Sixteen songs through the same fixed container. Each piece is distinct because the content (lyrics as generative input, not reference material) is what varies. The format stays locked. The [Art Department](/practice/art-department/) renders the final print-ready output: same JSON manifest, same template, same deterministic build. [Photogeography](/practice/photogeography/) applies the same principle to photography: lock the format, let the content do the differentiating.
+The format doesn't change per piece. The content is what makes each one distinct. The [Art Department](/practice/art-department/) renders the final print-ready output. [Photogeography](/practice/photogeography/) applies the same principle to photography.
