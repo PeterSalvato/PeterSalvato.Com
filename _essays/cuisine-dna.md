@@ -39,15 +39,15 @@ I started with store-bought gluten-free pasta and worked backward from there. Wh
 
 I studied the food science the way I'd study any material I needed to work with. The same way I decomposed a design system to understand why it held together, or studied how a student's processing profile determined what kind of instruction they could receive. The question is always the same: what does this material actually need to do the job? And if the standard material is gone, what combination of other materials replicates the function?
 
-It took years. Not months. GF baking is not a substitution. It's a different discipline. The flour behaves differently. The hydration is different. The timing is different. You can't feel the dough the same way because gluten development isn't happening. You're relying on other indicators.
+It took years. GF baking is a different discipline entirely. The flour behaves differently. The hydration is different. The timing is different. You can't feel the dough the same way because gluten development isn't happening. You're relying on other indicators.
 
-I can make artisanal gluten-free bread now. Batards, boules, sandwich loaves. The constraint forced the engineering and the engineering produced something I'm proud of. Not an acceptable substitute. Real bread that I figured out how to make from the structure up.
+I can make artisanal gluten-free bread now. Batards, boules, sandwich loaves. The constraint forced the engineering and the engineering produced something I'm proud of. Real bread that I figured out how to make from the structure up.
 
 ---
 
 The cuisine rotation from the previous chapter works because the techniques are transferable. Sous vide the protein, batch the rice, prep the veg. The atomics don't change. The flavor profile rotates. Mexican this week, Thai next week, Sicilian after that.
 
-But the rotation isn't a system I designed in the abstract. Each cuisine is a room I've been in. The Mexican is connected to specific meals, specific people. The Thai traces to restaurants with my wife before we had kids. The Sicilian goes back to East 1st Street. When I'm cooking in a cuisine, I'm not just making dinner. I'm revisiting a part of my own history through the food.
+But the rotation isn't a system I designed in the abstract. Each cuisine is a room I've been in. The Mexican is connected to specific meals, specific people. The Thai traces to restaurants with my wife before we had kids. The Sicilian goes back to East 1st Street. When I'm cooking in a cuisine, I'm revisiting a part of my own history through the food.
 
 Celiac almost severed that connection. The engineering rebuilt it. Not perfectly. Some things I still can't replicate and probably never will. But the path is open again. I can cook in these cuisines for my family using the modular system, and the food means something because the flavors mean something.
 

@@ -31,7 +31,7 @@ While that pipeline runs, other things happen in parallel. A batch of rice and b
 
 None of these appliances need to know about each other. The rice cooker doesn't care what the sous vide is doing. The oven doesn't depend on the rice cooker. They run in parallel because they're isolated, and I think that's the thing that makes the whole approach work for me. Each one is its own contained process with its own timeline, and if I lose track of one for twenty minutes it doesn't take the others down with it.
 
-I chose these tools because they're forgiving. Not just in the sense that they keep food warm when it's done, but that they're modular and atomic in nature. They let me focus on the components and the pieces without worrying about the whole assembly. The assembly happens later, at dinner, when someone pulls from what's available.
+I chose these tools because they're forgiving. They keep food warm when it's done, but more than that, they're modular and atomic in nature. They let me focus on the components and the pieces without worrying about the whole assembly. The assembly happens later, at dinner, when someone pulls from what's available.
 
 ---
 
@@ -47,7 +47,7 @@ The containers do more than store food. They're quarantine boundaries.
 
 Everything that comes out of the batch cook goes into its own sealed container. The gluten status of what's inside is decided at prep time, on Sunday, when I have the capacity to be careful about it. By Tuesday at 5 PM that capacity is gone.
 
-Gluten-free containers go on the shelf above gluten-containing ones. If something falls or drips, the contamination goes down, not up. That's not a labeling system. It's gravity as a safety rule, baked into shelf position.
+Gluten-free containers go on the shelf above gluten-containing ones. If something falls or drips, the contamination goes down, not up. Gravity as a safety rule, baked into shelf position.
 
 When it's time to assemble, the gluten components can be handled with gloves, or my wife can do that portion. The protocol is decided. The boundaries are physical. Tuesday me doesn't have to think about cross-contamination because Sunday me already handled it.
 
@@ -67,4 +67,4 @@ I run this pattern everywhere. Smaller contained processes. When things are brok
 
 Break it into components and the failure is localized. The rice failed. OK. The rice failed. Everything else is fine. Dinner still happens.
 
-That's the containerized architecture. Not a kitchen layout. A set of behaviors. Independent units, forgiving tools, quarantine boundaries, graceful degradation. I didn't sit down and design it. I just kept breaking things into smaller pieces until the failures stopped taking everything else down with them.
+That's the containerized architecture. A set of behaviors. Independent units, forgiving tools, quarantine boundaries, graceful degradation. I didn't sit down and design it. I just kept breaking things into smaller pieces until the failures stopped taking everything else down with them.

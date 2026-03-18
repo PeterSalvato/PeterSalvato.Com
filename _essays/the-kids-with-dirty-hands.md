@@ -59,6 +59,6 @@ That's what the technology is for. Not optimization. Not efficiency for its own 
 
 The mango tree started from a seed. The tree in the yard dropped a mango, I pulled the seed, and now there's a second tree growing in a pot. My son watched the whole thing. He didn't learn a lesson from it. He just saw that you can take a thing from the ground and make it into another thing and that it takes patience and sun and water and time.
 
-I think about what I want this household to feel like when the kids are grown and look back on it. Not the systems. They won't remember the containerized architecture or the gluten protocol. They'll remember the yard. The pots in the sun. The afternoon with the bugs. The mango tree that came from the other mango tree.
+I think about what I want this household to feel like when the kids are grown and look back on it. They won't remember the containerized architecture or the gluten protocol. They'll remember the yard. The pots in the sun. The afternoon with the bugs. The mango tree that came from the other mango tree.
 
 The systems are the scaffolding. The life is what grows inside them. I'm still building both and I think that's the point. You don't finish a garden. You just keep showing up.

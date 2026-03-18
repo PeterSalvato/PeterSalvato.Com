@@ -53,7 +53,7 @@ The smoothie instead of a packed lunch. We tried sandwiches. We tried containers
 
 The boiling water before anything else. My own accommodation. The cook who falls through the system does it at dinner. The parent who falls through the system does it at 7 AM. The coffee is the one thing I do for myself before I start doing everything for everyone else.
 
-First contact, second contact. The relay between me and my wife. Not a schedule. A negotiation that happens in real time based on who's present, who has capacity, who's already dealing with a crisis. Some mornings I do 80% and she does 20%. Some mornings it's the reverse. The system flexes because it has to.
+First contact, second contact. The relay between me and my wife. A negotiation that happens in real time based on who's present, who has capacity, who's already dealing with a crisis. Some mornings I do 80% and she does 20%. Some mornings it's the reverse. The system flexes because it has to.
 
 ---
 
