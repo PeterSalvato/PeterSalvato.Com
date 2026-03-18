@@ -29,7 +29,7 @@ seo_keywords:
   - knowledge work perishable thinking
 related:
   - /systems/savepoint
-  - /practice/prosthetic-cognition
+  - /research/prosthetic-cognition
   - /evidence/encore
   - /practice/new-city
   - /essays/i-needed-a-better-tool
@@ -108,7 +108,7 @@ The savepoint had the marker. It was missing the context. The v3.2 update added 
 - **[SavePoint](/systems/savepoint/)** — The tool built specifically because context is the most perishable thing in knowledge work. Marks the turning points before they disappear.
 - **[Drift](/vocabulary/drift/)** — What accumulates when context isn't preserved. Reasonable decisions made against frames that have shifted from the original.
 - **[Accommodation Design](/vocabulary/accommodation-design/)** — Accommodating the model's lack of persistent memory is one half of the framework. The other half accommodates the human's natural context limits.
-- **[Prosthetic Cognition](/practice/prosthetic-cognition/)** — The model extends working memory and holds context across a larger corpus than any human can maintain. The prosthetic relationship only works if context is preserved at the interface.
+- **[Prosthetic Cognition](/research/prosthetic-cognition/)** — The model extends working memory and holds context across a larger corpus than any human can maintain. The prosthetic relationship only works if context is preserved at the interface.
 - **[Fidelity](/vocabulary/fidelity/)** — Context loss is the primary mechanism of fidelity loss. What was meant and what survived diverge when the reasoning web disappears.
 - **[FormWork](/systems/formwork/)** — The coordination harness that holds the right context available at the right moment.
 
@@ -120,4 +120,4 @@ The savepoint had the marker. It was missing the context. The v3.2 update added 
 - [I Needed a Better Tool](/essays/i-needed-a-better-tool/) — the specific experience of losing reasoning across AI sessions
 - [Encore](/evidence/encore/) — what twelve years of institutional context loss looks like in an enterprise platform
 - [New City](/practice/new-city/) — lost ideation and the architecture that emerged from trying to preserve it
-- [A Different Kind of Harness](/practice/prosthetic-cognition/) — the prosthetic relationship depends entirely on preserving context at the interface
+- [A Different Kind of Harness](/research/prosthetic-cognition/) — the prosthetic relationship depends entirely on preserving context at the interface

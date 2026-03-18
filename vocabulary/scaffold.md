@@ -27,7 +27,7 @@ seo_keywords:
   - special education AI design
   - Peter Salvato
 related:
-  - /practice/accommodation-design
+  - /research/accommodation-design
   - /systems/formwork
   - /essays/the-iep-for-ai-systems
   - /essays/what-special-ed-teachers-already-know
@@ -91,7 +91,7 @@ The coordinator is scaffolding. It carries the dispatch logic so the lenses don'
 
 The coordinator comes off when the evaluation is complete. It doesn't persist between evaluations. It doesn't accumulate state. Each evaluation run builds the coordinator fresh, uses it, and releases it.
 
-The question the [accommodation design](/practice/accommodation-design/) framework asks about every coordinator and every system prompt: is this building capability, or is this building dependency? The current trend in AI tool development pushes toward longer context documents, more elaborate orchestration, increasingly complex system prompts. Each one is scaffolding. The question is whether each one earns its place by doing structural work the system cannot yet do without it, or whether it compensates for work the system could do if asked differently.
+The question the [accommodation design](/research/accommodation-design/) framework asks about every coordinator and every system prompt: is this building capability, or is this building dependency? The current trend in AI tool development pushes toward longer context documents, more elaborate orchestration, increasingly complex system prompts. Each one is scaffolding. The question is whether each one earns its place by doing structural work the system cannot yet do without it, or whether it compensates for work the system could do if asked differently.
 
 ### Photography Brief (Brand System)
 
@@ -117,5 +117,5 @@ The question the brief eventually reaches: when does the brief come off? When th
 
 - [The IEP for AI Systems](/essays/the-iep-for-ai-systems/) — the classroom origin of the scaffold principle, and how coordinator patterns carry it into AI architecture
 - [What Special Ed Teachers Already Know About AI](/essays/what-special-ed-teachers-already-know/) — the practitioner profile that treats scaffolding as a technical term, not a metaphor
-- [AI Governance as Accommodation Design](/practice/accommodation-design/) — the full whitepaper, including the mapping table that places scaffolding alongside decomposition and individualized criteria
+- [AI Governance as Accommodation Design](/research/accommodation-design/) — the full whitepaper, including the mapping table that places scaffolding alongside decomposition and individualized criteria
 - [FormWork](/systems/formwork/) — the coordination harness named from concrete formwork: temporary by definition, because the work needs to stand on its own

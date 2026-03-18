@@ -27,7 +27,7 @@ seo_keywords:
   - what does the system actually need
   - cognitive load model
 related:
-  - /practice/accommodation-design
+  - /research/accommodation-design
   - /essays/processing-profiles
   - /essays/why-does-chatgpt-get-worse
   - /essays/the-iep-for-ai-systems
@@ -43,7 +43,7 @@ The term comes from special education. Before any instruction happens, you read 
 
 The failure to do this is what produces most bad AI results. Practitioners blame the model. A processing profile assessment usually shows the task was designed for a system that does not exist: one with unlimited working memory, equal attention across long inputs, and the ability to hold four evaluation criteria simultaneously without contamination.
 
-That system does not exist. The one that does exist has a documented profile. [Accommodation design](/practice/accommodation-design/) starts by reading it.
+That system does not exist. The one that does exist has a documented profile. [Accommodation design](/research/accommodation-design/) starts by reading it.
 
 ---
 
@@ -103,7 +103,7 @@ Four people, four constraint profiles. Celiac disease. Two neurodivergent childr
 
 The processing profile for the household is not a list of problems. It is the design input. The constraint on executive function at 5 PM means the cook cannot hold a complex recipe in working memory, track multiple timers, and make real-time adjustments simultaneously. The accommodation: batch the shared base during a higher-capacity part of the day, apply the cuisine framework, accommodate individually at assembly. Three layers, one operation. The system carries what working memory cannot.
 
-The profile here includes the human in the system, not just the tools. [Accommodation design](/practice/accommodation-design/) runs in both directions.
+The profile here includes the human in the system, not just the tools. [Accommodation design](/research/accommodation-design/) runs in both directions.
 
 ---
 
@@ -114,7 +114,7 @@ The profile here includes the human in the system, not just the tools. [Accommod
 - **[Drift](/vocabulary/drift/)** — What happens when a system's processing profile stops being the design input. Reasonable decisions accumulate into something nobody chose.
 - **[Scaffold](/vocabulary/scaffold/)** — Temporary structure that meets a processing constraint without building permanent dependency.
 - **[SavePoint](/systems/savepoint/)** — The tool built specifically for the model's no-persistent-memory constraint.
-- **[Input Inversion](/practice/input-inversion/)** — The design principle that reverses the burden of structure from the human to the tooling. The human's processing profile gets accommodated too.
+- **[Input Inversion](/research/input-inversion/)** — The design principle that reverses the burden of structure from the human to the tooling. The human's processing profile gets accommodated too.
 
 ---
 
@@ -123,6 +123,6 @@ The profile here includes the human in the system, not just the tools. [Accommod
 - [Processing Profiles](/essays/processing-profiles/) — the direct mapping between student constraints and model constraints
 - [Why Does ChatGPT Get Worse the More You Type?](/essays/why-does-chatgpt-get-worse/) — the working memory ceiling and how to design around it
 - [The IEP for AI Systems](/essays/the-iep-for-ai-systems/) — the classroom origin of this framing
-- [AI Governance as Accommodation Design](/practice/accommodation-design/) — the full whitepaper
+- [AI Governance as Accommodation Design](/research/accommodation-design/) — the full whitepaper
 - [FormWork](/systems/formwork/) — the coordination process built from the profile assessment
 - [SavePoint Syntax](/systems/savepoint/) — the tool that addresses the no-persistent-memory constraint directly

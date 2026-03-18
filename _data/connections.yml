@@ -18,7 +18,7 @@ encore:
       url: /systems/savepoint/
       reason: "The institutional memory problem I kept hitting led directly to this."
     - target: accommodation-design
-      url: /practice/accommodation-design/
+      url: /research/accommodation-design/
       reason: "I was doing accommodation design for a decade before I had a name for it."
     - target: this-site
       url: /practice/this-site/
@@ -34,19 +34,19 @@ aiden-jae:
   url: /evidence/aiden-jae/
   connections:
     - target: accommodation-design
-      url: /practice/accommodation-design/
+      url: /research/accommodation-design/
       reason: "The product was real. The display system was erasing it. Same problem, different material."
     - target: pressworks
       url: /practice/pressworks/
       reason: "The product photography pipeline I built for the brand."
     - target: voice-governance
-      url: /practice/voice-governance/
+      url: /research/voice-governance/
       reason: "Brand voice that sounds like Randi, not like a template."
     - target: how-i-think
       url: /thinking/
       reason: "Reading the code and the photograph at the same time."
     - target: input-inversion
-      url: /practice/input-inversion/
+      url: /research/input-inversion/
       reason: "Randi's raw material was better than anything structured input would produce."
     - target: encore
       url: /evidence/encore/
@@ -59,7 +59,7 @@ altrueism:
       url: /evidence/aiden-jae/
       reason: "Two brand systems built from the same principle: let the material speak."
     - target: accommodation-design
-      url: /practice/accommodation-design/
+      url: /research/accommodation-design/
       reason: "Transparency as a design decision, not a marketing claim."
     - target: pressworks
       url: /practice/pressworks/
@@ -69,13 +69,13 @@ new-city:
   url: /practice/new-city/
   connections:
     - target: lens-extraction
-      url: /practice/lens-extraction/
+      url: /research/lens-extraction/
       reason: "Four simultaneous layers evaluated independently, like running multiple lenses."
     - target: voice-governance
-      url: /practice/voice-governance/
+      url: /research/voice-governance/
       reason: "Registration across layers is voice governance applied to prose."
     - target: accommodation-design
-      url: /practice/accommodation-design/
+      url: /research/accommodation-design/
       reason: "Each beat designed for what the reader's system actually processes."
     - target: reading-the-room
       url: /essays/reading-the-room/
@@ -89,7 +89,7 @@ what-i-think:
   url: /what-i-think/
   connections:
     - target: accommodation-design
-      url: /practice/accommodation-design/
+      url: /research/accommodation-design/
       reason: "The framework behind the position. How keeping the human in the loop becomes a method."
     - target: formwork
       url: /systems/formwork/
@@ -114,7 +114,7 @@ start:
       url: /systems/savepoint/
       reason: "The complete SavePoint protocol. What the free version is built from."
     - target: voice-governance
-      url: /practice/voice-governance/
+      url: /research/voice-governance/
       reason: "The research behind keeping your voice intact when working with AI."
     - target: what-i-think
       url: /what-i-think/
@@ -128,10 +128,10 @@ formwork:
   url: /systems/formwork/
   connections:
     - target: accommodation-design
-      url: /practice/accommodation-design/
+      url: /research/accommodation-design/
       reason: "FormWork is accommodation design made operational."
     - target: input-inversion
-      url: /practice/input-inversion/
+      url: /research/input-inversion/
       reason: "Input inversion in practice: raw thinking first, structure after."
     - target: savepoint
       url: /systems/savepoint/
@@ -149,14 +149,14 @@ formwork:
       url: /start/
       reason: "Simplified versions of these tools. Paste them into any AI assistant and start today."
     - target: prosthetic-cognition
-      url: /practice/prosthetic-cognition/
+      url: /research/prosthetic-cognition/
       reason: "FormWork is the harness that couples the practitioner to the tools."
 
 savepoint:
   url: /systems/savepoint/
   connections:
     - target: semantic-hierarchy
-      url: /practice/semantic-hierarchy/
+      url: /research/semantic-hierarchy/
       reason: "The whitepaper that argues why human-marked importance matters."
     - target: encore
       url: /evidence/encore/
@@ -181,19 +181,19 @@ lensarray:
   url: /systems/lensarray/
   connections:
     - target: lens-extraction
-      url: /practice/lens-extraction/
+      url: /research/lens-extraction/
       reason: "The whitepaper behind the method. How practitioner lenses get extracted."
     - target: formwork
       url: /systems/formwork/
       reason: "FormWork produces work. LensArray evaluates it."
     - target: voice-governance
-      url: /practice/voice-governance/
+      url: /research/voice-governance/
       reason: "Voice rules are one type of lens. LensArray runs many."
     - target: this-site
       url: /practice/this-site/
       reason: "Every page on this site was evaluated through LensArray."
     - target: accommodation-design
-      url: /practice/accommodation-design/
+      url: /research/accommodation-design/
       reason: "Decomposed evaluation is accommodation applied to quality assurance."
     - target: what-i-think
       url: /what-i-think/
@@ -204,7 +204,7 @@ lensarray:
 # ============================================================================
 
 accommodation-design:
-  url: /practice/accommodation-design/
+  url: /research/accommodation-design/
   connections:
     - target: encore
       url: /evidence/encore/
@@ -222,23 +222,23 @@ accommodation-design:
       url: /essays/what-special-ed-teachers-already-know/
       reason: "Where the accommodation instinct came from."
     - target: input-inversion
-      url: /practice/input-inversion/
+      url: /research/input-inversion/
       reason: "Accommodation in the other direction: what the human needs to get ideas out."
     - target: how-i-think
       url: /thinking/
       reason: "The processing profile that makes accommodation design visible."
 
 input-inversion:
-  url: /practice/input-inversion/
+  url: /research/input-inversion/
   connections:
     - target: accommodation-design
-      url: /practice/accommodation-design/
+      url: /research/accommodation-design/
       reason: "Accommodation for the human side: reducing friction on how thinking enters the system."
     - target: formwork
       url: /systems/formwork/
       reason: "Input inversion made into a process step."
     - target: prosthetic-cognition
-      url: /practice/prosthetic-cognition/
+      url: /research/prosthetic-cognition/
       reason: "The prosthetic extends reach. Input inversion removes friction on the coupling."
     - target: the-unstructured-corpus
       url: /essays/the-unstructured-corpus/
@@ -248,7 +248,7 @@ input-inversion:
       reason: "Compilation starts with unstructured material. That's input inversion."
 
 voice-governance:
-  url: /practice/voice-governance/
+  url: /research/voice-governance/
   connections:
     - target: lensarray
       url: /systems/lensarray/
@@ -263,17 +263,17 @@ voice-governance:
       url: /systems/formwork/
       reason: "Voice constraints applied during generation, not after."
     - target: accommodation-design
-      url: /practice/accommodation-design/
+      url: /research/accommodation-design/
       reason: "Constraining during generation is accommodation for the output system."
 
 lens-extraction:
-  url: /practice/lens-extraction/
+  url: /research/lens-extraction/
   connections:
     - target: lensarray
       url: /systems/lensarray/
       reason: "LensArray runs the lenses. This paper explains how they're extracted."
     - target: accommodation-design
-      url: /practice/accommodation-design/
+      url: /research/accommodation-design/
       reason: "Decomposed evaluation is the accommodation move applied to critique."
     - target: formwork
       url: /systems/formwork/
@@ -283,29 +283,29 @@ lens-extraction:
       reason: "This site was evaluated against lenses extracted from Bierut, Shaw, Victore, and others."
 
 prosthetic-cognition:
-  url: /practice/prosthetic-cognition/
+  url: /research/prosthetic-cognition/
   connections:
     - target: formwork
       url: /systems/formwork/
       reason: "FormWork is the harness that couples practitioner to prosthetic."
     - target: input-inversion
-      url: /practice/input-inversion/
+      url: /research/input-inversion/
       reason: "Low-friction input reduces friction on the coupling between human and tool."
     - target: accommodation-design
-      url: /practice/accommodation-design/
+      url: /research/accommodation-design/
       reason: "Mutual accommodation is what makes the prosthetic work."
     - target: this-site
       url: /practice/this-site/
       reason: "This site is the prosthetic in action: hand compilation with AI tools."
 
 semantic-hierarchy:
-  url: /practice/semantic-hierarchy/
+  url: /research/semantic-hierarchy/
   connections:
     - target: savepoint
       url: /systems/savepoint/
       reason: "SavePoint is the implementation of human-marked semantic importance."
     - target: accommodation-design
-      url: /practice/accommodation-design/
+      url: /research/accommodation-design/
       reason: "Machine scoring erases what matters. Accommodation asks what the system needs."
     - target: encore
       url: /evidence/encore/
@@ -321,7 +321,7 @@ art-department:
       url: /practice/mathontape/
       reason: "MathOnTape artwork runs through the Art Department pipeline."
     - target: accommodation-design
-      url: /practice/accommodation-design/
+      url: /research/accommodation-design/
       reason: "Headless pipeline is accommodation for the maker: no UI in the way."
 
 order-of-the-aetherwright:
@@ -353,7 +353,7 @@ pressworks:
       url: /practice/mathontape/
       reason: "Album artwork halftoned, separated, and grained through PressWorks."
     - target: accommodation-design
-      url: /practice/accommodation-design/
+      url: /research/accommodation-design/
       reason: "Terminal-native because the UI was in the way. Accommodation for the maker."
 
 mathontape:
@@ -382,19 +382,19 @@ this-site:
       url: /systems/lensarray/
       reason: "Every page evaluated through extracted practitioner lenses."
     - target: voice-governance
-      url: /practice/voice-governance/
+      url: /research/voice-governance/
       reason: "Every page constrained during generation by the voice pipeline."
     - target: savepoint
       url: /systems/savepoint/
       reason: "Three years of savepoints across conversation exports fed this."
     - target: accommodation-design
-      url: /practice/accommodation-design/
+      url: /research/accommodation-design/
       reason: "The site enacts accommodation design on the visitor."
     - target: prosthetic-cognition
-      url: /practice/prosthetic-cognition/
+      url: /research/prosthetic-cognition/
       reason: "Hand compilation with AI tools. The prosthetic in action."
     - target: input-inversion
-      url: /practice/input-inversion/
+      url: /research/input-inversion/
       reason: "60,000 documents of raw thinking. Three years of dumping that fed everything."
 
 # ============================================================================
@@ -405,7 +405,7 @@ how-i-think:
   url: /thinking/
   connections:
     - target: accommodation-design
-      url: /practice/accommodation-design/
+      url: /research/accommodation-design/
       reason: "The framework that came from this processing profile."
     - target: encore
       url: /evidence/encore/
@@ -437,7 +437,7 @@ how-i-got-here:
       url: /evidence/encore/
       reason: "Walking into a Windows Forms app in 2013 and staying twelve years."
     - target: accommodation-design
-      url: /practice/accommodation-design/
+      url: /research/accommodation-design/
       reason: "Construction sites to classrooms to enterprise. The through-line was always accommodation."
     - target: this-site
       url: /practice/this-site/
@@ -453,7 +453,7 @@ why-does-my-brain:
       url: /systems/formwork/
       reason: "The system that the system-building brain eventually built."
     - target: accommodation-design
-      url: /practice/accommodation-design/
+      url: /research/accommodation-design/
       reason: "Turning everything into a system is the processing profile. Accommodation design is what it produces."
     - target: this-site
       url: /practice/this-site/
@@ -479,13 +479,13 @@ why-does-chatgpt-get-worse:
   url: /essays/why-does-chatgpt-get-worse/
   connections:
     - target: accommodation-design
-      url: /practice/accommodation-design/
+      url: /research/accommodation-design/
       reason: "The framework that explains why it happens and what to do about it."
     - target: savepoint
       url: /systems/savepoint/
       reason: "The tool built to solve this specific problem."
     - target: input-inversion
-      url: /practice/input-inversion/
+      url: /research/input-inversion/
       reason: "Long structured prompts make it worse. Raw thinking doesn't."
     - target: processing-profiles
       url: /essays/processing-profiles/
@@ -495,16 +495,16 @@ the-iep-for-ai-systems:
   url: /essays/the-iep-for-ai-systems/
   connections:
     - target: accommodation-design
-      url: /practice/accommodation-design/
+      url: /research/accommodation-design/
       reason: "The whitepaper that formalizes what this essay introduces."
     - target: what-special-ed-teachers-know
       url: /essays/what-special-ed-teachers-already-know/
       reason: "The companion piece. Teachers already know the fix."
     - target: prosthetic-cognition
-      url: /practice/prosthetic-cognition/
+      url: /research/prosthetic-cognition/
       reason: "The IEP is a scaffold. The prosthetic is the long-term relationship."
     - target: semantic-hierarchy
-      url: /practice/semantic-hierarchy/
+      url: /research/semantic-hierarchy/
       reason: "Decomposing compound tasks is the same move as decomposing evaluation."
     - target: encore
       url: /evidence/encore/
@@ -514,29 +514,29 @@ what-special-ed-teachers-know:
   url: /essays/what-special-ed-teachers-already-know/
   connections:
     - target: accommodation-design
-      url: /practice/accommodation-design/
+      url: /research/accommodation-design/
       reason: "The framework teachers already use, applied to AI."
     - target: the-iep-for-ai-systems
       url: /essays/the-iep-for-ai-systems/
       reason: "The companion piece. What the IEP looks like for a model."
     - target: prosthetic-cognition
-      url: /practice/prosthetic-cognition/
+      url: /research/prosthetic-cognition/
       reason: "Teachers build scaffolding that comes off. That's a prosthetic."
     - target: input-inversion
-      url: /practice/input-inversion/
+      url: /research/input-inversion/
       reason: "Let the student speak before organizing. Same principle."
 
 processing-profiles:
   url: /essays/processing-profiles/
   connections:
     - target: accommodation-design
-      url: /practice/accommodation-design/
+      url: /research/accommodation-design/
       reason: "Processing profiles are what accommodation design reads."
     - target: why-does-chatgpt-get-worse
       url: /essays/why-does-chatgpt-get-worse/
       reason: "Context windows are the model's processing profile."
     - target: prosthetic-cognition
-      url: /practice/prosthetic-cognition/
+      url: /research/prosthetic-cognition/
       reason: "Matching the prosthetic to the profile is what makes it work."
     - target: how-i-think
       url: /thinking/
@@ -546,7 +546,7 @@ reading-the-room:
   url: /essays/reading-the-room/
   connections:
     - target: accommodation-design
-      url: /practice/accommodation-design/
+      url: /research/accommodation-design/
       reason: "Reading the room is what accommodation design starts with."
     - target: encore
       url: /evidence/encore/
@@ -571,10 +571,10 @@ compilation-not-generation:
       url: /systems/formwork/
       reason: "FormWork is the compilation process."
     - target: input-inversion
-      url: /practice/input-inversion/
+      url: /research/input-inversion/
       reason: "Compilation starts with raw material. Input inversion is how the material enters."
     - target: voice-governance
-      url: /practice/voice-governance/
+      url: /research/voice-governance/
       reason: "Voice constraints during compilation are what make the output sound like me."
 
 the-site-is-the-proof:
@@ -587,7 +587,7 @@ the-site-is-the-proof:
       url: /systems/formwork/
       reason: "The process that compiled it."
     - target: accommodation-design
-      url: /practice/accommodation-design/
+      url: /research/accommodation-design/
       reason: "A blind evaluator said it was human-written. The accommodation worked."
     - target: lensarray
       url: /systems/lensarray/
@@ -597,7 +597,7 @@ the-unstructured-corpus:
   url: /essays/the-unstructured-corpus/
   connections:
     - target: input-inversion
-      url: /practice/input-inversion/
+      url: /research/input-inversion/
       reason: "The whitepaper that formalizes why unstructured input works."
     - target: formwork
       url: /systems/formwork/
@@ -613,20 +613,20 @@ talk-to-it:
   url: /essays/talk-to-it/
   connections:
     - target: input-inversion
-      url: /practice/input-inversion/
+      url: /research/input-inversion/
       reason: "Dictation is input inversion at the physical layer. Voice before typing."
     - target: formwork
       url: /systems/formwork/
       reason: "You can dump by talking. FormWork handles what comes after."
     - target: prosthetic-cognition
-      url: /practice/prosthetic-cognition/
+      url: /research/prosthetic-cognition/
       reason: "Speaking to the tool is the most natural coupling."
 
 what-does-the-system-need:
   url: /essays/what-does-the-system-actually-need/
   connections:
     - target: accommodation-design
-      url: /practice/accommodation-design/
+      url: /research/accommodation-design/
       reason: "The origin moment. Four criteria in one prompt. Same degradation as a classroom."
     - target: formwork
       url: /systems/formwork/
@@ -658,7 +658,7 @@ what-i-built-this-year:
       url: /systems/savepoint/
       reason: "Context evaporated. So I built this."
     - target: voice-governance
-      url: /practice/voice-governance/
+      url: /research/voice-governance/
       reason: "Output stopped sounding like me. So I built this."
     - target: lensarray
       url: /systems/lensarray/
@@ -674,13 +674,13 @@ voice-governance-essay:
   url: /essays/voice-governance/
   connections:
     - target: voice-governance
-      url: /practice/voice-governance/
+      url: /research/voice-governance/
       reason: "The whitepaper version. Formal argument for generation-time constraints."
     - target: lensarray
       url: /systems/lensarray/
       reason: "Voice rules as one type of evaluative lens."
     - target: accommodation-design
-      url: /practice/accommodation-design/
+      url: /research/accommodation-design/
       reason: "Constraining during generation accommodates the output system."
     - target: this-site
       url: /practice/this-site/
@@ -690,23 +690,23 @@ lens-extraction-essay:
   url: /essays/lens-extraction/
   connections:
     - target: lens-extraction
-      url: /practice/lens-extraction/
+      url: /research/lens-extraction/
       reason: "The whitepaper version. Full argument for decomposed evaluation."
     - target: lensarray
       url: /systems/lensarray/
       reason: "LensArray runs the extracted lenses."
     - target: accommodation-design
-      url: /practice/accommodation-design/
+      url: /research/accommodation-design/
       reason: "Decomposed evaluation is the accommodation move applied to critique."
 
 everybodys-got-a-plan:
   url: /essays/everybodys-got-a-plan/
   connections:
     - target: accommodation-design
-      url: /practice/accommodation-design/
+      url: /research/accommodation-design/
       reason: "Four processing profiles at one breakfast table."
     - target: input-inversion
-      url: /practice/input-inversion/
+      url: /research/input-inversion/
       reason: "Nobody has bandwidth to structure decisions at 7 AM. Defaults accommodate that."
     - target: how-i-think
       url: /thinking/
@@ -723,7 +723,7 @@ vocabulary:
   url: /vocabulary/
   connections:
     - target: accommodation-design
-      url: /practice/accommodation-design/
+      url: /research/accommodation-design/
       reason: "The framework these terms describe. Start here if the vocabulary is new."
     - target: how-i-think
       url: /thinking/
@@ -739,7 +739,7 @@ vocab-scaffold:
   url: /vocabulary/scaffold/
   connections:
     - target: accommodation-design
-      url: /practice/accommodation-design/
+      url: /research/accommodation-design/
       reason: "Scaffolding is one of the three core IEP moves that transferred directly to AI architecture."
     - target: the-iep-for-ai-systems
       url: /essays/the-iep-for-ai-systems/
@@ -798,7 +798,7 @@ vocab-somatic-design:
       url: /evidence/aiden-jae/
       reason: "A brand system where every touchpoint continues the same somatic sequence."
     - target: accommodation-design
-      url: /practice/accommodation-design/
+      url: /research/accommodation-design/
       reason: "Somatic design is accommodation operating at the pre-cognitive layer."
     - target: formwork
       url: /systems/formwork/
@@ -823,7 +823,7 @@ vocab-context:
       url: /essays/i-needed-a-better-tool/
       reason: "The specific experience of losing reasoning across AI sessions and what it produced."
     - target: prosthetic-cognition
-      url: /practice/prosthetic-cognition/
+      url: /research/prosthetic-cognition/
       reason: "The prosthetic relationship depends on preserving context at the interface between human and model."
     - target: drift
       url: /vocabulary/drift/
@@ -861,7 +861,7 @@ vocab-input-inversion:
   url: /vocabulary/input-inversion/
   connections:
     - target: input-inversion
-      url: /practice/input-inversion/
+      url: /research/input-inversion/
       reason: "The full whitepaper. This page is the entry point; that one is the deep dive."
     - target: talk-to-it
       url: /essays/talk-to-it/
@@ -873,7 +873,7 @@ vocab-input-inversion:
       url: /systems/formwork/
       reason: "The coordination harness that processes what you dump into it."
     - target: accommodation-design
-      url: /practice/accommodation-design/
+      url: /research/accommodation-design/
       reason: "Input inversion is the human-side accommodation. The parent framework."
     - target: i-needed-a-better-tool
       url: /essays/i-needed-a-better-tool/
@@ -886,7 +886,7 @@ vocab-processing-profile:
   url: /vocabulary/processing-profile/
   connections:
     - target: accommodation-design
-      url: /practice/accommodation-design/
+      url: /research/accommodation-design/
       reason: "The whitepaper built on reading processing profiles. This page is the entry point to that framework."
     - target: processing-profiles
       url: /essays/processing-profiles/
@@ -926,7 +926,7 @@ vocab-fidelity:
       url: /essays/i-needed-a-better-tool/
       reason: "Context fidelity loss across sessions. The reasoning evaporated when threads closed."
     - target: accommodation-design
-      url: /practice/accommodation-design/
+      url: /research/accommodation-design/
       reason: "Ideas lose fidelity when forced into structure at the point of capture. Accommodation design addresses this from both directions."
     - target: vocab-drift
       url: /vocabulary/drift/
@@ -948,7 +948,7 @@ vocab-drift:
       url: /systems/formwork/
       reason: "The coordination harness that prevents method drift."
     - target: accommodation-design
-      url: /practice/accommodation-design/
+      url: /research/accommodation-design/
       reason: "Drift is what happens when accommodation stops."
     - target: voice-governance-essay
       url: /essays/voice-governance/
@@ -961,7 +961,7 @@ vocab-accommodation-design:
   url: /vocabulary/accommodation-design/
   connections:
     - target: accommodation-design
-      url: /practice/accommodation-design/
+      url: /research/accommodation-design/
       reason: "The full whitepaper. This page is the entry point; that one is the deep dive."
     - target: the-iep-for-ai-systems
       url: /essays/the-iep-for-ai-systems/
@@ -993,10 +993,10 @@ photogeography:
       url: /practice/versograms/
       reason: "Same principle: lock the format, let the content do the differentiating."
     - target: accommodation-design
-      url: /practice/accommodation-design/
+      url: /research/accommodation-design/
       reason: "No cropping means the image preserves how it was actually seen. The constraint accommodates the archive."
     - target: input-inversion
-      url: /practice/input-inversion/
+      url: /research/input-inversion/
       reason: "The photograph arrives in its native shape. The system preserves the raw input instead of reformatting it."
 
 versograms:
@@ -1006,10 +1006,10 @@ versograms:
       url: /practice/photogeography/
       reason: "Same principle applied to photography: fixed format, content varies."
     - target: accommodation-design
-      url: /practice/accommodation-design/
+      url: /research/accommodation-design/
       reason: "The fixed container accommodates wildly different songs. Unity comes from the system, not from forcing uniformity."
     - target: voice-governance
-      url: /practice/voice-governance/
+      url: /research/voice-governance/
       reason: "Each song has its own voice. The fixed format lets that voice come through instead of overriding it."
 
 # ============================================================================
@@ -1042,14 +1042,14 @@ the-charged-room:
       url: /essays/the-three-layers/
       reason: "Group body, persona, individual read. The DJ set is one of the clearest examples of all three layers working."
     - target: accommodation-design
-      url: /practice/accommodation-design/
+      url: /research/accommodation-design/
       reason: "Reading the room and adjusting in real time. Accommodation as a live skill, not a document."
 
 a-kid-in-the-computer-lab:
   url: /essays/a-kid-in-the-computer-lab/
   connections:
     - target: accommodation-design
-      url: /practice/accommodation-design/
+      url: /research/accommodation-design/
       reason: "Twelve IEPs, twelve accommodations. The classroom is where this practice got tested every day."
     - target: the-three-layers
       url: /essays/the-three-layers/
@@ -1065,10 +1065,10 @@ two-classrooms-at-sva:
       url: /essays/the-registration-metaphor/
       reason: "The SVA screen print studio is where physical craft and visual communication converged."
     - target: voice-governance
-      url: /practice/voice-governance/
+      url: /research/voice-governance/
       reason: "Victore taught honesty. Niemann and Blechman taught precision. Voice governance holds both."
     - target: lens-extraction
-      url: /practice/lens-extraction/
+      url: /research/lens-extraction/
       reason: "Three teachers, three lenses. The combination produced something none of them taught individually."
 
 the-seven-words:
@@ -1107,7 +1107,7 @@ the-three-layers:
   url: /essays/the-three-layers/
   connections:
     - target: accommodation-design
-      url: /practice/accommodation-design/
+      url: /research/accommodation-design/
       reason: "Group body, persona, individual accommodation. The structural model underneath accommodation design."
     - target: the-charged-room
       url: /essays/the-charged-room/
@@ -1142,7 +1142,7 @@ attunement-one-skill:
       url: /essays/reading-the-room/
       reason: "Attunement names the skill. Reading the room is where it shows up first."
     - target: accommodation-design
-      url: /practice/accommodation-design/
+      url: /research/accommodation-design/
       reason: "Attunement is the prerequisite. You read the profile before you build the accommodation."
     - target: teaching-design-from-zero
       url: /essays/teaching-design-from-zero/
@@ -1158,7 +1158,7 @@ constraint-as-creative-fuel:
       url: /practice/pressworks/
       reason: "Six operations, no layer stack. The terminal tool where constraint produces the quality."
     - target: accommodation-design
-      url: /practice/accommodation-design/
+      url: /research/accommodation-design/
       reason: "Twelve IEPs in one classroom. The constraint was the entire job."
     - target: everybodys-got-a-plan
       url: /essays/everybodys-got-a-plan/
@@ -1177,7 +1177,7 @@ teaching-design-from-zero:
       url: /essays/victore-be-fiercely-yourself/
       reason: "Victore was all over how I taught. No bullshit, no arbitrary decisions."
     - target: accommodation-design
-      url: /practice/accommodation-design/
+      url: /research/accommodation-design/
       reason: "Scaffolding from zero is pure accommodation. Where does the ladder start?"
     - target: construction-sites-essay
       url: /essays/construction-sites-where-does-this-fail/
@@ -1254,7 +1254,7 @@ the-walk:
       url: /essays/sequencing-changes-meaning/
       reason: "Page order is composition. Three personal projects in a row builds a different room than one between two professional ones."
     - target: accommodation-design
-      url: /practice/accommodation-design/
+      url: /research/accommodation-design/
       reason: "The site enacts accommodation design on the visitor. The walk is how it happens."
     - target: reading-the-room
       url: /essays/reading-the-room/
@@ -1274,7 +1274,7 @@ the-morning-system:
       url: /essays/breakfast-took-90-minutes/
       reason: "The problem essay. This is the solution that replaced the 90-minute morning."
     - target: accommodation-design
-      url: /practice/accommodation-design/
+      url: /research/accommodation-design/
       reason: "Four dietary profiles, one kitchen. The batch system is accommodation design applied to a household."
     - target: the-cook-who-falls-through-the-system
       url: /essays/the-cook-who-falls-through-the-system/
@@ -1287,7 +1287,7 @@ breakfast-took-90-minutes:
       url: /essays/the-morning-system/
       reason: "The system that replaced this. Sunday batch cook, weekday assembly."
     - target: accommodation-design
-      url: /practice/accommodation-design/
+      url: /research/accommodation-design/
       reason: "The kitchen is where accommodation design was practiced before it had a name."
     - target: the-accommodation-kitchen
       url: /essays/the-accommodation-kitchen/
@@ -1300,13 +1300,13 @@ recipe-architecture:
   url: /essays/recipe-architecture-why-most-recipes-fail/
   connections:
     - target: input-inversion
-      url: /practice/input-inversion/
+      url: /research/input-inversion/
       reason: "Recipes constrain the input. Cooking from systems leaves the input open. Same principle."
     - target: the-morning-system
       url: /essays/the-morning-system/
       reason: "The batch system is what replaced recipes in practice. Components over instructions."
     - target: accommodation-design
-      url: /practice/accommodation-design/
+      url: /research/accommodation-design/
       reason: "Recipes fail because they assume one constraint profile. Accommodation starts from the actual four."
     - target: formwork
       url: /systems/formwork/
@@ -1319,7 +1319,7 @@ the-cook-who-falls-through-the-system:
       url: /essays/the-accommodation-kitchen/
       reason: "The series opener. This essay is what the structural problem looks like from inside."
     - target: accommodation-design
-      url: /practice/accommodation-design/
+      url: /research/accommodation-design/
       reason: "The cook has the same constraints the system was built to accommodate. Accommodation has to include the builder."
     - target: everybodys-got-a-plan
       url: /essays/everybodys-got-a-plan/
@@ -1332,7 +1332,7 @@ the-accommodation-kitchen:
   url: /essays/the-accommodation-kitchen/
   connections:
     - target: accommodation-design
-      url: /practice/accommodation-design/
+      url: /research/accommodation-design/
       reason: "The kitchen is where the framework was practiced before it was named."
     - target: the-cook-who-falls-through-the-system
       url: /essays/the-cook-who-falls-through-the-system/
@@ -1348,7 +1348,7 @@ what-it-costs:
   url: /essays/what-it-costs-when-nobody-sees-you/
   connections:
     - target: accommodation-design
-      url: /practice/accommodation-design/
+      url: /research/accommodation-design/
       reason: "Every five-second tax is a system asking more than it needs to. Accommodation removes them."
     - target: encore
       url: /evidence/encore/

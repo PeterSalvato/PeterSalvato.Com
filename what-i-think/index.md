@@ -28,7 +28,7 @@ So I built in the opposite direction.
 
 [SavePoint](/systems/savepoint/) exists because the machine doesn't get to decide what mattered to you. It can't tell the difference between a sentence where you changed your mind about the whole project and a sentence where you asked it to fix a typo. Only you know when your thinking turned. So the human marks it.
 
-[Voice governance](/practice/voice-governance/) exists because these models will flatten how you sound into the same helpful, articulate, slightly enthusiastic tone they default to for everyone. Three drafts in and you can't hear yourself anymore. The tool catches that and pulls the voice back.
+[Voice governance](/research/voice-governance/) exists because these models will flatten how you sound into the same helpful, articulate, slightly enthusiastic tone they default to for everyone. Three drafts in and you can't hear yourself anymore. The tool catches that and pulls the voice back.
 
 [FormWork](/systems/formwork/) exists because the human needs friction removed at the point of input, not at the point of thought. You dump your thinking raw. The structure comes after, not before. The system accommodates the person, not the other way around.
 

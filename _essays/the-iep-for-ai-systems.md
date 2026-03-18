@@ -9,9 +9,9 @@ icon: edit_note
 description: "I've been solving the same problem my entire career: decompose complex work for a system that can't process it whole, scaffold the structure, individualize the criteria. A self-contained classroom in Sunset Park is where I learned it."
 seo_keywords: ["special education", "agentic architecture", "task decomposition", "scaffolding", "IEP", "AI governance", "coordinator pattern", "skill architecture", "design engineering", "IEP strategies for AI", "scaffolding AI prompts", "special education methods technology", "breaking down tasks for AI", "both sides of the IEP table", "teacher to tech pipeline", "special ed skills transfer"]
 related:
-  - /practice/accommodation-design
-  - /practice/semantic-hierarchy
-  - /practice/prosthetic-cognition
+  - /research/accommodation-design
+  - /research/semantic-hierarchy
+  - /research/prosthetic-cognition
 ---
 
 I taught a self-contained 4/5 bridge class in Sunset Park, Brooklyn. Twelve kids, every subject, every accommodation, every IEP goal. Self-contained means there's no other teacher running the plan. You are the plan. You build it, run it, and adjust it in real time when it falls apart at 10:15 on a Tuesday because the thing that worked yesterday doesn't work today.

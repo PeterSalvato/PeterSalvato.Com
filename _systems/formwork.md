@@ -25,7 +25,7 @@ related:
   - /evidence/encore
 cta:
   text: "Read the whitepaper"
-  link: /practice/accommodation-design/
+  link: /research/accommodation-design/
 ---
 
 I was six months into using Claude for serious production work when the pattern became obvious. Sessions would run for hours. The output was sharp at the start, then gradually lost the thread. I'd add more context, write longer prompts, stack instructions. The output kept degrading.
@@ -42,7 +42,7 @@ In concrete construction, you pour before anything else. Same here. You dump you
 
 ## The question underneath
 
-[Accommodation design](/practice/accommodation-design/) is the framework, the theory, the "why." It originated in a special education classroom in Brooklyn where I ran twelve IEPs simultaneously and learned to read what a system needs before designing the task.
+[Accommodation design](/research/accommodation-design/) is the framework, the theory, the "why." It originated in a special education classroom in Brooklyn where I ran twelve IEPs simultaneously and learned to read what a system needs before designing the task.
 
 FormWork is the process, the coordination, the "how." Each tool inside the harness accommodates a specific processing constraint. The question underneath every tool is the same one I learned to ask in that classroom: what does this processing reality demand from the task design?
 

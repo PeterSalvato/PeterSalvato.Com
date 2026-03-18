@@ -13,6 +13,9 @@ collections:
   practice:
     output: true
     permalink: /practice/:path/
+  research:
+    output: true
+    permalink: /research/:path/
   systems:
     output: true
     permalink: /systems/:path/

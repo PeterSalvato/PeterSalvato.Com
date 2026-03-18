@@ -11,7 +11,7 @@ seo_keywords: ["FormWork", "SavePoint", "LensArray", "accommodation design", "AI
 
 I dump my thinking first. Voice notes, brainstorming, arguing with myself in the car. No structure, no outline, no performance. Just get it out. That messy material is what everything else works from.
 
-Then the tools take over. One [marks where the thinking turned](/systems/savepoint/) so I can find it weeks later. One [evaluates the work from multiple angles independently](/systems/lensarray/), the way a critique room works: five people looking at the same piece, disagreeing on purpose. One [keeps my voice from getting flattened](/practice/voice-governance/) into the generic tone AI defaults to. And one [coordinates all of them](/systems/formwork/) so I'm not running twelve things at once.
+Then the tools take over. One [marks where the thinking turned](/systems/savepoint/) so I can find it weeks later. One [evaluates the work from multiple angles independently](/systems/lensarray/), the way a critique room works: five people looking at the same piece, disagreeing on purpose. One [keeps my voice from getting flattened](/research/voice-governance/) into the generic tone AI defaults to. And one [coordinates all of them](/systems/formwork/) so I'm not running twelve things at once.
 
 The whole process is [named after concrete construction](/systems/formwork/): you build the form before you pour. The form holds the work while it sets. Then the form comes off and the structure stands on its own.
 
@@ -44,7 +44,7 @@ I built these because I kept losing my thinking between sessions. The ideas were
 
 ## The research
 
-The tools came from a methodology I formalized as [accommodation design](/practice/accommodation-design/). It started in a special education classroom in Brooklyn and transferred directly to AI. These papers document the thinking behind the tools. They're the technical depth for anyone who wants to understand why this works, not just how.
+The tools came from a methodology I formalized as [accommodation design](/research/accommodation-design/). It started in a special education classroom in Brooklyn and transferred directly to AI. These papers document the thinking behind the tools. They're the technical depth for anyone who wants to understand why this works, not just how.
 
 <div id="domain-artifacts">
 

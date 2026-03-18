@@ -8,9 +8,9 @@ order: 13
 icon: edit_note
 last_modified: 2026-03-11
 related:
-  - /practice/accommodation-design
+  - /research/accommodation-design
   - /systems/savepoint
-  - /practice/input-inversion
+  - /research/input-inversion
 ---
 
 You start a conversation with ChatGPT. The first few responses are sharp. Specific. Useful. An hour later, the responses are vague. It's repeating itself. It contradicts something it said twenty messages ago. You haven't changed how you're prompting. The model got worse on its own.
@@ -43,4 +43,4 @@ Language models have [processing profiles](/vocabulary/processing-profile/){:.vo
 
 I spent a year teaching special education in Brooklyn. The framework I use now for AI system design came directly from that classroom. I call it [accommodation design](/vocabulary/accommodation-design/), and the core idea is simple: instead of fighting a system's limitations with more rules and longer prompts, you design the task to fit how the system actually processes.
 
-The [full whitepaper](/practice/accommodation-design/) documents the framework. The short version is that your AI isn't getting dumber. You're just asking it to hold more than it can hold at once, and nobody told you that was happening.
+The [full whitepaper](/research/accommodation-design/) documents the framework. The short version is that your AI isn't getting dumber. You're just asking it to hold more than it can hold at once, and nobody told you that was happening.

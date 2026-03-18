@@ -9,7 +9,7 @@ published: true
 order: 1
 icon: edit_note
 related:
-  - /practice/accommodation-design
+  - /research/accommodation-design
   - /evidence/encore
   - /practice/this-site
 ---

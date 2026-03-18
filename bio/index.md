@@ -49,7 +49,7 @@ Before the enterprise work, I taught special education for the NYC Department of
 
 > "I know what it costs when the system asks too much of the person using it."
 
-That skill (reading the room at the individual level, building structure that accommodates without requiring anyone to explain what they need) transferred directly into everything I have built since. The [accommodation design](/practice/accommodation-design/) framework started in those classrooms.
+That skill (reading the room at the individual level, building structure that accommodates without requiring anyone to explain what they need) transferred directly into everything I have built since. The [accommodation design](/research/accommodation-design/) framework started in those classrooms.
 
 Every system I have built since starts by reading the person on the other end before designing anything.
 

@@ -34,4 +34,4 @@ This is a spiral curriculum. The early chapters start in physical spaces (constr
 
 ---
 
-This series connects to the research papers on this site. The methodology described here is formalized in [Accommodation Design](/practice/accommodation-design/) and applied through [FormWork](/systems/formwork/).
+This series connects to the research papers on this site. The methodology described here is formalized in [Accommodation Design](/research/accommodation-design/) and applied through [FormWork](/systems/formwork/).

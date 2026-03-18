@@ -9,9 +9,10 @@ faculty: ["design", "engineering"]
 seo_keywords: ["semantic flattening", "AI memory importance", "human-marked memory", "savepoint syntax", "cognitive turning points", "AI memory systems", "MemGPT", "semantic hierarchy", "accommodation design", "intent-relative importance", "AI conversation memory", "human in the loop memory"]
 description: "A whitepaper arguing that semantic importance in AI memory is a relationship between content and intent, not a property of content alone. Presents Savepoint Syntax as human-marked semantic hierarchy and contrasts it with machine-determined approaches."
 last_modified: 2026-03-12
-permalink: /practice/semantic-hierarchy/
+redirect_from: /practice/semantic-hierarchy/
+permalink: /research/semantic-hierarchy/
 related:
-  - /practice/accommodation-design
+  - /research/accommodation-design
   - /systems/savepoint
   - /essays/the-iep-for-ai-systems
 ---

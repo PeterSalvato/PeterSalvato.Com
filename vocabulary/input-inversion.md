@@ -27,11 +27,11 @@ seo_keywords:
   - FormWork AI workflow
   - agentic workflow outperforms prompts
 related:
-  - /practice/input-inversion
+  - /research/input-inversion
   - /essays/talk-to-it
   - /essays/compilation-not-generation
   - /systems/formwork
-  - /practice/accommodation-design
+  - /research/accommodation-design
 ---
 
 ## What It Is
@@ -133,9 +133,9 @@ Input inversion extends that logic to the human side of the interface: design th
 
 ## Go Deeper
 
-- [Input Inversion](/practice/input-inversion/) — the full whitepaper, with counter-evidence from prompt engineering's decline, voice input research, and RAG industry trends
+- [Input Inversion](/research/input-inversion/) — the full whitepaper, with counter-evidence from prompt engineering's decline, voice input research, and RAG industry trends
 - [Talk to It, Don't Type at It](/essays/talk-to-it/) — the practical starting point: one voice memo, one conversation, why the mess matters
 - [I'm Compilative, Not Generative](/essays/compilation-not-generation/) — the authorship distinction and what it means for who actually wrote this
 - [I Needed a Better Tool](/essays/i-needed-a-better-tool/) — the corpus origin: three years of thinking out loud before there was a name for it
-- [AI Governance as Accommodation Design](/practice/accommodation-design/) — how input inversion fits the bidirectional accommodation pattern
+- [AI Governance as Accommodation Design](/research/accommodation-design/) — how input inversion fits the bidirectional accommodation pattern
 - [FormWork](/systems/formwork/) — the coordination harness that processes what the dump produces

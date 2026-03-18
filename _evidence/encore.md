@@ -66,7 +66,7 @@ The end user gets information architecture that handles enterprise recruiting co
 
 The development team gets internal systems that make the right thing easier to do than the wrong thing. The variables file became the shared artifact: a design system encoded in code. Naming conventions, color systems, spacing values, component patterns. The team adopted them because they made the work faster. Internal APIs and patterns that peers actually use because they remove friction.
 
-The same operation at both ends. Read what the system receiving the work actually needs, and build structure that meets it. The end user is one system. The development team is the other. Twelve years of that is where the [accommodation design](/practice/accommodation-design/) framework comes from.
+The same operation at both ends. Read what the system receiving the work actually needs, and build structure that meets it. The end user is one system. The development team is the other. Twelve years of that is where the [accommodation design](/research/accommodation-design/) framework comes from.
 
 ---
 

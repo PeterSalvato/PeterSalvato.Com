@@ -6,7 +6,7 @@ description: "One processing profile applied to different materials. Constructio
 seo_keywords: ["design engineering", "design methodology", "cross-domain architecture", "accommodation design", "SVA", "visual communication", "AI governance"]
 last_modified: 2026-03-13
 related:
-  - /practice/accommodation-design
+  - /research/accommodation-design
   - /systems/formwork
   - /practice/this-site
   - /evidence/encore
@@ -66,4 +66,4 @@ In AI work, that second accommodation is the same move: get the thinking out of 
 
 In every case, the people closest to the work couldn't see the gap because they were focused on what they needed the system to do. The shift was learning to read the other system in the room, the one receiving the work, and designing for what it could actually handle.
 
-That shift started in a self-contained classroom in Sunset Park, Brooklyn, and it applies to every material I've worked in since. I wrote up the thinking as [accommodation design](/practice/accommodation-design/). [FormWork](/systems/formwork/) is how I actually run it. And this site is what happens when I point both of them at my own work, which turned out to be the hardest application because I kept confusing what I wanted to say with what the page needed to hold.
+That shift started in a self-contained classroom in Sunset Park, Brooklyn, and it applies to every material I've worked in since. I wrote up the thinking as [accommodation design](/research/accommodation-design/). [FormWork](/systems/formwork/) is how I actually run it. And this site is what happens when I point both of them at my own work, which turned out to be the hardest application because I kept confusing what I wanted to say with what the page needed to hold.

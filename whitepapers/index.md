@@ -16,7 +16,7 @@ If you're here from a search engine or a citation, this is the right place. If y
 
 <div id="domain-artifacts">
 
-{% assign whitepapers = site.practice | where: "practice_group", "whitepaper" %}
+{% assign whitepapers = site.research %}
 {% for item in whitepapers %}
   {% if item.published != false and item.listed != false %}
   <a href="{{ item.url | relative_url }}" class="artifact-card artifact-card--link">

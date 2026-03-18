@@ -28,7 +28,7 @@ related:
   - /vocabulary/drift
   - /evidence/encore
   - /systems/savepoint
-  - /practice/accommodation-design
+  - /research/accommodation-design
   - /essays/voice-governance
   - /essays/i-needed-a-better-tool
 ---
@@ -69,7 +69,7 @@ Fidelity erodes through three specific mechanisms.
 
 Ideas lose fidelity when forced into structure at the point of capture. An outline imposes hierarchy before hierarchy has been earned. A template forces categorization before categories have emerged. A recording pushed to transcription-plus-summary strips the qualifications and backtracks that carry the actual shape of the thinking.
 
-The accommodation move: remove friction at the point of capture so the raw material carries the real structure of the thinking. Generate first. Structure afterward. [Input inversion](/practice/input-inversion/) is this principle formalized: reverse the burden of structure from the human to the tooling. The human speaks without constraint. The tools find the structure in what was already expressed.
+The accommodation move: remove friction at the point of capture so the raw material carries the real structure of the thinking. Generate first. Structure afterward. [Input inversion](/research/input-inversion/) is this principle formalized: reverse the burden of structure from the human to the tooling. The human speaks without constraint. The tools find the structure in what was already expressed.
 
 When the ideas lose fidelity on the way in, everything downstream works from a diminished version of the original.
 
@@ -129,4 +129,4 @@ A design system that lives in documentation has lower fidelity because the hando
 - [Voice Governance](/essays/voice-governance/) — fidelity applied to voice: why AI copy loses it and how the pipeline holds it
 - [I Needed a Better Tool](/essays/i-needed-a-better-tool/) — context fidelity loss across sessions and the reflex that became SavePoint
 - [SavePoint Syntax](/systems/savepoint/) — the preservation format built specifically for context fidelity at session boundaries
-- [AI Governance as Accommodation Design](/practice/accommodation-design/) — the bidirectional framework, including why ideas lose fidelity when forced into structure at capture
+- [AI Governance as Accommodation Design](/research/accommodation-design/) — the bidirectional framework, including why ideas lose fidelity when forced into structure at capture

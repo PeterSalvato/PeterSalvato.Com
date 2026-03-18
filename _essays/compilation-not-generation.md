@@ -11,7 +11,7 @@ seo_keywords: ["AI compilation", "AI authorship", "generative AI", "design metho
 related:
   - /practice/this-site
   - /systems/formwork
-  - /practice/input-inversion
+  - /research/input-inversion
 ---
 
 Most people use AI as a generator. They prompt, they get content, they edit the content down. The AI originates the material and the human shapes it after the fact.

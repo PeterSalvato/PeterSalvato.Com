@@ -8,14 +8,14 @@ icon: menu_book
 seo_keywords: ["design vocabulary", "systems thinking terminology", "mined language", "compiled portfolio", "structural design language"]
 ---
 
-The working language of my [accommodation design](/practice/accommodation-design/) practice. These terms emerged from applied work across construction, print production, special education, enterprise software, and AI system architecture. They recur because the problems recur.
+The working language of my [accommodation design](/research/accommodation-design/) practice. These terms emerged from applied work across construction, print production, special education, enterprise software, and AI system architecture. They recur because the problems recur.
 
 [Accommodation Design](/vocabulary/accommodation-design/) · [Attunement](/vocabulary/attunement/) · [Context](/vocabulary/context/) · [Drift](/vocabulary/drift/) · [Fidelity](/vocabulary/fidelity/) · [FormWork](/systems/formwork/) · [Input Inversion](/vocabulary/input-inversion/) · [Load-bearing](/vocabulary/load-bearing/) · [Processing Profile](/vocabulary/processing-profile/) · [SavePoint](/systems/savepoint/) · [Scaffold](/vocabulary/scaffold/) · [Somatic Design](/vocabulary/somatic-design/)
 
 ---
 
 <span id="accommodation-design"></span>**[Accommodation Design](/vocabulary/accommodation-design/)**
-A framework for AI system architecture that comes from special education. Instead of constraining a model's behavior, accommodation design asks what each system actually needs to do its best work. The model has processing constraints (context limits, attention degradation, instruction sensitivity). The human has processing constraints too (ideas lose fidelity when forced into structure at the point of capture). The dump accommodates the human: just talk, dictate, think out loud. Dumps become source material. Structuring that material, decomposing tasks, and running independent evaluation accommodates the model. [FormWork](/systems/formwork/) coordinates both. The question comes from IEP design: read the system's processing profile, then design the task to meet it. [Full reference page](/vocabulary/accommodation-design/) · [Whitepaper](/practice/accommodation-design/)
+A framework for AI system architecture that comes from special education. Instead of constraining a model's behavior, accommodation design asks what each system actually needs to do its best work. The model has processing constraints (context limits, attention degradation, instruction sensitivity). The human has processing constraints too (ideas lose fidelity when forced into structure at the point of capture). The dump accommodates the human: just talk, dictate, think out loud. Dumps become source material. Structuring that material, decomposing tasks, and running independent evaluation accommodates the model. [FormWork](/systems/formwork/) coordinates both. The question comes from IEP design: read the system's processing profile, then design the task to meet it. [Full reference page](/vocabulary/accommodation-design/) · [Whitepaper](/research/accommodation-design/)
 
 ---
 
@@ -70,7 +70,7 @@ What a system can and cannot handle. For a student: working memory capacity, att
 ---
 
 <span id="input-inversion"></span>**[Input Inversion](/vocabulary/input-inversion/)**
-A design principle that reverses the burden of structure from the human to the tooling. The standard approach to AI: structure the input, constrain the output. Input inversion goes the other way. Unstructured thinking goes in (brainstorming, arguing with yourself, changing direction mid-sentence). Accommodation tools structure it for the model after the fact. The parallel from the classroom: a teacher doesn't require a student to organize their thoughts before speaking. The student speaks, the teacher captures it, then finds the structure in what was already expressed. Three years of that produced the corpus this site was compiled from. The [whitepaper](/practice/input-inversion/) documents the evidence. [Full reference page](/vocabulary/input-inversion/)
+A design principle that reverses the burden of structure from the human to the tooling. The standard approach to AI: structure the input, constrain the output. Input inversion goes the other way. Unstructured thinking goes in (brainstorming, arguing with yourself, changing direction mid-sentence). Accommodation tools structure it for the model after the fact. The parallel from the classroom: a teacher doesn't require a student to organize their thoughts before speaking. The student speaks, the teacher captures it, then finds the structure in what was already expressed. Three years of that produced the corpus this site was compiled from. The [whitepaper](/research/input-inversion/) documents the evidence. [Full reference page](/vocabulary/input-inversion/)
 
 ---
 

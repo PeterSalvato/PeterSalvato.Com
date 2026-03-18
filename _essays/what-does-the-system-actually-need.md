@@ -8,7 +8,7 @@ order: 10
 icon: edit_note
 last_modified: 2026-03-11
 related:
-  - /practice/accommodation-design
+  - /research/accommodation-design
   - /systems/formwork
   - /evidence/encore
 ---
@@ -45,6 +45,6 @@ These are the same architectural patterns that federal law (IDEA, the Individual
 
 The distinction matters. Prompt engineering treats the model as a system that needs better instructions. [Accommodation design](/vocabulary/accommodation-design/){:.vocab-ref} treats the model as a system with a [processing profile](/essays/processing-profiles/) that the task needs to fit. The burden shifts from "write a better prompt" to "design a better task."
 
-The full framework is documented in the whitepaper [AI Governance as Accommodation Design](/practice/accommodation-design/), with six tools built over three years of applied architecture. The [IEP essay](/essays/the-iep-for-ai-systems/) goes deep on the classroom origin: decomposition, [scaffolding](/vocabulary/scaffold/){:.vocab-ref}, individualized criteria. This essay names the framework and the question that drives it.
+The full framework is documented in the whitepaper [AI Governance as Accommodation Design](/research/accommodation-design/), with six tools built over three years of applied architecture. The [IEP essay](/essays/the-iep-for-ai-systems/) goes deep on the classroom origin: decomposition, [scaffolding](/vocabulary/scaffold/){:.vocab-ref}, individualized criteria. This essay names the framework and the question that drives it.
 
 The question is simple: what does this system actually need to do this job well? The AI governance field mostly starts from a different question: how do I make it do what I want. Where you start determines where you end up.

@@ -31,7 +31,7 @@ related:
   - /evidence/encore
   - /systems/savepoint
   - /systems/formwork
-  - /practice/accommodation-design
+  - /research/accommodation-design
   - /essays/drift-how-good-work-dies-slowly
 ---
 
@@ -105,7 +105,7 @@ This is the same mechanism as enterprise drift operating on a compressed timesca
 
 Read ten AI-assisted "About" pages and they sound identical. Same cadence, same transitions, same way of building to a point. The person disappears. What remains is the tool's default register.
 
-This is voice drift. The model's training data is dominated by published writing: polished, performative, audience-aware. Without explicit governance, every piece of output drifts toward that average. The [voice pipeline](/practice/voice-governance/) is a drift-prevention system: sample from conversations (where the real voice lives), encode the patterns as constraints, and verify every output against them before it ships.
+This is voice drift. The model's training data is dominated by published writing: polished, performative, audience-aware. Without explicit governance, every piece of output drifts toward that average. The [voice pipeline](/research/voice-governance/) is a drift-prevention system: sample from conversations (where the real voice lives), encode the patterns as constraints, and verify every output against them before it ships.
 
 ---
 

@@ -13,7 +13,7 @@ related:
   - /systems/formwork
   - /systems/savepoint
   - /systems/lensarray
-  - /practice/accommodation-design
+  - /research/accommodation-design
 faq: true
 faq_items:
   - question: "How was petersalvato.com built?"
@@ -159,11 +159,11 @@ The visual register is accommodation design applied to the visitor. The same que
 
 The tools I built to make this site are also running on it. Each one corresponds to something you experience as a visitor, whether you notice it or not.
 
-[Accommodation Design](/practice/accommodation-design/) asks: what does the system receiving this actually need? On the build side, that question shaped the input (low-friction capture so my actual thinking comes through) and the visual register (print constraints that set reading conditions). On the visitor side, it shapes the adaptive pathfinding. The site tracks what you have seen and adjusts what it surfaces. Connection cards at the bottom of each page change based on where you have been. If you have already read the FormWork page, the card linking to it acknowledges that instead of pitching it again.
+[Accommodation Design](/research/accommodation-design/) asks: what does the system receiving this actually need? On the build side, that question shaped the input (low-friction capture so my actual thinking comes through) and the visual register (print constraints that set reading conditions). On the visitor side, it shapes the adaptive pathfinding. The site tracks what you have seen and adjusts what it surfaces. Connection cards at the bottom of each page change based on where you have been. If you have already read the FormWork page, the card linking to it acknowledges that instead of pitching it again.
 
-[Input Inversion](/practice/input-inversion/) says: let raw material come in unstructured, and build the structure after. On the build side, that produced three years of unstructured conversation as source material. On the visitor side, the same principle runs in reverse. Your browsing is unstructured. You click what interests you, skip what does not, double back. The session tracking turns that unstructured behavior into a visitor profile: what you have read, how deep you have gone, which domains you have touched. The structure comes after the input, for you and for me.
+[Input Inversion](/research/input-inversion/) says: let raw material come in unstructured, and build the structure after. On the build side, that produced three years of unstructured conversation as source material. On the visitor side, the same principle runs in reverse. Your browsing is unstructured. You click what interests you, skip what does not, double back. The session tracking turns that unstructured behavior into a visitor profile: what you have read, how deep you have gone, which domains you have touched. The structure comes after the input, for you and for me.
 
-[Voice Governance](/practice/voice-governance/) constrains output during generation. Every page on this site was written under the voice protocol and verified against the fingerprint. That constraint is invisible to you, but the result is audible. The pages sound like one person wrote them because one person's voice was enforced as a build rule, not applied as a polish pass.
+[Voice Governance](/research/voice-governance/) constrains output during generation. Every page on this site was written under the voice protocol and verified against the fingerprint. That constraint is invisible to you, but the result is audible. The pages sound like one person wrote them because one person's voice was enforced as a build rule, not applied as a polish pass.
 
 [SavePoint](/systems/savepoint/) preserves context across sessions. On the build side, savepoints mark where the thinking was so I can pick up weeks later without losing the thread. On the visitor side, the connections system does something parallel. The network of bridge reasons between pages ([connections data](/practice/this-site/)) preserves the relational context: why this page connects to that one, what the bridge is, where the idea continues. Your session carries forward through the connections the same way my build sessions carry forward through savepoints.
 

@@ -8,9 +8,9 @@ order: 15
 icon: edit_note
 last_modified: 2026-03-11
 related:
-  - /practice/input-inversion
+  - /research/input-inversion
   - /systems/formwork
-  - /practice/prosthetic-cognition
+  - /research/prosthetic-cognition
 ---
 
 When you type a prompt, you're already editing. You feel the friction of the keyboard or the smallness of the phone screen. You compress a thought to fit the effort of the input. By the time you hit enter, you've lost something. The raw version. The version where you changed direction mid-sentence, contradicted yourself, stumbled into the thing you actually meant.

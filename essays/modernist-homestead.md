@@ -34,4 +34,4 @@ This series applies the same methodology I use on enterprise platforms and AI to
 
 ---
 
-The methodology behind this series is the same one described in [Accommodation Design](/practice/accommodation-design/). The tools are described in [FormWork](/systems/formwork/). The difference is the material: instead of enterprise software or AI systems, it's a family of four trying to eat dinner.
+The methodology behind this series is the same one described in [Accommodation Design](/research/accommodation-design/). The tools are described in [FormWork](/systems/formwork/). The difference is the material: instead of enterprise software or AI systems, it's a family of four trying to eat dinner.

@@ -8,8 +8,8 @@ order: 11
 icon: edit_note
 last_modified: 2026-03-11
 related:
-  - /practice/accommodation-design
-  - /practice/prosthetic-cognition
+  - /research/accommodation-design
+  - /research/prosthetic-cognition
 ---
 
 Your AI forgets the beginning of a long conversation for the same reason a student loses the third instruction in a compound prompt. The system ran out of room.

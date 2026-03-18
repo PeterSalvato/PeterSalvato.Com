@@ -47,4 +47,4 @@ Evaluation works this way too. Ask a model to evaluate something on six dimensio
 
 The receiver changes. A crowd that's been dancing for four hours, a student with attention limits documented in an IEP, a model with a context window and attention degradation. The operation stays the same: figure out what the system can absorb right now, and design the sequence around that.
 
-I keep coming back to what made those Twilo sets work. When the pacing was right, nobody noticed the structure. The lesson felt like one continuous thing. The prompt sequence felt like a conversation. The structure disappears into the experience, and that's what I'm trying to build into [accommodation design](/practice/accommodation-design/) at every level.
+I keep coming back to what made those Twilo sets work. When the pacing was right, nobody noticed the structure. The lesson felt like one continuous thing. The prompt sequence felt like a conversation. The structure disappears into the experience, and that's what I'm trying to build into [accommodation design](/research/accommodation-design/) at every level.

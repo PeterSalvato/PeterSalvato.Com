@@ -8,9 +8,9 @@ order: 14
 icon: edit_note
 last_modified: 2026-03-11
 related:
-  - /practice/accommodation-design
-  - /practice/prosthetic-cognition
-  - /practice/input-inversion
+  - /research/accommodation-design
+  - /research/prosthetic-cognition
+  - /research/input-inversion
 ---
 
 You've written an IEP. You've assessed a student's [processing profile](/vocabulary/processing-profile/): working memory capacity, attention span, where they lose the thread. You've taken a compound instruction ("solve for the missing number, show your work, and explain your reasoning") and broken it into three separate steps because you know the student will process the first one and lose the rest.

@@ -9,7 +9,7 @@ icon: edit_note
 description: "Everyone's been on the receiving end of something that just knew. A DJ set, a teacher, a product that didn't make you feel stupid. That's not magic. It's a skill. And it transfers to everything."
 seo_keywords: ["reading the room", "design empathy", "somatic design", "attunement", "user experience", "design engineering", "Peter Salvato", "designing for how people actually think", "intuitive design", "UX that feels right", "empathy in design practice", "accommodation design"]
 related:
-  - /practice/accommodation-design
+  - /research/accommodation-design
   - /evidence/encore
   - /evidence/aiden-jae
 ---

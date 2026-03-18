@@ -10,7 +10,7 @@ order: 1
 icon: edit_note
 related:
   - /systems/formwork
-  - /practice/accommodation-design
+  - /research/accommodation-design
   - /practice/this-site
 ---
 

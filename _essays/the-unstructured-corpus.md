@@ -8,7 +8,7 @@ order: 12
 icon: edit_note
 last_modified: 2026-03-11
 related:
-  - /practice/input-inversion
+  - /research/input-inversion
   - /systems/formwork
   - /practice/this-site
 ---
@@ -45,4 +45,4 @@ Structured input puts the burden on the human. You pre-organize your thoughts to
 
 I stopped organizing my input and started organizing my tools. The tools accommodate the model's processing reality. My thinking stays raw. And the output quality went up because the tools had richer material to work with. The rawness of the input gave the tools more to work with than a clean outline ever would have, which is not an argument for being disorganized so much as an argument for knowing where to put the organization.
 
-The full framework is documented in the [accommodation design whitepaper](/practice/accommodation-design/). [Input inversion](/vocabulary/input-inversion/) is Section 4.6.
+The full framework is documented in the [accommodation design whitepaper](/research/accommodation-design/). [Input inversion](/vocabulary/input-inversion/) is Section 4.6.

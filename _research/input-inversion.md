@@ -1,6 +1,8 @@
 ---
 layout: project
-redirect_from: /governance/input-inversion/
+redirect_from:
+  - /governance/input-inversion/
+  - /research/input-inversion/
 practice_group: whitepaper
 title: "Input Inversion"
 subtitle: "Why Unstructured Human Thinking Produces Better AI Output"
@@ -10,9 +12,9 @@ faculty: ["design", "engineering"]
 seo_keywords: ["input inversion", "unstructured AI input", "structured prompts overrated", "raw thinking AI", "voice input AI", "prompt engineering diminishing returns", "talking to AI", "AI brainstorming", "accommodation design", "better AI results without structure", "why prompt engineering fails", "unstructured data AI quality"]
 description: "A whitepaper challenging the foundational assumption of prompt engineering: that quality AI output requires structured human input. Three years of applied evidence demonstrates that raw, unstructured thinking produces better results when purpose-built tools handle the translation."
 last_modified: 2026-03-11
-permalink: /practice/input-inversion/
+permalink: /research/input-inversion/
 related:
-  - /practice/accommodation-design
+  - /research/accommodation-design
   - /essays/the-unstructured-corpus
   - /essays/talk-to-it
 ---
@@ -145,7 +147,7 @@ The inverted model produces better results for three reasons:
 
 ## 6. The Bidirectional Accommodation
 
-Input inversion is one half of a bidirectional accommodation pattern described in the [accommodation design framework](/practice/accommodation-design/) (Salvato, 2026).
+Input inversion is one half of a bidirectional accommodation pattern described in the [accommodation design framework](/research/accommodation-design/) (Salvato, 2026).
 
 The human's processing reality: ideas lose fidelity when forced into structure at the point of capture. The act of organizing, outlining, or formatting disrupts the thinking it's trying to capture. When the burden of structure is removed, the human can talk, dictate, answer questions. What comes out carries the maker's actual voice, actual thinking, actual structure.
 
@@ -213,7 +215,7 @@ The AI industry's foundational assumption, that quality output requires structur
 
 Input inversion formalizes what this evidence suggests: reverse the burden of structure from the human to the tooling. Let humans think out loud. Build tools that translate raw thinking into model-ready input. The output improves because the source material is richer, more detailed, and more honest than anything a structured prompt captures.
 
-This principle came out of three years of applied practice and is demonstrated by a production site compiled entirely from unstructured conversational data. It extends the [accommodation design framework](/practice/accommodation-design/) (Salvato, 2026) into a bidirectional pattern: structure for the model, freedom for the human.
+This principle came out of three years of applied practice and is demonstrated by a production site compiled entirely from unstructured conversational data. It extends the [accommodation design framework](/research/accommodation-design/) (Salvato, 2026) into a bidirectional pattern: structure for the model, freedom for the human.
 
 The competitive advantage is in the tooling between the human and the model, and in the depth of the raw material those tools have to work with. That is where the quality comes from.
 

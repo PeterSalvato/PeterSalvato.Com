@@ -9,9 +9,10 @@ faculty: ["design", "engineering"]
 seo_keywords: ["lens extraction", "AI evaluation decomposition", "practitioner-derived evaluation", "design critique AI", "multi-perspective evaluation", "LLM-as-judge", "decomposed evaluation", "accommodation design", "SVA critique room", "Vignelli lens", "design evaluation framework", "AI design review"]
 description: "A whitepaper proposing lens extraction: a protocol for extracting named practitioners' evaluative frameworks, codifying them as testable criteria, and running multiple lenses independently against the same work. Where they disagree is where the maker's judgment is needed."
 last_modified: 2026-03-12
-permalink: /practice/lens-extraction/
+redirect_from: /practice/lens-extraction/
+permalink: /research/lens-extraction/
 related:
-  - /practice/accommodation-design
+  - /research/accommodation-design
   - /systems/formwork
   - /essays/persona-extraction
 ---

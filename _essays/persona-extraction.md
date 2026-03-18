@@ -9,9 +9,9 @@ icon: edit_note
 description: "\"Act as Vignelli\" gives you a caricature. Extracting evaluative frameworks from bodies of work gives you testable diagnostic lenses. The difference matters."
 seo_keywords: ["lens extraction", "AI evaluation", "creative evaluation framework", "FormWork", "LensArray", "design critique", "evaluative lenses", "Peter Salvato", "act as expert prompt problems", "AI persona prompting doesn't work", "better AI evaluation", "multi-perspective AI review", "design critique framework"]
 related:
-  - /practice/lens-extraction
+  - /research/lens-extraction
   - /systems/lensarray
-  - /practice/accommodation-design
+  - /research/accommodation-design
 ---
 
 At SVA, the critique room worked like this. You hang your work. Your peers and teachers sit around you. Everyone evaluates in good faith, from their own perspective, trying to make the work the best the room can make it. Where they agree, you have a strong signal. Where they disagree, you have a decision to make. The accumulated decisions are yours. The work that comes out belongs to you, not to any single voice in the room.

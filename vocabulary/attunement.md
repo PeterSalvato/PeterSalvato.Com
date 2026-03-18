@@ -25,7 +25,7 @@ seo_keywords:
   - how teachers DJs and designers read people
   - Peter Salvato
 related:
-  - /practice/accommodation-design
+  - /research/accommodation-design
   - /essays/reading-the-room
   - /essays/attunement-is-one-skill-with-many-names
   - /evidence/encore

@@ -30,7 +30,7 @@ seo_keywords:
   - FormWork coordination harness
   - Peter Salvato
 related:
-  - /practice/accommodation-design
+  - /research/accommodation-design
   - /systems/formwork
   - /essays/the-iep-for-ai-systems
   - /essays/what-does-the-system-actually-need
@@ -95,7 +95,7 @@ The mapping is direct:
 
 The first accommodation is aimed at the human. You just talk. Brainstorm, dictate voice notes, argue with yourself, change direction mid-sentence. Dumps become source material. They can accumulate over years, get extracted in a single interview session, or arrive as a dictation from the car. Available throughout the process.
 
-This is [input inversion](/practice/input-inversion/). The standard approach says structure your input for the model. Accommodation design says the opposite: remove friction at the point of capture so the raw material carries the maker's actual voice and the real structure of their thinking. The tools structure it afterward. A teacher doesn't require a student to organize their thoughts before speaking. The student speaks. The teacher captures it. Then they find the structure in what was already expressed.
+This is [input inversion](/research/input-inversion/). The standard approach says structure your input for the model. Accommodation design says the opposite: remove friction at the point of capture so the raw material carries the maker's actual voice and the real structure of their thinking. The tools structure it afterward. A teacher doesn't require a student to organize their thoughts before speaking. The student speaks. The teacher captures it. Then they find the structure in what was already expressed.
 
 ### Both Systems
 
@@ -150,7 +150,7 @@ Nobody is applying accommodation bidirectionally. Nobody is treating both the mo
 
 ## Go Deeper
 
-- [AI Governance as Accommodation Design](/practice/accommodation-design/) — the full whitepaper
+- [AI Governance as Accommodation Design](/research/accommodation-design/) — the full whitepaper
 - [The IEP for AI Systems](/essays/the-iep-for-ai-systems/) — the classroom origin story
 - [What Does the System Actually Need?](/essays/what-does-the-system-actually-need/) — naming the framework
 - [Processing Profiles](/essays/processing-profiles/) — the mapping between student and model constraints

@@ -11,7 +11,7 @@ seo_keywords: ["AI governance", "anti-slop", "voice protocol", "systems architec
 related:
   - /practice/this-site
   - /systems/formwork
-  - /practice/accommodation-design
+  - /research/accommodation-design
 ---
 
 In March 2026, I asked Gemini to review petersalvato.com. I provided no prior knowledge, no context about who I am, and no explanation of how the site was built. I wanted a blind evaluation of the voice, the structure, and the "humanity" of the work. The evaluator spent time with the pages and then delivered its verdict. It praised the "anti-slop" quality of the writing. It noted the idiosyncratic taxonomy as a sign of a specific mental model. It identified what it called "pragmatic cynicism" and "contextual asymmetry" as clear markers of a human author who had actually lived through the projects described. The conclusion was definitive: the site was "unequivocally" human-derived. The only way AI could have been involved, the evaluator noted, was if someone had used an LLM to tighten up existing, very strong human drafts.

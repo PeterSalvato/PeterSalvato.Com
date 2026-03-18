@@ -1,6 +1,8 @@
 ---
 layout: project
-redirect_from: /governance/accommodation-design/
+redirect_from:
+  - /governance/accommodation-design/
+  - /research/accommodation-design/
 practice_group: whitepaper
 title: "AI Governance as Accommodation Design"
 subtitle: "A Pedagogical Framework for Human-AI System Architecture"
@@ -10,7 +12,7 @@ faculty: ["design", "engineering", "uxia"]
 seo_keywords: ["AI governance", "accommodation design", "special education pedagogy", "prompt architecture", "task decomposition", "IEP design pattern", "AI evaluation framework", "human-AI architecture", "why AI output gets worse", "how to get better results from AI", "AI prompt engineering not working", "ChatGPT complex tasks", "special education methods for AI", "AI cognitive limitations", "how to structure AI tasks"]
 description: "A whitepaper applying special education pedagogy to AI system architecture. Rather than constraining behavior, accommodation design asks what both systems in the room actually need: the model's processing constraints and the human's."
 last_modified: 2026-03-10
-permalink: /practice/accommodation-design/
+permalink: /research/accommodation-design/
 related:
   - /systems/formwork
   - /systems/savepoint

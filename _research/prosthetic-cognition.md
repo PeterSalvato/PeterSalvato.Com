@@ -1,6 +1,8 @@
 ---
 layout: project
-redirect_from: /governance/prosthetic-cognition/
+redirect_from:
+  - /governance/prosthetic-cognition/
+  - /research/prosthetic-cognition/
 practice_group: whitepaper
 title: "A Different Kind of Harness"
 subtitle: "AI as Cognitive Prosthetic Through Mutual Accommodation"
@@ -10,10 +12,10 @@ faculty: ["design", "engineering", "uxia"]
 seo_keywords: ["AI cognitive extension", "human-AI collaboration", "extended mind AI", "cognitive prosthetic", "AI augmentation", "human-AI coupling", "AI as thinking partner", "prosthetic cognition", "mutual accommodation AI", "cognitive load AI", "AI workflow design", "human-computer interaction AI", "AI not a tool", "thinking with AI"]
 description: "A whitepaper proposing that AI is most productive as a cognitive prosthetic: an extension of the practitioner's thinking through mutual accommodation. The model extends cognitive reach. The practitioner directs cognitive intent. Purpose-built interfaces handle the coupling."
 last_modified: 2026-03-11
-permalink: /practice/prosthetic-cognition/
+permalink: /research/prosthetic-cognition/
 related:
-  - /practice/accommodation-design
-  - /practice/input-inversion
+  - /research/accommodation-design
+  - /research/input-inversion
   - /essays/the-unstructured-corpus
 ---
 
@@ -93,7 +95,7 @@ Neither component produces quality output alone. The model on its own generates 
 
 The quality of a prosthetic depends on the quality of the interface. A poorly fitted prosthetic fights the body it's attached to. A well-fitted one disappears into use.
 
-In human-AI cognitive coupling, the interface layer consists of purpose-built tools that translate between how the human naturally thinks and how the model processes. These tools are described in the [accommodation design framework](/practice/accommodation-design/) (Salvato, 2026) and the [input inversion principle](/practice/input-inversion/) (Salvato, 2026). The relevant points for this paper:
+In human-AI cognitive coupling, the interface layer consists of purpose-built tools that translate between how the human naturally thinks and how the model processes. These tools are described in the [accommodation design framework](/research/accommodation-design/) (Salvato, 2026) and the [input inversion principle](/research/input-inversion/) (Salvato, 2026). The relevant points for this paper:
 
 **The human side of the interface** accommodates how the practitioner actually thinks. The practitioner thinks out loud, dictates, brainstorms, contradicts themselves, changes direction. No formatting requirements. No structured prompts. No performance. This is the human's contribution to the coupled system, captured in whatever form it naturally takes. Removing friction on input preserves the raw thinking, the natural voice, and the real architecture of the idea. The interface accepts raw cognitive output and preserves its full texture.
 
