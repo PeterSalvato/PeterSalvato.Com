@@ -11,7 +11,7 @@ seo_keywords: ["design engineering", "design methodology", "systems architecture
 <div class="blog-index">
   <h1>Writing</h1>
 
-  <p>Design practice, education, AI governance, and how they turn out to be the same thing. The essays are standalone. Each one covers a single idea. The series go deeper: Engineering Intent is the methodology from the ground up, Modernist Homestead is the same thinking applied at home.</p>
+  <p>Design practice, education, AI governance, and how they turn out to be the same thing. The essays are standalone. Each one covers a single idea. The series go deeper: Engineering Intent is the methodology from the ground up, HomeWorks is the same thinking applied at home.</p>
 
   <div class="essays-tabs">
     <button class="essays-tab active" data-tab="standalone">Essays</button>

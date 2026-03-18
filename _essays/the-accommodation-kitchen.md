@@ -3,7 +3,7 @@ layout: post
 title: "The Accommodation Kitchen"
 published: true
 icon: edit_note
-series: "modernist-homestead"
+series: "homeworks"
 chapter: 1
 description: "Four constraint profiles at one table. How a kitchen becomes a design problem, and why I started building systems instead of just cooking dinner."
 seo_keywords: ["neurodivergent kitchen systems", "ARFID meal planning", "celiac kitchen design", "accommodation design home", "executive function cooking", "kitchen systems design", "neurodivergent household", "food accommodation", "Peter Salvato"]

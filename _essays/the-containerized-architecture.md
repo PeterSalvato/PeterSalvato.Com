@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Containerized Architecture"
-series: "modernist-homestead"
+series: "homeworks"
 chapter: 2
 description: "Break the meal into components. Each one independent, self-contained, forgiving. When one fails, the rest survive."
 seo_keywords: ["modular meal prep", "batch cooking systems", "neurodivergent kitchen", "ARFID meal planning", "executive function cooking", "containerized cooking", "kitchen systems design", "sous vide meal prep", "accommodation design kitchen"]

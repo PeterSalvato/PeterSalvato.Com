@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Cook Who Falls Through the System"
-series: "modernist-homestead"
+series: "homeworks"
 chapter: 5
 description: "What happens when the person running the household system is the one who needs accommodation most."
 seo_keywords: ["executive function cooking", "executive function kitchen", "household accommodation", "neurodivergent meal planning", "family dinner systems"]

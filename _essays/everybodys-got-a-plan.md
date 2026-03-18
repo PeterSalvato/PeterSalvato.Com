@@ -4,7 +4,7 @@ title: "Everybody's Got a Plan"
 published: true
 order: 17
 icon: edit_note
-series: "modernist-homestead"
+series: "homeworks"
 chapter: 0
 description: "Four people at one table. Celiac, ARFID with opposite restrictions, executive function that runs out before dinner. The systems help. Tuesday still happens."
 seo_keywords: ["neurodivergent kitchen", "ARFID meal planning", "celiac cooking systems", "accommodation design", "executive function kitchen", "neurodivergent household", "batch cooking systems", "kitchen accommodation", "food systems design", "Peter Salvato"]

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Three Bags, One Water"
-series: "modernist-homestead"
+series: "homeworks"
 chapter: 3
 description: "The one-pot meal accommodates the cook. The modular system accommodates everyone at the table. Three bags in the same water, three different meals, one cleanup."
 seo_keywords: ["ARFID meal prep", "modular family cooking", "neurodivergent meal planning", "accommodation cooking", "sous vide family meals", "cuisine rotation meal prep", "food allergy family cooking", "executive function kitchen"]
