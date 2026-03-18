@@ -19,7 +19,7 @@ Four people at one table. Every meal, every day. None of these resolve. They com
 
 ---
 
-I'm the primary cook. To manage that many profiles you run out of gas. You get everybody fed. Oftentimes there's not enough energy left for yourself. The person running the accommodation system is the one most likely to fall through it.
+I'm the primary cook. To manage that many profiles you run out of gas. You get everybody fed. Oftentimes there's not enough energy left for yourself.
 
 So I build systems. I do not have this figured out. Without them, dinner fails more often than it works.
 
@@ -33,7 +33,7 @@ Gluten operations and gluten-free operations happen in serial, never in parallel
 
 ---
 
-My son won't eat cooked vegetables, so I rotate raw ones: chopped, prepped, available. My daughter's acceptable protein list is short. Cheese, black beans, hummus. Eggs on a good day. Chicken under duress. We still struggle with this. ARFID isn't pickiness. It's neurological. The list doesn't expand because someone tried harder.
+My son won't eat cooked vegetables, so I rotate raw ones: chopped, prepped, available. My daughter's acceptable protein list is short. Cheese, black beans, hummus. Eggs on a good day. Chicken under duress. We still struggle with this. ARFID is neurological. The list doesn't expand because someone tried harder.
 
 The modular system helps because nobody is forced to eat the same plate. The batch cook produces components: rice, beans, three preparations of vegetables, two proteins, bread. At dinner, each person assembles from what's available. My daughter builds her plate from the things she can eat. My son builds his from different things. I eat what's celiac-safe. The system makes the options visible before we sit down.
 

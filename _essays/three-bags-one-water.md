@@ -55,7 +55,7 @@ The cuisine rotation is different. I'm not grinding through the same ten dinners
 
 And that's accommodation running in both directions. The system serves the family: firewalls between components, allergen quarantine, swappable parts when something gets rejected. The rotation serves the cook. It keeps the cooking interesting, the shopping efficient, and it means I'm not starting from zero every time I try a new cuisine.
 
-The person running the accommodation system is the one most likely to fall through it. I wrote that in an earlier chapter because it's true and I've lived it. The cuisine rotation is what closes that gap. It's the system accommodating the person who built it.
+The earlier chapters describe what happens when the system only serves one direction. The cuisine rotation is what closes that gap. It's the system accommodating the person who built it.
 
 ---
 

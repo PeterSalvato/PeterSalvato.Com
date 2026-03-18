@@ -57,7 +57,7 @@ First contact, second contact. The relay between me and my wife. Not a schedule.
 
 ---
 
-I want to be honest about this. The morning is not a success story. It is barely controlled chaos. The accommodations I've described are real and they help and most mornings they're enough. But enough means both kids got out the door and I'm at my desk by 9:30 already depleted. That's the win condition. Not a smooth morning. A survivable one.
+I want to be honest about this. The morning is barely controlled chaos. The accommodations I've described are real and they help and most mornings they're enough. But enough means both kids got out the door and I'm at my desk by 9:30 already depleted. That's the win condition. A survivable morning.
 
 The kitchen chapters describe systems I built that work. Forgiving tools, containerized storage, cuisine rotation. The engineering holds. The morning is where the engineering is thinnest because the material is the most unpredictable. A kid in autistic burnout is not a sous vide bag that holds at temperature until you deal with it. A kid in autistic burnout is a person who needs something different every morning and you have to read which morning this is while you're still waiting for the coffee to kick in.
 
