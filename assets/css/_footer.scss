@@ -21,7 +21,13 @@ $footer-rule: rgba(255, 255, 255, 0.15);
 
   .footer-columns {
     display: flex;
-    gap: 1rem 6rem;
+    gap: 1rem;
+  }
+
+  // Col 1 (Navigate): sidebar width minus footer padding
+  .footer-col:nth-child(1) {
+    width: calc(#{$sidebar-width} + #{$space-xxl} - #{$space-lg});
+    flex-shrink: 0;
   }
 
   .footer-col-heading {
