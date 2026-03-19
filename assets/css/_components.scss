@@ -224,3 +224,10 @@ img.image {
 .start-lessons a {
   display: block;
 }
+
+#contact + img {
+  width: 25rem;
+  border: none;
+  transform: rotate(-.25deg);
+  margin: 0;
+}
