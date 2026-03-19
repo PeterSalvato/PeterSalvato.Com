@@ -279,8 +279,6 @@
 
   .hamburger-btn { display: none; }
 
-  // Tablet: same 12-col grid, scaled down
-  // 600px viewport can't fit 752px grid, so collapse to stacked
   body {
     display: block;
     max-width: 100%;
@@ -289,19 +287,23 @@
   #sidebar-nav {
     grid-column: auto;
     width: 100%;
-    padding: $space-lg 20px $space-md;
-    display: flex;
-    align-items: center;
-    gap: $space-lg;
-
-    #sidebar-header {
-      margin: 0;
-    }
+    padding: $space-lg $space-xl $space-md;
+    text-align: left;
 
     .nav-list {
       display: flex;
       flex-wrap: wrap;
-      gap: 0 $space-md;
+      justify-content: space-around;
+      gap: 0;
+    }
+
+    .nav-item > a {
+      min-height: 44px;
+      padding: 0.5rem;
+    }
+
+    .nav-icon {
+      display: none;
     }
 
     .nav-sublist {
@@ -324,7 +326,7 @@
 
     .footer-columns {
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
       gap: 0;
     }
 
@@ -334,6 +336,10 @@
     .footer-col:nth-child(3) {
       grid-column: auto;
       width: auto;
+    }
+
+    .footer-col:nth-child(3) {
+      grid-column: 1 / -1;
     }
   }
 
@@ -345,14 +351,7 @@
 
   #homepage-hero {
     .hero-image {
-      width: 200px;
-    }
-
-    .hero-text {
-      left: -6rem;
-      position: relative;
-      top: 2rem;
-      transform: rotate(-0.5deg);
+      width: 250px;
     }
 
     h1 {
