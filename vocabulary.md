@@ -5,7 +5,7 @@ permalink: /vocabulary/
 description: "Peter Salvato's working vocabulary for accommodation design: terms mined from a three-year corpus that recur across protocols, systems, and research because the problems keep rhyming."
 last_modified: 2026-02-25
 icon: menu_book
-seo_keywords: ["design vocabulary", "systems thinking terminology", "mined language", "compiled portfolio", "structural design language"]
+seo_keywords: ["design vocabulary", "systems thinking terminology", "mined language", "compiled portfolio", "structural design language", "design thinking terms explained", "systems thinking vocabulary", "plain language design methodology"]
 ---
 
 The working language of my [accommodation design](/research/accommodation-design/) practice. These terms emerged from applied work across construction, print production, special education, enterprise software, and AI system architecture. They recur because the problems recur.

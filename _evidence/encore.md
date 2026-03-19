@@ -7,7 +7,7 @@ icon: cases
 status: "Deployed"
 context: "A solid Windows Forms application serving enterprise clients under NDA. The software was good. The delivery layer was about to become the constraint."
 faculty: ["design", "engineering", "uxia"]
-seo_keywords: ["Enterprise Architecture", "Legacy Modernization", "Design Systems", "Long-term Maintenance", "Platform Durability"]
+seo_keywords: ["Enterprise Architecture", "Legacy Modernization", "Design Systems", "Long-term Maintenance", "Platform Durability", "enterprise platform twelve years", "preventing drift in long projects", "maintaining design systems over time"]
 description: "Twelve-year enterprise platform evolution (2013-2025). Migrated a desktop Windows Forms recruiting platform to a browser-based modular JS framework while it served enterprise clients under NDA."
 last_modified: 2026-02-21
 related:

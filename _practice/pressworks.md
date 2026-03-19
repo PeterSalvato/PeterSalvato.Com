@@ -8,7 +8,7 @@ icon: construction
 status: "Active"
 context: "I came up in print shops in Brooklyn and Fort Lauderdale. Color separation, plate registration, halftone screening. The process has a logic that digital tools never captured."
 faculty: ["design", "engineering"]
-seo_keywords: ["Print Production Pipeline", "CMYK Halftone", "Risograph Duotone", "Screen Print Effects", "Image Processing", "ImageMagick", "Terminal Design Tools"]
+seo_keywords: ["Print Production Pipeline", "CMYK Halftone", "Risograph Duotone", "Screen Print Effects", "Image Processing", "ImageMagick", "Terminal Design Tools", "terminal image processing", "halftone effects without Photoshop", "print design without Adobe"]
 description: "Terminal-native print production. Models plate-by-plate press logic as composable shell operations: CMYK separation, halftone screening, registration offset, grain, color manipulation. Built by a 20-year Adobe user who stopped thinking in Adobe's UI."
 last_modified: 2026-03-07
 related:

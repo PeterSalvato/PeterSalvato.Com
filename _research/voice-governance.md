@@ -6,7 +6,7 @@ subtitle: "Generation Constraints vs. Post-Hoc Filtering in AI-Mediated Writing"
 icon: construction
 status: "Published"
 faculty: ["design", "engineering"]
-seo_keywords: ["voice governance", "AI writing voice", "generation constraints", "post-hoc filtering", "AI voice fidelity", "AI slop", "voice protocol", "accommodation design", "AI copy sounds generic", "how to make AI writing sound human", "AI writing voice matching", "why AI text sounds the same"]
+seo_keywords: ["voice governance", "AI writing voice", "generation constraints", "post-hoc filtering", "AI voice fidelity", "AI slop", "voice protocol", "accommodation design", "AI copy sounds generic", "how to make AI writing sound human", "AI writing voice matching", "why AI text sounds the same", "AI writing sounds generic", "how to keep your voice with AI", "why all AI text sounds the same"]
 description: "A whitepaper arguing that voice constraints applied during AI text generation produce structurally different output than the same constraints applied as post-hoc filters. Presents a forty-rule voice protocol developed over three years of applied practice."
 last_modified: 2026-03-12
 redirect_from: /practice/voice-governance/

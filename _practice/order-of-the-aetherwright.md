@@ -12,7 +12,7 @@ status: "Active"
 context: "Consistent results across design, engineering, and strategy. The method underneath existed only as instinct, invisible even to me, impossible to teach or defend."
 faculty: ["design", "uxia"]
 external_url: "https://github.com/PeterSalvato/order-of-the-aetherwright"
-seo_keywords: ["glyph naming system", "creative taxonomy", "codex", "naming conventions", "semantic drift", "structural governance"]
+seo_keywords: ["glyph naming system", "creative taxonomy", "codex", "naming conventions", "semantic drift", "structural governance", "naming system for creative work", "organizing creative projects", "symbolic systems"]
 description: "A symbolic operating system for creative method. Glyphs, a living Codex, and daily ritual that makes the practice explicit enough to defend."
 last_modified: 2026-03-01
 related:

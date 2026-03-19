@@ -9,7 +9,7 @@ logo_type: stacked
 status: "Delivered"
 context: "A trained artist designing fine jewelry from recycled solid gold. The quality is real. A stranger buying through a screen would never know."
 faculty: ["design", "engineering", "uxia"]
-seo_keywords: ["Brand Systems", "E-Commerce Architecture", "Luxury Positioning", "Photography Integration", "Shopify Development", "Identity Design"]
+seo_keywords: ["Brand Systems", "E-Commerce Architecture", "Luxury Positioning", "Photography Integration", "Shopify Development", "Identity Design", "jewelry brand design", "cross-continent product design", "small business brand system"]
 description: "Jewelry brand built from raw material to running business. Custom Shopify architecture where the code respects the photograph. Identity, platform, packaging as one system."
 last_modified: 2026-02-27
 related:

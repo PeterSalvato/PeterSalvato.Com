@@ -7,7 +7,7 @@ icon: handyman
 status: "V3.2 Open Source"
 faculty: ["design", "uxia"]
 external_url: "https://github.com/PeterSalvato/Savepoint.Protocol"
-seo_keywords: ["cognitive waypoints", "context switching", "decision logging", "cognitive state management", "semantic markup", "knowledge management", "thinking tools", "project filtering", "losing train of thought AI", "AI session continuity", "how to resume AI conversations", "knowledge preservation AI", "context loss between sessions", "picking up where I left off AI"]
+seo_keywords: ["cognitive waypoints", "context switching", "decision logging", "cognitive state management", "semantic markup", "knowledge management", "thinking tools", "project filtering", "losing train of thought AI", "AI session continuity", "how to resume AI conversations", "knowledge preservation AI", "context loss between sessions", "picking up where I left off AI", "losing ideas between AI conversations", "AI context preservation", "remembering what AI said last time"]
 description: "Semantic markup for cognitive waypoints. Marks where understanding shifts before the context closes. Each savepoint carries enough semantic payload to orient you or the model when the session is gone. v3.2 adds a context field for self-contained reconstruction, discovered through real traversal across months of conversation logs. Open source."
 last_modified: 2026-03-13
 related:

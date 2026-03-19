@@ -3,7 +3,7 @@ layout: context
 title: "How I Think"
 permalink: /thinking/
 description: "One processing profile applied to different materials. Construction sites, classrooms, enterprise platforms, kitchens, turntables, AI tools. The question is always the same."
-seo_keywords: ["design engineering", "design methodology", "cross-domain architecture", "accommodation design", "SVA", "visual communication", "AI governance"]
+seo_keywords: ["design engineering", "design methodology", "cross-domain architecture", "accommodation design", "SVA", "visual communication", "AI governance", "how designers think", "cross-domain problem solving", "one skill applied everywhere"]
 last_modified: 2026-03-13
 related:
   - /research/accommodation-design

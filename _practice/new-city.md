@@ -10,7 +10,7 @@ icon: cases
 status: "In Development"
 context: "I've never written a novel. I had a story idea and wanted to see if the same design thinking I use everywhere else would hold in a material I'd never worked in. So I built the architecture first."
 faculty: ["design", "uxia", "engineering"]
-seo_keywords: ["Narrative Architecture", "Registration Systems", "Somatic Design", "UX Methodology", "Kishōtenketsu", "Beat Specification", "Reader Experience Design"]
+seo_keywords: ["Narrative Architecture", "Registration Systems", "Somatic Design", "UX Methodology", "Kishōtenketsu", "Beat Specification", "Reader Experience Design", "tabletop RPG worldbuilding", "novel writing systems", "speculative fiction design"]
 description: "Registration architecture applied to prose. Four simultaneous layers across a three-layer fractal. Each beat specced for story, narrative structure, and somatic reader experience."
 last_modified: 2026-03-07
 related:

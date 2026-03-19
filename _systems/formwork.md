@@ -6,7 +6,7 @@ subtitle: "The Accommodation Design Process"
 icon: handyman
 status: "Active"
 faculty: ["design", "engineering", "uxia"]
-seo_keywords: ["AI accommodation design", "FormWork", "AI task decomposition", "context preservation", "evaluation lenses", "voice sampling AI", "knowledge traversal", "AI governance process", "accommodation design process", "cognitive accommodation AI", "how to build AI tools", "AI workflow for creative work", "better AI evaluation", "AI keeps forgetting context", "structured AI process"]
+seo_keywords: ["AI accommodation design", "FormWork", "AI task decomposition", "context preservation", "evaluation lenses", "voice sampling AI", "knowledge traversal", "AI governance process", "accommodation design process", "cognitive accommodation AI", "how to build AI tools", "AI workflow for creative work", "better AI evaluation", "AI keeps forgetting context", "structured AI process", "how to organize AI workflow", "AI task management", "keeping AI on track"]
 description: "The accommodation design process. Named from concrete construction: the temporary structure that holds the tools in position while the work is wet. You dump your thinking. The tools structure it. Dumps become source material. FormWork coordinates them. Out comes the work. The formwork comes off."
 last_modified: 2026-03-11
 faq: true

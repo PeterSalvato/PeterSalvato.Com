@@ -3,7 +3,7 @@ layout: default
 title: "Thesis"
 permalink: /what-i-think/
 description: "The position underneath the tools, the papers, and the methodology. The industry is racing toward replacing the human. I'm building in the opposite direction."
-seo_keywords: ["human in the loop", "pro-human AI", "AI governance", "accommodation design", "human-centered AI"]
+seo_keywords: ["human in the loop", "pro-human AI", "AI governance", "accommodation design", "human-centered AI", "human-centered AI position", "AI should serve humans", "against AI replacing people"]
 ---
 
 # Thesis

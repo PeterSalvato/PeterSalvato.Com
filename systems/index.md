@@ -4,7 +4,7 @@ title: "How I Work"
 tier_label: HOW I WORK
 description: "The process behind the work. How raw thinking becomes structured output without losing the voice or the intent."
 permalink: /systems/
-seo_keywords: ["FormWork", "SavePoint", "LensArray", "accommodation design", "AI governance process", "design methodology", "voice governance"]
+seo_keywords: ["FormWork", "SavePoint", "LensArray", "accommodation design", "AI governance process", "design methodology", "voice governance", "free AI tools", "AI productivity tools", "tools for writers and designers"]
 ---
 
 # How I Work

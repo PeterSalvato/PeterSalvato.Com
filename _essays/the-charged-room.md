@@ -4,7 +4,7 @@ title: "The Charged Room"
 date: 2026-03-09
 published: true
 description: "Saturday nights at Twilo. Three thousand people on the floor. I felt the architecture underneath before I could name it."
-seo_keywords: ['music', 'attunement', 'somatic design', 'pacing', 'Peter Salvato', 'design engineering', 'designing for energy and mood', 'how DJs read a crowd', 'invisible structure experience design', 'why some experiences feel inevitable', 'Twilo nightclub', 'pacing in UX design']
+seo_keywords: ['music', 'attunement', 'somatic design', 'pacing', 'Peter Salvato', 'design engineering', 'designing for energy and mood', 'how DJs read a crowd', 'invisible structure experience design', 'why some experiences feel inevitable', 'Twilo nightclub', 'pacing in UX design', 'music and design connection', 'what DJing teaches about design', 'nightclub as design education']
 series: "engineering-intent"
 chapter: 5
 order: 2

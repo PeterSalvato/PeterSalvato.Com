@@ -6,7 +6,7 @@ subtitle: "Why Machine-Scored Memory Systems Erase What Matters Most"
 icon: construction
 status: "Published"
 faculty: ["design", "engineering"]
-seo_keywords: ["semantic flattening", "AI memory importance", "human-marked memory", "savepoint syntax", "cognitive turning points", "AI memory systems", "MemGPT", "semantic hierarchy", "accommodation design", "intent-relative importance", "AI conversation memory", "human in the loop memory"]
+seo_keywords: ["semantic flattening", "AI memory importance", "human-marked memory", "savepoint syntax", "cognitive turning points", "AI memory systems", "MemGPT", "semantic hierarchy", "accommodation design", "intent-relative importance", "AI conversation memory", "human in the loop memory", "AI keeps forgetting important things", "AI memory problems", "why AI loses context"]
 description: "A whitepaper arguing that semantic importance in AI memory is a relationship between content and intent, not a property of content alone. Presents Savepoint Syntax as human-marked semantic hierarchy and contrasts it with machine-determined approaches."
 last_modified: 2026-03-12
 redirect_from: /practice/semantic-hierarchy/

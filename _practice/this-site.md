@@ -7,7 +7,7 @@ redirect_from:
   - /evidence/colophon/
   - /evidence/this-site/
 description: "How this site was compiled by hand from a three-year corpus using the tools described on it. The build log for a craftsman's workbench made of AI tools."
-seo_keywords: ["compiled portfolio", "AI governance", "FormWork", "savepoint syntax", "voice protocol", "hand compilation AI", "craftsman AI tools"]
+seo_keywords: ["compiled portfolio", "AI governance", "FormWork", "savepoint syntax", "voice protocol", "hand compilation AI", "craftsman AI tools", "building a portfolio with AI", "AI-assisted website", "compiled portfolio"]
 last_modified: 2026-03-13
 related:
   - /systems/formwork

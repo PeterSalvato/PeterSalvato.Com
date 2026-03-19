@@ -3,6 +3,7 @@ layout: default
 title: "Engineering Intent"
 permalink: /essays/engineering-intent/
 description: "Twenty-five years of the same operation across different materials. Construction sites, print shops, enterprise platforms, brand systems, AI governance. The methodology existed before the tools did."
+seo_keywords: ["design methodology blog", "25 years design engineering", "cross-domain design practice"]
 ---
 
 # Engineering Intent

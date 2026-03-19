@@ -4,7 +4,7 @@ title: "The Seven Words"
 date: 2026-03-08
 published: true
 description: "Registration, decomposition, scaffolding, fidelity, drift, convergence, attunement. Seven words for one operation across every material I've ever worked in."
-seo_keywords: ["registration", "decomposition", "scaffolding", "fidelity", "drift", "convergence", "attunement", "design methodology", "creative vocabulary", "Peter Salvato", "building a design vocabulary", "naming your creative process", "how to talk about what you do", "design language framework", "cross-domain design principles"]
+seo_keywords: ["registration", "decomposition", "scaffolding", "fidelity", "drift", "convergence", "attunement", "design methodology", "creative vocabulary", "Peter Salvato", "building a design vocabulary", "naming your creative process", "how to talk about what you do", "design language framework", "cross-domain design principles", "design methodology explained simply", "core design principles", "systems thinking vocabulary"]
 series: "engineering-intent"
 chapter: 9
 order: 5

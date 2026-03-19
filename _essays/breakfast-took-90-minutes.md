@@ -4,7 +4,7 @@ title: "Breakfast Took 90 Minutes"
 date: 2026-03-09
 published: true
 description: "Four people, five open questions, every single morning. Breakfast took 90 minutes because nobody had a system."
-seo_keywords: ['domestic', 'governance', 'accommodation', 'Peter Salvato', 'design engineering', 'ADHD family meal planning', 'neurodivergent household routines', 'executive function cooking', 'morning routine multiple dietary needs', 'celiac ARFID family meals', 'why mornings are so hard neurodivergent family', 'accommodation design']
+seo_keywords: ['domestic', 'governance', 'accommodation', 'Peter Salvato', 'design engineering', 'ADHD family meal planning', 'neurodivergent household routines', 'executive function cooking', 'morning routine multiple dietary needs', 'celiac ARFID family meals', 'why mornings are so hard neurodivergent family', 'accommodation design', 'breakfast takes too long ADHD', 'feeding family with food restrictions', 'morning routine keeps failing']
 series: "engineering-intent"
 chapter: 32
 order: 17

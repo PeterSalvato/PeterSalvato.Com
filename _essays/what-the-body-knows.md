@@ -4,7 +4,7 @@ title: "What the Body Knows Before the Mind Names It"
 date: 2026-03-09
 published: true
 description: "New City's theory of communication as a design principle."
-seo_keywords: ['novel', 'somatic design', 'Peter Salvato', 'design engineering']
+seo_keywords: ['novel', 'somatic design', 'Peter Salvato', 'design engineering', 'intuition before conscious thought', 'body knows before the mind', 'designing for felt experience']
 series: "engineering-intent"
 chapter: 59
 zone: 1

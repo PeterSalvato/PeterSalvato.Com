@@ -4,7 +4,7 @@ title: "Sequencing Changes Meaning"
 date: 2026-03-09
 published: true
 description: "Same ingredients, different order, different room."
-seo_keywords: ['sequencing', 'the selector', 'Peter Salvato', 'design engineering']
+seo_keywords: ['sequencing', 'the selector', 'Peter Salvato', 'design engineering', 'why order matters in design', 'content sequencing strategy', 'how arrangement changes meaning']
 series: "engineering-intent"
 chapter: 61
 zone: 1

@@ -11,7 +11,7 @@ icon: construction
 status: "In Development"
 context: "Most song posters illustrate what a song is 'about.' The image references the mood. The lyrics get set in type. Neither element comes from the same source. The feeling lives in the relationship, but the process treats them as separate problems."
 faculty: ["design"]
-seo_keywords: ["Typography Design", "Song Lyrics", "Constraint-Based Generation", "Poster Series", "Visual-Textual Integration"]
+seo_keywords: ["Typography Design", "Song Lyrics", "Constraint-Based Generation", "Poster Series", "Visual-Textual Integration", "song lyric poster design", "music poster art", "AI generated music artwork"]
 description: "Song lyrics as typographic architecture. Polaroid-vertical format, Swiss grid, AI-generated imagery from lyric content. Fixed constraint across 16 songs."
 last_modified: 2026-03-16
 ---

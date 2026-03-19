@@ -10,7 +10,7 @@ logo_type: stacked
 status: "In Development"
 context: "Experimental electronic music where the visual identity and the sonic texture are built as one system. One brand, two surfaces built as a single system."
 faculty: ["design", "engineering"]
-seo_keywords: ["Electronic Music", "Brand Systems", "Visual-Sonic Integration", "Design Systems", "Creative Branding"]
+seo_keywords: ["Electronic Music", "Brand Systems", "Visual-Sonic Integration", "Design Systems", "Creative Branding", "music production as design", "visual album art", "DJ methodology"]
 description: "Experimental electronic music where visual identity and sonic texture are built as one brand system. Halftone as tape hiss, misregistration as distortion. One system, two surfaces."
 last_modified: 2026-02-25
 listed: false

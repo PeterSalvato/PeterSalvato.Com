@@ -5,7 +5,7 @@ subtitle: "Multi-Perspective Evaluation and Generation"
 icon: handyman
 status: "Active"
 description: "Evaluation and generation through extracted practitioner lenses. Staff each layer with perspectives you trust, run them independently, read the convergence. The tensions between lenses surface the decisions that actually matter."
-seo_keywords: ["multi-perspective evaluation", "AI design critique", "evaluation lenses", "design review framework", "creative evaluation AI", "SVA critique room", "independent evaluation dimensions", "AI quality assessment", "how to evaluate AI output", "AI review process"]
+seo_keywords: ["multi-perspective evaluation", "AI design critique", "evaluation lenses", "design review framework", "creative evaluation AI", "SVA critique room", "independent evaluation dimensions", "AI quality assessment", "how to evaluate AI output", "AI review process", "getting better feedback from AI", "AI evaluation that actually helps", "multiple perspectives on design"]
 last_modified: 2026-03-11
 related:
   - /systems/formwork

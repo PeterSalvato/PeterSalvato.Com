@@ -9,7 +9,7 @@ icon: construction
 status: "In Development"
 context: "Photography started with a borrowed SLR and a class in Brooklyn. It became the visual component of everything: travel, relocation, documentation. Decades of narrative image that needed a formal system."
 faculty: ["design", "uxia"]
-seo_keywords: ["Photography Systems", "Constraint-Based Design", "Visual Archive", "Format as Forcing Function", "Metadata Structure"]
+seo_keywords: ["Photography Systems", "Constraint-Based Design", "Visual Archive", "Format as Forcing Function", "Metadata Structure", "EXIF data poster", "photography as data visualization", "location-based photo art"]
 description: "Constraint-locked photography. Fixed aspect ratios encode the relational mode of each encounter. Metadata pins every image to its exact geography. No cropping."
 last_modified: 2026-02-25
 ---

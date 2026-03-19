@@ -11,7 +11,7 @@ logo_type: wordmark
 status: "In Development"
 context: "Archetypes kept appearing across every domain: mythology, visual design, narrative architecture. As load-bearing elements, present in every domain."
 faculty: ["design"]
-seo_keywords: ["Archetypal Patterns", "Symbolic Systems", "Stoic Philosophy", "Typography Research", "Meaning Architecture"]
+seo_keywords: ["Archetypal Patterns", "Symbolic Systems", "Stoic Philosophy", "Typography Research", "Meaning Architecture", "stoicism poster art", "skull design prints", "constraint-based design projects"]
 description: "Symbolic taxonomy of archetypal patterns. Stoic philosophy as first test case: three prints where visual element encodes content at the level of symbol, not illustration."
 last_modified: 2026-02-21
 ---

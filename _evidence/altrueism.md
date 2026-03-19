@@ -9,7 +9,7 @@ logo_type: stacked
 status: "Delivered"
 context: "A brand for handcrafted objects and sustainable ethics. The first round of explorations looked right and matched the category, but solved the wrong problem. Script fonts tell you 'handmade' the same way every other craft brand does."
 faculty: ["design", "uxia"]
-seo_keywords: ["Brand Identity", "Visual Systems", "Sustainable Design", "Identity Architecture", "Craft Branding"]
+seo_keywords: ["Brand Identity", "Visual Systems", "Sustainable Design", "Identity Architecture", "Craft Branding", "nonprofit brand design", "social impact design", "mission-driven branding"]
 description: "Brand identity for handcrafted objects and sustainable ethics. Restrained wordmark, humanist type, earthen palette. Transparency as visual architecture."
 last_modified: 2026-02-25
 related:

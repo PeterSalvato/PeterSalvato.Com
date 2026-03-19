@@ -4,7 +4,7 @@ title: "The Registration Metaphor"
 date: 2026-03-08
 published: true
 description: "At USA Tees in Brooklyn, I learned that you never work on the image. You work on a channel. The whole only exists when the layers register."
-seo_keywords: ["registration", "screenprinting", "color separation", "design methodology", "layer registration", "print production", "Peter Salvato", "why components dont work together", "integration failure design systems", "how layers combine into coherent design", "alignment in complex systems", "screenprinting as design method"]
+seo_keywords: ["registration", "screenprinting", "color separation", "design methodology", "layer registration", "print production", "Peter Salvato", "why components dont work together", "integration failure design systems", "how layers combine into coherent design", "alignment in complex systems", "screenprinting as design method", "how screen printing works", "print production design thinking", "physical medium changes design meaning"]
 series: "engineering-intent"
 chapter: 10
 order: 6

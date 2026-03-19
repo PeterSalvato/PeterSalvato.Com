@@ -4,7 +4,7 @@ title: "What It Costs When Nobody Sees You"
 date: 2026-03-09
 published: true
 description: "Five-second taxes, forty times a day. By 2 PM you're cooked, and nobody saw it happen."
-seo_keywords: ['personal', 'accommodation', 'attunement', 'Peter Salvato', 'design engineering', 'invisible labor burnout', 'ADHD decision fatigue', 'why am I exhausted by simple tasks', 'cognitive load invisible work', 'neurodivergent energy depletion', 'accommodation design', 'designing for attention budget']
+seo_keywords: ['personal', 'accommodation', 'attunement', 'Peter Salvato', 'design engineering', 'invisible labor burnout', 'ADHD decision fatigue', 'why am I exhausted by simple tasks', 'cognitive load invisible work', 'neurodivergent energy depletion', 'accommodation design', 'designing for attention budget', 'ADHD exhaustion from small tasks', 'decision fatigue by afternoon', 'invisible cognitive load daily life']
 series: "engineering-intent"
 chapter: 44
 order: 19

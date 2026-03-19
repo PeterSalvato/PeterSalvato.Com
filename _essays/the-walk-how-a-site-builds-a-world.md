@@ -4,7 +4,7 @@ title: "The Walk: How a Site Builds a World"
 date: 2026-03-09
 published: true
 description: "Every page builds a room through its example sequence."
-seo_keywords: ['somatic design', 'sequencing', 'Peter Salvato', 'design engineering']
+seo_keywords: ['somatic design', 'sequencing', 'Peter Salvato', 'design engineering', 'how to build a portfolio that tells a story', 'website as experience design', 'content sequencing portfolio']
 series: "engineering-intent"
 chapter: 62
 zone: 1

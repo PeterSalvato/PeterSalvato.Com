@@ -4,6 +4,7 @@ title: "HomeWorks"
 permalink: /essays/homeworks/
 redirect_from: /essays/modernist-homestead/
 description: "An intentional life is within reach, even with limited resources, if you bring engineering to the things that matter. Kitchen, garden, workshop, the whole homestead."
+seo_keywords: ["neurodivergent family systems", "ADHD household management", "cooking with ARFID kids"]
 ---
 
 # HomeWorks

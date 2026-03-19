@@ -9,7 +9,7 @@ subtitle: "Why Unstructured Human Thinking Produces Better AI Output"
 icon: construction
 status: "Published"
 faculty: ["design", "engineering"]
-seo_keywords: ["input inversion", "unstructured AI input", "structured prompts overrated", "raw thinking AI", "voice input AI", "prompt engineering diminishing returns", "talking to AI", "AI brainstorming", "accommodation design", "better AI results without structure", "why prompt engineering fails", "unstructured data AI quality"]
+seo_keywords: ["input inversion", "unstructured AI input", "structured prompts overrated", "raw thinking AI", "voice input AI", "prompt engineering diminishing returns", "talking to AI", "AI brainstorming", "accommodation design", "better AI results without structure", "why prompt engineering fails", "unstructured data AI quality", "structured prompts don't work", "why careful prompting fails", "better way to use ChatGPT"]
 description: "A whitepaper challenging the foundational assumption of prompt engineering: that quality AI output requires structured human input. Three years of applied evidence demonstrates that raw, unstructured thinking produces better results when purpose-built tools handle the translation."
 last_modified: 2026-03-11
 permalink: /research/input-inversion/

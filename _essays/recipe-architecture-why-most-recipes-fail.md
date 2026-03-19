@@ -4,7 +4,7 @@ title: "Recipe Architecture: Why Most Recipes Fail"
 date: 2026-03-15
 published: true
 description: "A braised short rib recipe that failed. The recipe told me what to do. It never told me why it works."
-seo_keywords: ['recipes', 'information architecture', 'cooking', 'bottom-up', 'Peter Salvato', 'design engineering', 'why recipes dont work', 'learning to cook without recipes', 'cooking with dietary restrictions', 'recipe design problems', 'food systems thinking', 'why following a recipe fails', 'celiac cooking adaptation']
+seo_keywords: ['recipes', 'information architecture', 'cooking', 'bottom-up', 'Peter Salvato', 'design engineering', 'why recipes dont work', 'learning to cook without recipes', 'cooking with dietary restrictions', 'recipe design problems', 'food systems thinking', 'why following a recipe fails', 'celiac cooking adaptation', 'recipe never turns out right', 'how to improvise in the kitchen', 'cooking from principles not recipes']
 series: "engineering-intent"
 chapter: 72
 order: 20

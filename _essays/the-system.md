@@ -7,7 +7,7 @@ published: true
 order: 4
 icon: edit_note
 description: "Coordinators dispatch independent diagnostics in parallel, surface where they agree and disagree, and leave the decisions to the maker."
-seo_keywords: ["AI skill architecture", "coordinator pattern", "AI governance system", "creative evaluation", "FormWork", "Peter Salvato", "Claude Code skills", "AI agent architecture", "how to build AI workflows", "modular AI system", "multi-agent coordination", "AI task orchestration"]
+seo_keywords: ["AI skill architecture", "coordinator pattern", "AI governance system", "creative evaluation", "FormWork", "Peter Salvato", "Claude Code skills", "AI agent architecture", "how to build AI workflows", "modular AI system", "multi-agent coordination", "AI task orchestration", "AI workflow system", "how to coordinate AI tools", "building AI evaluation systems"]
 related:
   - /systems/formwork
   - /systems/savepoint

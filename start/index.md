@@ -3,7 +3,7 @@ layout: default
 title: "Start Here"
 permalink: /start/
 description: "Free tools that make AI work the way your brain actually works. Paste them into ChatGPT, Claude, or Gemini and start using them today."
-seo_keywords: ["free AI tools", "AI custom instructions", "Claude prompts", "AI voice", "AI productivity", "neurodivergent AI tools"]
+seo_keywords: ["free AI tools", "AI custom instructions", "Claude prompts", "AI voice", "AI productivity", "neurodivergent AI tools", "free AI tools for ADHD", "AI custom instructions that work", "AI tools for neurodivergent people"]
 sitemap: true
 ---
 

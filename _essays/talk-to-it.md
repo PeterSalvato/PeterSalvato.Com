@@ -2,7 +2,7 @@
 layout: post
 title: "Talk to It, Don't Type at It"
 description: "Typing into AI is already filtering your thinking. You're editing as you go. Dictation gives the tools what they actually need: how you think before you've organized it."
-seo_keywords: ["talking to AI", "dictation AI workflow", "voice notes AI", "brainstorming with ChatGPT", "thinking out loud AI", "input inversion", "unstructured AI input", "better AI results from voice", "AI voice notes", "raw thinking AI", "accommodation design", "stop organizing AI prompts"]
+seo_keywords: ["talking to AI", "dictation AI workflow", "voice notes AI", "brainstorming with ChatGPT", "thinking out loud AI", "input inversion", "unstructured AI input", "better AI results from voice", "AI voice notes", "raw thinking AI", "accommodation design", "stop organizing AI prompts", "talking to ChatGPT instead of typing", "voice input AI better results", "why dictation works better with AI"]
 published: true
 order: 15
 icon: edit_note

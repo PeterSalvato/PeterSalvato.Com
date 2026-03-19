@@ -7,7 +7,7 @@ published: true
 order: 6
 icon: edit_note
 description: "Most people use AI as a generator. I use it as a compiler. The distinction matters because compilation preserves authorship. Generation replaces it."
-seo_keywords: ["AI compilation", "AI authorship", "generative AI", "design methodology", "compiled portfolio", "Peter Salvato", "AI governance", "is AI generated content authentic", "AI authorship ethics", "human directed AI", "using AI without losing your voice", "AI content that doesn't sound like AI"]
+seo_keywords: ["AI compilation", "AI authorship", "generative AI", "design methodology", "compiled portfolio", "Peter Salvato", "AI governance", "is AI generated content authentic", "AI authorship ethics", "human directed AI", "using AI without losing your voice", "AI content that doesn't sound like AI", "AI writing without losing your voice", "using AI as editor not writer", "AI compilation vs generation"]
 related:
   - /practice/this-site
   - /systems/formwork

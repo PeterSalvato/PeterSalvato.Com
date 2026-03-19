@@ -4,7 +4,7 @@ title: "Constraint as Creative Fuel"
 date: 2026-03-09
 published: true
 description: "9K gold is 37.5% gold. Randi turned that limitation into the whole point. The tightest constraints produce the best work."
-seo_keywords: ['brand', 'constraint', 'Peter Salvato', 'design engineering', 'creative limitations improve work', 'designing within constraints', 'why restrictions produce better design', 'constraint-driven design', 'turning limitations into features', 'creative problem solving']
+seo_keywords: ['brand', 'constraint', 'Peter Salvato', 'design engineering', 'creative limitations improve work', 'designing within constraints', 'why restrictions produce better design', 'constraint-driven design', 'turning limitations into features', 'creative problem solving', 'how to be creative with limitations', 'working with budget constraints design', 'why restrictions make better work']
 series: "engineering-intent"
 chapter: 15
 order: 11

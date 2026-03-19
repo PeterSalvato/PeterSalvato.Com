@@ -4,7 +4,7 @@ title: "Blue Collar, Think Intellectual"
 date: 2026-03-09
 published: true
 description: "My father held an entire building in his head. Fifty trades, one picture. I grew up watching that, and it never left."
-seo_keywords: ['construction', 'decomposition', 'systems thinking', 'Peter Salvato', 'design engineering', 'systems thinking without a degree', 'practical intelligence', 'construction management lessons', 'learning to think in systems', 'coordination vs specialization', 'blue collar systems thinker']
+seo_keywords: ['construction', 'decomposition', 'systems thinking', 'Peter Salvato', 'design engineering', 'systems thinking without a degree', 'practical intelligence', 'construction management lessons', 'learning to think in systems', 'coordination vs specialization', 'blue collar systems thinker', 'learning from watching', 'trades background design', 'how construction teaches systems thinking']
 series: "engineering-intent"
 chapter: 4
 order: 1

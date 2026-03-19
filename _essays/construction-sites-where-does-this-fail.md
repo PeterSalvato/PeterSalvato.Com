@@ -4,7 +4,7 @@ title: "Construction Sites: Where Does This Fail?"
 date: 2026-03-08
 published: true
 description: "My father held the whole picture while fifty trades worked their piece. I learned decomposition before I had the word for it. I also learned where it breaks."
-seo_keywords: ["construction management", "general contractor", "decomposition", "systems thinking", "methodology limits", "design engineering", "Peter Salvato", "single point of failure leadership", "why projects fail when key person leaves", "bus factor team risk", "knowledge transfer complex projects", "coordination failure", "systems that survive their designer"]
+seo_keywords: ["construction management", "general contractor", "decomposition", "systems thinking", "methodology limits", "design engineering", "Peter Salvato", "single point of failure leadership", "why projects fail when key person leaves", "bus factor team risk", "knowledge transfer complex projects", "coordination failure", "systems that survive their designer", "what construction teaches", "managing complexity", "coordination across teams"]
 series: "engineering-intent"
 chapter: 21
 order: 14

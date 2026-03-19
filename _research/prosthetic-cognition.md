@@ -9,7 +9,7 @@ subtitle: "AI as Cognitive Prosthetic Through Mutual Accommodation"
 icon: construction
 status: "Published"
 faculty: ["design", "engineering", "uxia"]
-seo_keywords: ["AI cognitive extension", "human-AI collaboration", "extended mind AI", "cognitive prosthetic", "AI augmentation", "human-AI coupling", "AI as thinking partner", "prosthetic cognition", "mutual accommodation AI", "cognitive load AI", "AI workflow design", "human-computer interaction AI", "AI not a tool", "thinking with AI"]
+seo_keywords: ["AI cognitive extension", "human-AI collaboration", "extended mind AI", "cognitive prosthetic", "AI augmentation", "human-AI coupling", "AI as thinking partner", "prosthetic cognition", "mutual accommodation AI", "cognitive load AI", "AI workflow design", "human-computer interaction AI", "AI not a tool", "thinking with AI", "AI for people who can't focus", "using AI with ADHD", "AI as thinking partner"]
 description: "A whitepaper proposing that AI is most productive as a cognitive prosthetic: an extension of the practitioner's thinking through mutual accommodation. The model extends cognitive reach. The practitioner directs cognitive intent. Purpose-built interfaces handle the coupling."
 last_modified: 2026-03-11
 permalink: /research/prosthetic-cognition/

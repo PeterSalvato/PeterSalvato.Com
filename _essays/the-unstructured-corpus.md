@@ -2,7 +2,7 @@
 layout: post
 title: "The Unstructured Corpus"
 description: "Everyone says structure your AI input carefully. I did the opposite: three years of talking out loud, brainstorming, arguing with myself. The messy version produced better results. Here's why."
-seo_keywords: ["unstructured data", "input inversion", "accommodation design", "AI governance", "voice sampling", "knowledge traversal", "raw ideation", "corpus", "thinking out loud", "talking to AI vs typing", "brainstorming with ChatGPT", "voice notes AI", "should I organize notes for AI", "unstructured thinking AI", "dictation AI workflow"]
+seo_keywords: ["unstructured data", "input inversion", "accommodation design", "AI governance", "voice sampling", "knowledge traversal", "raw ideation", "corpus", "thinking out loud", "talking to AI vs typing", "brainstorming with ChatGPT", "voice notes AI", "should I organize notes for AI", "unstructured thinking AI", "dictation AI workflow", "how to organize messy notes with AI", "AI for scattered thinkers", "turning voice memos into writing"]
 published: true
 order: 12
 icon: edit_note

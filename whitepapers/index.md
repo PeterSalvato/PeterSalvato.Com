@@ -3,7 +3,7 @@ layout: default
 title: "Whitepapers"
 permalink: /whitepapers/
 description: "Research papers on accommodation design, AI governance, and the methodology behind the tools. The technical depth behind how I work."
-seo_keywords: ["accommodation design", "AI governance", "voice governance", "input inversion", "prosthetic cognition", "lens extraction", "semantic hierarchy"]
+seo_keywords: ["accommodation design", "AI governance", "voice governance", "input inversion", "prosthetic cognition", "lens extraction", "semantic hierarchy", "AI research papers", "accommodation design research", "voice AI research"]
 ---
 
 # Whitepapers

@@ -9,7 +9,7 @@ subtitle: "A Pedagogical Framework for Human-AI System Architecture"
 icon: construction
 status: "Published"
 faculty: ["design", "engineering", "uxia"]
-seo_keywords: ["AI governance", "accommodation design", "special education pedagogy", "prompt architecture", "task decomposition", "IEP design pattern", "AI evaluation framework", "human-AI architecture", "why AI output gets worse", "how to get better results from AI", "AI prompt engineering not working", "ChatGPT complex tasks", "special education methods for AI", "AI cognitive limitations", "how to structure AI tasks"]
+seo_keywords: ["AI governance", "accommodation design", "special education pedagogy", "prompt architecture", "task decomposition", "IEP design pattern", "AI evaluation framework", "human-AI architecture", "why AI output gets worse", "how to get better results from AI", "AI prompt engineering not working", "ChatGPT complex tasks", "special education methods for AI", "AI cognitive limitations", "how to structure AI tasks", "designing for different needs", "inclusive system design", "building systems that adapt to people"]
 description: "A whitepaper applying special education pedagogy to AI system architecture. Rather than constraining behavior, accommodation design asks what both systems in the room actually need: the model's processing constraints and the human's."
 last_modified: 2026-03-10
 permalink: /research/accommodation-design/
