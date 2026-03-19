@@ -278,22 +278,67 @@
 
   .hamburger-btn { display: none; }
 
+  // Tablet: same 12-col grid, scaled down
+  // 600px viewport can't fit 752px grid, so collapse to stacked
+  body {
+    display: block;
+    max-width: 100%;
+  }
+
   #sidebar-nav {
-    width: $sidebar-width-sm;
-    padding: $space-lg $space-md;
+    grid-column: auto;
+    width: 100%;
+    padding: $space-lg 20px $space-md;
+    display: flex;
+    align-items: center;
+    gap: $space-lg;
+
+    #sidebar-header {
+      margin: 0;
+    }
+
+    .nav-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0 $space-md;
+    }
+
+    .nav-sublist {
+      display: none;
+    }
   }
 
   #main-content {
-    padding: $space-xl $space-xl $space-xxl;
+    grid-column: auto;
+    padding: $space-lg $space-xl $space-xxl;
   }
 
   .system-footer {
+    grid-column: auto;
+    width: 100%;
+    margin-left: 0;
+    transform: none;
     padding-left: $space-xl;
     padding-right: $space-xl;
+
+    .footer-columns {
+      display: flex;
+      gap: $space-lg 4rem;
+    }
+
+    .footer-col,
+    .footer-col:nth-child(1),
+    .footer-col:nth-child(2),
+    .footer-col:nth-child(3) {
+      grid-column: auto;
+      width: auto;
+    }
   }
 
   #container {
+    display: block;
     max-width: 600px;
+    transform: none;
   }
 
   #homepage-hero {
@@ -326,22 +371,14 @@
 
   .hamburger-btn { display: none; }
 
+  // Ultrawide: same grid, just more breathing room around it
   #sidebar-nav {
-    width: $sidebar-width;
-    padding: $space-xxxl $space-xl;
+    padding-top: $space-xxxl;
   }
 
   #main-content {
-    padding: $space-xl $space-xxxl calc(#{$space-xxxl} * 1.5);
-  }
-
-  .system-footer {
-    padding-left: $space-xxxl;
-    padding-right: $space-xxxl;
-  }
-
-  #container {
-    max-width: 780px;
+    padding-top: $space-xl;
+    padding-bottom: calc(#{$space-xxxl} * 1.5);
   }
 
   #homepage-hero {
