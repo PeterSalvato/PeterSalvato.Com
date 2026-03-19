@@ -5,14 +5,15 @@
 // The card is image + caption + metadata. Format-locked: 3:2, 4:3, 1:1.
 
 .photogeography-card {
-  background: #1a1a1a;
-  color: #f0ece4;
+  background: $color-white;
+  color: $color-ink;
   padding: $space-lg;
   display: grid;
-  grid-template-rows: 1fr auto;
+  grid-template-rows: auto auto auto;
   gap: $space-md;
   position: relative;
   overflow: hidden;
+  border: 1px solid $color-rule;
 }
 
 // ---------------------------------------------------------------------------
@@ -55,70 +56,62 @@
 }
 
 // ---------------------------------------------------------------------------
-// Caption: title + location + metadata
-// ---------------------------------------------------------------------------
-
-.photogeography-caption {
-  display: flex;
-  flex-direction: column;
-  gap: $space-xs;
-}
-
-.photogeography-title-svg {
-  width: 100%;
-  max-height: 2.5rem;
-  object-fit: contain;
-  object-position: left center;
-  filter: brightness(0) invert(1);
-}
-
-.photogeography-title-text {
-  font-family: $font-display;
-  font-size: $type-h3;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  margin: 0;
-  color: #f0ece4;
-}
-
-.photogeography-location {
-  font-family: $font-body;
-  font-size: $type-caption;
-  color: #c0b8a8;
-}
-
-// ---------------------------------------------------------------------------
-// Metadata
+// Metadata row
 // ---------------------------------------------------------------------------
 
 .photogeography-meta {
   display: flex;
   flex-wrap: wrap;
-  gap: $space-sm $space-md;
+  gap: $space-xs $space-md;
   font-family: $font-mono;
   font-size: $type-fine;
   letter-spacing: 0.04em;
-  color: #5c5347;
-  border-top: 1px solid #2a2520;
+  color: $color-ink-faint;
+  border-top: 1px solid $color-rule;
   padding-top: $space-sm;
 }
 
+.photogeography-meta-item {
+  white-space: nowrap;
+}
+
+.photogeography-meta-coords {
+  color: $color-ink;
+}
+
+.photogeography-meta-location {
+  color: $color-ink;
+  font-family: $font-body;
+}
+
 // ---------------------------------------------------------------------------
-// QR code
+// QR codes
 // ---------------------------------------------------------------------------
+
+.photogeography-qr-row {
+  display: flex;
+  gap: $space-lg;
+  padding-top: $space-sm;
+  border-top: 1px solid $color-rule;
+}
 
 .photogeography-qr {
-  position: absolute;
-  bottom: $space-lg;
-  right: $space-lg;
-  width: 48px;
-  height: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: $space-xs;
 
   img {
-    width: 100%;
-    height: 100%;
-    filter: brightness(0) invert(0.4);
+    width: 48px;
+    height: 48px;
   }
+}
+
+.photogeography-qr-label {
+  font-family: $font-mono;
+  font-size: $type-fine;
+  letter-spacing: 0.04em;
+  color: $color-ink-faint;
 }
 
 // ---------------------------------------------------------------------------
@@ -128,8 +121,9 @@
 .photogeography-card--full {
   max-width: 700px;
   margin: 0 auto;
+  border: none;
 
-  .photogeography-qr {
+  .photogeography-qr img {
     width: 64px;
     height: 64px;
   }
@@ -156,11 +150,10 @@
   }
 }
 
-// Gallery cards: smaller QR
+// Gallery cards: no QR row (only on detail pages)
 .photogeography-gallery .photogeography-card {
-  .photogeography-qr {
-    width: 32px;
-    height: 32px;
+  .photogeography-qr-row {
+    display: none;
   }
 }
 

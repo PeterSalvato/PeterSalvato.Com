@@ -27,7 +27,9 @@
       "headline_svg": "",
       "qr_svg": "",
       "qr_url": "",
-      "notes": "Cat on windowsill, backlit"
+      "notes": "Cat on windowsill, backlit",
+      "qr_page": "assets/photogeography/qr/000033980002-page.svg",
+      "qr_map": "assets/photogeography/qr/000033980002-map.svg"
     },
     {
       "sequence": 2,
@@ -47,7 +49,9 @@
       "headline_svg": "",
       "qr_svg": "",
       "qr_url": "",
-      "notes": ""
+      "notes": "",
+      "qr_page": "assets/photogeography/qr/2297210-r1-012-4a-page.svg",
+      "qr_map": ""
     },
     {
       "sequence": 3,
@@ -67,7 +71,9 @@
       "headline_svg": "",
       "qr_svg": "",
       "qr_url": "",
-      "notes": ""
+      "notes": "",
+      "qr_page": "assets/photogeography/qr/2297210-r1-028-12a-page.svg",
+      "qr_map": ""
     },
     {
       "sequence": 4,
@@ -87,7 +93,9 @@
       "headline_svg": "",
       "qr_svg": "",
       "qr_url": "",
-      "notes": ""
+      "notes": "",
+      "qr_page": "assets/photogeography/qr/2297210-r1-032-14a-page.svg",
+      "qr_map": ""
     },
     {
       "sequence": 5,
@@ -107,7 +115,9 @@
       "headline_svg": "",
       "qr_svg": "",
       "qr_url": "",
-      "notes": ""
+      "notes": "",
+      "qr_page": "assets/photogeography/qr/2297220-r1-016-6a-page.svg",
+      "qr_map": ""
     },
     {
       "sequence": 6,
@@ -127,7 +137,9 @@
       "headline_svg": "",
       "qr_svg": "",
       "qr_url": "",
-      "notes": ""
+      "notes": "",
+      "qr_page": "assets/photogeography/qr/img_0235-page.svg",
+      "qr_map": "assets/photogeography/qr/img_0235-map.svg"
     },
     {
       "sequence": 7,
@@ -147,7 +159,9 @@
       "headline_svg": "",
       "qr_svg": "",
       "qr_url": "",
-      "notes": ""
+      "notes": "",
+      "qr_page": "assets/photogeography/qr/img_20180605_204419-page.svg",
+      "qr_map": "assets/photogeography/qr/img_20180605_204419-map.svg"
     },
     {
       "sequence": 8,
@@ -167,7 +181,9 @@
       "headline_svg": "",
       "qr_svg": "",
       "qr_url": "",
-      "notes": "Road trip moving from New York to Florida"
+      "notes": "Road trip moving from New York to Florida",
+      "qr_page": "assets/photogeography/qr/img_2480-page.svg",
+      "qr_map": "assets/photogeography/qr/img_2480-map.svg"
     },
     {
       "sequence": 9,
@@ -187,7 +203,9 @@
       "headline_svg": "",
       "qr_svg": "",
       "qr_url": "",
-      "notes": "Bush down the block from apartment, 113 E 2nd St"
+      "notes": "Bush down the block from apartment, 113 E 2nd St",
+      "qr_page": "assets/photogeography/qr/img_2743-page.svg",
+      "qr_map": "assets/photogeography/qr/img_2743-map.svg"
     },
     {
       "sequence": 10,
@@ -207,7 +225,9 @@
       "headline_svg": "",
       "qr_svg": "",
       "qr_url": "",
-      "notes": "Bush down the block from apartment, 113 E 2nd St"
+      "notes": "Bush down the block from apartment, 113 E 2nd St",
+      "qr_page": "assets/photogeography/qr/img_2744-page.svg",
+      "qr_map": "assets/photogeography/qr/img_2744-map.svg"
     },
     {
       "sequence": 11,
@@ -227,7 +247,9 @@
       "headline_svg": "",
       "qr_svg": "",
       "qr_url": "",
-      "notes": "Shot on film, scanned via Noritsu"
+      "notes": "Shot on film, scanned via Noritsu",
+      "qr_page": "assets/photogeography/qr/img_2748-page.svg",
+      "qr_map": "assets/photogeography/qr/img_2748-map.svg"
     },
     {
       "sequence": 12,
@@ -247,7 +269,9 @@
       "headline_svg": "",
       "qr_svg": "",
       "qr_url": "",
-      "notes": "Shot on film, scanned via Noritsu. Door bolt outside 145 E 2nd St."
+      "notes": "Shot on film, scanned via Noritsu. Door bolt outside 145 E 2nd St.",
+      "qr_page": "assets/photogeography/qr/img_3332-page.svg",
+      "qr_map": "assets/photogeography/qr/img_3332-map.svg"
     },
     {
       "sequence": 13,
@@ -267,7 +291,9 @@
       "headline_svg": "",
       "qr_svg": "",
       "qr_url": "",
-      "notes": "Tire shop on Coney Island Avenue"
+      "notes": "Tire shop on Coney Island Avenue",
+      "qr_page": "assets/photogeography/qr/img_4517-page.svg",
+      "qr_map": "assets/photogeography/qr/img_4517-map.svg"
     },
     {
       "sequence": 14,
@@ -287,7 +313,9 @@
       "headline_svg": "",
       "qr_svg": "",
       "qr_url": "",
-      "notes": ""
+      "notes": "",
+      "qr_page": "assets/photogeography/qr/img_4518-page.svg",
+      "qr_map": "assets/photogeography/qr/img_4518-map.svg"
     },
     {
       "sequence": 15,
@@ -307,7 +335,9 @@
       "headline_svg": "",
       "qr_svg": "",
       "qr_url": "",
-      "notes": "Chrysalis and butterfly emerging, backyard"
+      "notes": "Chrysalis and butterfly emerging, backyard",
+      "qr_page": "assets/photogeography/qr/img_7015-page.svg",
+      "qr_map": "assets/photogeography/qr/img_7015-map.svg"
     }
   ]
 }
