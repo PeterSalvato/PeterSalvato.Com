@@ -42,9 +42,9 @@ $footer-rule: rgba(255, 255, 255, 0.15);
     grid-column: 4 / 7;
   }
 
-  // Col 3 (Subscribe): grid cols 7-12 (aligns with content Cols C-D)
+  // Col 3 (Subscribe): grid cols 7-9 (aligns with content Col D)
   .footer-col:nth-child(3) {
-    grid-column: 7 / -1;
+    grid-column: 7 / 10;
   }
 
   .footer-col-heading {
