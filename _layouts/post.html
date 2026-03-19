@@ -22,7 +22,7 @@ layout: default
 
   {% comment %} Sequential navigation: prev/next within same series or among standalones {% endcomment %}
   {% if page.series %}
-  {% assign nav_posts = site.essays | where: "series", page.series | sort: "chapter" %}
+  {% assign nav_posts = site.documents | where: "series", page.series %}{% if nav_posts %}{% assign nav_posts = nav_posts | sort: "chapter" %}{% endif %}
   {% assign current_pos = page.chapter %}
   {% assign prev_post = nil %}
   {% assign next_post = nil %}

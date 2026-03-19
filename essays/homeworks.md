@@ -16,9 +16,8 @@ The same pattern runs through every chapter: attune to what all surfaces need, m
 <div class="dossier-meta">
   <span class="dossier-status">In progress</span>
   <span class="dossier-status">
-    {% assign hw_posts = site.essays | where: "series", "homeworks" %}
     {% assign hw_published = 0 %}
-    {% for post in hw_posts %}{% if post.published %}{% assign hw_published = hw_published | plus: 1 %}{% endif %}{% endfor %}
+    {% for post in site.homeworks %}{% if post.published %}{% assign hw_published = hw_published | plus: 1 %}{% endif %}{% endfor %}
     {{ hw_published }}/20 published
   </span>
 </div>
@@ -26,7 +25,7 @@ The same pattern runs through every chapter: attune to what all surfaces need, m
 ---
 
 {::nomarkdown}
-{% assign chapters = site.essays | where: "series", "homeworks" | sort: "chapter" %}
+{% assign chapters = site.homeworks | sort: "chapter" %}
 {% for post in chapters %}
   {% if post.published %}
   {% include artifact-hero.html item=post url=post.url is_link=true %}

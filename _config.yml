@@ -25,6 +25,12 @@ collections:
   essays:
     output: true
     permalink: /essays/:path/
+  homeworks:
+    output: true
+    permalink: /essays/:path/
+  ei:
+    output: true
+    permalink: /essays/:path/
   versograms:
     output: true
     permalink: /versograms/:path/

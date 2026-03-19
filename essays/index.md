@@ -19,7 +19,7 @@ seo_keywords: ["design engineering", "design methodology", "systems architecture
   </div>
 
   <div class="essays-panel active" id="panel-standalone">
-    {% assign standalone_posts = site.essays | where_exp: "post", "post.series == nil" | sort: "order" %}
+    {% assign standalone_posts = site.essays | sort: "order" %}
     {% for post in standalone_posts %}
       {% if post.published %}
         {% include artifact-hero.html item=post url=post.url is_link=true %}
@@ -31,7 +31,13 @@ seo_keywords: ["design engineering", "design methodology", "systems architecture
     {% for series_entry in site.data.series %}
       {% assign series_key = series_entry[0] %}
       {% assign series_info = series_entry[1] %}
-      {% assign series_posts = site.essays | where: "series", series_key | sort: "order" %}
+      {% if series_key == "homeworks" %}
+        {% assign series_posts = site.homeworks %}
+      {% elsif series_key == "engineering-intent" %}
+        {% assign series_posts = site.ei %}
+      {% else %}
+        {% assign series_posts = site.essays | where: "series", series_key %}
+      {% endif %}
       {% assign published_count = 0 %}
       {% for post in series_posts %}{% if post.published %}{% assign published_count = published_count | plus: 1 %}{% endif %}{% endfor %}
       {% if published_count > 0 %}

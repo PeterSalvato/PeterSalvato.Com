@@ -15,9 +15,8 @@ This is a spiral curriculum. The early chapters start in physical spaces (constr
 <div class="dossier-meta">
   <span class="dossier-status">In development</span>
   <span class="dossier-status">
-    {% assign ei_posts = site.essays | where: "series", "engineering-intent" %}
     {% assign ei_published = 0 %}
-    {% for post in ei_posts %}{% if post.published %}{% assign ei_published = ei_published | plus: 1 %}{% endif %}{% endfor %}
+    {% for post in site.ei %}{% if post.published %}{% assign ei_published = ei_published | plus: 1 %}{% endif %}{% endfor %}
     {{ ei_published }}/191 published
   </span>
 </div>
@@ -25,7 +24,7 @@ This is a spiral curriculum. The early chapters start in physical spaces (constr
 ---
 
 {::nomarkdown}
-{% assign chapters = site.essays | where: "series", "engineering-intent" | sort: "order" %}
+{% assign chapters = site.ei | sort: "order" %}
 {% for post in chapters %}
   {% if post.published %}
   {% include artifact-hero.html item=post url=post.url is_link=true %}
