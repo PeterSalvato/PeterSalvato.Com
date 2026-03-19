@@ -23,7 +23,15 @@ He loves it out there. He'll check the bugs. Watch the soil. See if something gr
 
 That's attunement. Reading every surface: the light, the water, the insects, the leaves. He doesn't know that's what he's doing. He's just a kid in the yard. But it's the same operation I'm running in the kitchen, decomposed to the level of a ten-year-old who wants to see if the caterpillar is still on the same leaf.
 
-My daughter is out there too sometimes. They'll help if I'm planting something. Or they'll do their own thing while I work. I try to leave room for parallel play. Not everything has to be a project. Sometimes the yard is just the yard and everyone is in it doing something different and that's enough.
+We spent time together out there mixing soil. Perlite, peat moss, getting the balance right. I taught him about nutrients, what plants need at each stage of their life. We mixed feeding solutions together. He started to understand the system: the soil isn't just dirt, it's a medium with properties you can adjust. Now he plans things on his own. Experiments. He doesn't feel bad when things die or don't make it. He has a healthy understanding of how a garden works and how failure is part of it.
+
+A couple of times we harvested peppers. We pickled them and ate them on nachos and migas. That's the full loop: backyard to pickle jar to kitchen table. The same modular system, the same cuisine rotation, but the ingredient came from ten feet away.
+
+And now when we're talking about growing things, he thinks in terms of hydroponic systems. That's a concept he can reach for because we spent time with passive hydroponic pots and he saw how water and nutrients can replace soil. The production was never the point. The understanding was.
+
+My daughter is out there too, but in a different way. She's always wanted to participate in maintaining the property. Pulling weeds, interacting with the yard physically. When she was younger there was more potion-making, grinding up leaves and berries and mixing them together. A different attunement than her brother's. He experiments and observes. She maintains and touches. Two profiles, same space, and the yard accommodates both without asking either of them to be different.
+
+I try to leave room for parallel play. Not everything has to be a project. Sometimes the yard is just the yard and everyone is in it doing something different and that's enough.
 
 ---
 
