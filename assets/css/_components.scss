@@ -231,3 +231,20 @@ img.image {
   transform: rotate(-.25deg);
   margin: 0;
 }
+
+// Rough-edge borders (SVG displacement filter)
+.artifact-card,
+.photogeography-card,
+.versogram-card--thumb {
+  position: relative;
+  border: none;
+
+  &:after {
+    border: 1.5px solid $color-rule;
+    content: "";
+    inset: 0;
+    position: absolute;
+    pointer-events: none;
+    filter: url(#rough-edge);
+  }
+}

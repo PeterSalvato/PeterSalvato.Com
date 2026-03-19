@@ -67,12 +67,16 @@
   <!-- Main Stylesheet (Jekyll compiles main.scss → main.css) -->
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 
-  <!-- SVG filter for ink-press texture on display type -->
+  <!-- SVG filters for print-craft textures -->
   <svg xmlns="http://www.w3.org/2000/svg" style="position:absolute;width:0;height:0;overflow:hidden">
     <defs>
       <filter id="ink-press" x="-2%" y="-2%" width="104%" height="104%">
         <feTurbulence type="fractalNoise" baseFrequency="0.03" numOctaves="4" seed="2" result="noise"/>
         <feDisplacementMap in="SourceGraphic" in2="noise" scale="3" xChannelSelector="R" yChannelSelector="G"/>
+      </filter>
+      <filter id="rough-edge">
+        <feTurbulence type="fractalNoise" baseFrequency="1.4" numOctaves="1"/>
+        <feDisplacementMap in="SourceGraphic" scale="1"/>
       </filter>
     </defs>
   </svg>
