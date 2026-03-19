@@ -2,7 +2,7 @@
 layout: post
 title: "Cuisine DNA"
 series: "homeworks"
-chapter: 6
+chapter: 5
 description: "The flavors are the roadmap of your life. Celiac severed the path to them. Food science rebuilt it. The kitchen is how you show love, and the engineering is what got you back to the table."
 seo_keywords: ["celiac cooking", "gluten free bread", "cuisine identity", "neurodivergent kitchen", "GF artisan bread", "Brooklyn food culture", "family cooking", "accommodation cooking", "food biography"]
 published: true

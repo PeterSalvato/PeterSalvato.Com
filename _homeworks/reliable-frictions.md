@@ -2,7 +2,7 @@
 layout: post
 title: "Reliable Frictions"
 series: "homeworks"
-chapter: 15
+chapter: 10
 description: "The morning has no containerized architecture. The variables are people. But the firewalls are there. They're just human instead of mechanical."
 seo_keywords: ["ADHD morning routine", "neurodivergent family morning", "autistic burnout school", "executive function morning", "accommodation parenting", "ARFID breakfast", "neurodivergent household systems"]
 published: true

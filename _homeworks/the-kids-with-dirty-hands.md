@@ -2,7 +2,7 @@
 layout: post
 title: "The Kids With Dirty Hands"
 series: "homeworks"
-chapter: 16
+chapter: 11
 description: "The kitchen is survival. The garden is the soul. The engineering exists so there's energy left for the yard."
 seo_keywords: ["neurodivergent family garden", "kids gardening ADHD", "intentional life design", "parallel play parenting", "container gardening Florida", "homestead kids", "sensory garden neurodivergent"]
 published: true

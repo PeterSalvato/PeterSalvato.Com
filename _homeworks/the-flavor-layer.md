@@ -2,7 +2,7 @@
 layout: post
 title: "The Flavor Layer"
 series: "homeworks"
-chapter: 7
+chapter: 6
 description: "Pickles, sauces, spice profiles. The components that turn atomic ingredients into food worth eating. Same formula, different inputs, every cuisine."
 seo_keywords: ["modular cooking sauces", "quick pickles meal prep", "neurodivergent cooking", "ARFID flavor accommodation", "sauce formula cooking", "cuisine spice profiles", "food science home cooking"]
 published: true

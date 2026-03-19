@@ -2,7 +2,7 @@
 layout: post
 title: "The Kitchen Co-Pilot"
 series: "homeworks"
-chapter: 13
+chapter: 8
 description: "The AI holds the food science, the technique library, the timing tables. The cook reads the room and makes the call. Prosthetic cognition applied to Tuesday night."
 seo_keywords: ["AI cooking assistant", "AI meal planning", "neurodivergent cooking AI", "prosthetic cognition kitchen", "custom GPT cooking", "executive function AI tools", "ARFID meal planning AI"]
 published: true
