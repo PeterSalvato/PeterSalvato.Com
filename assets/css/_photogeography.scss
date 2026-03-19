@@ -7,11 +7,8 @@
 .photogeography-card {
   background: $color-white;
   color: $color-ink;
-  display: grid;
-  grid-template-rows: auto auto auto;
-  gap: $space-md;
+  padding: 0.5rem;
   border: 1px solid $color-rule;
-  overflow: hidden;
 }
 
 // ---------------------------------------------------------------------------
@@ -25,22 +22,6 @@
     display: block;
     margin: 0;
   }
-}
-
-// Gallery cards: uniform 3:2 crop, metadata has padding
-.photogeography-gallery .photogeography-image {
-  aspect-ratio: 3 / 2;
-  overflow: hidden;
-
-  img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-}
-
-.photogeography-gallery .photogeography-meta {
-  padding: 0 $space-lg $space-lg;
 }
 
 .photogeography-image-placeholder {
@@ -62,7 +43,8 @@
   letter-spacing: 0.04em;
   color: $color-ink-faint;
   border-top: 1px solid $color-rule;
-  padding-top: $space-sm;
+  padding: $space-sm 0.5rem 0;
+  margin-top: 0.5rem;
 }
 
 .photogeography-meta-item {
@@ -116,13 +98,14 @@
   max-width: 700px;
   margin: 0 auto;
   border: none;
+  padding: 0;
 
   .photogeography-meta {
-    padding: 0 $space-lg;
+    padding: $space-sm 0 0;
   }
 
   .photogeography-qr-row {
-    padding: $space-sm $space-lg $space-lg;
+    padding: $space-sm 0 0;
   }
 
   .photogeography-qr img {
