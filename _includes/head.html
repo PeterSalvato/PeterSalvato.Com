@@ -75,7 +75,7 @@
         <feDisplacementMap in="SourceGraphic" in2="noise" scale="3" xChannelSelector="R" yChannelSelector="G"/>
       </filter>
       <filter id="rough-edge">
-        <feTurbulence type="fractalNoise" baseFrequency="1.4" numOctaves="1"/>
+        <feTurbulence type="fractalNoise" numOctaves="100" baseFrequency="19"/>
         <feDisplacementMap in="SourceGraphic" scale="1"/>
       </filter>
       <filter id="subtle-rough">
