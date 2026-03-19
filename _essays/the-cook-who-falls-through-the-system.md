@@ -5,7 +5,7 @@ series: "homeworks"
 chapter: 5
 description: "What happens when the person running the household system is the one who needs accommodation most."
 seo_keywords: ["executive function cooking", "executive function kitchen", "household accommodation", "neurodivergent meal planning", "family dinner systems"]
-published: true
+published: false
 last_modified: 2026-03-17
 related:
   - /essays/the-accommodation-kitchen/

@@ -5,7 +5,7 @@ series: "homeworks"
 chapter: 8
 description: "No baking background. The hardest version of the material. Immersion, decomposition, and messes until it clicked. Then the need moved and the bread stopped mattering."
 seo_keywords: ["gluten free bread baking", "celiac baking from scratch", "GF artisan bread", "learning to bake celiac", "neurodivergent learning", "food science gluten free", "accommodation baking"]
-published: true
+published: false
 last_modified: 2026-03-18
 related:
   - /essays/cuisine-dna/
