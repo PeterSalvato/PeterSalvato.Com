@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Accommodation Kitchen"
-published: false
+published: true
 icon: edit_note
 series: "homeworks"
 chapter: 1

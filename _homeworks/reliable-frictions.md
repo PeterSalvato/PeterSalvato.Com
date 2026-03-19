@@ -5,7 +5,7 @@ series: "homeworks"
 chapter: 15
 description: "The morning has no containerized architecture. The variables are people. But the firewalls are there. They're just human instead of mechanical."
 seo_keywords: ["ADHD morning routine", "neurodivergent family morning", "autistic burnout school", "executive function morning", "accommodation parenting", "ARFID breakfast", "neurodivergent household systems"]
-published: false
+published: true
 last_modified: 2026-03-18
 related:
   - /essays/the-cook-who-falls-through-the-system/

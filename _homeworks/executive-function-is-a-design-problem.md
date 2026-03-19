@@ -5,7 +5,7 @@ series: "homeworks"
 chapter: 12
 description: "Too many steps, not enough processing power. The later parts get dropped. Same failure in the classroom and the kitchen. The accommodation is the design fix."
 seo_keywords: ["executive function design", "task chunking ADHD", "neurodivergent accommodation", "special education kitchen", "learned ableism", "decomposition methodology", "executive function cooking"]
-published: false
+published: true
 last_modified: 2026-03-18
 related:
   - /essays/reliable-frictions/

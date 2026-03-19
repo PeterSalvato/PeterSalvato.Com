@@ -5,7 +5,7 @@ series: "homeworks"
 chapter: 17
 description: "My mother taught me the kitchen is how you take care of people. Every system in this book exists to keep doing that when everything says you can't."
 seo_keywords: ["family cooking love", "neurodivergent parenting", "accommodation design family", "celiac family cooking", "ARFID parent", "kitchen as care", "intentional life"]
-published: false
+published: true
 last_modified: 2026-03-19
 related:
   - /essays/everybodys-got-a-plan/

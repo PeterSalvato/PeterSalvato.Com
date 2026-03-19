@@ -5,7 +5,7 @@ series: "homeworks"
 chapter: 16
 description: "The kitchen is survival. The garden is the soul. The engineering exists so there's energy left for the yard."
 seo_keywords: ["neurodivergent family garden", "kids gardening ADHD", "intentional life design", "parallel play parenting", "container gardening Florida", "homestead kids", "sensory garden neurodivergent"]
-published: false
+published: true
 last_modified: 2026-03-18
 related:
   - /essays/the-cook-who-falls-through-the-system/

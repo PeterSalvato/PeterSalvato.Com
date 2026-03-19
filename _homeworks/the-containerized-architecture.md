@@ -5,7 +5,7 @@ series: "homeworks"
 chapter: 2
 description: "Break the meal into components. Each one independent, self-contained, forgiving. When one fails, the rest survive."
 seo_keywords: ["modular meal prep", "batch cooking systems", "neurodivergent kitchen", "ARFID meal planning", "executive function cooking", "containerized cooking", "kitchen systems design", "sous vide meal prep", "accommodation design kitchen"]
-published: false
+published: true
 last_modified: 2026-03-17
 related:
   - /essays/the-accommodation-kitchen/

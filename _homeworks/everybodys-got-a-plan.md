@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Everybody's Got a Plan"
-published: false
+published: true
 order: 17
 icon: edit_note
 series: "homeworks"
