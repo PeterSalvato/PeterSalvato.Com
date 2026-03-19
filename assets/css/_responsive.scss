@@ -12,11 +12,17 @@
     overflow-x: hidden;
   }
 
+  body {
+    display: block;
+    max-width: 100%;
+  }
+
   .hamburger-btn {
     display: none;
   }
 
   #sidebar-nav {
+    grid-column: auto;
     width: 100%;
     padding: $space-lg 20px $space-md;
     text-align: left;
@@ -77,25 +83,40 @@
   }
 
   #main-content {
+    grid-column: auto;
     padding: $space-lg 20px $space-xxl;
     overflow-x: hidden;
   }
 
   .system-footer {
-    padding-left: $space-md;
-    padding-right: $space-md;
+    grid-column: auto;
+    width: 100%;
+    margin-left: 0;
+    transform: none;
+    padding-left: 20px;
+    padding-right: 20px;
 
     .footer-columns {
+      display: flex;
       flex-wrap: wrap;
+      gap: $space-lg;
+    }
+
+    .footer-col,
+    .footer-col:nth-child(1),
+    .footer-col:nth-child(2),
+    .footer-col:nth-child(3) {
+      grid-column: auto;
+      width: auto;
     }
 
     .footer-col:last-child {
       width: 100%;
-      margin-top: $space-lg;
     }
   }
 
   #container {
+    display: block;
     max-width: 100%;
     transform: none;
   }
