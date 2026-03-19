@@ -9,7 +9,7 @@ last_modified: 2026-03-13
 
 # Contact
 
-![Peter Salvato]({{ '/assets/img/selfportrait-web.jpg' | relative_url }}){:.image.photo}
+![Peter Salvato]({{ '/assets/img/selfportrait-web.png' | relative_url }}){:.image.photo}
 
 **Email:** [ptsalvato@gmail.com](mailto:ptsalvato@gmail.com)
 
