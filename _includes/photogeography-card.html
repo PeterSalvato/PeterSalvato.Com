@@ -12,7 +12,11 @@
 
   <div class="photogeography-image">
     {% if p.image != "" %}
-      <img src="{{ p.image | relative_url }}" alt="{% if p.location_label != '' %}{{ p.location_label }}{% endif %}{% if p.timestamp != '' %}, {{ p.timestamp }}{% endif %}">
+      {% if is_full %}
+        <img src="{{ p.image | relative_url }}" alt="{% if p.location_label != '' %}{{ p.location_label }}{% endif %}{% if p.timestamp != '' %}, {{ p.timestamp }}{% endif %}">
+      {% else %}
+        <img src="{{ p.thumb | default: p.image | relative_url }}" alt="{% if p.location_label != '' %}{{ p.location_label }}{% endif %}{% if p.timestamp != '' %}, {{ p.timestamp }}{% endif %}" loading="lazy">
+      {% endif %}
     {% else %}
       <div class="photogeography-image-placeholder"></div>
     {% endif %}

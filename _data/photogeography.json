@@ -29,7 +29,8 @@
       "qr_url": "",
       "notes": "Cat on windowsill, backlit",
       "qr_page": "assets/photogeography/qr/000033980002-page.svg",
-      "qr_map": "assets/photogeography/qr/000033980002-map.svg"
+      "qr_map": "assets/photogeography/qr/000033980002-map.svg",
+      "thumb": "assets/photogeography/thumb/000033980002.jpg"
     },
     {
       "sequence": 2,
@@ -51,7 +52,8 @@
       "qr_url": "",
       "notes": "",
       "qr_page": "assets/photogeography/qr/2297210-r1-012-4a-page.svg",
-      "qr_map": ""
+      "qr_map": "",
+      "thumb": "assets/photogeography/thumb/2297210-r1-012-4a.jpg"
     },
     {
       "sequence": 3,
@@ -73,7 +75,8 @@
       "qr_url": "",
       "notes": "",
       "qr_page": "assets/photogeography/qr/2297210-r1-028-12a-page.svg",
-      "qr_map": ""
+      "qr_map": "",
+      "thumb": "assets/photogeography/thumb/2297210-r1-028-12a.jpg"
     },
     {
       "sequence": 4,
@@ -95,7 +98,8 @@
       "qr_url": "",
       "notes": "",
       "qr_page": "assets/photogeography/qr/2297210-r1-032-14a-page.svg",
-      "qr_map": ""
+      "qr_map": "",
+      "thumb": "assets/photogeography/thumb/2297210-r1-032-14a.jpg"
     },
     {
       "sequence": 5,
@@ -117,7 +121,8 @@
       "qr_url": "",
       "notes": "",
       "qr_page": "assets/photogeography/qr/2297220-r1-016-6a-page.svg",
-      "qr_map": ""
+      "qr_map": "",
+      "thumb": "assets/photogeography/thumb/2297220-r1-016-6a.jpg"
     },
     {
       "sequence": 6,
@@ -139,7 +144,8 @@
       "qr_url": "",
       "notes": "",
       "qr_page": "assets/photogeography/qr/img_0235-page.svg",
-      "qr_map": "assets/photogeography/qr/img_0235-map.svg"
+      "qr_map": "assets/photogeography/qr/img_0235-map.svg",
+      "thumb": "assets/photogeography/thumb/img_0235.jpg"
     },
     {
       "sequence": 7,
@@ -161,7 +167,8 @@
       "qr_url": "",
       "notes": "",
       "qr_page": "assets/photogeography/qr/img_20180605_204419-page.svg",
-      "qr_map": "assets/photogeography/qr/img_20180605_204419-map.svg"
+      "qr_map": "assets/photogeography/qr/img_20180605_204419-map.svg",
+      "thumb": "assets/photogeography/thumb/img_20180605_204419.jpg"
     },
     {
       "sequence": 8,
@@ -183,7 +190,8 @@
       "qr_url": "",
       "notes": "Road trip moving from New York to Florida",
       "qr_page": "assets/photogeography/qr/img_2480-page.svg",
-      "qr_map": "assets/photogeography/qr/img_2480-map.svg"
+      "qr_map": "assets/photogeography/qr/img_2480-map.svg",
+      "thumb": "assets/photogeography/thumb/img_2480.jpg"
     },
     {
       "sequence": 9,
@@ -205,7 +213,8 @@
       "qr_url": "",
       "notes": "Bush down the block from apartment, 113 E 2nd St",
       "qr_page": "assets/photogeography/qr/img_2743-page.svg",
-      "qr_map": "assets/photogeography/qr/img_2743-map.svg"
+      "qr_map": "assets/photogeography/qr/img_2743-map.svg",
+      "thumb": "assets/photogeography/thumb/img_2743.jpg"
     },
     {
       "sequence": 10,
@@ -227,7 +236,8 @@
       "qr_url": "",
       "notes": "Bush down the block from apartment, 113 E 2nd St",
       "qr_page": "assets/photogeography/qr/img_2744-page.svg",
-      "qr_map": "assets/photogeography/qr/img_2744-map.svg"
+      "qr_map": "assets/photogeography/qr/img_2744-map.svg",
+      "thumb": "assets/photogeography/thumb/img_2744.jpg"
     },
     {
       "sequence": 11,
@@ -249,7 +259,8 @@
       "qr_url": "",
       "notes": "Shot on film, scanned via Noritsu",
       "qr_page": "assets/photogeography/qr/img_2748-page.svg",
-      "qr_map": "assets/photogeography/qr/img_2748-map.svg"
+      "qr_map": "assets/photogeography/qr/img_2748-map.svg",
+      "thumb": "assets/photogeography/thumb/img_2748.jpg"
     },
     {
       "sequence": 12,
@@ -271,7 +282,8 @@
       "qr_url": "",
       "notes": "Shot on film, scanned via Noritsu. Door bolt outside 145 E 2nd St.",
       "qr_page": "assets/photogeography/qr/img_3332-page.svg",
-      "qr_map": "assets/photogeography/qr/img_3332-map.svg"
+      "qr_map": "assets/photogeography/qr/img_3332-map.svg",
+      "thumb": "assets/photogeography/thumb/img_3332.jpg"
     },
     {
       "sequence": 13,
@@ -293,7 +305,8 @@
       "qr_url": "",
       "notes": "Tire shop on Coney Island Avenue",
       "qr_page": "assets/photogeography/qr/img_4517-page.svg",
-      "qr_map": "assets/photogeography/qr/img_4517-map.svg"
+      "qr_map": "assets/photogeography/qr/img_4517-map.svg",
+      "thumb": "assets/photogeography/thumb/img_4517.jpg"
     },
     {
       "sequence": 14,
@@ -315,7 +328,8 @@
       "qr_url": "",
       "notes": "",
       "qr_page": "assets/photogeography/qr/img_4518-page.svg",
-      "qr_map": "assets/photogeography/qr/img_4518-map.svg"
+      "qr_map": "assets/photogeography/qr/img_4518-map.svg",
+      "thumb": "assets/photogeography/thumb/img_4518.jpg"
     },
     {
       "sequence": 15,
@@ -337,7 +351,8 @@
       "qr_url": "",
       "notes": "Chrysalis and butterfly emerging, backyard",
       "qr_page": "assets/photogeography/qr/img_7015-page.svg",
-      "qr_map": "assets/photogeography/qr/img_7015-map.svg"
+      "qr_map": "assets/photogeography/qr/img_7015-map.svg",
+      "thumb": "assets/photogeography/thumb/img_7015.jpg"
     }
   ]
 }
