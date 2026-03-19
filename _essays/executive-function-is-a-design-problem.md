@@ -49,6 +49,14 @@ The learned ableism is the part where you know how to build the accommodation fo
 
 ---
 
+It's also how I learn anything new.
+
+When I decided to learn hydroponics, I didn't take a course. I decomposed the domain. What's involved? Plants, water, no dirt. The water has to move, so pumps. Aquarium pumps? OK, what kind. Pipes to carry the water. Nutrients in the water. Light requirements. I used AI to fill the gaps: help me understand how these pieces fit together for a hydroponic system. What don't I know. Then I started identifying each piece, figuring out what it does in the system, and building from there.
+
+Same process for GF baking. Same for sous vide technique. Same for food science. Same for every domain I've entered. The tool changes. It was microfiche, then books, then web searches, then AI. The operation doesn't change: decompose the domain, identify the parts, figure out how they connect, start building immediately. The learning and the building happen at the same time. You don't study then apply. You study by applying. Hands and brain together, talking it out loud, making as many connections as you can.
+
+---
+
 The systems in this series exist because pushing through is a design failure. The batch cook, the containerized storage, the forgiving tools, the AI co-pilot, the firewalled morning routine. Each one is an accommodation. Each one reduces the cognitive load at the point of execution so the person doing the work can actually complete it.
 
 The kid in my classroom needed the instruction broken into steps. The cook in my kitchen needed the same thing. The difference is that in the classroom I could see it immediately. In my own life it took years of building systems before I understood what I was building and why.
