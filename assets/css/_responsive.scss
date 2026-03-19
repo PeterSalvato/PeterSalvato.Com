@@ -97,8 +97,8 @@
     padding-right: 20px;
 
     .footer-columns {
-      display: flex;
-      flex-wrap: wrap;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
       gap: $space-lg;
     }
 
@@ -110,8 +110,9 @@
       width: auto;
     }
 
-    .footer-col:last-child {
-      width: 100%;
+    // Subscribe spans full width on mobile
+    .footer-col:nth-child(3) {
+      grid-column: 1 / -1;
     }
   }
 
