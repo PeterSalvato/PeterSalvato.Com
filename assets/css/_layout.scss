@@ -28,10 +28,23 @@ body {
   max-width: $container-max;
   transform: rotate(-0.2deg);
   font-size: 1rem;
+
+  // 12-column grid available to all content
+  // Children can use grid-column to span columns
+  // Default: content flows normally (grid only activates when children use it)
+  display: grid;
+  grid-template-columns: repeat($grid-columns, $grid-column);
+  gap: 0 $grid-gutter;
+
+  // Default: all direct children span full width
+  > * {
+    grid-column: 1 / -1;
+  }
 }
 
 .system-footer {
   width: 100%;
-  padding-left: $space-xxl;
-  padding-right: $space-xxl;
+  // Align footer col 1 with sidebar nav text left edge
+  padding-left: $space-lg;  // matches sidebar horizontal padding
+  padding-right: $space-lg;
 }
