@@ -9,7 +9,9 @@ last_modified: 2026-03-13
 
 # Contact
 
+{::nomarkdown}
 <img src="{{ '/assets/img/selfportrait-web.png' | relative_url }}" alt="Peter Salvato" class="image photo">
+{:/nomarkdown}
 
 **Email:** [ptsalvato@gmail.com](mailto:ptsalvato@gmail.com)
 
