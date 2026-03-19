@@ -46,6 +46,8 @@ I do the same kind of work professionally. Figure out what the system actually n
 
 I stopped treating dinner as a willpower problem and started treating it as a design problem. That shift is what this series covers.
 
+This is my half of a larger system. My wife runs the other half: insurance, prescriptions, telehealth appointments, therapy schedules, school coordination, taxes, budget, the medical and administrative logistics that keep four people with complex needs covered. In a household with two neurodivergent kids in therapy and a parent with celiac, that coordination is a full-time job running alongside the one she already has. These chapters cover the kitchen and the physical domestic operations because that's what I built. The administrative side is hers, and it's equally engineered, equally essential, and equally relentless.
+
 Part of it is the kitchen: how I organize the space, how I structure the cook, how I use tools to reduce the cognitive load of feeding four people from one workspace.
 
 Part of it is the garden: growing food, building growing systems, learning hydroponics and soil science from zero. Traditional homesteading practices combined with whatever technology actually reduces the burden.

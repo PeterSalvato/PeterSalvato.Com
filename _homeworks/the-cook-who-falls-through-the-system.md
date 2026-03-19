@@ -84,7 +84,7 @@ My wife needs different food than the rest of us. She eats for her health. The k
 
 The greens rot. The cherry tomatoes go soft. The prepped ingredients from the store last two days and then they're compost. I end up driving to a salad shop at 7 PM because the at-home version keeps failing.
 
-I'm being honest about this because the system isn't done. The kids' food came first because the stakes were highest. My own nutrition came second, and it's still inconsistent. My wife's meals came third, and they're still mostly manual. There's a triage order to how this got built, and it reflects where the crises were loudest, not where the need is greatest.
+I'm being honest about this because the system isn't done. The kids' food came first because the stakes were highest. My own nutrition came second, and it's still inconsistent. My wife's meals came third, and they're still mostly manual. We split the household along our strengths. I run the kitchen, the food, the physical domestic operations. She runs insurance, prescriptions, telehealth, therapy schedules, school coordination, taxes, the budget. Both halves are relentless. The triage order in the kitchen reflects where the crises were loudest on my side, and she gives me room to work it because she's carrying her own.
 
 I'll figure it out. I think the answer is something about smaller, more frequent produce runs, or a different storage approach, or maybe a separate mini-system just for salad components. But right now it's the gap in the system that I work around every night, and I'd rather say that than pretend the whole thing is seamless.
 
