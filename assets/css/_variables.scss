@@ -61,8 +61,8 @@ $space-xxxl:  6rem;       // 3 baseline units
 // ----------------------------------------------------------------------------
 // LAYOUT — 12-column grid, 752px content area
 // ----------------------------------------------------------------------------
-$sidebar-width:    200px;
-$sidebar-width-sm: 180px;
+$sidebar-width:    176px;   // 3 grid columns: 3×48 + 2×16 = 176px
+$sidebar-width-sm: 176px;
 
 // Grid system: 12 columns × 48px + 11 gutters × 16px = 752px
 $grid-columns:     12;
