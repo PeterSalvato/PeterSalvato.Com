@@ -17,34 +17,13 @@
 }
 
 // ---------------------------------------------------------------------------
-// Format-locked aspect ratios — the image container respects capture format
-// ---------------------------------------------------------------------------
-
-.photogeography-card--3x2 .photogeography-image {
-  aspect-ratio: 3 / 2;
-}
-
-.photogeography-card--4x3 .photogeography-image {
-  aspect-ratio: 4 / 3;
-}
-
-.photogeography-card--1x1 .photogeography-image {
-  aspect-ratio: 1 / 1;
-}
-
-// ---------------------------------------------------------------------------
-// Image
+// Image — natural proportions, no cropping
 // ---------------------------------------------------------------------------
 
 .photogeography-image {
-  position: relative;
-  background: #0d0d0d;
-  overflow: hidden;
-
   img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: auto;
     display: block;
     margin: 0;
   }
