@@ -6,7 +6,7 @@
 // ----------------------------------------------------------------------------
 // MOBILE — <600px
 // ----------------------------------------------------------------------------
-@media (max-width: 599px) {
+@media (max-width: 767px) {
 
   html, body {
     overflow-x: hidden;
@@ -273,130 +273,9 @@
 }
 
 // ----------------------------------------------------------------------------
-// TABLET — 600px–1023px
+// TABLET (large) — 768px–1023px: Desktop grid layout, no adjustments needed
+// The base 752px grid fits. Inherits desktop styles from _layout.scss.
 // ----------------------------------------------------------------------------
-@media (min-width: 600px) and (max-width: 1023px) {
-
-  .hamburger-btn { display: none; }
-
-  body {
-    display: block;
-    max-width: 100%;
-  }
-
-  #sidebar-nav {
-    grid-column: auto;
-    width: 100%;
-    padding: $space-lg $space-xl $space-md;
-    text-align: left;
-
-    .sidebar-mark {
-      margin-bottom: $space-sm;
-
-      img {
-        width: 200px;
-        margin: 0;
-      }
-    }
-
-    #sidebar-header {
-      width: 200px;
-      margin: 0 auto 1rem;
-      transform: translateX(-1.75rem) rotate(-0.5deg);
-    }
-
-    #sidebar-title {
-      font-size: 2rem;
-      letter-spacing: 0.06em;
-      line-height: 1;
-      text-align: left;
-      position: relative;
-      width: 11rem;
-      margin-top: -3rem;
-      padding-left: 0.5rem;
-      transform: rotate(0.25deg);
-      margin-bottom: 0;
-      left: 5rem;
-    }
-
-    .nav-list {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-      gap: 0;
-    }
-
-    .nav-item {
-      margin-bottom: 0;
-    }
-
-    .nav-item > a {
-      min-height: 44px;
-      padding: 0.5rem;
-    }
-
-    .nav-icon {
-      display: none;
-    }
-
-    .nav-sublist {
-      display: none;
-    }
-  }
-
-  #main-content {
-    grid-column: auto;
-    padding: $space-lg $space-xl $space-xxl;
-  }
-
-  .system-footer {
-    grid-column: auto;
-    width: 100%;
-    margin-left: 0;
-    transform: none;
-    padding-left: $space-xl;
-    padding-right: $space-xl;
-
-    .footer-columns {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 0;
-    }
-
-    .footer-col,
-    .footer-col:nth-child(1),
-    .footer-col:nth-child(2),
-    .footer-col:nth-child(3) {
-      grid-column: auto;
-      width: auto;
-    }
-
-    .footer-col:nth-child(3) {
-      grid-column: 1 / -1;
-    }
-  }
-
-  #container {
-    display: block;
-    max-width: 600px;
-    transform: none;
-  }
-
-  #homepage-hero {
-    .hero-image {
-      width: 250px;
-    }
-
-    h1 {
-      font-size: 1.875rem;
-    }
-  }
-
-  #section-cards {
-    grid-template-columns: 1fr;
-    gap: $space-md;
-  }
-}
 
 // ----------------------------------------------------------------------------
 // ULTRAWIDE — 1600px+
