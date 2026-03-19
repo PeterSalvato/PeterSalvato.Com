@@ -2,37 +2,32 @@
 // TYPOGRAPHY — Heading styles, prose content, inline elements
 // ============================================================================
 
-h1 {
+h1, h2, h3, h4 {
   font-family: $font-display;
-  font-size: $type-h1;
   letter-spacing: 0.02em;
   text-transform: uppercase;
+  filter: url(#rough-edge);
+}
+
+h1 {
+  font-size: $type-h1;
   margin-bottom: $space-lg;
 }
 
 h2 {
-  font-family: $font-display;
   font-size: $type-h2;
-  letter-spacing: 0.02em;
-  text-transform: uppercase;
   margin-top: $space-xxxl;
   margin-bottom: $space-md;
 }
 
 h3 {
-  font-family: $font-display;
   font-size: $type-h3;
-  letter-spacing: 0.02em;
-  text-transform: uppercase;
   margin-top: $space-xl;
   margin-bottom: $space-sm;
 }
 
 h4 {
-  font-family: $font-display;
   font-size: $type-body;
-  letter-spacing: 0.02em;
-  text-transform: uppercase;
   margin-top: $space-lg;
   margin-bottom: $space-sm;
 }
