@@ -99,7 +99,7 @@
     .footer-columns {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      gap: $space-lg;
+      gap: 0;
     }
 
     .footer-col,
@@ -323,8 +323,9 @@
     padding-right: $space-xl;
 
     .footer-columns {
-      display: flex;
-      gap: $space-lg 4rem;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 0;
     }
 
     .footer-col,

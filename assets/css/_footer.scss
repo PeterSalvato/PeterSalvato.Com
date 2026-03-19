@@ -29,7 +29,7 @@ $footer-rule: rgba(255, 255, 255, 0.15);
   .footer-columns {
     display: grid;
     grid-template-columns: repeat($grid-columns, $grid-column);
-    gap: 0 $grid-gutter;
+    gap: 0;
   }
 
   // Col 1 (Navigate): grid cols 1-3 (aligns with sidebar)
