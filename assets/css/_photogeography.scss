@@ -7,17 +7,15 @@
 .photogeography-card {
   background: $color-white;
   color: $color-ink;
-  padding: $space-lg;
   display: grid;
   grid-template-rows: auto auto auto;
   gap: $space-md;
-  position: relative;
-  overflow: hidden;
   border: 1px solid $color-rule;
+  overflow: hidden;
 }
 
 // ---------------------------------------------------------------------------
-// Image — natural proportions, no cropping
+// Image
 // ---------------------------------------------------------------------------
 
 .photogeography-image {
@@ -27,6 +25,22 @@
     display: block;
     margin: 0;
   }
+}
+
+// Gallery cards: uniform 3:2 crop, metadata has padding
+.photogeography-gallery .photogeography-image {
+  aspect-ratio: 3 / 2;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.photogeography-gallery .photogeography-meta {
+  padding: 0 $space-lg $space-lg;
 }
 
 .photogeography-image-placeholder {
@@ -102,6 +116,14 @@
   max-width: 700px;
   margin: 0 auto;
   border: none;
+
+  .photogeography-meta {
+    padding: 0 $space-lg;
+  }
+
+  .photogeography-qr-row {
+    padding: $space-sm $space-lg $space-lg;
+  }
 
   .photogeography-qr img {
     width: 64px;
