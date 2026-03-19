@@ -290,11 +290,44 @@
     padding: $space-lg $space-xl $space-md;
     text-align: left;
 
+    .sidebar-mark {
+      margin-bottom: $space-sm;
+
+      img {
+        width: 200px;
+        margin: 0;
+      }
+    }
+
+    #sidebar-header {
+      width: 200px;
+      margin: 0 auto 1rem;
+      transform: translateX(-1.75rem) rotate(-0.5deg);
+    }
+
+    #sidebar-title {
+      font-size: 2rem;
+      letter-spacing: 0.06em;
+      line-height: 1;
+      text-align: left;
+      position: relative;
+      width: 11rem;
+      margin-top: -3rem;
+      padding-left: 0.5rem;
+      transform: rotate(0.25deg);
+      margin-bottom: 0;
+      left: 5rem;
+    }
+
     .nav-list {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-around;
       gap: 0;
+    }
+
+    .nav-item {
+      margin-bottom: 0;
     }
 
     .nav-item > a {
