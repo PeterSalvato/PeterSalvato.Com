@@ -1,30 +1,32 @@
 // ============================================================================
-// RESPONSIVE — Mobile, tablet, ultrawide overrides
-// Base layout in _layout.scss targets laptop (1024–1599px)
+// RESPONSIVE — Per-breakpoint element adjustments
+// Grid placement is in _grid.scss. This file handles everything else.
 // ============================================================================
 
 // ----------------------------------------------------------------------------
-// MOBILE — <600px
+// XS: <480px
 // ----------------------------------------------------------------------------
-@media (max-width: 768px) {
-
+@media (max-width: #{$bp-s - 1}) {
   html, body {
     overflow-x: hidden;
   }
 
-  body {
-    display: block;
-    max-width: 100%;
+  #container {
+    transform: none;
   }
 
-  .hamburger-btn {
-    display: none;
+  h1, h2, h3 {
+    overflow-wrap: break-word;
+    word-break: break-word;
   }
+}
 
+// ----------------------------------------------------------------------------
+// S and below: <768px — collapsed sidebar
+// ----------------------------------------------------------------------------
+@media (max-width: #{$bp-m - 1}) {
   #sidebar-nav {
-    grid-column: auto;
-    width: 100%;
-    padding: $space-lg 20px $space-md;
+    padding: $space-lg $grid-margin $space-md;
     text-align: left;
 
     .sidebar-mark {
@@ -73,54 +75,21 @@
       font-size: 0.8125rem;
     }
 
-    .nav-icon {
-      display: none;
-    }
-
     .nav-sublist {
       display: none;
     }
   }
 
   #main-content {
-    grid-column: auto;
-    padding: $space-lg 20px $space-xxl;
+    padding: $space-lg 0 $space-xxl;
     overflow-x: hidden;
   }
 
-  .system-footer {
-    grid-column: auto;
-    width: 100%;
-    margin-left: 0;
-    transform: none;
-    padding-left: 20px;
-    padding-right: 20px;
-
-    .footer-columns {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 0;
-    }
-
-    .footer-col,
-    .footer-col:nth-child(1),
-    .footer-col:nth-child(2),
-    .footer-col:nth-child(3) {
-      grid-column: auto;
-      width: auto;
-    }
-
-    // Subscribe spans full width on mobile
-    .footer-col:nth-child(3) {
-      grid-column: 1 / -1;
-    }
-  }
-
   #container {
-    display: block;
-    max-width: 100%;
     transform: none;
   }
+
+  // TEMPORARY: component-specific rules — move to component partials in Phase 2
 
   // Homepage
   #homepage-hero {
@@ -150,35 +119,61 @@
   }
 
   // Footer
-  .system-footer .footer-nav {
-    flex-direction: column;
-    align-items: center;
-    gap: $space-md;
+  .system-footer {
+    width: 100%;
+    margin-left: 0;
+    transform: none;
+    padding-left: $grid-margin;
+    padding-right: $grid-margin;
+
+    .footer-columns {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0;
+    }
+
+    .footer-col,
+    .footer-col:nth-child(1),
+    .footer-col:nth-child(2),
+    .footer-col:nth-child(3) {
+      grid-column: auto;
+      width: auto;
+    }
+
+    .footer-col:nth-child(3) {
+      grid-column: 1 / -1;
+    }
+
+    .footer-nav {
+      flex-direction: column;
+      align-items: center;
+      gap: $space-md;
+    }
+
+    .footer-dig {
+      flex-direction: column;
+      align-items: center;
+      gap: $space-sm;
+    }
+
+    .subscribe-form {
+      flex-direction: column;
+      max-width: 100%;
+    }
+
+    .subscribe-button {
+      align-self: flex-start;
+    }
+
+    a {
+      display: inline-block;
+      min-height: 44px;
+      padding: $space-xs 0;
+      line-height: 2;
+    }
   }
 
-  .system-footer .footer-dig {
-    flex-direction: column;
-    align-items: center;
-    gap: $space-sm;
-  }
-
-  .system-footer .subscribe-form {
-    flex-direction: column;
-    max-width: 100%;
-  }
-
-  .system-footer .subscribe-button {
-    align-self: flex-start;
-  }
-
-  .system-footer a {
-    display: inline-block;
-    min-height: 44px;
-    padding: $space-xs 0;
-    line-height: 2;
-  }
-
-  // Vocabulary tooltips: reposition on small screens
+  // Vocabulary tooltips
   .vocab-tooltip {
     left: 0;
     transform: translateX(0) translateY(4px);
@@ -208,19 +203,12 @@
     max-height: 350px;
   }
 
-  // Context editorial: stack
   .context-editorial .context-editorial-image {
     float: none;
     width: 100%;
     max-width: 100%;
     margin-right: 0;
     margin-bottom: $space-lg;
-  }
-
-  // Heading overflow
-  h1, h2, h3 {
-    overflow-wrap: break-word;
-    word-break: break-word;
   }
 
   .artifact-card h1,
@@ -230,7 +218,6 @@
     word-break: break-word;
   }
 
-  // Hero card: stack
   .artifact-card--hero .artifact-hero-header {
     flex-direction: column;
   }
@@ -264,7 +251,7 @@
     text-align: left;
   }
 
-  // Work entries stack
+  // Work entries
   .work-entry {
     flex-direction: column;
     gap: $space-sm;
@@ -273,18 +260,18 @@
 }
 
 // ----------------------------------------------------------------------------
-// TABLET (large) — 768px–1023px: Desktop grid layout, no adjustments needed
-// The base 752px grid fits. Inherits desktop styles from _layout.scss.
+// L+: 1024px+ — sidebar visible
 // ----------------------------------------------------------------------------
+@media (min-width: $bp-l) {
+  #sidebar-nav {
+    padding: $space-xxl 0;
+  }
+}
 
 // ----------------------------------------------------------------------------
-// ULTRAWIDE — 1600px+
+// XL: 1400px+
 // ----------------------------------------------------------------------------
-@media (min-width: 1600px) {
-
-  .hamburger-btn { display: none; }
-
-  // Ultrawide: same grid, just more breathing room around it
+@media (min-width: $bp-xl) {
   #sidebar-nav {
     padding-top: $space-xxxl;
   }
