@@ -155,6 +155,32 @@ The v3.1 version of this savepoint had the same `#` line. Without `context:`, a 
 
 The self-closing tag hasn't changed since v3.0. Each revision since has added optional fields in response to a specific retrieval failure: couldn't filter by project (v3.1 added `project:`), couldn't find it by search terms (v3.1 added `keywords:`), couldn't reconstruct what it meant (v3.2 added `context:`). The protocol is shaped by retrieval, not capture. Every field earned its place by failing without it.
 
+---
+
+The thinking is the value. The human thinking.
+
+Whether it's one person talking to an AI, two people ideating together, or a team in a room, the conversation is where ideas form. AI didn't invent that. AI is one possible participant. SavePoint marks where understanding shifts, regardless of who's in the conversation.
+
+The conversation exports are the raw material. Session logs, transcripts, JSONL files. The ideation history, the thinking as it actually happened. These live locally, in the project directory, on your machine. For Claude Code sessions, they're in `.claude/projects/`. Every savepoint you dropped during every session is inside those files.
+
+Without savepoints, a 3,000-line conversation export is a wall of text. With savepoints, every moment where understanding crystallized has coordinates: a timestamp, a project scope, keywords, a context field, and one line of crystallized thought. The savepoints are an index into your own thinking. The conversation is the corpus. The savepoints are the addresses.
+
+The retrieval degrades gracefully across four levels:
+
+**AI traversal.** Load the exports, the AI finds savepoints and reconstructs context around them. Fastest, richest. This is how the protocol was designed to work.
+
+**grep and jq.** `grep "<Savepoint" exports/*.jsonl` finds every savepoint. `grep "keywords:kitchen"` narrows it. No AI needed. The syntax is plain text and parseable because it was designed from CSS selectors and HTML attributes. Basic Unix tools can search it.
+
+**Manual scan.** Print the exports. The `<Savepoint ... />` tag is visually distinct from everything around it. Prose looks like prose. A savepoint looks like a savepoint. You can find them by eye because they're structurally different from the conversation that surrounds them.
+
+**Memory.** The act of crystallizing a thought into one line changes how you remember it. The discipline of writing the savepoint, of stopping and asking "what actually shifted here," strengthens retention even if you never search the archive.
+
+Every AI-native memory system (MemGPT, Claude's memory, ChatGPT's memory) locks the value inside the platform. If the AI is unavailable, the memory is inaccessible. SavePoint puts the value in the conversation, on your machine, in a format that works at every level of technology from AI to grep to eyeballs on paper. The protocol survives infrastructure failure because it's plain text.
+
+This is accommodation design applied to the tool itself. SavePoint accommodates the human (marks what working memory drops). It accommodates the AI (preserves context across sessions). And it accommodates its own failure mode (degrades to text search when the AI is gone). The thinking stays with the project. The retrieval doesn't depend on the tool that generated it.
+
+---
+
 The syntax runs across everything now: [Encore's](/evidence/encore/) platform decisions, [Aiden Jae's](/evidence/aiden-jae/) brand architecture, the portfolio site itself, the novel that started it. v3.2, open source.
 
 The syntax runs inside [FormWork](/systems/formwork/), alongside the other accommodation tools. But it started as a reflex, five months before I had language for any of this. I just didn't want to lose the thinking. [This Site](/practice/this-site/) shows the full process running on the site you're reading.
