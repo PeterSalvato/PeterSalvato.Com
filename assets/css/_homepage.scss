@@ -49,7 +49,7 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: $grid-gutter;
-  margin-bottom: $space-lg;
+  margin-bottom: 0;
 }
 
 .section-card {
@@ -72,6 +72,7 @@
     font-size: $type-caption;
     color: $color-ink-light;
     line-height: $leading-body;
+    max-width: 50ch;
   }
 }
 

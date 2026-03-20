@@ -26,6 +26,7 @@
 #sidebar-title {
   font-family: $font-display;
   font-size: 2rem;
+  filter: url(#subtle-rough);
   letter-spacing: 0.06em;
   line-height: 1;
   text-transform: uppercase;
@@ -56,16 +57,14 @@
 }
 
 .nav-item > a {
-  display: flex;
-  align-items: center;
-  gap: $space-sm;
+  display: inline-block;
   padding: $space-sm 0;
   font-family: $font-display;
-  font-size: $type-body-sm;
+  font-size: 0.8rem;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.04em;
-  color: $color-ink-light;
+  color: $color-ink;
   text-decoration: none;
   transition: color $transition-fast;
 
@@ -91,7 +90,7 @@
 // Material icons in nav
 .nav-icon {
   font-size: 18px;
-  opacity: 0.5;
+  opacity: 1;
   flex-shrink: 0;
   visibility: hidden;
 }

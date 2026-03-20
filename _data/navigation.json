@@ -6,11 +6,6 @@
       "icon": "cases"
     },
     {
-      "label": "Practice",
-      "url": "/practice/",
-      "icon": "palette"
-    },
-    {
       "label": "Writing",
       "url": "/essays/",
       "icon": "edit_note"

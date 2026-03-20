@@ -11,7 +11,7 @@
       {% for item in site.data.navigation.items %}
         {%- assign item_path = item.url | append: '/' -%}
         <li class="nav-item{% if item.children %} has-children{% endif %}">
-          <a href="{{ item.url | relative_url }}"{% if page.url == item.url or page.url == item_path %} class="is-active"{% endif %}><span class="material-symbols-outlined nav-icon">{{ item.icon | default: 'article' }}</span><span class="nav-text">{{ item.label }}</span></a>
+          <a href="{{ item.url | relative_url }}"{% if page.url == item.url or page.url == item_path %} class="is-active"{% endif %}><span class="nav-text">{{ item.label }}</span></a>
           {% if item.children %}
           <ul class="nav-sublist">
             {% for child in item.children %}
