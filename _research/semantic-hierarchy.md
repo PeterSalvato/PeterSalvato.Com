@@ -192,7 +192,43 @@ Savepoint Syntax did not arrive as a finished protocol. It failed three times be
 Each version failure was an accommodation failure. The format did not fit the practitioner's processing reality. Version 1.0 did not constrain enough (the practitioner drifts without structure). Version 2.0 constrained the wrong thing (the practitioner's flow state). Version 3.0 got the constraint right but did not scale. The design principle throughout: build the syntax for what the model needs to reconstruct context, not for what the human needs to remember. That distinction is where the accommodation happens.
 
 
-## 6. Literature Gap
+## 6. Format as Accommodation
+
+The self-closing tag format is a deliberate design decision with consequences beyond aesthetics. The syntax was modeled on CSS selectors and HTML conventions because those formats are plain text, machine-parseable, and human-readable without any tooling. That choice determines the protocol's resilience, portability, and sovereignty characteristics.
+
+
+### 6.1 Graceful Degradation
+
+Every AI-native memory system (MemGPT, vendor memory features, MemOS) locks the value inside the platform. If the AI is unavailable, the memory is inaccessible. Savepoint Syntax degrades across four levels of technological availability:
+
+**AI traversal.** The AI loads conversation exports and uses savepoints as high-weight markers for contextual reconstruction. Fastest, richest retrieval. This is the designed primary mode.
+
+**Command-line search.** `grep "<Savepoint" exports/*.jsonl` finds every savepoint in the archive. `grep "keywords:taxonomy"` narrows by topic. `jq` parses the structured fields. No AI needed. The syntax is plain text and parseable by standard Unix tools.
+
+**Manual scan.** The `<Savepoint ... />` tag is visually distinct from surrounding prose. In a printed transcript, savepoints are locatable by eye because they are structurally different from the conversation that surrounds them.
+
+**Cognitive benefit.** The act of crystallizing a thought into one line changes how the practitioner remembers it. The discipline of writing the savepoint, stopping to ask "what actually shifted here," strengthens retention even if the archive is never searched.
+
+The protocol survives its own infrastructure failing. The AI creates optimal retrieval conditions. When the AI is gone, the savepoints are still addressable through progressively simpler tools, down to paper and a highlighter. This is accommodation design applied to the tool itself: the system accommodates the human (marks what working memory drops), accommodates the AI (preserves context across sessions), and accommodates its own failure mode (degrades to text search when the AI is gone).
+
+
+### 6.2 Team Portability
+
+Because savepoints are plain text markers in conversation streams, they work identically in multi-participant conversations. Two practitioners ideating together in a shared session can both drop savepoints. The exports (Slack transcripts, Google Chat logs, shared AI conversation exports) carry the markers the same way individual session logs do. The retrieval works the same way at every level: AI traversal when available, grep when the AI is gone.
+
+The protocol does not require any shared infrastructure beyond the conversation itself. The conversation is the database. The savepoints are the index. The format is the contract between the people thinking and the future version of themselves (or their colleagues) who need to find what was decided.
+
+
+### 6.3 Cognitive Sovereignty
+
+AI-native memory systems store the practitioner's cognitive output inside the platform. The practitioner's thinking becomes platform-dependent. If the platform changes its terms, deprecates a feature, or becomes unavailable, the cognitive record is at risk.
+
+Savepoint Syntax stores the cognitive output in the conversation stream, which exports to the practitioner's own machine in plain text. The thinking stays with the person who did it. The retrieval works with the AI running or without it. The value that the human generated during the conversation, the moments where understanding shifted, remains addressable through the simplest possible tools.
+
+The plain-text format is the sovereignty mechanism. The practitioner's cognitive output should never be locked inside infrastructure that can become unavailable. The conversation is where the thinking happens. The savepoints mark where it crystallized. The exports put both on the practitioner's machine. The format ensures they stay readable regardless of what happens to the tools.
+
+
+## 7. Literature Gap
 
 A systematic search of current AI memory research (2024-2026) across arXiv, ICLR, NeurIPS, ACL, and related venues, supplemented by the comprehensive survey "Memory in the Age of AI Agents" (December 2025), confirms that no existing system places human-marked semantic hierarchy at the center of its memory architecture.
 
@@ -209,7 +245,7 @@ The gap: nobody is asking who decides what mattered. Every system assumes the ma
 The closest work, Semantic Anchoring (Chatterjee, 2025), enriches memory with linguistic structure, but the enrichment is computational. The human's assessment of which moments were turning points never enters the system. The paper represents the state of the art in structural memory enrichment. What it does not address is semantic importance: what that moment meant to the person who was thinking through it, as opposed to what the text looks like structurally.
 
 
-## 7. Implications
+## 8. Implications
 
 If semantic importance is a relationship between content and intent, several things follow.
 
@@ -222,14 +258,10 @@ If semantic importance is a relationship between content and intent, several thi
 
 **The accommodation is bilateral.** The AI compensates for the human's limited bandwidth. The human compensates for the AI's inability to judge weight. Systems that attempt to solve memory with machine-only approaches will always flatten, regardless of scoring sophistication. Systems that require the human to mark everything manually will fail because the human cannot track every important moment in a high-bandwidth session. The bilateral model (AI proposes, human's intent confirms) is the accommodation that fits both processing realities.
 
-**The conversation stream is the archive.** Savepoints live in conversation history, not in a separate database. This means they persist in session exports, appear in knowledge traversal, and travel with the practitioner across tools. The archive is not a curated knowledge base. It is the full stream of thinking, marked at the points where the thinking turned. That stream, with its hierarchy intact, is the highest-value dataset a practitioner can accumulate.
-
-**The format is the resilience layer.** Every AI-native memory system (MemGPT, vendor memory features, MemOS) locks the value inside the platform. If the AI is unavailable, the memory is inaccessible. Savepoint Syntax is plain text in a parseable format, designed from CSS selectors and HTML self-closing tag conventions. The savepoints live in conversation exports on the practitioner's own machine. When the AI is available, it traverses the exports and uses the savepoints as high-weight markers for contextual reconstruction. When the AI is unavailable (compute exhausted, API down, context window full, session closed), the savepoints are still searchable by basic tools: `grep "<Savepoint" exports/*.jsonl` finds every savepoint in the archive. `grep "keywords:taxonomy"` narrows by topic. `jq` parses the structured fields. At the most basic level, the `<Savepoint ... />` tag is visually distinct from surrounding prose and can be located by eye in a printed transcript. The protocol degrades gracefully across four levels of technological availability: AI traversal, command-line search, manual scan, and the cognitive benefit of having crystallized the thought in the first place. This is accommodation design applied to the tool itself. The system accommodates the human (marks what working memory drops), accommodates the AI (preserves context across sessions), and accommodates its own infrastructure failure (degrades to text search when the AI is gone).
-
-**The format scales to teams.** Because savepoints are plain text markers in conversation streams, they work identically in multi-participant conversations. Two practitioners ideating together in a shared session can both drop savepoints. The exports (Slack transcripts, Google Chat logs, shared AI conversation exports) carry the markers the same way individual session logs do. The retrieval works the same way: AI traversal when available, grep when the AI is gone. The protocol does not require any shared infrastructure beyond the conversation itself. The conversation is the database. The savepoints are the index. The format is the contract between the people thinking and the future version of themselves (or their colleagues) who need to find what was decided.
+**The conversation stream is the archive.** Savepoints live in conversation history, not in a separate database. This means they persist in session exports, appear in knowledge traversal, and travel with the practitioner across tools. The archive is the full stream of thinking, marked at the points where the thinking turned. That stream, with its hierarchy intact, is the highest-value dataset a practitioner can accumulate. Section 6 addresses the format decisions that make this archive resilient, portable, and sovereign.
 
 
-## 8. Conclusion
+## 9. Conclusion
 
 The AI memory research community is building increasingly sophisticated systems for determining what matters in conversation history. Surprise metrics, frequency scoring, discourse analysis, embedding similarity. Each approach treats importance as a property of the content: something the machine can compute from the text alone.
 
@@ -237,9 +269,7 @@ This paper proposes a different framing. Semantic importance is not a property o
 
 Savepoint Syntax provides the infrastructure for human-marked semantic hierarchy: structured tags dropped at cognitive turning points, supported by AI pattern recognition, shaped by the practitioner's declared intent. The system has been in continuous use for over a year across more than 60,000 documents of ideation history. It was built as accommodation for a specific disability (the model's inability to distinguish weight) producing a specific harm (the flattening of the practitioner's thinking across the conversation archive).
 
-The field is building better recall. The missing piece is weight. Without a human source for that weight, and infrastructure designed to preserve it, the practitioner's presence in AI-mediated work erodes over time.
-
-There is a second missing piece: sovereignty. AI-native memory systems store the practitioner's cognitive output inside the platform. The practitioner's thinking becomes platform-dependent. Savepoint Syntax stores the cognitive output in the conversation stream, which exports to the practitioner's own machine in plain text. The thinking stays with the person who did it. The retrieval works with the AI running or without it. The value that the human generated during the conversation remains addressable through the simplest possible tools. The protocol's plain-text format is a deliberate design decision: the practitioner's cognitive output should never be locked inside infrastructure that can become unavailable.
+The field is building better recall. Two pieces are missing. The first is weight: without a human source for semantic importance, the practitioner's presence in AI-mediated work erodes over time. The second is sovereignty: without a platform-independent format, the practitioner's cognitive output is locked inside infrastructure that can become unavailable. Savepoint Syntax addresses both. Human-marked importance preserves weight. Plain-text format preserves sovereignty. The thinking stays with the person who did it, addressable at every level of technological availability, from AI traversal to grep to a printed page.
 
 ---
 
