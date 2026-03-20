@@ -6,9 +6,9 @@
       "icon": "cases"
     },
     {
-      "label": "How I Work",
-      "url": "/systems/",
-      "icon": "handyman"
+      "label": "Practice",
+      "url": "/practice/",
+      "icon": "palette"
     },
     {
       "label": "Writing",
@@ -16,14 +16,9 @@
       "icon": "edit_note"
     },
     {
-      "label": "About",
-      "url": "/about/",
+      "label": "Thinking",
+      "url": "/thinking/",
       "icon": "psychology"
-    },
-    {
-      "label": "Contact",
-      "url": "/contact/",
-      "icon": "mail"
     }
   ]
 }

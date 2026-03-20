@@ -15,8 +15,7 @@ Side projects, personal work, things I make because the instinct doesn't shut of
 
 <div id="domain-artifacts">
 
-{% assign creative = site.practice | where_exp: "item", "item.practice_group != 'whitepaper' and item.practice_group != nil" %}
-{% for item in creative %}
+{% for item in site.practice %}
   {% if item.published != false and item.listed != false %}
   <a href="{{ item.url | relative_url }}" class="artifact-card artifact-card--link">
     <div class="artifact-hero-header">

@@ -67,3 +67,65 @@ In AI work, that second accommodation is the same move: get the thinking out of 
 In every case, the people closest to the work couldn't see the gap because they were focused on what they needed the system to do. The shift was learning to read the other system in the room, the one receiving the work, and designing for what it could actually handle.
 
 That shift started in a self-contained classroom in Sunset Park, Brooklyn, and it applies to every material I've worked in since. I wrote up the thinking as [accommodation design](/research/accommodation-design/). [FormWork](/systems/formwork/) is how I actually run it. And this site is what happens when I point both of them at my own work, which turned out to be the hardest application because I kept confusing what I wanted to say with what the page needed to hold.
+
+---
+
+## Systems
+
+The tools I built to run the methodology.
+
+<div id="domain-artifacts">
+{% for item in site.systems %}
+  {% if item.published != false %}
+  <a href="{{ item.url | relative_url }}" class="artifact-card artifact-card--link">
+    <div class="artifact-hero-header">
+      <div class="artifact-hero-title">
+        <h3>{{ item.title }}</h3>
+        {% if item.subtitle %}<p class="artifact-subtitle">{{ item.subtitle }}</p>{% endif %}
+      </div>
+    </div>
+    {% if item.description %}<p class="artifact-context">{{ item.description }}</p>{% endif %}
+    <p class="artifact-link">Read &rarr;</p>
+  </a>
+  {% endif %}
+{% endfor %}
+</div>
+
+---
+
+## Research
+
+The thinking formalized. Published papers with DOIs on [Zenodo](https://zenodo.org).
+
+<div id="domain-artifacts">
+{% for item in site.research %}
+  {% if item.published != false %}
+  <a href="{{ item.url | relative_url }}" class="artifact-card artifact-card--link">
+    <div class="artifact-hero-header">
+      <div class="artifact-hero-title">
+        <h3>{{ item.title }}</h3>
+        {% if item.subtitle %}<p class="artifact-subtitle">{{ item.subtitle }}</p>{% endif %}
+      </div>
+    </div>
+    {% if item.description %}<p class="artifact-context">{{ item.description }}</p>{% endif %}
+    <p class="artifact-link">Read &rarr;</p>
+  </a>
+  {% endif %}
+{% endfor %}
+</div>
+
+---
+
+## Free Tools
+
+Four tools you paste into ChatGPT, Claude, or Gemini. They change how the conversation works.
+
+<a href="{{ '/start/' | relative_url }}" class="artifact-card artifact-card--link">
+  <div class="artifact-hero-header">
+    <div class="artifact-hero-title">
+      <h3>Start Here</h3>
+    </div>
+  </div>
+  <p class="artifact-context">Task chunking, context preservation, brain dumps, voice protection. Each one takes about a minute to set up. No code. No account.</p>
+  <p class="artifact-link">Get the tools &rarr;</p>
+</a>
