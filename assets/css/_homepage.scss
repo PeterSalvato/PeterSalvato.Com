@@ -50,6 +50,19 @@
   grid-template-columns: 1fr;
   gap: $grid-gutter;
   margin-bottom: 0;
+
+  .section-card {
+    margin-bottom: 0;
+  }
+
+  // L+: featured card spans 2 cols, others split evenly below
+  @media (min-width: $bp-l) {
+    grid-template-columns: 1fr 1fr;
+
+    .section-card:first-child {
+      grid-column: 1 / -1;
+    }
+  }
 }
 
 .section-card {

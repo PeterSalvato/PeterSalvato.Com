@@ -58,6 +58,12 @@
 
 .nav-item > a {
   display: inline-block;
+
+  @media (min-width: $bp-l) {
+    &::before {
+      content: "– ";
+    }
+  }
   padding: $space-sm 0;
   font-family: $font-display;
   font-size: 0.8rem;

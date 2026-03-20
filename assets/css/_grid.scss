@@ -1,5 +1,6 @@
 // ============================================================================
-// GRID — Swiss column grid, fixed gutters, 5 breakpoints
+// GRID — Swiss column grid, fixed widths, 5 breakpoints
+// Each breakpoint is a static page, centered. No fluid stretch.
 // ============================================================================
 
 // Breakpoints
@@ -8,41 +9,68 @@ $bp-m:  768px;
 $bp-l:  1024px;
 $bp-xl: 1400px;
 
+// Page widths — fixed at breakpoint minimum
+$page-xs: 100%;    // phones: full viewport
+$page-s:  480px;
+$page-m:  768px;
+$page-l:  1024px;
+$page-xl: 1400px;
+
 // Grid constants
 $grid-gutter: 20px;
 $grid-margin: 20px;
 
-// Page grid mixin
-@mixin page-grid($cols) {
+// Column width = (page - 2*margin - (cols-1)*gutter) / cols
+$col-s:  calc((#{$page-s} - 2 * #{$grid-margin} - 1 * #{$grid-gutter}) / 2);
+$col-m:  calc((#{$page-m} - 2 * #{$grid-margin} - 2 * #{$grid-gutter}) / 3);
+$col-l:  calc((#{$page-l} - 2 * #{$grid-margin} - 3 * #{$grid-gutter}) / 4);
+$col-xl: calc((#{$page-xl} - 2 * #{$grid-margin} - 5 * #{$grid-gutter}) / 6);
+
+// Page grid mixin — fixed-width columns, centered
+@mixin page-grid($cols, $col-width) {
   display: grid;
-  grid-template-columns: repeat($cols, 1fr);
+  grid-template-columns: repeat($cols, $col-width);
+  gap: 0 $grid-gutter;
+  padding-left: $grid-margin;
+  padding-right: $grid-margin;
+  margin: 0 auto;
+}
+
+// XS: <480px — 1 column, full width
+body {
+  display: grid;
+  grid-template-columns: 1fr;
   gap: 0 $grid-gutter;
   padding-left: $grid-margin;
   padding-right: $grid-margin;
 }
 
-// XS: <480px — 1 column
-body {
-  @include page-grid(1);
-}
-
-#sidebar-nav  { grid-column: 1 / -1; }
-#main-content { grid-column: 1 / -1; }
+#sidebar-nav   { grid-column: 1 / -1; }
+#main-content  { grid-column: 1 / -1; }
 .system-footer { grid-column: 1 / -1; }
 
 // S: 480-767px — 2 columns
 @media (min-width: $bp-s) {
-  body { @include page-grid(2); }
+  body {
+    @include page-grid(2, $col-s);
+    max-width: $page-s;
+  }
 }
 
 // M: 768-1023px — 3 columns
 @media (min-width: $bp-m) {
-  body { @include page-grid(3); }
+  body {
+    @include page-grid(3, $col-m);
+    max-width: $page-m;
+  }
 }
 
 // L: 1024-1399px — 4 columns, sidebar in col 1
 @media (min-width: $bp-l) {
-  body { @include page-grid(4); }
+  body {
+    @include page-grid(4, $col-l);
+    max-width: $page-l;
+  }
 
   #sidebar-nav {
     grid-column: 1 / 2;
@@ -58,7 +86,10 @@ body {
 
 // XL: 1400px+ — 6 columns, sidebar in cols 1-2
 @media (min-width: $bp-xl) {
-  body { @include page-grid(6); }
+  body {
+    @include page-grid(6, $col-xl);
+    max-width: $page-xl;
+  }
 
   #sidebar-nav {
     grid-column: 1 / 3;

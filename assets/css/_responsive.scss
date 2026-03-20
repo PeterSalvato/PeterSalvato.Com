@@ -22,9 +22,9 @@
 }
 
 // ----------------------------------------------------------------------------
-// S and below: <768px — collapsed sidebar
+// Below L: <1024px — collapsed sidebar (top bar)
 // ----------------------------------------------------------------------------
-@media (max-width: #{$bp-m - 1}) {
+@media (max-width: #{$bp-l - 1}) {
   #sidebar-nav {
     padding: $space-lg $grid-margin $space-md;
     text-align: left;

@@ -95,7 +95,7 @@
 // ---------------------------------------------------------------------------
 
 .photogeography-card--full {
-  max-width: 700px;
+  max-width: 100%;
   margin: 0 auto;
   border: none;
   padding: 0;
@@ -120,9 +120,21 @@
 
 .photogeography-gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: $space-lg;
+  grid-template-columns: 1fr;
+  gap: $grid-gutter;
   margin-top: $space-xl;
+
+  @media (min-width: $bp-s) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (min-width: $bp-l) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media (min-width: $bp-xl) {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 .photogeography-gallery-link {
@@ -159,11 +171,7 @@
 // Responsive
 // ---------------------------------------------------------------------------
 
-@media (max-width: 599px) {
-  .photogeography-gallery {
-    grid-template-columns: 1fr;
-  }
-
+@media (max-width: #{$bp-s - 1}) {
   .photogeography-card {
     padding: $space-md;
   }

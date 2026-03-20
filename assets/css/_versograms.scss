@@ -74,7 +74,7 @@
 // ---------------------------------------------------------------------------
 
 .versogram-card--full {
-  width: 680px;
+  width: 100%;
   aspect-ratio: 8.5 / 11;
   padding: 5%;
   display: flex;
@@ -170,9 +170,21 @@
 
 .versograms-gallery {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: $space-lg;
+  grid-template-columns: 1fr;
+  gap: $grid-gutter;
   margin-top: $space-xl;
+
+  @media (min-width: $bp-s) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (min-width: $bp-l) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media (min-width: $bp-xl) {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 .versograms-gallery-link {
@@ -185,7 +197,7 @@
 // ---------------------------------------------------------------------------
 
 .versogram-detail {
-  max-width: 720px;
+  max-width: 100%;
 }
 
 .versogram-notes {
@@ -196,21 +208,7 @@
 // Responsive
 // ---------------------------------------------------------------------------
 
-@media (max-width: 1023px) {
-  .versograms-gallery {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .versogram-card--full {
-    width: 100%;
-  }
-}
-
-@media (max-width: 599px) {
-  .versograms-gallery {
-    grid-template-columns: 1fr;
-  }
-
+@media (max-width: #{$bp-s - 1}) {
   .versogram-body {
     flex-direction: column;
   }
