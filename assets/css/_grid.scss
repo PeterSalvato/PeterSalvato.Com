@@ -1,0 +1,47 @@
+// ============================================================================
+// GRID — Swiss column grid, fixed gutters, 5 breakpoints
+// ============================================================================
+
+// Breakpoints
+$bp-s:  480px;
+$bp-m:  768px;
+$bp-l:  1024px;
+$bp-xl: 1400px;
+
+// Grid constants
+$grid-gutter: 20px;
+$grid-margin: 20px;
+
+// Page grid mixin
+@mixin page-grid($cols) {
+  display: grid;
+  grid-template-columns: repeat($cols, 1fr);
+  gap: 0 $grid-gutter;
+  padding-left: $grid-margin;
+  padding-right: $grid-margin;
+}
+
+// XS: <480px — 1 column
+body {
+  @include page-grid(1);
+}
+
+// S: 480-767px — 2 columns
+@media (min-width: $bp-s) {
+  body { @include page-grid(2); }
+}
+
+// M: 768-1023px — 3 columns
+@media (min-width: $bp-m) {
+  body { @include page-grid(3); }
+}
+
+// L: 1024-1399px — 4 columns
+@media (min-width: $bp-l) {
+  body { @include page-grid(4); }
+}
+
+// XL: 1400px+ — 6 columns
+@media (min-width: $bp-xl) {
+  body { @include page-grid(6); }
+}
