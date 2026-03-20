@@ -12,6 +12,7 @@ depth: reading
 domain: Narrative
 function: Payload
 seed_status: DEEP
+order: 11
 last_modified: 2026-03-14
 ---
 

@@ -7,7 +7,7 @@ description: "My father held the whole picture while fifty trades worked their p
 seo_keywords: ["construction management", "general contractor", "decomposition", "systems thinking", "methodology limits", "design engineering", "Peter Salvato", "single point of failure leadership", "why projects fail when key person leaves", "bus factor team risk", "knowledge transfer complex projects", "coordination failure", "systems that survive their designer", "what construction teaches", "managing complexity", "coordination across teams"]
 series: "engineering-intent"
 chapter: 21
-order: 14
+order: 15
 icon: edit_note
 ---
 

@@ -7,7 +7,7 @@ description: "I stayed the weekend at Victore's studio in Beacon. We built a scr
 seo_keywords: ['design-history', 'attunement', 'fidelity', 'Peter Salvato', 'design engineering', 'James Victore mentorship', 'finding creative authenticity', 'when to be bold in design', 'creative voice requires precision', 'screenprinting craft', 'fierceness and care in creative work', 'finding your creative voice', 'design mentorship', 'being authentic as a designer']
 series: "engineering-intent"
 chapter: 26
-order: 15
+order: 16
 icon: edit_note
 ---
 

@@ -7,7 +7,7 @@ description: "9K gold is 37.5% gold. Randi turned that limitation into the whole
 seo_keywords: ['brand', 'constraint', 'Peter Salvato', 'design engineering', 'creative limitations improve work', 'designing within constraints', 'why restrictions produce better design', 'constraint-driven design', 'turning limitations into features', 'creative problem solving', 'how to be creative with limitations', 'working with budget constraints design', 'why restrictions make better work']
 series: "engineering-intent"
 chapter: 15
-order: 11
+order: 12
 icon: edit_note
 ---
 

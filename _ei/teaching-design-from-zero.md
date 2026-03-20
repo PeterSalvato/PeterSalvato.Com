@@ -7,7 +7,7 @@ description: "Willing adults who mostly wanted to be there."
 seo_keywords: ['teaching', 'scaffolding', 'design education', 'Peter Salvato', 'design engineering', 'teaching design to non-designers', 'perception before rules', 'how to teach visual thinking', 'learning to see design', 'scaffolding creative education', 'design education without jargon', 'how to start learning design', 'teaching creative skills to beginners', 'where to start with graphic design']
 series: "engineering-intent"
 chapter: 22
-order: 12
+order: 13
 icon: edit_note
 ---
 

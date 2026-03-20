@@ -7,7 +7,7 @@ description: "A four-pixel padding difference between two screens. Nobody files 
 seo_keywords: ['enterprise', 'drift', 'Peter Salvato', 'design engineering', 'why does software quality decline over time', 'design system degradation', 'preventing UX drift', 'how good products get worse', 'technical debt design systems', 'quality erosion enterprise software', 'design consistency across teams', 'why my product looks worse over time', 'design system nobody follows', 'keeping quality consistent long term']
 series: "engineering-intent"
 chapter: 64
-order: 16
+order: 17
 icon: edit_note
 ---
 

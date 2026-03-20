@@ -7,7 +7,7 @@ description: "The system that replaced the 90-minute breakfast."
 seo_keywords: ['domestic', 'governance', 'accommodation', 'batch cooking', 'Peter Salvato', 'design engineering', 'ADHD morning routine system', 'neurodivergent family meal prep', 'executive function morning routine', 'batch cooking dietary restrictions', 'celiac ARFID family meal system', 'reducing daily decisions household', 'accommodation design', 'meal prep system that actually works', 'batch cooking for families with restrictions', 'Sunday meal prep ADHD']
 series: "engineering-intent"
 chapter: 33
-order: 18
+order: 19
 icon: edit_note
 ---
 

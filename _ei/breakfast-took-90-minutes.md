@@ -7,7 +7,7 @@ description: "Four people, five open questions, every single morning. Breakfast 
 seo_keywords: ['domestic', 'governance', 'accommodation', 'Peter Salvato', 'design engineering', 'ADHD family meal planning', 'neurodivergent household routines', 'executive function cooking', 'morning routine multiple dietary needs', 'celiac ARFID family meals', 'why mornings are so hard neurodivergent family', 'accommodation design', 'breakfast takes too long ADHD', 'feeding family with food restrictions', 'morning routine keeps failing']
 series: "engineering-intent"
 chapter: 32
-order: 17
+order: 18
 icon: edit_note
 ---
 

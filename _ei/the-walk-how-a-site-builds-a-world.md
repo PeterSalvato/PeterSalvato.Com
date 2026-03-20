@@ -12,6 +12,7 @@ depth: reading
 domain: Design practice
 function: Payload
 seed_status: DEEP
+order: 23
 last_modified: 2026-03-14
 ---
 

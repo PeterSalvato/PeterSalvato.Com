@@ -7,7 +7,7 @@ description: "Twenty-five years of the same four moves in every room. Stove, cod
 seo_keywords: ["design patterns", "methodology transfer", "cross-domain", "systems thinking", "design engineering", "Peter Salvato", "skills that transfer across fields", "cross-disciplinary design thinking", "why the same approach works everywhere", "transferable creative skills", "one method many materials", "generalist vs specialist design", "applying the same skill to different fields", "why generalists outperform specialists", "pattern recognition across disciplines"]
 series: "engineering-intent"
 chapter: 23
-order: 13
+order: 14
 icon: edit_note
 ---
 
