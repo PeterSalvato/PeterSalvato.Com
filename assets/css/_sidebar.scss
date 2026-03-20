@@ -61,7 +61,7 @@
 
   @media (min-width: $bp-l) {
     &::before {
-      content: "– ";
+      content: "–\00a0";
     }
   }
   padding: $space-sm 0;

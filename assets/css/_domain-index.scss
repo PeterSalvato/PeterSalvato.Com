@@ -33,8 +33,12 @@
       grid-template-columns: repeat(2, 1fr);
     }
 
-    @media (min-width: $bp-l) {
+    @media (min-width: $bp-m) {
       grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (min-width: $bp-l) {
+      grid-template-columns: repeat(3, 1fr);
     }
 
     @media (min-width: $bp-xl) {

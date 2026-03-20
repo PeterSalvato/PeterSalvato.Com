@@ -55,8 +55,8 @@
     margin-bottom: 0;
   }
 
-  // L+: featured card spans 2 cols, others split evenly below
-  @media (min-width: $bp-l) {
+  // M+: featured card spans full width, others split 2-up
+  @media (min-width: $bp-m) {
     grid-template-columns: 1fr 1fr;
 
     .section-card:first-child {

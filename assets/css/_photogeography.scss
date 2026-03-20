@@ -9,6 +9,8 @@
   color: $color-ink;
   padding: 0.5rem;
   border: 1px solid $color-rule;
+  min-width: 0;
+  overflow: hidden;
 }
 
 // ---------------------------------------------------------------------------
@@ -140,6 +142,7 @@
 .photogeography-gallery-link {
   text-decoration: none;
   color: inherit;
+  min-width: 0;
   transition: transform $transition-fast;
 
   &:hover {

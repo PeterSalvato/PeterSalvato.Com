@@ -24,6 +24,8 @@
   display: flex;
   flex-direction: column;
   aspect-ratio: 8.5 / 11;
+  min-width: 0;
+  overflow: hidden;
 }
 
 .versogram-thumb-headline {
@@ -190,6 +192,7 @@
 .versograms-gallery-link {
   text-decoration: none;
   color: inherit;
+  min-width: 0;
 }
 
 // ---------------------------------------------------------------------------

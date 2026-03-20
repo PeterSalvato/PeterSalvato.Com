@@ -29,33 +29,56 @@
     padding: $space-lg $grid-margin $space-md;
     text-align: left;
 
+    // -- Phone defaults (below $bp-m): mark + name stacked cleanly
     .sidebar-mark {
-      margin-bottom: $space-sm;
+      margin-bottom: 0;
 
       img {
-        width: 200px;
+        width: 140px;
         margin: 0;
       }
     }
 
     #sidebar-header {
-      width: 200px;
-      margin: 0 auto 1rem;
-      transform: translateX(-1.75rem) rotate(-0.5deg);
+      width: auto;
+      margin: 0 0 1rem;
+      transform: none;
     }
 
     #sidebar-title {
-      font-size: 2rem;
+      font-size: 1.75rem;
       letter-spacing: 0.06em;
       line-height: 1;
       text-align: left;
       position: relative;
-      width: 11rem;
-      margin-top: -3rem;
-      padding-left: 0.5rem;
-      transform: rotate(0.25deg);
+      width: auto;
+      margin-top: $space-xs;
+      padding-left: 0;
+      transform: rotate(-0.5deg);
       margin-bottom: 0;
-      left: 5rem;
+      left: 0;
+    }
+
+    // -- Tablet ($bp-m to $bp-l): mark larger, name overlaps from right
+    @media (min-width: $bp-m) {
+      .sidebar-mark img {
+        width: 200px;
+      }
+
+      #sidebar-header {
+        width: 220px;
+        margin: 0 auto 1rem;
+        transform: translateX(-1.5rem) rotate(-0.5deg);
+      }
+
+      #sidebar-title {
+        font-size: 2rem;
+        width: 11rem;
+        margin-top: -3rem;
+        padding-left: 0.5rem;
+        transform: rotate(0.25deg);
+        left: 5.5rem;
+      }
     }
 
     .nav-list {
@@ -115,7 +138,9 @@
   }
 
   #section-cards {
-    grid-template-columns: 1fr;
+    @media (max-width: #{$bp-s - 1}) {
+      grid-template-columns: 1fr;
+    }
   }
 
   // Footer
