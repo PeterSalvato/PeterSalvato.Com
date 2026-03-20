@@ -5,22 +5,22 @@
   },
   "routes": [
     {
-      "name": "Work",
-      "url": "/evidence/encore/",
-      "definition": "What I've built.",
-      "description": "Enterprise platforms, brand systems, product photography, and a novel."
+      "name": "This Site",
+      "url": "/practice/this-site/",
+      "definition": "Built by the methodology it describes.",
+      "description": "I built the tools, then pointed them at my own work. Three years of conversation compiled into what you're reading. The methodology is documented. The build process is visible. You're looking at the output."
     },
     {
-      "name": "How I Work",
-      "url": "/systems/formwork/",
-      "definition": "The tools and the process.",
-      "description": "Three systems for working with AI, built from twelve years of doing it without them."
+      "name": "The Work",
+      "url": "/evidence/",
+      "definition": "Professional and personal. Same methodology on all of it.",
+      "description": "Twelve years on an enterprise platform. A jewelry brand built as one integrated system. Print, music, a novel. Professional and personal, same methodology on all of it."
     },
     {
-      "name": "Writing",
-      "url": "/essays/",
-      "definition": "What I'm thinking about.",
-      "description": "Essays, whitepapers, and series on AI governance, accommodation design, and the work itself."
+      "name": "How I Think",
+      "url": "/thinking/",
+      "definition": "One question applied to every material.",
+      "description": "What does the system receiving this actually need? That started in a classroom in Brooklyn. It applies to everything I've worked in since. The methodology, the research, and the systems that run it."
     }
   ],
   "contact": {
