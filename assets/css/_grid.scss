@@ -26,6 +26,10 @@ body {
   @include page-grid(1);
 }
 
+#sidebar-nav  { grid-column: 1 / -1; }
+#main-content { grid-column: 1 / -1; }
+.system-footer { grid-column: 1 / -1; }
+
 // S: 480-767px — 2 columns
 @media (min-width: $bp-s) {
   body { @include page-grid(2); }
@@ -36,12 +40,34 @@ body {
   body { @include page-grid(3); }
 }
 
-// L: 1024-1399px — 4 columns
+// L: 1024-1399px — 4 columns, sidebar in col 1
 @media (min-width: $bp-l) {
   body { @include page-grid(4); }
+
+  #sidebar-nav {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    align-self: start;
+    position: sticky;
+    top: 0;
+  }
+
+  #main-content { grid-column: 2 / -1; }
+  .system-footer { grid-column: 1 / -1; }
 }
 
-// XL: 1400px+ — 6 columns
+// XL: 1400px+ — 6 columns, sidebar in cols 1-2
 @media (min-width: $bp-xl) {
   body { @include page-grid(6); }
+
+  #sidebar-nav {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+    align-self: start;
+    position: sticky;
+    top: 0;
+  }
+
+  #main-content { grid-column: 3 / -1; }
+  .system-footer { grid-column: 1 / -1; }
 }
