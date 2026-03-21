@@ -23,57 +23,57 @@
   {% assign has_metadata = false %}
   {% if s.ai_model and s.ai_model != "" %}{% assign has_metadata = true %}{% endif %}
 
-  {% if has_metadata %}
-  <div class="versogram-body">
-    <div class="versogram-image">
-      {% if s.image != "" %}
-        <img src="{{ s.image | relative_url }}" alt="{{ s.title }} by {{ s.artist }}">
-      {% endif %}
-    </div>
-
-    <div class="versogram-sidebar">
-      <div class="versogram-sidebar-meta">
-        <span class="versogram-label">{{ s.artist }}</span>
-        <span class="versogram-value">{{ s.title }}</span>
-      </div>
-
-      {% if s.ai_model != "" %}
-      <div class="versogram-sidebar-meta">
-        <span class="versogram-label">Model</span>
-        <span class="versogram-value">{{ s.ai_model }}</span>
-      </div>
-      {% endif %}
-
-      {% if s.ai_seed != "" %}
-      <div class="versogram-sidebar-meta">
-        <span class="versogram-label">Seed</span>
-        <span class="versogram-value">{{ s.ai_seed }}</span>
-      </div>
-      {% endif %}
-
-      {% if s.ai_guidance != "" %}
-      <div class="versogram-sidebar-meta">
-        <span class="versogram-label">Guidance Scale</span>
-        <span class="versogram-value">{{ s.ai_guidance }}</span>
-      </div>
-      {% endif %}
-
-      {% if s.ai_sampler != "" %}
-      <div class="versogram-sidebar-meta">
-        <span class="versogram-label">Sampler</span>
-        <span class="versogram-value">{{ s.ai_sampler }}</span>
-      </div>
-      {% endif %}
-    </div>
-  </div>
-  {% else %}
-  <div class="versogram-image versogram-image--hero">
+  <div class="versogram-image">
     {% if s.image != "" %}
       <img src="{{ s.image | relative_url }}" alt="{{ s.title }} by {{ s.artist }}">
     {% endif %}
-    <div class="versogram-image-credit">
-      <span class="versogram-artist">{{ s.artist }}</span>
+  </div>
+
+  {% if has_metadata %}
+  <div class="versogram-sidebar">
+    {% if s.qr_svg != "" %}
+    <div class="versogram-qr">
+      <img src="{{ s.qr_svg | relative_url }}" alt="QR code for {{ s.title }}">
     </div>
+    {% endif %}
+
+    <div class="versogram-sidebar-meta">
+      <span class="versogram-label">Artist</span>
+      <span class="versogram-value">{{ s.artist }}</span>
+    </div>
+
+    <div class="versogram-sidebar-meta">
+      <span class="versogram-label">Title</span>
+      <span class="versogram-value">{{ s.title }}</span>
+    </div>
+
+    {% if s.ai_model != "" %}
+    <div class="versogram-sidebar-meta">
+      <span class="versogram-label">Model</span>
+      <span class="versogram-value">{{ s.ai_model }}</span>
+    </div>
+    {% endif %}
+
+    {% if s.ai_seed != "" %}
+    <div class="versogram-sidebar-meta">
+      <span class="versogram-label">Seed</span>
+      <span class="versogram-value">{{ s.ai_seed }}</span>
+    </div>
+    {% endif %}
+
+    {% if s.ai_guidance != "" %}
+    <div class="versogram-sidebar-meta">
+      <span class="versogram-label">Guidance Scale</span>
+      <span class="versogram-value">{{ s.ai_guidance }}</span>
+    </div>
+    {% endif %}
+
+    {% if s.ai_sampler != "" %}
+    <div class="versogram-sidebar-meta">
+      <span class="versogram-label">Sampler</span>
+      <span class="versogram-value">{{ s.ai_sampler }}</span>
+    </div>
+    {% endif %}
   </div>
   {% endif %}
 
@@ -82,6 +82,12 @@
       {{ include.lyrics }}
     {% endif %}
   </div>
+
+  {% if s.qr_svg != "" %}
+  <div class="versogram-footer-qr">
+    <img src="{{ s.qr_svg | relative_url }}" alt="QR code">
+  </div>
+  {% endif %}
 
 </div>
 
