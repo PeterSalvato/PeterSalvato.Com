@@ -22,6 +22,60 @@
     {% endif %}
   </div>
 
+  {% if is_full %}
+  <div class="photogeography-meta-grid">
+    {% if p.coordinates_display != "" %}
+    <div class="photogeography-meta-field">
+      <span class="photogeography-meta-label">Coordinates</span>
+      <span class="photogeography-meta-value">{{ p.coordinates_display }}</span>
+    </div>
+    {% endif %}
+    {% if p.location_label != "" %}
+    <div class="photogeography-meta-field">
+      <span class="photogeography-meta-label">Location</span>
+      <span class="photogeography-meta-value">{{ p.location_label }}</span>
+    </div>
+    {% endif %}
+    {% if p.timestamp != "" %}
+    <div class="photogeography-meta-field">
+      <span class="photogeography-meta-label">Date</span>
+      <span class="photogeography-meta-value">{{ p.timestamp }}</span>
+    </div>
+    {% endif %}
+    {% if p.camera != "" %}
+    <div class="photogeography-meta-field">
+      <span class="photogeography-meta-label">Camera</span>
+      <span class="photogeography-meta-value">{{ p.camera }}</span>
+    </div>
+    {% endif %}
+    {% if p.film != "" %}
+    <div class="photogeography-meta-field">
+      <span class="photogeography-meta-label">Film</span>
+      <span class="photogeography-meta-value">{{ p.film }}</span>
+    </div>
+    {% endif %}
+    <div class="photogeography-meta-field">
+      <span class="photogeography-meta-label">Format</span>
+      <span class="photogeography-meta-value">{{ p.format }}</span>
+    </div>
+  </div>
+
+  <div class="photogeography-qr-row">
+    {% if p.qr_page != "" %}
+    <div class="photogeography-qr">
+      <img src="{{ p.qr_page | relative_url }}" alt="QR: page">
+      <span class="photogeography-qr-label">Page</span>
+    </div>
+    {% endif %}
+    {% if p.qr_map != "" %}
+    <div class="photogeography-qr">
+      <img src="{{ p.qr_map | relative_url }}" alt="QR: location">
+      <span class="photogeography-qr-label">Map</span>
+    </div>
+    {% endif %}
+  </div>
+
+  {% else %}
   <div class="photogeography-meta">
     {% if p.coordinates_display != "" %}
       <span class="photogeography-meta-item photogeography-meta-coords">{{ p.coordinates_display }}</span>
@@ -39,22 +93,6 @@
       <span class="photogeography-meta-item photogeography-meta-film">{{ p.film }}</span>
     {% endif %}
     <span class="photogeography-meta-item photogeography-meta-format">{{ p.format }}</span>
-  </div>
-
-  {% if is_full %}
-  <div class="photogeography-qr-row">
-    {% if p.qr_page != "" %}
-    <div class="photogeography-qr">
-      <img src="{{ p.qr_page | relative_url }}" alt="QR: page">
-      <span class="photogeography-qr-label">Page</span>
-    </div>
-    {% endif %}
-    {% if p.qr_map != "" %}
-    <div class="photogeography-qr">
-      <img src="{{ p.qr_map | relative_url }}" alt="QR: location">
-      <span class="photogeography-qr-label">Map</span>
-    </div>
-    {% endif %}
   </div>
   {% endif %}
 

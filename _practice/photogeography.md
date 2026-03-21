@@ -20,9 +20,11 @@ Three locked aspect ratios, no cropping, no post-processing. The shape the image
 
 <div class="photogeography-gallery">
 {% for photo in site.data.photogeography.photos %}
+  {% unless photo.format == "2:3" %}
   <a href="{{ '/photogeography/' | append: photo.slug | append: '/' | relative_url }}" class="photogeography-gallery-link">
     {% include photogeography-card.html photo=photo full=false %}
   </a>
+  {% endunless %}
 {% endfor %}
 </div>
 
