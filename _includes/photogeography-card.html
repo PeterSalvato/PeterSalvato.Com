@@ -76,23 +76,41 @@
   </div>
 
   {% else %}
-  <div class="photogeography-meta">
+  <div class="photogeography-meta-grid">
     {% if p.coordinates_display != "" %}
-      <span class="photogeography-meta-item photogeography-meta-coords">{{ p.coordinates_display }}</span>
+    <div class="photogeography-meta-field">
+      <span class="photogeography-meta-label">Coordinates</span>
+      <span class="photogeography-meta-value">{{ p.coordinates_display }}</span>
+    </div>
     {% endif %}
     {% if p.location_label != "" %}
-      <span class="photogeography-meta-item photogeography-meta-location">{{ p.location_label }}</span>
+    <div class="photogeography-meta-field">
+      <span class="photogeography-meta-label">Location</span>
+      <span class="photogeography-meta-value">{{ p.location_label }}</span>
+    </div>
     {% endif %}
     {% if p.timestamp != "" %}
-      <span class="photogeography-meta-item photogeography-meta-date">{{ p.timestamp }}</span>
+    <div class="photogeography-meta-field">
+      <span class="photogeography-meta-label">Date</span>
+      <span class="photogeography-meta-value">{{ p.timestamp }}</span>
+    </div>
     {% endif %}
     {% if p.camera != "" %}
-      <span class="photogeography-meta-item photogeography-meta-camera">{{ p.camera }}</span>
+    <div class="photogeography-meta-field">
+      <span class="photogeography-meta-label">Camera</span>
+      <span class="photogeography-meta-value">{{ p.camera }}</span>
+    </div>
     {% endif %}
     {% if p.film != "" %}
-      <span class="photogeography-meta-item photogeography-meta-film">{{ p.film }}</span>
+    <div class="photogeography-meta-field">
+      <span class="photogeography-meta-label">Film</span>
+      <span class="photogeography-meta-value">{{ p.film }}</span>
+    </div>
     {% endif %}
-    <span class="photogeography-meta-item photogeography-meta-format">{{ p.format }}</span>
+    <div class="photogeography-meta-field">
+      <span class="photogeography-meta-label">Format</span>
+      <span class="photogeography-meta-value">{{ p.format }}</span>
+    </div>
   </div>
   {% endif %}
 

@@ -11,6 +11,7 @@
   border: 1px solid $color-rule;
   min-width: 0;
   overflow: hidden;
+  container-type: inline-size;
 }
 
 // ---------------------------------------------------------------------------
@@ -111,10 +112,11 @@
 }
 
 // Metadata as labeled columns below the image
+// Columns sized to content: coords, location, date (row 1), camera, film, format (row 2)
 .photogeography-meta-grid {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  gap: 1.5cqw 2cqw;
+  grid-template-columns: auto auto auto;
+  gap: 1.5cqw 3cqw;
   margin-top: 2cqw;
   padding-top: 1.5cqw;
   border-top: 1px solid $color-rule;
