@@ -18,6 +18,7 @@
     {% else %}
       <h2 class="versogram-title-text">{{ s.title }}</h2>
     {% endif %}
+    <span class="versogram-artist">{{ s.artist }}{% if s.album != "" %} – {{ s.album }}{% endif %}{% if s.year != "" %} ({{ s.year }}){% endif %}</span>
   </div>
 
   <div class="versogram-body">
