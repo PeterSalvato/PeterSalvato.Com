@@ -97,10 +97,11 @@
 // ---------------------------------------------------------------------------
 
 .photogeography-card--full {
+  width: 100%;
   max-width: 680px;
   margin: 0;
   border: 1px solid $color-rule;
-  padding: 1.5rem 1.5rem 2rem;
+  padding: 2.2cqw 2.2cqw 3cqw;
   background: $color-white;
 
   .photogeography-image img {
@@ -113,9 +114,9 @@
 .photogeography-meta-grid {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  gap: $space-md $space-lg;
-  margin-top: $space-lg;
-  padding-top: $space-md;
+  gap: 1.5cqw 2cqw;
+  margin-top: 2cqw;
+  padding-top: 1.5cqw;
   border-top: 1px solid $color-rule;
 }
 
@@ -126,14 +127,14 @@
 
 .photogeography-meta-label {
   font-family: $font-body;
-  font-size: $type-fine;
+  font-size: 1.76cqw;
   font-style: italic;
   color: $color-ink-faint;
 }
 
 .photogeography-meta-value {
   font-family: $font-mono;
-  font-size: $type-caption;
+  font-size: 1.91cqw;
   color: $color-ink;
 }
 
@@ -141,21 +142,19 @@
 .photogeography-card--full .photogeography-qr-row {
   display: flex;
   justify-content: flex-end;
-  gap: $space-md;
-  margin-top: $space-xl;
+  gap: 1.5cqw;
+  margin-top: 3cqw;
   padding-top: 0;
   border-top: none;
 }
 
 .photogeography-card--full .photogeography-qr img {
-  width: 48px;
-  height: 48px;
+  width: 7cqw;
+  height: 7cqw;
 }
 
-@media (max-width: #{$bp-s - 1}) {
-  .photogeography-meta-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
+.photogeography-card--full .photogeography-qr-label {
+  font-size: 1.5cqw;
 }
 
 // ---------------------------------------------------------------------------
@@ -204,7 +203,8 @@
 // ---------------------------------------------------------------------------
 
 .photogeography-detail {
-  max-width: 100%;
+  max-width: 720px;
+  container-type: inline-size;
 }
 
 .photogeography-notes {
@@ -216,12 +216,3 @@
 // Responsive
 // ---------------------------------------------------------------------------
 
-@media (max-width: #{$bp-s - 1}) {
-  .photogeography-card {
-    padding: $space-md;
-  }
-
-  .photogeography-card--full {
-    max-width: 100%;
-  }
-}
