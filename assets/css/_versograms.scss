@@ -59,7 +59,6 @@
   grid-template-rows: auto 1fr auto auto;
   gap: 0.5rem;
   border: 1px solid $color-rule;
-  container-type: inline-size;
 }
 
 // Row 1: Headline full width
@@ -166,6 +165,7 @@
 
 .versogram-detail {
   max-width: 720px;
+  container-type: inline-size;
 }
 
 .versogram-notes {
