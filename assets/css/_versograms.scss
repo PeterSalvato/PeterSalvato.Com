@@ -270,6 +270,10 @@
 
   .versogram-card--full .versogram-image {
     flex: none;
+
+    img {
+      height: auto;
+    }
   }
 
   .versogram-card--full .versogram-lyrics {
