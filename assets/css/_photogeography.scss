@@ -78,12 +78,18 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: $space-xs;
+  gap: 0.5cqw;
 
   img {
-    width: 48px;
-    height: 48px;
+    width: 5cqw;
+    height: 5cqw;
   }
+}
+
+.photogeography-qr-placeholder {
+  width: 5cqw;
+  height: 5cqw;
+  border: 1px dashed $color-rule;
 }
 
 .photogeography-qr-label {
@@ -150,7 +156,8 @@
   border-top: none;
 }
 
-.photogeography-card--full .photogeography-qr img {
+.photogeography-card--full .photogeography-qr img,
+.photogeography-card--full .photogeography-qr-placeholder {
   width: 7cqw;
   height: 7cqw;
 }

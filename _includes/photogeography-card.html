@@ -51,18 +51,22 @@
   </div>
 
   <div class="photogeography-qr-row">
-    {% if p.qr_page != "" %}
     <div class="photogeography-qr">
+      {% if p.qr_page != "" %}
       <img src="{{ p.qr_page | relative_url }}" alt="QR: page">
+      {% else %}
+      <div class="photogeography-qr-placeholder"></div>
+      {% endif %}
       <span class="photogeography-qr-label">Page</span>
     </div>
-    {% endif %}
-    {% if p.qr_map != "" %}
     <div class="photogeography-qr">
+      {% if p.qr_map != "" %}
       <img src="{{ p.qr_map | relative_url }}" alt="QR: location">
+      {% else %}
+      <div class="photogeography-qr-placeholder"></div>
+      {% endif %}
       <span class="photogeography-qr-label">Map</span>
     </div>
-    {% endif %}
   </div>
 
   {% else %}
@@ -94,18 +98,22 @@
   </div>
 
   <div class="photogeography-qr-row">
-    {% if p.qr_page != "" %}
     <div class="photogeography-qr">
+      {% if p.qr_page != "" %}
       <img src="{{ p.qr_page | relative_url }}" alt="QR: page">
+      {% else %}
+      <div class="photogeography-qr-placeholder"></div>
+      {% endif %}
       <span class="photogeography-qr-label">Page</span>
     </div>
-    {% endif %}
-    {% if p.qr_map != "" %}
     <div class="photogeography-qr">
+      {% if p.qr_map != "" %}
       <img src="{{ p.qr_map | relative_url }}" alt="QR: location">
+      {% else %}
+      <div class="photogeography-qr-placeholder"></div>
+      {% endif %}
       <span class="photogeography-qr-label">Map</span>
     </div>
-    {% endif %}
   </div>
   {% endif %}
 
