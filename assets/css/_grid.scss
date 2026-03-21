@@ -1,6 +1,6 @@
 // ============================================================================
 // GRID — Swiss column grid, fixed widths, 5 breakpoints
-// Each breakpoint is a static page, centered. No fluid stretch.
+// Each breakpoint is a static page, left-aligned. No fluid stretch.
 // ============================================================================
 
 // Breakpoints
@@ -26,14 +26,14 @@ $col-m:  calc((#{$page-m} - 2 * #{$grid-margin} - 2 * #{$grid-gutter}) / 3);
 $col-l:  calc((#{$page-l} - 2 * #{$grid-margin} - 3 * #{$grid-gutter}) / 4);
 $col-xl: calc((#{$page-xl} - 2 * #{$grid-margin} - 5 * #{$grid-gutter}) / 6);
 
-// Page grid mixin — fixed-width columns, centered
+// Page grid mixin — fixed-width columns, left-aligned
 @mixin page-grid($cols, $col-width) {
   display: grid;
   grid-template-columns: repeat($cols, $col-width);
   gap: 0 $grid-gutter;
   padding-left: $grid-margin;
   padding-right: $grid-margin;
-  margin: 0 auto;
+  margin: 0;
 }
 
 // XS: <480px — 1 column, full width
