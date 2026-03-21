@@ -11,6 +11,8 @@ layout: default
 
 {% capture lyrics_content %}{{ content }}{% endcapture %}
 
+{% include breadcrumb.html %}
+
 <article class="versogram-detail">
   {% include versogram-card.html song=song full=true lyrics=lyrics_content %}
 </article>

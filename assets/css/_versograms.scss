@@ -127,17 +127,24 @@
   margin-bottom: auto;
 }
 
-// Row 4: Footer with QR bottom-right
-.versogram-card--full .versogram-footer {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  margin-top: 2rem;
-}
+// No-metadata layout: image full width with artist credit
+.versogram-image--hero {
+  margin-bottom: 4%;
 
-.versogram-footer-qr img {
-  width: 64px;
-  height: 64px;
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .versogram-image-credit {
+    margin-top: 0.5rem;
+  }
+
+  .versogram-artist {
+    font-family: $font-mono;
+    font-size: $type-fine;
+    color: $color-ink-light;
+  }
 }
 
 // ---------------------------------------------------------------------------
