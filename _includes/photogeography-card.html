@@ -24,36 +24,26 @@
 
   {% if is_full %}
   <div class="photogeography-meta-grid">
-    {% if p.coordinates_display != "" %}
     <div class="photogeography-meta-field">
       <span class="photogeography-meta-label">Coordinates</span>
       <span class="photogeography-meta-value">{{ p.coordinates_display }}</span>
     </div>
-    {% endif %}
-    {% if p.location_label != "" %}
     <div class="photogeography-meta-field">
       <span class="photogeography-meta-label">Location</span>
       <span class="photogeography-meta-value">{{ p.location_label }}</span>
     </div>
-    {% endif %}
-    {% if p.timestamp != "" %}
     <div class="photogeography-meta-field">
       <span class="photogeography-meta-label">Date</span>
       <span class="photogeography-meta-value">{{ p.timestamp }}</span>
     </div>
-    {% endif %}
-    {% if p.camera != "" %}
     <div class="photogeography-meta-field">
       <span class="photogeography-meta-label">Camera</span>
       <span class="photogeography-meta-value">{{ p.camera }}</span>
     </div>
-    {% endif %}
-    {% if p.film != "" %}
     <div class="photogeography-meta-field">
       <span class="photogeography-meta-label">Film</span>
       <span class="photogeography-meta-value">{{ p.film }}</span>
     </div>
-    {% endif %}
     <div class="photogeography-meta-field">
       <span class="photogeography-meta-label">Format</span>
       <span class="photogeography-meta-value">{{ p.format }}</span>
@@ -77,36 +67,26 @@
 
   {% else %}
   <div class="photogeography-meta-grid">
-    {% if p.coordinates_display != "" %}
     <div class="photogeography-meta-field">
       <span class="photogeography-meta-label">Coordinates</span>
       <span class="photogeography-meta-value">{{ p.coordinates_display }}</span>
     </div>
-    {% endif %}
-    {% if p.location_label != "" %}
     <div class="photogeography-meta-field">
       <span class="photogeography-meta-label">Location</span>
       <span class="photogeography-meta-value">{{ p.location_label }}</span>
     </div>
-    {% endif %}
-    {% if p.timestamp != "" %}
     <div class="photogeography-meta-field">
       <span class="photogeography-meta-label">Date</span>
       <span class="photogeography-meta-value">{{ p.timestamp }}</span>
     </div>
-    {% endif %}
-    {% if p.camera != "" %}
     <div class="photogeography-meta-field">
       <span class="photogeography-meta-label">Camera</span>
       <span class="photogeography-meta-value">{{ p.camera }}</span>
     </div>
-    {% endif %}
-    {% if p.film != "" %}
     <div class="photogeography-meta-field">
       <span class="photogeography-meta-label">Film</span>
       <span class="photogeography-meta-value">{{ p.film }}</span>
     </div>
-    {% endif %}
     <div class="photogeography-meta-field">
       <span class="photogeography-meta-label">Format</span>
       <span class="photogeography-meta-value">{{ p.format }}</span>
