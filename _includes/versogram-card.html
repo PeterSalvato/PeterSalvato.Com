@@ -18,7 +18,6 @@
     {% else %}
       <h2 class="versogram-title-text">{{ s.title }}</h2>
     {% endif %}
-    <span class="versogram-artist">{{ s.artist }}{% if s.album != "" %} – {{ s.album }}{% endif %}{% if s.year != "" %} ({{ s.year }}){% endif %}</span>
   </div>
 
   <div class="versogram-body">
@@ -89,24 +88,19 @@
 </div>
 
 {% else %}
-<div class="versogram-card versogram-card--thumb">
-  <div class="versogram-thumb-headline">
+<div class="versogram-card">
+  <div class="versogram-image">
+    {% if s.image != "" %}
+      <img src="{{ s.image | relative_url }}" alt="{{ s.title }} by {{ s.artist }}">
+    {% endif %}
+  </div>
+  <div class="versogram-caption">
     {% if s.headline_svg != "" %}
       <img src="{{ s.headline_svg | relative_url }}" alt="{{ s.title }}" class="versogram-title-svg">
     {% else %}
       <span class="versogram-title-text">{{ s.title }}</span>
     {% endif %}
-  </div>
-  <div class="versogram-thumb-image">
-    {% if s.image != "" %}
-      <img src="{{ s.image | relative_url }}" alt="{{ s.title }} by {{ s.artist }}">
-    {% else %}
-      <div class="versogram-image-placeholder"></div>
-    {% endif %}
-  </div>
-  <div class="versogram-thumb-footer">
     <span class="versogram-artist">{{ s.artist }}</span>
-    <span class="versogram-title-text">{{ s.title }}</span>
   </div>
 </div>
 {% endif %}
