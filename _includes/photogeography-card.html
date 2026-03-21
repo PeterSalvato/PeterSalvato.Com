@@ -70,50 +70,13 @@
   </div>
 
   {% else %}
-  <div class="photogeography-meta-grid">
-    <div class="photogeography-meta-field">
-      <span class="photogeography-meta-label">Coordinates</span>
-      <span class="photogeography-meta-value">{{ p.coordinates_display }}</span>
-    </div>
-    <div class="photogeography-meta-field">
-      <span class="photogeography-meta-label">Location</span>
-      <span class="photogeography-meta-value">{{ p.location_label }}</span>
-    </div>
-    <div class="photogeography-meta-field">
-      <span class="photogeography-meta-label">Date</span>
-      <span class="photogeography-meta-value">{{ p.timestamp }}</span>
-    </div>
-    <div class="photogeography-meta-field">
-      <span class="photogeography-meta-label">Camera</span>
-      <span class="photogeography-meta-value">{{ p.camera }}</span>
-    </div>
-    <div class="photogeography-meta-field">
-      <span class="photogeography-meta-label">Film</span>
-      <span class="photogeography-meta-value">{{ p.film }}</span>
-    </div>
-    <div class="photogeography-meta-field">
-      <span class="photogeography-meta-label">Format</span>
-      <span class="photogeography-meta-value">{{ p.format }}</span>
-    </div>
-  </div>
-
-  <div class="photogeography-qr-row">
-    <div class="photogeography-qr">
-      {% if p.qr_page != "" %}
-      <img src="{{ p.qr_page | relative_url }}" alt="QR: page">
-      {% else %}
-      <div class="photogeography-qr-placeholder"></div>
-      {% endif %}
-      <span class="photogeography-qr-label">Page</span>
-    </div>
-    <div class="photogeography-qr">
-      {% if p.qr_map != "" %}
-      <img src="{{ p.qr_map | relative_url }}" alt="QR: location">
-      {% else %}
-      <div class="photogeography-qr-placeholder"></div>
-      {% endif %}
-      <span class="photogeography-qr-label">Map</span>
-    </div>
+  <div class="photogeography-caption">
+    {% if p.location_label != "" %}
+      <span class="photogeography-caption-location">{{ p.location_label }}</span>
+    {% endif %}
+    {% if p.timestamp != "" %}
+      <span class="photogeography-caption-date">{{ p.timestamp }}</span>
+    {% endif %}
   </div>
   {% endif %}
 

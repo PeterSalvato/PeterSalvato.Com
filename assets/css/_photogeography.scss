@@ -37,30 +37,23 @@
 // Metadata row
 // ---------------------------------------------------------------------------
 
-.photogeography-meta {
-  display: flex;
-  flex-wrap: wrap;
-  gap: $space-xs $space-md;
+// Gallery card caption (simple: location + date)
+.photogeography-caption {
+  padding: 0.75rem 0.5rem 0.25rem;
+}
+
+.photogeography-caption-location {
+  display: block;
+  font-family: $font-body;
+  font-size: $type-caption;
+  color: $color-ink;
+}
+
+.photogeography-caption-date {
+  display: block;
   font-family: $font-mono;
   font-size: $type-fine;
-  letter-spacing: 0.04em;
   color: $color-ink-faint;
-  border-top: 1px solid $color-rule;
-  padding: $space-sm 0.5rem 0;
-  margin-top: 0.5rem;
-}
-
-.photogeography-meta-item {
-  white-space: nowrap;
-}
-
-.photogeography-meta-coords {
-  color: $color-ink;
-}
-
-.photogeography-meta-location {
-  color: $color-ink;
-  font-family: $font-body;
 }
 
 // ---------------------------------------------------------------------------
