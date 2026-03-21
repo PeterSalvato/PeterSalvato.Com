@@ -115,7 +115,7 @@
 // Columns sized to content: coords, location, date (row 1), camera, film, format (row 2)
 .photogeography-meta-grid {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: repeat(6, auto);
   gap: 1.5cqw 3cqw;
   margin-top: 2cqw;
   padding-top: 1.5cqw;
@@ -193,12 +193,6 @@
   }
 }
 
-// Gallery cards: no QR row (only on detail pages)
-.photogeography-gallery .photogeography-card {
-  .photogeography-qr-row {
-    display: none;
-  }
-}
 
 // ---------------------------------------------------------------------------
 // Detail page

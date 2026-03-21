@@ -112,6 +112,21 @@
       <span class="photogeography-meta-value">{{ p.format }}</span>
     </div>
   </div>
+
+  <div class="photogeography-qr-row">
+    {% if p.qr_page != "" %}
+    <div class="photogeography-qr">
+      <img src="{{ p.qr_page | relative_url }}" alt="QR: page">
+      <span class="photogeography-qr-label">Page</span>
+    </div>
+    {% endif %}
+    {% if p.qr_map != "" %}
+    <div class="photogeography-qr">
+      <img src="{{ p.qr_map | relative_url }}" alt="QR: location">
+      <span class="photogeography-qr-label">Map</span>
+    </div>
+    {% endif %}
+  </div>
   {% endif %}
 
 </div>
