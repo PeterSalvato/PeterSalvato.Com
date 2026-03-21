@@ -636,7 +636,7 @@ what-does-the-system-need:
       reason: "I was asking this question at Encore for a decade before I named it."
 
 the-integrated-system:
-  url: /essays/the-integrated-system/
+  url: /essays/the-system/
   connections:
     - target: formwork
       url: /systems/formwork/
@@ -687,7 +687,7 @@ voice-governance-essay:
       reason: "Every page went through the voice pipeline."
 
 lens-extraction-essay:
-  url: /essays/lens-extraction/
+  url: /research/lens-extraction/
   connections:
     - target: lens-extraction
       url: /research/lens-extraction/

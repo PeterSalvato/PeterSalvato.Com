@@ -92,17 +92,6 @@
   word-spacing: -5px;
 }
 
-// Material icons in nav
-.nav-icon {
-  font-size: 18px;
-  opacity: 1;
-  flex-shrink: 0;
-  visibility: hidden;
-}
-
-html.material-fonts-loaded .nav-icon {
-  visibility: visible;
-}
 
 // Sub-navigation
 .nav-sublist {

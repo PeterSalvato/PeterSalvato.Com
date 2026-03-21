@@ -41,9 +41,9 @@ Context is the active state of understanding that exists in the moment of workin
 
 It is the most perishable thing in knowledge work.
 
-Not documents. Documents persist. Not decisions, either. You can write down a decision and it will still be there next week. What disappears is the web of reasoning around the decision: why it was made, what it was checked against, what it ruled out, what it left open. That's the connective tissue. When the session ends, the tissue goes.
+Documents persist. Decisions persist. You can write down a decision and it will still be there next week. What disappears is the web of reasoning around the decision: why it was made, what it was checked against, what it ruled out, what it left open. That's the connective tissue. When the session ends, the tissue goes.
 
-This is why two people who were in the same meeting three months ago can describe it completely differently. Not because one of them is wrong. Because the context in which they encoded the meeting has been overwritten by other work since then. What survives is a fragment, interpreted through whatever frame they're in today.
+This is why two people who were in the same meeting three months ago can describe it completely differently. The context in which they encoded the meeting has been overwritten by other work since then. What survives is a fragment, interpreted through whatever frame they're in today.
 
 ---
 
@@ -57,7 +57,7 @@ I have been trying to externalize that picture for most of my career. [Encore](/
 
 The problem sharpened when I started working inside long AI sessions. A conversation would run for hours, something important would shift, and then the thread would close. The model had no memory between sessions. None of what happened survived.
 
-That's where [SavePoint Syntax](/systems/savepoint/) started. Not from a theoretical commitment to documentation. From the specific experience of doing hours of thinking and arriving the next day to an empty room.
+That's where [SavePoint Syntax](/systems/savepoint/) started. The specific experience of doing hours of thinking and arriving the next day to an empty room.
 
 ---
 
