@@ -29,37 +29,25 @@
     padding: $space-lg $grid-margin $space-md;
     text-align: left;
 
-    // -- Phone defaults (below $bp-m): mark + name stacked cleanly
-    .sidebar-mark {
-      margin-bottom: 0;
-
-      img {
-        width: 140px;
-        margin: 0;
-      }
+    // -- Phone: lockup scaled to fit
+    .sidebar-mark img {
+      width: 120px;
     }
 
     #sidebar-header {
-      width: auto;
+      width: 190px;
       margin: 0 0 1rem;
-      transform: none;
     }
 
     #sidebar-title {
-      font-size: 1.75rem;
-      letter-spacing: 0.06em;
-      line-height: 1;
-      text-align: left;
-      position: relative;
-      width: auto;
-      margin-top: $space-xs;
-      padding-left: 0;
-      transform: rotate(-0.5deg);
-      margin-bottom: 0;
-      left: 0;
+      font-size: 1.5rem;
+      width: 9rem;
+      margin-top: -2.25rem;
+      padding-left: 0.25rem;
+      left: 4.5rem;
     }
 
-    // -- Tablet ($bp-m to $bp-l): mark larger, name overlaps from right
+    // -- Tablet ($bp-m to $bp-l): lockup larger
     @media (min-width: $bp-m) {
       .sidebar-mark img {
         width: 200px;
@@ -76,7 +64,6 @@
         width: 11rem;
         margin-top: -3rem;
         padding-left: 0.5rem;
-        transform: rotate(0.25deg);
         left: 5.5rem;
       }
     }
@@ -252,9 +239,6 @@
     max-width: 80px;
   }
 
-  .artifact-mark-icon .material-symbols-outlined {
-    font-size: 64px;
-  }
 
   // Blog
   .post .post-header .post-meta {

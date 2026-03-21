@@ -2,6 +2,24 @@
 // COMPONENTS — Code blocks, galleries, work index, tooltips
 // ============================================================================
 
+// Breadcrumb — single back-link, understated
+.breadcrumb {
+  font-family: $font-display;
+  font-size: $type-fine;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: $space-md;
+
+  a {
+    color: $color-ink-faint;
+    text-decoration: none;
+
+    &:hover {
+      color: $color-ink;
+    }
+  }
+}
+
 // Page updated timestamp
 .page-updated {
   font-family: $font-mono;

@@ -120,12 +120,14 @@ The thinking formalized. Published papers with DOIs on [Zenodo](https://zenodo.o
 
 Four tools you paste into ChatGPT, Claude, or Gemini. They change how the conversation works.
 
+<div id="domain-artifacts">
 <a href="{{ '/start/' | relative_url }}" class="artifact-card artifact-card--link">
-  <div class="artifact-hero-header">
-    <div class="artifact-hero-title">
-      <h3>Start Here</h3>
-    </div>
-  </div>
-  <p class="artifact-context">Task chunking, context preservation, brain dumps, voice protection. Each one takes about a minute to set up. No code. No account.</p>
-  <p class="artifact-link">Get the tools &rarr;</p>
+<div class="artifact-hero-header">
+<div class="artifact-hero-title">
+<h3>Start Here</h3>
+</div>
+</div>
+<p class="artifact-context">Task chunking, context preservation, brain dumps, voice protection. Each one takes about a minute to set up. No code. No account.</p>
+<p class="artifact-link">Get the tools &rarr;</p>
 </a>
+</div>

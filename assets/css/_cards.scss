@@ -140,10 +140,6 @@
   }
 }
 
-.artifact-mark-icon .material-symbols-outlined {
-  font-size: 48px;
-  color: $color-ink-faint;
-}
 
 // ============================================================================
 // CONNECTION CARDS — Network links with bridge reasons
@@ -199,13 +195,6 @@
       color: $color-accent;
     }
   }
-}
-
-.connection-icon {
-  flex-shrink: 0;
-  font-size: 24px;
-  color: $color-ink-faint;
-  margin-top: 2px;
 }
 
 .connection-body {

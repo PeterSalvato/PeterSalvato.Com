@@ -1,0 +1,39 @@
+{% comment %}
+  Breadcrumb navigation. Renders a single "← Back to [section]" link
+  based on the page's collection or permalink.
+{% endcomment %}
+
+{% assign bc_label = nil %}
+{% assign bc_url = nil %}
+
+{% if page.collection == "evidence" %}
+  {% assign bc_label = "Work" %}
+  {% assign bc_url = "/evidence/" %}
+{% elsif page.collection == "practice" %}
+  {% assign bc_label = "Work" %}
+  {% assign bc_url = "/evidence/" %}
+{% elsif page.collection == "systems" %}
+  {% assign bc_label = "Thinking" %}
+  {% assign bc_url = "/thinking/" %}
+{% elsif page.collection == "research" %}
+  {% assign bc_label = "Thinking" %}
+  {% assign bc_url = "/thinking/" %}
+{% elsif page.collection == "essays" or page.collection == "ei" or page.collection == "homeworks" %}
+  {% assign bc_label = "Writing" %}
+  {% assign bc_url = "/essays/" %}
+{% elsif page.collection == "versograms" %}
+  {% assign bc_label = "Versograms" %}
+  {% assign bc_url = "/practice/versograms/" %}
+{% elsif page.collection == "photogeography" %}
+  {% assign bc_label = "Photogeography" %}
+  {% assign bc_url = "/practice/photogeography/" %}
+{% elsif page.url contains "/vocabulary/" %}
+  {% assign bc_label = "Vocabulary" %}
+  {% assign bc_url = "/vocabulary/" %}
+{% endif %}
+
+{% if bc_label %}
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <a href="{{ bc_url | relative_url }}">&larr; {{ bc_label }}</a>
+</nav>
+{% endif %}

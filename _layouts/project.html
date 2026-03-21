@@ -2,6 +2,8 @@
 layout: default
 ---
 
+{% include breadcrumb.html %}
+
 {% assign page_title_upper = page.title | upcase %}
 {% assign artifact = nil %}
 {% for route in site.data.index.routes %}

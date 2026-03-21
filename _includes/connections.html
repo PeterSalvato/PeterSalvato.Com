@@ -49,9 +49,6 @@
 
       {% if conn_page %}
       <a href="{{ conn.url | relative_url }}" class="connection-card" data-connection-url="{{ conn.url }}">
-        {% if conn_page.icon %}
-        <span class="connection-icon material-symbols-outlined">{{ conn_page.icon }}</span>
-        {% endif %}
         <div class="connection-body">
           <h3 class="connection-title">{{ conn_page.title }}</h3>
           <p class="connection-reason">{{ conn.reason }}</p>
