@@ -24,7 +24,7 @@ The distinction matters because it determines who actually wrote the thing.
 
 A compiler takes source code a human wrote and transforms it into something a machine can execute. The programmer writes the program. The compiler transforms it. Nobody credits gcc with authorship.
 
-My source code is the accumulated working knowledge: decisions made on construction sites, in print shops, across twelve years on an enterprise platform, inside classrooms, over kitchen counters. Three years of that thinking lives in a massive corpus of conversations: sessions where I argued with tools, worked through problems, explained things to myself, failed at things until they worked.
+My source code is the accumulated working knowledge: decisions made on construction sites, in print shops, across thirteen years on an enterprise platform, inside classrooms, over kitchen counters. Three years of that thinking lives in a massive corpus of conversations: sessions where I argued with tools, worked through problems, explained things to myself, failed at things until they worked.
 
 That's the codebase. It's raw, unpolished, and entirely mine. It exists because the system was designed to accept it raw. In [FormWork](/systems/formwork/), the first accommodation is aimed at the human: get the thinking out of your head with as little friction as possible. Talk, dictate, answer questions. Don't organize, don't outline, don't perform. The rawness is the point. Structured input has already lost the thing the tools need most, which is how I actually think.
 

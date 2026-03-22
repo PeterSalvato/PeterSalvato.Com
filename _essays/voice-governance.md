@@ -38,7 +38,7 @@ That conversational material is the actual voice. Published writing filters it o
 
 ## The pipeline
 
-60,000 documents of me talking. The question was what to do with them.
+Tens of thousands of documents of me talking. The question was what to do with them.
 
 ### Voice sampling
 
