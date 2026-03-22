@@ -16,7 +16,7 @@ description: "Song lyrics as typographic architecture. Polaroid-vertical format,
 last_modified: 2026-03-16
 ---
 
-Six songs through the same fixed container. Polaroid-style vertical, Swiss grid. The lyrics are the actual generative input for the AI imagery. Not a prompt about the song. The words themselves.
+Six songs through the same fixed container. Polaroid-style vertical, Swiss grid. The lyrics are the actual generative input for the AI imagery. Not a prompt about the song. The words themselves. Each poster records its generation metadata: model, seed, guidance scale, sampler. The image is reproducible. The constraint is the format. The variable is the song.
 
 <div class="versograms-gallery">
 {% for song in site.data.versograms.songs %}
