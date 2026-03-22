@@ -142,6 +142,9 @@ formwork:
     - target: encore
       url: /evidence/encore/
       reason: "Twelve years of enterprise work is where this process was born."
+    - target: how-i-think
+      url: /thinking/
+      reason: "The processing profile that runs FormWork. One question applied to every material."
     - target: this-site
       url: /practice/this-site/
       reason: "This site was compiled through FormWork. It's the build log."
@@ -375,6 +378,9 @@ mathontape:
 this-site:
   url: /practice/this-site/
   connections:
+    - target: encore
+      url: /evidence/encore/
+      reason: "Twelve years of applied work. The tools described here were born from that."
     - target: formwork
       url: /systems/formwork/
       reason: "Compiled through FormWork. The build log."
