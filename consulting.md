@@ -6,9 +6,9 @@ description: "Design, engineering, and AI governance as one practice. The proble
 seo_keywords: ["design engineering consultant", "AI governance consultant", "design systems consulting", "front-end architecture", "AI implementation", "voice governance", "content governance", "Peter Salvato"]
 ---
 
-Most organizations separate design, engineering, and AI into different conversations. Different teams, different consultants, different vocabularies. The problems that matter most live in the gaps between them: the design system that engineering can't maintain, the AI output that doesn't match the brand, the workflow that works technically but fails the user.
+A music licensing firm hired a freelancer to automate their email pipeline with AI. It didn't work. The API calls failed, the credentials were exposed, the date filter was hardcoded to one day, and there was no error handling. I [diagnosed the four failures and rebuilt it](/evidence/lionfish/) as a production system in less time than the original build took.
 
-I work across all three because they're the same discipline. Structural thinking applied to different surfaces. Decisions in one domain ripple through the others, and the problems that matter most live at those intersections.
+That pattern keeps showing up. The components exist but nobody designed how they work together. The design system looks right but engineering can't maintain it. The AI output is fluent but it lost the voice. The problem is always in the gap between what was communicated and what the system on the other end actually needed.
 
 ---
 
