@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Consulting"
 permalink: /consulting/
 description: "Design, engineering, and AI governance as one practice. The problems that matter most live in the gaps between them."
