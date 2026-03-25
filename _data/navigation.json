@@ -21,9 +21,9 @@
       "icon": "psychology"
     },
     {
-      "label": "Contact",
-      "url": "/contact/",
-      "icon": "mail"
+      "label": "Consulting",
+      "url": "/consulting/",
+      "icon": "handshake"
     }
   ]
 }
