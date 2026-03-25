@@ -45,4 +45,33 @@ I [diagnosed and rebuilt](/evidence/lionfish/) a failed AI implementation for a 
 
 ## Get in touch
 
-peter@petersalvato.com
+{::nomarkdown}
+<form action="https://formspree.io/f/mlgoedkq" method="POST" class="consulting-form">
+
+  <label for="name">Name</label>
+  <input type="text" id="name" name="name" required>
+
+  <label for="email">Email</label>
+  <input type="email" id="email" name="email" required>
+
+  <label for="company">Company (optional)</label>
+  <input type="text" id="company" name="company">
+
+  <fieldset>
+    <legend>What areas are involved?</legend>
+    <label class="checkbox-label"><input type="checkbox" name="areas[]" value="Design"> Design</label>
+    <label class="checkbox-label"><input type="checkbox" name="areas[]" value="Engineering"> Engineering</label>
+    <label class="checkbox-label"><input type="checkbox" name="areas[]" value="AI Governance"> AI Governance</label>
+    <label class="checkbox-label"><input type="checkbox" name="areas[]" value="Not sure"> Not sure</label>
+  </fieldset>
+
+  <label for="problem">What's the problem?</label>
+  <textarea id="problem" name="problem" rows="5" required></textarea>
+
+  <label for="timeline">Timeline (optional)</label>
+  <input type="text" id="timeline" name="timeline" placeholder="e.g. next month, no rush, urgent">
+
+  <button type="submit">Send</button>
+
+</form>
+{:/nomarkdown}

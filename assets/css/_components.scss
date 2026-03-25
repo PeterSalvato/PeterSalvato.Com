@@ -266,3 +266,102 @@ img.image {
     filter: url(#rough-edge);
   }
 }
+
+// ----------------------------------------------------------------------------
+// CONSULTING FORM
+// ----------------------------------------------------------------------------
+
+.consulting-form {
+  display: flex;
+  flex-direction: column;
+  gap: $space-md;
+  max-width: 540px;
+  margin-top: $space-lg;
+
+  label {
+    font-family: $font-body;
+    font-size: $type-body-sm;
+    color: $color-ink;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    font-family: $font-body;
+    font-size: $type-body-sm;
+    color: $color-ink;
+    background: $color-paper;
+    border: 1px solid $color-rule-dark;
+    padding: $space-sm $space-md;
+    outline: none;
+    transition: border-color $transition-fast;
+    width: 100%;
+
+    &:focus {
+      border-color: $color-ink;
+      outline: 2px solid $color-ink;
+      outline-offset: 2px;
+    }
+
+    &::placeholder {
+      color: $color-ink-faint;
+    }
+  }
+
+  textarea {
+    resize: vertical;
+    min-height: 120px;
+  }
+
+  fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: $space-sm;
+
+    legend {
+      font-family: $font-body;
+      font-size: $type-body-sm;
+      color: $color-ink;
+      margin-bottom: $space-sm;
+    }
+  }
+
+  .checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: $space-sm;
+    font-size: $type-body-sm;
+    cursor: pointer;
+
+    input[type="checkbox"] {
+      width: 18px;
+      height: 18px;
+      accent-color: $color-ink;
+    }
+  }
+
+  button[type="submit"] {
+    font-family: $font-body;
+    font-size: $type-body-sm;
+    color: $color-paper;
+    background: $color-ink;
+    border: 1px solid $color-ink;
+    padding: $space-sm $space-lg;
+    cursor: pointer;
+    transition: background $transition-fast;
+    align-self: flex-start;
+
+    &:hover {
+      background: $color-ink-light;
+      border-color: $color-ink-light;
+    }
+
+    &:focus-visible {
+      outline: 2px solid $color-ink;
+      outline-offset: 2px;
+    }
+  }
+}
