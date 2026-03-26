@@ -124,7 +124,7 @@ The accommodation response is to design infrastructure that compensates for the 
 
 ## 4. Savepoint Syntax
 
-I built Savepoint Syntax in March 2025 after losing months of novel ideation to the flattening problem. The first version failed immediately. Three more versions before the structure held. The current version (v3.2) has been in continuous use for over a year across more than 60,000 documents of ideation history. v3.2 added a `context:` field after real traversal work revealed that savepoints got you to the right location but couldn't reconstruct what was decided without reading the surrounding conversation.
+I built Savepoint Syntax in March 2025 after losing months of novel ideation to the flattening problem. The first version failed immediately. Three more versions before the structure held. The current version (v3.2) has been in continuous use for over a year across more than 6,000 conversations containing over 300,000 messages of ideation history. v3.2 added a `context:` field after real traversal work revealed that savepoints got you to the right location but couldn't reconstruct what was decided without reading the surrounding conversation.
 
 
 ### 4.1 The Format
@@ -187,7 +187,7 @@ Savepoint Syntax did not arrive as a finished protocol. It failed three times be
 
 **Version 3.0 (self-closing tag)** constrained the content to one line. Forced precision. The format was fast enough to drop without breaking flow and constrained enough to prevent drift. The crystallized thought had to fit in one sentence.
 
-**Version 3.1** added project scoping when the archive exceeded 60,000 documents. Without project tags, searching the archive for savepoints relevant to a specific project returned results from every project. The addition was an accommodation of scale.
+**Version 3.1** added project scoping when the archive exceeded 6,000 conversations. Without project tags, searching the archive for savepoints relevant to a specific project returned results from every project. The addition was an accommodation of scale.
 
 Each version failure was an accommodation failure. The format did not fit the practitioner's processing reality. Version 1.0 did not constrain enough (the practitioner drifts without structure). Version 2.0 constrained the wrong thing (the practitioner's flow state). Version 3.0 got the constraint right but did not scale. The design principle throughout: build the syntax for what the model needs to reconstruct context, not for what the human needs to remember. That distinction is where the accommodation happens.
 
@@ -267,7 +267,7 @@ The AI memory research community is building increasingly sophisticated systems 
 
 This paper proposes a different framing. Semantic importance is not a property of content. It is a relationship between content and intent. The same sentence is filler in one context and a governing decision in another. The machine can score the text, but it has no access to what that text meant to the practitioner.
 
-Savepoint Syntax provides the infrastructure for human-marked semantic hierarchy: structured tags dropped at cognitive turning points, supported by AI pattern recognition, shaped by the practitioner's declared intent. The system has been in continuous use for over a year across more than 60,000 documents of ideation history. It was built as accommodation for a specific disability (the model's inability to distinguish weight) producing a specific harm (the flattening of the practitioner's thinking across the conversation archive).
+Savepoint Syntax provides the infrastructure for human-marked semantic hierarchy: structured tags dropped at cognitive turning points, supported by AI pattern recognition, shaped by the practitioner's declared intent. The system has been in continuous use for over a year across more than 6,000 conversations containing over 300,000 messages of ideation history. It was built as accommodation for a specific disability (the model's inability to distinguish weight) producing a specific harm (the flattening of the practitioner's thinking across the conversation archive).
 
 The field is building better recall. Two pieces are missing. The first is weight: without a human source for semantic importance, the practitioner's presence in AI-mediated work erodes over time. The second is sovereignty: without a platform-independent format, the practitioner's cognitive output is locked inside infrastructure that can become unavailable. Savepoint Syntax addresses both. Human-marked importance preserves weight. Plain-text format preserves sovereignty. The thinking stays with the person who did it, addressable at every level of technological availability, from AI traversal to grep to a printed page.
 
@@ -299,4 +299,4 @@ You are free to share and adapt this material for any purpose, including commerc
 
 ---
 
-*Peter Salvato is a design engineer based in Fort Lauderdale, FL. He studied Visual Communication at the School of Visual Arts, taught special education in Brooklyn, NY, and spent twelve years building the front end of an enterprise recruiting platform. His AI governance work applies twenty-five years of practice across construction, print production, pedagogy, enterprise software, and brand systems to the question of what AI systems actually need to produce quality output. His work is published at [petersalvato.com](/).*
+*Peter Salvato is a design engineer based in Fort Lauderdale, FL. He studied Visual Communication at the School of Visual Arts, taught special education in Brooklyn, NY, and spent thirteen years building the front end of an enterprise recruiting platform. His AI governance work applies twenty-five years of practice across construction, print production, pedagogy, enterprise software, and brand systems to the question of what AI systems actually need to produce quality output. His work is published at [petersalvato.com](/).*
