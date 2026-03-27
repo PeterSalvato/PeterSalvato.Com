@@ -3,7 +3,7 @@
 // ============================================================================
 
 .artifact-card {
-  border: 2px solid $color-ink-faint;
+  border: 1px solid $color-ink-faint;
   padding: $space-lg;
   margin-bottom: $space-lg;
   background-color: $color-white;
@@ -82,6 +82,46 @@
     .status-badge {
       margin-right: auto;
     }
+  }
+}
+
+// Card with thumbnail — image + text side by side
+.artifact-card--has-thumb {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: $space-lg;
+
+  .artifact-thumb {
+    overflow: hidden;
+    aspect-ratio: 4/3;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+  }
+
+  .artifact-card-body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .artifact-context {
+    flex: 1;
+  }
+
+  @media (max-width: #{$bp-s - 1}) {
+    grid-template-columns: 1fr;
+
+    .artifact-thumb {
+      aspect-ratio: 16/9;
+    }
+  }
+
+  @media (min-width: $bp-m) {
+    grid-template-columns: 240px 1fr;
   }
 }
 
@@ -221,7 +261,7 @@
 // Adaptive states (set by pathfinding.js)
 .connection--source {
   border-color: $color-accent;
-  border-width: 2px;
+  border-width: 1px;
 }
 
 .connection--visited {

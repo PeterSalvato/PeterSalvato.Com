@@ -9,6 +9,7 @@ logo_type: stacked
 status: "Delivered"
 context: "A trained artist designing fine jewelry from recycled solid gold. The quality is real. A stranger buying through a screen would never know."
 faculty: ["design", "engineering", "uxia"]
+thumbnail: /assets/img/AidenJae_gold_rings_felt.jpg
 seo_keywords: ["Brand Systems", "E-Commerce Architecture", "Luxury Positioning", "Photography Integration", "Shopify Development", "Identity Design", "jewelry brand design", "cross-continent product design", "small business brand system"]
 description: "My wife designs fine jewelry from 100% recycled 9k gold, manufactured by RJC-certified partners in Bangkok. The quality was real. The Shopify store erased it. I built the entire brand as one integrated system: identity, photography direction, Shopify architecture, packaging. The code respects the photograph. When a customer sees the actual texture of recycled gold under honest light, they see the cost structure and the production standard without reading a word."
 last_modified: 2026-02-27

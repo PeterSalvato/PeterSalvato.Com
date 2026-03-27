@@ -7,6 +7,7 @@ icon: cases
 status: "Deployed"
 context: "A Windows Forms desktop application serving executive search firms on six continents. The software was solid. The delivery layer was about to become the constraint. I made the case for the browser in 2013 and built everything the product runs on today."
 faculty: ["design", "engineering", "uxia"]
+thumbnail: /assets/img/Encore_devices.png
 seo_keywords: ["Enterprise Architecture", "Legacy Modernization", "Design Systems", "Long-term Maintenance", "Platform Durability", "enterprise platform thirteen years", "preventing drift in long projects", "maintaining design systems over time", "AI adoption enterprise", "WCAG accessibility enterprise"]
 description: "Thirteen years on one enterprise platform. I walked into a Windows Forms desktop application in 2013, argued against migrating to Silverlight, made the case for the browser, and built the entire front end from scratch. JS namespace and OOP architecture, SCSS framework and design system, mobile, accessibility, a full Material Design reskin, and the UX/UI for two additional products. Now leading AI adoption across the product suite. 1,100+ deployments, six continents. Clients include Fortune 100 companies and federal agencies."
 last_modified: 2026-03-24

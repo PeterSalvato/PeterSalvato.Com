@@ -1,0 +1,55 @@
+<svg width="340" height="220" viewBox="0 0 340 220" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .line { stroke-width: 1.5; fill: none; }
+    .arrow { fill: #2c2418; }
+    .prism { stroke: #2c2418; stroke-width: 1.5; fill: none; }
+  </style>
+
+  <!-- INPUT: Tight cluster of black circles -->
+  <circle cx="35" cy="102" r="16" fill="#2c2418"/>
+  <circle cx="15" cy="120" r="12" fill="#2c2418"/>
+  <circle cx="55" cy="116" r="14" fill="#2c2418"/>
+  <circle cx="25" cy="85" r="10" fill="#2c2418"/>
+  <circle cx="48" cy="134" r="11" fill="#2c2418"/>
+  <circle cx="68" cy="105" r="12" fill="#2c2418"/>
+  <circle cx="8" cy="108" r="8" fill="#2c2418"/>
+  <circle cx="62" cy="128" r="9" fill="#2c2418"/>
+  <circle cx="22" cy="138" r="7" fill="#2c2418"/>
+  <circle cx="42" cy="88" r="8" fill="#2c2418"/>
+
+  <!-- Beam to prism -->
+  <line x1="80" y1="110" x2="108" y2="110" stroke="#2c2418" stroke-width="1.5"/>
+  <polygon points="108,105 116,110 108,115" class="arrow"/>
+
+  <!-- PRISM -->
+  <polygon points="118,160 153,60 188,160" class="prism"/>
+
+  <!-- Three diverging beams -->
+  <line x1="188" y1="92" x2="250" y2="40" stroke="#a64b2a" stroke-width="2"/>
+  <line x1="188" y1="110" x2="260" y2="110" stroke="#3a5f85" stroke-width="2"/>
+  <line x1="188" y1="128" x2="250" y2="180" stroke="#6b8e5f" stroke-width="2"/>
+
+  <!-- Red cluster (design) -->
+  <circle cx="258" cy="35" r="18" fill="#a64b2a"/>
+  <circle cx="280" cy="50" r="14" fill="#a64b2a"/>
+  <circle cx="293" cy="25" r="10" fill="#a64b2a"/>
+  <circle cx="276" cy="15" r="8" fill="#a64b2a"/>
+  <circle cx="300" cy="42" r="9" fill="#a64b2a"/>
+  <circle cx="266" cy="55" r="7" fill="#a64b2a"/>
+
+  <!-- Blue cluster (engineering) -->
+  <circle cx="270" cy="105" r="16" fill="#3a5f85"/>
+  <circle cx="290" cy="122" r="12" fill="#3a5f85"/>
+  <circle cx="300" cy="96" r="10" fill="#3a5f85"/>
+  <circle cx="285" cy="135" r="8" fill="#3a5f85"/>
+  <circle cx="308" cy="115" r="9" fill="#3a5f85"/>
+  <circle cx="275" cy="128" r="7" fill="#3a5f85"/>
+
+  <!-- Green cluster (governance) -->
+  <circle cx="258" cy="178" r="16" fill="#6b8e5f"/>
+  <circle cx="280" cy="192" r="12" fill="#6b8e5f"/>
+  <circle cx="290" cy="172" r="9" fill="#6b8e5f"/>
+  <circle cx="273" cy="205" r="8" fill="#6b8e5f"/>
+  <circle cx="298" cy="185" r="10" fill="#6b8e5f"/>
+  <circle cx="266" cy="165" r="7" fill="#6b8e5f"/>
+</svg>

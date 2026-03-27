@@ -22,6 +22,7 @@ faq_items:
     answer: "Jekyll 4.4.1 with custom SCSS, hosted on GitHub Pages. Build tools include ChatGPT for exploratory thinking, Gemini for planning, and Claude Code for engineering. Visual treatments produced by PressWorks. The governance infrastructure was assembled over nearly a year before the current tools existed."
   - question: "What is the difference between compilation and generation?"
     answer: "Generation uses AI as the author and the human as the editor. Compilation uses the human as the source material and AI as the toolchain. The source code is the maker's own thinking, decisions, and voice. The tools mine, evaluate, and assemble that material under rules the maker sets."
+hero_image: /assets/img/visual-language/TheSite@2x.png
 ---
 
 The first complete draft came out of an AI session that ran clean. Good structure, clear hierarchy, reasonable copy. Session two adjusted the naming conventions. Session three adjusted them again. By session five the layouts were breaking, the taxonomy had been renamed twice, and a full teardown was required to get back to the decisions I had actually made. The AI was not the problem. The project's decisions lived in my head, and every new context window started from zero.

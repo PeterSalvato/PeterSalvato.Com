@@ -16,6 +16,12 @@ layout: default
     <div class="page-updated">Last updated {{ page.last_modified | date: "%B %Y" }}</div>
     {% endif %}
 
+    {% if page.hero_image %}
+    <div class="context-hero-image">
+        <img src="{{ page.hero_image | relative_url }}" alt="{{ page.title }}">
+    </div>
+    {% endif %}
+
     {% if page.image %}
     <div class="context-editorial">
         <div class="context-editorial-image">

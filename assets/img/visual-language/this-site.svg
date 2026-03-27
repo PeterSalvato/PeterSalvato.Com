@@ -1,0 +1,131 @@
+<svg width="461" height="202" viewBox="0 0 461 202" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .line { stroke: #2c2418; stroke-width: 1; fill: none; }
+    .line-thick { stroke: #2c2418; stroke-width: 2; fill: none; }
+    .arrow { fill: #2c2418; }
+  </style>
+
+  <!-- LEFT: Raw input cluster (tight) -->
+  <circle cx="80" cy="82" r="22" fill="#a64b2a"/>
+  <circle cx="50" cy="100" r="17" fill="#3a5f85"/>
+  <circle cx="15" cy="70" r="14" fill="#6b8e5f"/>
+  <circle cx="55" cy="115" r="20" fill="#a64b2a"/>
+  <circle cx="85" cy="45" r="11" fill="#3a5f85"/>
+  <circle cx="20" cy="130" r="16" fill="#6b8e5f"/>
+  <circle cx="55" cy="150" r="13" fill="#a64b2a"/>
+  <circle cx="10" cy="50" r="9" fill="#3a5f85"/>
+  <circle cx="80" cy="110" r="10" fill="#6b8e5f"/>
+  <circle cx="35" cy="165" r="12" fill="#3a5f85"/>
+  <circle cx="70" cy="22" r="8" fill="#a64b2a"/>
+  <circle cx="0" cy="100" r="11" fill="#6b8e5f"/>
+  <circle cx="30" cy="5" r="15" fill="#3a5f85"/>
+  <circle cx="50" cy="45" r="10" fill="#a64b2a"/>
+  <circle cx="25" cy="55" r="9" fill="#6b8e5f"/>
+
+  <!-- CENTER: 4 tool blocks stacked -->
+  <rect x="190" y="18" width="80" height="32" fill="#a64b2a"/>
+  <rect x="190" y="68" width="80" height="32" fill="#3a5f85"/>
+  <rect x="190" y="118" width="80" height="32" fill="#6b8e5f"/>
+  <rect x="190" y="168" width="80" height="32" fill="#a64b2a"/>
+
+  <!-- Vertical spine between blocks -->
+  <line x1="230" y1="50" x2="230" y2="68" class="line-thick"/>
+  <line x1="230" y1="100" x2="230" y2="118" class="line-thick"/>
+  <line x1="230" y1="150" x2="230" y2="168" class="line-thick"/>
+
+  <!-- Lines: circles to blocks (routed) -->
+  <!-- Group 1 → block 1 (y=34) -->
+  <polyline points="102,82 130,82 130,34 180,34" class="line"/>
+  <polyline points="67,100 130,100 130,34 180,34" class="line"/>
+  <polyline points="60,45 130,45 130,34 180,34" class="line"/>
+  <polyline points="45,5 130,5 130,34 180,34" class="line"/>
+
+  <!-- Group 2 → block 2 (y=84) -->
+  <polyline points="29,70 140,70 140,84 180,84" class="line"/>
+  <polyline points="75,115 140,115 140,84 180,84" class="line"/>
+  <polyline points="19,50 140,50 140,84 180,84" class="line"/>
+
+  <!-- Group 3 → block 3 (y=134) -->
+  <polyline points="36,130 150,130 150,134 180,134" class="line"/>
+  <polyline points="90,110 150,110 150,134 180,134" class="line"/>
+  <polyline points="11,100 150,100 150,134 180,134" class="line"/>
+
+  <!-- Group 4 → block 4 (y=184) -->
+  <polyline points="68,150 160,150 160,184 180,184" class="line"/>
+  <polyline points="47,165 160,165 160,184 180,184" class="line"/>
+  <polyline points="78,22 160,22 160,184 180,184" class="line"/>
+  <polyline points="59,45 160,45 160,184 180,184" class="line"/>
+
+  <!-- Arrows into blocks -->
+  <polygon points="190,29 180,34 190,39" class="arrow"/>
+  <polygon points="190,79 180,84 190,89" class="arrow"/>
+  <polygon points="190,129 180,134 190,139" class="arrow"/>
+  <polygon points="190,179 180,184 190,189" class="arrow"/>
+
+  <!-- RIGHT: Output grid -->
+  <rect x="320" y="2" width="24" height="18" fill="#a64b2a"/>
+  <rect x="348" y="2" width="24" height="18" fill="#3a5f85"/>
+  <rect x="376" y="2" width="24" height="18" fill="#6b8e5f"/>
+  <rect x="404" y="2" width="24" height="18" fill="#3a5f85"/>
+  <rect x="432" y="2" width="24" height="18" fill="#a64b2a"/>
+
+  <rect x="320" y="24" width="24" height="18" fill="#6b8e5f"/>
+  <rect x="348" y="24" width="24" height="18" fill="#a64b2a"/>
+  <rect x="376" y="24" width="24" height="18" fill="#3a5f85"/>
+  <rect x="404" y="24" width="24" height="18" fill="#6b8e5f"/>
+  <rect x="432" y="24" width="24" height="18" fill="#a64b2a"/>
+
+  <rect x="320" y="46" width="24" height="18" fill="#3a5f85"/>
+  <rect x="348" y="46" width="24" height="18" fill="#6b8e5f"/>
+  <rect x="376" y="46" width="24" height="18" fill="#a64b2a"/>
+  <rect x="404" y="46" width="24" height="18" fill="#3a5f85"/>
+  <rect x="432" y="46" width="24" height="18" fill="#6b8e5f"/>
+
+  <rect x="320" y="68" width="24" height="18" fill="#a64b2a"/>
+  <rect x="348" y="68" width="24" height="18" fill="#3a5f85"/>
+  <rect x="376" y="68" width="24" height="18" fill="#6b8e5f"/>
+  <rect x="404" y="68" width="24" height="18" fill="#a64b2a"/>
+  <rect x="432" y="68" width="24" height="18" fill="#3a5f85"/>
+
+  <rect x="320" y="90" width="24" height="18" fill="#6b8e5f"/>
+  <rect x="348" y="90" width="24" height="18" fill="#a64b2a"/>
+  <rect x="376" y="90" width="24" height="18" fill="#3a5f85"/>
+  <rect x="404" y="90" width="24" height="18" fill="#6b8e5f"/>
+  <rect x="432" y="90" width="24" height="18" fill="#a64b2a"/>
+
+  <rect x="320" y="112" width="24" height="18" fill="#3a5f85"/>
+  <rect x="348" y="112" width="24" height="18" fill="#6b8e5f"/>
+  <rect x="376" y="112" width="24" height="18" fill="#a64b2a"/>
+  <rect x="404" y="112" width="24" height="18" fill="#3a5f85"/>
+  <rect x="432" y="112" width="24" height="18" fill="#6b8e5f"/>
+
+  <rect x="320" y="134" width="24" height="18" fill="#a64b2a"/>
+  <rect x="348" y="134" width="24" height="18" fill="#3a5f85"/>
+  <rect x="376" y="134" width="24" height="18" fill="#6b8e5f"/>
+  <rect x="404" y="134" width="24" height="18" fill="#a64b2a"/>
+  <rect x="432" y="134" width="24" height="18" fill="#3a5f85"/>
+
+  <rect x="320" y="156" width="24" height="18" fill="#6b8e5f"/>
+  <rect x="348" y="156" width="24" height="18" fill="#a64b2a"/>
+  <rect x="376" y="156" width="24" height="18" fill="#3a5f85"/>
+  <rect x="404" y="156" width="24" height="18" fill="#6b8e5f"/>
+  <rect x="432" y="156" width="24" height="18" fill="#a64b2a"/>
+
+  <rect x="320" y="178" width="24" height="18" fill="#3a5f85"/>
+  <rect x="348" y="178" width="24" height="18" fill="#6b8e5f"/>
+  <rect x="376" y="178" width="24" height="18" fill="#a64b2a"/>
+  <rect x="404" y="178" width="24" height="18" fill="#3a5f85"/>
+  <rect x="432" y="178" width="24" height="18" fill="#6b8e5f"/>
+
+  <!-- Lines: blocks to grid -->
+  <polyline points="270,34 290,34 290,11 310,11" class="line"/>
+  <polyline points="270,84 295,84 295,55 310,55" class="line"/>
+  <polyline points="270,134 300,134 300,101 310,101" class="line"/>
+  <polyline points="270,184 305,184 305,145 310,145" class="line"/>
+
+  <!-- Arrows into grid -->
+  <polygon points="320,6 310,11 320,16" class="arrow"/>
+  <polygon points="320,50 310,55 320,60" class="arrow"/>
+  <polygon points="320,96 310,101 320,106" class="arrow"/>
+  <polygon points="320,140 310,145 320,150" class="arrow"/>
+</svg>

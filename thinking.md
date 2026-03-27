@@ -18,6 +18,7 @@ faq_items:
     answer: "Start with the system receiving the work, not the person commissioning it. What does the student need, the end user need, the platform need? The answer to that question governs every design, engineering, and architectural decision that follows."
   - question: "How does accommodation design apply to AI?"
     answer: "Language models have processing profiles: context windows are working memory ceilings, compound prompts degrade the same way compound classroom instructions do, attention diminishes over long inputs. But the human has a processing profile too: ideas lose fidelity when forced into structure at the point of capture. The accommodation framework designs for both. Remove friction on input so the human's thinking comes through raw. Structure the tasks so the model can process them. Both directions, same question."
+hero_image: /assets/img/visual-language/prism@2x.png
 ---
 
 A student in my classroom hears "solve for the missing number, show your work, and explain your reasoning" and processes the first instruction. The rest drops. Three tasks disguised as one, given to a system that can't hold them all at once.

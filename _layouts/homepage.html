@@ -12,6 +12,11 @@ layout: default
 <div id="section-cards">
     {% for route in site.data.index.routes %}
     <a href="{{ route.url | relative_url }}" class="section-card artifact-card artifact-card--link" data-section="{{ route.name | downcase }}">
+        {% if route.image %}
+        <div class="section-card-image">
+            <img src="{{ route.image | relative_url }}" alt="{{ route.name }}">
+        </div>
+        {% endif %}
         <h3 class="section-card-name">{{ route.name }}</h3>
         <p class="section-card-definition">{{ route.definition }}</p>
         <p class="section-card-description">{{ route.description }}</p>

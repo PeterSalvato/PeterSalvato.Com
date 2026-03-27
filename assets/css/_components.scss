@@ -62,6 +62,18 @@ pre {
   }
 }
 
+// Hero image — printed on the page between title and content
+.context-hero-image {
+  margin-bottom: $space-lg;
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    mix-blend-mode: multiply;
+  }
+}
+
 // Inline images (markdown {:.image.diagram} etc.)
 img.image {
   max-width: 100%;
@@ -71,8 +83,9 @@ img.image {
 
   &.diagram {
     padding: $space-sm;
-    background-color: $color-white;
-    border: 1px solid $color-rule;
+    background-color: transparent;
+    border: none;
+    mix-blend-mode: multiply;
   }
 
   &.photo {
@@ -263,7 +276,7 @@ img.image {
     inset: 0;
     position: absolute;
     pointer-events: none;
-    filter: url(#rough-edge);
+    // filter: url(#rough-edge);
   }
 }
 

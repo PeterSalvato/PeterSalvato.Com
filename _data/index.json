@@ -7,18 +7,21 @@
     {
       "name": "This Site",
       "url": "/practice/this-site/",
-      "definition": "60,000 documents compiled into what you're reading.",
+      "image": "/assets/img/visual-language/TheSite@2x.png",
+      "definition": "6,000+ conversations compiled into what you're reading.",
       "description": "I built the tools, then pointed them at my own work. Three years of conversation, compiled by the systems described on this site. The methodology is documented. The build process is visible. You're looking at the output."
     },
     {
       "name": "The Work",
       "url": "/evidence/",
+      "image": "/assets/img/visual-language/venn@2x.png",
       "definition": "Professional and personal. Same methodology on all of it.",
       "description": "Twelve years on an enterprise platform. A jewelry brand built as one integrated system. Print, music, a novel. Professional and personal, same methodology on all of it."
     },
     {
       "name": "How I Think",
       "url": "/thinking/",
+      "image": "/assets/img/visual-language/prism@2x.png",
       "definition": "One question applied to every material.",
       "description": "What does the system receiving this actually need? That started in a classroom in Brooklyn. It applies to everything I've worked in since. The methodology, the research, and the systems that run it."
     }

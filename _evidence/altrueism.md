@@ -9,6 +9,7 @@ logo_type: stacked
 status: "Delivered"
 context: "A brand for handcrafted objects and sustainable ethics. The first round of explorations looked right and matched the category, but solved the wrong problem. Script fonts tell you 'handmade' the same way every other craft brand does."
 faculty: ["design", "uxia"]
+thumbnail: /assets/img/Altrueism_wireframe-1.jpg
 seo_keywords: ["Brand Identity", "Visual Systems", "Sustainable Design", "Identity Architecture", "Craft Branding", "nonprofit brand design", "social impact design", "mission-driven branding"]
 description: "Brand identity for a company built on handcrafted objects and sustainable ethics. The first round of explorations went where every craft brand goes: script fonts, cursive motion, gesture. It solved the wrong problem. The real identity was restraint, transparency, and the visible hand of the maker. Wordmark, type system, color palette, packaging, and site designed as one argument."
 last_modified: 2026-02-25

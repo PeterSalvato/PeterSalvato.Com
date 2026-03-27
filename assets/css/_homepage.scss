@@ -66,6 +66,17 @@
 }
 
 .section-card {
+  .section-card-image {
+    overflow: hidden;
+    padding: $space-md;
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  }
+
   .section-card-name {
     font-family: $font-display;
     font-size: $type-h3;
