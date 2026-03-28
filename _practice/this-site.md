@@ -37,7 +37,7 @@ That cycle broke the first year of this build open. Nearly a year of failed gove
 
 I use AI every day. I also built the governance layer that keeps the human visible inside it.
 
-Every page on this site was compiled from three years of my conversations: over 60,000 documents of thinking out loud into AI tools, mined by the skills described here, evaluated against lenses extracted from real practitioners, assembled under voice rules derived from how I actually talk in unguarded sessions.
+Every page on this site was compiled from three years of my conversations: over 6,000 conversations of thinking out loud into AI tools, mined by the skills described here, evaluated against lenses extracted from real practitioners, assembled under voice rules derived from how I actually talk in unguarded sessions.
 
 In FormWork, the first accommodation is aimed at the human: get the thinking out of your head with as little friction as possible. Talk, dictate, answer questions. No requirement to structure or perform. Three years of that produced the source material everything else operates on. That rawness matters. It carries my actual voice, my actual thinking, the way I actually connect ideas. The tools that follow can only preserve what the raw material already contains.
 
@@ -105,7 +105,7 @@ The build ran across multiple tools and sessions: exploratory work in ChatGPT, s
 
 I started dropping [savepoints](/systems/savepoint/) routinely, marking the cognitive turning points as they happened: when the taxonomy locked, when the voice protocol crystallized, when the frontmatter schema stopped changing. Those markers live inside the conversation stream. When I come back weeks later or switch tools, the savepoints tell me where the thinking was.
 
-The build produced over 60,000 documents of ideation history across all the sessions. Savepoints are the trail system through that mass.
+The build produced over 6,000 conversations of ideation history across all the sessions. Savepoints are the trail system through that mass.
 
 > "The overarching goal of this is to create a creativity generation machine. It's not using the AI tools to ideate. It's using them to extract from the user and organize it and channel it."
 > From the session where I realized what the savepoint system was actually for, March 2025
