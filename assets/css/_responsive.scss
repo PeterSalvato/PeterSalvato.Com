@@ -201,14 +201,17 @@
     transform: translateX(0) translateY(0);
   }
 
-  // Project pages
+  // Project pages — images before text on mobile
   .block-body {
     grid-template-columns: 1fr;
     gap: $space-lg;
+    display: flex;
+    flex-direction: column;
   }
 
   .block-images {
     position: static;
+    order: -1;
   }
 
   figure.figure img {
