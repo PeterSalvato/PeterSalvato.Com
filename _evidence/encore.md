@@ -35,7 +35,7 @@ I built the entire front end from scratch. Not a reskin. The foundation.
 
 **SCSS framework and design system.** Variables, tokens, component patterns. The design system encodes the constraints directly in the code: if a color value isn't in the variables file, it doesn't belong. If a component isn't built from the existing patterns, the code makes that visible. Constraints that enforce consistency at the point of development.
 
-**Mobile (second screen).** Brought the platform to mobile devices. Not a responsive retrofit. A dedicated second-screen experience designed for how recruiters actually work on the move.
+**Mobile (second screen).** The platform extends to mobile as a dedicated second-screen experience. Built on the same JS namespace, SCSS framework, and data architecture as the primary interface.
 
 **Survey and Portal products.** Built the UX/UI for two additional products in the suite, extending the design system across the full product line.
 
