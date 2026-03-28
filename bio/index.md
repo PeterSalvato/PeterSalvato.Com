@@ -80,3 +80,5 @@ In 2023 I started thinking out loud into AI tools the way I'd been thinking into
 The worst loss was a novel. Months of [New City](/practice/new-city/) ideation distributed across dozens of sessions, the continuity severed when the sessions closed. That loss built the [Savepoint Syntax](/systems/savepoint/). The first version failed immediately. Three more before the structure held. Then the same problem surfaced in code: contributors contradicting each other's architectural decisions. That produced [FormWork](/systems/formwork/).
 
 The failure modes were not new. Joints that cannot carry load, context that drifts when nobody maintains fidelity to it, structures that break when the people operating them cannot see what has already been decided. I have been solving that problem since construction sites. That corpus, three years of sessions and thousands of conversations, became the raw material this site was compiled from. The tools are different now, but the engineering is the same engineering I learned watching my father coordinate fifty trades.
+
+![Peter Salvato](/assets/img/selfportrait-web.jpg){:.image.photo}
