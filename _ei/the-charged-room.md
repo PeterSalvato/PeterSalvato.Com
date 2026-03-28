@@ -29,11 +29,11 @@ There are two moves. You figure out the intended experience first. Then you reac
 
 ## The arc
 
-I made an album called Release. Fourteen tracks, all original production, sequenced as a single emotional arc from trouble to resolution. Every track earns its position in that sequence.
+I made an album called Release. Seven tracks, all original production, sequenced as a single emotional arc from trouble to resolution. Every track earns its position in that sequence.
 
 There were tracks I loved that didn't make it. Strong tracks. Tracks I was proud of. But they didn't serve the arc, and that's not really a choice. You cut them. The tracklist is a sequence designed to do something specific to the person listening, and a great track in the wrong position does more damage than a decent track in the right one.
 
-The same fourteen tracks in a different order tell a different story. The same twelve tracks with two additions in the right places change the emotional shape of the whole thing. Selection is the part most people focus on. But I spent more time on the order than I did choosing the tracks.
+The same seven tracks in a different order tell a different story. The same five tracks with two additions in the right places change the emotional shape of the whole thing. Selection is the part most people focus on. But I spent more time on the order than I did choosing the tracks.
 
 ## What the body learned
 
