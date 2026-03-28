@@ -4,6 +4,7 @@ redirect_from: /output/photogeography/
 practice_group: meditations
 published: true
 title: "Photogeography"
+order: 6
 subtitle: "Format-Locked Visual Archive"
 icon: construction
 status: "In Development"
@@ -12,6 +13,7 @@ faculty: ["design", "uxia"]
 seo_keywords: ["Photography Systems", "Constraint-Based Design", "Visual Archive", "Format as Forcing Function", "Metadata Structure", "EXIF data poster", "photography as data visualization", "location-based photo art"]
 description: "Constraint-locked photography. Fixed aspect ratios encode the relational mode of each encounter. Metadata pins every image to its exact geography. No cropping."
 last_modified: 2026-02-25
+thumbnail: /assets/img/photogeography_cardImage.png
 ---
 
 My father was into photography. A neighbor gave me an SLR (the Minolta) when I was a kid, and I ended up in a photo class at Kingsborough. From there it became the visual component of everything: travel, relocation, documentation.

@@ -4,6 +4,7 @@ redirect_from:
   - /output/new-city/
   - /evidence/new-city/
 title: "New City"
+order: 3
 practice_group: meditations
 subtitle: "Registration Architecture Applied to Prose"
 icon: cases
@@ -20,6 +21,7 @@ related:
 cta:
   text: "See the protocol that came from this"
   link: /systems/savepoint
+thumbnail: /assets/img/New_City_01_web.jpg
 ---
 
 I had never written a novel. I had a story idea and wanted to find out whether the same design thinking I use everywhere else would hold in a material I'd never worked in. Brand systems, enterprise platforms, music production. The methodology transfers across all of them. I wanted to know if it would transfer to fiction.

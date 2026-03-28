@@ -3,6 +3,7 @@ layout: project
 redirect_from: /governance/order-of-the-aetherwright/
 practice_group: writing
 title: "Order of the Ætherwright"
+order: 9
 subtitle: "Symbolic Structure for Creative Work"
 icon: construction
 logo: /assets/img/AE_sigil@4x.png
@@ -18,6 +19,7 @@ last_modified: 2026-03-01
 related:
   - /systems/savepoint
   - /systems/formwork
+thumbnail: /assets/img/AE_sigil@4x.png
 ---
 
 I had a method underneath the visible work for years. The same instinct across construction sites, print shops, enterprise platforms, brand systems, classrooms. Invisible to everyone, including me. I couldn't teach what I couldn't articulate. I couldn't defend it under pressure. So I gave it the treatment: glyphs, a Codex, a daily ritual.

@@ -3,6 +3,7 @@ layout: project
 redirect_from: /output/mathontape/
 practice_group: meditations
 title: "MathOnTape"
+order: 7
 subtitle: "Visual-Sonic Brand Integration"
 icon: construction
 logo: /assets/img/MathOnTape.stacked.logo.svg
@@ -14,6 +15,7 @@ seo_keywords: ["Electronic Music", "Brand Systems", "Visual-Sonic Integration", 
 description: "Experimental electronic music where visual identity and sonic texture are built as one brand system. Halftone as tape hiss, misregistration as distortion. One system, two surfaces."
 last_modified: 2026-02-25
 listed: false
+thumbnail: /assets/img/MathOnTape_poster_web.jpg
 ---
 
 I started making electronic music in the early 2000s. Dirty analog synths, magnetic tape, feedback loops. No audience, no commercial goal. Just a room full of gear and whatever came out of it.

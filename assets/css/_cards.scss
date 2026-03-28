@@ -3,7 +3,7 @@
 // ============================================================================
 
 .artifact-card {
-  border: 1px solid $color-ink-faint;
+  border: none;
   padding: $space-lg;
   margin-bottom: $space-lg;
   background-color: $color-white;
@@ -88,19 +88,28 @@
 // Card with thumbnail — image + text side by side
 .artifact-card--has-thumb {
   display: grid;
-  grid-template-columns: 200px 1fr;
+  grid-template-columns: 175px 1fr;
   gap: $space-lg;
 
   .artifact-thumb {
-    overflow: hidden;
-    aspect-ratio: 4/3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 1;
+    width: 175px;
 
     img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
+      max-width: 90%;
+      max-height: 90%;
+      width: auto;
+      height: auto;
+      object-fit: contain;
       display: block;
     }
+  }
+
+  .artifact-thumb--empty {
+    border: 1px solid $color-rule;
   }
 
   .artifact-card-body {
@@ -121,7 +130,7 @@
   }
 
   @media (min-width: $bp-m) {
-    grid-template-columns: 240px 1fr;
+    grid-template-columns: 175px 1fr;
   }
 }
 

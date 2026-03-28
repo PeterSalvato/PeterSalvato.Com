@@ -86,6 +86,10 @@ img.image {
     background-color: transparent;
     border: none;
     mix-blend-mode: multiply;
+    max-height: 250px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   &.photo {
@@ -263,21 +267,12 @@ img.image {
   margin: 0;
 }
 
-// Rough-edge borders (SVG displacement filter)
+// Card borders removed — clean edges
 .artifact-card,
 .photogeography-card,
 .versogram-card {
   position: relative;
   border: none;
-
-  &:after {
-    border: 1px solid $color-ink-faint;
-    content: "";
-    inset: 0;
-    position: absolute;
-    pointer-events: none;
-    // filter: url(#rough-edge);
-  }
 }
 
 // ----------------------------------------------------------------------------

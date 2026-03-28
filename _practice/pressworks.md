@@ -3,6 +3,7 @@ layout: project
 redirect_from: /infrastructure/pressworks/
 practice_group: meditations
 title: "PressWorks"
+order: 4
 subtitle: "Terminal-Native Print Production"
 icon: construction
 status: "Active"
@@ -11,6 +12,7 @@ faculty: ["design", "engineering"]
 seo_keywords: ["Print Production Pipeline", "CMYK Halftone", "Risograph Duotone", "Screen Print Effects", "Image Processing", "ImageMagick", "Terminal Design Tools", "terminal image processing", "halftone effects without Photoshop", "print design without Adobe"]
 description: "Terminal-native print production. Models plate-by-plate press logic as composable shell operations: CMYK separation, halftone screening, registration offset, grain, color manipulation. Built by a 20-year Adobe user who stopped thinking in Adobe's UI."
 last_modified: 2026-03-07
+thumbnail: /assets/img/Printshop_cmyk.png
 related:
   - /practice/art-department
   - /evidence/encore

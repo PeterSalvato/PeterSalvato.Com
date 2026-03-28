@@ -6,6 +6,7 @@ redirect_from:
   - /practice/print-engine/
 practice_group: meditations
 title: "The Art Department"
+order: 10
 subtitle: "Headless Design Pipeline for Print-Ready Output"
 icon: construction
 status: "In Development"
@@ -15,6 +16,7 @@ faculty: ["design", "engineering"]
 seo_keywords: ["Print Production Pipeline", "CSS Paged Media", "Headless Design", "Local-First Design Tools", "Print-Ready PDF", "Design Engineering", "Art Department", "print production pipeline", "design automation terminal", "no Adobe design workflow"]
 description: "Headless, code-driven design pipeline. Source images and metadata in, print-ready PDFs out. No Adobe, local-first, offline-capable. Powers Photogeography posters, Versograms prints, and Deep Cuts book spreads."
 last_modified: 2026-03-01
+thumbnail: /assets/img/ArtDept.paintbrush@2x.png
 related:
   - /practice/pressworks
   - /evidence/encore

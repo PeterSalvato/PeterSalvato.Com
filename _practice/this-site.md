@@ -1,6 +1,7 @@
 ---
 layout: context
 title: "This Site"
+order: 1
 permalink: /practice/this-site/
 redirect_from:
   - /colophon/
@@ -14,6 +15,7 @@ related:
   - /systems/savepoint
   - /systems/lensarray
   - /research/accommodation-design
+thumbnail: /assets/img/visual-language/TheSite@2x.png
 faq: true
 faq_items:
   - question: "How was petersalvato.com built?"

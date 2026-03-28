@@ -4,6 +4,7 @@ redirect_from: /output/echo-and-bone/
 practice_group: meditations
 published: true
 title: "Echo & Bone"
+order: 2
 subtitle: "Symbolic Taxonomy of Archetypal Patterns"
 icon: construction
 logo: /assets/img/EchoAndBone_logo.svg
@@ -14,6 +15,7 @@ faculty: ["design"]
 seo_keywords: ["Archetypal Patterns", "Symbolic Systems", "Stoic Philosophy", "Typography Research", "Meaning Architecture", "stoicism poster art", "skull design prints", "constraint-based design projects"]
 description: "Symbolic taxonomy of archetypal patterns. Stoic philosophy as first test case: three prints where visual element encodes content at the level of symbol, not illustration."
 last_modified: 2026-02-21
+thumbnail: /assets/img/EchoAndBone_MementoMori.jpg
 ---
 
 The same four patterns kept showing up across unrelated projects. A brand identity, a narrative structure, a household routine. Hero, Shadow, Wise Old Man, Trickster. I wasn't looking for mythology. I was looking at why certain structures hold weight across completely different materials.
