@@ -123,14 +123,13 @@
 
   @media (max-width: #{$bp-s - 1}) {
     grid-template-columns: 1fr;
+    gap: $space-md;
 
     .artifact-thumb {
-      aspect-ratio: 16/9;
+      width: 120px;
+      aspect-ratio: 1;
+      margin: 0 auto;
     }
-  }
-
-  @media (min-width: $bp-m) {
-    grid-template-columns: 175px 1fr;
   }
 }
 
