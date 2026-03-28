@@ -24,15 +24,15 @@ cta:
 thumbnail: /assets/img/New_City_01_web.jpg
 ---
 
-I had never written a novel. I had a story idea and wanted to find out whether the same design thinking I use everywhere else would hold in a material I'd never worked in. Brand systems, enterprise platforms, music production. The methodology transfers across all of them. I wanted to know if it would transfer to fiction.
-
-I built the architecture first. The same layered registration approach from the visual work ([Aiden Jae](/evidence/aiden-jae/), [Altrueism](/evidence/altrueism/)), but prose has a channel the visual work doesn't: what the reader's body does.
-
 ![New City concept poster, encampment]({{ '/assets/img/New_City_01_web.jpg' | relative_url }}){:.image.artifact}
 
 ![New City concept poster, market district]({{ '/assets/img/New_City_02_web.jpg' | relative_url }}){:.image.artifact}
 
 ![New City concept poster, settlement]({{ '/assets/img/New_City_03_web.jpg' | relative_url }}){:.image.artifact}
+
+I had never written a novel. I had a story idea and wanted to find out whether the same design thinking I use everywhere else would hold in a material I'd never worked in. Brand systems, enterprise platforms, music production. The methodology transfers across all of them. I wanted to know if it would transfer to fiction.
+
+I built the architecture first. The same layered registration approach from the visual work ([Aiden Jae](/evidence/aiden-jae/), [Altrueism](/evidence/altrueism/)), but prose has a channel the visual work doesn't: what the reader's body does.
 
 ---
 
