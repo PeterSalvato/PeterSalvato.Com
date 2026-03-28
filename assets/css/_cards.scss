@@ -122,15 +122,32 @@
   }
 
   @media (max-width: #{$bp-s - 1}) {
-    grid-template-columns: 1fr;
+    grid-template-columns: 100px 1fr;
     gap: $space-md;
 
     .artifact-thumb {
-      width: 120px;
-      aspect-ratio: 1;
-      margin: 0 auto;
+      width: 100px;
     }
   }
+}
+
+// Faculty dots — RGB domain indicators
+.faculty-dots {
+  display: flex;
+  gap: 6px;
+  margin-top: $space-xs;
+}
+
+.faculty-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+
+  &--design    { background-color: #a64b2a; }
+  &--engineering { background-color: #3a5f85; }
+  &--governance { background-color: #6b8e5f; }
+  &--uxia      { background-color: #a64b2a; } // UX/IA maps to design
 }
 
 // Hero card — dossier header on project pages
