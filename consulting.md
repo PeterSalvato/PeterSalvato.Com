@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "Consulting"
+title: "Consulting | Day Rate Builds"
 permalink: /consulting/
-description: "I build websites, design systems, and AI-governed workflows. Fast, structural, built to hold. Design degree, twelve years of enterprise engineering, daily AI practice."
+description: "Day rate, week rate, and month rate builds. Websites, design systems, AI implementations. Custom architecture, not templates. Pricing and services."
 seo_keywords: ["design engineering consultant", "AI governance consultant", "design systems consulting", "front-end architecture", "AI implementation", "voice governance", "content governance", "Peter Salvato", "build website fast", "AI web development", "Claude Code developer"]
 ---
 
