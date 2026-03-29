@@ -7,7 +7,7 @@ status: "Delivered"
 context: "A music licensing firm hired a freelancer to build an AI-powered email processing pipeline. It didn't work. I diagnosed why, rebuilt it as a production-ready system, and delivered it with documentation."
 faculty: ["engineering", "governance"]
 seo_keywords: ["AI consulting", "n8n workflow", "AI governance", "music licensing automation", "failed AI implementation", "AI systems diagnosis", "workflow automation", "Peter Salvato"]
-description: "A Brooklyn music supervision and licensing clearance firm hired a freelancer to automate their licensing email pipeline with AI. The system didn't work. I diagnosed four critical failures, rebuilt the entire pipeline as a production-ready system, and delivered it with documentation and a troubleshooting guide."
+description: "A music licensing firm's AI email pipeline was broken. Four critical failures. I rebuilt it as a production-ready system in two hours."
 last_modified: 2026-03-24
 published: true
 related:
