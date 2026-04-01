@@ -65,7 +65,7 @@ The implication is direct: prompt optimization hits diminishing returns quickly.
 
 ### 2.3 Voice Input Produces Richer Material
 
-Research on speech-to-text interaction consistently shows that spoken input produces more detailed, higher-quality material than typed input. Speech recognition notes averaged 320.6 words versus 180.8 for typed notes, with higher ratings for clarity, completeness, and information density.
+Research on speech-to-text interaction consistently shows that spoken input produces more detailed, higher-quality material than typed input, with higher ratings for clarity, completeness, and information density.
 
 The mechanism is simple. Humans speak at 125-150 words per minute and type at 40. The friction of the keyboard compresses thought. By the time a typed prompt reaches the model, the human has already edited, compressed, and filtered the raw thinking. The unfiltered version, the one that contains false starts, mid-sentence corrections, and the moment where the idea actually crystallized, never makes it into the prompt.
 
@@ -115,7 +115,7 @@ Finally, compound evaluation collapses when a model tries to assess multiple dim
 
 ### 4.3 The Output
 
-The production site petersalvato.com was compiled from this unstructured corpus. Every page was processed by the accommodation tools, evaluated by decomposed lenses, and verified against voice patterns extracted from conversation. A blind third-party assessment classified the output as direct human writing, not AI-assisted.
+The production site petersalvato.com was compiled from this unstructured corpus. Every page was processed by the accommodation tools, evaluated by decomposed lenses, and verified against voice patterns extracted from conversation. Informal review has consistently classified the output as human-written rather than AI-assisted.
 
 The quality came from the depth of the raw material, not from structuring the input. A structured prompt gives the tools one sanitized snapshot. The unstructured corpus gave them three years of how I actually think, including the parts I would have edited out.
 
@@ -193,7 +193,7 @@ The evidence from agentic workflows (Ng, 2025), voice interaction research, and 
 
 **The corpus is an asset class.** Three years of unstructured thinking is a dataset. The conversational history, the voice notes, the 2 AM brainstorming sessions contain information that no structured brief captures: how the person actually thinks, the language they reach for, the stories that matter to them, the moments where their understanding shifted.
 
-What should the default interface be? Speech. The industry's investment in voice AI (projected $29.28 billion speech recognition market by 2026) implicitly acknowledges that speech is a richer input modality. Input inversion provides the framework for why: speech preserves cognitive state, produces more detailed material, and bypasses the lossy compression of typing.
+What should the default interface be? Speech. The industry's investment in voice AI (projected $29.28 billion speech recognition market by 2026, Allied Market Research) implicitly acknowledges that speech is a richer input modality. Input inversion provides the framework for why: speech preserves cognitive state, produces more detailed material, and bypasses the lossy compression of typing.
 
 If raw input is more valuable than structured input, the competitive advantage shifts to tool design. The practitioner who builds the best translation layer between raw human thinking and model-ready input produces the best output, regardless of how "good" their prompts are.
 
@@ -244,6 +244,7 @@ The production site [petersalvato.com](/) was compiled from unstructured convers
 - RAGFlow (2025). "From RAG to Context: A 2025 Year-End Review of RAG."
 - Squirro (2026). "RAG in 2026: Bridging Knowledge and Generative AI."
 - Fast Company (2025). "The prompt engineer job title has all but disappeared."
+- Allied Market Research (2019). "Speech Recognition Market to Grow $29.28 Billion by 2026." alliedmarketresearch.com.
 - Salvato, P. (2026). "AI Governance as Accommodation Design." DOI: 10.5281/zenodo.18941231.
 - Salvato, P. (2026). "A Different Kind of Harness: AI as Cognitive Prosthetic Through Mutual Accommodation." DOI: 10.5281/zenodo.18962893.
 - Salvato, P. (2025–2026). Savepoint Syntax v3.2. [github.com/PeterSalvato/Savepoint.Protocol](https://github.com/PeterSalvato/Savepoint.Protocol)
@@ -258,4 +259,4 @@ You are free to share and adapt this material for any purpose, including commerc
 
 ---
 
-*Peter Salvato is a design engineer based in Fort Lauderdale, FL. He studied Visual Communication at the School of Visual Arts, taught special education in Brooklyn, NY, and spent twelve years building the front end of an enterprise recruiting platform. His AI governance work applies twenty-five years of practice across construction, print production, pedagogy, enterprise software, and brand systems to the question of what AI systems actually need to produce quality output. His work is published at [petersalvato.com](/).*
+*Peter Salvato is a design engineer based in Fort Lauderdale, FL. He studied Visual Communication at the School of Visual Arts, taught special education in Brooklyn, NY, and spent thirteen years building the front end of an enterprise recruiting platform. His AI governance work applies twenty-five years of practice across construction, print production, pedagogy, enterprise software, and brand systems to the question of what AI systems actually need to produce quality output. His work is published at [petersalvato.com](/).*

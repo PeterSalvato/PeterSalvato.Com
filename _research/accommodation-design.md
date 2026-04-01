@@ -123,7 +123,7 @@ I kept losing my thinking between sessions. Not the notes. The exact moment some
 
 I built Savepoint Syntax: a self-closing tag you drop inline at the moment of a cognitive turning point. Machine-readable, human-writable. One line of content, forced precision.
 
-The first version (v1.0, YAML frontmatter) was too open-ended. The format encouraged journaling. The concrete content drifted. The protocol reproduced the exact loss it was built to prevent. Version 2.0 (triple-pipe attributes) was too verbose. Version 3.0 (self-closing tag) constrained the content to one line. Version 3.1 added project scoping when the archive exceeded 60,000 documents. Version 3.2 added a `context:` field: one sentence of reconstruction payload, so a savepoint carries enough meaning to stand alone without the surrounding conversation. That addition came from real traversal work, searching months of logs where savepoints got me to the right neighborhood but couldn't reconstruct what was decided.
+The first version (v1.0, YAML frontmatter) was too open-ended. The format encouraged journaling. The concrete content drifted. The protocol reproduced the exact loss it was built to prevent. Version 2.0 (triple-pipe attributes) was too verbose. Version 3.0 (self-closing tag) constrained the content to one line. Version 3.1 added project scoping when the archive exceeded 6,000 conversations. Version 3.2 added a `context:` field: one sentence of reconstruction payload, so a savepoint carries enough meaning to stand alone without the surrounding conversation. That addition came from real traversal work, searching months of logs where savepoints got me to the right neighborhood but couldn't reconstruct what was decided.
 
 The design principle: build the syntax for what the model needs to reconstruct context (structured, atomic, searchable markers), not for what I need to remember (narrative, reflective notes). That distinction is the accommodation move.
 
@@ -153,11 +153,11 @@ The current industry focus on agentic development inverts this relationship. An 
 
 LLMs generate text from training data dominated by published writing: polished, performative, audience-aware. Ask the model to write in a specific person's voice and the output is fluent, correct, and indistinguishable from every other fluent, correct AI draft.
 
-I built a voice pipeline that samples from conversation transcripts (1,643 ChatGPT sessions, 700+ Claude sessions, Gemini exports) instead of published writing. Rough, unstructured, full of false starts. That's how I actually talk. The pipeline extracts patterns (sentence rhythm, how I start explaining something, vocabulary I reach for, what I never say) and encodes them as constraints on all written output.
+I built a voice pipeline that samples from conversation transcripts (1,643 ChatGPT sessions, over 1,400 Claude sessions, and Gemini exports) instead of published writing. Rough, unstructured, full of false starts. That's how I actually talk. The pipeline extracts patterns (sentence rhythm, how I start explaining something, vocabulary I reach for, what I never say) and encodes them as constraints on all written output.
 
 Conversation carries how someone actually communicates: the rhythms, the vocabulary, the way they build toward a point. Sampling from conversation instead of publication gives the model source material that matches the target register.
 
-A blind third-party assessment could not distinguish the output from direct human writing.
+The output reads as direct human writing under informal review, though no formal detection study has been conducted.
 
 ### 4.5 Knowledge Traversal
 
@@ -173,7 +173,7 @@ Every tool described above depends on one thing: a corpus of raw, unstructured h
 
 Current best practice says structure your input: specific instructions, defined output formats, few-shot examples, chain-of-thought scaffolds. Industry guidance warns against "dumping unstructured data at an LLM" (LogRocket, 2025). The assumption is that quality output requires structured input.
 
-I went the other way. For three years I treated the AI as a thinking partner that captures raw ideation: brainstorming, arguing with myself, changing direction mid-sentence, working through problems out loud. That produced 1,643 ChatGPT sessions, 700+ Claude sessions, and Gemini exports. Dictated voice notes. Unfinished thoughts. Arguments with no resolution. The corpus is the dataset.
+I went the other way. For three years I treated the AI as a thinking partner that captures raw ideation: brainstorming, arguing with myself, changing direction mid-sentence, working through problems out loud. That produced 1,643 ChatGPT sessions, over 1,400 Claude sessions, and Gemini exports. Dictated voice notes. Unfinished thoughts. Arguments with no resolution. The corpus is the dataset.
 
 This is accommodation design applied in both directions. The AI gets decomposed tasks, one objective at a time, structured for its processing reality. The human gets the opposite: permission to be unstructured. No requirement to organize thoughts before having them. No performance. No formatting. Raw data out of the human mind.
 
@@ -197,7 +197,7 @@ The site is an artifact produced by the framework. The accommodation architectur
 
 ## 6. Literature Gap
 
-A systematic search of current literature (2024-2026) across OECD publications, Springer, Frontiers in AI, arXiv, Taylor & Francis, JMIR, ScienceDirect, and education technology publications confirms that this framing does not exist in current research.
+A targeted review of current literature (2024-2026) across OECD publications, Springer, Frontiers in AI, arXiv, Taylor & Francis, JMIR, ScienceDirect, and education technology publications confirms that this framing does not exist in current research.
 
 Two established research lanes exist:
 
@@ -233,7 +233,7 @@ The AI governance field is building constraint systems for a problem that requir
 
 This framework was developed through direct transfer from special education pedagogy to AI system architecture, supported by twenty-five years of applied practice across construction, print production, enterprise software, brand systems, and design education. The applied process, FormWork, accommodates both systems in the room. The first accommodation is aimed at the human: remove friction at the point of capture so the raw material carries the maker's actual voice and the real structure of their ideas. Five tools provide the second accommodation, aimed at the model: context preservation, evaluation decomposition, task decomposition, voice governance, and retrieval accommodation. Each came from the same move applied to a different processing constraint: read the processing reality, then design the task around it.
 
-Nobody else is asking that question about both systems simultaneously. And the practitioner profile that asks it (trained in reading processing realities and designing for them) does not come from computer science. It comes from years of sitting across from a student, figuring out what they actually need, and building the task around that.
+Nobody else is asking that question about both systems simultaneously. And the practitioner profile that asks it (trained in reading processing realities and designing for them) does not come from computer science. That training comes from sitting across from a student, figuring out what they actually need, and building the task around that.
 
 ---
 
@@ -277,4 +277,4 @@ You are free to share and adapt this material for any purpose, including commerc
 
 ---
 
-*Peter Salvato is a design engineer based in Fort Lauderdale, FL. He studied Visual Communication at the School of Visual Arts, taught special education in Brooklyn, NY, and spent twelve years building the front end of an enterprise recruiting platform. His AI governance work applies twenty-five years of practice across construction, print production, pedagogy, enterprise software, and brand systems to the question of what AI systems actually need to produce quality output. His work is published at [petersalvato.com](/).*
+*Peter Salvato is a design engineer based in Fort Lauderdale, FL. He studied Visual Communication at the School of Visual Arts, taught special education in Brooklyn, NY, and spent thirteen years building the front end of an enterprise recruiting platform. His AI governance work applies twenty-five years of practice across construction, print production, pedagogy, enterprise software, and brand systems to the question of what AI systems actually need to produce quality output. His work is published at [petersalvato.com](/).*

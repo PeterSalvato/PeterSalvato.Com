@@ -133,7 +133,7 @@ A savepoint is a self-closing tag dropped inline at the moment of a cognitive tu
 
 ```
 <Savepoint
-  protocol_version:3.1
+  protocol_version:3.2
   category:decision
   function:declaration
   timestamp:2026-03-12T04:32:47Z
@@ -230,7 +230,7 @@ The plain-text format is the sovereignty mechanism. The practitioner's cognitive
 
 ## 7. Literature Gap
 
-A systematic search of current AI memory research (2024-2026) across arXiv, ICLR, NeurIPS, ACL, and related venues, supplemented by the comprehensive survey "Memory in the Age of AI Agents" (December 2025), confirms that no existing system places human-marked semantic hierarchy at the center of its memory architecture.
+A targeted review of current AI memory research (2024-2026) across arXiv, ICLR, NeurIPS, ACL, and related venues, supplemented by the comprehensive survey "Memory in the Age of AI Agents" (December 2025), confirms that no existing system places human-marked semantic hierarchy at the center of its memory architecture.
 
 The field has three established lanes:
 
