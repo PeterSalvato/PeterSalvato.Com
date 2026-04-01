@@ -16,16 +16,15 @@ $footer-rule: rgba(255, 255, 255, 0.15);
   position: relative;
 
   // Full-bleed background via pseudo-element
-  // Breaks out of the grid padding to cover the full viewport width.
-  // The page grid is left-aligned (margin: 0), so the classic
-  // left:50%/translateX(-50%) trick doesn't work here.
+  // Left offset cancels grid padding; width: 100vw covers full viewport.
+  // html has overflow-x: hidden to prevent scrollbar from 100vw.
   &::before {
     content: "";
     position: absolute;
     top: 0;
     bottom: 0;
     left: -#{$grid-margin};
-    right: calc(-1 * (100vw - 100%));
+    width: 100vw;
     background: $footer-bg;
     z-index: -1;
   }

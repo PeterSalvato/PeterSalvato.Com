@@ -36,6 +36,10 @@ $col-xl: calc((#{$page-xl} - 2 * #{$grid-margin} - 5 * #{$grid-gutter}) / 6);
   margin: 0;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 // XS: <480px — 1 column, full width
 body {
   display: grid;
