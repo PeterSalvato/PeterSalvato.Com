@@ -119,8 +119,8 @@ figure.figure {
 .carousel-btn {
   background: none;
   border: 1px solid $color-rule;
-  width: 32px;
-  height: 32px;
+  width: 48px;
+  height: 48px;
   font-size: 18px;
   color: $color-ink-light;
   cursor: pointer;
@@ -152,7 +152,8 @@ figure.figure {
   background-color: $color-rule;
   border: none;
   cursor: pointer;
-  padding: 0;
+  padding: 20px;
+  background-clip: content-box;
   transition: background-color $transition-fast;
 
   &.is-active {
