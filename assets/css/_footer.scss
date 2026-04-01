@@ -25,7 +25,7 @@ $footer-rule: rgba(255, 255, 255, 0.15);
     top: 0;
     bottom: 0;
     left: -#{$grid-margin};
-    width: 100vw;
+    right: -#{$grid-margin};
     background: $footer-bg;
     z-index: -1;
   }
