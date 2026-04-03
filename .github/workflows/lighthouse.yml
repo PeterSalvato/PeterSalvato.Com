@@ -22,9 +22,10 @@ jobs:
         with:
           urls: |
             https://petersalvato.com/
-            https://petersalvato.com/governance/savepoint-syntax/
-            https://petersalvato.com/infrastructure/pressworks/
-            https://petersalvato.com/output/aiden-jae/
+            https://petersalvato.com/what-i-think/
+            https://petersalvato.com/work/
+            https://petersalvato.com/practice/
+            https://petersalvato.com/essays/
           configPath: .lighthouserc.json
           uploadArtifacts: true
           temporaryPublicStorage: true
