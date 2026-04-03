@@ -9,7 +9,7 @@
 # ============================================================================
 
 encore:
-  url: /evidence/encore/
+  url: /work/encore/
   connections:
     - target: formwork
       url: /systems/formwork/
@@ -21,7 +21,7 @@ encore:
       url: /research/accommodation-design/
       reason: "I was doing accommodation design for a decade before I had a name for it."
     - target: this-site
-      url: /practice/this-site/
+      url: /work/this-site/
       reason: "The same tools I built from this experience compiled this site."
     - target: how-i-think
       url: /thinking/
@@ -31,13 +31,13 @@ encore:
       reason: "The full story of walking into a Windows Forms app in 2013."
 
 aiden-jae:
-  url: /evidence/aiden-jae/
+  url: /work/aiden-jae/
   connections:
     - target: accommodation-design
       url: /research/accommodation-design/
       reason: "The product was real. The display system was erasing it. Same problem, different material."
     - target: pressworks
-      url: /practice/pressworks/
+      url: /work/pressworks/
       reason: "The product photography pipeline I built for the brand."
     - target: voice-governance
       url: /research/voice-governance/
@@ -49,24 +49,24 @@ aiden-jae:
       url: /research/input-inversion/
       reason: "Randi's raw material was better than anything structured input would produce."
     - target: encore
-      url: /evidence/encore/
+      url: /work/encore/
       reason: "Enterprise platform and jewelry brand. Same accommodation move, different scale."
 
 altrueism:
-  url: /evidence/altrueism/
+  url: /work/altrueism/
   connections:
     - target: aiden-jae
-      url: /evidence/aiden-jae/
+      url: /work/aiden-jae/
       reason: "Two brand systems built from the same principle: let the material speak."
     - target: accommodation-design
       url: /research/accommodation-design/
       reason: "Transparency as a design decision, not a marketing claim."
     - target: pressworks
-      url: /practice/pressworks/
+      url: /work/pressworks/
       reason: "Print production tools applied to brand collateral."
 
 new-city:
-  url: /practice/new-city/
+  url: /work/new-city/
   connections:
     - target: lens-extraction
       url: /research/lens-extraction/
@@ -140,13 +140,13 @@ formwork:
       url: /systems/lensarray/
       reason: "LensArray evaluates what FormWork produces."
     - target: encore
-      url: /evidence/encore/
+      url: /work/encore/
       reason: "Twelve years of enterprise work is where this process was born."
     - target: how-i-think
       url: /thinking/
       reason: "The processing profile that runs FormWork. One question applied to every material."
     - target: this-site
-      url: /practice/this-site/
+      url: /work/this-site/
       reason: "This site was compiled through FormWork. It's the build log."
     - target: start
       url: /start/
@@ -162,10 +162,10 @@ savepoint:
       url: /research/semantic-hierarchy/
       reason: "The whitepaper that argues why human-marked importance matters."
     - target: encore
-      url: /evidence/encore/
+      url: /work/encore/
       reason: "Context loss across twelve years of enterprise work is why this exists."
     - target: order-of-the-aetherwright
-      url: /practice/order-of-the-aetherwright/
+      url: /work/order-of-the-aetherwright/
       reason: "SavePoint is the memory layer of the ritual system."
     - target: formwork
       url: /systems/formwork/
@@ -193,7 +193,7 @@ lensarray:
       url: /research/voice-governance/
       reason: "Voice rules are one type of lens. LensArray runs many."
     - target: this-site
-      url: /practice/this-site/
+      url: /work/this-site/
       reason: "Every page on this site was evaluated through LensArray."
     - target: accommodation-design
       url: /research/accommodation-design/
@@ -210,10 +210,10 @@ accommodation-design:
   url: /research/accommodation-design/
   connections:
     - target: encore
-      url: /evidence/encore/
+      url: /work/encore/
       reason: "Twelve years of doing this before it had a name."
     - target: aiden-jae
-      url: /evidence/aiden-jae/
+      url: /work/aiden-jae/
       reason: "A brand where the display system was erasing the product."
     - target: formwork
       url: /systems/formwork/
@@ -257,10 +257,10 @@ voice-governance:
       url: /systems/lensarray/
       reason: "Voice rules run as a lens during evaluation."
     - target: this-site
-      url: /practice/this-site/
+      url: /work/this-site/
       reason: "Every page on this site went through the voice pipeline."
     - target: aiden-jae
-      url: /evidence/aiden-jae/
+      url: /work/aiden-jae/
       reason: "Brand voice built to sound like Randi, not a template."
     - target: formwork
       url: /systems/formwork/
@@ -282,7 +282,7 @@ lens-extraction:
       url: /systems/formwork/
       reason: "Lenses evaluate what FormWork produces."
     - target: this-site
-      url: /practice/this-site/
+      url: /work/this-site/
       reason: "This site was evaluated against lenses extracted from Bierut, Shaw, Victore, and others."
 
 prosthetic-cognition:
@@ -298,7 +298,7 @@ prosthetic-cognition:
       url: /research/accommodation-design/
       reason: "Mutual accommodation is what makes the prosthetic work."
     - target: this-site
-      url: /practice/this-site/
+      url: /work/this-site/
       reason: "This site is the prosthetic in action: hand compilation with AI tools."
 
 semantic-hierarchy:
@@ -311,24 +311,24 @@ semantic-hierarchy:
       url: /research/accommodation-design/
       reason: "Machine scoring erases what matters. Accommodation asks what the system needs."
     - target: encore
-      url: /evidence/encore/
+      url: /work/encore/
       reason: "Twelve years of watching institutional memory flatten is why this matters."
 
 art-department:
-  url: /practice/art-department/
+  url: /work/art-department/
   connections:
     - target: pressworks
-      url: /practice/pressworks/
+      url: /work/pressworks/
       reason: "PressWorks handles print production. The Art Department handles the pipeline."
     - target: mathontape
-      url: /practice/mathontape/
+      url: /work/mathontape/
       reason: "MathOnTape artwork runs through the Art Department pipeline."
     - target: accommodation-design
       url: /research/accommodation-design/
       reason: "Headless pipeline is accommodation for the maker: no UI in the way."
 
 order-of-the-aetherwright:
-  url: /practice/order-of-the-aetherwright/
+  url: /work/order-of-the-aetherwright/
   connections:
     - target: savepoint
       url: /systems/savepoint/
@@ -337,36 +337,36 @@ order-of-the-aetherwright:
       url: /systems/formwork/
       reason: "FormWork is the operational process. The Order is the symbolic frame."
     - target: this-site
-      url: /practice/this-site/
+      url: /work/this-site/
       reason: "The glyphs and codex are from here. The site is where they live."
     - target: how-i-think
       url: /thinking/
       reason: "The ritual makes the processing profile explicit and defensible."
 
 pressworks:
-  url: /practice/pressworks/
+  url: /work/pressworks/
   connections:
     - target: art-department
-      url: /practice/art-department/
+      url: /work/art-department/
       reason: "PressWorks does press logic. The Art Department does the pipeline."
     - target: aiden-jae
-      url: /evidence/aiden-jae/
+      url: /work/aiden-jae/
       reason: "Product photography processed through the print production tools."
     - target: mathontape
-      url: /practice/mathontape/
+      url: /work/mathontape/
       reason: "Album artwork halftoned, separated, and grained through PressWorks."
     - target: accommodation-design
       url: /research/accommodation-design/
       reason: "Terminal-native because the UI was in the way. Accommodation for the maker."
 
 mathontape:
-  url: /practice/mathontape/
+  url: /work/mathontape/
   connections:
     - target: pressworks
-      url: /practice/pressworks/
+      url: /work/pressworks/
       reason: "The visual identity runs through the same print production tools."
     - target: art-department
-      url: /practice/art-department/
+      url: /work/art-department/
       reason: "Album art generated through the headless design pipeline."
     - target: reading-the-room
       url: /essays/reading-the-room/
@@ -376,10 +376,10 @@ mathontape:
       reason: "Somatic processing. Feeling the sequence before the audience does."
 
 this-site:
-  url: /practice/this-site/
+  url: /work/this-site/
   connections:
     - target: encore
-      url: /evidence/encore/
+      url: /work/encore/
       reason: "Twelve years of applied work. The tools described here were born from that."
     - target: formwork
       url: /systems/formwork/
@@ -414,10 +414,10 @@ how-i-think:
       url: /research/accommodation-design/
       reason: "The framework that came from this processing profile."
     - target: encore
-      url: /evidence/encore/
+      url: /work/encore/
       reason: "Twelve years of applying this profile to enterprise software."
     - target: aiden-jae
-      url: /evidence/aiden-jae/
+      url: /work/aiden-jae/
       reason: "The same profile applied to a jewelry brand."
     - target: formwork
       url: /systems/formwork/
@@ -440,13 +440,13 @@ how-i-got-here:
       url: /thinking/
       reason: "The profile version of this story. Less chronology, more operation."
     - target: encore
-      url: /evidence/encore/
+      url: /work/encore/
       reason: "Walking into a Windows Forms app in 2013 and staying twelve years."
     - target: accommodation-design
       url: /research/accommodation-design/
       reason: "Construction sites to classrooms to enterprise. The through-line was always accommodation."
     - target: this-site
-      url: /practice/this-site/
+      url: /work/this-site/
       reason: "The latest chapter of the same story."
 
 why-does-my-brain:
@@ -462,7 +462,7 @@ why-does-my-brain:
       url: /research/accommodation-design/
       reason: "Turning everything into a system is the processing profile. Accommodation design is what it produces."
     - target: this-site
-      url: /practice/this-site/
+      url: /work/this-site/
       reason: "The site itself is a system. Because of course it is."
 
 i-needed-a-better-tool:
@@ -478,7 +478,7 @@ i-needed-a-better-tool:
       url: /systems/lensarray/
       reason: "Another tool born from the same frustration."
     - target: encore
-      url: /evidence/encore/
+      url: /work/encore/
       reason: "Twelve years of context loss made the frustration visceral."
 
 why-does-chatgpt-get-worse:
@@ -513,7 +513,7 @@ the-iep-for-ai-systems:
       url: /research/semantic-hierarchy/
       reason: "Decomposing compound tasks is the same move as decomposing evaluation."
     - target: encore
-      url: /evidence/encore/
+      url: /work/encore/
       reason: "I was writing IEPs for a platform before I realized that's what I was doing."
 
 what-special-ed-teachers-know:
@@ -555,13 +555,13 @@ reading-the-room:
       url: /research/accommodation-design/
       reason: "Reading the room is what accommodation design starts with."
     - target: encore
-      url: /evidence/encore/
+      url: /work/encore/
       reason: "Reading a platform's room for twelve years."
     - target: aiden-jae
-      url: /evidence/aiden-jae/
+      url: /work/aiden-jae/
       reason: "Reading the gap between what the product was and how the screen showed it."
     - target: mathontape
-      url: /practice/mathontape/
+      url: /work/mathontape/
       reason: "A DJ reads the room. Same skill, different material."
     - target: everybodys-got-a-plan
       url: /essays/everybodys-got-a-plan/
@@ -571,7 +571,7 @@ compilation-not-generation:
   url: /essays/compilation-not-generation/
   connections:
     - target: this-site
-      url: /practice/this-site/
+      url: /work/this-site/
       reason: "This site is the compiled output. The proof."
     - target: formwork
       url: /systems/formwork/
@@ -587,7 +587,7 @@ the-site-is-the-proof:
   url: /essays/the-site-is-the-proof/
   connections:
     - target: this-site
-      url: /practice/this-site/
+      url: /work/this-site/
       reason: "The build log behind the proof."
     - target: formwork
       url: /systems/formwork/
@@ -609,7 +609,7 @@ the-unstructured-corpus:
       url: /systems/formwork/
       reason: "Where the unstructured corpus enters the system."
     - target: this-site
-      url: /practice/this-site/
+      url: /work/this-site/
       reason: "60,000 documents. Three years. This site came out of that corpus."
     - target: savepoint
       url: /systems/savepoint/
@@ -638,7 +638,7 @@ what-does-the-system-need:
       url: /systems/formwork/
       reason: "The process built from the answer to this question."
     - target: encore
-      url: /evidence/encore/
+      url: /work/encore/
       reason: "I was asking this question at Encore for a decade before I named it."
 
 the-integrated-system:
@@ -654,7 +654,7 @@ the-integrated-system:
       url: /systems/lensarray/
       reason: "Another independent component. They run in parallel."
     - target: this-site
-      url: /practice/this-site/
+      url: /work/this-site/
       reason: "The integrated system compiled this site."
 
 what-i-built-this-year:
@@ -673,7 +673,7 @@ what-i-built-this-year:
       url: /systems/formwork/
       reason: "Each tool exists because the previous one failed. FormWork holds them all."
     - target: this-site
-      url: /practice/this-site/
+      url: /work/this-site/
       reason: "The proof that all of it works together."
 
 voice-governance-essay:
@@ -689,7 +689,7 @@ voice-governance-essay:
       url: /research/accommodation-design/
       reason: "Constraining during generation accommodates the output system."
     - target: this-site
-      url: /practice/this-site/
+      url: /work/this-site/
       reason: "Every page went through the voice pipeline."
 
 lens-extraction-essay:
@@ -735,7 +735,7 @@ vocabulary:
       url: /thinking/
       reason: "The processing profile that produces this language."
     - target: this-site
-      url: /practice/this-site/
+      url: /work/this-site/
       reason: "Every term on this page is used across the site. This is where they come from."
     - target: formwork
       url: /systems/formwork/
@@ -760,7 +760,7 @@ vocab-scaffold:
       url: /essays/what-special-ed-teachers-already-know/
       reason: "Teachers treat scaffolding as a technical term. This is the practitioner profile that transfers it."
     - target: aiden-jae
-      url: /evidence/aiden-jae/
+      url: /work/aiden-jae/
       reason: "The photography brief: scaffolding a visual standard that did not yet exist as institutional knowledge."
 
 vocab-attunement:
@@ -773,10 +773,10 @@ vocab-attunement:
       url: /essays/attunement-is-one-skill-with-many-names/
       reason: "DJs, teachers, designers, cooks. One operation with a dozen domain-specific names."
     - target: encore
-      url: /evidence/encore/
+      url: /work/encore/
       reason: "Attunement at both ends: the end user and the development team building inside the platform."
     - target: aiden-jae
-      url: /evidence/aiden-jae/
+      url: /work/aiden-jae/
       reason: "Reading a founder who could not see how the screen was flattening what she knew."
     - target: accommodation-design
       url: /vocabulary/accommodation-design/
@@ -801,7 +801,7 @@ vocab-somatic-design:
       url: /essays/where-i-learned-pacing/
       reason: "How the pacing principle transferred from the dance floor to a classroom to AI systems."
     - target: aiden-jae
-      url: /evidence/aiden-jae/
+      url: /work/aiden-jae/
       reason: "A brand system where every touchpoint continues the same somatic sequence."
     - target: accommodation-design
       url: /research/accommodation-design/
@@ -820,10 +820,10 @@ vocab-context:
       url: /systems/savepoint/
       reason: "SavePoint was built because context is perishable. This page explains what is being preserved."
     - target: encore
-      url: /evidence/encore/
+      url: /work/encore/
       reason: "Twelve years of institutional context held in one person's head. The cost when it wasn't in the room."
     - target: new-city
-      url: /practice/new-city/
+      url: /work/new-city/
       reason: "Months of novel ideation lost when the sessions closed. The incident that made context loss concrete."
     - target: i-needed-a-better-tool
       url: /essays/i-needed-a-better-tool/
@@ -842,13 +842,13 @@ vocab-load-bearing:
   url: /vocabulary/load-bearing/
   connections:
     - target: aiden-jae
-      url: /evidence/aiden-jae/
+      url: /work/aiden-jae/
       reason: "Photography direction as load-bearing structure. Remove it and the brand argument collapses."
     - target: altrueism
-      url: /evidence/altrueism/
+      url: /work/altrueism/
       reason: "Hand-drawn marks as load-bearing proof. They carry the transparency claim the copy makes."
     - target: encore
-      url: /evidence/encore/
+      url: /work/encore/
       reason: "The SCSS design system as load-bearing governance structure for twelve years of platform evolution."
     - target: vocab-drift
       url: /vocabulary/drift/
@@ -917,7 +917,7 @@ vocab-fidelity:
   url: /vocabulary/fidelity/
   connections:
     - target: encore
-      url: /evidence/encore/
+      url: /work/encore/
       reason: "Twelve years of fidelity held through governance, not memory. The clearest demonstration of what fidelity looks like when it holds."
     - target: savepoint
       url: /systems/savepoint/
@@ -942,7 +942,7 @@ vocab-drift:
   url: /vocabulary/drift/
   connections:
     - target: encore
-      url: /evidence/encore/
+      url: /work/encore/
       reason: "What twelve years of fighting drift looks like. The flagship evidence."
     - target: drift-essay
       url: /essays/drift-how-good-work-dies-slowly/
@@ -985,7 +985,7 @@ vocab-accommodation-design:
       url: /essays/why-does-chatgpt-get-worse/
       reason: "The problem accommodation design solves, explained for someone who has never heard the term."
     - target: encore
-      url: /evidence/encore/
+      url: /work/encore/
       reason: "What twelve years of applied accommodation looks like in an enterprise platform."
 
 # ============================================================================
@@ -993,10 +993,10 @@ vocab-accommodation-design:
 # ============================================================================
 
 photogeography:
-  url: /practice/photogeography/
+  url: /work/photogeography/
   connections:
     - target: versograms
-      url: /practice/versograms/
+      url: /work/versograms/
       reason: "Same principle: lock the format, let the content do the differentiating."
     - target: accommodation-design
       url: /research/accommodation-design/
@@ -1006,10 +1006,10 @@ photogeography:
       reason: "The photograph arrives in its native shape. The system preserves the raw input instead of reformatting it."
 
 versograms:
-  url: /practice/versograms/
+  url: /work/versograms/
   connections:
     - target: photogeography
-      url: /practice/photogeography/
+      url: /work/photogeography/
       reason: "Same principle applied to photography: fixed format, content varies."
     - target: accommodation-design
       url: /research/accommodation-design/
@@ -1103,7 +1103,7 @@ the-registration-metaphor:
       url: /essays/two-classrooms-at-sva/
       reason: "The screen print studio is where registration became a lived skill."
     - target: encore
-      url: /evidence/encore/
+      url: /work/encore/
       reason: "Three independent layers at Encore: IA, front-end, back-end. The product exists in their alignment."
     - target: blue-collar-think-intellectual
       url: /essays/blue-collar-think-intellectual/
@@ -1138,7 +1138,7 @@ the-crate:
       url: /essays/sequencing-changes-meaning/
       reason: "Same crate, different order, different room. Sequencing is why the reach matters."
     - target: encore
-      url: /evidence/encore/
+      url: /work/encore/
       reason: "Twelve years of drift. Walking into that room, the reach was governance."
 
 attunement-one-skill:
@@ -1161,7 +1161,7 @@ constraint-as-creative-fuel:
   url: /essays/constraint-as-creative-fuel/
   connections:
     - target: pressworks
-      url: /practice/pressworks/
+      url: /work/pressworks/
       reason: "Six operations, no layer stack. The terminal tool where constraint produces the quality."
     - target: accommodation-design
       url: /research/accommodation-design/
@@ -1199,7 +1199,7 @@ the-pattern-across-every-room:
       url: /systems/formwork/
       reason: "FormWork is the coordination harness that holds the pattern operational across sessions."
     - target: encore
-      url: /evidence/encore/
+      url: /work/encore/
       reason: "The same four moves at enterprise scale. Read the drift, reach into twelve years of knowledge, select, sequence."
     - target: how-i-think
       url: /thinking/
@@ -1212,13 +1212,13 @@ victore-be-fiercely-yourself:
       url: /essays/teaching-design-from-zero/
       reason: "Victore shaped how I taught. No arbitrary decisions. Tell me why."
     - target: pressworks
-      url: /practice/pressworks/
+      url: /work/pressworks/
       reason: "Screen printing in the basement. The ink lesson transferred to every production tool I built after."
     - target: constraint-as-creative-fuel
       url: /essays/constraint-as-creative-fuel/
       reason: "Victore gave permission to be fierce. The constraint was finding where fierceness lived in structure."
     - target: new-city
-      url: /practice/new-city/
+      url: /work/new-city/
       reason: "Niemann and Blechman gave precision. Victore gave permission. The novel runs on both."
 
 construction-sites-essay:
@@ -1231,7 +1231,7 @@ construction-sites-essay:
       url: /systems/savepoint/
       reason: "Context kept leaving when I left. SavePoint was built so the picture could stay in the room."
     - target: encore
-      url: /evidence/encore/
+      url: /work/encore/
       reason: "Twelve years holding the architecture in my head. The same fragility I watched on construction sites."
     - target: blue-collar-think-intellectual
       url: /essays/blue-collar-think-intellectual/
@@ -1247,10 +1247,10 @@ sequencing-changes-meaning:
       url: /essays/reading-the-room/
       reason: "You read first, then sequence your response. The order changes what it does."
     - target: new-city
-      url: /practice/new-city/
+      url: /work/new-city/
       reason: "The novel's beat spec. Every scene has a position. Rearrange the beats and the story changes."
     - target: mathontape
-      url: /practice/mathontape/
+      url: /work/mathontape/
       reason: "A strong track cut from the album because it broke the arc at minute twenty-two."
 
 the-walk:
@@ -1347,7 +1347,7 @@ the-accommodation-kitchen:
       url: /essays/everybodys-got-a-plan/
       reason: "The prologue to this series. Where the plan met reality."
     - target: encore
-      url: /evidence/encore/
+      url: /work/encore/
       reason: "Same operation, different material. Reading constraints and building structure around them."
 
 what-it-costs:
@@ -1357,7 +1357,7 @@ what-it-costs:
       url: /research/accommodation-design/
       reason: "Every five-second tax is a system asking more than it needs to. Accommodation removes them."
     - target: encore
-      url: /evidence/encore/
+      url: /work/encore/
       reason: "Engineers making judgment calls the system should have absorbed. Same cost, enterprise scale."
     - target: the-cook-who-falls-through-the-system
       url: /essays/the-cook-who-falls-through-the-system/
@@ -1383,14 +1383,14 @@ what-the-body-knows:
       url: /essays/the-charged-room/
       reason: "Three thousand people on a dance floor responding to a pressure wave. The body knew before the ear parsed it."
     - target: new-city
-      url: /practice/new-city/
+      url: /work/new-city/
       reason: "Sentence rhythm calibrated to produce a physical response before the reader processes content."
 
 drift-essay:
   url: /essays/drift-how-good-work-dies-slowly/
   connections:
     - target: encore
-      url: /evidence/encore/
+      url: /work/encore/
       reason: "Twelve years of watching drift happen in real time. The four-pixel button nobody filed a ticket for."
     - target: formwork
       url: /systems/formwork/
@@ -1415,5 +1415,86 @@ somatic-design-essay:
       url: /essays/the-charged-room/
       reason: "The dance floor is where somatic design was first felt."
     - target: new-city
-      url: /practice/new-city/
+      url: /work/new-city/
       reason: "Sentence rhythm, consonant density, white space. The novel written to a beat spec the reader never sees."
+
+# ============================================================================
+# PRACTICE — Five Pillars
+# ============================================================================
+
+pillar-voice-governance:
+  url: /practice/voice-governance/
+  connections:
+    - target: voice-governance
+      url: /research/voice-governance/
+      reason: "The whitepaper that formalizes this pillar."
+    - target: aiden-jae
+      url: /work/aiden-jae/
+      reason: "Brand voice built from scratch and maintained across every touchpoint."
+    - target: encore
+      url: /work/encore/
+      reason: "Voice coherence maintained across thirteen years."
+    - target: compilation-not-generation
+      url: /essays/compilation-not-generation/
+      reason: "Compilation keeps the voice. Generation loses it."
+
+pillar-lens-extraction:
+  url: /practice/lens-extraction/
+  connections:
+    - target: lens-extraction
+      url: /research/lens-extraction/
+      reason: "The whitepaper behind the extraction protocol."
+    - target: lensarray
+      url: /systems/lensarray/
+      reason: "The system that runs the extracted lenses."
+    - target: altrueism
+      url: /work/altrueism/
+      reason: "Seeing the brand vs the category default."
+    - target: readings
+      url: /readings/
+      reason: "The lens framework applied to brands I study."
+
+pillar-structural-capture:
+  url: /practice/structural-capture/
+  connections:
+    - target: savepoint
+      url: /systems/savepoint/
+      reason: "The protocol. Version 3.2."
+    - target: new-city
+      url: /work/new-city/
+      reason: "The novel lost between sessions. The origin of SavePoint."
+    - target: i-needed-a-better-tool
+      url: /essays/i-needed-a-better-tool/
+      reason: "The story of building SavePoint out of frustration."
+
+pillar-input-first-design:
+  url: /practice/input-first-design/
+  connections:
+    - target: formwork
+      url: /systems/formwork/
+      reason: "The coordination harness. Structure after thinking, not before."
+    - target: accommodation-design
+      url: /research/accommodation-design/
+      reason: "The principle underneath."
+    - target: input-inversion
+      url: /research/input-inversion/
+      reason: "The mechanism: reverse the direction of accommodation."
+    - target: encore
+      url: /work/encore/
+      reason: "Thirteen years of accommodating a platform through technology shifts."
+
+pillar-practitioner-in-the-loop:
+  url: /practice/practitioner-in-the-loop/
+  connections:
+    - target: prosthetic-cognition
+      url: /research/prosthetic-cognition/
+      reason: "AI tools as cognitive extension, not replacement."
+    - target: this-site
+      url: /work/this-site/
+      reason: "All five pillars in action. The proof."
+    - target: encore
+      url: /work/encore/
+      reason: "Thirteen years of human judgment holding a platform together."
+    - target: what-i-think
+      url: /what-i-think/
+      reason: "The thesis. The position underneath everything."
