@@ -1,6 +1,7 @@
 ---
 layout: project
 redirect_from: /output/cryptozoology/
+  - /practice/cryptozoology/
 practice_group: meditations
 title: "Cryptozoology"
 subtitle: "Pseudo-Academic Visual Archive"

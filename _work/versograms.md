@@ -1,6 +1,7 @@
 ---
 layout: project
 redirect_from:
+  - /practice/versograms/
   - /output/versagrams/
   - /practice/versagrams/
 practice_group: meditations

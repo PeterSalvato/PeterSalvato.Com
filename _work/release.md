@@ -14,6 +14,8 @@ last_modified: 2026-03-20
 thumbnail: /assets/img/release.Cover.png
 related:
   - /practice/mathontape/
+redirect_from:
+  - /practice/release/
 ---
 
 I wrote these songs on acoustic guitar over a couple of years, put a small band together composed of my best friend, my wife, and other friends, and produced the record.
@@ -22,5 +24,5 @@ I wrote these songs on acoustic guitar over a couple of years, put a small band 
 
 ![Release on Amazon Music](/assets/img/release.AmazonMusic.png){:.image.diagram}
 
-[Listen on Apple Music](https://music.apple.com/us/artist/peter-salvato/444999043)
-[Listen on Amazon Music](https://amazon.com/music/player/albums/B0059M6SLO)
+<a href="https://music.apple.com/us/artist/peter-salvato/444999043" target="_blank" rel="noopener">Listen on Apple Music</a>
+<a href="https://amazon.com/music/player/albums/B0059M6SLO" target="_blank" rel="noopener">Listen on Amazon Music</a>

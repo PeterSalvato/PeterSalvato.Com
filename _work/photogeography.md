@@ -1,6 +1,7 @@
 ---
 layout: project
 redirect_from: /output/photogeography/
+  - /practice/photogeography/
 practice_group: meditations
 published: true
 title: "Photogeography"

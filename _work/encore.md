@@ -1,7 +1,10 @@
 ---
 layout: project
 redirect_from: /infrastructure/encore/
+  - /evidence/encore/
 title: "Encore"
+featured: true
+order: 2
 subtitle: "Thirteen Years Holding Structural Coherence on an Enterprise Platform"
 icon: cases
 status: "Deployed"

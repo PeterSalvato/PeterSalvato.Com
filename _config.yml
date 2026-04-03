@@ -1,32 +1,35 @@
 title: "Peter Salvato"
-description: "Peter Salvato. Design engineer. Construction sites, print shops, enterprise platforms, brand systems, classrooms."
+description: "Peter Salvato. Classically trained designer. Four technology shifts and counting. I figured out how to keep the eye intact when the tools change."
 author: "Peter Salvato"
 email: "ptsalvato@gmail.com"
 url: "https://petersalvato.com"
 baseurl: ""
 
 # SEO Keywords (Dual-Layer Strategy)
-seo_keywords: ["Design Engineer", "Design Systems", "Systems Architecture", "Information Architecture", "Operational Methodology", "AI Implementation", "Visual Communication", "SVA", "AI Governance"]
+seo_keywords: ["Peter Salvato", "voice governance", "brand coherence", "AI creative practice", "lens extraction", "structural design thinking", "SVA", "brand voice AI", "creative AI methodology"]
 
 # Jekyll Collections
 collections:
+  work:
+    output: true
+    permalink: /work/:path/
   practice:
     output: true
     permalink: /practice/:path/
+  readings:
+    output: true
+    permalink: /readings/:path/
   research:
     output: true
     permalink: /research/:path/
   systems:
     output: true
     permalink: /systems/:path/
-  evidence:
-    output: true
-    permalink: /evidence/:path/
   essays:
     output: true
     permalink: /essays/:path/
   homeworks:
-    output: true
+    output: false
     permalink: /essays/:path/
   ei:
     output: true

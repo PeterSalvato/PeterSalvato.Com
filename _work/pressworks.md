@@ -1,6 +1,7 @@
 ---
 layout: project
 redirect_from: /infrastructure/pressworks/
+  - /practice/pressworks/
 practice_group: meditations
 title: "PressWorks"
 order: 4

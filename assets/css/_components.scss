@@ -2,6 +2,52 @@
 // COMPONENTS — Code blocks, galleries, work index, tooltips
 // ============================================================================
 
+// Page hero — anchoring element at top of section landing pages
+.page-hero {
+  margin-bottom: $space-lg;
+}
+
+.page-hero--with-image {
+  display: flex;
+  align-items: center;
+  gap: $space-xl;
+}
+
+.page-hero-image {
+  flex-shrink: 0;
+  width: 280px;
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+    mix-blend-mode: multiply;
+    filter: saturate(0.75);
+  }
+}
+
+.page-hero-text {
+  flex: 1;
+}
+
+.page-hero-title {
+  font-family: $font-display;
+  font-size: $type-display;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  line-height: $leading-tight;
+  margin: 0 0 $space-sm;
+}
+
+.page-hero-subtitle {
+  font-family: $font-body;
+  font-size: $type-h3;
+  line-height: $leading-body;
+  color: $color-ink-light;
+  max-width: 50ch;
+  margin: 0;
+}
+
 // Breadcrumb — single back-link, understated
 .breadcrumb {
   font-family: $font-display;

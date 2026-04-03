@@ -1,6 +1,7 @@
 ---
 layout: project
 redirect_from: /output/motorology/
+  - /practice/motorology/
 practice_group: meditations
 title: "Motorology"
 subtitle: "Systematic Visual Taxonomy of Purpose-Built Vehicles"

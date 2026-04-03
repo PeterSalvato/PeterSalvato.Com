@@ -1,6 +1,7 @@
 ---
 layout: project
 redirect_from: /output/monstrum/
+  - /practice/monstrum/
 practice_group: meditations
 title: "Monstrum"
 subtitle: "Visual Taxonomy of the Monstrous"

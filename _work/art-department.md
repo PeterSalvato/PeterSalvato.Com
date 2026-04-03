@@ -1,6 +1,7 @@
 ---
 layout: project
 redirect_from:
+  - /practice/art-department/
   - /infrastructure/sovereign-design-engine/
   - /practice/sovereign-design-engine/
   - /practice/print-engine/

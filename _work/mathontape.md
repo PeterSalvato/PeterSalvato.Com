@@ -1,6 +1,7 @@
 ---
 layout: project
 redirect_from: /output/mathontape/
+  - /practice/mathontape/
 practice_group: meditations
 title: "MathOnTape"
 order: 7

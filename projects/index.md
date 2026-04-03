@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Work"
-permalink: /evidence/
+title: "Projects"
+permalink: /projects/
 redirect_to: /work/
 ---

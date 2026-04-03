@@ -1,6 +1,7 @@
 ---
 layout: project
 redirect_from: /output/sentimentology/
+  - /practice/sentimentology/
 practice_group: meditations
 title: "Sentimentology"
 subtitle: "Emotional Mapping Through Swiss Grid Systems"

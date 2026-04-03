@@ -1,7 +1,10 @@
 ---
 layout: project
 redirect_from: /output/aiden-jae/
+  - /evidence/aiden-jae/
 title: "Aiden Jae"
+featured: true
+order: 3
 subtitle: "Seeing What Makes a Brand Different and Proving It at Every Layer"
 icon: cases
 logo: /assets/img/aj_stacked_logo.svg

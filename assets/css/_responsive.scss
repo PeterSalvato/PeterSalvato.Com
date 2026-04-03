@@ -19,6 +19,15 @@
     overflow-wrap: break-word;
     word-break: break-word;
   }
+
+  .page-hero--with-image {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .page-hero-image {
+    width: 160px;
+  }
 }
 
 // ----------------------------------------------------------------------------

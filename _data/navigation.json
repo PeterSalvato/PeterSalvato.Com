@@ -1,14 +1,14 @@
 {
   "items": [
     {
-      "label": "Work",
-      "url": "/evidence/",
-      "icon": "cases"
+      "label": "Thesis",
+      "url": "/what-i-think/",
+      "icon": "psychology"
     },
     {
-      "label": "Practice",
-      "url": "/practice/",
-      "icon": "palette"
+      "label": "Work",
+      "url": "/work/",
+      "icon": "cases"
     },
     {
       "label": "Writing",
@@ -16,12 +16,12 @@
       "icon": "edit_note"
     },
     {
-      "label": "Thinking",
-      "url": "/thinking/",
-      "icon": "psychology"
+      "label": "Practice",
+      "url": "/practice/",
+      "icon": "build"
     },
     {
-      "label": "Consulting",
+      "label": "Contact",
       "url": "/consulting/",
       "icon": "handshake"
     }

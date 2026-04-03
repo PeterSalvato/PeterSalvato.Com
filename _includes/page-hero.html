@@ -1,0 +1,11 @@
+<div class="page-hero{% if include.image %} page-hero--with-image{% endif %}">
+  {% if include.image %}
+  <div class="page-hero-image">
+    <img src="{{ include.image | relative_url }}" alt="{{ include.title }}">
+  </div>
+  {% endif %}
+  <div class="page-hero-text">
+    <h1 class="page-hero-title">{{ include.title }}</h1>
+    {% if include.subtitle %}<p class="page-hero-subtitle">{{ include.subtitle }}</p>{% endif %}
+  </div>
+</div>

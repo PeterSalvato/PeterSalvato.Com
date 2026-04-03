@@ -1,6 +1,7 @@
 ---
 layout: project
 redirect_from:
+  - /practice/new-city/
   - /output/new-city/
   - /evidence/new-city/
 title: "New City"

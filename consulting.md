@@ -1,56 +1,20 @@
 ---
 layout: default
-title: "Consulting | Day Rate Builds"
+title: "Consulting | Peter Salvato"
 permalink: /consulting/
-description: "Day rate, week rate, and month rate builds. Websites, design systems, AI implementations. Custom architecture, not templates. Pricing and services."
-seo_keywords: ["design engineering consultant", "AI governance consultant", "design systems consulting", "front-end architecture", "AI implementation", "voice governance", "content governance", "Peter Salvato", "build website fast", "AI web development", "Claude Code developer"]
+description: "If your team's output is losing its voice, your AI workflows are producing competent but flat results, or your brand coherence is dissolving, let's talk."
+seo_keywords: ["AI creative consulting", "voice governance", "design systems consulting", "AI implementation", "brand coherence", "creative AI tools", "Peter Salvato", "AI web development", "content governance", "design engineering consultant"]
 ---
 
-I build websites, design systems, brand identities, and AI-governed workflows. I work with AI tools every day. A design degree, twelve years of enterprise engineering, and three years of daily AI practice means I build fast and the work holds up.
+{% include page-hero.html title="Contact" subtitle="If something I wrote or built brought you here, I'd like to hear what's going on." %}
+
+Every team I talk to has the same story. They started using AI tools and the output got faster. It also started sounding the same. The brand voice they spent years building dissolves into helpful, articulate, slightly enthusiastic copy that could belong to anyone. The design decisions that used to carry judgment flatten into defaults. They can feel it happening and they don't have a structural fix.
+
+I've been inside this problem for three years. I work with AI tools every day and I've learned where the output breaks when nobody's watching, where the voice drifts, where the decisions disappear between context windows. The [methodology I documented](/whitepapers/) came from hitting those walls and figuring out the structural fixes.
+
+This isn't the first technology shift I've worked through. Darkroom to digital, paste-up to Photoshop, learning to code so I could hold the full build in my hand. I studied visual communication at SVA under James Victore and I spent twelve years on an [enterprise platform](/evidence/encore/) where I watched what happens when structural coherence isn't maintained across years of decisions. I recognized early that AI tools were going to change how creative work gets made, and I made it my business to figure out how to keep the work intact.
 
 ---
-
-## Services
-
-### AI Audit — $2,000
-
-Your AI workflow is broken and you don't know why. I find the structural failures and rebuild it as a governed system. Half a day.
-
-I [diagnosed and rebuilt](/evidence/lionfish/) a failed AI implementation for a music licensing firm. Four critical failures, two hours, production-ready pipeline delivered with documentation.
-
-### Day Rate — $3,500
-
-A production website (5-10 pages) with real content architecture, responsive design, typographic system, and structured data. One day, delivered.
-
-Not a template. Not a page builder. Custom architecture built from your content with the same structural quality I put into [enterprise platforms](/evidence/encore/).
-
-### Week Rate — $10,000
-
-A complete web presence (20-40 pages) with content strategy, information architecture, SEO, and structured data. The kind of site that usually takes an agency 6-8 weeks.
-
-### Month Rate — $18,000
-
-A large-scale site (50+ pages), a design system, or a brand identity with website. Content architecture, vocabulary systems, adaptive pathfinding, structured data. What I built for [myself](/practice/this-site/) in three weeks, built for you.
-
----
-
-## Why It's Fast
-
-I started from a design background (SVA, visual communication) and a decade of systems thinking before I picked up AI tools. When I learned AI, I already knew what good output looks like and what structural integrity means. Daily practice since 2023 means I know where the context drops, where the output drifts, and where the state management breaks if you don't structure it on the first pass.
-
-The speed comes from reps. The quality comes from the base I started with. The methodology I've [documented](/whitepapers/) came from hitting every wall myself and building the fixes.
-
----
-
-## How I Work
-
-1. You pick a tier or describe the problem.
-2. I scope it and quote a fixed price.
-3. I build it. You own everything I deliver.
-
----
-
-## Get in touch
 
 {::nomarkdown}
 <form action="https://formspree.io/f/mlgoedkq" method="POST" class="consulting-form">
@@ -64,19 +28,8 @@ The speed comes from reps. The quality comes from the base I started with. The m
   <label for="company">Company (optional)</label>
   <input type="text" id="company" name="company">
 
-  <fieldset>
-    <legend>What areas are involved?</legend>
-    <label class="checkbox-label"><input type="checkbox" name="areas[]" value="Design"> Design</label>
-    <label class="checkbox-label"><input type="checkbox" name="areas[]" value="Engineering"> Engineering</label>
-    <label class="checkbox-label"><input type="checkbox" name="areas[]" value="AI Governance"> AI Governance</label>
-    <label class="checkbox-label"><input type="checkbox" name="areas[]" value="Not sure"> Not sure</label>
-  </fieldset>
-
-  <label for="problem">What's the problem?</label>
+  <label for="problem">What's happening?</label>
   <textarea id="problem" name="problem" rows="5" required></textarea>
-
-  <label for="timeline">Timeline (optional)</label>
-  <input type="text" id="timeline" name="timeline" placeholder="e.g. next month, no rush, urgent">
 
   <button type="submit">Send</button>
 

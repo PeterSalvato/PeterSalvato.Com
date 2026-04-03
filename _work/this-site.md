@@ -1,13 +1,15 @@
 ---
 layout: context
 title: "This Site"
+featured: true
 order: 1
-permalink: /practice/this-site/
+permalink: /work/this-site/
 redirect_from:
+  - /practice/this-site/
   - /colophon/
   - /evidence/colophon/
   - /evidence/this-site/
-description: "How this site was compiled by hand from a three-year corpus using the tools described on it. The build log for a craftsman's workbench made of AI tools."
+description: "Three years of thinking compiled into what you're reading. The tools described on this site are the tools that compiled it. The methodology is visible. The eye is what holds it together."
 seo_keywords: ["compiled portfolio", "AI governance", "FormWork", "savepoint syntax", "voice protocol", "hand compilation AI", "craftsman AI tools", "building a portfolio with AI", "AI-assisted website", "compiled portfolio"]
 last_modified: 2026-03-13
 related:
