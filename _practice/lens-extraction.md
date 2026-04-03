@@ -39,7 +39,7 @@ I've built eight lenses for reading brand coherence: discipline, economy, typogr
 
 ## Brand Readings
 
-The lens framework applied to brands I study. [Readings &rarr;](/readings/)
+The lens framework applied to brands I study. [Readings &rarr;](/brandwalks/)
 
 ## Related Essays
 

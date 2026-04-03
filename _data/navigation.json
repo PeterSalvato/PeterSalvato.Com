@@ -21,6 +21,11 @@
       "icon": "build"
     },
     {
+      "label": "Brandwalks",
+      "url": "/brandwalks/",
+      "icon": "search"
+    },
+    {
       "label": "Contact",
       "url": "/consulting/",
       "icon": "handshake"

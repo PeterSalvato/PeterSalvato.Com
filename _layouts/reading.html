@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+{% include breadcrumb.html %}
+
+<article class="reading">
+
+  <header class="reading-header">
+    <h1 class="reading-title">{{ page.title }}</h1>
+    {% if page.subtitle %}<p class="reading-subtitle">{{ page.subtitle }}</p>{% endif %}
+    {% if page.date %}<time class="reading-date">{{ page.date | date: "%B %Y" }}</time>{% endif %}
+  </header>
+
+  {% if page.opener %}
+  <div class="reading-opener">
+    {{ page.opener | markdownify }}
+  </div>
+  {% endif %}
+
+  <div class="reading-specimens">
+    {{ content }}
+  </div>
+
+  {% if page.analysis %}
+  <div class="reading-analysis">
+    <h2>Analysis</h2>
+    {{ page.analysis | markdownify }}
+  </div>
+  {% endif %}
+
+</article>
+
+{% include connections.html %}

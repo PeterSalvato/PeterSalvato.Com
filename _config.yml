@@ -16,9 +16,9 @@ collections:
   practice:
     output: true
     permalink: /practice/:path/
-  readings:
+  brandwalks:
     output: true
-    permalink: /readings/:path/
+    permalink: /brandwalks/:path/
   research:
     output: true
     permalink: /research/:path/

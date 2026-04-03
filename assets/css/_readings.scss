@@ -1,0 +1,255 @@
+// ============================================================================
+// READINGS — Brand field notes layout
+// ============================================================================
+
+.reading-header {
+  margin-bottom: $space-xl;
+}
+
+.reading-brand-logo {
+  margin-bottom: $space-lg;
+
+  img {
+    max-height: 60px;
+    width: auto;
+    display: block;
+  }
+}
+
+.reading-title {
+  font-family: $font-display;
+  font-size: $type-display;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  line-height: $leading-tight;
+  margin: 0 0 $space-sm;
+}
+
+.reading-subtitle {
+  font-family: $font-body;
+  font-size: $type-h3;
+  color: $color-ink-light;
+  line-height: $leading-body;
+  max-width: 50ch;
+  margin: 0;
+}
+
+.reading-date {
+  font-family: $font-mono;
+  font-size: $type-caption;
+  color: $color-ink-faint;
+  letter-spacing: 0.03em;
+  display: block;
+  margin-top: $space-sm;
+}
+
+.reading-opener {
+  max-width: 55ch;
+  font-size: $type-body;
+  line-height: $leading-loose;
+  color: $color-ink-light;
+  margin-bottom: $space-xxl;
+  padding-bottom: $space-xl;
+  border-bottom: 1px solid $color-rule;
+}
+
+// Specimen — the core unit of a brand reading
+.specimen {
+  margin-bottom: $space-lg;
+  padding: $space-lg;
+  border: 1px solid $color-rule;
+  background: $color-white;
+}
+
+.specimen-image {
+  margin-bottom: $space-md;
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+}
+
+.specimen-caption {
+  display: flex;
+  align-items: baseline;
+  gap: $space-md;
+  margin-bottom: $space-sm;
+}
+
+.specimen-label {
+  font-family: $font-display;
+  font-size: $type-h3;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: $color-ink;
+}
+
+.specimen-location {
+  font-family: $font-mono;
+  font-size: $type-fine;
+  color: $color-ink-faint;
+  letter-spacing: 0.03em;
+}
+
+.specimen-observation {
+  font-size: $type-body;
+  line-height: $leading-body;
+  color: $color-ink;
+  max-width: 55ch;
+  margin: 0;
+}
+
+// Swatch specimen — color palette
+.specimen-swatch-row {
+  display: flex;
+  gap: $space-md;
+  margin-bottom: $space-md;
+}
+
+.swatch-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: $space-xs;
+}
+
+.swatch {
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+  border: 1px solid $color-rule;
+}
+
+.swatch-hex {
+  font-family: $font-mono;
+  font-size: $type-fine;
+  color: $color-ink-faint;
+  letter-spacing: 0.03em;
+}
+
+.swatch-name {
+  font-family: $font-mono;
+  font-size: $type-fine;
+  color: $color-ink-faint;
+}
+
+// Type specimen
+.specimen-type {
+  padding: $space-lg 0;
+  margin-bottom: $space-md;
+}
+
+.specimen-type-sample {
+  font-size: $type-h2;
+  line-height: $leading-tight;
+  margin: 0;
+}
+
+.specimen-type-font {
+  font-family: $font-mono;
+  font-size: $type-fine;
+  color: $color-ink-faint;
+  display: block;
+  margin-top: $space-sm;
+}
+
+// Quote specimen
+.specimen-quote {
+  border-left: 3px solid $color-rule-dark;
+  padding: $space-md $space-lg;
+  margin: 0 0 $space-md;
+
+  p {
+    font-size: $type-body;
+    font-style: italic;
+    line-height: $leading-body;
+    margin: 0;
+  }
+
+  cite {
+    font-family: $font-mono;
+    font-size: $type-fine;
+    font-style: normal;
+    color: $color-ink-faint;
+    display: block;
+    margin-top: $space-sm;
+  }
+}
+
+// Side-by-side specimen
+.specimen-sidebyside {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: $space-md;
+  margin-bottom: $space-md;
+}
+
+.specimen-side {
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+}
+
+.specimen-side-label {
+  font-family: $font-mono;
+  font-size: $type-fine;
+  color: $color-ink-faint;
+  display: block;
+  margin-top: $space-xs;
+  text-align: center;
+}
+
+// Absence specimen — 404 / missing element
+.specimen-absence {
+  padding: $space-xl $space-lg;
+  margin-bottom: $space-md;
+  text-align: center;
+}
+
+.specimen-absence-code {
+  font-family: $font-display;
+  font-size: $type-display;
+  color: $color-ink-faint;
+  display: block;
+}
+
+.specimen-absence-url {
+  font-family: $font-mono;
+  font-size: $type-caption;
+  color: $color-ink-faint;
+  display: block;
+  margin-top: $space-sm;
+}
+
+// Analysis — the concluding interpretation
+.reading-analysis {
+  margin-top: $space-xxl;
+  padding-top: $space-xl;
+  border-top: 1px solid $color-rule;
+  max-width: 55ch;
+
+  h2 {
+    font-family: $font-display;
+    font-size: $type-h3;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    margin-bottom: $space-lg;
+  }
+
+  p {
+    font-size: $type-body;
+    line-height: $leading-loose;
+    margin-bottom: $space-lg;
+  }
+
+  a {
+    color: $color-accent;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+}

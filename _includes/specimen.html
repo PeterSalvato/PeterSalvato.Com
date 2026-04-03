@@ -1,0 +1,79 @@
+{% comment %}
+  Specimen component for brand readings.
+
+  Types:
+    image    — screenshot or crop (default)
+    swatch   — color palette with hex values
+    type     — typography specimen with sample text
+    quote    — pull quote from the site's copy
+    sidebyside — two images compared
+    absence  — empty state / 404 / missing element
+
+  Usage:
+    {% include specimen.html type="image" image="/path.png" label="Navigation" location="Homepage" observation="Five words." %}
+    {% include specimen.html type="swatch" colors="#784f26,#1a1a1a,#ffffff" names="Warm brown,Near black,White" label="Primary palette" observation="Near-monochrome." %}
+    {% include specimen.html type="type" sample="Find your thing" font="Their sans-serif" label="Hero text" observation="The line breaks do the work." %}
+    {% include specimen.html type="quote" text="Bathe your sound in subtle warmth." source="Live 12 product page" label="Product copy" observation="Sensory, not technical." %}
+    {% include specimen.html type="sidebyside" image_a="/a.png" image_b="/b.png" label_a="Blog" label_b="About" label="Voice shift" observation="Two different rooms." %}
+    {% include specimen.html type="absence" label="About page" location="milwaukeetool.com/about" observation="404. No company story." %}
+{% endcomment %}
+
+<figure class="specimen specimen--{{ include.type | default: 'image' }}">
+
+  <figcaption class="specimen-caption">
+    <span class="specimen-label">{{ include.label }}</span>
+    {% if include.location and include.type != "absence" %}<span class="specimen-location">{{ include.location }}</span>{% endif %}
+  </figcaption>
+
+  {% if include.type == "swatch" %}
+  <div class="specimen-swatch-row">
+    {% assign color_list = include.colors | split: "," %}
+    {% assign name_list = include.names | split: "," %}
+    {% for color in color_list %}
+    <div class="swatch-block">
+      <div class="swatch" style="background-color: {{ color }};"></div>
+      <span class="swatch-hex">{{ color }}</span>
+      {% if name_list[forloop.index0] %}<span class="swatch-name">{{ name_list[forloop.index0] }}</span>{% endif %}
+    </div>
+    {% endfor %}
+  </div>
+
+  {% elsif include.type == "type" %}
+  <div class="specimen-type">
+    <p class="specimen-type-sample">{{ include.sample }}</p>
+    {% if include.font %}<span class="specimen-type-font">{{ include.font }}</span>{% endif %}
+  </div>
+
+  {% elsif include.type == "quote" %}
+  <blockquote class="specimen-quote">
+    <p>{{ include.text }}</p>
+    {% if include.source %}<cite>{{ include.source }}</cite>{% endif %}
+  </blockquote>
+
+  {% elsif include.type == "sidebyside" %}
+  <div class="specimen-sidebyside">
+    <div class="specimen-side">
+      <img src="{{ include.image_a | relative_url }}" alt="{{ include.label_a }}">
+      <span class="specimen-side-label">{{ include.label_a }}</span>
+    </div>
+    <div class="specimen-side">
+      <img src="{{ include.image_b | relative_url }}" alt="{{ include.label_b }}">
+      <span class="specimen-side-label">{{ include.label_b }}</span>
+    </div>
+  </div>
+
+  {% elsif include.type == "absence" %}
+  <div class="specimen-absence">
+    <span class="specimen-absence-code">404</span>
+    {% if include.location %}<span class="specimen-absence-url">{{ include.location }}</span>{% endif %}
+  </div>
+
+  {% else %}
+  <div class="specimen-image">
+    <img src="{{ include.image | relative_url }}" alt="{{ include.alt | default: include.label }}">
+  </div>
+  {% endif %}
+
+  {% if include.observation %}<p class="specimen-observation">{{ include.observation }}</p>{% endif %}
+
+</figure>
