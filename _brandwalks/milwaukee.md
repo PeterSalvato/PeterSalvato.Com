@@ -36,3 +36,5 @@ analysis: |
 {% include specimen.html type="absence" label="About page" location="milwaukeetool.com/About-Us" observation="404. A company this size, this well-known, this well-regarded by its customers, has no page where it tells you who it is or why it exists." %}
 
 {% include specimen.html type="image" image="/assets/img/readings/milwaukee/footer.png" label="Community" location="Footer" observation="The only community signal on the entire site is a social hashtag in the footer. No blog. No editorial content. No stories about how people use these tools. Milwaukee outsources its brand narrative to user-generated content." %}
+
+{% include specimen.html type="image" image="/assets/img/readings/milwaukee/404.png" label="The 404" location="Any broken URL" observation="'Sorry...' with a hero image of a SAWZALL and giant wooden 404 numerals. Still selling, even on the error page. Milwaukee can't stop being a showroom for one second." %}

@@ -35,3 +35,5 @@ analysis: |
 {% include specimen.html type="image" image="/assets/img/readings/supreme/shop.png" label="Shop" location="supreme.com/shop" observation="The shop page, when active, shows the current drop. Between drops, it shows nothing. The availability is the content. The scarcity is the architecture." %}
 
 {% include specimen.html type="image" image="/assets/img/readings/supreme/lookbook.png" label="Lookbook" location="Spring/Summer 2026" observation="Photography carries the brand where the homepage refuses to. The lookbook is where Supreme actually shows its aesthetic. But even here, the presentation is minimal. No editorial copy. No lifestyle narrative. Just the clothes on people." %}
+
+{% include specimen.html type="image" image="/assets/img/readings/supreme/404.png" label="The 404" location="Any broken URL" observation="'500 | Internal Server Error.' Raw server error on white. No branding, no navigation, no box logo. The most controlled brand on the internet serves a completely uncontrolled error page. Either they chose not to design one, or nobody thought to. Both say something." %}

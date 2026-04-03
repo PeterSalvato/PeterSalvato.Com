@@ -33,3 +33,5 @@ analysis: |
 {% include specimen.html type="image" image="/assets/img/readings/dickies/products.png" label="Product grid" location="Pants category" observation="Clean product grid. Each item photographed consistently. Price points visible. This is competent e-commerce. There's nothing wrong with it and nothing distinctive about it." %}
 
 {% include specimen.html type="image" image="/assets/img/readings/dickies/about.png" label="Heritage" location="About page" observation="'Since 1922' anchors the credibility. The about page exists, which puts Dickies ahead of Milwaukee. But the heritage is presented as a fact, not as a story. A hundred years of workwear and the narrative is a timeline, not a workshop." %}
+
+{% include specimen.html type="image" image="/assets/img/readings/dickies/404.png" label="The 404" location="Any broken URL" observation="'We're sorry, something went wrong.' Centered, minimal, return to home link. Then straight into the newsletter signup. Generic but inoffensive. The 404 voice matches the rest of the site: competent, unremarkable, nothing you'd remember." %}

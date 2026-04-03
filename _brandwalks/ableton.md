@@ -38,3 +38,5 @@ analysis: |
 {% include specimen.html type="sidebyside" image_a="/assets/img/readings/ableton/blog-atmosphere.png" image_b="/assets/img/readings/ableton/about-atmosphere.png" label_a="Blog" label_b="About page" label="Voice shift" location="Two pages, one site" observation="The studio disappears. The palette changes. The voice changes. Two different rooms on one site." %}
 
 {% include specimen.html type="quote" text="We feel the same way about making Ableton products." source="About page" label="Company narrative" location="ableton.com/en/about/" observation="Twenty-five years of making creative tools. The company story is one paragraph. The rest of the page is a job listing." %}
+
+{% include specimen.html type="image" image="/assets/img/readings/ableton/404.png" label="The 404" location="Any broken URL" observation="'The page you're looking for does not exist.' Clean, direct, no apology. White background, same nav, link to home. The brand voice holds even when the page doesn't exist." %}

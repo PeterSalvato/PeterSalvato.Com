@@ -44,3 +44,5 @@ analysis: |
 {% include specimen.html type="sidebyside" image_a="/assets/img/readings/martin/still-handmade.png" image_b="/assets/img/readings/martin/catalog.png" label_a="Still Handmade" label_b="Product catalog" label="Two rooms" location="Same site" observation="One is warm, specific, human. The other is clinical, anonymous, spec-driven. Same brand. Broken coherence." %}
 
 {% include specimen.html type="image" image="/assets/img/readings/martin/this-is-martin.png" label="This is Martin" location="martinguitar.com/this-is-martin/" observation="Journal, lesson room, events calendar, artist showcase. The intention for a living knowledge base is here. But the product catalog has none of it woven through. The heritage stops at the doorway of the catalog." %}
+
+{% include specimen.html type="image" image="/assets/img/readings/martin/404.png" label="The 404" location="Any broken URL" observation="'Oh No! There Was An Error.' Then 'Continue Shopping' and a carousel of New Arrivals. The 404 is a sales opportunity. The voice is suddenly casual in a way the rest of the site isn't. Even the error page can't decide what room it's in." %}
