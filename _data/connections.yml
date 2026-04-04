@@ -563,9 +563,6 @@ reading-the-room:
     - target: mathontape
       url: /work/mathontape/
       reason: "A DJ reads the room. Same skill, different material."
-    - target: everybodys-got-a-plan
-      url: /essays/everybodys-got-a-plan/
-      reason: "Reading the room at the breakfast table. Four processing profiles, 7 AM."
 
 compilation-not-generation:
   url: /essays/compilation-not-generation/
@@ -705,9 +702,6 @@ lens-extraction-essay:
       url: /research/accommodation-design/
       reason: "Decomposed evaluation is the accommodation move applied to critique."
 
-everybodys-got-a-plan:
-  url: /essays/everybodys-got-a-plan/
-  connections:
     - target: accommodation-design
       url: /research/accommodation-design/
       reason: "Four processing profiles at one breakfast table."
@@ -797,9 +791,6 @@ vocab-somatic-design:
     - target: the-charged-room
       url: /essays/the-charged-room/
       reason: "Twilo and the dance floor architecture underneath. Where this principle was first felt."
-    - target: where-i-learned-pacing
-      url: /essays/where-i-learned-pacing/
-      reason: "How the pacing principle transferred from the dance floor to a classroom to AI systems."
     - target: aiden-jae
       url: /work/aiden-jae/
       reason: "A brand system where every touchpoint continues the same somatic sequence."
@@ -1121,9 +1112,6 @@ the-three-layers:
     - target: a-kid-in-the-computer-lab
       url: /essays/a-kid-in-the-computer-lab/
       reason: "Curriculum, differentiated groups, individual IEP. The classroom runs all three layers at once."
-    - target: everybodys-got-a-plan
-      url: /essays/everybodys-got-a-plan/
-      reason: "One batch, three builds, four people. The kitchen runs all three layers."
 
 the-crate:
   url: /essays/the-crate/
@@ -1166,9 +1154,6 @@ constraint-as-creative-fuel:
     - target: accommodation-design
       url: /research/accommodation-design/
       reason: "Twelve IEPs in one classroom. The constraint was the entire job."
-    - target: everybodys-got-a-plan
-      url: /essays/everybodys-got-a-plan/
-      reason: "Four incompatible diets. The kitchen constraint that forced a better system."
     - target: victore-be-fiercely-yourself
       url: /essays/victore-be-fiercely-yourself/
       reason: "Victore gave permission. The constraint was finding what fierceness looked like in structure."
@@ -1282,9 +1267,6 @@ the-morning-system:
     - target: accommodation-design
       url: /research/accommodation-design/
       reason: "Four dietary profiles, one kitchen. The batch system is accommodation design applied to a household."
-    - target: the-cook-who-falls-through-the-system
-      url: /essays/the-cook-who-falls-through-the-system/
-      reason: "What happens when the person running the system is the one who needs it most."
 
 breakfast-took-90-minutes:
   url: /essays/breakfast-took-90-minutes/
@@ -1295,12 +1277,6 @@ breakfast-took-90-minutes:
     - target: accommodation-design
       url: /research/accommodation-design/
       reason: "The kitchen is where accommodation design was practiced before it had a name."
-    - target: the-accommodation-kitchen
-      url: /essays/the-accommodation-kitchen/
-      reason: "The series opener. Four constraint profiles at one table."
-    - target: everybodys-got-a-plan
-      url: /essays/everybodys-got-a-plan/
-      reason: "Same kitchen, same morning, same realization that willpower was never going to scale."
 
 recipe-architecture:
   url: /essays/recipe-architecture-why-most-recipes-fail/
@@ -1318,34 +1294,16 @@ recipe-architecture:
       url: /systems/formwork/
       reason: "Cuisine frameworks coordinate the same way FormWork does. Logic over instructions."
 
-the-cook-who-falls-through-the-system:
-  url: /essays/the-cook-who-falls-through-the-system/
-  connections:
-    - target: the-accommodation-kitchen
-      url: /essays/the-accommodation-kitchen/
-      reason: "The series opener. This essay is what the structural problem looks like from inside."
     - target: accommodation-design
       url: /research/accommodation-design/
       reason: "The cook has the same constraints the system was built to accommodate. Accommodation has to include the builder."
-    - target: everybodys-got-a-plan
-      url: /essays/everybodys-got-a-plan/
-      reason: "The same kitchen, the same family. The plan that doesn't survive Tuesday at 5 PM."
     - target: what-it-costs
       url: /essays/what-it-costs-when-nobody-sees-you/
       reason: "The invisible cost of running a household system without enough executive function to cover it."
 
-the-accommodation-kitchen:
-  url: /essays/the-accommodation-kitchen/
-  connections:
     - target: accommodation-design
       url: /research/accommodation-design/
       reason: "The kitchen is where the framework was practiced before it was named."
-    - target: the-cook-who-falls-through-the-system
-      url: /essays/the-cook-who-falls-through-the-system/
-      reason: "What happens when the person designing the system has the same constraints as the people inside it."
-    - target: everybodys-got-a-plan
-      url: /essays/everybodys-got-a-plan/
-      reason: "The prologue to this series. Where the plan met reality."
     - target: encore
       url: /work/encore/
       reason: "Same operation, different material. Reading constraints and building structure around them."
@@ -1359,9 +1317,6 @@ what-it-costs:
     - target: encore
       url: /work/encore/
       reason: "Engineers making judgment calls the system should have absorbed. Same cost, enterprise scale."
-    - target: the-cook-who-falls-through-the-system
-      url: /essays/the-cook-who-falls-through-the-system/
-      reason: "The cook depleted by 5 PM is the same person paying invisible taxes all day."
     - target: drift-essay
       url: /essays/drift-how-good-work-dies-slowly/
       reason: "Drift is what accumulates when nobody counts the five-second costs."

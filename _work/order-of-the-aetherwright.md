@@ -1,6 +1,7 @@
 ---
 layout: project
-redirect_from: /governance/order-of-the-aetherwright/
+redirect_from:
+  - /governance/order-of-the-aetherwright/
   - /practice/order-of-the-aetherwright/
 practice_group: writing
 title: "Order of the Ætherwright"

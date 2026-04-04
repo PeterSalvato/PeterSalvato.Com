@@ -1,6 +1,7 @@
 ---
 layout: project
-redirect_from: /infrastructure/encore/
+redirect_from:
+  - /infrastructure/encore/
   - /evidence/encore/
 title: "Encore"
 featured: true

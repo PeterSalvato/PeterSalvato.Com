@@ -1,6 +1,7 @@
 ---
 layout: project
-redirect_from: /output/aiden-jae/
+redirect_from:
+  - /output/aiden-jae/
   - /evidence/aiden-jae/
 title: "Aiden Jae"
 featured: true

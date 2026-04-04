@@ -1,6 +1,7 @@
 ---
 layout: project
-redirect_from: /output/echo-and-bone/
+redirect_from:
+  - /output/echo-and-bone/
   - /practice/echo-and-bone/
 practice_group: meditations
 published: true

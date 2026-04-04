@@ -1,6 +1,7 @@
 ---
 layout: project
-redirect_from: /output/altrueism/
+redirect_from:
+  - /output/altrueism/
   - /evidence/altrueism/
 title: "Altrueism"
 subtitle: "Transparency as Visual Architecture"
