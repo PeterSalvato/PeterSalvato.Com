@@ -30,4 +30,4 @@ analysis: |
 
 {% include specimen.html type="image" image="/assets/img/readings/moog/synthesizers.png" label="Product presentation" location="Synthesizers" observation="Products on black. Each instrument photographed with the same care. The grid is sparse. There's more space between products than most sites give their hero sections. The spacing says: each one of these is worth your attention." %}
 
-{% include specimen.html type="image" image="/assets/img/readings/moog/404.png" label="The 404" location="Any broken URL" observation="'404: Page not found.' Three words on black. Then the footer. The dark atmosphere holds even on the error page. The emptiness is consistent with the reverence of everything else." %}
+{% include specimen.html type="image" image="/assets/img/readings/moog/404.png" label="The 404" location="Any broken URL" observation="'404: Page not found.' White type on black, then nothing. Most brands panic when you hit a dead end. Moog just holds the room. The 404 is as quiet as the homepage, which tells you the atmosphere isn't a design choice on specific pages. It's the actual temperature of the brand." %}
