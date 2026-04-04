@@ -30,6 +30,4 @@ analysis: |
 
 {% include specimen.html type="image" image="/assets/img/readings/moog/synthesizers.png" label="Product presentation" location="Synthesizers" observation="Products on black. Each instrument photographed with the same care. The grid is sparse. There's more space between products than most sites give their hero sections. The spacing says: each one of these is worth your attention." %}
 
-{% include specimen.html type="image" image="/assets/img/readings/moog/about.png" label="Story" location="About" observation="[VERIFY: about page returned 404. This screenshot may show a different page.] Moog's heritage content is woven through 'The Wave' editorial section rather than a traditional about page. The story is told through the community, not through corporate narrative." %}
-
 {% include specimen.html type="image" image="/assets/img/readings/moog/404.png" label="The 404" location="Any broken URL" observation="'404: Page not found.' Three words on black. Then the footer. The dark atmosphere holds even on the error page. The emptiness is consistent with the reverence of everything else." %}
