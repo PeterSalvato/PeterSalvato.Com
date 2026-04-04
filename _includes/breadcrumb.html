@@ -6,27 +6,33 @@
 {% assign bc_label = nil %}
 {% assign bc_url = nil %}
 
-{% if page.collection == "evidence" %}
+{% if page.collection == "work" %}
   {% assign bc_label = "Work" %}
-  {% assign bc_url = "/evidence/" %}
+  {% assign bc_url = "/work/" %}
+{% elsif page.collection == "evidence" %}
+  {% assign bc_label = "Work" %}
+  {% assign bc_url = "/work/" %}
 {% elsif page.collection == "practice" %}
   {% assign bc_label = "Practice" %}
   {% assign bc_url = "/practice/" %}
+{% elsif page.collection == "brandwalks" %}
+  {% assign bc_label = "Brandwalks" %}
+  {% assign bc_url = "/brandwalks/" %}
 {% elsif page.collection == "systems" %}
-  {% assign bc_label = "Thinking" %}
-  {% assign bc_url = "/thinking/" %}
+  {% assign bc_label = "Practice" %}
+  {% assign bc_url = "/practice/" %}
 {% elsif page.collection == "research" %}
-  {% assign bc_label = "Thinking" %}
-  {% assign bc_url = "/thinking/" %}
+  {% assign bc_label = "Practice" %}
+  {% assign bc_url = "/practice/" %}
 {% elsif page.collection == "essays" or page.collection == "ei" or page.collection == "homeworks" %}
   {% assign bc_label = "Writing" %}
   {% assign bc_url = "/essays/" %}
 {% elsif page.collection == "versograms" %}
   {% assign bc_label = "Versograms" %}
-  {% assign bc_url = "/practice/versograms/" %}
+  {% assign bc_url = "/work/versograms/" %}
 {% elsif page.collection == "photogeography" %}
   {% assign bc_label = "Photogeography" %}
-  {% assign bc_url = "/practice/photogeography/" %}
+  {% assign bc_url = "/work/photogeography/" %}
 {% elsif page.url contains "/vocabulary/" %}
   {% assign bc_label = "Vocabulary" %}
   {% assign bc_url = "/vocabulary/" %}
