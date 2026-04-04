@@ -2,6 +2,11 @@
 // DOMAIN INDEX — Collection listing pages (Practice, Systems, Evidence)
 // ============================================================================
 
+// Standalone domain-artifacts (pages without #domain-index-page wrapper)
+#domain-artifacts {
+  margin-top: $space-xl;
+}
+
 #domain-index-page {
   #domain-index-header {
     margin-bottom: $space-xxl;
@@ -28,6 +33,7 @@
     display: grid;
     grid-template-columns: 1fr;
     gap: $grid-gutter;
+    margin-top: $space-lg;
 
     @media (min-width: $bp-s) {
       grid-template-columns: repeat(2, 1fr);

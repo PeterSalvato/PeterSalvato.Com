@@ -13,7 +13,7 @@ opener: |
 
   Supreme is the opposite of every other brand I've read. Every other site has too much content or the wrong content or content in the wrong place. Supreme has almost nothing. And that's the whole point.
 analysis: |
-  I think Supreme's website is the purest [brand voice](/practice/voice-governance/) expression I've read, and it achieves that by having almost no content at all. The site commits to scarcity the same way the product does. There's almost nothing there and the nothing is doing all the work.
+  Supreme is attuned to one thing: scarcity. Total commitment to one principle. I think Supreme's website is the purest [brand voice](/practice/voice-governance/) expression I've read, and it achieves that by having almost no content at all. The site commits to scarcity the same way the product does. There's almost nothing there and the nothing is doing all the work.
 
   I think every other brand I've read could learn something from this. Ableton's about page breaks because it tries to do two things (tell the story and recruit). Milwaukee's site exhausts because it tries to show everything at once. Martin buries its best content because the commercial pages crowd it out. Supreme has none of these problems because it refuses to have content that doesn't serve the scarcity.
 

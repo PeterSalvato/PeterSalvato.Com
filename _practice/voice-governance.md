@@ -17,9 +17,9 @@ Three drafts in and you can't hear yourself anymore. The AI tool smoothed your r
 
 I kept running into this myself. I'd give the tool my own raw thinking, real conversations, real notes, my actual way of connecting ideas. And it would come back sounding like a stranger wrote it. Correct, but not me.
 
-So I built structure around it. A voice protocol that samples how I actually talk in conversations, not how I publish. A fingerprint that captures the specific rhythms, vocabulary, and patterns that make my writing mine. Rules that catch the places where AI overwrites the human. Forty of them now, each one from a specific failure I caught.
+So I built structure around it. A voice protocol that starts by reading how I actually sound, sampling conversations, not publications. The system attunes to my real patterns before it constrains anything. A fingerprint that captures the specific rhythms, vocabulary, and register that make my writing mine. Forty rules now, each one from a specific failure I caught.
 
-The system runs during generation, not after. The constraints shape the output before it exists. The voice stays mine because the tool was never allowed to drift in the first place.
+The system runs during generation, not after. The constraints shape the output before it exists. Fidelity to the real voice is the goal, and drift is what the protocol catches. The voice stays mine because the structure holds it in place from the first word.
 
 ---
 

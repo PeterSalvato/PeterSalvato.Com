@@ -17,7 +17,7 @@ analysis: |
 
   The community infrastructure in the footer is worth noting. Forum, helpdesk, knowledge base, downloads, patches, firmware, user manuals. It's all there, organized and accessible, and it doesn't compete with the atmosphere. The [practitioner relationship](/practice/practitioner-in-the-loop/) is built into the site architecture. Moog assumes you're going to use the instrument seriously and builds the support for that.
 
-  I think the question for Moog is whether this coherence holds as the company grows. Right now it works because every page feels like one person made the decisions. That gets harder.
+  The atmosphere holds because someone is still attuned to the whole. Every page feels like one person made the decisions. The question for Moog is whether that attunement scales as the company grows. That gets harder.
 ---
 
 {% include specimen.html type="image" image="/assets/img/readings/moog/logo.png" label="The mark" location="Site-wide" observation="Lowercase 'moog' in a clean sans-serif. No embellishment. Bob Moog's name set the way you'd write it on a label, not the way you'd put it on a billboard." %}

@@ -15,7 +15,7 @@ analysis: |
 
   But that cultural identity doesn't live on the website. The site is a clean, competent e-commerce store. "Worn In, Not Worn Out" is a good line. IBM Plex Sans is a solid type choice. The orange accent is warm without being aggressive. None of it is wrong. And none of it captures what Dickies actually means to the people who wear them.
 
-  The [brand voice](/practice/voice-governance/) exists in the culture, not on the site. When someone puts on Dickies 874s, they're making a statement about not making a statement. That anti-fashion stance is the identity. The website doesn't know how to present that. It presents workwear as product, not as posture.
+  The [brand voice](/practice/voice-governance/) exists in the culture, not on the site. The cultural identity lives in the audience, and the website isn't attuned to its own audience's relationship with the brand. When someone puts on Dickies 874s, they're making a statement about not making a statement. That anti-fashion stance is the identity. The website doesn't know how to present that. It presents workwear as product, not as posture.
 
   I think this is a [coherence](/practice/lens-extraction/) question. The brand has two voices: the cultural voice (worn by skaters and punks and tradespeople who chose function over fashion) and the commercial voice (durable workwear since 1922, shop the collection). Those two voices don't connect on the site. As AI tools make it easier to generate product content, the commercial voice will get louder because it's easier to automate. The cultural voice requires [someone who understands](/practice/practitioner-in-the-loop/) that the brand's power is in what it doesn't say.
 

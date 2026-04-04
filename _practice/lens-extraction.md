@@ -17,7 +17,7 @@ In the critique room at SVA, your work went up on the wall and five people evalu
 
 "Is this good?" is twelve questions disguised as one. Give that compound question to an AI model and the criteria blur together. You get a blended average. No priorities, no real judgment.
 
-I studied the practitioners who shaped how I see. I extracted what each of them actually evaluates. I turned those into independent lenses that run against the same work simultaneously. The convergence map shows where they agree and where they disagree. The disagreements are where I actually have to make a call.
+I studied the practitioners who shaped how I see. I extracted what each of them actually evaluates. Each lens is attuned to what a specific practitioner looks for: the same work, five different readings, the way five people in a critique room see five different things. I turned those into independent lenses that run against the same work simultaneously. The convergence map shows where they agree and where they disagree. Where they register the same signal, strong. Where they diverge, a decision for the maker.
 
 The same lenses that evaluate can constrain generation. Directions from evaluation become inputs to the next draft. The criteria shape the output during production, not after.
 

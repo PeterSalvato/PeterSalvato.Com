@@ -17,6 +17,8 @@ The AI tool can process everything you say to it. It cannot tell the difference 
 
 So the human marks it. SavePoint is a protocol for capturing the moment a decision crystallizes, an insight connects two things that weren't connected before, or the direction shifts. Timestamped, categorized, searchable. The conversation stream is the archive. The savepoints are the structural markers that make the stream navigable.
 
+The tool can't read what mattered to you. SavePoint accommodates that gap. When my father left a construction site, the whole picture left with him: which decisions were load-bearing, which were provisional, what connected to what. The fidelity of the context depended on the person who held it. Same problem, different domain.
+
 The first version failed immediately. Three more before the structure held. The same problem surfaced in code: contributors contradicting each other's architectural decisions because the decisions weren't captured at the point they were made. That produced FormWork. The pattern is the same in both cases: if the structure isn't captured when the thinking happens, it doesn't survive.
 
 ---

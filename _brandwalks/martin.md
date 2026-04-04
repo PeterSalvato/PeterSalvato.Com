@@ -16,7 +16,7 @@ opener: |
 analysis: |
   Martin has the raw material for the most compelling brand story in musical instruments. A factory in Nazareth, Pennsylvania. Workers who've been there longer than most companies have existed. A continuous line from 1833 to the D-28 hanging in a shop right now. And they buried it behind a homepage that could belong to Fender or Taylor or anyone.
 
-  This is [coherence loss](/practice/voice-governance/) at the front door. The copy says craft but the voice says committee. The brand voice that lives in "Still Handmade" never makes it to the homepage or the catalog. Two different teams, two different priorities, and nobody checked whether they felt like the same company.
+  This is [coherence loss](/practice/voice-governance/) at the front door. The copy says craft but the voice says committee. "Still Handmade" was written by someone attuned to the workers. The homepage was written by someone attuned to a marketing brief. The brand voice that lives in "Still Handmade" never makes it to the homepage or the catalog. Two different teams, two different priorities, and nobody checked whether they felt like the same company.
 
   I think about what this means as AI tools enter the content pipeline. Martin's product catalog is exactly the kind of content that AI generates well: specs, descriptions, organized grids. The [structural system](/practice/input-first-design/) that would thread the workshop story through every product page doesn't exist. So the catalog wins by volume and the brand voice that Jody and Kim and Randy represent gets buried even deeper.
 

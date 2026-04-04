@@ -16,7 +16,7 @@ related:
 
 Before the enterprise work, I taught special education in Brooklyn. A self-contained classroom, twelve students, every subject. The whole job was reading each student: what they actually needed, what the system was asking of them that they couldn't give, where the accommodation had to happen for them to get through the material.
 
-That skill transferred directly into everything I've built since. Every system I design starts by reading the person on the other end before designing anything. What does the system receiving this actually need?
+That skill transferred directly into everything I've built since. Every system I design starts with attunement: reading the person on the other end before designing anything. What does the system receiving this actually need?
 
 AI tools get this backwards. They want structured input: organized prompts, formatted requests, clear parameters. But creative thinking doesn't arrive structured. It arrives raw, partial, connected to things you haven't articulated yet. If you have to organize your thinking before the tool will accept it, you're doing the tool's job for it. The accommodation is flowing in the wrong direction.
 
