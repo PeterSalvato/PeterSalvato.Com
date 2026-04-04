@@ -1,6 +1,10 @@
 {
   "items": [
     {
+      "label": "Home",
+      "url": "/"
+    },
+    {
       "label": "Thesis",
       "url": "/what-i-think/",
       "icon": "psychology"
