@@ -25,7 +25,7 @@ analysis: |
   Martin's real room is the workshop. The website put the workshop in the back of the building and a lobby out front.
 ---
 
-{% include specimen.html type="image" image="/assets/img/readings/martin/logo.png" label="The mark" location="Site-wide" observation="C.F. Martin & Co. EST. 1833. Script lettering, hand-drawn feel. The mark promises a workshop. Four words and a date carrying 190 years." %}
+{% include specimen.html type="image" image="/assets/img/readings/martin/logo.png" label="The mark" location="Site-wide" observation="C.F. Martin & Co. EST. 1833. Script lettering, hand-drawn feel. Four words and a date and I think the mark is doing more to communicate craft than anything else on the site." %}
 
 {% include specimen.html type="swatch" colors="#2d5e50,#1a1a1a,#f5f1eb,#c4a35a" names="Martin green,Near black,Warm white,Gold accent" label="Primary palette" location="Site-wide" observation="Dark green header, warm whites, gold accents. Natural tones. The palette feels like heritage but it doesn't tell you much about what kind." %}
 
@@ -37,11 +37,11 @@ analysis: |
 
 {% include specimen.html type="image" image="/assets/img/readings/martin/catalog.png" label="Product catalog" location="martinguitar.com/guitars/" observation="166 guitars in a grid. Model number, price, two photos, filter by spec. If you know what a dreadnought is, this works. If you're a first-time buyer, this is a wall. No editorial guidance. No 'start here.' No curation by playing style." %}
 
-{% include specimen.html type="image" image="/assets/img/readings/martin/still-handmade.png" label="Still Handmade" location="martinguitar.com/this-is-martin/still-handmade.html" observation="Three clicks deep. Everything changes. Named workers with decades of tenure. Personal standards stated plainly. The strongest brand voice on any site I've read. Buried where most visitors will never find it." %}
+{% include specimen.html type="image" image="/assets/img/readings/martin/still-handmade.png" label="Still Handmade" location="martinguitar.com/this-is-martin/still-handmade.html" observation="This page is three clicks deep under 'This is Martin' and I almost didn't find it. Named workers with decades of tenure, personal standards stated plainly. I think this is the strongest brand voice I've come across in any of these readings and it's buried where most visitors will never see it." %}
 
-{% include specimen.html type="image" image="/assets/img/readings/martin/workers.png" label="Worker profiles" location="Still Handmade page" observation="Jody, 33 years. Kim and Heather, working together. Randy's family, multiple generations. 'I will not let a guitar leave my hands if it is not up to the same quality I would choose for myself.' That's not copy. That's a person with 33 years of practice telling you her standard." %}
+{% include specimen.html type="image" image="/assets/img/readings/martin/workers.png" label="Worker profiles" location="Still Handmade page" observation="Jody, 33 years. Kim and Heather, working together. Randy's family, multiple generations. One of them says she won't let a guitar leave her hands if it's not up to the same quality she'd choose for herself. I read that and I think about the homepage copy and I don't understand how the same company produced both pages." %}
 
-{% include specimen.html type="sidebyside" image_a="/assets/img/readings/martin/still-handmade.png" image_b="/assets/img/readings/martin/catalog.png" label_a="Still Handmade" label_b="Product catalog" label="Two rooms" location="Same site" observation="One is warm, specific, human. The other is clinical, anonymous, spec-driven. Same brand. Broken coherence." %}
+{% include specimen.html type="sidebyside" image_a="/assets/img/readings/martin/still-handmade.png" image_b="/assets/img/readings/martin/catalog.png" label_a="Still Handmade" label_b="Product catalog" label="Two rooms" location="Same site" observation="I keep putting these two pages next to each other because the gap is the whole finding. One is warm and specific and human. The other is clinical and anonymous and organized by spec. Same brand, and they don't feel like the same company." %}
 
 {% include specimen.html type="image" image="/assets/img/readings/martin/this-is-martin.png" label="This is Martin" location="martinguitar.com/this-is-martin/" observation="Journal, lesson room, events calendar, artist showcase. The intention for a living knowledge base is here. But the product catalog has none of it woven through. The heritage stops at the doorway of the catalog." %}
 

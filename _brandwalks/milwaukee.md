@@ -21,15 +21,15 @@ analysis: |
   Milwaukee's customers talk about these tools with pride and identity and loyalty. Tradespeople build their whole setup around the M18 platform and they'll argue about it the way musicians argue about DAWs. The brand itself talks about the same tools with specs. The customers have the voice. The company doesn't. And the only reason it works right now is that the customers care enough to [tell the story themselves](/practice/practitioner-in-the-loop/). That's not a strategy. That's luck. And luck doesn't scale.
 ---
 
-{% include specimen.html type="image" image="/assets/img/readings/milwaukee/logo.png" label="The mark" location="Site-wide" observation="White script on red. Hand-lettered, angled, speed in the letterforms. All the personality the brand has lives in this mark." %}
+{% include specimen.html type="image" image="/assets/img/readings/milwaukee/logo.png" label="The mark" location="Site-wide" observation="White script on red. Hand-lettered, angled, speed in the letterforms. I think this mark is carrying more of the brand personality than anything else on the site." %}
 
-{% include specimen.html type="image" image="/assets/img/readings/milwaukee/homepage.png" label="Homepage" location="milwaukeetool.com" observation="Hero, product carousel, pipeline section, system explorer, category grid, PACKOUT deep dive, ONE-KEY integration. Seven sections. Everything arrives at once." %}
+{% include specimen.html type="image" image="/assets/img/readings/milwaukee/homepage.png" label="Homepage" location="milwaukeetool.com" observation="Hero, product carousel, pipeline section, system explorer, category grid, PACKOUT deep dive, ONE-KEY integration. Seven sections before you scroll. I counted. There's no breathing room anywhere on this page." %}
 
-{% include specimen.html type="swatch" colors="#ce1126,#1a1a1a,#ffffff" names="Milwaukee red,Black,White" label="Primary palette" location="Site-wide" observation="Red and black. Two colors across the entire site, every product, every page, every system logo. The visual discipline is real." %}
+{% include specimen.html type="swatch" colors="#ce1126,#1a1a1a,#ffffff" names="Milwaukee red,Black,White" label="Primary palette" location="Site-wide" observation="Red and black. Two colors across the entire site, every product, every page, every system logo. I don't think I've seen a palette this committed to two colors on any brand I've read." %}
 
-{% include specimen.html type="image" image="/assets/img/readings/milwaukee/type-specimen.png" label="Typography" location="Headlines and system names" observation="Bold condensed sans-serif, all caps everywhere. M18. MX FUEL. DRIVEN TO OUTPERFORM. One register. The type never drops its voice." %}
+{% include specimen.html type="image" image="/assets/img/readings/milwaukee/type-specimen.png" label="Typography" location="Headlines and system names" observation="Bold condensed sans-serif, all caps everywhere. M18. MX FUEL. DRIVEN TO OUTPERFORM. One register from the nav to the footer. There's no quiet typographic moment anywhere on this site." %}
 
-{% include specimen.html type="image" image="/assets/img/readings/milwaukee/products.png" label="Product card" location="Products page" observation="Model number. Price. Photo. The brand assumes you already know what you need and why. Confidence in the audience and a closed door for everyone else." %}
+{% include specimen.html type="image" image="/assets/img/readings/milwaukee/products.png" label="Product card" location="Products page" observation="Model number. Price. Photo. That's a product card. If you already know what a hammer drill is and why you'd want the M18 over the M12, this page works. If you don't, there's no way in." %}
 
 {% include specimen.html type="image" image="/assets/img/readings/milwaukee/packout.png" label="PACKOUT system" location="Storage Solutions" observation="The closest thing to a brand story on the site. Modularity demonstrated through photography: stacked configurations, van installations, populated interiors. Specific friction points being solved. But still a catalog, not a narrative." %}
 
