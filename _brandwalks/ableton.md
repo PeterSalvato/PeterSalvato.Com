@@ -39,4 +39,4 @@ analysis: |
 
 {% include specimen.html type="quote" text="We feel the same way about making Ableton products." source="About page" label="Company narrative" location="ableton.com/en/about/" observation="Twenty-five years of making creative tools. The company story is one paragraph. The rest of the page is a job listing." %}
 
-{% include specimen.html type="image" image="/assets/img/readings/ableton/404.png" label="The 404" location="Any broken URL" observation="'The page you're looking for does not exist.' Clean, direct, no apology. White background, same nav, link to home. The brand voice holds even when the page doesn't exist." %}
+{% include specimen.html type="image" image="/assets/img/readings/ableton/404.png" label="The 404" location="Any broken URL" observation="'The page you're looking for does not exist.' White background, same nav, one link home. No apology, no redirect to products, no attempt to recover the sale. I think this is the most telling page on the site because it confirms the restraint isn't a design trick on the marketing pages. Ableton sounds like Ableton even when nothing is there." %}
