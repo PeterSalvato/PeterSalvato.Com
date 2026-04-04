@@ -28,7 +28,7 @@ analysis: |
 
 {% include specimen.html type="swatch" colors="#e5210c,#000000,#f2f2f2" names="Supreme red,Black,Near white" label="Primary palette" location="Site-wide" observation="Red, black, near-white. Three colors. The red only appears on the box logo. Everything else is black and gray. The restraint is absolute." %}
 
-{% include specimen.html type="type" sample="news  spring/summer 2026 preview  shop  random  about  stores  contact" font="Lowercase, monospaced feel, no caps" label="Typography" location="Homepage" observation="All lowercase. No emphasis on any single link. Every option has equal weight. The type refuses to tell you where to go first." %}
+{% include specimen.html type="image" image="/assets/img/readings/supreme/type-specimen.png" label="Typography" location="Homepage" observation="All lowercase. No emphasis on any single link. Every option has equal weight. The type refuses to tell you where to go first." %}
 
 {% include specimen.html type="image" image="/assets/img/readings/supreme/homepage.png" label="Front door" location="supreme.com" observation="Box logo. Timestamp. Nine links. Social icons. That's the entire homepage. No hero image, no product photography, no copy, no call to action. The timestamp says 'we are here right now.' The emptiness says 'you already know what this is.'" %}
 

@@ -27,7 +27,7 @@ analysis: |
 
 {% include specimen.html type="swatch" colors="#1a1a1a,#784f26,#ffffff" names="Near black,Warm brown,White" label="Primary palette" location="Site-wide" observation="Near-monochrome. Dark backgrounds, white type, one warm brown accent. Photography provides whatever color the page needs. I keep noticing how this palette holds across every page because most brands break within three." %}
 
-{% include specimen.html type="type" sample="Live Push Move Note Link" font="Sans-serif, clean, uniform weight" label="Typography" location="Navigation and headings" observation="Clean sans-serif, uniform weight, consistent scale across all pages. The type sets words. It doesn't carry meaning beyond them. For a company whose users bend sound into shapes nobody's heard before, the typography is playing it remarkably straight." %}
+{% include specimen.html type="image" image="/assets/img/readings/ableton/type-specimen.png" label="Typography" location="Navigation and headings" observation="Clean sans-serif, uniform weight, consistent scale across all pages. The type sets words. It doesn't carry meaning beyond them. For a company whose users bend sound into shapes nobody's heard before, the typography is playing it remarkably straight." %}
 
 {% include specimen.html type="quote" text="Bathe your sound in subtle warmth. … Create wild and unpredictable sounds with just a handful of intuitive controls." source="Live 12 product page" label="Product voice" location="ableton.com/en/live/" observation="Sensory language, not technical. No feature comparison charts. No spec list. No skill-level segmentation. They're assuming you're a musician and describing what happens when you use the tool, not what the tool does." %}
 

@@ -26,7 +26,7 @@ analysis: |
 
 {% include specimen.html type="swatch" colors="#BC4A1A,#000000,#f5f5f5" names="Napa orange,Black,Off-white" label="Primary palette" location="Site-wide" observation="Warm orange, black, off-white. Earthy and grounded. The palette says workwear without trying to say heritage." %}
 
-{% include specimen.html type="type" sample="Worn In, Not Worn Out" font="IBM Plex Sans" label="Typography" location="Homepage hero" observation="IBM Plex Sans. Clean, professional, slightly industrial. Good choice for workwear. It doesn't perform personality and that's appropriate for this brand." %}
+{% include specimen.html type="image" image="/assets/img/readings/dickies/type-specimen.png" label="Typography" location="Navigation" observation="IBM Plex Sans. Clean, professional, slightly industrial. Good choice for workwear. It doesn't perform personality and that's appropriate for this brand." %}
 
 {% include specimen.html type="image" image="/assets/img/readings/dickies/homepage.png" label="Front door" location="dickies.com" observation="'Worn In, Not Worn Out.' Lifestyle photography, a hand in a pocket, a striped shirt. The hero image says casual style, not job site. Dickies is reaching for the fashion audience without letting go of the workwear roots." %}
 

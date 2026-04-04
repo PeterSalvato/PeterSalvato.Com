@@ -27,7 +27,7 @@ analysis: |
 
 {% include specimen.html type="swatch" colors="#ce1126,#1a1a1a,#ffffff" names="Milwaukee red,Black,White" label="Primary palette" location="Site-wide" observation="Red and black. Two colors across the entire site, every product, every page, every system logo. The visual discipline is real." %}
 
-{% include specimen.html type="type" sample="NOTHING BUT HEAVY DUTY" font="Bold condensed sans-serif, all caps" label="Typography" location="Headlines and system names" observation="Bold condensed sans-serif, all caps everywhere. M18. MX FUEL. DRIVEN TO OUTPERFORM. One register. The type never drops its voice." %}
+{% include specimen.html type="image" image="/assets/img/readings/milwaukee/type-specimen.png" label="Typography" location="Headlines and system names" observation="Bold condensed sans-serif, all caps everywhere. M18. MX FUEL. DRIVEN TO OUTPERFORM. One register. The type never drops its voice." %}
 
 {% include specimen.html type="image" image="/assets/img/readings/milwaukee/products.png" label="Product card" location="Products page" observation="Model number. Price. Photo. The brand assumes you already know what you need and why. Confidence in the audience and a closed door for everyone else." %}
 

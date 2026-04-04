@@ -29,7 +29,7 @@ analysis: |
 
 {% include specimen.html type="swatch" colors="#2d5e50,#1a1a1a,#f5f1eb,#c4a35a" names="Martin green,Near black,Warm white,Gold accent" label="Primary palette" location="Site-wide" observation="Dark green header, warm whites, gold accents. Natural tones. The palette feels like heritage but it doesn't tell you much about what kind." %}
 
-{% include specimen.html type="type" sample="Still Handmade. Still the Standard." font="Generic sans-serif" label="Typography" location="Headings" observation="Sans-serif, same family and weight everywhere. 'Still Handmade' is set in the same type as the product catalog. A company built on handcraft using type that could come from anywhere." %}
+{% include specimen.html type="image" image="/assets/img/readings/martin/type-specimen.png" label="Typography" location="Headings" observation="Sans-serif, same family and weight everywhere. 'Still Handmade' is set in the same type as the product catalog. A company built on handcraft using type that could come from anywhere." %}
 
 {% include specimen.html type="image" image="/assets/img/readings/martin/homepage.png" label="Front door" location="martinguitar.com" observation="2026 models, a membership promotion, a strings launch, a Road Series refresh. Five sections competing. I'm looking for the workshop and I'm in a lobby." %}
 

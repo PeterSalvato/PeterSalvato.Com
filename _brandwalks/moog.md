@@ -24,7 +24,7 @@ analysis: |
 
 {% include specimen.html type="swatch" colors="#000000,#fcb040,#ffffff" names="Black,Golden amber,White" label="Primary palette" location="Site-wide" observation="Black backgrounds, white type, one golden amber accent that only appears on hover states and buttons. The accent is a reward for interacting. The rest of the site is monochrome." %}
 
-{% include specimen.html type="type" sample="Synthesizers  Accessories  Software  The Wave  Support" font="Nimbus Sans Extended, clean, spaced" label="Typography" location="Navigation" observation="Extended sans-serif with generous letter-spacing. The type breathes. It doesn't shout. There's a quietness to it that feels considered." %}
+{% include specimen.html type="image" image="/assets/img/readings/moog/type-specimen.png" label="Typography" location="Navigation" observation="Extended sans-serif with generous letter-spacing. The type breathes. It doesn't shout. There's a quietness to it that feels considered." %}
 
 {% include specimen.html type="image" image="/assets/img/readings/moog/homepage.png" label="Front door" location="moogmusic.com" observation="A synthesizer workstation in a dark field. Desk, chair, instruments, books, a lamp. Photographic, cinematic, the product in its habitat. This is not a product shot. This is a world." %}
 
