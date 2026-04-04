@@ -36,9 +36,15 @@ Screenprinting is where the way I think locked in. Separation means you never wo
 
 When I got into code I recognized the same structure. HTML is the bones, JavaScript is the muscles, CSS is the outfit. Separation of concerns. The analogy isn't perfect, but the discipline is the same, and it's how I've worked ever since. Every SCSS cascade, every function chain, every stage in a multi-agent workflow.
 
-## Twelve years
+## The classroom
 
-That method was about to get tested at a scale I hadn't worked at before.
+Between the print shops and the enterprise work, I taught special education for the New York City Department of Education. Sunset Park, Brooklyn. A self-contained fourth and fifth grade bridge class: students with behavioral challenges alongside students with developmental disabilities. Twelve students, every subject, all day.
+
+The whole job was reading each student before designing anything for them. What they actually needed, what the system was asking of them that they couldn't give, where the accommodation had to happen for them to get through the material. If the system doesn't accommodate how someone actually processes, the failure belongs to the system.
+
+I didn't know I was building a methodology. But the skill transferred directly. Every system I've designed since starts with the same read: what does the person on the other end actually need, and what is the system asking of them that they can't give?
+
+## Twelve years
 
 I was back in New York after a project support position at Metis Associates ended. My friend Bryan, who I knew through the music scene we both hung out in, found out I was looking for work and asked what I did. I told him, not knowing he was a software engineer. He asked for my resume and gave it to his boss, and I got a meeting the next week. I think they heard "web guy" and figured I'd be useful.
 

@@ -8,7 +8,9 @@ seo_keywords: ["AI creative practice", "voice governance", "lens extraction", "s
 
 {% include page-hero.html title="Practice" subtitle="Five structural problems AI tools create for creative work. I built the fix for each one." image="/assets/img/visual-language/TheSite@2x.png" %}
 
-Each one has a tool, a methodology, and published research underneath it.
+I was trained in visual communication at SVA. The whole job was reading what the audience actually receives before you design what you send. That's attunement. I taught special education in Brooklyn after that, a self-contained classroom, twelve students, every subject. Same skill in a different room: reading what each student actually needs before the system asks them to perform. That's accommodation. And I spent thirteen years building one enterprise platform through three technology shifts, where the hard part was never the build. It was holding the structure together while everything changed and nobody was maintaining fidelity to what had already been decided.
+
+Those three things produced what's on this page. Each pillar below came from one of them.
 
 <div id="domain-artifacts">
 
