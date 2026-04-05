@@ -7,7 +7,7 @@ brand_url: https://www.montana-cans.com
 thumbnail: /assets/img/readings/montana-cans/thumb.png
 description: "Structural brand reading of Montana Cans' web presence. German engineering, graffiti roots, product line sprawl, and what happens when a culture brand becomes a catalog."
 seo_keywords: ["Montana Cans brand analysis", "brand coherence", "graffiti brand", "spray paint brand", "structural brand reading", "Peter Salvato"]
-published: true
+published: false
 opener: |
   Same eight lenses. I know this brand from the inside. I carried Montana cans before I carried a portfolio. The BLACK line was the standard in every crew I ran with because the pressure was right, the coverage was opaque in one pass, and the color chart didn't lie to you. When you're painting at three in the morning, you need a tool that works exactly the way it says it will.
 
