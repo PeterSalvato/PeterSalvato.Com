@@ -45,3 +45,7 @@ The lens framework applied to brands I study. [Readings &rarr;](/brandwalks/)
 
 - [Reading the Room](/essays/reading-the-room/)
 - [The IEP for AI Systems](/essays/the-iep-for-ai-systems/)
+
+## Learn It
+
+[Joinery](https://joinerysystemworks.com) teaches this methodology in applied practice — on your own real project, not a fictional example.

@@ -49,3 +49,7 @@ The protocol for building a lens:
 4. Validate against their known work. The lens should confirm what the practitioner would confirm.
 
 A good creative director does the same thing when building a team: studies how the best people on the floor actually think, documents it, and makes it available when they're not in the room.
+
+---
+
+[Joinery](https://joinerysystemworks.com) teaches lens extraction in applied practice — on your own real project, not a fictional example.
