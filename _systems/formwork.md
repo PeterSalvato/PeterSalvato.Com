@@ -125,3 +125,7 @@ A tool that has to stay permanently is a dependency, and I try to catch those ea
 ---
 
 [petersalvato.com](/) was compiled inside FormWork. [This Site](/practice/this-site/) shows the process: the dump, the tools, the coordination, what the output looks like after the scaffolding is removed.
+
+---
+
+[Joinery](https://joineryschool.com) teaches the Accommodation Design methodology in applied practice — on your own real project, not a fictional example.

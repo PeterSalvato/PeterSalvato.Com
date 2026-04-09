@@ -277,4 +277,12 @@ You are free to share and adapt this material for any purpose, including commerc
 
 ---
 
+## Learn It
+
+[Joinery](https://joineryschool.com) teaches Accommodation Design in applied practice — on your own real project, not a fictional example.
+
+**Source:** [GitHub](https://github.com/PeterSalvato/accommodation-design) · [DOI](https://doi.org/10.5281/zenodo.18941231)
+
+---
+
 *Peter Salvato is a design engineer based in Fort Lauderdale, FL. He studied Visual Communication at the School of Visual Arts, taught special education in Brooklyn, NY, and spent thirteen years building the front end of an enterprise recruiting platform. His AI governance work applies twenty-five years of practice across construction, print production, pedagogy, enterprise software, and brand systems to the question of what AI systems actually need to produce quality output. His work is published at [petersalvato.com](/).*

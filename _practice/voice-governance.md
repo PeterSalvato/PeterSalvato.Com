@@ -15,11 +15,11 @@ related:
 
 Three drafts in and you can't hear yourself anymore. The AI tool smoothed your rhythm into something competent and generic. The vocabulary shifted. The way you build an argument changed. You didn't notice because each draft was only slightly off. But the cumulative drift is real and it's quiet.
 
-I kept running into this myself. I'd give the tool my own raw thinking, real conversations, real notes, my actual way of connecting ideas. And it would come back sounding like a stranger wrote it. Correct, but not me.
+I kept running into this myself. I'd give the tool my own raw thinking, real conversations, real notes, my actual way of connecting ideas. The tool was averaging my voice into something generic. Correct, but not me.
 
 So I built structure around it. A voice protocol that starts by reading how I actually sound, sampling conversations, not publications. The system attunes to my real patterns before it constrains anything. A fingerprint that captures the specific rhythms, vocabulary, and register that make my writing mine. Forty rules now, each one from a specific failure I caught.
 
-The system runs during generation, not after. The constraints shape the output before it exists. Fidelity to the real voice is the goal, and drift is what the protocol catches. The voice stays mine because the structure holds it in place from the first word.
+The system runs during generation, not after. The constraints shape the output before it exists. Fidelity to the real voice is the goal, and drift is what the protocol catches. The structure accommodates the voice I actually have, and holds it from the first word.
 
 ---
 
@@ -35,3 +35,7 @@ The system runs during generation, not after. The constraints shape the output b
 
 - [I'm Compilative, Not Generative](/essays/compilation-not-generation/)
 - [Voice Governance](/essays/voice-governance/)
+
+## Learn It
+
+[Joinery](https://joineryschool.com) teaches voice governance in applied practice — on your own real project, not a fictional example.

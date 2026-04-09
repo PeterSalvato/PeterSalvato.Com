@@ -26,7 +26,7 @@ FormWork reverses that. You dump your thinking raw. The structure comes after, n
 
 ## System
 
-[FormWork](/systems/formwork/) is the coordination harness. Named after concrete formwork: the structure that holds everything in position while the work is wet. The forms come off when the concrete can hold itself.
+[FormWork](/systems/formwork/) is the coordination harness. Named after concrete formwork: the structure that holds everything in position while the work is wet. The forms come off when the concrete sets.
 
 ## Research
 
@@ -40,3 +40,7 @@ FormWork reverses that. You dump your thinking raw. The structure comes after, n
 
 - [What Does the System Actually Need](/essays/what-does-the-system-actually-need/)
 - [What Special Ed Teachers Already Know](/essays/what-special-ed-teachers-already-know/)
+
+## Learn It
+
+[Joinery](https://joineryschool.com) teaches input inversion in applied practice — on your own real project, not a fictional example.
