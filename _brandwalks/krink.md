@@ -7,7 +7,7 @@ brand_url: https://www.krink.com
 thumbnail: /assets/img/readings/krink/thumb.png
 description: "Structural brand reading of Krink's web presence through eight evaluation lenses. Graffiti origins, maker identity, and what happens when a tool brand becomes a studio brand."
 seo_keywords: ["Krink brand analysis", "brand coherence", "graffiti brand", "Craig Costello", "structural brand reading", "Peter Salvato"]
-published: true
+published: false
 opener: |
   Same eight lenses. Krink is interesting because I came in expecting a tool brand and found an agency. Craig Costello started making markers in the nineties for writers who needed something specific that didn't exist. The K-60, the drip aesthetic, the whole visual language of Krink came from one person solving one problem. I wanted to see if the site still carries that signal or if the collaborations have taken over.
 
