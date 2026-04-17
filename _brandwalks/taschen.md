@@ -7,7 +7,7 @@ brand_url: https://www.taschen.com
 thumbnail: /assets/img/readings/taschen/thumb.png
 description: "Structural brand reading of Taschen's web presence through eight evaluation lenses. Occult art, Bauhaus monographs, erotica, and graffiti photography on the same shelf. What happens when a publisher's curatorial confidence lives in the catalog but not on the site."
 seo_keywords: ["Taschen brand analysis", "brand coherence", "art publisher", "structural brand reading", "Peter Salvato"]
-published: false
+published: true
 opener: |
   Same eight lenses. Taschen is the reading I've been circling for a while because the problem is mine. Benedikt Taschen started selling comics out of a Cologne shop in 1980. Today the catalog runs Hilma af Klint's spiritual paintings, Bauhaus monographs, graffiti archives, Helmut Newton nudes, bondage photography, Japanese woodblock prints, hip-hop jewelry, tarot decks, and Norman Foster architecture. Zero editorial anxiety about range. A $20 paperback and a $17,500 limited edition ship from the same warehouse.
 

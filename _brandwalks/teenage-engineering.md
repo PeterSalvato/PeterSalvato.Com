@@ -7,7 +7,7 @@ brand_url: https://teenage.engineering
 thumbnail: /assets/img/readings/teenage-engineering/thumb.png
 description: "Structural brand reading of Teenage Engineering's web presence. Product obsession, ecosystem coherence, and what happens when every piece is perfect but the joints between them are missing."
 seo_keywords: ["Teenage Engineering brand analysis", "brand coherence", "product design brand", "structural brand reading", "Peter Salvato"]
-published: false
+published: true
 opener: |
   Same eight lenses. Teenage Engineering is a brand I've watched for years because the product design is so obviously considered. Every object they make looks like it was argued over at the millimeter level. So I wanted to see whether that obsession translated to the web presence, or whether the site was just a storefront for beautiful hardware.
 

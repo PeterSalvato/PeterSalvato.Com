@@ -7,7 +7,7 @@ brand_url: https://www.molotow.com
 thumbnail: /assets/img/readings/molotow/thumb.png
 description: "Structural brand reading of Molotow's web presence. Product engineering, subcultural legitimacy, and what happens when a graffiti brand builds three separate websites and forgets to connect them."
 seo_keywords: ["Molotow brand analysis", "brand coherence", "graffiti brand", "structural brand reading", "Peter Salvato", "Molotow markers"]
-published: false
+published: true
 opener: |
   Same eight lenses. Molotow makes spray cans and markers for graffiti writers and fine artists. They've been at it since 1996, operating out of Lahr in the Black Forest region of Germany with 33 employees. They have a decommissioned Deutsche Bahn train car in their parking lot that international artists paint on rotation. That detail tells you who this company is faster than anything on their website does.
 

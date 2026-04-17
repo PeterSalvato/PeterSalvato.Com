@@ -7,7 +7,7 @@ brand_url: https://www.redwingshoes.com
 thumbnail: /assets/img/readings/red-wing/thumb.png
 description: "Structural brand reading of Red Wing Shoes' web presence. Heritage materials, split identity, and what happens when a workwear company builds two separate buildings on one foundation."
 seo_keywords: ["Red Wing brand analysis", "brand coherence", "heritage brand", "structural brand reading", "workwear brand", "Peter Salvato"]
-published: false
+published: true
 opener: |
   Same eight lenses. My father was a general superintendent on construction sites. Red Wing boots were on those sites every day. So this one hits a specific frequency for me. The brand represents a world I grew up next to, a world where quality meant something because the work was dangerous and the tools had to hold.
 

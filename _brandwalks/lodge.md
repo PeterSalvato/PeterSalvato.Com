@@ -7,7 +7,7 @@ brand_url: https://www.lodgecastiron.com
 thumbnail: /assets/img/readings/lodge/thumb.png
 description: "Structural brand reading of Lodge Cast Iron's web presence. Heritage credibility, product integrity, and the gap between a foundry that knows what it makes and a website that doesn't know what it's saying."
 seo_keywords: ["Lodge Cast Iron brand analysis", "brand coherence", "structural brand reading", "Peter Salvato"]
-published: false
+published: true
 opener: |
   Same eight lenses. I cook with Lodge every day. A 10-inch skillet, a 12-inch skillet, a dutch oven. I wrote thirteen chapters about kitchen systems. The pan is part of the infrastructure. So when I read this brand, I'm reading a company whose product I trust with dinner and whose website I've never thought about once. That gap is the reading.
 analysis: |

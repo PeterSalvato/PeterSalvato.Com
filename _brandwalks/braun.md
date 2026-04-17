@@ -7,7 +7,7 @@ brand_url: https://us.braun.com
 thumbnail: /assets/img/readings/braun/thumb.png
 description: "Structural brand reading of Braun's web presence. Dieter Rams, P&G ownership, and what happens when a century of design coherence gets folded into a consumer goods pipeline."
 seo_keywords: ["Braun brand analysis", "Dieter Rams brand", "brand coherence", "design heritage", "structural brand reading", "Peter Salvato"]
-published: false
+published: true
 opener: |
   Same eight lenses. Braun is personal for me. I named one of my evaluation lenses "Economy" after Rams. The T3 pocket radio, the SK 4 record player, the ET 66 calculator. These objects taught a generation of designers that restraint is a position, not a compromise. Apple's entire design language through the Ive era was a direct reading of Rams. So I wanted to see what happens when you point the lenses at the web presence of the company that made those objects.
 

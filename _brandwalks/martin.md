@@ -16,13 +16,13 @@ opener: |
 analysis: |
   Martin has the raw material for the most compelling brand story in musical instruments. A factory in Nazareth, Pennsylvania. Workers who've been there longer than most companies have existed. A continuous line from 1833 to the D-28 hanging in a shop right now. And they buried it behind a homepage that could belong to Fender or Taylor or anyone.
 
-  This is [coherence loss](/practice/voice-governance/) at the front door. The copy says craft but the voice says committee. "Still Handmade" was written by someone attuned to the workers. The homepage was written by someone attuned to a marketing brief. The brand voice that lives in "Still Handmade" never makes it to the homepage or the catalog. Two different teams, two different priorities, and nobody checked whether they felt like the same company.
+  This is [coherence loss](/practice/voice-governance/) at the front door. The copy says craft but the voice says committee. "Still Handmade" sounds like the person who wrote it spent time on the factory floor. The homepage reads like it came from a brief. The brand voice that lives in "Still Handmade" never makes it to the homepage or the catalog. Two different teams, two different priorities, and nobody checked whether they felt like the same company.
 
   I think about what this means as AI tools enter the content pipeline. Martin's product catalog is exactly the kind of content that AI generates well: specs, descriptions, organized grids. The [structural system](/practice/input-first-design/) that would thread the workshop story through every product page doesn't exist. So the catalog wins by volume and the brand voice that Jody and Kim and Randy represent gets buried even deeper.
 
   A D-28 product page could mention that this model has been in continuous production since 1931. It doesn't. The heritage stops at the doorway of the catalog. Without someone [paying attention](/practice/practitioner-in-the-loop/) to where the story is and isn't, the disconnect between the workshop and the showroom only grows.
 
-  Martin's real room is the workshop. The website put the workshop in the back of the building and a lobby out front.
+  Martin lives in the workshop. The website put it three clicks deep and built a lobby out front.
 ---
 
 {% include specimen.html type="image" image="/assets/img/readings/martin/logo.png" label="The mark" location="Site-wide" observation="C.F. Martin & Co. EST. 1833. Script lettering, hand-drawn feel. Four words and a date and I think the mark is doing more to communicate craft than anything else on the site." %}

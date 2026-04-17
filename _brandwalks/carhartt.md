@@ -7,7 +7,7 @@ brand_url: https://www.carhartt.com
 thumbnail: /assets/img/readings/carhartt/thumb.png
 description: "Structural brand reading of Carhartt and Carhartt WIP as a single brand system. Two web presences, two tech stacks, two audiences, one name. What happens when a brand forks itself and nobody attunes to the whole."
 seo_keywords: ["Carhartt brand analysis", "Carhartt WIP", "brand coherence", "brand architecture", "workwear brand", "structural brand reading", "Peter Salvato"]
-published: false
+published: true
 opener: |
   Same eight lenses. But this time, two websites.
 

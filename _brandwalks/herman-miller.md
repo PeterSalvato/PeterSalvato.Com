@@ -7,7 +7,7 @@ brand_url: https://www.hermanmiller.com
 thumbnail: /assets/img/readings/herman-miller/thumb.png
 description: "Structural brand reading of Herman Miller's web presence. Design legacy, the Eames inheritance, and what happens when a furniture company with the deepest designer roster of the twentieth century hands its front door to a routing page."
 seo_keywords: ["Herman Miller brand analysis", "Eames design legacy", "brand coherence", "structural brand reading", "Peter Salvato"]
-published: false
+published: true
 opener: |
   Same eight lenses. This one is personal. The Eames methodology is my methodology: across materials, the same operation everywhere, the furniture and the films and the toys all one practice. "The best for the most for the least." I've studied that line the way other people study scripture. So when I read Herman Miller's web presence, I'm reading the company that inherited that practice and asking whether they held it or filed it under "lounge seating."
 

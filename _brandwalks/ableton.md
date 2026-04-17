@@ -18,7 +18,7 @@ analysis: |
 
   I think about what this means as brands start scaling content production with AI tools. A page that's already off-register becomes the template. Voice drift accelerates. The [structural coherence](/practice/input-first-design/) that Ableton maintains so well across its product pages and blog is exactly what gets flattened first when there's no structural system holding it together. The about page is a preview of what the whole site could sound like if [nobody's paying attention](/practice/practitioner-in-the-loop/) to where the voice is drifting.
 
-  Ableton tells better stories about the people who use its products than about the people who make them. The blog treats every artist like a full human with a methodology and a history. The about page treats the company like a LinkedIn profile. Twenty-five years of making creative tools and the company story is one paragraph. The artists get the full treatment. The company gets a press release.
+  Ableton tells better stories about the people who use its products than about the people who make them. The blog gives every artist a full profile with methodology and history. The about page puts twenty-five years of making creative tools into one paragraph.
 ---
 
 {% include specimen.html type="image" image="/assets/img/readings/ableton/logo.png" label="The mark" location="Site-wide" observation="Three bars and three lines. Abstract, geometric, no wordmark. I think the mark is doing less work than almost any logo I've looked at, and I think that's intentional." %}

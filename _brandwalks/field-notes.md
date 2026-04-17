@@ -7,7 +7,7 @@ brand_url: https://fieldnotesbrand.com
 thumbnail: /assets/img/readings/field-notes/thumb.png
 description: "Structural brand reading of Field Notes' web presence. Forensic material craft, quarterly momentum, and what happens when a brand's fidelity lives in the pieces but not the scaffold."
 seo_keywords: ["Field Notes brand analysis", "brand coherence", "structural brand reading", "Peter Salvato", "Field Notes design", "Draplin"]
-published: false
+published: true
 opener: |
   Same eight lenses. I own Field Notes. I've bought them for years. Draplin is a positioning peer in the sense that we both work at the intersection of design, craft, and personal voice. So this reading matters to me differently than the others. I wanted to see if the site holds the same way the notebooks hold in your hand.
 
