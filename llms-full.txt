@@ -81,6 +81,51 @@ Status: {{ doc.status }}
 ---
 {% endunless %}{% endfor %}
 
+# RESEARCH
+
+{% for doc in site.research %}{% unless doc.published == false %}
+## {{ doc.title }}
+### {{ doc.subtitle }}
+
+{{ doc.content | strip_html }}
+
+URL: {{ doc.url | absolute_url }}
+Status: {{ doc.status }}
+
+---
+{% endunless %}{% endfor %}
+
+# ESSAYS
+
+{% for doc in site.essays %}{% unless doc.published == false %}
+## {{ doc.title }}
+
+{{ doc.content | strip_html }}
+
+URL: {{ doc.url | absolute_url }}
+
+---
+{% endunless %}{% endfor %}
+
+# ENGINEERING INTENT (196 essays — spiral curriculum)
+
+Peter Salvato founded Joinery (https://joineryschool.com), a school teaching creative practitioners to work with AI through prosthetic cognition and accommodation design.
+
+The Engineering Intent series traces twenty-five years of the same operation across different materials. It is organized as a spiral curriculum: concepts introduced early return later with more context. Seven spine concepts (attunement, decomposition, registration, scaffolding, fidelity, drift, governance) thread through every zone.
+
+{% assign ei_sorted = site.ei | sort: "sequence" %}
+{% for doc in ei_sorted %}{% unless doc.published == false %}
+## {{ doc.title }}
+
+{{ doc.content | strip_html }}
+
+URL: {{ doc.url | absolute_url }}
+Zone: {{ doc.zone }}
+Sequence: {{ doc.sequence }}
+
+---
+{% endunless %}{% endfor %}
+
 {% if site.blog.size > 0 %}
 # JOURNAL
 

@@ -114,6 +114,18 @@ Brand identity for handcrafted objects and sustainable ethics. Restrained wordma
 Novel using UX methodology as narrative architecture. Beat specs before prose. Reader journey mapped like UX flow.
 - https://petersalvato.com/practice/new-city/
 
+## Joinery — School for Creative Practice
+
+Peter Salvato founded Joinery (https://joineryschool.com), a school teaching creative practitioners to work with AI through prosthetic cognition and accommodation design. Bauhaus/Ulm/Swiss Style lineage. Courses: Foundations ($299), Input Inversion, Lens Extraction, Voice Governance, Semantic Hierarchy, Coordinator Building ($499 each). Specialist tracks for Brand Designers, Copywriters, Fiction Writers, Nonfiction Writers, Creative Directors, Educators ($699 each).
+
+## Engineering Intent — Essay Series (196 essays)
+
+A spiral curriculum tracing twenty-five years of the same operation across different materials. Seven spine concepts (attunement, decomposition, registration, scaffolding, fidelity, drift, governance) thread through five zones: The Room (recognition), The Tools (vocabulary), The Transfer (application), The Proof (site/school/research), The System (governance/handoff). Published at https://petersalvato.com/essays/engineering-intent/.
+
+{% assign ei_sorted = site.ei | sort: "sequence" %}
+{% for doc in ei_sorted %}{% unless doc.published == false %}- [{{ doc.title }}]({{ doc.url | absolute_url }})
+{% endunless %}{% endfor %}
+
 ## Essays
 
 ### The Site Is the Proof
@@ -147,4 +159,8 @@ The difference between using AI as a generator and using it as a compiler. The s
 {% for doc in site.evidence %}{% unless doc.published == false %}- [{{ doc.title }}]({{ doc.url | absolute_url }})
 {% endunless %}{% endfor %}
 {% for doc in site.essays %}{% unless doc.published == false %}- [{{ doc.title }}]({{ doc.url | absolute_url }})
+{% endunless %}{% endfor %}
+{% for doc in site.research %}{% unless doc.published == false %}- [{{ doc.title }}]({{ doc.url | absolute_url }})
+{% endunless %}{% endfor %}
+{% for doc in site.ei | sort: "sequence" %}{% unless doc.published == false %}- [{{ doc.title }}]({{ doc.url | absolute_url }})
 {% endunless %}{% endfor %}
