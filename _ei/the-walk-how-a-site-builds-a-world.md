@@ -4,15 +4,14 @@ title: "The Walk: How a Site Builds a World"
 date: 2026-03-09
 published: true
 description: "Every page builds a room through its example sequence."
-seo_keywords: ['somatic design', 'sequencing', 'Peter Salvato', 'design engineering', 'how to build a portfolio that tells a story', 'website as experience design', 'content sequencing portfolio']
+seo_keywords: ['somatic design', 'sequencing', 'Peter Salvato', 'design engineering']
 series: "engineering-intent"
-chapter: 62
 zone: 1
+sequence: 28
 depth: reading
 domain: Design practice
 function: Payload
 seed_status: DEEP
-order: 23
 last_modified: 2026-03-14
 ---
 
@@ -50,12 +49,12 @@ A visitor doesn't navigate a taxonomy. They walk through connected rooms. The pa
 
 I've been thinking about DJ sets for twenty years. A good set is a walk. Each track builds a room (a tempo, a texture, an energy). The sequence builds the night. The dancer experiences it as one continuous feeling, not as discrete tracks with gaps between them. The transitions are where the craft lives.
 
-The site works on the same principle. The transitions between pages, the connections, the way one room opens into the next. That's where the design actually happens. The individual pages are tracks. The set is what the listener remembers.
+The site works the same way. The transitions between pages, the connections, the way one room opens into the next. That's where the design actually happens. The individual pages are tracks. The site is the set.
 
 The system tracks where you've been (sessionStorage, nothing permanent, nothing leaves your browser). After three or four pages, it starts to know which rooms you've already visited. Which doors to highlight. It's a small thing, almost invisible. But it means the site is paying attention to your path the way a DJ pays attention to the floor.
 
 ## What the visitor should feel
 
-I want someone to leave this site feeling like they walked through a place. Not like they browsed a list of projects and read some descriptions. A place where the rooms connected, where the sequence made sense even if they couldn't articulate why, where the person who built it was present in the structure itself.
+I want someone to leave this site feeling like they walked through a place, where the rooms connected, where the sequence made sense even if they couldn't articulate why, where the person who built it was present in the structure itself.
 
-I'm still working on it. Some of the doors are rough. Some rooms don't connect the way I want them to yet. But the architecture is there, and it holds.
+That's the walk. Each page builds a room, each room is designed, and the sequence of rooms across the site is where the real design happens.

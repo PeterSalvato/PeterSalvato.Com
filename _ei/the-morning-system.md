@@ -4,11 +4,15 @@ title: "The Morning System"
 date: 2026-03-14
 published: true
 description: "The system that replaced the 90-minute breakfast."
-seo_keywords: ['domestic', 'governance', 'accommodation', 'batch cooking', 'Peter Salvato', 'design engineering', 'ADHD morning routine system', 'neurodivergent family meal prep', 'executive function morning routine', 'batch cooking dietary restrictions', 'celiac ARFID family meal system', 'reducing daily decisions household', 'accommodation design', 'meal prep system that actually works', 'batch cooking for families with restrictions', 'Sunday meal prep ADHD']
+seo_keywords: ['domestic', 'governance', 'accommodation', 'batch cooking', 'Peter Salvato', 'design engineering']
 series: "engineering-intent"
-chapter: 33
-order: 19
-icon: edit_note
+zone: 1
+sequence: 33
+depth: room
+domain: Personal/domestic
+function: Positioning
+seed_status: DRAFT
+last_modified: 2026-03-14
 ---
 
 Sunday afternoon the kitchen smells like roasting tomatoes and cumin. Two sheet pans in the oven, a stock pot on the back burner, chicken thighs coming out of the sous vide bath. I've got four quart containers lined up on the counter and a notebook open to this week's meal map.
@@ -19,7 +23,7 @@ I start with the bases. A protein (usually chicken or pork shoulder, sometimes b
 
 The cuisines are the crate. We have four that work for this household: Italian, Mexican, American BBQ, French. I didn't pick these because they're my favorites. I picked them because they give me enough room to differentiate the same base into different meals while respecting four sets of dietary restrictions. Italian lets me run gluten-free pasta alongside regular. Mexican is rice, beans, protein, salsa: you assemble per person. BBQ is smoke and sauce over whatever protein works. French is technique, not recipe, so it adapts to whatever's in front of me.
 
-Four frameworks. That's enough range to never repeat a meal in a month while keeping the grocery list sane.
+Four frameworks. Enough range to never repeat a meal in a month while keeping the grocery list sane.
 
 Monday morning. My wife is getting ready for work. One kid won't eat grains. The other won't eat meat. I have celiac and an autoimmune condition that means some mornings I'm running at maybe 40%.
 
@@ -35,6 +39,6 @@ Sous vide handles the proteins because precision matters when you're cooking for
 
 I didn't design this as a formal system. I designed it because I was tired and sick and four people needed to eat. The structure came from the constraints. Four diets that barely overlap. An autoimmune condition that makes some days harder than others. A grocery budget. A clock.
 
-But the pattern is the same one I use everywhere else. Read the constraints. Figure out the structure that meets all of them. Remove the recurring decisions. Build the defaults so the daily execution is cheap, and save the creative energy for when you actually have it.
+But the pattern is the same one I use everywhere else. Read the constraints. Find the structure that meets all of them. Remove the recurring decisions. Build the defaults so the daily execution is cheap, and save the creative energy for when you actually have it.
 
-Sunday afternoon I stand in the kitchen and build the week. Friday morning my kid grabs a container from the fridge, heats it up, and eats breakfast without asking me a single question. Nobody making decisions. Nobody negotiating. Four people eating something they actually want, and the whole thing takes twenty minutes instead of ninety. I don't think about it anymore. That's the point.
+Sunday afternoon I stand in the kitchen and build the week. Friday morning my kid grabs a container from the fridge, heats it up, and eats breakfast without asking me a single question. That's the system working. Nobody making decisions. Nobody negotiating. Four people eating something they actually want, and the whole thing taking twenty minutes instead of ninety.

@@ -4,15 +4,14 @@ title: "What the Body Knows Before the Mind Names It"
 date: 2026-03-09
 published: true
 description: "New City's theory of communication as a design principle."
-seo_keywords: ['novel', 'somatic design', 'Peter Salvato', 'design engineering', 'intuition before conscious thought', 'body knows before the mind', 'designing for felt experience']
+seo_keywords: ['novel', 'somatic design', 'Peter Salvato', 'design engineering']
 series: "engineering-intent"
-chapter: 59
 zone: 1
+sequence: 18
 depth: reading
 domain: Narrative
 function: Payload
 seed_status: DEEP
-order: 11
 last_modified: 2026-03-14
 ---
 
@@ -48,4 +47,4 @@ A paragraph about claustrophobia should feel tight before the reader identifies 
 
 A paragraph about relief should open up. Longer sentences. More air. The period comes later than expected and the reader's breathing actually changes.
 
-Every room I've ever worked in operates on this principle whether anyone names it or not. The dance floor, the classroom, the interface, the page. The body reads first, and I've been designing for that reading for a long time now. I still think I'm only scratching what's there.
+This is how communication actually works. The body is the first reader. Structure serves the body's reading. Every room I've ever worked in (the dance floor, the classroom, the interface, the page) operates on this principle whether anyone names it or not. The garlic is burning, and you knew before you could say why.

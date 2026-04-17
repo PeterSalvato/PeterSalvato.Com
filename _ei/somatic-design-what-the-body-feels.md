@@ -3,34 +3,40 @@ layout: post
 title: "Somatic Design: What the Body Feels"
 date: 2026-03-09
 published: true
-description: "Rotate a text block half a degree. Nobody mentions the rotation. They say it feels handmade. Their body already knows."
-seo_keywords: ['somatic design', 'Peter Salvato', 'design engineering', 'why good design feels right', 'designing for physical response', 'my design looks right but feels wrong', 'intuition in design', 'felt quality in design', 'why technically perfect work feels dead', 'haptic design experience', 'design that feels wrong but looks right', 'adding human feel to digital design', 'why digital design feels cold']
+description: "Name the missing layer."
+seo_keywords: ['somatic design', 'Peter Salvato', 'design engineering']
 series: "engineering-intent"
-chapter: 14
-order: 10
-icon: edit_note
+zone: 1
+sequence: 13
+depth: reading
+domain: Design practice
+function: Payload
+seed_status: CAPTURED
+last_modified: 2026-03-15
 ---
 
-Rotate a text block half a degree. Print it. Show it to someone. They won't mention the rotation. They'll say it feels handmade, or warm, or like a real thing. They can't point to why. Their body already figured it out before their mind got involved.
+Rotate a text block half a degree. Print it. Show it to someone. They won't mention the rotation. They'll say it feels handmade, or warm, or like a real thing. They can't point to why. Their body already knows.
 
-I keep coming back to this. The half-percent skew that nobody sees but everybody feels. A slight misregistration between ink layers. A grain density that shifts how the eye tracks across a surface. Small decisions that never announce themselves.
+This is the territory I keep coming back to. The 0.5-to-1% skew that nobody sees but everybody feels. A slight misregistration between ink layers. A grain density that shifts how the eye tracks across a surface. Micro-decisions that never announce themselves and never need to.
 
-Most digital work gets this wrong, and the reason is straightforward. Digital-only designers love distress overlays, halftone filters, paper grain at 40% opacity. They can represent the look of a letterpress pull or a risograph pass. But there's a layer missing. The texture sits on top of the work like a coat of paint on plastic. It looks right. It doesn't feel right. And the gap between those two things is the whole problem.
+There's a clean line between decoration and design here, and most digital work lands on the wrong side of it.
 
-When I say design, I mean structure that does work you can feel but can't point to. The half-degree rotation triggers warmth without triggering awareness. The grain moves the eye left-to-right at a pace that matches the content's rhythm. The texture isn't decoration. It's load-bearing.
+Decoration is throwing a vintage texture on something because it looks vibey. Digital-only designers love distress overlays, halftone filters, paper grain at 40% opacity. They can represent the look of a letterpress pull or a risograph pass. But there's a layer missing. A performance aspect. The texture sits on top of the work like a coat of paint on plastic. It reads as aesthetic, not material.
 
-The difference comes down to whether you've made the mistakes with your hands.
+Design, the way I mean it, is intentional invisible structure producing a physical response. The texture isn't decorative. It's structural. The half-degree rotation is calibrated to trigger warmth without triggering awareness. The grain is weighted to move the eye left-to-right at a pace that matches the content's rhythm.
 
-True Grit Texture Supply and RetroSupply Co make faithful digital reproductions of physical print processes. I use them. They're good tools. But applying them with intention means knowing where the accidents would actually happen. When I run a real screen print, ink pools at the edges of the squeegee stroke. Registration drifts between passes. Paper absorbs unevenly depending on humidity that morning. I know where those things happen because I've made them. So when I pick up a digital tool that reproduces those textures, I know where to place them and how much to apply. I can tell the difference between something that feels authentic and something that feels like a filter someone downloaded.
+The difference comes down to source experience.
 
-PressWorks came out of that. The visual experiments, the print meditations. That body of work was me figuring out how to retranslate a physical vocabulary back into digital. Not the look. The instinct for where structure belongs and how much of it the viewer should never consciously register.
+True Grit Texture Supply and RetroSupply Co make faithful digital reproductions of physical print processes. I use them. They're good tools. But applying them with intention requires knowing where the mistakes would actually be. When I run a real screen print, ink pools at the edges of the squeegee stroke. Registration drifts between passes. Paper absorbs unevenly depending on humidity that morning. I know where those accidents happen because I've made them with my hands. So when I pick up a digital tool that faithfully reproduces those textures, I know how to place them. I know what reads as authentic versus what reads as a filter someone downloaded.
 
-The governing principle is simple: the moment someone can point to the structure, it stopped carrying the experience.
+This is what PressWorks was about. The visual experiments, the print meditations. That body of work was me retranslating a physical vocabulary back into digital, rebuilding the instinct for where structure belongs and how much of it the viewer should never consciously register.
 
-The best transition between two tracks is the one nobody notices. The listener doesn't think "that was a smooth blend." Their energy just stays where it was, or shifts exactly where I wanted it to shift. The moment someone notices the mix, the mix failed.
+The governing principle across all of it: if the structure peeks out, it didn't do its job.
 
-I write fiction to a beat spec. Three-act structure, scene-level pacing targets, tension curves plotted before a word of prose exists. The reader never sees any of that. They just feel the pull. They turn the page because their body is ahead of their mind. If they stop and think "this feels really well-structured," something broke.
+The best transition between two tracks is the one nobody notices. The listener doesn't think "that was a smooth blend." Their energy just stays where it was, or shifts exactly where I wanted it to shift. The moment someone notices the mix, the mix failed. The structure peeked out.
 
-In the classroom, the same thing ran the [scaffolding](/vocabulary/scaffold/). Each problem is slightly harder than the last, but the gap is calibrated so that the student just feels capable. They don't feel scaffolded. They feel like they figured it out. That's the whole point.
+I write fiction to a beat spec. Three-act structure, scene-level pacing targets, tension curves plotted before a word of prose exists. The reader never sees any of that. They just feel the pull. They turn the page because their body is ahead of their mind, already leaning into the next beat. If they stop and think "this feels really well-structured," something broke.
 
-I think most of my work lives in that gap between what the body registers and what the conscious mind can name. I'm still figuring out how to talk about it without making it sound more mysterious than it is. It's not mystical. It's craft. After enough reps you start to feel where an accident would help, and then it stops being an accident, which is a weird thing to get good at.
+In the classroom, the same principle ran the scaffolding. Each problem is slightly harder than the last, but the gap is calibrated so precisely that the student just feels capable. They don't feel scaffolded. They feel like they figured it out.
+
+That gap between what the body registers and what the conscious mind can name is where design actually lives.

@@ -4,15 +4,14 @@ title: "Sequencing Changes Meaning"
 date: 2026-03-09
 published: true
 description: "Same ingredients, different order, different room."
-seo_keywords: ['sequencing', 'the selector', 'Peter Salvato', 'design engineering', 'why order matters in design', 'content sequencing strategy', 'how arrangement changes meaning']
+seo_keywords: ['sequencing', 'the selector', 'Peter Salvato', 'design engineering']
 series: "engineering-intent"
-chapter: 61
 zone: 1
+sequence: 17
 depth: reading
 domain: Music/DJ
 function: Payload
 seed_status: DEEP
-order: 22
 last_modified: 2026-03-14
 ---
 I cut a strong track from my album because it was in the wrong place.
@@ -29,7 +28,7 @@ I DJ. Not professionally anymore, but enough to know what happens when you open 
 
 Open with energy and you're chasing a peak for the rest of the night. Open with tension and you have somewhere to go. The tracks are identical. The arc is completely different. A set that opens with a slow burn and builds for forty minutes before the first peak tells a different story than one that peaks in the first five and tries to sustain it.
 
-Same crate. Same tracks. The room feels completely different depending on where you started.
+Same crate. Same tracks. Different room.
 
 ---
 
@@ -51,4 +50,4 @@ A topic index gives you access. A sequence gives you an experience. Those are di
 
 I think most people understand this already, in their body if not in their vocabulary. You've felt a playlist build to something. You've had a conversation where the order mattered, where saying the hard thing first would have shut everything down, but saying it third made it land. You've watched a movie where the flashback structure made the ending hit differently than chronological order would have.
 
-I keep coming back to the album. That track I cut was good. I still think about it. But the album is better without it, and that tells me more about composition than anything I learned in a classroom.
+Sequencing is composition. Same ingredients, different order, different room. The material doesn't change. What it means does.
