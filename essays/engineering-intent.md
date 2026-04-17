@@ -17,14 +17,14 @@ This is a spiral curriculum. The early chapters start in physical spaces (constr
   <span class="dossier-status">
     {% assign ei_published = 0 %}
     {% for post in site.ei %}{% if post.published %}{% assign ei_published = ei_published | plus: 1 %}{% endif %}{% endfor %}
-    {{ ei_published }}/191 published
+    {{ ei_published }} published
   </span>
 </div>
 
 ---
 
 {::nomarkdown}
-{% assign chapters = site.ei | sort: "order" %}
+{% assign chapters = site.ei | sort: "sequence" %}
 {% for post in chapters %}
   {% if post.published %}
   {% include artifact-hero.html item=post url=post.url is_link=true %}
