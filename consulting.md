@@ -14,6 +14,8 @@ I've been inside this problem for three years. I work with AI tools every day an
 
 This isn't the first technology shift I've worked through. Darkroom to digital, paste-up to Photoshop, learning to code so I could hold the full build in my hand. I studied visual communication at SVA under James Victore and I spent thirteen years on an [enterprise platform](/work/encore/) where I watched what happens when structural coherence isn't maintained across years of decisions. I recognized early that AI tools were going to change how creative work gets made, and I made it my business to figure out how to keep the work intact.
 
+I also teach this. [Joinery](https://joineryschool.com) is a school I founded for creative practitioners working with AI. The methodology is the same: task decomposition, input inversion, voice governance. Consulting applies it to your specific situation. The school teaches you to run it yourself.
+
 ---
 
 {::nomarkdown}
