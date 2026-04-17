@@ -37,4 +37,39 @@ layout: null
     <lastmod>{{ doc.date | date: "%Y-%m-%d" }}</lastmod>{% endif %}
   </url>
   {% endif %}{% endfor %}
+  {% for doc in site.research %}{% if doc.published != false %}
+  <url>
+    <loc>{{ doc.url | absolute_url }}</loc>{% if doc.last_modified %}
+    <lastmod>{{ doc.last_modified | date: "%Y-%m-%d" }}</lastmod>{% endif %}
+  </url>
+  {% endif %}{% endfor %}
+  {% for doc in site.work %}{% if doc.published != false %}
+  <url>
+    <loc>{{ doc.url | absolute_url }}</loc>{% if doc.last_modified %}
+    <lastmod>{{ doc.last_modified | date: "%Y-%m-%d" }}</lastmod>{% endif %}
+  </url>
+  {% endif %}{% endfor %}
+  {% for doc in site.brandwalks %}{% if doc.published != false %}
+  <url>
+    <loc>{{ doc.url | absolute_url }}</loc>{% if doc.last_modified %}
+    <lastmod>{{ doc.last_modified | date: "%Y-%m-%d" }}</lastmod>{% endif %}
+  </url>
+  {% endif %}{% endfor %}
+  {% for doc in site.versograms %}{% if doc.published != false %}
+  <url>
+    <loc>{{ doc.url | absolute_url }}</loc>
+  </url>
+  {% endif %}{% endfor %}
+  {% for doc in site.photogeography %}{% if doc.published != false %}
+  <url>
+    <loc>{{ doc.url | absolute_url }}</loc>
+  </url>
+  {% endif %}{% endfor %}
+  {% assign ei_sorted = site.ei | sort: "sequence" %}
+  {% for doc in ei_sorted %}{% if doc.published != false %}
+  <url>
+    <loc>{{ doc.url | absolute_url }}</loc>{% if doc.last_modified %}
+    <lastmod>{{ doc.last_modified | date: "%Y-%m-%d" }}</lastmod>{% endif %}
+  </url>
+  {% endif %}{% endfor %}
 </urlset>
