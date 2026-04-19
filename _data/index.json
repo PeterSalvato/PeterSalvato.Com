@@ -28,7 +28,7 @@
     {
       "name": "The School",
       "url": "https://joineryschool.com",
-      "image": null,
+      "image": "/assets/img/visual-language/joinery-logo.svg",
       "definition": "Joinery. For creative practitioners working with AI.",
       "description": "Task decomposition, input inversion, voice governance. Three weeks on your own real project. The methodology taught, not just documented."
     }
