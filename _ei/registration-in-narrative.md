@@ -37,7 +37,7 @@ The goal is to produce a somatic response in the reader that mirrors what the ch
 
 ---
 
-The novel follows a neurodivergent character through an unmasking process. That's why perception-sequencing (Kishōtenketsu) governs the structure instead of conflict-driven plot. Unmasking is something you come to understand, not something you win. One rule, derived before any structural decision: revelation comes through understanding, not through winning.
+The novel follows a character through an unmasking process. That's why perception-sequencing (Kishōtenketsu) governs the structure instead of conflict-driven plot. Unmasking is something you come to understand, not something you win. One rule, derived before any structural decision: revelation comes through understanding, not through winning.
 
 Each beat is specced across all three layers simultaneously. If any layer contradicts the governing constraint, it's architecturally wrong. The character demands the structure. The structure demands the layers. The layers demand the registration.
 

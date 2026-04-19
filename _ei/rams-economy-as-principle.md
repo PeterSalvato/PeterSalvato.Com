@@ -21,7 +21,7 @@ That principle becomes an evaluation lens in the [Formwork Protocol](/governance
 
 ---
 
-Economy as principle means every design decision is a structural claim. A margin isn't a preference. It's a statement about how much breathing room this content needs to be processed. A typeface isn't an aesthetic choice. It's a statement about the register of this communication. A color isn't decorative. It's functional: this site uses a three-color domain system where each color signals which professional faculty (design, engineering, strategy) is foregrounded on each page.
+Economy as principle means every design decision is a structural claim. A margin isn't a preference. It's a statement about how much breathing room this content needs to be processed. A typeface isn't an aesthetic choice. It's a statement about the register of this communication. A color isn't decorative. It's functional: this site uses a three-color domain system where each color signals which content categories (governance, infrastructure, output) is foregrounded on each page.
 
 When everything earns its place, removal is the diagnostic. I test pages by asking what would break if I took each element away. If the section divider disappears and the content still reads in the right order, the divider was decoration. If the heading disappears and the reader loses their position in the hierarchy, the heading was load-bearing.
 

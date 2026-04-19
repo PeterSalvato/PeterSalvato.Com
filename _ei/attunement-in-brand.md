@@ -15,9 +15,9 @@ seed_status: DEEP
 last_modified: 2026-03-14
 ---
 
-My wife studied oil painting at Parsons and Brooklyn College. She designs fine jewelry, sculpts by hand what she can't get modeled the way she wants it, and has the pieces manufactured from 100% recycled solid gold through RJC-certified partners in Bangkok. The quality is real. A stranger landing on her old Shopify template would never know.
+My wife is a merchandiser who built a fine jewelry brand. The pieces are manufactured from 100% recycled 9K solid gold and hand-detailed by Beauty Gems in Bangkok. The quality is real. A stranger landing on her old Shopify template would never know.
 
-The template treated every product identically. Same grid, same spacing, same assumptions. A ring from a premier manufacturer sat in that grid the same size as a $15 drop-shipped piece. The detail work disappeared. The craftsmanship was invisible. She didn't see the gap because she knew what the product was. The screen looked fine to her.
+The template treated every product identically. Same grid, same spacing, same assumptions. A ring from a premier manufacturer sat in that grid indistinguishable from commodity product. The detail work disappeared. The craftsmanship was invisible. She didn't see the gap because she knew what the product was. The screen looked fine to her.
 
 I saw it because I could read the code and the photograph at the same time. The platform was contradicting what the product actually was. That's attunement applied to brand: reading what the system can't articulate about itself and building the structure to prove it.
 

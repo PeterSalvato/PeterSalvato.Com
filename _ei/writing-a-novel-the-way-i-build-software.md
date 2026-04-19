@@ -25,7 +25,7 @@ I built three prose registers that function as interface states. Environmental n
 
 This is the honest framing: I'm testing whether the methodology transfers. I have no credentials in fiction. I have twenty-five years of building registration systems in visual design, enterprise software, brand architecture, music production. Every one of those projects required the same operation: decompose the whole into layers, spec each layer independently, make sure they register when they stack.
 
-The story follows a neurodivergent character through an unmasking process. That's why perception-sequencing governs the structure instead of conflict. Unmasking is something you come to understand, not something you win. The somatic layer exists because the character's experience often precedes language. The body knows before the mind names it. The reader needs to arrive at that understanding the same way the character does.
+The story follows a character through an unmasking process. That's why perception-sequencing governs the structure instead of conflict. Unmasking is something you come to understand, not something you win. The somatic layer exists because the character's experience often precedes language. The body knows before the mind names it. The reader needs to arrive at that understanding the same way the character does.
 
 One rule, derived before any structural decision: revelation comes through understanding, not through winning. Kishotenketsu resolves through recontextualization. That's load-bearing at every layer of the fractal.
 

@@ -15,7 +15,7 @@ seed_status: DEEP
 last_modified: 2026-03-14
 ---
 
-The founder knew exactly what separated her jewelry from mass-market product. She had a decades-long factory relationship in Bangkok. The pieces were manufactured and hand-detailed by artisans at Beauty Gems, a premier workshop. Recycled solid gold. Genuine stones, responsibly sourced. Pouches sewn in-house from organic wool felt. Carbon neutral shipping. Pollinator protection funded from every sale. The quality was real.
+The founder knew exactly what separated her jewelry from mass-market product. She had a manufacturing partnership in Bangkok. The pieces were manufactured and hand-detailed by artisans at Beauty Gems, a premier workshop. Recycled solid gold. Genuine stones, responsibly sourced. Pouches sewn in-house from organic wool felt. Carbon neutral shipping. Pollinator protection funded from every sale. The quality was real.
 
 Then you'd land on her Shopify store. Same grid as every other template. Same hierarchy. Same assumptions. A ring from a premier manufacturer sat in that grid the same size as a $15 drop-shipped piece. The detail work disappeared. The quality was invisible.
 
