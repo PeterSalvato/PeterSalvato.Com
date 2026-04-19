@@ -1,29 +1,36 @@
 {
-  "role_declaration": "Classically trained designer. Four technology shifts and counting. I figured out how to keep the eye intact when the tools change.",
+  "role_declaration": "Design engineer, educator, and founder of Joinery. Teaching creative practitioners to work with AI without losing their voice.",
   "manifesto": {
-    "short": "Twelve students in a self-contained classroom in Brooklyn. Every subject, every accommodation. A kid hears \"solve for the missing number, show your work, and explain your reasoning\" and starts working on the first instruction. The rest is gone. Not because the student can't do the work. Because the task was designed for a processing profile that isn't theirs.\n\nThat classroom taught me to ask one question before designing anything: what does the system receiving this actually need? Enterprise platforms, brand systems, AI governance. The question applies to every material I've worked in since."
+    "short": "Twelve students in a self-contained classroom in Brooklyn. Every subject, every accommodation. A kid hears \"solve for the missing number, show your work, and explain your reasoning\" and starts working on the first instruction. The rest is gone. The task was designed for a processing profile that isn't theirs.\n\nThat classroom taught me to ask one question before designing anything: what does the system receiving this actually need? Enterprise platforms, brand systems, AI governance. The question applies to every material I've worked in since. Now I teach it."
   },
   "routes": [
     {
-      "name": "This Site",
-      "url": "/practice/this-site/",
-      "image": "/assets/img/visual-language/TheSite@2x.png",
-      "definition": "6,000+ conversations compiled into what you're reading.",
-      "description": "Three years of working with AI tools every day, figuring out where the output breaks and building the structural fixes. The methodology is documented. You're looking at the output."
-    },
-    {
       "name": "The Work",
-      "url": "/evidence/",
+      "url": "/work/",
       "image": "/assets/img/visual-language/venn@2x.png",
       "definition": "Professional and personal. Same eye on all of it.",
-      "description": "Twelve years holding structural coherence on an enterprise platform. A jewelry brand. Print, music, a novel. Different materials, same way of seeing."
+      "description": "Thirteen years holding structural coherence on an enterprise platform. A jewelry brand. Print, music, a novel. Different materials, same way of seeing."
     },
     {
-      "name": "How I Think",
-      "url": "/thinking/",
+      "name": "The Research",
+      "url": "/research/",
       "image": "/assets/img/visual-language/prism@2x.png",
-      "definition": "One question applied to every material.",
-      "description": "What does the system receiving this actually need? That started in a classroom in Brooklyn. It applies to everything I've worked in since. The methodology, the research, and the systems that run it."
+      "definition": "Six whitepapers. Published with DOIs.",
+      "description": "Accommodation Design, Input Inversion, Prosthetic Cognition, Semantic Flattening, Lens Extraction, Voice Governance. The methodology formalized and peer-accessible."
+    },
+    {
+      "name": "The Writing",
+      "url": "/essays/engineering-intent/",
+      "image": "/assets/img/visual-language/TheSite@2x.png",
+      "definition": "196 essays. Twenty-five years, one operation.",
+      "description": "A spiral curriculum tracing the same practice across construction sites, classrooms, enterprise platforms, kitchens, DJ booths, and AI systems. The book in progress."
+    },
+    {
+      "name": "The School",
+      "url": "https://joineryschool.com",
+      "image": null,
+      "definition": "Joinery. For creative practitioners working with AI.",
+      "description": "Task decomposition, input inversion, voice governance. Three weeks on your own real project. The methodology taught, not just documented."
     }
   ],
   "contact": {
