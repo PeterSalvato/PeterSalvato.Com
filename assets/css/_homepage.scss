@@ -42,7 +42,16 @@
 
 #homepage-intro {
   margin-bottom: $space-lg;
-  max-width: 65ch;
+}
+
+.homepage-portrait {
+  float: right;
+  width: 280px;
+  margin: 0 0 1rem 2rem;
+  border-radius: 2px;
+  transform: scale(1.2) rotate(.5deg);
+  top: 2rem;
+  position: relative;
 }
 
 #section-cards {
