@@ -1,20 +1,28 @@
 ---
 layout: default
-title: "Peter Salvato — AI Methodology Consulting"
+title: "Peter Salvato — Consulting"
 permalink: /consulting/
-description: "If your team's output is losing its voice, your AI workflows are producing competent but flat results, or your brand coherence is dissolving, let's talk."
-seo_keywords: ["AI creative consulting", "voice governance", "design systems consulting", "AI implementation", "brand coherence", "creative AI tools", "Peter Salvato", "AI content governance", "brand voice AI", "creative AI practitioner"]
+description: "Structural consulting for design systems, brand coherence, platform architecture, and AI governance. If something you built stopped holding together, let's talk."
+seo_keywords: ["design systems consulting", "brand coherence", "structural consulting", "design engineering", "enterprise architecture", "AI governance consulting", "Peter Salvato", "design system architecture", "brand governance", "platform architecture consulting"]
 ---
 
 {% include page-hero.html title="Consulting" subtitle="If something I wrote or built brought you here, I'd like to hear what's going on." %}
 
-Every team I talk to has the same story. They started using AI tools and the output got faster. It also started sounding the same. The brand voice they spent years building dissolves into helpful, articulate, slightly enthusiastic copy that could belong to anyone. The design decisions that used to carry judgment flatten into defaults. They can feel it happening and they don't have a structural fix.
+Every team I talk to has a version of the same story. Something that used to hold together stopped holding together, and nobody can point to exactly when it happened.
 
-I've been inside this problem for three years. I work with AI tools every day and I've learned where the output breaks when nobody's watching, where the voice drifts, where the decisions disappear between context windows. The [methodology I documented](/research/) came from hitting those walls and figuring out the structural fixes.
+Sometimes it's AI. They started using AI tools and the output got faster but started sounding the same. The brand voice they spent years building dissolves into helpful, articulate, slightly enthusiastic copy that could belong to anyone. The design decisions that used to carry judgment flatten into defaults. They can feel it happening and they don't have a structural fix.
 
-This isn't the first technology shift I've worked through. Darkroom to digital, paste-up to Photoshop, learning to code so I could hold the full build in my hand. I studied visual communication at SVA under James Victore and I spent thirteen years on an [enterprise platform](/work/encore/) where I watched what happens when structural coherence isn't maintained across years of decisions. I recognized early that AI tools were going to change how creative work gets made, and I made it my business to figure out how to keep the work intact.
+Sometimes it's the design system. It grew organically across a dozen people and three years of feature work. Every decision made sense in isolation. The whole thing drifted because nobody was watching the cumulative effect, one small call at a time.
 
-I also teach this. [Joinery](https://joineryschool.com) is a school I founded for creative practitioners working with AI. The methodology is the same: task decomposition, input inversion, voice governance. Consulting applies it to your specific situation. The school teaches you to run it yourself.
+Sometimes it's the brand. Five contributors, three agencies over four years, and the work looks different depending on who touched it last. The guidelines exist. They're just not structural enough to survive contact with production.
+
+Sometimes it's the platform. The architecture held fine at launch, then absorbed requirements for six years. The front end and the back end agree on what the product is, but the information architecture between them stopped agreeing two years ago.
+
+The practice is the same in every case. I read what the system actually needs, figure out where intent stops surviving execution, and build the structure so it holds across contributors and time. I've done this across construction sites, print shops, classrooms, enterprise platforms, brand systems, and AI governance for twenty-seven years.
+
+I spent thirteen of those years as principal architect on an [enterprise recruiting platform](/work/encore/), holding the design system and information architecture together through three technology shifts and over a thousand client deployments. I studied visual communication at SVA. I taught special education in Brooklyn, where I learned that the system receiving the work has its own processing reality, and you design around it. The [AI governance methodology](/research/) I published grew from that same practice.
+
+I also teach this. [Joinery](https://joineryschool.com) is a school I founded for creative practitioners. Consulting applies it to your specific situation. The school teaches you to run it yourself.
 
 ---
 
