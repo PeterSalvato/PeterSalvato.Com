@@ -2,7 +2,7 @@
 // VARIABLES — Design tokens. Aged textbook interior, Tufte-calibrated.
 // ============================================================================
 
-// Chainprinter (self-hosted)
+// Chainprinter (self-hosted, legacy)
 @font-face {
   font-family: 'Chainprinter';
   src: url('../fonts/Chainprinter.woff2') format('woff2'),
@@ -12,9 +12,35 @@
   font-display: swap;
 }
 
+// Calder (self-hosted)
+@font-face {
+  font-family: 'Calder Dark';
+  src: url('../fonts/Calder Dark.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calder Dark Grit';
+  src: url('../fonts/Calder Dark Grit.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Calder LC';
+  src: url('../fonts/Calder LC.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 // Font stacks
 $font-body:    'Rubik', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-$font-display: 'Chainprinter', 'Space Mono', monospace;
+$font-display: 'Calder Dark', 'Chainprinter', 'Space Mono', monospace;
+$font-display-grit: 'Calder Dark Grit', 'Calder Dark', 'Space Mono', monospace;
 $font-mono:    'Space Mono', monospace;
 
 // ----------------------------------------------------------------------------
