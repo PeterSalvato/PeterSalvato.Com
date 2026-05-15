@@ -52,4 +52,4 @@ A good creative director does the same thing when building a team: studies how t
 
 ---
 
-[Joinery](https://joineryschool.com) teaches lens extraction in applied practice — on your own real project, not a fictional example.
+[Joinery](https://joineryschool.com) teaches lens extraction in applied practice. On your own real project, not a fictional example.

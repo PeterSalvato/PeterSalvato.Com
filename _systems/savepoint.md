@@ -33,7 +33,7 @@ What came out was a markup format. A way to mark, inline, the exact point where 
 Three versions. v1.0 was YAML frontmatter: loose, reflective, and it stripped out the concrete content it was supposed to preserve. The protocol reproduced the exact loss it was built for.
 
 ```yaml
-# v1.0 — YAML frontmatter (March 2025)
+# v1.0: YAML frontmatter (March 2025)
 ---
 category: design
 timestamp: 2025-03-01T10:00:00Z
@@ -45,7 +45,7 @@ timestamp: 2025-03-01T10:00:00Z
 v2.0 used triple-pipe attributes, still too verbose.
 
 ```
-# v2.0 — Triple-pipe blocks (late March 2025)
+# v2.0: Triple-pipe blocks (late March 2025)
 ||| protocol_version:2.0
 ||| category:system_logic
 ||| function:declaration
@@ -60,7 +60,7 @@ That was the problem.
 v3.0 came from a front-end instinct: CSS selectors and HTML attributes, applied to thought. A self-closing tag. Atomic. Parseable by machines. Writable by hand.
 
 ```
-# v3.0 — Self-closing tag (April 2025)
+# v3.0: Self-closing tag (April 2025)
 <Savepoint
   protocol_version:3.0
   category:system_logic

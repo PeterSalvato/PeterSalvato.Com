@@ -97,6 +97,11 @@
     .nav-sublist {
       display: none;
     }
+
+    // Show sublist when parent section is active (current page context)
+    .nav-section.is-active > .nav-sublist {
+      display: block;
+    }
   }
 
   #main-content {

@@ -43,4 +43,4 @@ FormWork reverses that. You dump your thinking raw. The structure comes after, n
 
 ## Learn It
 
-[Joinery](https://joineryschool.com) teaches input inversion in applied practice — on your own real project, not a fictional example.
+[Joinery](https://joineryschool.com) teaches input inversion in applied practice. On your own real project, not a fictional example.

@@ -128,4 +128,4 @@ A tool that has to stay permanently is a dependency, and I try to catch those ea
 
 ---
 
-[Joinery](https://joineryschool.com) teaches the Accommodation Design methodology in applied practice — on your own real project, not a fictional example.
+[Joinery](https://joineryschool.com) teaches the Accommodation Design methodology in applied practice. On your own real project, not a fictional example.

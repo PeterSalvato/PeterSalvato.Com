@@ -38,4 +38,4 @@ The system runs during generation, not after. The constraints shape the output b
 
 ## Learn It
 
-[Joinery](https://joineryschool.com) teaches voice governance in applied practice — on your own real project, not a fictional example.
+[Joinery](https://joineryschool.com) teaches voice governance in applied practice. On your own real project, not a fictional example.

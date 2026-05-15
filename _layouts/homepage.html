@@ -18,10 +18,10 @@ layout: default
             <img src="{{ route.image | relative_url }}" alt="{{ route.name }}">
         </div>
         {% endif %}
-        <h3 class="section-card-name">{{ route.name }}</h3>
+        <h2 class="section-card-name">{{ route.name }}</h2>
         <p class="section-card-definition">{{ route.definition }}</p>
         <p class="section-card-description">{{ route.description }}</p>
-        <p class="artifact-link">Explore &rarr;</p>
+        <p class="artifact-link">{{ route.name }} &rarr;</p>
     </a>
     {% endfor %}
 </div>

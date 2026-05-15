@@ -48,4 +48,4 @@ The lens framework applied to brands I study. [Readings &rarr;](/brandwalks/)
 
 ## Learn It
 
-[Joinery](https://joineryschool.com) teaches this methodology in applied practice — on your own real project, not a fictional example.
+[Joinery](https://joineryschool.com) teaches this methodology in applied practice. On your own real project, not a fictional example.
