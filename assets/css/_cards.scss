@@ -32,7 +32,7 @@
   }
 
   h3 {
-    font-family: $font-display;
+    font-family: $font-display-grit;
     font-size: $type-h3;
     letter-spacing: 0.04em;
     text-transform: uppercase;
@@ -292,7 +292,7 @@
   border-top: 1px solid $color-rule;
 
   h2 {
-    font-family: $font-display;
+    font-family: $font-display-grit;
     font-size: $type-h3;
     text-transform: uppercase;
     letter-spacing: 0.04em;
@@ -343,7 +343,7 @@
 }
 
 .connection-title {
-  font-family: $font-display;
+  font-family: $font-display-grit;
   font-size: $type-body-sm;
   text-transform: uppercase;
   letter-spacing: 0.04em;

@@ -79,7 +79,7 @@
 }
 
 .specimen-label {
-  font-family: $font-display;
+  font-family: $font-display-grit;
   font-size: $type-h3;
   letter-spacing: 0.04em;
   text-transform: uppercase;
@@ -212,7 +212,7 @@
 }
 
 .specimen-absence-code {
-  font-family: $font-display;
+  font-family: $font-display-grit;
   font-size: $type-display;
   color: $color-ink-faint;
   display: block;
@@ -234,7 +234,7 @@
   max-width: 55ch;
 
   h2 {
-    font-family: $font-display;
+    font-family: $font-display-grit;
     font-size: $type-h3;
     letter-spacing: 0.04em;
     text-transform: uppercase;

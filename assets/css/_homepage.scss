@@ -49,7 +49,7 @@
   width: 280px;
   margin: 0 0 1rem 2rem;
   border-radius: 2px;
-  transform: scale(1.2) rotate(.5deg);
+  transform: rotate(.5deg);
   top: 2rem;
   position: relative;
 }
@@ -96,7 +96,7 @@
   }
 
   .section-card-name {
-    font-family: $font-display;
+    font-family: $font-display-grit;
     font-size: $type-h3;
     letter-spacing: 0.04em;
     text-transform: uppercase;

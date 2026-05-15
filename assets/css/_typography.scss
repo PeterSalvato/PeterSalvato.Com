@@ -2,8 +2,14 @@
 // TYPOGRAPHY — Heading styles, prose content, inline elements
 // ============================================================================
 
-h1, h2, h3, h4 {
+h1 {
   font-family: $font-display;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+h2, h3, h4 {
+  font-family: $font-display-grit;
   letter-spacing: 0.02em;
   text-transform: uppercase;
 }
