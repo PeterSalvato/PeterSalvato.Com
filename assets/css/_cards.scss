@@ -188,6 +188,22 @@
   @media (max-width: #{$bp-s - 1}) {
     grid-template-columns: 1fr;
   }
+
+  .artifact-card--has-thumb {
+    grid-template-columns: none;
+    display: flex;
+    flex-direction: column;
+
+    .artifact-thumb {
+      width: 100%;
+      max-width: none;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
 }
 
 // Standard work section — grid of equal-sized compact cards
