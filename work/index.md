@@ -6,7 +6,7 @@ permalink: /work/
 redirect_from:
   - /evidence/
   - /projects/
-seo_keywords: ["Peter Salvato work", "design engineering", "enterprise platforms", "brand systems", "creative practice", "applied design"]
+seo_keywords: ["Peter Salvato work", "creative practice", "enterprise platforms", "brand systems", "applied design", "structural design"]
 ---
 
 {% include page-hero.html title="Work" subtitle="Different materials, same eye." image="/assets/img/visual-language/venn@2x.png" %}
@@ -17,8 +17,36 @@ seo_keywords: ["Peter Salvato work", "design engineering", "enterprise platforms
 {% assign featured = all_work | where: "featured", true %}
 {% assign standard = all_work | where_exp: "item", "item.featured != true" %}
 
+{% comment %} Tier 1: This Site — full width {% endcomment %}
 {% for item in featured %}
-  {% if item.published != false and item.listed != false %}
+  {% if item.published != false and item.listed != false and item.order == 1 %}
+  <a href="{{ item.url | relative_url }}" class="artifact-card artifact-card--link artifact-card--hero {% if item.thumbnail %}artifact-card--has-thumb{% endif %}">
+    {% if item.thumbnail %}
+    <div class="artifact-thumb">
+      <img src="{{ item.thumbnail | relative_url }}" alt="{{ item.title }}">
+    </div>
+    {% endif %}
+    <div class="artifact-card-body">
+      <div class="artifact-hero-header">
+        <div class="artifact-hero-title">
+          <h3>{{ item.title }}</h3>
+          {% if item.subtitle %}<p class="artifact-subtitle">{{ item.subtitle }}</p>{% endif %}
+        </div>
+      </div>
+      {% if item.description %}<p class="artifact-context">{{ item.description }}</p>{% endif %}
+      <p class="artifact-link">{{ item.title }} &rarr;</p>
+    </div>
+  </a>
+  {% endif %}
+{% endfor %}
+
+</div>
+
+{% comment %} Tier 2: Primary featured — 2 columns {% endcomment %}
+<div class="work-primary">
+
+{% for item in featured %}
+  {% if item.published != false and item.listed != false and item.order > 1 %}
   <a href="{{ item.url | relative_url }}" class="artifact-card artifact-card--link {% if item.thumbnail %}artifact-card--has-thumb{% endif %}">
     {% if item.thumbnail %}
     <div class="artifact-thumb">
@@ -33,7 +61,7 @@ seo_keywords: ["Peter Salvato work", "design engineering", "enterprise platforms
         </div>
       </div>
       {% if item.description %}<p class="artifact-context">{{ item.description }}</p>{% endif %}
-      <p class="artifact-link">Read &rarr;</p>
+      <p class="artifact-link">{{ item.title }} &rarr;</p>
     </div>
   </a>
   {% endif %}
@@ -41,7 +69,8 @@ seo_keywords: ["Peter Salvato work", "design engineering", "enterprise platforms
 
 </div>
 
-<div id="domain-artifacts" class="work-standard">
+{% comment %} Tier 3: Standard — 3 columns {% endcomment %}
+<div class="work-standard">
 
 {% for item in standard %}
   {% if item.published != false and item.listed != false %}

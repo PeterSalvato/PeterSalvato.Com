@@ -178,6 +178,18 @@
   }
 }
 
+// Primary work section — 2-column grid for featured case studies
+.work-primary {
+  margin-top: $space-lg;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: $space-md;
+
+  @media (max-width: #{$bp-s - 1}) {
+    grid-template-columns: 1fr;
+  }
+}
+
 // Standard work section — grid of equal-sized compact cards
 .work-standard {
   margin-top: $space-xl;
