@@ -1,13 +1,19 @@
 ---
 layout: project
 title: "Joinery"
+featured: true
+order: 4
 subtitle: "Building a School from Methodology"
 icon: cases
+logo: /assets/img/joinery-logo.svg
+logo_type: stacked
 status: "Active"
 context: "A teaching practice formalized into a school. Fifteen courses across three tiers, built from published research and applied work."
 faculty: ["design", "engineering"]
+thumbnail: /assets/img/joinery-logo.svg
 seo_keywords: ["school brand design", "educational brand system", "course platform design", "Archivo typography", "golden ratio grid", "AI governance education"]
 description: "A methodology school for creative practitioners working with AI. The brand system, course architecture, and platform built from the ground up. Identity, typography, site design, curriculum structure."
+og_image: /assets/img/og-joinery.png
 last_modified: 2026-05-16
 related:
   - /work/aiden-jae

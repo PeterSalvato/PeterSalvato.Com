@@ -1,13 +1,19 @@
 ---
 layout: project
 title: "Journeyman"
+featured: true
+order: 5
 subtitle: "Designing a Show from the Mark Up"
 icon: cases
+logo: /assets/img/journeyman-mark.png
+logo_type: stacked
 status: "In Development"
 context: "A show about cross-domain creative practice needed a visual identity that felt like the work it covers: industrial, hand-made, direct."
 faculty: ["design"]
+thumbnail: /assets/img/journeyman-mark.png
 seo_keywords: ["show brand design", "podcast visual identity", "weld bead logo", "Calder Dark typography", "broadcast graphics package", "video essay design"]
 description: "A video show about design, brand, and AI. Brand identity built from scratch: weld bead mark, Calder Dark type system, warm iron palette, broadcast graphics package. The design decisions documented in a living brand guide."
+og_image: /assets/img/og-journeyman.png
 last_modified: 2026-05-16
 related:
   - /work/aiden-jae
