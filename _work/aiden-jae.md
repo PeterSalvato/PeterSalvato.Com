@@ -13,7 +13,7 @@ logo_type: stacked
 status: "Delivered"
 context: "A trained artist designing fine jewelry from recycled solid gold. The quality is real. A stranger buying through a screen would never know."
 faculty: ["design", "engineering", "uxia"]
-thumbnail: /assets/img/AidenJae_gold_rings_felt.jpg
+thumbnail: /assets/img/aj_stacked_logo.svg
 seo_keywords: ["Brand Systems", "E-Commerce Architecture", "Luxury Positioning", "Photography Integration", "Shopify Development", "Identity Design", "jewelry brand design", "cross-continent product design", "small business brand system"]
 description: "A fine jewelry label with real substance and no way to put it in front of anyone. The first question was what made this brand different from everything else in the category. Then making sure every layer of the system proved it. Identity, photography, packaging, platform. One coherent argument."
 og_image: /assets/img/og-aiden-jae.png
