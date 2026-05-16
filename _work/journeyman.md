@@ -9,7 +9,7 @@ logo: /assets/img/journeyman-mark.png
 logo_type: stacked
 status: "In Development"
 context: "A show about cross-domain creative practice needed a visual identity that felt like the work it covers: industrial, hand-made, direct."
-faculty: ["design"]
+faculty: ["design", "engineering", "uxia"]
 thumbnail: /assets/img/journeyman-mark.png
 seo_keywords: ["show brand design", "podcast visual identity", "weld bead logo", "Calder Dark typography", "broadcast graphics package", "video essay design"]
 description: "A video show about design, brand, and AI. Brand identity built from scratch: weld bead mark, Calder Dark type system, warm iron palette, broadcast graphics package. The design decisions documented in a living brand guide."
@@ -49,6 +49,14 @@ I started with warm browns (matching petersalvato.com) and moved to steel, iron,
 
 The foundation is a warm gray scale from deep iron (#1c1a18) through cream (#eae7e0). Two accent colors pulled from the welding concept: torch blue (#3d8fb5) for annotations and highlights, spark orange (#cb6d2d) for the lower third bar, bullet points, and status labels.
 
+## The Show as Product
+
+The show serves three functions at once. It is a distribution channel (the thing that builds an audience when LinkedIn posts and Medium articles returned nothing). It is a networking tool (booking a guest is an invitation, not an ask, and every conversation is a potential consulting relationship). And it is a credibility artifact (the brand walks are applied methodology, publicly, on real brands).
+
+The first guest episodes are with people I already work with: my wife (the Aiden Jae case study, from both sides), a colleague who builds AI automation at my day job (the governance vs. automation tension), and a business consultant whose clients need creative direction I can provide. Each conversation does double work: content for the audience, relationship deepening for the business.
+
+The content calendar has 40+ episodes mapped across the three types, with source material already written. The brand walks draw from six published brand readings on petersalvato.com (Ableton, Milwaukee, Martin, Moog, Dickies, Supreme). The Connections episodes draw from the Engineering Intent essay series (196 published essays exploring cross-domain transfers). The raw material exists. The show compiles it into a different format.
+
 ## The Format
 
 Research into how successful analytical video channels work changed the approach. The best channels (Every Frame a Painting, Nerdwriter1, Practical Engineering) converge on voiceover with curated visual evidence, minimal face time. The evidence leads, the explanation follows.
@@ -56,6 +64,8 @@ Research into how successful analytical video channels work changed the approach
 Three episode types: Brand Walks (pull up a brand's web presence and read what is actually there), Conversations (real talk with people who make things), and Connections (two things from different domains, same structure underneath). Solo episodes run 20-30 minutes. Conversations run 40-60 minutes.
 
 Hard cuts only. No fades, no dissolves. Screenshots as evidence on a wallpaper frame, not live screen share. The format matches the register: direct, no performance.
+
+The closest structural sibling is Kirby Ferguson's Everything is a Remix: one practitioner, a distinctive typographic visual identity, episodic, built around showing structural similarities across domains. The difference is that Ferguson documents the pattern. This show teaches the skill underneath it.
 
 ## The Graphics Package
 

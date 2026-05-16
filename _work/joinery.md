@@ -47,9 +47,23 @@ Fifteen courses across three tiers. Each course runs three weeks of applied prac
 
 The Shopify course exists because of a real engagement. I built a complete brand system for a jewelry company (Aiden Jae), including the Shopify platform, and the process produced a repeatable curriculum. The course teaches what I did, step by step, on the student's own store.
 
+## The Student Experience
+
+Every course works on the student's own real project. No fictional examples, no toy problems. A brand designer takes the Shopify Brand Governance course and works on their client's actual store. A fiction writer takes Voice Governance and builds a protocol for their actual manuscript. The methodology applies to whatever they brought in.
+
+The student finishes Foundations with three deliverables they can use immediately: a decomposed task architecture for their AI workflow, an input inversion protocol that restructures how they brief the tools, and a voice governance system that holds their voice across sessions and tools. Those are working artifacts, not certificates.
+
+Foundations is priced at $299 for self-paced access. The market reference: Kirby Ferguson's Infinite Remix cohort charges $1,250-1,750 for a five-week live course on a similar thesis (creativity as remix, AI as creative tool). The pricing has room to grow, particularly if a live cohort tier is added.
+
 ## The Platform
 
 The course delivery runs on Flask with a lesson-by-lesson interface. Stripe handles enrollment payments. Each lesson builds on the previous one with applied exercises on the student's own project. The platform is minimal by design: the content is the experience, not the interface.
+
+## The Consulting Bridge
+
+The school creates a natural consulting pipeline. A client's team takes the Voice Governance course and learns to maintain brand coherence when using AI tools. The client who needs more than training hires me for the governance build directly. The school teaches the methodology. The consulting applies it. The same work, two price points, two relationships.
+
+This is the offer I am building with a business consultant (Harrison Benjamin) whose clients are consumer brands using AI agents for operations. He builds the automation. I build the creative governance layer and train the client's team to maintain it. The school courses are the training component of that partnership.
 
 ## The Research Layer
 
