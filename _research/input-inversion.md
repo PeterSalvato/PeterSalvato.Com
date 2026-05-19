@@ -4,6 +4,7 @@ redirect_from:
   - /governance/input-inversion/
   - /research/input-inversion/
 practice_group: whitepaper
+doi: "10.5281/zenodo.18962881"
 title: "Input Inversion"
 subtitle: "Why Unstructured Human Thinking Produces Better AI Output"
 icon: construction

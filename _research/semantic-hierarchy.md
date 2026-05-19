@@ -1,6 +1,7 @@
 ---
 layout: project
 practice_group: whitepaper
+doi: "10.5281/zenodo.18986290"
 title: "Semantic Flattening and the Case for Human-Marked Importance in AI Memory"
 subtitle: "Why Machine-Scored Memory Systems Erase What Matters Most"
 icon: construction

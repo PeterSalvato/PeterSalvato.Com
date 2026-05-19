@@ -179,6 +179,33 @@
   </script>
   {% endif %}
 
+  {% if page.practice_group == "whitepaper" and page.doi %}
+  <!-- JSON-LD: ScholarlyArticle (whitepapers with DOI) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ScholarlyArticle",
+    "name": "{{ page.title }}",
+    "headline": "{{ page.title }}{% if page.subtitle %}: {{ page.subtitle }}{% endif %}",
+    "description": "{{ page.description }}",
+    "author": { "@id": "https://petersalvato.com/#peter-salvato" },
+    "publisher": { "@id": "https://petersalvato.com/#peter-salvato" },
+    "url": "{{ page.url | absolute_url }}",
+    "mainEntityOfPage": "{{ page.url | absolute_url }}",
+    "dateModified": "{{ page.last_modified }}",
+    "datePublished": "{{ page.last_modified }}",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "DOI",
+      "value": "{{ page.doi }}"
+    },
+    "sameAs": "https://doi.org/{{ page.doi }}",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "keywords": "{% if page.seo_keywords %}{{ page.seo_keywords | join: ', ' }}{% endif %}"
+  }
+  </script>
+  {% endif %}
+
   {% if page.layout == "post" %}
   <!-- JSON-LD: Article (blog posts) -->
   <script type="application/ld+json">

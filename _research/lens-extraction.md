@@ -1,6 +1,7 @@
 ---
 layout: project
 practice_group: whitepaper
+doi: "10.5281/zenodo.18986295"
 title: "Lens Extraction"
 subtitle: "Decomposed Evaluation Through Practitioner-Derived Criteria"
 icon: construction

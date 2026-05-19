@@ -3,7 +3,7 @@ layout: context
 title: "How I Think"
 permalink: /thinking/
 description: "One processing profile applied to different materials. Construction sites, classrooms, enterprise platforms, kitchens, turntables, AI tools. The question is always the same."
-seo_keywords: ["design engineering", "design methodology", "cross-domain architecture", "accommodation design", "SVA", "visual communication", "AI governance", "how designers think", "cross-domain problem solving", "one skill applied everywhere"]
+seo_keywords: ["design methodology", "cross-domain architecture", "accommodation design", "SVA", "visual communication", "AI governance", "how designers think", "cross-domain problem solving", "creative AI practice", "structural design thinking"]
 last_modified: 2026-03-13
 related:
   - /research/accommodation-design
@@ -55,7 +55,7 @@ Now breakfast takes 25 minutes and nobody has to make a decision before coffee.
 
 ---
 
-This site was compiled from three years of my conversations. Over 60,000 documents of thinking out loud, mined by the tools described on this site, evaluated against lenses extracted from real practitioners, assembled under voice rules derived from how I actually talk. I built the workbench from AI tools the way a woodworker builds a bench from hand tools. Every page went through the voice pipeline, the lens evaluations, the traversal system. The tools did analysis. I made the decisions.
+This site was compiled from three years of my conversations. 52,881 documents of thinking out loud, mined by the tools described on this site, evaluated against lenses extracted from real practitioners, assembled under voice rules derived from how I actually talk. I built the workbench from AI tools the way a woodworker builds a bench from hand tools. Every page went through the voice pipeline, the lens evaluations, the traversal system. The tools did analysis. I made the decisions.
 
 ---
 

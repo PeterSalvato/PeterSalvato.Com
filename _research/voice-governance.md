@@ -1,6 +1,7 @@
 ---
 layout: project
 practice_group: whitepaper
+doi: "10.5281/zenodo.18986297"
 title: "Voice Governance"
 subtitle: "Generation Constraints vs. Post-Hoc Filtering in AI-Mediated Writing"
 icon: construction

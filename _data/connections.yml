@@ -401,7 +401,7 @@ this-site:
       reason: "Hand compilation with AI tools. The prosthetic in action."
     - target: input-inversion
       url: /research/input-inversion/
-      reason: "60,000 documents of raw thinking. Three years of dumping that fed everything."
+      reason: "52,881 documents of raw thinking. Three years of dumping that fed everything."
 
 # ============================================================================
 # ABOUT
@@ -607,7 +607,7 @@ the-unstructured-corpus:
       reason: "Where the unstructured corpus enters the system."
     - target: this-site
       url: /work/this-site/
-      reason: "60,000 documents. Three years. This site came out of that corpus."
+      reason: "52,881 documents. Three years. This site came out of that corpus."
     - target: savepoint
       url: /systems/savepoint/
       reason: "Savepoints mark what matters in the unstructured stream."

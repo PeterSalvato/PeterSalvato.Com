@@ -74,7 +74,7 @@ Each savepoint holds a single line of content marking a single moment.
 
 The tag carries its own context. `category` marks the domain. `function` marks why the Savepoint exists: a declaration, a revision, a drift detected, a milestone. Optional fields for `importance`, `confidence`, and `influence` when the moment warrants it.
 
-v3.1 added two more optional fields: `project` and `keywords`. I was dropping savepoints across half a dozen parallel projects (homelab infrastructure, the portfolio site, the skill system, the protocol itself) and the archive grew past 60,000 documents. Finding "the savepoint about plate boundaries" meant scanning everything. `project` scopes a savepoint to a specific body of work. `keywords` tags it with free-form search terms. Both are blank by default. The core syntax didn't change. The tag just got two more handles for when you need to find something later.
+v3.1 added two more optional fields: `project` and `keywords`. I was dropping savepoints across half a dozen parallel projects (homelab infrastructure, the portfolio site, the skill system, the protocol itself) and the archive grew past 50,000 documents. Finding "the savepoint about plate boundaries" meant scanning everything. `project` scopes a savepoint to a specific body of work. `keywords` tags it with free-form search terms. Both are blank by default. The core syntax didn't change. The tag just got two more handles for when you need to find something later.
 
 ```
 <Savepoint

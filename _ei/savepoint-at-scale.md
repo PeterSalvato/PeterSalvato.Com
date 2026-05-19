@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Savepoint at Scale: 60,000 Documents"
+title: "Savepoint at Scale: 52,881 Documents"
 date: 2026-03-19
 published: true
 description: "The SavePoint protocol was designed for one session. Then I pointed it at 52,000 documents across three years of AI conversations, and the problem changed completely."

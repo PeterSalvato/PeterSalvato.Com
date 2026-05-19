@@ -4,6 +4,7 @@ redirect_from:
   - /governance/accommodation-design/
   - /research/accommodation-design/
 practice_group: whitepaper
+doi: "10.5281/zenodo.18941231"
 title: "AI Governance as Accommodation Design"
 subtitle: "A Pedagogical Framework for Human-AI System Architecture"
 icon: construction

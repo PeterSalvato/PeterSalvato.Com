@@ -4,6 +4,7 @@ redirect_from:
   - /governance/prosthetic-cognition/
   - /research/prosthetic-cognition/
 practice_group: whitepaper
+doi: "10.5281/zenodo.18962893"
 title: "A Different Kind of Harness"
 subtitle: "AI as Cognitive Prosthetic Through Mutual Accommodation"
 icon: construction
