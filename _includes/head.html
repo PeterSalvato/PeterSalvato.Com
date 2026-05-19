@@ -4,7 +4,7 @@
   <title>{% if page.title and page.title != site.title %}{% if page.title contains 'Peter Salvato' %}{{ page.title }}{% else %}{{ page.title }} | Peter Salvato{% endif %}{% else %}Peter Salvato | Design Engineer{% endif %}</title>
   <meta name="description" content="{% if page.description %}{{ page.description }}{% elsif page.context %}{{ page.context }}{% else %}{{ site.description }}{% endif %}">
   <meta name="author" content="{{ site.author }}">
-  {% if page.published == false %}<meta name="robots" content="noindex, nofollow">{% endif %}
+  {% if page.published == false or page.noindex == true %}<meta name="robots" content="noindex, nofollow">{% endif %}
   <link rel="canonical" href="{{ page.url | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="Peter Salvato — Writing" href="{{ '/feed.xml' | absolute_url }}">
 
@@ -144,6 +144,12 @@
       "@id": "https://joineryschool.com/#organization",
       "name": "Joinery",
       "url": "https://joineryschool.com"
+    },
+    "memberOf": {
+      "@type": "Organization",
+      "@id": "https://third.industries/#organization",
+      "name": "Third Industries LLC",
+      "url": "https://third.industries"
     }
   }
   </script>

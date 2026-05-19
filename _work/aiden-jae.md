@@ -85,7 +85,7 @@ When you see the actual texture of recycled gold under honest light, you're seei
 
 I designed the packaging concepts. The pouches are wool felt, sewn in-house. When the package arrives, the material the customer touches tells the same story the photography started. Every touchpoint is one system, built by the same person with the same intent.
 
-![Custom wool jewelry pouch being sewn]({{ '/assets/img/AidenJae_jewelry_pouch.png' | relative_url }}){:.image.photo}
+![Custom wool jewelry pouch being sewn]({{ '/assets/img/AidenJae_jewelry_pouch.jpg' | relative_url }}){:.image.photo}
 
 ![Honeybee on finger]({{ '/assets/img/AidenJae_honeybee.jpg' | relative_url }}){:.image.photo}
 
