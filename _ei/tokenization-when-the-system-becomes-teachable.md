@@ -18,7 +18,7 @@ This is what I mean by tokenization. Taking a piece of methodology that lives as
 
 The term comes from how language models process text. A tokenizer breaks continuous language into discrete chunks that the model can operate on. The chunks aren't meaningful by themselves. They become meaningful through their relationships and their sequence. I'm using the term the same way, applied to methodology instead of language. You take a continuous skill (evaluating copy, assessing brand fidelity, reading a room's energy) and you break it into discrete operations that can be named, taught, and composed with other operations.
 
-The joinery repository has over 60 codified skills right now. [VERIFY: current skill count] Each one is a tokenized piece of methodology. Some are coordinators that orchestrate multiple operations. Some are atomics that do one specific thing. The grip test is an atomic. The steward coordinator dispatches multiple atomics in sequence. The lens array runs several evaluation frameworks in parallel and surfaces where they agree and disagree.
+The joinery repository has over 60 codified skills right now. Each one is a tokenized piece of methodology. Some are coordinators that orchestrate multiple operations. Some are atomics that do one specific thing. The grip test is an atomic. The steward coordinator dispatches multiple atomics in sequence. The lens array runs several evaluation frameworks in parallel and surfaces where they agree and disagree.
 
 Here's what I didn't expect: the act of tokenization changes the methodology.
 

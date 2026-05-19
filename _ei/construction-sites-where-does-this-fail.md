@@ -37,9 +37,9 @@ That's what happened. He would hand off a project, or take a day off, or move to
 
 A tradesman carries his own tools, calibrated to his hand. That's a point of pride. It's also a single point of failure.
 
-## The same pattern, twelve years later
+## The same pattern, thirteen years later
 
-I recognized this at Encore and ignored it for a long time. Twelve years building and maintaining an enterprise platform. I held the architecture in my head: where every module connected, which components were load-bearing, what would break if you changed this one SCSS variable three levels deep. I could navigate twelve years of accumulated decisions because I'd made most of them.
+I recognized this at Encore and ignored it for a long time. Twelve years building and maintaining an enterprise platform. I held the architecture in my head: where every module connected, which components were load-bearing, what would break if you changed this one SCSS variable three levels deep. I could navigate thirteen years of accumulated decisions because I'd made most of them.
 
 That's strength. It's also fragility. What happens when I'm not in the room? The same thing that happened on the construction site. The picture leaves.
 

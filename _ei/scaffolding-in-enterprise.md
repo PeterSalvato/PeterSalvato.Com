@@ -25,8 +25,6 @@ This is what scaffolding looks like in enterprise. It's not temporary structures
 
 The hardest part was knowing when to take it down. Keeping the old system running alongside the new one costs something. Every day both systems run, the team maintains two codebases. Two sets of bugs. Two sets of patterns that don't quite agree with each other. The old system starts as a safety net and slowly becomes a drag. But taking it down too early means the new system has to carry load it isn't ready for.
 
-[VERIFY: specific timeline of when the old Encore front-end was fully retired vs. when the new architecture took over. Peter would know if there was a specific cutover date or if it was gradual.]
-
 The same pattern showed up with the SCSS framework. The old CSS was the scaffolding while the new SCSS variables and mixins went in. File by file, component by component. The old styles held the visual output steady while the underlying structure changed. When a component was fully migrated, the old CSS for that component came out. The scaffolding came down one section at a time.
 
 Over 1,100 deployments across six continents, the product never went dark during a migration. That's what scaffolding is for. You keep the lights on while you rewire the building.

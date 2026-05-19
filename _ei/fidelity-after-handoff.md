@@ -30,7 +30,7 @@ When you design a brand system, you're designing two things at once. The visible
 
 The governance layer has to be structural, not advisory. It has to live in the code, in the templates, in the token system. Not because people don't care about brand consistency. Because people under deadline pressure make reasonable decisions that deviate slightly, and slight deviations accumulate into drift. The system has to hold the baseline without requiring vigilance.
 
-Encore is the proof case. Twelve years, hundreds of engineers, thousands of decisions. The SCSS variables file is the governance layer. Change a token, the change propagates. The system enforces consistency because consistency is the default path. Deviation requires deliberate override.
+Encore is the proof case. Thirteen years, developers cycling through, thousands of decisions. The SCSS variables file is the governance layer. Change a token, the change propagates. The system enforces consistency because consistency is the default path. Deviation requires deliberate override.
 
 I think fidelity after handoff is the real test of whether a system was designed or just styled. A styled brand looks right the day you deliver it. A designed brand holds six months later when someone else is running it under pressure. The difference is in the governance layer. Was it encoded or was it just described?
 

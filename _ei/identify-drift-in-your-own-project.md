@@ -29,7 +29,7 @@ Check the naming. Pull up the ten most recently created files and compare them t
 
 Check the voice. If your project has written copy (a site, documentation, a README), read the five most recent pieces against the five oldest. Does it sound like the same person? The same organization? Voice drift happens when multiple contributors write without a shared protocol, or when AI-assisted writing gradually replaces the original register with its default. The copy gets cleaner and more generic over time. Each piece is fine on its own. Together they've drifted toward a voice that belongs to nobody.
 
-Check the architecture. Draw the dependency map from memory. Which components depend on which? What calls what? Then check it against the actual codebase. Every dependency you didn't know existed is a joint you can't inspect. On [Encore](/infrastructure/encore/), twelve years of decisions meant the dependency map lived in my head. That worked because I was always there. It wouldn't survive my absence.
+Check the architecture. Draw the dependency map from memory. Which components depend on which? What calls what? Then check it against the actual codebase. Every dependency you didn't know existed is a joint you can't inspect. On [Encore](/infrastructure/encore/), thirteen years of decisions meant the dependency map lived in my head. That worked because I was always there. It wouldn't survive my absence.
 
 ---
 

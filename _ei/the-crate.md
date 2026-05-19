@@ -27,7 +27,7 @@ A quiet room at 11pm: you reach for something that builds slowly, that rewards p
 
 I've done this my entire life. Not just with records.
 
-Walk into Encore and read twelve years of accumulated drift (a founder's original vision slowly buried under operational pressure, two different teams pulling the product in directions nobody chose), and what I reach for is governance. Structure that makes the intent visible again so decisions stop being reactive. Walk into Aiden Jae and read Randi's invisible standard (every detail considered, nothing explained to the customer because the quality should speak), and I reach for restraint. A brand system that stays out of the way and lets the work land. Walk into my kitchen and read four people with incompatible diets sitting at the same table, and I reach for modernist technique. Precision that lets one meal serve everyone without four separate dinners.
+Walk into Encore and read thirteen years of accumulated drift (a founder's original vision slowly buried under operational pressure, two different teams pulling the product in directions nobody chose), and what I reach for is governance. Structure that makes the intent visible again so decisions stop being reactive. Walk into Aiden Jae and read Randi's invisible standard (every detail considered, nothing explained to the customer because the quality should speak), and I reach for restraint. A brand system that stays out of the way and lets the work land. Walk into my kitchen and read four people with incompatible diets sitting at the same table, and I reach for modernist technique. Precision that lets one meal serve everyone without four separate dinners.
 
 Same skills. Same crate. Different room, different reach.
 

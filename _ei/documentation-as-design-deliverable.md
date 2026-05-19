@@ -21,7 +21,7 @@ I treat documentation as a design deliverable. The CONVENTIONS.md, the CLAUDE.md
 
 ---
 
-This came from watching what happens when documentation is optional. On the [Encore](/infrastructure/encore/) platform, twelve years of architectural decisions accumulated. Most of them lived in my head. When a contributor needed to understand why the SCSS was structured a certain way, or why a particular naming convention existed, or what would break if they changed a dependency, they had to ask me. I was the institutional memory. The documentation either didn't exist or it was stale.
+This came from watching what happens when documentation is optional. On the [Encore](/infrastructure/encore/) platform, thirteen years of architectural decisions accumulated. Most of them lived in my head. When a contributor needed to understand why the SCSS was structured a certain way, or why a particular naming convention existed, or what would break if they changed a dependency, they had to ask me. I was the institutional memory. The documentation either didn't exist or it was stale.
 
 That works when one person holds the whole picture. It fails the moment that person is unavailable, overloaded, or building something new while the existing system needs maintenance. The decisions don't scale because the storage medium (a human brain) doesn't scale.
 

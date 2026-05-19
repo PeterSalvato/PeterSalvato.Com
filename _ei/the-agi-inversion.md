@@ -22,7 +22,7 @@ Now apply that to the destination the industry is heading toward.
 
 If AI becomes the creator, the producer of meaning, the author of intent, then who reads the room? The model has no room to read. It has no body in the space. It doesn't feel the crowd shift at Twilo. It doesn't see the student's pencil stop. It doesn't sense that the brand is softening at the edges where nobody is watching. The model processes. That's what it does well. Processing without reading is execution without attunement.
 
-A system where nobody reads the room drifts. That is not a moral argument. It is an engineering observation. I've watched it happen across twelve years of enterprise work, brand systems, classrooms, and every other material in this series. Drift doesn't announce itself. It accumulates through reasonable decisions made by systems that can't perceive what they're losing.
+A system where nobody reads the room drifts. That is not a moral argument. It is an engineering observation. I've watched it happen across thirteen years of enterprise work, brand systems, classrooms, and every other material in this series. Drift doesn't announce itself. It accumulates through reasonable decisions made by systems that can't perceive what they're losing.
 
 The practice I've built inverts the trajectory. The human remains the artist: the one who holds intent, makes meaning, reads the room, decides what matters. The machine remains the tool: the one who processes, retrieves, scales, executes patterns. The bilateral accommodation keeps both in their strength. The human doesn't do the machine's job (manual processing at scale, pattern matching across thousands of documents). The machine doesn't do the human's job (deciding what matters, feeling what the room needs, holding the thread of meaning across time).
 
@@ -32,6 +32,6 @@ The whitepapers (semantic hierarchy, lens extraction, voice governance) document
 
 The AGI lane removes the boundary. Not on purpose. Not maliciously. The trajectory just naturally pushes toward giving the machine more responsibility at each step. The machine gets smarter, so let it write the first draft. Let it choose the layout. Let it evaluate the design. Let it make the creative call. Each step is reasonable. Each step moves the human further from the intent layer.
 
-I've seen what happens when intent drifts from the work. I've spent twelve years fixing it in enterprise, three years fixing it in my own AI practice, and a career observing it across every domain I've touched. The intent has to live in a human who can read the room. And the infrastructure has to be built so that the human's reading actually governs the output.
+I've seen what happens when intent drifts from the work. I've spent thirteen years fixing it in enterprise, three years fixing it in my own AI practice, and a career observing it across every domain I've touched. The intent has to live in a human who can read the room. And the infrastructure has to be built so that the human's reading actually governs the output.
 
 That's what this practice is. The rooms change. The material changes. The intent has to stay where it can hold.

@@ -18,7 +18,7 @@ That's when I realized SavePoint had a scale problem it was never designed to ha
 
 The original protocol was simple. During a conversation, when something crystallized (a decision, a realization, a reframe), you drop a savepoint. Timestamp, context, the insight. It prints in the conversation stream. It never writes to disk. The conversation export IS the archive. For a single session, this works cleanly. You finish the session, the savepoints are embedded in the transcript, and the next session can reference them if you need continuity.
 
-But I don't work in single sessions. I work across hundreds of sessions, across months, across platforms that don't talk to each other. By early 2026 the corpus was massive. [VERIFY: exact document count at time of PKB assembly] conversations in ChatGPT alone. Hundreds of Claude Code threads. Dozens of Gemini evaluations. Each one potentially containing a savepoint that marked a moment where the thinking turned.
+But I don't work in single sessions. I work across hundreds of sessions, across months, across platforms that don't talk to each other. By early 2026 the corpus was massive. Hundreds of conversations in ChatGPT alone. Hundreds of Claude Code threads. Dozens of Gemini evaluations. Each one potentially containing a savepoint that marked a moment where the thinking turned.
 
 The problem isn't volume. The problem is that crystallized moments don't announce themselves retroactively. A savepoint dropped in real time says "this matters" at the moment it matters. A savepoint buried in a transcript from fourteen months ago says nothing until you go looking for it. And you only go looking when you need it, which means you're already under pressure, which means you're searching blind.
 
@@ -34,7 +34,7 @@ I keep finding things I forgot I knew. That's the strangest part. I'll be workin
 
 This is what I mean by continuous session capture. The goal isn't to record everything. The goal is to make the crystallized moments retrievable across time. The raw conversations are the substrate. The savepoints are the index. The PKB is the system that connects them.
 
-The scaling problems are real. Platform exports are inconsistent. ChatGPT JSON exports have a different structure than Claude conversation logs. Timestamps don't always align. Some savepoints reference other savepoints that live in different exports. The tooling to normalize all of this is still rough. [VERIFY: current state of PKB tooling and whether any of it is automated yet]
+The scaling problems are real. Platform exports are inconsistent. ChatGPT JSON exports have a different structure than Claude conversation logs. Timestamps don't always align. Some savepoints reference other savepoints that live in different exports. The tooling to normalize all of this is still rough.
 
 But the core insight holds: a protocol designed for one session scales to an entire ideation history if the protocol captures the right kind of moment. SavePoint was always about marking cognitive turns. At scale, those turns become the topology of a knowledge base that no one else could build, because no one else had those specific turns in that specific sequence.
 

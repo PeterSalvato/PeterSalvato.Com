@@ -22,7 +22,7 @@ Most people hear a good mix and say it flows. They're right. It does flow. But t
 
 I want to teach people to hear that.
 
-I started DJing in my bedroom in the late nineties. I was never interested in performing. I went to Twilo, stood near the booth, and watched Junior Vasquez read a room at 4 AM. I watched Danny Tenaglia hold a crowd through seven hours of consecutive decision-making. I absorbed what they were doing the way you absorb a language by living in the country. I never tried to play for rooms. I internalized room-reading as a skill and brought it home with me.
+I started DJing in my bedroom in the late nineties. I was never interested in performing. I went to Twilo, went to Tunnel, stood near the booths and watched. I watched Danny Tenaglia hold a crowd through seven hours of consecutive decision-making. I absorbed what they were doing the way you absorb a language by living in the country. I never tried to play for rooms. I internalized room-reading as a skill and brought it home with me.
 
 The bedroom DJ gets dismissed as the amateur version. I see it differently. A bedroom DJ with no audience has nothing to perform for. The only reason to mix is the mixing itself. You develop a deeper love of music through interaction with it. You learn what a track can do by putting it next to a hundred other tracks and hearing what happens at the joints.
 

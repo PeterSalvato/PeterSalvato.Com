@@ -39,4 +39,4 @@ Twelve years on one platform is where you learn what registration costs. The fro
 
 That interdependence is what makes the twelve-year tenure significant. A new developer could build any single layer well. The hard part is knowing how the layers interact over time: which front-end decisions affect the IA, which IA patterns depend on back-end data structures, which changes cascade and which are contained. That knowledge is institutional memory. It lives in the joints between the layers.
 
-The rest of the industry went browser-based. The call held. The platform still runs inside organizations I can't name. That's fidelity across three independently maintained layers, holding registration for twelve years.
+The rest of the industry went browser-based. The call held. The platform still runs inside organizations I can't name. That's fidelity across three independently maintained layers, holding registration for thirteen years.

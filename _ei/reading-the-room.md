@@ -19,7 +19,7 @@ The first time I understood what a room could feel like, I was standing in one.
 
 Twilo, late 90s, a Saturday night that bled into Sunday morning. Sasha and Digweed behind the decks. I wasn't a DJ. I wasn't studying anything. I was just in the room. And the room was doing something I didn't have language for yet.
 
-Four hundred people breathing together. Not a metaphor. You could feel the air pressure shift when a track dropped right. Strangers' faces readable, emotions moving across the floor like weather. The whole space operating as one organism, every person locked into the same current, and the two people behind the decks were the ones holding it there.
+Three thousand people breathing together, and you could feel the air pressure shift when a track dropped right. Strangers' faces readable, emotions moving across the floor like weather. The whole space operating as one organism, every person locked into the same current, and the two people behind the decks were the ones holding it there.
 
 It wasn't one night. The nights bleed together because the experience was cumulative. I kept going back. The same room, the same DJs, the same sustained charge week after week. And at some point I stopped feeling it as magic and started recognizing it as architecture. Something repeatable. Something built.
 
@@ -39,7 +39,7 @@ I pulled him into the hall. Told him I saw what he did. That I knew he was prote
 
 I was honest with him. The protocol still applied. There were still consequences for the disruption. But I stood between him and the version of events where he was just a behavior problem. Because that version was wrong, and he deserved to know that someone saw the real thing.
 
-Trust doesn't come from letting things slide. It comes from being seen accurately.
+Being seen accurately is what builds trust. Letting things slide doesn't build it, it just defers the reckoning.
 
 ---
 

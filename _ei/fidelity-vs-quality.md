@@ -31,9 +31,9 @@ Fidelity measures the work against intent. It asks whether the thing that got bu
 
 You can have high quality and low fidelity at the same time. The script fonts proved it. Beautiful work, wrong direction. Every craft metric said yes. The only metric that mattered said no.
 
-I watched this happen at a larger scale with Encore over twelve years. The original architecture was clear. The product had a specific shape, a specific logic to how its pieces connected. Then other developers came in. They were good. They made reasonable decisions. Each change, taken individually, was defensible. Well-coded, well-tested, shipped clean.
+I watched this happen at a larger scale with Encore over thirteen years. The original architecture was clear. The product had a specific shape, a specific logic to how its pieces connected. Then other developers came in. They were good. They made reasonable decisions. Each change, taken individually, was defensible. Well-coded, well-tested, shipped clean.
 
-But each decision was made locally, without holding the original intent. A feature would start with a clear purpose, pass through three teams and two review cycles, and arrive in production stripped of the thing that made it worth building. Over twelve years, the accumulation of individually good decisions produced a product that had drifted from the one that was designed. High quality throughout. Low fidelity to what it was supposed to be.
+But each decision was made locally, without holding the original intent. A feature would start with a clear purpose, pass through three teams and two review cycles, and arrive in production stripped of the thing that made it worth building. Over thirteen years, the accumulation of individually good decisions produced a product that had drifted from the one that was designed. High quality throughout. Low fidelity to what it was supposed to be.
 
 The same thing happens in a classroom. A lesson plan can check every pedagogical box. Differentiated instruction, formative assessment, scaffolded activities. All good practice. But if it doesn't match what this specific student actually needs right now, the quality of the plan is irrelevant. The plan is faithful to a method. It's not faithful to the kid.
 

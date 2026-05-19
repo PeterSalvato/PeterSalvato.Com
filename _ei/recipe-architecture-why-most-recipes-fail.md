@@ -15,11 +15,9 @@ seed_status: CAPTURED
 last_modified: 2026-03-15
 ---
 
-Last month I tried a braised short rib recipe. Followed it exactly. Seared the meat, built the braising liquid, set the oven to 325, waited three hours. When I pulled it out the sauce was thin and the meat was tough. The recipe had no explanation for why. It just said "braise until tender" and assumed that would happen. I had no way to diagnose the problem because the recipe never told me what braising actually does. It told me what to do, not why it works.
+The core failure of recipes as information architecture: they're top-down instructions. Follow these steps in this order, get this result. One execution path. No model of the system underneath. If something goes wrong, you can't adjust. If you want to vary it, you don't know what's structural and what's decorative. You're locked into someone else's sequence with no access to the logic that generated it. The recipe tells you what to do. It doesn't tell you why it works. When the result is wrong, you have no diagnostic capacity.
 
-That's the core failure of recipes as information architecture. They're top-down instructions: follow these steps in this order, get this result. One execution path. No model of the system underneath. If something goes wrong, you can't adjust. If you want to vary it, you don't know what's structural and what's decorative. You're locked into someone else's sequence with no access to the logic that generated it.
-
-I stopped following recipes years ago. What I built instead is a kitchen organized around systems.
+What works better is a kitchen organized around systems.
 
 Cuisines are frameworks. Italian, Mexican, American BBQ, French. Each one has a flavor logic, a technique set, a pantry profile. When you understand why Italian food works (acid plus olive oil plus garlic plus a tomato base, specific pasta shapes matched to specific sauce viscosities), you can improvise inside that system. You can open the fridge, see what is there, and cook something that coheres. You are not guessing. You are working within a logic you understand.
 

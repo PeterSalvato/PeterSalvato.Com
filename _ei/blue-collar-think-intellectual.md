@@ -19,13 +19,13 @@ The first thing you notice on a construction site is the noise. Not one noise. L
 
 My father was a general superintendent for general contractors in New York. Bovis, Gotham, Engel Burman. Skyscraper-scale jobs. His mornings started at six, walking the site before any trade showed up. He'd move through it floor by floor, reading what happened the day before, seeing where the next problem would be. By the time the electricians and ironworkers and plumbers arrived, he already knew what he was going to say to each of them.
 
-I was a kid on those sites. I didn't understand anything about what was being built. What I understood was what was being coordinated. Fifty trades, each one an expert at their thing. A glazier knows glass. A plumber knows pipe. None of them are responsible for how it all comes together. That was my father's job. He held the whole picture while everyone else worked their piece.
+I was working those sites in college, summers and weekends, doing whatever labor was needed. I didn't understand anything about what was being built. What I understood was what was being coordinated. Fifty trades, each one an expert at their thing. A glazier knows glass. A plumber knows pipe. None of them are responsible for how it all comes together. That was my father's job. He held the whole picture while everyone else worked their piece.
 
-I didn't know I was learning anything. I thought I was just hanging around.
+I didn't know I was learning anything. I thought I was just keeping busy.
 
 ## What comes apart
 
-The thing about being a kid on a construction site is that you see things in a different order than the people building them. The trades work bottom up. Foundation, structure, skin, systems, finish. I wasn't following that sequence. I was wandering through a building that was half there, looking at exposed framing and open walls and ductwork that would eventually disappear behind drywall. I was seeing the layers before they got sealed up.
+The thing about working a construction site is that you see things in a different order than the people building them. The trades work bottom up. Foundation, structure, skin, systems, finish. I wasn't following that sequence. Between jobs I'd wander through buildings that were half there, looking at exposed framing and open walls and ductwork that would eventually disappear behind drywall. Seeing the layers before they got sealed up.
 
 That turned out to matter. When you see a building with its guts exposed, you understand that the finished wall is a lie. A convenient one, a necessary one, but a lie. Behind every clean surface is a set of decisions about how things connect, and those decisions are invisible by the time anyone moves in.
 

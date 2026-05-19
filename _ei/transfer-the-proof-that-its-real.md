@@ -23,7 +23,7 @@ I didn't set out to prove transfer. I just kept changing materials.
 
 Screenprinting to web development. Print shops to classrooms. Classrooms to enterprise platforms. Enterprise to brand. Brand to AI tools. AI tools to household systems. Each time the surface changed completely. The vocabulary changed. The constraints changed. The people changed. And each time I found the same structural problems underneath the surface.
 
-Registration showed up in print as color alignment. It showed up in brand as the gap between what the logo says and what the photography says. It showed up in Encore as twelve years of small decisions drifting the product away from its intent. It showed up in the classroom as the distance between what the IEP promised and what the student actually experienced.
+Registration showed up in print as color alignment. It showed up in brand as the gap between what the logo says and what the photography says. It showed up in Encore as thirteen years of small decisions drifting the product away from its intent. It showed up in the classroom as the distance between what the IEP promised and what the student actually experienced.
 
 Scaffolding showed up on construction sites as temporary structure that holds the work. It showed up in the classroom as decomposed instructions that come off when the student can do the task alone. It showed up in AI tools as FormWork, the session coordinator that structures the work and then gets out of the way.
 

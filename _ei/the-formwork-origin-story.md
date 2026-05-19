@@ -3,7 +3,7 @@ layout: post
 title: "The Formwork Origin Story"
 date: 2026-03-09
 published: true
-description: "SVA critique room to twelve years of scar tissue to the protocol."
+description: "SVA critique room to thirteen years of scar tissue to the protocol."
 seo_keywords: ['enterprise', 'governance', 'drift', 'Peter Salvato', 'design engineering']
 series: "engineering-intent"
 zone: 2
@@ -21,7 +21,7 @@ That room is hard to reconstruct outside of school. In practice, most evaluation
 
 ---
 
-Then twelve years on the [Encore](/infrastructure/encore/) platform. Building and maintaining a front-end across three technology shifts, serving some of the largest recruiting organizations in the world. Twelve years of scar tissue. I learned what institutional memory actually costs. I watched decisions made in my head get contradicted by contributors who couldn't see the reasoning. I watched conventions drift when the conventions were ambient instead of explicit. I watched copy that I knew was wrong pass every individual quality check because no single check was looking at the whole picture.
+Then thirteen years on the [Encore](/infrastructure/encore/) platform. Building and maintaining a front-end across three technology shifts, serving some of the largest recruiting organizations in the world. Twelve years of scar tissue. I learned what institutional memory actually costs. I watched decisions made in my head get contradicted by contributors who couldn't see the reasoning. I watched conventions drift when the conventions were ambient instead of explicit. I watched copy that I knew was wrong pass every individual quality check because no single check was looking at the whole picture.
 
 The failures had the same shape every time. Good people, good work, and something going wrong in the joints between the layers. The photography contradicts the platform. The voice says one thing and the code structure says another. The structural layer scores well and the identity layer is missing. Nobody sees it because nobody is standing where all the disciplines connect.
 
@@ -35,4 +35,4 @@ Nearly a year of failed attempts, manual workarounds, and real collapses. The pa
 
 ---
 
-The [Formwork Protocol](/governance/formwork-protocol/) isn't a theory I worked out and then applied. It's twelve years of scar tissue from enterprise platform work, twenty years of design practice, and a year of failed governance attempts, crystallized into a system that finally held. The SVA critique room was the seed. The scar tissue was the soil. The protocol is what grew.
+The [Formwork Protocol](/governance/formwork-protocol/) isn't a theory I worked out and then applied. It's thirteen years of scar tissue from enterprise platform work, twenty years of design practice, and a year of failed governance attempts, crystallized into a system that finally held. The SVA critique room was the seed. The scar tissue was the soil. The protocol is what grew.

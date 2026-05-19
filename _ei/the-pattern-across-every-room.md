@@ -45,7 +45,7 @@ Behind a pair of turntables, this was instinct before I had words for it. Read t
 
 In a classroom, the same operation looked completely different on the surface. Read the student. Not their test scores, their actual state. Are they shut down? Overwhelmed? Bored because the scaffolding is too low? Reach into the pedagogical toolkit. Select the accommodation that meets this kid where they are right now, not where the lesson plan assumes they should be. Sequence the supports so each one builds capacity for the next.
 
-On Encore, it was the same thing at enterprise scale. Read the codebase and the team. Where is the drift? Where has intent separated from execution? Reach into twelve years of institutional knowledge and architectural patterns. Select the approach that this team, with these constraints, can actually execute. Sequence the work so early wins build momentum.
+On Encore, it was the same thing at enterprise scale. Read the codebase and the team. Where is the drift? Where has intent separated from execution? Reach into thirteen years of institutional knowledge and architectural patterns. Select the approach that this team, with these constraints, can actually execute. Sequence the work so early wins build momentum.
 
 Even writing this post. I'm reading you, the reader, trying to gauge what you've absorbed from the previous twenty-two posts. Reaching into examples and framings I've accumulated. Selecting the ones that will land without belaboring what you already understand. Sequencing so the recognition builds.
 

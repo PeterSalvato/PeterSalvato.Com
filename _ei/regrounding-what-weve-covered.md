@@ -24,7 +24,7 @@ If "attunement" now triggers all three of those contexts simultaneously, the ter
 
 Take drift.
 
-Drift was introduced through the Encore recruiter dashboard. A four-pixel padding discrepancy. Nobody files a ticket. Multiply by twelve years. The product stops looking like one product. But drift also showed up in voice governance (an AI model's output drifting from the established voice within three exchanges), in household systems (a morning routine that gradually accumulates exceptions until the routine is unrecognizable), and in this series itself (the risk that a 191-post series drifts from its own thesis as the domains multiply).
+Drift was introduced through the Encore recruiter dashboard. A four-pixel padding discrepancy. Nobody files a ticket. Multiply by thirteen years. The product stops looking like one product. But drift also showed up in voice governance (an AI model's output drifting from the established voice within three exchanges), in household systems (a morning routine that gradually accumulates exceptions until the routine is unrecognizable), and in this series itself (the risk that a 191-post series drifts from its own thesis as the domains multiply).
 
 The term should now carry a specific feel: the slow, invisible erosion of coherence through individually reasonable decisions. If it does, you understand drift. If it still feels like a synonym for "things change," the posts need more concrete detail.
 

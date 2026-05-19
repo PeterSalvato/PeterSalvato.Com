@@ -19,7 +19,7 @@ Every AI product says "human in the loop." It's on the marketing page. It's in t
 
 Except it doesn't work. A human reviewing AI output after generation is a quality gate. Quality gates catch defects. They don't prevent them. The output is already written. The human's job is to approve or reject. If the output is 95% good and 5% wrong, the human approves because starting over is more expensive than fixing the 5%.
 
-I found a fabricated claim on my own site. A sentence about work I never did, written in my voice, specific and grounded. Five independent evaluation tools had looked at the page. All five passed it. I was the human in the loop. The sentence was still there. Being in the loop doesn't mean you'll catch everything. Especially when the output is designed to look exactly like the thing you'd approve.
+I ran a systematic audit of my own site. Not a quick read-through: a structured review that cross-referenced every specific claim against interview transcripts and source material. Fabricated claims turned up. Sentences about work I never did, written in my voice, specific and grounded. Evaluation tools had looked at these pages. They passed. I was the human in the loop. The fabrications were still there. Being in the loop doesn't mean you'll catch everything. Especially when the output is designed to look exactly like the thing you'd approve.
 
 The problem is structural. A human reviewing finished output is doing post-hoc inspection. That's the wrong place for governance. Governance belongs at the point of generation, not at the point of review.
 

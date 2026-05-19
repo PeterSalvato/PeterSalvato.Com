@@ -13,13 +13,13 @@ domain: Design practice
 function: Positioning
 last_modified: 2026-03-14
 ---
-I write SCSS by hand. No Tailwind. No Bootstrap. No CSS-in-JS. Sixteen partial files, one import order, every token defined in `_variables.scss`, every cascade decision explicit. I've been working this way for twelve years.
+I write SCSS by hand. No Tailwind. No Bootstrap. No CSS-in-JS. Sixteen partial files, one import order, every token defined in `_variables.scss`, every cascade decision explicit. I've been working this way for thirteen years.
 
 The practical reason is governance. The SCSS cascade is a decision tree. When I write `$color-blue` and that token resolves to `#3A5F85` and that value means "governance tier," the meaning is locked at the variable level. A contributor who reaches for that color inherits the decision. They don't need to know why that blue means governance. The cascade carries the reasoning. The same variable resolves in the sidebar, in the cards, in the domain index headers. The convention holds because the system enforces it.
 
 A framework like Tailwind inverts this. The utility classes are decisions made at the element level. `bg-blue-500` on one element and `bg-blue-600` on another, and the relationship between them is implicit. Nobody chose "all governance elements use this blue." Somebody chose "this element is blue." The system can't enforce a convention it doesn't know about. The convention lives in someone's head, which means it's one contributor away from invisible.
 
-I learned what happens when conventions go invisible. On the Encore platform, twelve years of a contributor renaming a CSS class because the old name didn't make sense to them. The old name was part of a convention that governed how component styles stayed isolated. The rename worked. Nothing broke. Six months later, three more renames, the convention was unrecognizable, and styles were leaking across components. Each rename was reasonable. The convention went invisible because it lived in naming, not in structure.
+I learned what happens when conventions go invisible. On the Encore platform, thirteen years of a contributor renaming a CSS class because the old name didn't make sense to them. The old name was part of a convention that governed how component styles stayed isolated. The rename worked. Nothing broke. Six months later, three more renames, the convention was unrecognizable, and styles were leaking across components. Each rename was reasonable. The convention went invisible because it lived in naming, not in structure.
 
 SCSS partials solve this by making architecture visible. `_variables.scss` holds the tokens. `_typography.scss` holds the type system. `_sidebar.scss` holds the sidebar. The import order in `main.scss` is the cascade: variables load first, reset second, typography third, components after. A contributor opening `_sidebar.scss` sees where the sidebar's styles live, what tokens it uses, what rules govern it. The architecture is in the file system.
 

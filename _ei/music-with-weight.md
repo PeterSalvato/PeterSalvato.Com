@@ -15,13 +15,13 @@ seed_status: DEEP
 last_modified: 2026-03-14
 ---
 
-Release opens heavy. Low frequencies, distorted pads, a vocal sample buried under reverb until it almost disappears. The first two tracks sit in a register that feels like something you haven't dealt with yet. That's the point. The album is electronic, mostly instrumental, built over about a year in a room with headphones and a laptop and no audience in mind.
+Release opens heavy. The first two tracks sit in a register that feels like something you haven't dealt with yet. That's the point. The album is acoustic, guitar-led, made with a small group of people who mattered to me, recorded in 2011. It's the most personal thing I've made.
 
-I named it Release because I meant the verb, not the noun. Letting go of something. The album was personal in a way MathOnTape never is. MathOnTape is playful. It's me seeing what an iPhone can do, finding the edges of a constraint. Release was the opposite. No constraints, no playfulness, no audience. Just the thing I needed to put somewhere other than my body.
+I named it Release because I meant the verb, not the noun. Letting go of something. The album was personal in a way MathOnTape never is. MathOnTape is playful, built from electronic constraints and hardware limits. Release was different. The tools were simple. The material was not. Just the thing I needed to put somewhere other than my body.
 
 The sequencing came from DJ culture. Years of building sets taught me that a tracklist is architecture. You place trouble at the open. You build through tension in the middle. You resolve at the close. The listener doesn't need to know the architecture is there. They feel it. A good set carries you from one emotional state to another, and when it's over you're standing somewhere different from where you started.
 
-I sequenced Release the same way. The first three tracks are dense and unresolved. Harmonies that don't land. Rhythms that push against each other. Then the middle opens up. More space between the elements. Longer phrases. A synth line that finally breathes. By the last two tracks, the tension has somewhere to go. The closing track is the simplest thing on the album. A single chord progression, a clean beat, and room.
+I sequenced Release the same way. The first three tracks are dense and unresolved. Melodies that don't land cleanly. Rhythms that push against each other. Then the middle opens up. More space between the elements. Longer phrases. A guitar line that finally settles. By the last two tracks, the tension has somewhere to go. The closing track is the simplest thing on the album. A single chord progression, open tuning, and room.
 
 There was a track I cut. It was one of the strongest pieces I'd made. Texturally rich, rhythmically interesting, the kind of track that works on its own. I played it for people and they responded to it immediately.
 
@@ -35,4 +35,4 @@ DJ culture taught me this before design did. Standing behind a pair of turntable
 
 I never released the cut track separately. It lived on a hard drive for a while and then I stopped thinking about it. The album went out as nine tracks. Trouble at the open. Space in the middle. Resolution at the close. The arc held because I let one strong piece go.
 
-I named it Release because the word is a verb. Making the thing, sequencing it, and letting it go are all versions of the same act: caring more about what it becomes than what it cost you to build it.
+The album went out as nine tracks. The cut track stayed on the drive. What made that possible was caring more about the arc than about any single thing I'd built for it.

@@ -16,7 +16,7 @@ I've looked at that spread probably fifty times. It keeps teaching me the same t
 
 Muller-Brockmann built governance systems. The grid was the mechanism, but the purpose was governance. He was solving the problem of how you get coherent output from multiple practitioners working independently, without requiring every practitioner to share the same taste, the same eye, or the same instincts. The grid absorbed the structural decisions (column widths, margins, baseline rhythm, image proportions) so the designers could focus on the decisions that actually required their judgment.
 
-This is the same problem I spent twelve years watching at Encore. Hundreds of engineers, each one making reasonable decisions about spacing, alignment, component behavior. No shared structural opinion. The product slowly stopped feeling like one product. The individual decisions were fine. The cumulative result was drift.
+This is the same problem I spent thirteen years watching at Encore. Developers cycling through, each one making reasonable decisions about spacing, alignment, component behavior. No shared structural opinion. The product slowly stopped feeling like one product. The individual decisions were fine. The cumulative result was drift.
 
 Muller-Brockmann's grid is a solved version of that problem, implemented in 1961.
 
@@ -32,7 +32,7 @@ Compare that to a design team without a grid. Five designers, five different mar
 
 FormWork, the protocol system I built, does the same thing Muller-Brockmann's grid does, applied to a different medium. FormWork holds the structural decisions (what evaluation criteria apply, what quality thresholds matter, what voice register to use) so the practitioner can focus on the decisions that need their judgment. The protocol constrains without dictating. It creates channels, not scripts. The output is coherent across contexts because the governance layer is consistent, even when the specific work is different every time.
 
-I didn't derive FormWork from Muller-Brockmann consciously. I derived it from watching twelve years of ungoverned decisions compound into drift. But when I went back and studied Muller-Brockmann's work with fresh eyes, I realized he'd solved the same problem sixty years earlier. Different medium. Same architecture. Structure that produces coherence without requiring centralized control of every output.
+I didn't derive FormWork from Muller-Brockmann consciously. I derived it from watching thirteen years of ungoverned decisions compound into drift. But when I went back and studied Muller-Brockmann's work with fresh eyes, I realized he'd solved the same problem sixty years earlier. Different medium. Same architecture. Structure that produces coherence without requiring centralized control of every output.
 
 The grid isn't an aesthetic choice. It never was. Muller-Brockmann was building the infrastructure that lets multiple minds produce work that belongs together. The visual cleanliness of Swiss Style is a side effect. The real output is governance: a system that holds the things that should be consistent so the people inside it can focus on the things that should be different.
 

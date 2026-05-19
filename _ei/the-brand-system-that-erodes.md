@@ -32,7 +32,7 @@ The difference between those two outcomes is not the quality of the design. It's
 
 A brand guidelines PDF is advisory. It tells people what to do. It doesn't do anything when they don't. A design token system is structural. It enforces the baseline by making the correct option the default. Deviation requires deliberate override instead of drift.
 
-This is the same problem I solved on [Encore](/evidence/encore/). The SCSS variables file encoded the visual baseline. Change a token, the change propagates. The system holds consistency because consistency is what happens when nobody overrides the defaults. Twelve years, hundreds of engineers, and the visual system held because the governance was in the code.
+This is the same problem I solved on [Encore](/evidence/encore/). The SCSS variables file encoded the visual baseline. Change a token, the change propagates. The system holds consistency because consistency is what happens when nobody overrides the defaults. Thirteen years, developers cycling through, and the visual system held because the governance was in the code.
 
 The brand system that erodes is the brand system that depends on everyone in the organization to independently remember and enforce the standard. The brand system that holds is the one where the standard is encoded in the infrastructure so that holding is the default and drifting takes effort.
 

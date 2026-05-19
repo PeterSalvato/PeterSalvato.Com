@@ -21,7 +21,7 @@ Drift is different. Drift is when the standard itself went invisible. You can't 
 
 ---
 
-I've watched this happen on the [Encore](/infrastructure/encore/) platform across twelve years. The software itself was solid. The man who wrote it in his dorm room was still running it. Thirty years of decisions without drift, made by one person with the whole picture in his head. But the layers I built on top of it (the modular JS framework, the SCSS design system, the information architecture) were susceptible the moment someone other than me touched them.
+I've watched this happen on the [Encore](/infrastructure/encore/) platform across thirteen years. The software itself was solid. The man who wrote it in his dorm room was still running it. Thirty years of decisions without drift, made by one person with the whole picture in his head. But the layers I built on top of it (the modular JS framework, the SCSS design system, the information architecture) were susceptible the moment someone other than me touched them.
 
 A contributor renames a CSS class because the old name doesn't make sense to them. The old name was part of a convention that governed how component styles stayed isolated. The rename works. Nothing breaks. Six months later, three more renames have happened, the convention is unrecognizable, and styles are leaking across components in ways nobody can trace. That's drift. Each rename was reasonable. The convention went invisible. The person making the change couldn't see what they were drifting from.
 

@@ -31,7 +31,7 @@ In the kitchen, the hand that built the system is the same hand that operates it
 
 Batch cooking is the governance layer. On a good day, I build the base components: proteins, starches, sauces, prepped vegetables. These are the infrastructure. During the week, the daily operation is assembly. Pull containers, combine, heat if needed, plate. The decisions were made on Sunday. Thursday only has to execute.
 
-This is the same principle I applied at Encore for twelve years. Drift happens when the system asks too much of depleted people. When an enterprise platform requires a content author to make thirty typographic decisions per page, the typography drifts. When a kitchen requires the cook to plan, shop, prep, and execute a full meal every night, the meals drift. The solution in both cases is to move the decisions upstream. Build the governance structure when you have capacity. Let the daily operation run on what's already been decided.
+This is the same principle I applied at Encore for thirteen years. Drift happens when the system asks too much of depleted people. When an enterprise platform requires a content author to make thirty typographic decisions per page, the typography drifts. When a kitchen requires the cook to plan, shop, prep, and execute a full meal every night, the meals drift. The solution in both cases is to move the decisions upstream. Build the governance structure when you have capacity. Let the daily operation run on what's already been decided.
 
 ---
 

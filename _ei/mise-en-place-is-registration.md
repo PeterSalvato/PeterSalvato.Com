@@ -15,7 +15,7 @@ seed_status: CAPTURED
 last_modified: 2026-03-15
 ---
 
-Six in the evening. The counter has eleven small bowls on it. Diced onion. Minced garlic. Sliced peppers. Measured spices. Cubed chicken in one, ground turkey in another. Rice rinsed and drained. Two sauces portioned out. Everything visible, everything separate, everything ready.
+Six in the evening. The counter has a row of small bowls on it. Every component of the meal prepped and portioned separately. Everything visible, everything separate, everything ready.
 
 This is mise en place. Everything in its place. Chefs treat it as foundational discipline, the thing you learn before you learn to cook. But what it actually is, stripped to its mechanics, is decomposition. You take a complex meal, break it into independent components, prepare each one on its own terms, then assemble them at the point of service.
 
@@ -29,4 +29,4 @@ In my house, this structure isn't optional. Four people, four incompatible diets
 
 Product development follows the same logic. Front-end, back-end, information architecture, content strategy. Build each layer independently. Register them at the interface. The product, like the meal, exists in the assembly.
 
-But the kitchen is where the principle is most physical. You can stand at the counter and see every layer laid out in front of you. You can point to the decomposition. You can watch the registration happen in real time. No abstraction required. Eleven bowls on the counter, one plate at the table, and a meal that came together in twelve minutes because every component was ready.
+But the kitchen is where the principle is most physical. You can stand at the counter and see every layer laid out in front of you. You can point to the decomposition. You can watch the registration happen in real time. No abstraction required. Components on the counter, one plate at the table, and a meal that came together quickly because every piece was ready.

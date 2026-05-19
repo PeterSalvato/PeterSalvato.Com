@@ -15,8 +15,6 @@ seed_status: DEEP
 last_modified: 2026-03-30
 ---
 
-[VERIFY: Peter should confirm the eight glyph names/meanings and whether they're public. Draft proceeds with the structural argument without listing specifics.]
-
 The glyph set is eight. It has been eight since the beginning. The number is a constraint, not a limitation. Every request for a ninth glyph is a signal that I haven't thought hard enough about how the existing eight combine.
 
 A color palette works the same way. Seven colors is enough to communicate any hierarchy, any state, any emphasis you need in a design system. When someone asks for an eighth color, the right response is usually: which of the seven are you not using correctly? The new color feels like a solution. It's actually a symptom. The system isn't being used to its full capacity.

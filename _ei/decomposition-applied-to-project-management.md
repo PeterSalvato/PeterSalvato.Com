@@ -18,7 +18,7 @@ My father managed construction sites by managing trades. Not by managing "the bu
 
 Steel goes in before electrical because electrical hangs from steel. Electrical goes in before drywall because drywall covers electrical. Drywall goes in before paint. Every trade depends on the one before it, and the superintendent's job is knowing the order and managing the joints where trades meet. When the steel crew is late, the superintendent doesn't just push the schedule. He recalculates every downstream dependency.
 
-I've managed [Encore](/evidence/encore/) for twelve years the same way. Not as one monolithic product but as layers. The SCSS design system is one layer. The JavaScript framework is another. The information architecture is a third. The component library is a fourth. Each has its own constraints, its own velocity, its own set of people touching it.
+I've managed [Encore](/evidence/encore/) for thirteen years the same way. Not as one monolithic product but as layers. The SCSS design system is one layer. The JavaScript framework is another. The information architecture is a third. The component library is a fourth. Each has its own constraints, its own velocity, its own set of people touching it.
 
 When a new feature request arrives, the first thing I do is decompose it into which layers it touches. If it's a UI change, it might only touch the SCSS and the component layer. If it's a workflow change, it touches the information architecture, which means the components need to accommodate a new flow, which means the SCSS might need new tokens. The feature request is one ticket. The work is three layers, and the order matters.
 

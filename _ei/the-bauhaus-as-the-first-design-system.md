@@ -45,7 +45,7 @@ Where the print mindset failed me was in the places where the browser genuinely 
 
 The fix wasn't abandoning the grid. It was learning which parts of the grid are governance (the proportions, the relationships, the constraints on how elements relate to each other) and which parts are medium-specific (the pixel values, the breakpoints, the responsive behavior). Muller-Brockmann's proportions transfer to any medium. His millimeter measurements don't.
 
-That distinction, governance versus measurement, is the thing I keep applying. At Encore, the SCSS design system held for twelve years because it governed proportions and relationships, not pixel values. The color palette, the typographic scale, the spacing rhythm. Those are constraints that produce coherence across hundreds of engineers. The pixel-level implementation changed multiple times. The governance survived because it was structural, not decorative.
+That distinction, governance versus measurement, is the thing I keep applying. At Encore, the SCSS design system held for thirteen years because it governed proportions and relationships, not pixel values. The color palette, the typographic scale, the spacing rhythm. Those are constraints that produce coherence across a rotating team of developers. The pixel-level implementation changed multiple times. The governance survived because it was structural, not decorative.
 
 ---
 

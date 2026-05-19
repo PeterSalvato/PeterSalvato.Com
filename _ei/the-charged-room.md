@@ -35,11 +35,11 @@ The process has two moves. You decide the intended experience first. Then you re
 
 ## The arc
 
-I made an album called Release. Fourteen tracks, all original production, sequenced as a single emotional arc. The album moves from trouble to resolution, and every track earns its position in that sequence.
+I made an album called Release. Acoustic, guitar-led, recorded with a small group of people in 2011. Nine tracks sequenced as a single emotional arc. The album moves from trouble to resolution, and every track earns its position in that sequence.
 
 There were tracks I loved that didn't make it. Strong tracks. Tracks I was proud of. But they didn't serve the arc. Cutting a good track still stings, but if it degrades the larger picture then you don't actually have a decision to make. You cut it. The tracklist is a sequence designed to do something specific to the person listening.
 
-That's the discipline. Selection is the easy part. Sequencing is where the meaning lives. The same fourteen tracks in a different order tell a different story. The same twelve tracks with two additions in the right places change the emotional shape of the whole thing. You're not choosing songs. You're composing an experience across time.
+That's the discipline. The same nine tracks in a different order tell a different story. Two additions in the right places change the emotional shape of the whole thing. Choosing songs is just selection. Sequencing them is deciding what the listener will feel and when.
 
 ## What the body learned
 

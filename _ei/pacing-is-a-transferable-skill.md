@@ -19,7 +19,7 @@ The most useful professional skill I have came from standing on dance floors in 
 
 DJing. Or more precisely, being on the receiving end of it for entire nights at clubs like Twilo in Manhattan and smaller rooms across Brooklyn. I never performed. I learned pacing somatically, as the audience, and then I transferred it everywhere.
 
-Three domains taught me three things. My father's construction sites in Brooklyn taught me decomposition. Watching buildings come apart before they went back up showed me how things are built. Kingsborough taught me scaffolding. Meeting the learner where they are and building the path from there. People get those. Construction teaches structure, teaching teaches empathy. Nobody argues.
+Three domains taught me three things. My father's construction sites taught me decomposition. I worked them in college, summers and weekends. Watching buildings with their systems exposed showed me how things are built before they get sealed up. Kingsborough taught me scaffolding. Meeting the learner where they are and building the path from there. People get those. Construction teaches structure, teaching teaches empathy. Nobody argues.
 
 But DJing? Nobody puts that on a resume. Nobody connects it to product design or writing or presentation structure. That's the gap.
 

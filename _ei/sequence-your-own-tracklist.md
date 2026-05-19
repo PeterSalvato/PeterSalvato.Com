@@ -34,6 +34,6 @@ It governs a portfolio. Put three personal projects in a row and you build one r
 
 It governs a conversation. In a pitch, the order of your points changes what the listener retains. Open with the big claim and the rest sounds like justification. Open with the problem and the claim sounds like a solution.
 
-Try the exercise. Pick ten tracks. Sequence them three different ways. Listen to all three. You'll feel the difference before you can explain it. The tracks are the material. The sequencing is the craft. And the gap between a good collection and a good experience is entirely in the order.
+Try the exercise. Pick ten tracks. Sequence them three different ways. Listen to all three. You'll feel the difference before you can explain it. The gap between a good collection and a good experience is entirely in the order.
 
-My album *Release* was sequenced as an emotional arc. The tracklist was designed the way a DJ would build a set, not the way a musician would order songs by production date or key signature. The sequence is the composition. The tracks are just the inventory.
+My album *Release* was sequenced as an emotional arc. The tracklist was designed the way a DJ would build a set, not the way a musician would order songs by production date or key signature. The difference is in what you're trying to do: move someone through something, not display what you made.

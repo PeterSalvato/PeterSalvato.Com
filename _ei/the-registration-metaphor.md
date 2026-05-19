@@ -45,9 +45,9 @@ This isn't gatekeeping. Digital-native designers make excellent work. But the so
 
 ## Registration everywhere
 
-A few years after SVA, I was sitting in an IEP meeting for my son. Twelve professionals around a table, each with an independent plan. Speech therapy, occupational therapy, classroom accommodations, behavioral support. Twelve separate layers. The meeting was supposed to be where they registered, where all those independent channels aligned into one coherent intervention for one kid.
+A few years after SVA, I was sitting in an IEP meeting for my son. A table of specialists, each with an independent plan. Speech therapy, occupational therapy, classroom accommodations, behavioral support. Each representing a separate layer. The meeting was supposed to be where they registered, where all those independent channels aligned into one coherent intervention for one kid.
 
-They didn't register. Each plan was well-made in isolation. But nobody was checking alignment. The speech goals contradicted the classroom pacing. The behavioral plan assumed a sensory environment that occupational therapy hadn't addressed. Twelve good layers, no registration.
+They didn't register. Each plan was well-made in isolation. But nobody was checking alignment. The speech goals contradicted the classroom pacing. The behavioral plan assumed a sensory environment that occupational therapy hadn't addressed. Good layers, no registration.
 
 I've seen the same structure everywhere since. A product team where front-end, back-end, and information architecture operate as independent layers. A piece of writing where the somatic rhythm, the logical structure, and the voice are each doing their own thing. A household where the meal plan, the budget, and the calendar are three separate systems that nobody cross-references.
 

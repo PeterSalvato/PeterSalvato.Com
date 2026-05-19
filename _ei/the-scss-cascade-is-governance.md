@@ -3,7 +3,7 @@ layout: post
 title: "The SCSS Cascade Is a Governance System"
 date: 2026-03-19
 published: true
-description: "Variables, mixins, partials, import order. The SCSS cascade is governance before it's styling, and the twelve years I spent maintaining one taught me what survives ownership changes."
+description: "Variables, mixins, partials, import order. The SCSS cascade is governance before it's styling, and the thirteen years I spent maintaining one taught me what survives organizational change."
 seo_keywords: ["SCSS architecture", "design systems", "governance", "CSS methodology", "design engineering", "Peter Salvato", "enterprise CSS", "single source of truth", "code as governance"]
 series: "engineering-intent"
 seed_status: DEEP
@@ -20,7 +20,7 @@ The SCSS cascade (variables, mixins, partials, the import order that stitches th
 
 Change a variable at the top, and the whole system updates. Override in the wrong place, and the whole system fractures. This is governance in the most literal sense: the structure determines what the defaults are, and deviation requires intent.
 
-I maintained the Encore SCSS architecture for twelve years. [VERIFY: exact duration and whether Peter was sole maintainer or primary maintainer] Three ownership changes. Multiple engineering teams. Redesigns, feature additions, entire sections of the product rebuilt from scratch. The architecture survived all of it. The parts that were encoded in structure (the variable naming conventions, the partial organization, the import chain) held. The parts that were encoded in people's understanding (why this mixin exists, what this override was compensating for, which components depend on this specific token) eroded with every team transition.
+I maintained the Encore SCSS architecture for thirteen years. Multiple engineering teams. Redesigns, feature additions, entire sections of the product rebuilt from scratch. The architecture survived all of it. The parts that were encoded in structure (the variable naming conventions, the partial organization, the import chain) held. The parts that were encoded in people's understanding (why this mixin exists, what this override was compensating for, which components depend on this specific token) eroded with every team transition.
 
 This is the same principle that eventually became [FormWork](/systems/formwork/). A single source of truth, encoded in structure, that makes the default path produce the correct output. The SCSS cascade was my first encounter with that idea in practice, years before I had the vocabulary for it.
 
@@ -36,6 +36,6 @@ The parts that don't survive are the parts that require human memory. Why was th
 
 Every codebase accumulates these fossils. The SCSS cascade is particularly vulnerable because CSS is forgiving. It doesn't throw errors when you duplicate a declaration. It doesn't warn you when an override makes a global variable irrelevant. It just applies the last rule that matches, and the visual result is close enough that nobody notices the governance has fractured.
 
-I think the reason I eventually moved from SCSS architecture to governance as a general practice is that the cascade taught me the core mechanic. Defaults are stronger than rules. If the default output is correct, people don't need to think about it. If the default output requires intervention to be correct, every intervention is an opportunity for drift. The twelve years at Encore gave me a laboratory for watching this play out at scale: hundreds of engineers, thousands of commits, three complete changes in organizational leadership. The structure held where the structure was structural. It failed where the structure depended on someone remembering why.
+I think the reason I eventually moved from SCSS architecture to governance as a general practice is that the cascade taught me the core mechanic. Defaults are stronger than rules. If the default output is correct, people don't need to think about it. If the default output requires intervention to be correct, every intervention is an opportunity for drift. The thirteen years at Encore gave me a laboratory for watching this play out at scale: a small team cycling through, thousands of commits, multiple changes in organizational leadership. The structure held where the structure was structural. It failed where the structure depended on someone remembering why.
 
 Code is methodology in practice. The SCSS cascade doesn't describe a governance philosophy. It is one.

@@ -41,4 +41,4 @@ I've been running this same operation across every domain I've worked in. In the
 
 The difference between compliance and accommodation is the difference between meeting a standard and meeting a person. Both matter. The standard protects the floor. Without WCAG, you get interfaces that exclude entire populations. Without ADA, you get buildings people can't enter.
 
-But the standard is the floor, not the practice. Accommodation design starts where the standard ends. It asks what this specific system, this specific person, this specific moment actually requires. The IEP is the document. Attunement is the skill that makes the document worth writing.
+But the standard is the floor, not the practice. Accommodation design starts where the standard ends. It asks what this specific system, this specific person, this specific moment actually requires. The IEP codifies the accommodation. Attunement is what you bring to the room before you write a word of it.
