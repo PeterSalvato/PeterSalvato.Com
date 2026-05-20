@@ -3,7 +3,7 @@ layout: post
 title: "Print Grid vs. Web Flow"
 date: 2026-03-14
 published: true
-description: "How layout paradigm changes feeling. Same content, different container, different world."
+description: "How the layout model changes the feeling. Same content, different container, different world."
 seo_keywords: ['print design', 'web design', 'layout', 'grid systems', 'Peter Salvato', 'design engineering']
 series: "engineering-intent"
 zone: 2
@@ -32,4 +32,4 @@ I still think in print grids. My SCSS architecture uses design tokens that appro
 
 But I know where the translation fails. Print authority comes from resolution and precision. Web authority comes from responsiveness and accommodation. A print design that doesn't accommodate the viewer is elegant. A web design that doesn't accommodate the viewer is broken. The medium changed the rules.
 
-The instincts from print (spatial hierarchy, information density, compositional rigor) transfer. The assumptions about control don't. My career is the bridge between those two worlds, and the gap between them taught me more about fidelity than any single project did.
+The instincts from print (spatial hierarchy, information density, compositional rigor) transfer. The assumptions about control break down almost immediately. My career is the bridge between those two worlds, and the gap between them taught me more about fidelity than any single project did.

@@ -36,4 +36,4 @@ This sounds simple. It is simple. The hard part is resisting the urge to solve e
 
 My father never rushed the steel because the client wanted the drywall. The steel goes first because the drywall depends on it. Every time someone tried to skip the sequence, the joints failed.
 
-Decompose the brief. Work the sequence. Let the dependencies tell you what to do next.
+The brief decomposes into parts with dependencies, and the dependencies tell you what to do next.

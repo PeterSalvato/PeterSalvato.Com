@@ -29,7 +29,7 @@ A CLAUDE.md is the document your AI tool reads before every interaction. It's th
 
 **What to leave out:** Aspirational statements. Long-term vision. Philosophical framing. The AI doesn't need to believe in your project. It needs to know the constraints.
 
-**The test:** Delete any sentence that doesn't change the AI's behavior. If a sentence in your CLAUDE.md would produce the same output whether it was there or not, it's not governance. It's decoration.
+**The test:** Delete any sentence that doesn't change the AI's behavior. If a sentence in your CLAUDE.md would produce the same output whether it was there or not, it's decoration, not governance.
 
 **Keep it alive.** A CLAUDE.md that was written three months ago and never updated is worse than no CLAUDE.md. The tool follows outdated conventions. You get frustrated. You blame the tool. The real problem is the document. Update it when the project changes. Review it every few weeks. Kill sections that are no longer relevant.
 

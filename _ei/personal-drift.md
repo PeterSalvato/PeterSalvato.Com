@@ -25,7 +25,7 @@ Creative method drifts the way unmaintained code does. A decision made under dea
 
 This isn't technical debt. Debt means you know the standard and you're cutting corners. Drift is when the standard itself goes invisible. The method underneath the work erodes, and then the work erodes, and nobody can point to the moment it started because there wasn't one.
 
-I tried to surface it through a branding exercise. Mapping my creative practice the way you'd build an RPG character sheet: domains, patterns, how I actually work across disciplines. What came back wasn't a brand. It was the method itself, visible for the first time.
+I tried to surface it through a branding exercise. Mapping my creative practice the way you'd build an RPG character sheet: domains, patterns, how I actually work across disciplines. What came back was the method itself, visible for the first time.
 
 ---
 
@@ -39,4 +39,4 @@ I know how that reads. Building it felt embarrassingly serious. But a governance
 
 The people most at risk of personal drift are the ones who've been consistent for decades without knowing why. The method is real. It produces reliable results. And it's completely ambient. No documentation, no protocol, no daily practice keeping it explicit. One long enough stretch of pressure and the method erodes from the inside, quietly, while the results still look close enough to normal that nobody notices. Least of all you.
 
-Name the method. Make it explicit. Maintain it daily. That's governance for the maker, not the work.
+Name the method. Make it explicit. Maintain it daily. The maker needs governance as much as the work does.

@@ -23,7 +23,7 @@ Design history, for me, is a crate. Each practitioner I've studied is a record I
 
 ## What each record does
 
-Vignelli taught me restraint. Not minimalism as style. Restraint as evaluation. When I look at a piece of work and something feels wrong, the Vignelli lens asks: what would happen if you removed half of this? If the work gets weaker, the elements are load-bearing. If it gets stronger, they were decoration. That's a test you can run on anything. A website, a slide deck, a paragraph.
+Vignelli taught me restraint. Restraint as evaluation, not as aesthetic preference. When I look at a piece of work and something feels wrong, the Vignelli lens asks: what would happen if you removed half of this? If the work gets weaker, the elements are load-bearing. If it gets stronger, they were decoration. That's a test you can run on anything. A website, a slide deck, a paragraph.
 
 Bierut taught me problem-solving over surface. His work at Pentagram is full of solutions that look obvious after the fact. The Saks Fifth Avenue identity. The Yale School of Architecture posters. Each one starts with the problem, and the form follows from there. When I run the Bierut lens on my own work, the question is direct: does this solve the problem, or does it just look good next to it?
 

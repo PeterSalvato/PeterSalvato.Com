@@ -34,4 +34,4 @@ The evaluation lenses I extract from practitioners are powerful, but they're onl
 
 I still run the Shaw check on every page. But the question I'm asking changed. Not: is this room interesting? Instead: would you want to know the person who built this?
 
-The lens was wrong. The correction made the work better. And the willingness to catch my own misapplication of a tool I built is, I think, the real Shaw principle in action. The room has to be honest about who's in it.
+The lens was wrong. The correction made the work better. And catching my own misapplication of a tool I built is, I think, closer to what Shaw was actually talking about than the simplified version I'd been running.

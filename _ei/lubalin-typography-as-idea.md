@@ -15,7 +15,7 @@ seed_status: DEEP
 last_modified: 2026-03-14
 ---
 
-Herb Lubalin made type do the thinking. The "Mother & Child" logo for a magazine about pregnancy: the ampersand holds a smaller letter inside itself. The concept isn't illustrated by the typography. The concept is the typography. Remove the formal idea and you have a magazine title. With it, you have a piece of visual communication that says something before you read the words.
+Herb Lubalin made type carry the concept. The "Mother & Child" logo for a magazine about pregnancy: the ampersand holds a smaller letter inside itself. The concept is the typography. Remove the formal idea and you have a magazine title. With it, you have a piece of visual communication that says something before you read the words.
 
 That's the test I extract from Lubalin's work: is the typography an idea, or is it a label? Does the type carry meaning through its form, or does it just display information in an organized way? Most typography does the second thing competently. Lubalin demanded the first.
 
@@ -33,4 +33,4 @@ Lubalin's irreverence matters too. He broke conventions with purpose. Tight kern
 
 On this site, the Chainprinter typeface in the structural headings carries a deliberate roughness. It's a monospaced face with visible character. The choice isn't "I like how it looks." The choice is: the structural layer of this site should feel like a shop floor, not a corporate presentation. The type is an idea about who made this and where they come from. That's Lubalin's standard applied to a different medium: every typographic decision must carry intent.
 
-Type that just labels is fine. Type that thinks is the standard worth holding.
+Type that just labels is fine. But type that carries the concept forward is the standard I keep coming back to.

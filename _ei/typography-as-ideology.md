@@ -21,7 +21,7 @@ It says: this person makes things.
 
 That communication happens in the first half-second. Before the visitor processes a headline, before they scroll, before they decide to stay or leave. The typeface has already positioned everything on the page as craft, not polish.
 
-I learned this at SVA. The primary job of a designer is visual communication. Not decoration, not self-expression. Communication. And typography is the primary vehicle. What a typeface says before you read a single word is the first and most important design decision on any page.
+I learned this at SVA. The primary job of a designer is visual communication. The job is communication, full stop. And typography is the primary vehicle. What a typeface says before you read a single word is the first and most important design decision on any page.
 
 ## Three fonts. That's it.
 

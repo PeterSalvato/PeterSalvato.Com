@@ -20,7 +20,7 @@ The track worked on its own. Good performance, good energy, clean mix. But the a
 
 Something inside you feels a regret when you can't show something of quality. But if it degrades the larger picture, it's not a choice. You cut it.
 
-That decision had nothing to do with the quality of the track. It had to do with what the tracks around it were doing. The sequence was the composition. Change the order, change the meaning.
+That decision had nothing to do with the quality of the track. It had to do with what the tracks around it were doing. The sequence was the composition. A different order would have told a different story.
 
 ---
 
@@ -50,4 +50,4 @@ A topic index gives you access. A sequence gives you an experience. Those are di
 
 I think most people understand this already, in their body if not in their vocabulary. You've felt a playlist build to something. You've had a conversation where the order mattered, where saying the hard thing first would have shut everything down, but saying it third made it land. You've watched a movie where the flashback structure made the ending hit differently than chronological order would have.
 
-Sequencing is composition. Same ingredients, different order, different room. The material doesn't change. What it means does.
+Sequencing is composition. Same ingredients, different order, different room. The material stays the same, and the meaning shifts completely.

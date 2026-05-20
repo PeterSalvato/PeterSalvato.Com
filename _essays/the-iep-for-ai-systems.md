@@ -84,7 +84,7 @@ I didn't study AI governance and then discover it maps to pedagogy. I spent a ye
 
 Decompose the complex task. [Scaffold](/vocabulary/scaffold/){:.vocab-ref} the structure. Individualize the criteria. Monitor progress against specific goals. Adjust when the feedback says your plan isn't working.
 
-But underneath all of that is a simpler move. Before I built any of the architecture, before I decomposed a single prompt, I asked the same question I asked about every student in that classroom: what does this system require from me to succeed at this task? Not what do I want from it. What does it need from me.
+But underneath all of that is a simpler move. Before I built any of the architecture, before I decomposed a single prompt, I asked the same question I asked about every student in that classroom: what does this system require from me to succeed at this task? What does it need from me, before I ask anything of it.
 
 That question applies in both directions. The model needs decomposed tasks, structured input, independent evaluation. The human needs friction removed at the point of capture, so the raw thinking enters the system intact. In [FormWork](/systems/formwork/), that means: get the idea out of your head, talk, dictate, answer questions, and let the tools handle the rest. The accommodation runs both ways.
 

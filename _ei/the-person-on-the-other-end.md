@@ -29,4 +29,4 @@ When Randi started Aiden Jae, she had the product. Solid recycled gold, genuine 
 
 I didn't plan to end up in all these rooms. A nightclub, a classroom, a codebase, a kitchen, a jewelry brand. There's no career path that connects them. No degree that covers the spread. But looking back across all of it, I can see one skill operating the entire time. The same instinct, applied to whatever material was in front of me.
 
-Every room had different material. Every room had the same person on the other end of the work.
+The material changed in every room. But looking back across all of it, the work was always about the person on the other end.

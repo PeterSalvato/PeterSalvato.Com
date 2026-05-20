@@ -22,7 +22,7 @@ None of these decisions were bad. None of them were visible as problems on the d
 
 But the brand is a different thing now than it was six months ago. The palette has drifted. The typography is inconsistent. The voice has two registers instead of one. The erosion happened in increments too small to notice on any single day, and the cumulative effect is a brand that no longer converges on one identity.
 
-This is how every ungovernored brand system dies. Not through bad decisions. Through ungoverned ones. Through the absence of structure at the layer where decisions get made under pressure.
+This is how every ungoverned brand system dies. Through ungoverned decisions, each one reasonable on its own. Through the absence of structure at the layer where decisions get made under pressure.
 
 I've watched it happen with [Aiden Jae](/evidence/aiden-jae/). The core brand system held because the constraints were encoded in the Shopify theme. The typography, the spacing, the layout structure: all governed by the template. But the social media layer had no such encoding. The pressure of daily content production outran the brand system's ability to hold, and the edges softened.
 

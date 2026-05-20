@@ -49,7 +49,7 @@ A visitor doesn't navigate a taxonomy. They walk through connected rooms. The pa
 
 I've been thinking about DJ sets for twenty years. A good set is a walk. Each track builds a room (a tempo, a texture, an energy). The sequence builds the night. The dancer experiences it as one continuous feeling, not as discrete tracks with gaps between them. The transitions are where the craft lives.
 
-The site works the same way. The transitions between pages, the connections, the way one room opens into the next. That's where the design actually happens. The individual pages are tracks. The site is the set.
+The site works the same way. The transitions between pages, the connections, the way one room opens into the next. That's where the design actually happens. The individual pages are tracks, and the site is what they add up to when the sequence holds.
 
 The system tracks where you've been (sessionStorage, nothing permanent, nothing leaves your browser). After three or four pages, it starts to know which rooms you've already visited. Which doors to highlight. It's a small thing, almost invisible. But it means the site is paying attention to your path the way a DJ pays attention to the floor.
 

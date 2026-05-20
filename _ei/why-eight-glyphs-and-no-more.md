@@ -27,6 +27,6 @@ The SCSS framework for Encore uses a finite set of spacing values. Not arbitrary
 
 Eight glyphs is the same argument at a different level of abstraction. The constraint is the governance. The governance produces coherence. The coherence produces meaning that wouldn't exist if every new concept got its own symbol.
 
-The temptation to expand is constant. It feels generous. It feels like growth. It feels like the system is evolving. But expansion without constraint isn't evolution. It's accumulation. A system that grows without limits becomes a collection. A collection isn't a language. A language has grammar. Grammar requires a finite set of elements that combine by rules.
+The temptation to expand is constant. It feels generous. It feels like growth. It feels like the system is evolving. But expansion without constraint is just accumulation. A system that grows without limits becomes a collection, and a collection has no grammar. Grammar requires a finite set of elements that combine by rules.
 
 Eight glyphs. The rules of combination. That's the language. Everything I need to say can be said with these.

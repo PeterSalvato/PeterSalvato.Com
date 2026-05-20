@@ -23,7 +23,7 @@ The constraint does something that freedom can't. When every image shares the sa
 
 This is the same argument I make for design tokens in enterprise code. A locked spacing scale means every component shares the same rhythm. A viewer looking at the application sees one system, not a collection of individual screens. The constraint creates coherence that no amount of case-by-case judgment can match.
 
-The pushback is always the same. "But this image would look better at a different ratio." Maybe. Probably. The individual image might benefit from a custom frame. But the series would lose its coherence. The question isn't whether one image could be better. The question is whether the system as a whole is better with the constraint or without it.
+The pushback is always the same. "But this image would look better at a different ratio." Maybe. Probably. The individual image might benefit from a custom frame. But the series would lose its coherence. The question is whether the system as a whole is better with the constraint or without it.
 
 In screenprinting, the constraint is the mesh count and the ink viscosity. You can't print a gradient on a low mesh screen. You work within the limitation and figure out how to create depth with flat color instead. The limitation teaches you something about your own process that you wouldn't learn with unlimited tools.
 

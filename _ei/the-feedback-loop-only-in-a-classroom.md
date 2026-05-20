@@ -32,6 +32,6 @@ That's why I built the governance tools to compensate. [SavePoint](/systems/save
 
 But the full loop, the one that runs at human speed with human depth across all channels simultaneously, that's classroom infrastructure. No technology I've seen reproduces it. And I think the people building educational technology would be better served by studying what makes the classroom loop work than by trying to automate it.
 
-The teacher doesn't follow an algorithm. The teacher reads. Reads the student, reads the room, reads the moment. The adjustment flows from the reading. And the whole thing happens so fast that it feels like instinct, but it's not instinct. It's a skill developed through thousands of reps, refined by immediate feedback, and only possible because both people are in the same room at the same time.
+The teacher doesn't follow an algorithm. The teacher reads. Reads the student, reads the room, reads the moment. The adjustment flows from the reading. And the whole thing happens so fast that it feels like instinct, but it's a skill developed through thousands of reps, refined by immediate feedback, and only possible because both people are in the same room at the same time.
 
 That feedback loop is the most valuable thing education has. It's the thing the rest of the world keeps trying to build and keeps falling short of. And it depends on one thing technology cannot yet provide: a human reading another human in real time.

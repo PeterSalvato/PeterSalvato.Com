@@ -27,6 +27,6 @@ An enterprise platform has layers too. The design system, the component library,
 
 A classroom has layers. The curriculum, the accommodations, the pacing, the assessment. Twelve students with twelve IEPs meant twelve sets of layers that all had to land in the same room at the same time. When a student's accommodation plan said one thing and the classroom reality said another, that kid felt the misregistration even if they couldn't articulate it. The structure said I see you. The execution said I forgot.
 
-The word works because it describes a structural relationship, not a quality judgment. Registration isn't about whether individual layers are good. It's about whether they agree with each other. You can have five excellent layers that are all out of register with each other. The result is still mud.
+The word works because it describes a structural relationship, not a quality judgment. Registration describes whether the layers agree with each other, regardless of how good any individual layer is. You can have five excellent layers that are all out of register with each other. The result is still mud.
 
-This is the concept I keep coming back to across every domain I work in. The material changes. Print, brand, enterprise software, AI tools, a classroom, a kitchen. The operation is the same. Get the layers into alignment. Make sure they stay there. When they drift, you feel it before you can measure it.
+This is the concept I keep coming back to across every domain I work in. The material changes every time (print, brand, enterprise software, AI tools, a classroom, a kitchen) and I keep running the same operation. Get the layers into alignment. Make sure they stay there. When they drift, you feel it before you can measure it.

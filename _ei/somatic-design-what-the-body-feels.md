@@ -39,4 +39,4 @@ I write fiction to a beat spec. Three-act structure, scene-level pacing targets,
 
 In the classroom, the same principle ran the scaffolding. Each problem is slightly harder than the last, but the gap is calibrated so precisely that the student just feels capable. They don't feel scaffolded. They feel like they figured it out.
 
-That gap between what the body registers and what the conscious mind can name is where design actually lives.
+I keep working in that gap between what the body registers and what the conscious mind can name. Most of what I build sits there.

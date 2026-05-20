@@ -18,7 +18,7 @@ I use AI every day. I've built over sixty skills, a half-dozen coordinator agent
 
 I also built every one of those tools to protect the parts of the work that have to stay human.
 
-That's not a contradiction. It's the whole position.
+That's the whole position.
 
 The voice protocol exists because language models flatten prose. Left to default, they produce competent, even, lifeless copy. Generic constructions, hedging phrases, a register that could belong to anyone. The protocol bans specific words, enforces specific sentence structures, and runs a verification pass against my actual speaking patterns. The tool doesn't write like me. The tool gets checked against me.
 
@@ -34,4 +34,4 @@ I think this is punk infrastructure. Not because it's anti-technology. Because i
 
 The people building AI right now are mostly focused on capability. Can it do more? Can it do it better? Can it do it without the human? I'm focused on a different question: can I build the tools so the human stays in the loop at the right layer, doing the work only a human can do, while the machine handles everything else?
 
-That's not a bet against AI. It's a bet on what the human is actually for.
+That's a bet on what the human is actually for.

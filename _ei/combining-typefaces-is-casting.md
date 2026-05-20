@@ -26,7 +26,7 @@ This is compilation, not generation. I didn't design these typefaces. I selected
 
 When I was building the Aiden Jae brand, the type pairing had to carry a different room. Luxury but not corporate. Handmade but not rustic. The combination had to say "this is premium, personal, and considered." The wrong pair would have pushed the brand toward mass-market (too clean) or boutique-twee (too ornamental). The right pair held the position.
 
-I think about type pairing the way I think about casting actors. You don't cast the two best actors. You cast the two actors whose contrast builds the scene. One provides gravity. The other provides motion. The tension between them is the performance. Two heavy actors flatten the scene. Two light ones can't hold it. The pairing is the craft.
+I think about type pairing the way I think about casting actors. You don't cast the two best actors. You cast the two actors whose contrast builds the scene. One provides gravity. The other provides motion. The tension between them is what makes the scene work. Two heavy actors flatten it. Two light ones can't hold it. The craft is in knowing which contrast to build.
 
 The same principle operates in a DJ set. Two tracks that work individually might clash in sequence. Two tracks that seem different might share a harmonic key or a tempo that makes the transition invisible. The DJ's ear for what sits well next to what is the same instinct a designer uses when placing one typeface beside another. You're listening for the resonance. Does this combination build or fight?
 

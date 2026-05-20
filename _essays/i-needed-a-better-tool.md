@@ -42,7 +42,7 @@ That's the thing I'd been building workarounds for since I first started losing 
 
 ## What I built with it
 
-In February 2026 I started building this site in Claude Code sessions. Not as a portfolio to showcase my history. As a laboratory to develop and test the methodology. The layouts, the design system, the navigation, the SEO infrastructure, all of it happening inside the repo where the tool could see everything and I didn't have to re-explain anything between sessions.
+In February 2026 I started building this site in Claude Code sessions, as a laboratory to develop and test the methodology. The layouts, the design system, the navigation, the SEO infrastructure, all of it happening inside the repo where the tool could see everything and I didn't have to re-explain anything between sessions.
 
 The character of the work was completely different from the ChatGPT era. Those conversations were exploratory, me trying to figure out who I am professionally, working through naming and positioning and existential questions about my career. The Claude Code sessions were building. I needed a real project to develop the governance system against, and the site became that project.
 

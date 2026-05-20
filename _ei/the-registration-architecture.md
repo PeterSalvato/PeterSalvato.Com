@@ -41,4 +41,4 @@ The value of thinking in registration instead of coordination is the diagnostic 
 
 Every project I evaluate through the [Formwork Protocol](/governance/formwork-protocol/) is a registration problem. The structural plate and the narrative plate are independent layers. They run separately. They produce independent verdicts. The convergence mapping is where I check the registration: do the plates align, or is there a gap between what the structure says and what the identity says?
 
-The whole only exists when the layers register. The plates have to line up.
+The whole only exists when the layers register. Every project I evaluate through Formwork comes back to this: do the plates line up, or is there a gap I missed?

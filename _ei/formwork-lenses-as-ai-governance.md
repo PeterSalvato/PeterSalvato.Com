@@ -37,4 +37,4 @@ Without the lenses, AI governance is a set of abstract instructions: "write in m
 
 The lenses are where design history becomes operational in AI governance. The practitioners whose work I studied at SVA and in the years since (Victore, Vignelli, Bierut, Rand, Rams, Lubalin, Muller-Brockmann) become the evaluation infrastructure that keeps AI output from drifting into the average. Their standards, codified and automated, run against every page this site publishes.
 
-Design history isn't decoration for the methodology. It's the load-bearing structure. Remove the lenses and you have AI output with no evaluative rigor. The governance collapses to "does this sound OK to me right now?" which is how drift starts.
+Design history is the load-bearing structure of the methodology. Remove the lenses and you have AI output with no evaluative rigor. The governance collapses to "does this sound OK to me right now?" which is how drift starts.

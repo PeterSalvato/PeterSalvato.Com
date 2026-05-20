@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Where I Learned Pacing"
-description: "A DJ doesn't just pick good tracks. A DJ reads the room and sequences energy for what the crowd can absorb right now. That skill transferred to a classroom, then to AI architecture. The material changed. The read didn't."
+description: "A DJ doesn't just pick good tracks. A DJ reads the room and sequences energy for what the crowd can absorb right now. That skill transferred to a classroom, then to AI architecture, and the read is the same every time."
 seo_keywords: ["pacing design", "DJ culture design", "reading the room", "attunement", "sequencing UX", "spiral curriculum", "AI task sequencing", "accommodation design", "Twilo", "experience design", "why AI gets worse in long conversations", "attention degradation AI", "task ordering matters AI", "pacing in teaching", "energy management design", "how DJs read a room"]
 published: false
 order: 16
@@ -45,6 +45,6 @@ Evaluation works this way too. Ask a model to evaluate something on six dimensio
 
 ## The principle underneath
 
-The receiver changes. A crowd that's been dancing for four hours, a student with attention limits documented in an IEP, a model with a context window and attention degradation. The operation stays the same: figure out what the system can absorb right now, and design the sequence around that.
+The receiver is different every time: a crowd that's been dancing for four hours, a student with attention limits documented in an IEP, a model with a context window and attention degradation. The operation is always the same: figure out what the system can absorb right now, and design the sequence around that.
 
 I keep coming back to what made those Twilo sets work. When the pacing was right, nobody noticed the structure. The lesson felt like one continuous thing. The prompt sequence felt like a conversation. The structure disappears into the experience, and that's what I'm trying to build into [accommodation design](/research/accommodation-design/) at every level.

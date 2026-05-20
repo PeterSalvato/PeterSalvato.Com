@@ -20,13 +20,13 @@ Here's the thing about this particular colophon: it already exists on the site. 
 
 The methodology I used to build the site is described by the site. The site was compiled by the methodology it describes. The colophon and the content are the same thing.
 
-This circularity isn't accidental. It's the strongest possible form of proof.
+This circularity is deliberate, and I think it's the strongest possible form of proof.
 
 When a consulting firm tells you they have a methodology, they show you a slide deck. Maybe a case study. They describe the process, they name the phases, they reference past client outcomes. You take their word for it. The methodology and the proof of the methodology are separate artifacts, which means you're trusting the description.
 
 When the methodology produces the description, the trust relationship changes. You're not reading about a process and hoping it works. You're reading the output of the process and deciding whether the output is good. If the writing is clear, specific, and sounds like a human practitioner who's actually done the work, the methodology proved itself on the page you just read. If it doesn't, the methodology failed in real time, and you can see the failure.
 
-I find this more honest than a portfolio of client logos. Logos tell you someone hired you. They don't tell you whether your methodology held up under pressure or whether the output was any good. A self-compiling site tells you exactly one thing: whether the system produces results that meet its own standards. The reader is the evaluator. The work is the evidence.
+I find this more honest than a portfolio of client logos. Logos tell you someone hired you. They don't tell you whether your methodology held up under pressure or whether the output was any good. A self-compiling site tells you exactly one thing: whether the system produces results that meet its own standards. The reader evaluates the work directly, and the work is all the evidence there is.
 
 The voice protocol is a good example. It has twelve checkpoints. Zero em dashes. Zero banned words. No personification of tools. No fortune-cookie closers. Practitioner register throughout. These rules exist because they solve specific problems I identified in AI-generated copy: the generic feel, the motivational-speaker cadence, the tendency to smooth every rough edge into corporate polish. If the rules work, the prose sounds like me. If they fail, the prose sounds like a language model, and you'd notice.
 

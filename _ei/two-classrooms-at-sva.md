@@ -27,13 +27,13 @@ Then there was James Victore.
 
 Victore's class was a different room entirely. Where Niemann and Blechman taught precision, Victore taught permission. Be fiercely yourself. Apply the aesthetics that speak to the project, but apply them as you. He wasn't teaching a style. He was teaching a stance. His own work was loud, hand-lettered, confrontational. But the lesson wasn't "be loud." The lesson was "be honest." Whatever your instinct is, trust it. Then push it further.
 
-I spent time at Victore's studio in Beacon, working with him directly. That's where the lesson landed differently than it did in the classroom. In the studio you could see how his fierceness wasn't performance. It was just how he worked. Every decision came from a clear sense of who he was and what the project needed. No committee. No second-guessing. The confidence was clarity.
+I spent time at Victore's studio in Beacon, working with him directly. That's where the lesson landed differently than it did in the classroom. In the studio you could see that the fierceness was just how he worked. Every decision came from a clear sense of who he was and what the project needed. No committee. No second-guessing. He was confident because he was clear.
 
 These two principles together create something neither one teaches alone.
 
 Niemann and Blechman gave me the discipline: communicate. Every mark carries meaning. Structure serves the viewer. Victore gave me the permission: communicate as yourself. Your instinct is the material.
 
-Put them together and you get something I've been operating on for years without naming it. Communicate with fierce specificity. The mark carries meaning (that's the Niemann and Blechman side), and the meaning comes through your particular hand, your particular eye (that's the Victore side). The combination is the thing.
+Put them together and you get something I've been operating on for years without naming it. Communicate with fierce specificity. The mark carries meaning (that's the Niemann and Blechman side), and the meaning comes through your particular hand, your particular eye (that's the Victore side). I've been running on that combination for fifteen years.
 
 I have to be honest. I'm not synthesizing all of this completely until now. It has been instinctual. Two classrooms, two principles, and I've been running on the combination for over fifteen years without stopping to say what it was. The codification is recent. The operation is not.
 

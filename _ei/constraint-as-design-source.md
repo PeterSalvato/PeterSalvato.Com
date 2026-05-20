@@ -31,4 +31,4 @@ Every one of these systems came from the same place: a processing reality that c
 
 The accommodation methodology (decomposition, scaffolding, single-objective tasks, externalized state) didn't emerge despite the constraint. It emerged from it. The constraint was the design requirement. Every system I build starts with the same question: where is this asking more of the person than it needs to? The answer is always structural. Remove the load. Build the defaults. Let the person do the work that actually requires their attention.
 
-Systems designed for the worst day work better on every day. That's the principle. The constraint isn't a deficit to overcome. It's a processing reality that, when you design for it honestly, produces architecture that holds for everyone.
+Systems designed for the worst day work better on every day. That's the principle. The constraint is a processing reality that, when you design for it honestly, produces architecture that holds for everyone.

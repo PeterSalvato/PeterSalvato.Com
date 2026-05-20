@@ -33,9 +33,9 @@ That distinction, fingernail versus grip, became a diagnostic I now run on every
 
 **Lock.** They care enough to remember it unprompted. They bring it up in other conversations. They forward it to someone. The concept has attached to something in their own work or thinking. You can't manufacture this. But you can't reach it without clearing grip first.
 
-The test is simple. Pick someone who is smart and adjacent but not inside your work. Show them the thing. Listen to what they say back. Not whether they're polite or encouraging. Whether they can rephrase it. If they reach for your exact words instead of their own, they're at fingernail. If they translate it into their context, they've got grip.
+The test is simple. Pick someone who is smart and adjacent but not inside your work. Show them the thing. Listen to what they say back. Listen for whether they can rephrase it, not whether they're polite or encouraging. If they reach for your exact words instead of their own, they're at fingernail. If they translate it into their context, they've got grip.
 
-I run this constantly now. Every page on this site, every paper, every explanation of what I do. The question is always the same: would a stranger care? Not would they understand every detail. Would they have enough grip to decide whether this is relevant to them?
+I run this constantly now. Every page on this site, every paper, every explanation of what I do. The question is always the same: would a stranger care? Would they have enough grip to decide whether this is relevant to them, even without understanding every detail?
 
 Most communication failures aren't about complexity. The ideas aren't too hard. The writer just hasn't done the work of building a handhold. You're handing someone a smooth wall and asking them to climb. The fix is almost always structural: lead with the problem, not the solution. Give them something concrete before something abstract. Let them grab on before you start moving.
 

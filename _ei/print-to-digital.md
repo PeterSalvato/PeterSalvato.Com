@@ -29,6 +29,6 @@ The design system I built for Encore was print thinking applied to a browser. A 
 
 Color separation in screenprinting means breaking an image into individual color layers. Each layer gets its own screen. Each screen prints one color. The registration holds them together. Component architecture in front-end code works the same way. Each component is a separate layer. Each one does one thing. The design system holds them in alignment. When a new developer builds a component that doesn't reference the design system, it's the same as pulling a screen that's out of register. The output has a ghost.
 
-The pica ruler disappeared. The type scale didn't. The squeegee disappeared. The question of how much pressure to apply to a given surface didn't. The physical tools are gone. The operations they performed transferred into new materials and kept working.
+The pica ruler is gone, but the type scale it measured carried over. The squeegee is gone, but the question of how much pressure to apply to a given surface carried over too. The physical tools left. The operations they performed transferred into new materials and kept working.
 
 That's what transfer looks like in practice. The understanding a tool gives you outlasts the tool itself, and it works in materials the tool never touched.

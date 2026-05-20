@@ -12,7 +12,7 @@ last_modified: 2026-03-19
 
 Sometime around year six at Encore, a new front-end developer changed a color variable in the wrong partial. He wasn't careless. He found a color he needed to update, opened the file where it was defined, and changed it. The problem was that the color was defined in two places. The one he changed was a local override that existed because someone three years earlier had needed a one-off variant for a specific component. The canonical definition lived in the global variables partial. He changed the override. The canonical value stayed. Now we had two sources of truth, and the override was winning in twelve components while the global was winning everywhere else.
 
-It took two days to find the discrepancy. Not because it was hidden. Because it was four pixels of visual difference across a dozen screens, and nobody files a ticket for a color that's 93% correct.
+It took two days to find the discrepancy. Four pixels of visual difference across a dozen screens, and nobody files a ticket for a color that's 93% correct.
 
 That incident taught me more about governance than any process document I've ever read.
 
@@ -38,4 +38,4 @@ Every codebase accumulates these fossils. The SCSS cascade is particularly vulne
 
 I think the reason I eventually moved from SCSS architecture to governance as a general practice is that the cascade taught me the core mechanic. Defaults are stronger than rules. If the default output is correct, people don't need to think about it. If the default output requires intervention to be correct, every intervention is an opportunity for drift. The thirteen years at Encore gave me a laboratory for watching this play out at scale: a small team cycling through, thousands of commits, multiple changes in organizational leadership. The structure held where the structure was structural. It failed where the structure depended on someone remembering why.
 
-Code is methodology in practice. The SCSS cascade doesn't describe a governance philosophy. It is one.
+Code is methodology in practice. The SCSS cascade runs a governance philosophy every time the compiler touches it.

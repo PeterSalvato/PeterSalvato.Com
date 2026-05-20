@@ -16,7 +16,7 @@ last_modified: 2026-03-14
 ---
 Pick ten tracks you love. Put them in an order. Listen to the whole thing start to finish. Then rearrange them and listen again.
 
-The tracks didn't change. The experience did. That's sequencing.
+Same tracks both times. Completely different experience. That's sequencing.
 
 I grew up in New York's club culture in the late nineties. Tunnel, Twilo, underground parties to major venues. DJs like Sasha and Digweed playing six-hour sets for rooms of three thousand. What I took from those years was an ear for the arc: how a set builds, where the peaks live, where the valleys breathe, how the energy of a room moves through time.
 

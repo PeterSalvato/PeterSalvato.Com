@@ -31,7 +31,7 @@ I noticed the correlation early. The sounds I was drawn to (saturated, compresse
 
 Tape hiss is analog noise. It is the sound of the medium itself intruding on the content. Halftone dot patterns are the same thing in print: the reproduction method becomes visible. Both are degradation that adds warmth. Clean digital audio and smooth vector art share a sterility. Add hiss to the audio, add halftone to the image, and something human enters. The grain carries the character.
 
-In the MathOnTape system, every visual surface carries halftone screening. Not as a filter applied after the fact. As the foundational texture, the way tape hiss is the foundational texture of the recordings.
+In the MathOnTape system, every visual surface carries halftone screening. As the foundational texture, the way tape hiss is the foundational texture of the recordings.
 
 ## Misregistration is chorus
 

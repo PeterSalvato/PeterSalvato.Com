@@ -15,7 +15,7 @@ seed_status: CAPTURED
 last_modified: 2026-03-15
 ---
 
-Thursday. Crohn's flare since Tuesday. The celiac layered on top, which it does when the immune system is already busy fighting itself. I stood in the kitchen at 5:15 PM and the idea of cooking dinner from scratch was not possible. Not difficult. Not unpleasant. Not possible.
+Thursday. Crohn's flare since Tuesday. The celiac layered on top, which it does when the immune system is already busy fighting itself. I stood in the kitchen at 5:15 PM and the idea of cooking dinner from scratch was just not possible.
 
 My daughter needed to eat in forty-five minutes. My son needed something completely different. Both of them needed real food, not cereal, not toast.
 
@@ -41,4 +41,4 @@ Thursday, they did. The chicken was good. The beans were seasoned properly. The 
 
 Some weeks it doesn't. The batch cook gets skipped because Sunday was also a bad day. The containers run out by Wednesday and Thursday is back to zero. I haven't solved that. The system has a single point of failure, and that point is whether I get one good day per week. Most weeks I do. Some weeks I don't, and those weeks the fidelity breaks.
 
-I'm not pretending this is airtight. I'm saying the structure makes the good weeks reliable and limits the damage on the bad ones. That's what governance does. Predictability where it counts, and honest failure where it can't reach.
+I'm not pretending this is airtight. I'm saying the structure makes the good weeks reliable and limits the damage on the bad ones. That's what governance does at every scale.

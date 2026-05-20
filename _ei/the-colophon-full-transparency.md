@@ -26,7 +26,7 @@ Here is what the site required.
 
 A voice fingerprint extracted from conversation logs. The voice protocol that governs all copy on the site wasn't written from scratch. It was extracted. I analyzed my own unguarded conversation patterns across hundreds of sessions, identified the specific rhythms, word choices, sentence structures, and tendencies that characterize how I actually communicate, and codified those into a twelve-point checklist. The voice on this site is mine because the protocol was derived from recordings of me talking naturally, not performing.
 
-Three locked typefaces. Rubik for body copy, Chainprinter for display, Space Mono for monospace. These were chosen and locked. No further discussion. The constraint is the decision.
+Three locked typefaces. Rubik for body copy, Chainprinter for display, Space Mono for monospace. These were chosen and locked. No further discussion. The lock itself does the work.
 
 A connections.yml file that took multiple sessions to build and maintain. Every time a new page is published, it needs to be connected to the existing web. The connections are semantic, not categorical. A page about SCSS architecture connects to a page about governance because the argument is that they're the same operation. The connections file makes that argument navigable.
 

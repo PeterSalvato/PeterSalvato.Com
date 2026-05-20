@@ -39,4 +39,4 @@ That level of precision comes from print training. A web developer who learned C
 
 Every texture on this site came through PressWorks. The grain, the halftone, the desaturated color. The same plate-by-plate logic a physical shop uses, running in code instead of on a Heidelberg. Print to digital to code to print again, through a pipeline that I control end to end.
 
-The pica ruler is gone. The thinking it trained never left.
+I don't use a pica ruler anymore, but the thinking it trained is still how I approach every layout.

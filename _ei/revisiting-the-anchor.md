@@ -22,7 +22,7 @@ That definition still holds. But something has shifted.
 
 When I wrote the early posts, reading the room was the starting point. You read the room, then you design the response. The emphasis was on the reading. Perception first, action second. Two hundred posts later, I think the emphasis needs to move. Reading the room is necessary. It's not sufficient. What you do with the reading is the practice.
 
-I read Randi's frustration with the Shopify template. I saw the product quality disappearing behind a default grid. The reading was step one. Building [Aiden Jae](/evidence/aiden-jae/) as an integrated system where the code respects the photograph was step two. The reading without the build is empathy. The build without the reading is engineering. The practice is both.
+I read Randi's frustration with the Shopify template. I saw the product quality disappearing behind a default grid. The reading was step one. Building [Aiden Jae](/evidence/aiden-jae/) as an integrated system where the code respects the photograph was step two. The reading matters. So does the build. The practice holds both together.
 
 I read the Encore codebase and felt the drift. Twelve years of reasonable decisions producing a product that slowly stopped feeling like one product. The reading was accurate. Building the SCSS token system, encoding the baseline, making deviation require deliberate override: that was the response. FormWork came from reading the same pattern across classrooms, codebases, brand systems, and household routines, then building the structure so the reading could govern something.
 

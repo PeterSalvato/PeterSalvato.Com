@@ -26,11 +26,11 @@ I started DJing in my bedroom in the late nineties. I was never interested in pe
 
 The bedroom DJ gets dismissed as the amateur version. I see it differently. A bedroom DJ with no audience has nothing to perform for. The only reason to mix is the mixing itself. You develop a deeper love of music through interaction with it. You learn what a track can do by putting it next to a hundred other tracks and hearing what happens at the joints.
 
-Over twenty-five years I built a way of hearing sequenced experience. The crate is the evaluative toolkit. Knowing your records is knowing your materials. A selector who reaches for the right track at the right moment is doing the same thing a designer does when they pull the right reference at the right stage of a project. The depth of your library determines the resolution of your choices.
+Over twenty-five years I built a way of hearing sequenced experience. The crate is the evaluative toolkit. Knowing your records means knowing your materials. A selector who reaches for the right track at the right moment is doing the same thing a designer does when they pull the right reference at the right stage of a project. The depth of your library determines the resolution of your choices.
 
-Here is what I learned: the architecture should disappear into the experience. A set that peaks at the right moment should feel inevitable. The listener shouldn't notice the key change that opened the energy. They shouldn't feel the four-bar extension that gave the vocal room. They should just feel held. The architecture disappears into the experience.
+Here is what I learned: the architecture should disappear into the experience. A set that peaks at the right moment should feel inevitable. The listener shouldn't notice the key change that opened the energy. They shouldn't feel the four-bar extension that gave the vocal room. They should just feel held.
 
-This is the same principle that runs through everything I build. Accommodation design works the same way. The scaffolding succeeds when the person inside it doesn't notice the scaffolding. The structure serves the experience. The experience is what survives.
+This is the same principle that runs through everything I build. Accommodation design works the same way. The scaffolding succeeds when the person inside it doesn't notice the scaffolding. What survives is the experience, not the structure that shaped it.
 
 I have no recorded mixes. I never recorded one. The practice is private, always has been. That's by design. I was never interested in performing. The methodology that came out of those years of listening in bedrooms and on dance floors is what I want to transmit.
 

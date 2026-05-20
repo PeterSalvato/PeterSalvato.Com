@@ -21,7 +21,7 @@ I loved the material. That part is hard to overstate. Standing in front of a roo
 
 The challenge was scaffolding. The motivation was already there. The behavior was fine. The question was pure construction: how do you take someone from zero knowledge of graphic design to understanding visual communication? Where does the ladder start? What's the first rung?
 
-You can't open with theory. You can't open with history. You open with looking. Here is a thing. What do you see? Not what does it mean, not what is the designer trying to say. What do you see? Color, shape, weight, position. The vocabulary comes after the looking, not before it.
+You can't open with theory. You can't open with history. You open with looking. Here is a thing. What do you see? Color, shape, weight, position. Meaning comes later. The vocabulary comes after the looking, not before it.
 
 Then you layer. Once they can describe what they see, you ask why. Why is this heavy and that light? Why does your eye go here first? Design has reasons. Every choice has a why behind it, and teaching from zero means building the perceptual apparatus that makes the rules obvious, from the ground up.
 

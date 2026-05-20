@@ -17,7 +17,7 @@ Jellyfin for media. Nextcloud for cloud storage. qBittorrent through a VPN conta
 
 I described this infrastructure in a post about [sovereignty](/blog/self-hosting-as-sovereignty/), but the version I want to tell here is simpler. It's the same impulse as the knife roll.
 
-My father was a general superintendent on construction sites in New York. The trades carried their own tools. Not because the site didn't have tools. Because the trade's tools were calibrated to the trade's hand. You carry what's yours. You maintain it. You know where every piece is because you packed the roll yourself.
+My father was a general superintendent on construction sites in New York. The trades carried their own tools. The site had tools, but the trade's tools were calibrated to the trade's hand. You carry what's yours. You maintain it. You know where every piece is because you packed the roll yourself.
 
 The homelab is a tool roll. Jellyfin means the family's media library doesn't depend on which streaming service decides to remove something this month. Nextcloud means our files don't live on someone else's server under someone else's terms. The cooking agent means the AI that holds my kitchen knowledge runs on my hardware, under governance I wrote, without sending my family's dietary constraints to a third-party API.
 

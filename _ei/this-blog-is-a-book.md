@@ -13,7 +13,7 @@ domain: Personal
 function: Positioning
 last_modified: 2026-03-14
 ---
-This blog has a master syllabus. Over 190 posts organized across five phases, seven concept threads, and five domains. Every post has a seed status, a domain tag, a type classification, and a sequence number. The syllabus is a spreadsheet. The execution is an assembly line. The posts aren't random thoughts. They're chapters.
+This blog has a master syllabus. Over 190 posts organized across five phases, seven concept threads, and five domains. Every post has a seed status, a domain tag, a type classification, and a sequence number. The syllabus is a spreadsheet. The execution is an assembly line. Every post is a chapter in a deliberate sequence.
 
 The five phases move through a deliberate arc. Background and origin stories establish the person. Learning AI and building the site establish the practice. Individual skills and domain applications demonstrate the method. Failure modes and hard-won lessons establish credibility. Meta-level synthesis brings it together. A reader who starts at the beginning and follows the sequence arrives at a specific understanding. A reader who enters from any individual post gets a self-contained piece that functions on its own.
 

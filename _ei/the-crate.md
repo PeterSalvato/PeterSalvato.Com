@@ -31,8 +31,8 @@ Walk into Encore and read thirteen years of accumulated drift (a founder's origi
 
 Same skills. Same crate. Different room, different reach.
 
-The selection happens with two hands simultaneously. One hand is intuitive: pulled from memory, from pattern recognition built over years, from something that feels right before you can explain why. The other hand is structural: key signatures for transitions, energy levels for peaks and valleys, fit within whatever you're building. Neither hand works alone. Pure intuition drifts. Pure structure is dead on arrival. The two hands together produce selection that feels inevitable in retrospect.
+The selection happens with two hands simultaneously. One hand is intuitive: pulled from memory, from pattern recognition built over years, from something that feels right before you can explain why. The other hand is structural: key signatures for transitions, energy levels for peaks and valleys, fit within whatever you're building. Neither hand works alone. The two hands together produce selection that feels inevitable in retrospect.
 
 Here is the part that matters for anything built to outlast a single session. A DJ does this live. Reading and adjusting in real time, pulling the next record based on what the last one did to the room. But a product, a system, a piece of writing: these embed the read into the structure itself. The maker isn't standing in the room when someone encounters the work. The intent has to survive without you. So you decide the intended experience first (what the listener's body should go through, what the user should feel at each transition, where the reader should be by the end), and then you build the structure to carry that intent forward on its own.
 
-If the structure peeks out, it didn't do its job. If you don't notice the structure and you just feel feelings, the content achieved its intent.
+When the structure peeks out, the experience breaks. When you just feel feelings and never think about why, the structure did what it was supposed to do.

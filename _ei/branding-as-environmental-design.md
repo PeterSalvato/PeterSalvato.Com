@@ -35,4 +35,4 @@ That gravity is the point. A branded system commands a different kind of attenti
 
 This extends to everything I touch. ASCII art in code comments, because I experience the code and the environment should reflect that. Branded kitchen systems, because I experience the kitchen. The design is total. It has to be, because partial branding produces partial commitment, and partial commitment produces mediocre work.
 
-The compulsion to build complete worlds around every project is not decoration. It is the mechanism. I change the room because the room changes what comes out of it. I've tested this enough times to trust it.
+The compulsion to build complete worlds around every project is the mechanism. I change the room because the room changes what comes out of it. I've tested this enough times to trust it.

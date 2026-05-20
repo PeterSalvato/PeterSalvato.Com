@@ -13,9 +13,9 @@ related:
   - /work/this-site
 ---
 
-The AI industry is racing toward a future where the human is unnecessary. Faster models, bigger context windows, autonomous agents, AGI timelines. Some of that is genuinely valuable. But the conversation has drifted so far toward replacing people that nobody is asking what gets lost along the way.
+I read everything the tool produces. Every output, every draft, every evaluation. Three years of daily practice and I still catch things the tool gets wrong that would have shipped if I weren't looking. The judgment is mine. The tools make the judgment faster to apply.
 
-I built in the opposite direction. The tools are cognitive extensions, not replacements. I work in a CLI environment with a skill system, specialized agents, voice protocols loaded before every generation, evaluation lenses dispatched in parallel. The scaffold exists so that I can think with the tools without the tools thinking for me.
+The tools are cognitive extensions, not replacements. I work in a CLI environment with a skill system, specialized agents, voice protocols loaded before every generation, evaluation lenses dispatched in parallel. The scaffold exists so that I can think with the tools without the tools thinking for me.
 
 Three years of daily practice is attunement. Learning to read where the tool drifts, the way a teacher reads each student. I read everything the tool produces. I reject what doesn't land. I know where it's strong (structured analysis, pattern detection, research at speed) and where it drifts (voice, judgment, editorial decisions, anything that requires knowing what matters). The output is something I'd put my name on because I stayed in the loop at every step.
 

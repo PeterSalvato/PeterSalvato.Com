@@ -21,7 +21,7 @@ Start with the surfaces that get touched most. Open your project's stylesheet an
 
 ---
 
-Check the documentation. When was it last updated? Does it describe the project as it exists right now, or as it existed when someone last had time to write things down? A CONVENTIONS.md that's three months stale isn't documentation. It's an artifact of past decisions that may no longer apply. If a new contributor read it today and followed it exactly, would the result be correct? If not, the document has drifted from the project, or the project has drifted from the document. Either way, the standard is no longer visible.
+Check the documentation. When was it last updated? Does it describe the project as it exists right now, or as it existed when someone last had time to write things down? A CONVENTIONS.md that's three months stale is an artifact of past decisions that may no longer apply. If a new contributor read it today and followed it exactly, would the result be correct? If not, the document has drifted from the project, or the project has drifted from the document. Either way, the standard is no longer visible.
 
 Check the naming. Pull up the ten most recently created files and compare them to the ten oldest. Same conventions? Same structure? Same taxonomy? Naming drift is the easiest to spot and the most telling. When someone names a file differently than the established pattern, it usually means they didn't know the pattern existed. The pattern was ambient, not explicit.
 
@@ -35,4 +35,4 @@ Check the architecture. Draw the dependency map from memory. Which components de
 
 The broken windows principle applies: small visible drift signals larger invisible drift. A single misnamed file is a window. Three misnamed files are a pattern. The pattern means the convention has gone invisible and nobody is maintaining it. The visible drift (naming) signals the invisible drift (architectural decisions, voice, dependency structure) that's harder to find and more expensive to fix.
 
-Run the audit quarterly. Check naming, documentation, voice, and architecture. Each one takes fifteen minutes. The drift you catch early is a correction. The drift you catch late is a rebuild.
+Run the audit quarterly. Check naming, documentation, voice, and architecture. Each one takes fifteen minutes. Catching drift early means a correction. Catching it late usually means a rebuild.

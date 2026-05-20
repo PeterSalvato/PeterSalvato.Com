@@ -28,6 +28,6 @@ The tier colors (blue for governance, red for infrastructure, green for output) 
 
 In a classroom, color does accommodation work. A student with processing challenges can't always hold a verbal instruction. But they can match a color to a location. The color carries the instruction without requiring anyone to decode language first.
 
-Color doesn't describe where something lives. It places it. A palette designed after the brand is positioned is a response. A palette designed as part of the positioning is structure. One follows. The other leads. The difference between those two approaches is the difference between color as decoration and color as information.
+Color doesn't describe where something lives. It places it. A palette designed after the brand is positioned is a response. A palette designed as part of the positioning is structure. The second approach treats color as information, and the first treats it as decoration.
 
 I keep finding this. The color arrives first. The visitor's body sorts the signal. The content shows up inside a room the color already built. And when the color and the content disagree, the visitor feels something is wrong before they can name what.

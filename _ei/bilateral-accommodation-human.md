@@ -34,4 +34,4 @@ I didn't have this language then. I just knew that the teacher who lectures at a
 
 I think about this every time I design a system now. Where is the boundary? Who holds the structure? Who does the processing? And what breaks when someone crosses the line?
 
-The answer is always the same. The work breaks. Not because anyone did something wrong, but because the boundary was the thing making it work.
+The answer is always the same. The work breaks. The boundary was holding it together, and crossing it collapses what both sides need.

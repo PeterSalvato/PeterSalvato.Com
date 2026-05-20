@@ -21,7 +21,7 @@ A prompt is a catalog page. Given this instruction and this model's limited atte
 
 ---
 
-Information architecture organizes content so the person receiving it can find what they need, process it in the right order, and act on it without confusion. That's what a well-structured prompt does for a language model. The model isn't a search engine. It's a system with processing constraints (context windows, attention degradation, sensitivity to ordering) that you design around.
+Information architecture organizes content so the person receiving it can find what they need, process it in the right order, and act on it without confusion. That's what a well-structured prompt does for a language model. The model is a system with processing constraints (context windows, attention degradation, sensitivity to ordering) that you design around.
 
 Most prompt engineering treats the model like a conversation partner who needs better instructions. That's the wrong frame. The model is a processing system with a specific capacity profile, the same way a catalog reader is a person with limited attention and a specific scanning pattern. You don't make the catalog work by writing better product descriptions. You make it work by organizing the information so the reader's eye moves through it efficiently.
 
@@ -33,10 +33,10 @@ This is where the CLAUDE.md file becomes information architecture in practice. T
 
 The structure of the CLAUDE.md is an IA decision. What goes first matters because the model gives it more weight. What gets grouped together matters because context bleeds between adjacent elements. What gets separated matters because independent concerns contaminate each other when they're packed into the same section.
 
-I didn't learn this from prompt engineering guides. I learned it from catalog layout at Sterling, from information architecture on the [Encore](/infrastructure/encore/) platform, from years of structuring content for human processors. The model is a different processor with different constraints. The discipline is the same.
+I didn't learn this from prompt engineering guides. I learned it from catalog layout at Sterling, from information architecture on the [Encore](/infrastructure/encore/) platform, from years of structuring content for human processors. The model is a different processor with different constraints, but the discipline carries over.
 
 ---
 
 The [Formwork Protocol](/governance/formwork-protocol/) takes this further. Each evaluation lens runs as an independent prompt with its own criteria, its own instructions, its own output format. The lenses don't know about each other because compound evaluation instructions contaminate each other in the same way compound catalog sections confuse the reader. One lens per prompt. One dimension per evaluation. The coordinator collects the results afterward.
 
-That's information architecture applied to AI governance: organizing the work so the system receiving it can process each piece cleanly. Prompt architecture is information architecture. The tools changed. The discipline didn't.
+That's information architecture applied to AI governance: organizing the work so the system receiving it can process each piece cleanly. The tools changed, but the discipline I learned laying out catalogs at Sterling is the same discipline I use structuring prompts now.

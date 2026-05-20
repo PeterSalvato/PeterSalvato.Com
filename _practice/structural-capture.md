@@ -15,9 +15,9 @@ The worst loss was a novel. Months of ideation distributed across dozens of AI s
 
 The AI tool can process everything you say to it. It cannot tell the difference between a sentence where you changed your mind about the whole project and a sentence where you asked it to fix a typo. Only you know when your thinking turned.
 
-So the human marks it. SavePoint is a protocol for capturing the moment a decision crystallizes, an insight connects two things that weren't connected before, or the direction shifts. Timestamped, categorized, searchable. The conversation stream is the archive. The savepoints are the structural markers that make the stream navigable.
+So the human marks it. SavePoint is a protocol for capturing the moment a decision crystallizes, an insight connects two things that weren't connected before, or the direction shifts. Timestamped, categorized, searchable. The archive lives in the conversation stream. The savepoints are the structural markers that make it navigable.
 
-The tool can't read what mattered to you. SavePoint accommodates that gap. When my father left a construction site, the whole picture left with him: which decisions were load-bearing, which were provisional, what connected to what. The fidelity of the context depended on the person who held it. Same problem, different domain.
+The tool can't read what mattered to you. SavePoint accommodates that gap. When my father left a construction site, the whole picture left with him: which decisions were load-bearing, which were provisional, what connected to what. The fidelity of the context depended on the person who held it. I kept seeing the same pattern across construction and code and conversation.
 
 The first version failed immediately. Three more before the structure held. The same problem surfaced in code: contributors contradicting each other's architectural decisions because the decisions weren't captured at the point they were made. That produced FormWork. The pattern is the same in both cases: if the structure isn't captured when the thinking happens, it doesn't survive.
 

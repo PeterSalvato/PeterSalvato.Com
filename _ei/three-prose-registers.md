@@ -36,7 +36,7 @@ The same pattern shows up in this site's adaptive pathfinding. A visitor who arr
 
 The [Aetherwright](/practice/aetherwright/) operates on the same gradient. The surface layer is legible to anyone. The symbolic layer (glyphs, codex strings, altitude markers) is progressive disclosure for visitors who stay long enough to notice it. The deepest layer is only visible to initiates. Three registers. Three levels of access. Same structure as the novel, applied to identity instead of narrative.
 
-I keep finding this pattern. Three registers, progressive depth, controlled transitions. I found it in prose first because that's where I was working when the pattern emerged. But the structure isn't literary. It's architectural. Any system that manages attention across varying depths of engagement is doing the same thing, whether the medium is fiction, interface design, or the ambient frame of a personal website.
+I keep finding this pattern. Three registers, progressive depth, controlled transitions. I found it in prose first because that's where I was working when the pattern emerged. But the structure is architectural, not literary. Any system that manages attention across varying depths of engagement is doing the same thing, whether the medium is fiction, interface design, or the ambient frame of a personal website.
 
 The scene that started all of this, the one where the room temperature drops, ended up using all three registers in twelve sentences. Environmental: the room, the light, the arrangement of furniture. Close-third: what the character notices about the other person's posture. Somatic: the cold that starts in the hands and moves up the arms. The reader knows something is wrong before anyone opens their mouth.
 

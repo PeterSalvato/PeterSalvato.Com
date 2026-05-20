@@ -66,7 +66,7 @@ I grew up in the Bronx in the eighties. I watched it happen to entire neighborho
 
 Five people evaluating the same student work in an SVA critique room. Each one is looking through a different lens: typography, concept, craft, communication, cultural awareness. They don't coordinate. They don't discuss beforehand. They evaluate independently.
 
-Where three or four of them point at the same thing, that's signal. Where they disagree, that's where the interesting decisions live. The agreement isn't consensus. It's convergence. Independent evaluations arriving at the same place without being steered there.
+Where three or four of them point at the same thing, that's signal. Where they disagree, that's where the interesting decisions live. The agreement is convergence, not consensus. Independent evaluations arriving at the same place without being steered there.
 
 I built this principle into how I evaluate anything. Run multiple lenses. Don't average them. Look at where they agree on their own. The points of convergence are the most reliable data you'll get. The points of divergence are where the maker has to step in and decide.
 
@@ -82,4 +82,4 @@ The system might be a person, a room, a codebase, a product. You read first. The
 
 ---
 
-Seven words. Seven rooms. They came from print shops, construction sites, classrooms, nightclubs, enterprise software, and design critiques. Every room used different materials. Every room ran on the same set of operations.
+Seven words. Seven rooms. They came from print shops, construction sites, classrooms, nightclubs, enterprise software, and design critiques. Different materials every time, and the same operations running underneath all of them.

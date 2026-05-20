@@ -20,7 +20,7 @@ The overnight test is a simulation of the reader's experience. The reader comes 
 
 I've been running this test against every post in this series. The results have been consistent and humbling. About two-thirds of what I write holds up the next morning. The other third needs work. Sometimes it's a section that's doing too much explaining, where the writing is trying to convince instead of showing. Sometimes it's a closer that felt resonant at 11 PM but reads as preachy at 7 AM. Sometimes it's a specific sentence that was doing emotional work I didn't authorize, performing feeling instead of communicating it.
 
-The morning eye is brutal and it is my best editor.
+The morning eye catches things the 11 PM version of me was too close to see.
 
 There's a version of this that applies to code. I've pushed commits at the end of a long session, confident that the logic was clean, and come back the next day to find naming choices that made sense only in the context of the session. Variable names that were clear while I was holding the full mental model but that communicate nothing to a reader encountering the code cold. The overnight test catches those too, because the mechanism is the same: distance reveals what proximity hides.
 

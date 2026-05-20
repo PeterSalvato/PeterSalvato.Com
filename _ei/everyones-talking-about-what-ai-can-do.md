@@ -36,4 +36,4 @@ The capability gap will close. I believe that. The attunement gap won't. Because
 
 What I'm interested in is how to build systems that make room for that skill instead of routing around it. Protocols that position the human where their judgment matters most and let the AI handle the parts where capability is the constraint. The AI generates options. The human reads the room and selects. The AI executes at scale. The human catches the drift before it compounds.
 
-The tools improve every day. And every improvement makes the human who can read the room more necessary, not less. I don't think most people see that yet, because the demos are so impressive that it's easy to forget the demo isn't the deployment. The demo shows capability. The deployment requires judgment.
+The tools improve every day. And every improvement makes the human who can read the room more necessary, not less. I don't think most people see that yet, because the demos are so impressive that it's easy to forget the demo isn't the deployment. A demo shows what the tool can produce. A deployment shows whether anyone knew what to ask for.

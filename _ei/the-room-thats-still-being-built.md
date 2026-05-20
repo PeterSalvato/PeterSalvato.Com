@@ -32,4 +32,4 @@ The homelab is ongoing. A self-hosted infrastructure running Docker containers, 
 
 I don't know where this practice ends up. I know where it started: a classroom in Sunset Park, reading twelve students and adjusting the structure for each one. I know what it is now: a methodology for reading any system, designing for what it needs, and building governance so the work survives contact with everyone who touches it. Where it goes from here depends on what the rooms ask for.
 
-The room is still being built. The tools are on the bench. The walls are going up. Come back in a year and it'll look different. That's the proof it's real.
+The room is still being built. The tools are on the bench, the walls are going up. Come back in a year and it'll look different, and I think that's a better signal than a finished product that stopped changing.

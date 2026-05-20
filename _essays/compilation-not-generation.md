@@ -52,4 +52,4 @@ The whole infrastructure exists to keep that line clear, and honestly it takes m
 
 ---
 
-Most people use AI to save time. This system actually took longer than writing the site by hand would have. The goal was always [fidelity](/vocabulary/fidelity/): keeping the output locked to the source material so that every sentence traces back to something I actually said or decided. The authorship stays mine because the thinking was mine first.
+Most people use AI to save time. This system actually took longer than writing the site by hand would have. The goal was always [fidelity](/vocabulary/fidelity/): keeping the output locked to the source material so that every sentence traces back to something I actually said or decided. The authorship stays mine because the source material is mine, and the system is built to preserve it through every pass.

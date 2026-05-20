@@ -35,4 +35,4 @@ Nearly a year of failed attempts, manual workarounds, and real collapses. The pa
 
 ---
 
-The [Formwork Protocol](/governance/formwork-protocol/) isn't a theory I worked out and then applied. It's thirteen years of scar tissue from enterprise platform work, twenty years of design practice, and a year of failed governance attempts, crystallized into a system that finally held. The SVA critique room was the seed. The scar tissue was the soil. The protocol is what grew.
+The [Formwork Protocol](/governance/formwork-protocol/) isn't a theory I worked out and then applied. It's thirteen years of scar tissue from enterprise platform work, twenty years of design practice, and a year of failed governance attempts, crystallized into a system that finally held. The protocol came from the SVA critique room and thirteen years of scar tissue from the work.

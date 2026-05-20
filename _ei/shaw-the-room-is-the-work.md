@@ -19,7 +19,7 @@ I walked into James Victore's studio in Beacon once. Before he said a word, I kn
 
 Paul Shaw does this. His world is called Fun City. Letterforms, history, photography, signage, typography walks through New York. He catalogs hand-painted shop signs with the same rigor he brings to Renaissance inscriptions. His blog is decades deep. His courses, his publications, his obsessions, all of it accumulates into a place you can walk around in. You don't encounter Shaw's resume. You encounter Shaw's world. And you either want to stay or you don't.
 
-That distinction matters. A resume is a list of qualifications organized to reduce risk for the person reading it. A room is a world organized by the person who built it. The resume asks: am I qualified? The room asks: do you want to be here?
+That distinction matters. A resume is a list of qualifications organized to reduce risk for the person reading it. A room is a world organized by the person who built it, and the only question it asks is whether you want to be there.
 
 I think about this when I look at my own site. Someone arrives at petersalvato.com and the first thing they encounter is Chainprinter type across the top. Cotton-rag paper texture behind every page. A sidebar with labels like "Practice" and "Evidence" and section markers pulled from a symbolic system I designed for myself. Aetherwright glyphs in the margins. A connection network at the bottom of every page linking ideas across domains. Enterprise software methodology sitting three clicks from glyph design sitting three clicks from a novel outline sitting three clicks from a cooking governance system.
 

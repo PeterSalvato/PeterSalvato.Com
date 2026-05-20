@@ -21,7 +21,7 @@ Registration is a screen printing term. Each color in a multi-color print is a s
 
 ---
 
-The photography layer proves the product. Lighting that shows how gold actually catches light. No retouching that hides the hand-finishing. Variable aspect ratios because each piece has different visual weight. The system doesn't force the photograph into a preset box. The photography isn't illustrating the brand. It is the brand. When you see the actual texture of recycled gold under honest light, you're seeing the quality and the sourcing story without reading a word.
+The photography layer proves the product. Lighting that shows how gold actually catches light. No retouching that hides the hand-finishing. Variable aspect ratios because each piece has different visual weight. The system doesn't force the photograph into a preset box. The photography carries the brand directly. When you see the actual texture of recycled gold under honest light, you're seeing the quality and the sourcing story without reading a word.
 
 The identity layer carries the register. Clean typographic wordmark. A palette pulled from the materials: warm browns, muted sage, cream. Typography that stays out of the way. The visual language feels restrained without performing luxury, because the product is the luxury, not the branding. These are rules, not preferences. Every visual element either reinforces what the product actually is or it gets cut.
 

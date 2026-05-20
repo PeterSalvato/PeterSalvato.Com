@@ -16,7 +16,7 @@ That search took over an hour. And when I found it, it was better than I remembe
 
 That's when I started building the traversal system.
 
-I have over 52,000 documents across ChatGPT, Claude, and Gemini exports. That number sounds large, and it is, but the volume isn't the point. The point is that those documents contain my thinking in a form I can't access anywhere else. The conversation is where the thinking happens. The published writing is the refined output. But the refinement always loses something. The rough version, the one I said out loud while working through a problem, often has an energy and specificity that the polished version smooths over.
+I have over 52,000 documents across ChatGPT, Claude, and Gemini exports. That number sounds large, and it is, but the volume matters less than what's in them. Those documents contain my thinking in a form I can't access anywhere else. The conversation is where the thinking happens. The published writing is the refined output. But the refinement always loses something. The rough version, the one I said out loud while working through a problem, often has an energy and specificity that the polished version smooths over.
 
 The traversal system is how I mine that corpus. I re-traverse my own ideation history, looking for moments where thinking crystallized. A phrase that names something precisely. A connection between two ideas that I made in passing and never followed up. A reframing of a problem that changed how I approached everything after it but that I never wrote down as a standalone insight.
 
@@ -36,4 +36,4 @@ The 52,000 documents are not 52,000 pieces of content. They're a single, distrib
 
 I keep going back to the hour I spent looking for those five sentences about governance. The sentences were worth the search. But the real discovery was the method. Once I started systematically mining my own conversation history, I found hundreds of moments like that one. Ideas I'd had and lost. Phrasings I'd landed on and forgotten. Connections I'd made once, in passing, that turned out to be structural.
 
-The process of going back through my own thinking, finding the crystallizations, pulling them forward, building around them, that's become the core of how I write. The corpus is where the ideas live. The traversal is how I find them. And the published work compiles what I find into something that holds together.
+The process of going back through my own thinking, finding the crystallizations, pulling them forward, building around them, that's become the core of how I write. The published work compiles what I find into something that holds together.

@@ -14,9 +14,7 @@ function: Payload
 seed_status: DEEP
 last_modified: 2026-03-14
 ---
-This blog is a governance problem.
-
-Not a content problem. Not a marketing problem. A governance problem. The question is not what to say. The question is whether post 180 still sounds like the same person who wrote post 1.
+This blog is a governance problem. The question is whether post 180 still sounds like the same person who wrote post 1.
 
 I've watched brand systems drift over six months. Good systems, designed with care, that slowly soften because nobody is checking the baseline against each new piece of content. The color shifts a shade. The voice loosens. The sentence structure flattens. None of it looks like a problem on any individual day. Over six months the brand is a different thing than it started as.
 
@@ -32,4 +30,4 @@ The compilation pipeline keeps me out of blank-page mode. I don't sit down and w
 
 And [SavePoint](/systems/savepoint/) preserves the decisions. When a positioning choice locks in, when a vocabulary term gets defined, when a voice rule gets added, it gets captured. Six months from now, when I'm writing post 190 and I can't remember whether I decided "accommodation" or "adjustment" was the right word, the savepoint carries the decision forward.
 
-I think the real insight is that fidelity at scale is a structural problem, not a willpower problem. You don't maintain consistency across 200 posts by trying harder. You maintain it by building a system that holds the baseline and catches deviation. The same principle that governs a twelve-year enterprise platform governs a blog. The material is different. The engineering is the same.
+I think the real insight is that fidelity at scale is a structural problem, not a willpower problem. You don't maintain consistency across 200 posts by trying harder. You maintain it by building a system that holds the baseline and catches deviation. The same principle that governs a twelve-year enterprise platform governs a blog. Different material, same engineering.

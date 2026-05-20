@@ -34,4 +34,4 @@ None of this is about making the model "better." It's about reading its processi
 
 The CLAUDE.md at the root of every project I work on is the largest single document I maintain. It carries years of accumulated decisions. It tells the model who I am, what the project is, what matters, what to protect, and what to avoid. When I open a new session, the model reads that document and arrives oriented. Not perfectly. But oriented enough that the first five minutes are productive instead of calibration.
 
-That's attunement. Not configuration. The system reads the maker and adjusts. The maker reads the system and adjusts. Both directions, same question: what does the system on the other end actually need to do its best work?
+That's attunement. The system reads the maker and adjusts. The maker reads the system and adjusts. Both directions run on the same question: what does the system on the other end actually need to do its best work?

@@ -35,4 +35,4 @@ Once you see what they can and can't do, the architecture becomes obvious. Seman
 
 This is also how you prevent drift. Drift happens when a system asks humans for judgment calls it should handle. Every arbitrary value an engineer types is a small divergence. Over months, those divergences compound into a codebase that looks like it was built by forty different companies. The semantic system doesn't prevent drift by enforcing rules. It prevents drift by eliminating the decisions that cause it.
 
-Tooling is attunement. The right abstraction, the right class name, the right component API. These are acts of reading. You observe the team the way you'd observe a classroom. Then you build the structure that makes their output correct, even when their instincts aren't.
+The right abstraction, the right class name, the right component API. These are acts of reading. You observe the team the way you'd observe a classroom. Then you build the structure that makes their output correct, even when their instincts aren't.

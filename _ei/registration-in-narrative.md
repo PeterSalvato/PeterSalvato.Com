@@ -41,4 +41,4 @@ The novel follows a character through an unmasking process. That's why perceptio
 
 Each beat is specced across all three layers simultaneously. If any layer contradicts the governing constraint, it's architecturally wrong. The character demands the structure. The structure demands the layers. The layers demand the registration.
 
-The architecture is the deliverable. The novel is the test case. The same methodology that builds brand registration and enterprise registration, running in a material I'd never worked in before, producing a structural framework that holds the same way.
+The architecture is what I delivered. The novel is the test case. The same methodology that builds brand registration and enterprise registration, running in a material I'd never worked in before, producing a structural framework that holds the same way.

@@ -39,4 +39,4 @@ The Aetherwright uses glyphs and a Codex because I came up in visual communicati
 
 The people who need this most are the ones who've been consistent for years without knowing why. Thirty years of reliable results across different domains, and the method underneath has never been articulated. That's where drift starts. The method is real. It's just ambient. And ambient methods erode under pressure because you can't defend what you can't name.
 
-Name it. Write it down. Look at it every morning. That's the practice.
+Name it. Write it down. Look at it every morning. The rest follows from there.

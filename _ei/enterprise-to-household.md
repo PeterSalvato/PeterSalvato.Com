@@ -35,4 +35,4 @@ I used to think I was applying enterprise thinking to the household. That I'd le
 
 I build the shared base, differentiate by role or context, then accommodate the individual. I do it at work. I do it at home. I do it when I'm designing a system and when I'm plating four different dinners from the same batch of chicken.
 
-It helps. It doesn't solve. The weeks it breaks are the weeks I learn the most about where the structure needs to be stronger. That's the practice. Ongoing, imperfect, and never finished.
+It helps more than it solves. The weeks it breaks are the weeks I learn the most about where the structure needs to be stronger. I keep adjusting. Ongoing, imperfect, and never finished.

@@ -21,13 +21,13 @@ Most designers learn the grid as a layout technique. Put things on the grid. Ali
 
 The grid is governance.
 
-Müller-Brockmann wasn't teaching layout. He was teaching decision architecture. The grid removes an entire category of decisions from the design process. Where does this element go? The grid defines it. How wide is this column? Already specified. What's the relationship between the headline and the body copy? Built into the proportions. Each answer is consistent with every other answer because they all derive from the same structure.
+Müller-Brockmann was teaching decision architecture. The grid removes an entire category of decisions from the design process. Where does this element go? The grid defines it. How wide is this column? Already specified. What's the relationship between the headline and the body copy? Built into the proportions. Each answer is consistent with every other answer because they all derive from the same structure.
 
 This is the same operation that a design system performs in code. The variables file governs color, spacing, and typography. A developer building a component doesn't decide the spacing. The system specifies it. The developer implements what's specified. The consistency across a hundred screens comes from one structure, not from a hundred individual judgments.
 
 In the classroom, the schedule is the grid. Monday at 9:00 is math. Monday at 10:15 is reading. The schedule creates consistent temporal relationships that every student can internalize. A student who needs predictability gets it from the structure, not from the teacher announcing it fresh every morning. The schedule removes a category of decisions (what are we doing now?) from the student's cognitive load.
 
-Müller-Brockmann understood that the grid's value isn't aesthetic. It's cognitive. A viewer encountering a well-gridded publication can process the information faster because the spatial relationships are predictable. The eye knows where to find the headline, the body, the caption, the image. The viewer isn't consciously aware of the grid. They're aware that the publication feels organized. The grid is invisible when it's working. You notice its absence, not its presence.
+Müller-Brockmann understood that the grid's value is cognitive. A viewer encountering a well-gridded publication can process the information faster because the spatial relationships are predictable. The eye knows where to find the headline, the body, the caption, the image. The viewer isn't consciously aware of the grid. They're aware that the publication feels organized. The grid is invisible when it's working. You notice its absence, not its presence.
 
 The AI governance parallel is direct. A session governed by FormWork has a structure. Which tools run in what order. What context gets passed between them. What constraints apply at each step. The structure removes a category of decisions from the production process. The human doesn't decide how to organize the session. The structure decides. The human focuses on the content.
 

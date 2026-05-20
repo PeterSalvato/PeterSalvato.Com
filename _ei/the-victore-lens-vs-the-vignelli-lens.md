@@ -43,4 +43,4 @@ The disagreement between lenses is the whole point of running multiple evaluatio
 
 That's convergence. The framework surfaces the exact point where two legitimate standards disagree, names what's at stake, and asks the maker to choose. Restraint or bravery? Discipline or identity? On this page, for this audience, which one wins?
 
-The choices are the work.
+The choices, accumulated across dozens of evaluations, are where the work actually happens.

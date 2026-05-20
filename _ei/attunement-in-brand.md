@@ -39,4 +39,4 @@ On a platform that complex, attunement means reading two rooms at once. The end 
 
 The operation is the same in every case. Before I select the intervention, I read the room. At Aiden Jae, the room was a founder who knew her product and couldn't see what the screen was doing to it. At Altrueism, the room was a maker whose actual character was about to disappear into a category. At Encore, the room was a platform whose users needed the interface to work the way they already thought.
 
-Attunement isn't an abstract skill. It's the concrete practice of figuring out what the person or system on the other end actually needs before you start building. The brand work and the enterprise work look different. The move underneath is identical.
+Attunement is the concrete practice of figuring out what the person or system on the other end actually needs before you start building. The brand work and the enterprise work look different. The move underneath is the same one every time.

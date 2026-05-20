@@ -22,7 +22,7 @@ I had to recalibrate. Not abandon governance. Recalibrate the sensitivity.
 
 The positioning was another correction. For months I operated under a frame: "desirable because unavailable." The idea was that the site should signal someone who isn't looking for work, someone whose practice is visible but whose attention is scarce. The scarcity was supposed to be the positioning.
 
-That frame was wrong. Not because scarcity doesn't signal value. Because I was hiding. The frame gave me intellectual cover for not being visible enough. "I'm not looking for work" is true. "I should therefore be hard to find" is a conclusion that doesn't follow. The practice needs to be visible. The availability is what's scarce. Those are different things.
+That frame was wrong. Scarcity does signal value. But I was using the frame to hide. The frame gave me intellectual cover for not being visible enough. "I'm not looking for work" is true. "I should therefore be hard to find" is a conclusion that doesn't follow. The practice needs to be visible. The availability is what's scarce. Those are different things.
 
 The correction was to shift from "unavailable" to "visible and selective." The site shows everything. The work is public. The methodology is documented. The tools are open source. What's scarce is the consulting relationship, not the ideas. That correction changed how I think about every piece of content I publish.
 

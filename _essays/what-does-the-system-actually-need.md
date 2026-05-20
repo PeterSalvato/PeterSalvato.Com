@@ -47,4 +47,4 @@ The distinction matters. Prompt engineering treats the model as a system that ne
 
 The full framework is documented in the whitepaper [AI Governance as Accommodation Design](/research/accommodation-design/), with six tools built over three years of applied architecture. The [IEP essay](/essays/the-iep-for-ai-systems/) goes deep on the classroom origin: decomposition, [scaffolding](/vocabulary/scaffold/){:.vocab-ref}, individualized criteria. This essay names the framework and the question that drives it.
 
-The question is simple: what does this system actually need to do this job well? The AI governance field mostly starts from a different question: how do I make it do what I want. Where you start determines where you end up.
+The question is simple: what does this system actually need to do this job well? The AI governance field mostly starts from a different question: how do I make it do what I want. Those two starting points lead to very different architectures.

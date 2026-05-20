@@ -17,7 +17,7 @@ last_modified: 2026-03-14
 
 I started listening to Design Matters around 2015. Debbie Millman interviews designers, but the interviews aren't really about design. They're about the person. She asks where you grew up, what your parents did, what broke you, what you built after. Two hours in, you know whether someone is real. You can't fake it at that length.
 
-What I took from Millman wasn't a technique. It was a diagnostic. Three questions that, applied together, tell you whether a body of work belongs to a person or was assembled from available parts.
+What I took from Millman was a diagnostic. Three questions that, applied together, tell you whether a body of work belongs to a person or was assembled from available parts.
 
 ## Deliberate differentiation
 
@@ -35,7 +35,7 @@ Millman's best interviews have a moment where the guest stops performing. The au
 
 I claim governance expertise. I built FormWork. I built SavePoint. I wrote six papers about how to hold structure under pressure. So the test for me is: do I also tell you where my own governance failed? The Encore drift story is the answer. I watched a product I helped build lose coherence over three years because the governance I designed wasn't strong enough to survive my absence. That's not a hypothetical. I was there. I saw it happen. The failure is what made the framework real, because it showed me exactly what the framework needed to hold.
 
-If you only tell the success story, the Millman lens catches it. Authority without vulnerability is a brochure.
+If you only tell the success story, the Millman lens catches it. Authority that never shows the cracks reads like a brochure, and people can feel it.
 
 ## Life-arc coherence
 

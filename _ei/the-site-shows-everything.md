@@ -41,4 +41,4 @@ I sat down and thought out loud for three years. I built a system to mine that t
 
 Showing the work means showing that. The methodology pages aren't theory. They're documentation of the process that produced the site. The site is the proof the methodology works. The methodology pages are the proof the site isn't hand-written in the traditional sense.
 
-The transparency is the thesis. Everything that went into making this is visible. The tools, the protocols, the failures, the fixes. The site governing itself, describing itself, and proving itself. All the same artifact.
+That transparency runs through everything here. The tools, the protocols, the failures, the fixes. All visible. The site governing itself, describing itself, and proving itself, all in the same artifact.

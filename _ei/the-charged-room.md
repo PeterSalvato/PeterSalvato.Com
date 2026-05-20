@@ -45,6 +45,6 @@ That's the discipline. The same nine tracks in a different order tell a differen
 
 The dance floor taught me something I couldn't have learned from a book. Pacing is somatic before it's cognitive. You feel the valley before you understand why it was placed there. You feel the build before you can name the technique. The body processes the structure first, and the mind catches up later, if it catches up at all.
 
-The moment you notice the sequencing, the sequencing failed. The moment you become aware of the structure, the structure stopped working. A good set doesn't feel designed. It feels like something that happened to you.
+When you notice the sequencing, it already failed. A good set doesn't feel designed. It feels like something that happened to you.
 
 I spent years on those dance floors absorbing that principle before I had any use for it. I didn't know where it would go. I just knew it was real, and I knew it transferred, because the feeling was too precise and too repeatable to belong to only one room.

@@ -31,4 +31,4 @@ For my own site, this lens is the hardest one. The work is rigorous. The methodo
 
 The voice protocol tries to preserve this. The vocabulary rules reach for physical words because I think in physical terms. The rhythm rules match my conversational patterns because my writing should sound like me talking, not like me composing. But a protocol can only constrain. It can't inject personality that isn't in the source material.
 
-Draplin doesn't need a voice protocol. His personality is so strong it overwhelms any medium. That's the ideal state. A personality so embedded in the craft that no amount of processing can scrub it out. The protocol is the scaffolding for the rest of us.
+Draplin doesn't need a voice protocol. His personality is so strong it overwhelms any medium. That's the ideal state. A personality so embedded in the craft that no amount of processing can scrub it out. The rest of us need the protocol as scaffolding until the voice is that strong.

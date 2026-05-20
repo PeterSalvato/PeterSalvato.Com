@@ -13,7 +13,7 @@ domain: Education
 function: Payload
 last_modified: 2026-03-14
 ---
-Special education figured out the accommodation problem decades before tech started talking about "human-centered AI." The IEP (Individualized Education Program) is a living document that reads the student, identifies processing realities, and structures the environment so the student can succeed at the task. Not a deficit model. A design model. The system adjusts to serve how the person actually learns.
+Special education figured out the accommodation problem decades before tech started talking about "human-centered AI." The IEP (Individualized Education Program) is a living document that reads the student, identifies processing realities, and structures the environment so the student can succeed at the task. It's a design model, not a deficit model. The system adjusts to serve how the person actually learns.
 
 I wrote IEPs in a self-contained special education classroom in Brooklyn. A student with processing delays can't receive a compound instruction as one task. That's a processing reality, not a deficit. You accommodate it: decompose the task into discrete steps, scaffold the structure so each step has a clear entry point, individualize the criteria so success is measured against where that student actually is.
 

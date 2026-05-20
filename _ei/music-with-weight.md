@@ -29,10 +29,8 @@ But placed in the sequence, it broke the arc. It sat between two tracks that nee
 
 Something inside you feels a regret about that. You made something of quality and you're pulling it out. But if it degrades the larger picture, then it's not a choice. The album is the work, and the track is a component of it. And a component that doesn't serve the whole, no matter how good it is on its own, is the wrong component.
 
-This is the same discipline that governs every kind of sequencing I do. A case study that's strong on its own but breaks the arc of a portfolio page. A paragraph that's well-written but pulls focus from the argument. A feature that works in isolation but adds friction to the flow. The quality of the individual piece is not the question. The question is whether it serves the sequence.
+This is the same discipline that governs every kind of sequencing I do. A case study that's strong on its own but breaks the arc of a portfolio page. A paragraph that's well-written but pulls focus from the argument. A feature that works in isolation but adds friction to the flow. The quality of the individual piece matters less than whether it serves the sequence.
 
 DJ culture taught me this before design did. Standing behind a pair of turntables, you learn fast that the best track in your crate is not always the right track for this moment. The set has a shape. Your job is to honor the shape, not showcase the parts.
 
 I never released the cut track separately. It lived on a hard drive for a while and then I stopped thinking about it. The album went out as nine tracks. Trouble at the open. Space in the middle. Resolution at the close. The arc held because I let one strong piece go.
-
-The album went out as nine tracks. The cut track stayed on the drive. What made that possible was caring more about the arc than about any single thing I'd built for it.

@@ -26,7 +26,7 @@ The compulsion never went away. It just got more deliberate.
 
 Every system I build gets a name and a mark. SavePoint has a name and a syntax. FormWork has a name and a protocol structure. The Aetherwright has a name, a codex, eight glyphs, and a sigil. MathOnTape has a name and a visual identity built from dot-matrix type and halftone treatments. Even the meal prep system in my kitchen has a name in my head (I won't write it here because some things are better left private, but it exists).
 
-The naming is not vanity. It's formalization. When a system gets a name, it becomes a real thing. It becomes something you can point to, evaluate, maintain, improve. An unnamed system is a habit. A named system is an institution. The difference is structural. The habit might drift because nobody's checking it against a standard. The institution has a standard because the name declared one.
+The naming is formalization. When a system gets a name, it becomes a real thing. It becomes something you can point to, evaluate, maintain, improve. An unnamed system is a habit. A named system is an institution. The difference is structural. The habit might drift because nobody's checking it against a standard. The institution has a standard because the name declared one.
 
 Giving the Aetherwright a name, glyphs, and a codex was not decoration. It was a governance commitment. The name said: this framework is real and I will maintain it. The glyphs said: this symbolic language is closed and intentional. The codex said: these tenets have been written down and they govern behavior. None of that happens without the formalization. The framework stays in my head, informal, invisible, and eventually it drifts.
 
@@ -34,4 +34,4 @@ The [Aiden Jae](/evidence/aiden-jae/) glyph system operates the same way. A cust
 
 I watch this compulsion operate and I understand where it comes from. A kid in Brooklyn watching tags on trains. A teenager absorbing the consumer logo landscape of the nineties. A design student at SVA learning that marks carry meaning. A practitioner who discovered that the act of naming and marking a system is the act of committing to maintain it.
 
-The compulsion to brand everything is the compulsion to formalize. And formalization is the first move of governance. You can't govern what doesn't have a name.
+The compulsion to brand everything is the compulsion to formalize. And formalization is the first move of governance. Once a thing has a name, you can point at it, measure it, and hold it accountable. Before that, it's just instinct.
