@@ -5,7 +5,7 @@ permalink: /essays/
 redirect_from:
   - /blog/
 description: "Writing on design practice, education, AI governance, and how they're the same thing. Twenty-five years of the same operation across different materials."
-seo_keywords: ["design engineering", "design methodology", "systems architecture", "operational methodology", "AI governance", "design history", "design education", "persona extraction", "design engineering writing", "essays on AI and design", "neurodivergent design methodology"]
+seo_keywords: ["design methodology", "systems architecture", "creative AI practice", "AI governance", "design history", "design education", "essays on AI and design", "creative practitioner writing", "voice governance", "structural design thinking"]
 ---
 
 <div class="blog-index">

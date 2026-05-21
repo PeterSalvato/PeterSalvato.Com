@@ -3,7 +3,7 @@ layout: default
 title: "About"
 permalink: /about/
 description: "Who I am, how I think, and the vocabulary behind the work."
-seo_keywords: ["Peter Salvato", "design engineer", "about", "processing profile", "accommodation design"]
+seo_keywords: ["Peter Salvato", "creative practitioner", "about", "practice lineage", "accommodation design"]
 ---
 
 <div id="domain-index-page">

@@ -14,7 +14,11 @@ seo_keywords: ["design systems consulting", "brand coherence", "structural consu
 
 I look at what you have across brand, design, and technology. You get a written report: where things are drifting from your intent, what's causing it structurally, and what to fix first. The report is yours whether we work together after or not.
 
-If you want me to build the fix, we scope that together based on what the diagnostic turns up. Could be a brand system, a site architecture, an AI governance layer. Could be all three.
+**Architecture Pass**
+
+If the diagnostic turns up structural problems, this is where they get fixed. I build the system that holds things together: a brand architecture, a design system, an AI governance layer, a platform restructure. Could be one of those, could be all of them. Scope and pricing come from what the diagnostic found.
+
+The deliverable is the architecture itself, documented so your team can maintain it. I also document what was deliberately excluded and why, because knowing what you chose not to build is as important as knowing what you did.
 
 **Ongoing Advisory**
 
@@ -38,11 +42,21 @@ The practice is the same in every case. I figure out where intent stops survivin
 
 ---
 
+## Work
+
+**[Encore](/evidence/encore/)** — Thirteen years as principal architect on an enterprise recruiting platform. Held the design system and information architecture together through three technology shifts and over a thousand client deployments. What was not done: no rebuild from scratch, no framework migration for its own sake. Every structural decision had to survive contact with a distributed team and six continents of deployments.
+
+**[Aiden Jae](/evidence/aiden-jae/)** — Brand architecture and design system for a fine jewelry line. Built the structural layer connecting product photography, packaging, and retail presence into one coherent system. What was not done: no rebrand, no new visual identity. The identity was sound. The structure holding it together across touchpoints was not.
+
+**[Lionfish Music](/evidence/lionfish/)** — Licensing operations consulting for a music catalog. Structural audit of rights management, royalty tracking, and catalog organization. What was not done: no new software, no platform migration. The problem was organizational, not technical.
+
+---
+
 ## Background
 
-I spent thirteen years as principal architect on an [enterprise recruiting platform](/work/encore/), holding the design system and information architecture together through three technology shifts and over a thousand client deployments. I studied visual communication at SVA. I taught special education in Brooklyn, where I learned that the system receiving the work has its own processing reality, and you design around it. The [AI governance methodology](/research/) I published grew from that same practice.
+SVA for visual communication. Special education in Brooklyn, where I learned that the system receiving the work has its own processing reality, and you design around it. Thirteen years holding an [enterprise platform](/evidence/encore/) together through three technology shifts. The [AI governance methodology](/research/) I published grew from that same structural practice.
 
-I also teach this. [Joinery](https://joineryschool.com) is a school I founded for creative practitioners. Consulting applies it to your specific situation. The school teaches you to run it yourself.
+I also teach this. [Joinery](https://joineryschool.com) is a school for creative practitioners. Consulting applies it to your specific situation. The school teaches you to run it yourself.
 
 ---
 

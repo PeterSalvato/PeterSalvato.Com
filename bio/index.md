@@ -5,7 +5,7 @@ permalink: /bio/
 image: /assets/img/KidMe@4x-100.jpg
 image_caption: "Old Mill Basin, Brooklyn. ~1986"
 description: "Construction sites, print shops, enterprise platforms, classrooms, and AI tools. The lineage behind the work."
-seo_keywords: ["Peter Salvato", "design engineer", "SVA", "visual communication", "practice lineage", "compiled portfolio", "systems architecture", "provenance", "design engineer background", "SVA graphic design graduate", "special education to tech career"]
+seo_keywords: ["Peter Salvato", "SVA", "visual communication", "practice lineage", "compiled portfolio", "creative AI practitioner", "provenance", "SVA graphic design graduate", "special education to tech career", "creative practitioner AI"]
 last_modified: 2026-02-26
 ---
 
@@ -53,13 +53,13 @@ That skill (reading the room at the individual level, building structure that ac
 
 Every system I have built since starts by reading the person on the other end before designing anything.
 
-## Twelve Years at Cluen
+## Thirteen Years at Cluen
 
-Back in New York, I had a project support position at Metis Associates. When that ended, I got the job at Cluen Corporation. The [Encore Platform](/evidence/encore/), a recruitment engine serving some of the largest organizations in the world. I've spent twelve years building the front end: modular JS framework, full SCSS design system, information architecture across one of the most complex recruiting platforms in the industry.
+Back in New York, I had a project support position at Metis Associates. When that ended, I got the job at Cluen Corporation. The [Encore Platform](/work/encore/), a recruitment engine serving some of the largest organizations in the world. I've spent thirteen years building the front end: modular JS framework, full SCSS design system, information architecture across one of the most complex recruiting platforms in the industry.
 
-Twelve years is long enough to see three major technology shifts come and go. Long enough to learn that the hard part is not building something. It is keeping it alive while everything around it changes, and keeping everyone working on it aligned while the decisions accumulate.
+Thirteen years is long enough to see three major technology shifts come and go. Long enough to learn that the hard part is not building something. It is keeping it alive while everything around it changes, and keeping everyone working on it aligned while the decisions accumulate.
 
-I made the case for moving the platform to the browser, then built it. The platform never stopped running while I rebuilt the layer it ran on. [FormWork](/systems/formwork/) came from watching what happened over those twelve years when the decisions lived in my head instead of in the project.
+I made the case for moving the platform to the browser, then built it. The platform never stopped running while I rebuilt the layer it ran on. [FormWork](/systems/formwork/) came from watching what happened over those thirteen years when the decisions lived in my head instead of in the project.
 
 ## The Household
 
@@ -77,7 +77,7 @@ I grew up in New York's club and rave culture in the late nineties: Tunnel, Twil
 
 In 2023 I started thinking out loud into AI tools the way I'd been thinking into sketchbooks and production shops for twenty years. The first thing I did was what I'd done with every system before it: ask what it actually needs to do the job. How does it find context? Where does it lose the thread? What does it need from me so the thinking survives? The tool was new. The question was the same.
 
-The worst loss was a novel. Months of [New City](/practice/new-city/) ideation distributed across dozens of sessions, the continuity severed when the sessions closed. That loss built the [Savepoint Syntax](/systems/savepoint/). The first version failed immediately. Three more before the structure held. Then the same problem surfaced in code: contributors contradicting each other's architectural decisions. That produced [FormWork](/systems/formwork/).
+The worst loss was a novel. Months of [New City](/work/new-city/) ideation distributed across dozens of sessions, the continuity severed when the sessions closed. That loss built the [Savepoint Syntax](/systems/savepoint/). The first version failed immediately. Three more before the structure held. Then the same problem surfaced in code: contributors contradicting each other's architectural decisions. That produced [FormWork](/systems/formwork/).
 
 The failure modes were not new. Joints that cannot carry load, context that drifts when nobody maintains fidelity to it, structures that break when the people operating them cannot see what has already been decided. I have been solving that problem since construction sites. That corpus, three years of sessions and thousands of conversations, became the raw material this site was compiled from. The tools are different now, but the engineering is the same engineering I learned watching my father coordinate fifty trades.
 
