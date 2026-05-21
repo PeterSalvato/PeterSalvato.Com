@@ -9,9 +9,9 @@ description: "Structural brand reading of Supreme's web presence. Scarcity as br
 seo_keywords: ["Supreme brand analysis", "brand coherence", "scarcity branding", "streetwear brand", "structural brand reading", "Peter Salvato"]
 published: true
 opener: |
-  Same eight lenses. I came up in the New York Supreme era. Lafayette Street in the late nineties, early 2000s. So I have a specific relationship with this brand that predates the website by years.
+  I came up in the New York Supreme era. Lafayette Street in the late nineties, early 2000s. My relationship with this brand predates the website by years.
 
-  Supreme is the opposite of every other brand I've read. Every other site has too much content or the wrong content or content in the wrong place. Supreme has almost nothing. And that's the whole point.
+  Supreme is the opposite of every other brand I've looked at. Every other site has too much content or the wrong content or content in the wrong place. Supreme has almost nothing. And that's the whole point.
 analysis: |
   Supreme is attuned to one thing: scarcity. Total commitment to one principle. I think Supreme's website is the purest [brand voice](/practice/voice-governance/) expression I've read, and it achieves that by having almost no content at all. The site commits to scarcity the same way the product does. There's almost nothing there and the nothing is doing all the work.
 

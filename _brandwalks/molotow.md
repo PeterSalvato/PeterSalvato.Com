@@ -9,7 +9,7 @@ description: "Structural brand reading of Molotow's web presence. Product engine
 seo_keywords: ["Molotow brand analysis", "brand coherence", "graffiti brand", "structural brand reading", "Peter Salvato", "Molotow markers"]
 published: false
 opener: |
-  Same eight lenses. Molotow makes spray cans and markers for graffiti writers and fine artists. They've been at it since 1996, operating out of Lahr in the Black Forest region of Germany with 33 employees. They have a decommissioned Deutsche Bahn train car in their parking lot that international artists paint on rotation. That detail tells you who this company is faster than anything on their website does.
+  I've used Molotow markers and cans for years, for graffiti and for stencil work. They've been at it since 1996, operating out of Lahr in the Black Forest region of Germany with 33 employees. They have a decommissioned Deutsche Bahn train car in their parking lot that international artists paint on rotation. That detail tells you who this company is faster than anything on their website does.
 
   I wanted to see how the web presence holds that identity together. What I found is a brand with genuine subcultural authority, real product engineering, and a web architecture that scatters all of it across three disconnected domains.
 analysis: |

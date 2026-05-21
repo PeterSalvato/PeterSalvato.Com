@@ -9,7 +9,7 @@ description: "Structural brand reading of Moog's web presence. Atmosphere, craft
 seo_keywords: ["Moog brand analysis", "brand coherence", "brand atmosphere", "synthesizer brand", "structural brand reading", "Peter Salvato"]
 published: true
 opener: |
-  Same eight lenses. Moog is interesting because the atmosphere does almost all the work. The palette, the typography, the spacing all say the same thing before you've read a word. I think this is the most coherent brand environment I've read other than Ableton, and it achieves that coherence in a completely different way.
+  I use analog synthesis in my music production. Moog is the standard. And the site is interesting because the atmosphere does almost all the work. The palette, the typography, the spacing all say the same thing before you've read a word. This is one of the most coherent brand environments I've looked at, and it achieves that coherence without saying much at all.
 analysis: |
   I think the [brand voice](/practice/voice-governance/) on this site is almost entirely in the atmosphere. The copy is minimal. The dark palette, the spacing, the photographic treatment are doing the work that most brands try to do with words.
 

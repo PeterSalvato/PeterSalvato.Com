@@ -9,9 +9,9 @@ description: "Structural brand reading of Braun's web presence. Dieter Rams, P&G
 seo_keywords: ["Braun brand analysis", "Dieter Rams brand", "brand coherence", "design heritage", "structural brand reading", "Peter Salvato"]
 published: false
 opener: |
-  Same eight lenses. Braun is personal for me. I named one of my evaluation lenses "Economy" after Rams. The T3 pocket radio, the SK 4 record player, the ET 66 calculator. These objects taught a generation of designers that restraint is a position, not a compromise. Apple's entire design language through the Ive era was a direct reading of Rams. So I wanted to see what happens when you point the lenses at the web presence of the company that made those objects.
+  I named one of my evaluation lenses "Economy" after Rams. The T3 pocket radio, the SK 4 record player, the ET 66 calculator. These objects taught a generation of designers that restraint is a position, not a compromise. So I wanted to see what the web presence looks like for the company that made them.
 
-  What I found is two companies sharing one URL. A grooming products retailer running a P&G e-commerce operation, and a design heritage museum accessible only through the UK site's basement. The split is total. The US site has no design page at all. The flagship product page describes "899 unique holes" in a shaver foil. The Dieter Rams biography lives three clicks deep on a regional variant. One hundred years of the most influential industrial design program in history, and the front door is a razor promotion.
+  What I found is two companies sharing one URL. A grooming products retailer running a P&G e-commerce operation, and a design heritage museum accessible only through the UK site's basement. The US site has no design page at all. The Dieter Rams biography lives three clicks deep on a regional variant. One hundred years of the most influential industrial design program in history, and the front door is a razor promotion.
 analysis: |
   The US homepage is a consumer electronics storefront. IPL devices, electric shavers, epilators, a newsletter signup offering $125 off. The navigation reads: Products, Special Offers, Tips & Tutorials, BraunCare+, About Braun, Service. Six links. Four are transactional. "About Braun" on the US site returns a 404. The page does not exist.
 

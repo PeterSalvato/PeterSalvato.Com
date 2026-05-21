@@ -9,7 +9,7 @@ description: "Structural brand reading of Dickies' web presence. Heritage identi
 seo_keywords: ["Dickies brand analysis", "brand coherence", "workwear brand", "brand authenticity", "structural brand reading", "Peter Salvato"]
 published: true
 opener: |
-  Same eight lenses. I wear Dickies, so this one is personal in a different way than Martin. I wear them because they're cheap, durable, and they don't try to be anything. That last part is the interesting thing about the brand, and I wanted to see if the website holds that.
+  I wear Dickies. I wear them because they're cheap, durable, and they don't try to be anything. That last part is the interesting thing about the brand, and I wanted to see if the website holds that.
 analysis: |
   Dickies has a problem that most brands would love to have. The brand identity is so embedded in culture that the website almost doesn't matter. Skaters, artists, mechanics, construction workers, nurses. People wear Dickies because Dickies are Dickies. The brand barely has to speak because the audience already knows.
 

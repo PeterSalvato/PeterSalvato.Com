@@ -10,9 +10,9 @@ description: "Structural brand reading of Ableton's web presence through eight e
 seo_keywords: ["Ableton brand analysis", "brand coherence", "voice drift", "brand voice AI", "structural brand reading", "Peter Salvato"]
 published: true
 opener: |
-  I built eight evaluation lenses for reading brand coherence, each one extracted from practitioners I've studied. I ran them against Ableton's web presence using AI tools, then walked through the results myself. The lenses surface structural patterns. The seeing is mine.
+  I've used Ableton since version 3. It's where I write and produce everything. I know this software the way a carpenter knows a table saw, so reading the brand feels different from the outside reads. I'm not evaluating a stranger's house. I'm looking at the front door of a place I've lived in for years.
 
-  The interesting thing about Ableton is that the lenses mostly agreed with each other, which almost never happens. The one place they disagreed turned out to be the whole finding.
+  The interesting thing is that almost everything on the site agrees with itself. The one place it doesn't turned out to be the whole finding.
 analysis: |
   This is [voice drift](/practice/voice-governance/), and voice drift is an accommodation failure. The blog team is attuned to artists. They know who they're writing for, and the voice holds because of that attunement. The about page team isn't attuned to anyone. The brand voice held across every product page, every blog post, every learning resource and then lost [coherence](/practice/lens-extraction/) on the one page that tells the company's own story. The customer-facing work is tight because that's where the creative team focuses. The corporate pages use a different register because someone else wrote them and nobody checked whether they sounded like the same company.
 

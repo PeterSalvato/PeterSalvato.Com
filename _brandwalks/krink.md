@@ -9,9 +9,9 @@ description: "Structural brand reading of Krink's web presence through eight eva
 seo_keywords: ["Krink brand analysis", "brand coherence", "graffiti brand", "Craig Costello", "structural brand reading", "Peter Salvato"]
 published: true
 opener: |
-  Same eight lenses. Krink is interesting because I came in expecting a tool brand and found an agency. Craig Costello started making markers in the nineties for writers who needed something specific that didn't exist. The K-60, the drip aesthetic, the whole visual language of Krink came from one person solving one problem. I wanted to see if the site still carries that signal or if the collaborations have taken over.
+  I know Krink from the writing world. Craig Costello started making markers in the nineties for writers who needed something specific that didn't exist. The K-60, the drip aesthetic, the whole visual language came from one person solving one problem. I wanted to see if the site still carries that signal or if the collaborations have taken over.
 
-  The lenses split hard on this one. Atmosphere and discipline scored high. Authenticity and narrative disagreed with each other. That disagreement turned out to be the whole reading.
+  Atmosphere and discipline are strong. Authenticity and narrative disagree with each other. That disagreement is the whole reading.
 analysis: |
   Krink is a [Shaw Principle](/practice/voice-governance/) case study. Craig Costello's markers, his drip aesthetic, his studio in Sunset Park, Brooklyn. The maker and the brand should be one inseparable signal. You should walk onto this site and know who this person is before you've read a word. And the atmosphere almost gets there. Black and white, rotating accent colors cycling through marker ink tones (magenta, lime, orange, cyan), clean Shopify grid. The room is right.
 

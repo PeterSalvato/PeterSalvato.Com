@@ -9,13 +9,9 @@ description: "Structural brand reading of Carhartt and Carhartt WIP as a single 
 seo_keywords: ["Carhartt brand analysis", "Carhartt WIP", "brand coherence", "brand architecture", "workwear brand", "structural brand reading", "Peter Salvato"]
 published: false
 opener: |
-  Same eight lenses. But this time, two websites.
+  I come from construction. I wear Carhartt the way it was meant to be worn. But I also came up around the streetwear world where the same logo means something completely different. So this one is personal on two sides.
 
-  Carhartt (carhartt.com) is a 137-year-old workwear company out of Detroit. Family-owned, four unionized American factories, triple-stitched 12-ounce cotton canvas. Hamilton Carhartt started it in 1889 with two sewing machines and five workers. The slogan was "Honest value for an honest dollar." Current revenue is $1.8 billion.
-
-  Carhartt WIP (carhartt-wip.com) is a European streetwear label. Swiss designers Edwin and Salomee Faeh got a license in 1994 to create their own clothing under the Carhartt name. Stores in Paris, Milan, London, Barcelona, New York, Los Angeles. Collaborations with Comme des Garcons, A.P.C., Vetements, Junya Watanabe, A Bathing Ape. Marketed alongside Stussy and Supreme.
-
-  Same logo. Same name. Two completely different companies selling to two completely different people through two completely different websites built on two completely different tech stacks. I wanted to see what happens to [brand coherence](/practice/lens-extraction/) when the brand literally forks itself.
+  Carhartt (carhartt.com) is a 137-year-old workwear company out of Detroit. Family-owned, four unionized American factories, triple-stitched 12-ounce cotton canvas. Carhartt WIP (carhartt-wip.com) is a European streetwear label with stores in Paris, Milan, and New York, collaborating with Comme des Garcons and Vetements. Same logo. Same name. Two completely different companies selling to two completely different people. I wanted to see what happens to brand coherence when the brand literally forks itself.
 analysis: |
   The first thing I noticed is that these are not two halves of one brand. They are two separate organizations that happen to share a trademark. Carhartt mainline runs on Angular. WIP runs on React. Carhartt's design system uses Tungsten and Trade Gothic typefaces with a blue primary color (#055f9f). WIP uses its own type system, its own color palette, its own campaign language. "Softening the Edges" and "Snake Camo" are WIP campaigns. "True to This" is mainline. There is no shared visual scaffold. No shared navigation. No acknowledgment that the other site exists.
 

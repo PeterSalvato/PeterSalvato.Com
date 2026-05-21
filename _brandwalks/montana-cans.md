@@ -9,9 +9,9 @@ description: "Structural brand reading of Montana Cans' web presence. German eng
 seo_keywords: ["Montana Cans brand analysis", "brand coherence", "graffiti brand", "spray paint brand", "structural brand reading", "Peter Salvato"]
 published: true
 opener: |
-  Same eight lenses. I know this brand from the inside. I carried Montana cans before I carried a portfolio. The BLACK line was the standard in every crew I ran with because the pressure was right, the coverage was opaque in one pass, and the color chart didn't lie to you. When you're painting at three in the morning, you need a tool that works exactly the way it says it will.
+  I carried Montana cans before I carried a portfolio. The BLACK line was the standard in every crew I ran with because the pressure was right, the coverage was opaque in one pass, and the color chart didn't lie to you. When you're painting at three in the morning, you need a tool that works exactly the way it says it will.
 
-  Montana Cans sits at an interesting seam. It grew out of graffiti culture, scaled into fine art and industrial applications, and now serves everyone from street painters to gallery artists to DIY hobbyists. The site has to hold all of those audiences. I wanted to see if it does.
+  Montana grew out of graffiti culture, scaled into fine art and industrial applications, and now serves everyone from street painters to gallery artists to DIY hobbyists. The site has to hold all of those audiences. I wanted to see if it does.
 analysis: |
   Montana built its reputation one can at a time. The BLACK line established the brand with writers who needed high pressure, fast coverage, and a color that matched the cap. The GOLD line expanded into fine art with a low-pressure valve that gave studio artists the control they needed. The technical range (primers, varnishes, texture effects, metallic, crackle, marble, hologram) pushed into territory that has nothing to do with graffiti at all. Each product line solves a real problem for a specific user. The individual pieces hold.
 

@@ -9,9 +9,9 @@ description: "Structural brand reading of Field Notes' web presence. Forensic ma
 seo_keywords: ["Field Notes brand analysis", "brand coherence", "structural brand reading", "Peter Salvato", "Field Notes design", "Draplin"]
 published: true
 opener: |
-  Same eight lenses. I own Field Notes. I've bought them for years. Draplin is a positioning peer in the sense that we both work at the intersection of design, craft, and personal voice. So this reading matters to me differently than the others. I wanted to see if the site holds the same way the notebooks hold in your hand.
+  I've bought Field Notes for years. Draplin works at the same intersection I do: design, craft, and personal voice. So this reading matters to me differently. I wanted to see if the site holds the same way the notebooks hold in your hand.
 
-  What I found is a brand with extraordinary fidelity at the component level and a site that doesn't quite scaffold that fidelity into a coherent structural experience. The pieces are beautiful. The whole drifts.
+  What I found is a brand with extraordinary fidelity at the component level and a site that doesn't quite scaffold it into a coherent experience. The pieces are beautiful. The whole drifts.
 analysis: |
   Field Notes has the deepest material [voice](/practice/voice-governance/) of any brand I've read. The Original Kraft product page names the paper stock (French Dur-O-Tone 80#C "Packing Brown Wrap"), the ink (soy-based Toyo "Dachshund Nose" black), the press (Mitsubishi Diamond Series 40" 6-color), the printer (Service Graphics, Inc., Oakbrook Terrace, Illinois), the corner radius (3/8", 9.5mm), the stitcher (Heidelberg ST350). This is not marketing copy. This is a spec sheet written by someone who stood next to the press and watched the sheets come off. That level of material attention is the brand's actual identity. It communicates more about who Field Notes is than any tagline could.
 

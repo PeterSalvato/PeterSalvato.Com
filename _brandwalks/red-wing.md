@@ -9,7 +9,7 @@ description: "Structural brand reading of Red Wing Shoes' web presence. Heritage
 seo_keywords: ["Red Wing brand analysis", "brand coherence", "heritage brand", "structural brand reading", "workwear brand", "Peter Salvato"]
 published: false
 opener: |
-  Same eight lenses. My father was a general superintendent on construction sites. Red Wing boots were on those sites every day. So this one hits a specific frequency for me. The brand represents a world I grew up next to, a world where quality meant something because the work was dangerous and the tools had to hold.
+  My father was a general superintendent on construction sites. Red Wing boots were on those sites every day. The brand represents a world I grew up next to, where quality meant something because the work was dangerous and the tools had to hold.
 
   I wanted to see if the website holds the way the boots do.
 analysis: |

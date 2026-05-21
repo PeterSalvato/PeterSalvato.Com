@@ -9,7 +9,7 @@ description: "Structural brand reading of Lodge Cast Iron's web presence. Herita
 seo_keywords: ["Lodge Cast Iron brand analysis", "brand coherence", "structural brand reading", "Peter Salvato"]
 published: false
 opener: |
-  Same eight lenses. I cook with Lodge every day. A 10-inch skillet, a 12-inch skillet, a dutch oven. I wrote thirteen chapters about kitchen systems. The pan is part of the infrastructure. So when I read this brand, I'm reading a company whose product I trust with dinner and whose website I've never thought about once. That gap is the reading.
+  I cook with Lodge every day. A 10-inch skillet, a 12-inch skillet, a dutch oven. The pan is part of the infrastructure. I trust this company's product with dinner and I've never thought about their website once. That gap is the reading.
 analysis: |
   Lodge has something most brands spend decades trying to manufacture: genuine material credibility. Founded in 1896 in South Pittsburg, Tennessee. Still pouring iron in the same town, now across two foundries. First company to season cast iron at the factory, in 2002. The product is the [scaffold](/practice/accommodation-design/). It does what it says. It lasts longer than the person who buys it. That part is airtight.
 

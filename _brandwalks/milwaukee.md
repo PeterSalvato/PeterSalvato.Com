@@ -10,9 +10,9 @@ description: "Structural brand reading of Milwaukee Tool's web presence. Visual 
 seo_keywords: ["Milwaukee Tool brand analysis", "brand coherence", "brand narrative", "structural brand reading", "brand voice", "Peter Salvato"]
 published: true
 opener: |
-  Same eight lenses, same AI-assisted process. Very different building.
+  I came up in construction. I've used Milwaukee tools on job sites. The M18 platform is genuinely well-built and tradespeople know it.
 
-  Milwaukee is interesting because the lenses disagreed with each other more than on any other brand I've read. The visual coherence scored high across the board. The narrative coherence scored near zero. That disagreement is the finding.
+  What's interesting is the gap between what they've built and how they talk about it. The visual coherence is airtight. The narrative coherence is near zero. That disagreement is the finding.
 analysis: |
   Milwaukee has visual coherence and zero narrative coherence. Everything looks like Milwaukee. Nothing sounds like anyone in particular. The colors hold. The [brand voice](/practice/voice-governance/) is absent. The products are accommodated: good architecture, good system design, clear platform logic. The brand story is not. Nobody is attuned to the narrative.
 

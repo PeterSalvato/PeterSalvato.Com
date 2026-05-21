@@ -10,7 +10,7 @@ description: "Structural brand reading of Martin Guitar's web presence. Coherenc
 seo_keywords: ["Martin Guitar brand analysis", "brand coherence", "heritage brand", "brand voice", "structural brand reading", "Peter Salvato"]
 published: true
 opener: |
-  Same eight lenses. This one's personal because I play a Martin and I walked into this site with a picture in my head of what it should feel like. The lenses help with that. They don't care what I expected. They evaluate what's there.
+  I play a Martin. I walked into this site with a picture in my head of what it should feel like.
 
   What's there is a split. The best content I've found on any brand site is three clicks deep on a page most visitors will never see. The weakest content is the homepage.
 analysis: |

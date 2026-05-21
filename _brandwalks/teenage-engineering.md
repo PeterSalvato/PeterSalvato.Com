@@ -9,9 +9,9 @@ description: "Structural brand reading of Teenage Engineering's web presence. Pr
 seo_keywords: ["Teenage Engineering brand analysis", "brand coherence", "product design brand", "structural brand reading", "Peter Salvato"]
 published: false
 opener: |
-  Same eight lenses. Teenage Engineering is a brand I've watched for years because the product design is so obviously considered. Every object they make looks like it was argued over at the millimeter level. So I wanted to see whether that obsession translated to the web presence, or whether the site was just a storefront for beautiful hardware.
+  I can't afford Teenage Engineering. I've never used one. But I've watched this brand for years because the product design is so obviously considered that I can't look away. Every object they make looks like it was argued over at the millimeter level. That's a specific kind of design appreciation: you don't own the thing, but you study it because the decisions are visible.
 
-  What I found is that the product pages are extraordinary and almost everything around them is either missing or thin. That gap is the whole reading.
+  I wanted to see whether that obsession translated to the web presence. What I found is that the product pages are extraordinary and almost everything around them is either missing or thin.
 analysis: |
   Teenage Engineering builds every product page like it's a standalone gallery. The OP-1 field gets patient editorial treatment, a narrative about evolution, detailed illustration of internal architecture, language like "we didn't want to alter the original OP-1 too much, because we think we got it more or less right the first time." The EP-133 opens with a Muhammad Ali quote and positions a $329 sampler as creative ambition. The Choir page turns eight wooden dolls into characters with names and backstories. Each product page is a self-contained world with its own atmosphere. And each one holds.
 
