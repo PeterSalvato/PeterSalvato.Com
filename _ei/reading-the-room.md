@@ -2,7 +2,7 @@
 layout: post
 title: "Reading the Room"
 date: 2026-03-09
-published: true
+published: false
 description: "THE ANCHOR."
 seo_keywords: ['music', 'attunement', 'somatic design', 'three layer model', 'Peter Salvato', 'design engineering']
 series: "engineering-intent"

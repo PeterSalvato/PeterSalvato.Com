@@ -25,12 +25,6 @@ layout: null
     <lastmod>{{ doc.last_modified | date: "%Y-%m-%d" }}</lastmod>{% endif %}
   </url>
   {% endif %}{% endfor %}
-  {% for doc in site.evidence %}{% if doc.published != false %}
-  <url>
-    <loc>{{ doc.url | absolute_url }}</loc>{% if doc.last_modified %}
-    <lastmod>{{ doc.last_modified | date: "%Y-%m-%d" }}</lastmod>{% endif %}
-  </url>
-  {% endif %}{% endfor %}
   {% for doc in site.essays %}{% if doc.published != false %}
   <url>
     <loc>{{ doc.url | absolute_url }}</loc>{% if doc.date %}
