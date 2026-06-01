@@ -3,8 +3,8 @@ layout: post
 title: "Build a Voice Governance Checklist"
 date: 2026-03-09
 published: true
-description: "Anti-slop in practice."
-seo_keywords: ['ai', 'governance', 'fidelity', 'Peter Salvato', 'design engineering']
+description: "A checklist that catches AI voice drift before it ships. Banned words, structural patterns, register checks, closer tests. Twelve items. Pass or fail."
+seo_keywords: ['AI brand voice checklist', 'voice governance checklist', 'AI writing quality checklist', 'AI content review checklist', 'brand voice AI check', 'AI copy quality control', 'anti-slop checklist', 'AI writing review process']
 series: "engineering-intent"
 zone: 4
 sequence: 142
@@ -12,7 +12,7 @@ depth: making
 domain: Practicum
 function: SEO
 seed_status: DEEP
-last_modified: 2026-03-14
+last_modified: 2026-06-01
 ---
 
 AI copy all sounds the same because nobody built the checklist to prevent it. The default output has em dashes everywhere, negation-affirmation patterns ("Not X. Y.") on every other paragraph, fortune-cookie closers, and a register that belongs to no specific person. You can hear it without reading more than two sentences. The fix is a governance checklist: specific, enforceable rules that catch the failure modes before they ship.

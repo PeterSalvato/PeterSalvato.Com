@@ -3,8 +3,8 @@ layout: post
 title: "The Executive Function Problem as a Design Problem"
 date: 2026-03-30
 published: true
-description: "Executive function is a finite resource. The system's job is to stop spending it on solved problems."
-seo_keywords: ['executive function', 'design', 'accommodation', 'Peter Salvato', 'design engineering']
+description: "Executive function is a finite resource. Every routine that depends on someone remembering depletes it. The fix is structural: design the system so it stops spending willpower on solved problems."
+seo_keywords: ['executive function tools', 'executive function systems', 'ADHD productivity system', 'executive function design', 'reduce decision fatigue', 'household systems ADHD', 'executive function support', 'neurodivergent productivity', 'design for executive function']
 series: "engineering-intent"
 zone: 3
 sequence: 73
@@ -12,7 +12,7 @@ depth: making
 domain: Operational methodology + Education
 function: Payload
 seed_status: DEEP
-last_modified: 2026-03-30
+last_modified: 2026-06-01
 ---
 
 Breakfast was taking 90 minutes. Four people, different needs, every morning starting from scratch. What are we eating? Do we have the ingredients? Who wants what? Is this acceptable to the kid who can only eat six foods? Every morning, the same decisions. Every morning, spending executive function on problems that had already been solved yesterday.

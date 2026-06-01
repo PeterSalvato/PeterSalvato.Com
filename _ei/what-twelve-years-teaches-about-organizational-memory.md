@@ -3,8 +3,8 @@ layout: post
 title: "What Twelve Years Teaches About Organizational Memory"
 date: 2026-03-30
 published: true
-description: "I've outlasted every developer, every designer, every product manager. The system remembers what the people forgot."
-seo_keywords: ['organizational memory', 'enterprise', 'Encore', 'Peter Salvato', 'design engineering']
+description: "Twelve years on one enterprise platform. Every developer, designer, and product manager turned over. The decisions lived in my head until I built systems to hold them."
+seo_keywords: ['organizational memory', 'institutional memory', 'enterprise knowledge management', 'organizational knowledge loss', 'institutional memory software', 'knowledge transfer', 'design system institutional memory', 'platform longevity']
 series: "engineering-intent"
 zone: 3
 sequence: 91
@@ -12,7 +12,7 @@ depth: making
 domain: Operational methodology + Design practice
 function: Payload
 seed_status: DEEP
-last_modified: 2026-03-30
+last_modified: 2026-06-01
 ---
 
 Thirteen years at one company. I've outlasted every developer who was there when I started. Every designer. Every product manager. The people who made the original decisions are gone. The decisions are still in the code.

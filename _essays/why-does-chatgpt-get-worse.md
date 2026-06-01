@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Why Does ChatGPT Get Worse the More You Type?"
-description: "Your AI gives sharp answers at the start of a conversation and vague ones by the end. It's a processing constraint that special education teachers have been designing around for decades."
-seo_keywords: ["why ChatGPT gets worse", "AI output degrades", "ChatGPT long conversation problems", "context window explained", "AI forgets earlier messages", "how to get better AI results", "ChatGPT losing context", "accommodation design", "processing profile", "special education AI"]
+title: "Why Does ChatGPT Get Worse? (And What to Do About It)"
+description: "ChatGPT gives sharp answers at first, then gets vague. It's a processing constraint, and special education teachers have been designing around it for decades."
+seo_keywords: ["why ChatGPT gets worse", "AI output degrades", "ChatGPT long conversation problems", "context window explained", "AI forgets earlier messages", "how to get better AI results", "ChatGPT losing context", "accommodation design", "processing profile", "special education AI", "chatgpt getting worse 2026", "chatgpt quality degradation", "AI context window problem", "chatgpt loses context", "why is chatgpt getting dumber", "AI conversation length", "chatgpt output quality"]
 published: true
 order: 13
 icon: edit_note
-last_modified: 2026-03-11
+last_modified: 2026-06-01
 related:
   - /research/accommodation-design
   - /systems/savepoint

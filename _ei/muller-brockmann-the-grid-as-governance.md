@@ -3,11 +3,11 @@ layout: post
 title: "Muller-Brockmann: The Grid as Governance"
 date: 2026-03-19
 published: true
-description: "The twelve-column grid is a governance framework that produces coherent output across practitioners working independently."
-seo_keywords: ["Muller-Brockmann", "grid systems", "design governance", "Swiss Style", "design systems", "Formwork", "systematic design", "Peter Salvato"]
+description: "Müller-Brockmann didn't design grids for aesthetics. He built governance systems: constraints that hold visual coherence across contributors and time."
+seo_keywords: ["Müller-Brockmann grid system", "Swiss design grid", "grid system design", "typographic grid", "Müller-Brockmann design principles", "Swiss style graphic design", "grid as governance", "design grid system"]
 series: "engineering-intent"
 seed_status: DEEP
-last_modified: 2026-03-19
+last_modified: 2026-06-01
 ---
 
 There's a spread in Josef Muller-Brockmann's *Grid Systems in Graphic Design* where he shows the same content laid out three different ways on the same grid. Three different designers could have produced those three layouts. Each one looks distinct. Each one makes different compositional choices about where to place images, how to break text, how much white space to leave. And all three are coherent with each other, because the grid holds the structural decisions that none of the individual designers needed to make.

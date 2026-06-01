@@ -2,12 +2,13 @@
 layout: post
 redirect_from:
   - /blog/voice-governance/
-title: "Voice Governance"
+title: "Why AI Copy All Sounds the Same (And How to Fix It)"
 published: true
 order: 3
 icon: edit_note
-description: "AI copy all sounds the same because it learned from published writing. Published writing is performing. Real voice is in conversations."
-seo_keywords: ["AI voice", "voice governance", "AI copywriting", "voice protocol", "AI writing quality", "Peter Salvato", "copy verification", "why does AI writing sound generic", "AI copy sounds the same", "how to make AI write in my voice", "AI tone of voice", "ChatGPT writing sounds fake", "brand voice AI"]
+description: "AI-assisted copy all sounds identical because models learn from published writing, not conversation. The fix is structural, not a better prompt."
+seo_keywords: ["why does AI copy sound the same", "AI brand voice", "how to keep brand voice with AI", "AI writing sounds generic", "how to make AI write in my voice", "AI voice governance", "ChatGPT brand voice", "AI content sounds like everyone", "train AI on your voice", "voice protocol AI", "AI copy generic fix"]
+last_modified: 2026-06-01
 related:
   - /research/voice-governance
   - /systems/lensarray

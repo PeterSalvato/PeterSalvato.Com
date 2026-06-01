@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Self-Hosting as Sovereignty"
+title: "Why I Self-Host Everything"
 date: 2026-03-09
 published: true
-description: "Why I run my own services."
-seo_keywords: ['ai', 'governance', 'constraint', 'Peter Salvato', 'design engineering']
+description: "I run my own media server, cloud storage, VPN, and AI tools on hardware I own. Not because it's easier. Because I don't want to rent my infrastructure."
+seo_keywords: ['why self-host', 'self-hosting benefits', 'self-hosted services', 'self-hosting vs cloud', 'homelab', 'self-hosted alternatives', 'local-first', 'sovereign infrastructure', 'self-host media server']
 series: "engineering-intent"
 zone: 3
 sequence: 107
@@ -12,7 +12,7 @@ depth: room
 domain: Personal/domestic
 function: Positioning
 seed_status: DEEP
-last_modified: 2026-03-14
+last_modified: 2026-06-01
 ---
 
 I run Jellyfin for media, Nextcloud for cloud storage, qBittorrent through a VPN container, a dashboard with Docker socket access, and a cooking mentor agent backed by FAISS and PostgreSQL. All of it on my own hardware. No subscriptions beyond the internet connection and the electricity.

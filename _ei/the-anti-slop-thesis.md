@@ -1,17 +1,17 @@
 ---
 layout: post
-title: "The Anti-Slop Thesis"
+title: "The Anti-Slop Thesis: Why AI Content Sounds Generic (And What I Built to Fix It)"
 date: 2026-03-08
 published: true
-description: "I use AI every day. I also built an entire infrastructure to make sure it doesn't erase the person using it. That's not contradictory. That's governance."
-seo_keywords: ["anti-slop", "AI governance", "voice protocol", "AI writing", "content quality", "human-AI collaboration"]
+description: "AI content sounds generic because the defaults are generic. I use AI every day and built a governance infrastructure to make sure it doesn't erase the person using it."
+seo_keywords: ["AI slop", "why does AI content sound generic", "AI writing quality", "generic AI content", "how to fix AI writing", "AI content governance", "AI voice protocol", "anti-slop", "AI output quality", "human-AI collaboration", "AI writing sounds the same"]
 series: "punk"
 zone: 3
 sequence: 95
 depth: machine
 domain: AI/governance
 function: SEO+Payload
-last_modified: 2026-03-14
+last_modified: 2026-06-01
 seed_status: DEEP
 ---
 

@@ -3,8 +3,8 @@ layout: post
 title: "Drift: How Good Work Dies Slowly"
 date: 2026-03-09
 published: true
-description: "Broken windows."
-seo_keywords: ['enterprise', 'drift', 'Peter Salvato', 'design engineering']
+description: "Every decision made sense in isolation. Nobody was watching the cumulative effect. That's drift: how good work dies slowly without anyone noticing."
+seo_keywords: ['design system drift', 'prevent design system drift', 'design drift', 'design system maintenance', 'design system governance', 'UI consistency', 'component drift', 'design system decay', 'design debt']
 series: "engineering-intent"
 zone: 2
 sequence: 64
@@ -12,7 +12,7 @@ depth: reading
 domain: Design practice
 function: Payload
 seed_status: CAPTURED
-last_modified: 2026-03-15
+last_modified: 2026-06-01
 ---
 
 There was a button on the Encore recruiter dashboard that had 16 pixels of left padding on one screen and 12 on another. Same button. Same label. Same function. Just built by two different engineers, probably two years apart, each one making a reasonable call with the information they had.

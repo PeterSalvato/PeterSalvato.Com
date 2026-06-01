@@ -3,8 +3,8 @@ layout: post
 title: "Prompt Architecture Is Information Architecture"
 date: 2026-03-09
 published: true
-description: "AI governance through a design lens."
-seo_keywords: ['ai', 'decomposition', 'governance', 'Peter Salvato', 'design engineering']
+description: "The same principles that organize a website organize a prompt. Hierarchy, sequence, chunking, progressive disclosure. Prompt engineering is information architecture."
+seo_keywords: ['prompt architecture', 'prompt engineering best practices', 'information architecture AI', 'prompt design', 'structured prompts', 'prompt engineering 2026', 'AI prompt structure', 'prompt hierarchy', 'better AI prompts']
 series: "engineering-intent"
 zone: 4
 sequence: 131
@@ -12,7 +12,7 @@ depth: making
 domain: AI/governance
 function: SEO+Payload
 seed_status: DEEP
-last_modified: 2026-03-14
+last_modified: 2026-06-01
 ---
 
 At Sterling Publishing, I laid out catalogs. Hundreds of pages of titles, prices, category breaks. Given this density and this limited attention, where does the eye go first? The answer was always structural: hierarchy, grouping, sequencing. The grid was the navigation system. Get the hierarchy wrong and the reader gives up.

@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Why Your CLAUDE.md Is an IEP"
+title: "Why Your CLAUDE.md Is an IEP (And How to Write a Good One)"
 date: 2026-03-30
 published: true
-description: "The document that tells the system what you need. Same structure, different student."
-seo_keywords: ['CLAUDE.md', 'IEP', 'AI governance', 'Peter Salvato', 'design engineering']
+description: "CLAUDE.md is an Individualized Education Program for your AI. One document, one system, specific goals. Here's how to write one that actually works."
+seo_keywords: ['CLAUDE.md best practices', 'how to write CLAUDE.md', 'CLAUDE.md guide', 'Claude Code CLAUDE.md', 'CLAUDE.md tips', 'CLAUDE.md institutional memory', 'Claude Code best practices 2026', 'CLAUDE.md IEP', 'AI project configuration', 'Claude Code setup']
 series: "engineering-intent"
 zone: 1
 sequence: 21
@@ -12,7 +12,7 @@ depth: making
 domain: Education + AI implementation
 function: Payload
 seed_status: DEEP
-last_modified: 2026-03-30
+last_modified: 2026-06-01
 ---
 
 An IEP is an Individualized Education Program. Every student in special education has one. It's a document that says: here's what this student needs, here's how they process information, here's what they're working toward, and here's how we'll know if it's working. The teacher reads it before the student walks in the door. It's the system's way of saying I see you before the interaction starts.

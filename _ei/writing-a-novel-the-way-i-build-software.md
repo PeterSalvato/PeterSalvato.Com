@@ -3,15 +3,15 @@ layout: post
 title: "Writing a Novel the Way I Build Software"
 date: 2026-03-09
 published: true
-description: "New City. Beat specs, somatic layer, sequencing as narrative architecture."
-seo_keywords: ['novel', 'somatic design', 'decomposition', 'sequencing', 'Peter Salvato', 'design engineering']
+description: "I'm writing a novel using the same decomposition, scaffolding, and governance I use for software. Beat specs before prose. The methodology doesn't care about the medium."
+seo_keywords: ['writing a novel with AI', 'software engineer writes novel', 'novel writing system', 'beat sheets for novels', 'structured novel writing', 'writing process engineering', 'novel architecture', 'systems thinking writing']
 series: "engineering-intent"
 zone: 2
 sequence: 55
 depth: making
 domain: Narrative
 function: Positioning
-last_modified: 2026-03-14
+last_modified: 2026-06-01
 ---
 I've never written a novel. I had a story idea and wanted to see if the same design thinking I use everywhere else would hold in a material I'd never worked in. So I built the architecture first.
 

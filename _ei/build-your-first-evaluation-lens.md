@@ -3,11 +3,11 @@ layout: post
 title: "Build Your First Evaluation Lens in 30 Minutes"
 date: 2026-03-19
 published: true
-description: "Pick a practitioner you admire, study their output, extract the framework, and run it against your own work. Step by step."
-seo_keywords: ["evaluation lens", "design evaluation", "creative framework", "lens extraction", "Formwork", "design critique", "Peter Salvato"]
+description: "Pick a practitioner whose judgment you trust. Study their output. Extract the questions they always ask. Now you have an evaluation lens. Here's how, step by step."
+seo_keywords: ["how to evaluate AI output", "AI output quality", "design evaluation framework", "evaluation lens", "AI content quality check", "design critique framework", "how to evaluate design work", "creative evaluation", "lens extraction", "AI quality assessment"]
 series: "engineering-intent"
 seed_status: DEEP
-last_modified: 2026-03-19
+last_modified: 2026-06-01
 ---
 
 I had a portfolio review in front of me and no idea what I was actually looking at. I could tell some pieces were stronger than others. I had opinions. But when I tried to articulate why one worked and another didn't, I kept reaching for vague language. "It feels right." "Something's off." "The layout is clean." None of that was useful. None of it could be repeated, taught, or applied to the next review.

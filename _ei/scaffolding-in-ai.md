@@ -3,8 +3,8 @@ layout: post
 title: "Scaffolding in AI"
 date: 2026-03-09
 published: true
-description: "Skill architecture."
-seo_keywords: ['ai', 'scaffolding', 'Peter Salvato', 'design engineering']
+description: "A graphic organizer helps a student plan a paragraph. A skill architecture helps an AI hold one objective at a time. Both are scaffolding: temporary structure that comes off."
+seo_keywords: ['scaffolding in AI', 'AI scaffolding', 'AI skill architecture', 'temporary structure AI', 'scaffolding learning AI', 'AI task decomposition', 'prompt scaffolding', 'AI governance scaffolding']
 series: "engineering-intent"
 zone: 3
 sequence: 91
@@ -12,7 +12,7 @@ depth: making
 domain: AI/governance
 function: Payload
 seed_status: DEEP
-last_modified: 2026-03-14
+last_modified: 2026-06-01
 ---
 
 Scaffolding in special education is temporary support structure. You provide it while the student is building competence, and you remove it as the competence solidifies. A graphic organizer helps a student plan a paragraph. Once the student can plan without the organizer, the organizer goes away. If you leave the scaffold in place permanently, you've built a dependency, not a skill.

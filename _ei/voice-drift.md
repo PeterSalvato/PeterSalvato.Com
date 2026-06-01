@@ -3,8 +3,8 @@ layout: post
 title: "Voice Drift"
 date: 2026-03-09
 published: true
-description: "AI copy flattening."
-seo_keywords: ['ai', 'drift', 'fidelity', 'Peter Salvato', 'design engineering']
+description: "The first draft sounds like you. By the fifth revision the voice has flattened into helpful, articulate copy that could belong to anyone. That's voice drift."
+seo_keywords: ["AI voice drift", "brand voice drift AI", "AI writing quality degrades", "AI copy loses voice", "ChatGPT voice drift", "AI brand consistency", "AI writing flattens", "maintain voice with AI"]
 series: "engineering-intent"
 zone: 3
 sequence: 97
@@ -12,7 +12,7 @@ depth: survival
 domain: AI/governance
 function: Payload
 seed_status: DEEP
-last_modified: 2026-03-14
+last_modified: 2026-06-01
 ---
 
 Read ten AI-assisted "About" pages and you'll hear the same voice. Same cadence. Same transitions. Same way of building to a point. Different words, identical register. The person who wrote them is gone. What's left is the model's default: a statistical average of published writing that sounds professional and belongs to nobody.

@@ -3,8 +3,8 @@ layout: post
 title: "Recipe Architecture: Why Most Recipes Fail"
 date: 2026-03-15
 published: true
-description: "Top-down instructions vs bottom-up systems."
-seo_keywords: ['recipes', 'information architecture', 'cooking', 'bottom-up', 'Peter Salvato', 'design engineering']
+description: "Most recipes are top-down instructions that assume you already know what you're doing. The ones that work are bottom-up systems designed around how cooking actually happens."
+seo_keywords: ['why recipes fail', 'recipe design', 'recipe information architecture', 'better recipe format', 'cooking systems', 'recipe UX', 'recipe structure', 'mise en place system']
 series: "engineering-intent"
 zone: 2
 sequence: 72
@@ -12,7 +12,7 @@ depth: reading
 domain: Personal/domestic
 function: Positioning
 seed_status: CAPTURED
-last_modified: 2026-03-15
+last_modified: 2026-06-01
 ---
 
 The core failure of recipes as information architecture: they're top-down instructions. Follow these steps in this order, get this result. One execution path. No model of the system underneath. If something goes wrong, you can't adjust. If you want to vary it, you don't know what's structural and what's decorative. You're locked into someone else's sequence with no access to the logic that generated it. The recipe tells you what to do. It doesn't tell you why it works. When the result is wrong, you have no diagnostic capacity.

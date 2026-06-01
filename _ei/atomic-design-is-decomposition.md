@@ -3,8 +3,8 @@ layout: post
 title: "Atomic Design Is Decomposition"
 date: 2026-03-09
 published: true
-description: "Brad Frost parallel."
-seo_keywords: ['enterprise', 'decomposition', 'registration', 'Peter Salvato', 'design engineering']
+description: "Brad Frost's Atomic Design isn't a design system methodology. It's decomposition: breaking a complex interface into atoms, molecules, organisms. The same move a teacher makes with a compound task."
+seo_keywords: ["atomic design", "atomic design system", "Brad Frost atomic design", "design system decomposition", "component design system", "atomic design methodology", "design system architecture", "UI decomposition"]
 series: "engineering-intent"
 zone: 3
 sequence: 88
@@ -12,7 +12,7 @@ depth: making
 domain: Design practice
 function: Payload
 seed_status: DEEP
-last_modified: 2026-03-14
+last_modified: 2026-06-01
 ---
 
 Brad Frost's Atomic Design breaks interfaces into atoms, molecules, organisms, templates, and pages. Designers who use it think of it as a methodology for building component libraries. It is. But underneath the taxonomy, the actual operation is decomposition: breaking a complex whole into independent parts that can be built, tested, and composed without coupling.

@@ -3,15 +3,15 @@ layout: post
 title: "Why Design Practitioners Should Lead AI Governance"
 date: 2026-03-08
 published: true
-description: "Design practitioners have been decomposing complex systems, building evaluation frameworks, maintaining fidelity across scale, and governing quality through constraint for decades."
-seo_keywords: ["AI governance", "design leadership", "design practice", "governance frameworks", "design engineering", "Peter Salvato"]
+description: "Design practitioners have been decomposing complex systems, building evaluation frameworks, and governing quality through constraint for decades. AI governance is the same work."
+seo_keywords: ["AI governance for creative teams", "designers leading AI", "AI governance framework", "design leadership AI", "creative AI governance", "AI governance design thinking", "who should lead AI governance", "design practitioner AI"]
 series: "punk"
 zone: 4
 sequence: 129
 depth: machine
 domain: AI/governance
 function: SEO+Payload
-last_modified: 2026-03-14
+last_modified: 2026-06-01
 ---
 Computer scientists think about model architecture. Business strategists think about risk. Design practitioners think about the person using the system and the quality of what it produces.
 

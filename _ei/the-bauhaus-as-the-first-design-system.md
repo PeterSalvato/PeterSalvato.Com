@@ -3,8 +3,8 @@ layout: post
 title: "The Bauhaus as the First Design System"
 date: 2026-03-19
 published: true
-description: "I recognized Muller-Brockmann's grid in a CSS framework before I understood what I was recognizing. The print grid and the browser grid were the same governance."
-seo_keywords: ["Bauhaus design system", "Swiss Style governance", "Muller-Brockmann grid", "Vignelli restraint", "design history", "Peter Salvato", "design engineering", "design systems history", "modernist design principles", "grid systems typography"]
+description: "The Bauhaus wasn't an art school. It was the first design system: shared components, consistent rules, modular thinking, governance across contributors and time."
+seo_keywords: ["Bauhaus design system", "history of design systems", "Bauhaus methodology", "first design system", "Bauhaus design principles", "design system origins", "Bauhaus legacy", "design system history"]
 series: "engineering-intent"
 zone: 2
 sequence: 54
@@ -12,7 +12,7 @@ depth: transfer
 domain: "Design history"
 function: "SEO+Payload"
 seed_status: DEEP
-last_modified: 2026-03-19
+last_modified: 2026-06-01
 ---
 
 I was studying Zurb's Foundation framework, teaching myself web development, when I saw the column classes in the HTML and something felt familiar. `.col-md-4`. `.col-md-6`. `.col-md-12`. A twelve-column grid with gutter widths and breakpoints. I'd seen this before, but I couldn't place it.

@@ -3,15 +3,15 @@ layout: post
 title: "Why I Write SCSS Instead of Using a Framework"
 date: 2026-03-09
 published: true
-description: "Sovereignty in tooling. The cascade as governance."
-seo_keywords: ['enterprise', 'governance', 'constraint', 'Peter Salvato', 'design engineering']
+description: "Frameworks give you speed. SCSS gives you control. After twelve years maintaining one design system, I know which one survives contact with a team."
+seo_keywords: ['SCSS vs framework', 'why use SCSS', 'CSS framework alternatives', 'SCSS design system', 'custom CSS vs framework', 'Tailwind vs SCSS', 'SCSS benefits', 'writing custom CSS', 'design system CSS']
 series: "engineering-intent"
 zone: 3
 sequence: 103
 depth: making
 domain: Design practice
 function: Positioning
-last_modified: 2026-03-14
+last_modified: 2026-06-01
 ---
 I write SCSS by hand. No Tailwind. No Bootstrap. No CSS-in-JS. Sixteen partial files, one import order, every token defined in `_variables.scss`, every cascade decision explicit. I've been working this way for thirteen years.
 
