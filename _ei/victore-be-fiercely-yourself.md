@@ -3,7 +3,7 @@ layout: post
 title: "Victore: Be Fiercely Yourself"
 date: 2026-03-09
 published: true
-description: "The mentorship, the studio."
+description: "James Victore taught me to be fierce. My version turned out to be structural: the part of design where decisions are testable, not taste."
 seo_keywords: ['design-history', 'attunement', 'fidelity', 'Peter Salvato', 'design engineering']
 series: "engineering-intent"
 zone: 1

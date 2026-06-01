@@ -3,7 +3,7 @@ layout: post
 title: "How I Evaluate a Client's Existing Brand System"
 date: 2026-03-09
 published: true
-description: "The first 48 hours."
+description: "The first 48 hours of a brand evaluation: reading the edges, checking convergence across surfaces, diagnosing fragmentation, erosion, or foundational weakness."
 seo_keywords: ['brand', 'attunement', 'the selector', 'convergence', 'Peter Salvato', 'design engineering']
 series: "engineering-intent"
 zone: 3

@@ -3,7 +3,7 @@ layout: post
 title: "Catalog Layout Was Information Architecture"
 date: 2026-03-15
 published: true
-description: "Sterling war stories."
+description: "At Sterling Publishing, catalog pages were the first design work where decisions could be right or wrong. Structure over taste, function over aesthetics."
 seo_keywords: ['information architecture', 'catalog', 'Sterling', 'design thinking', 'Peter Salvato', 'design engineering']
 series: "engineering-intent"
 zone: 1

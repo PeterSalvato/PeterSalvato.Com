@@ -3,7 +3,7 @@ layout: post
 title: "Fidelity After Handoff"
 date: 2026-03-09
 published: true
-description: "Altrueism + AJ post-handoff."
+description: "Brand systems survive where governance is encoded in code and templates. Where it depends on individual judgment under pressure, it erodes. Two case studies."
 seo_keywords: ['brand', 'fidelity', 'governance', 'Peter Salvato', 'design engineering']
 series: "engineering-intent"
 zone: 2

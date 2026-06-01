@@ -3,7 +3,7 @@ layout: post
 title: "Design Your Own Daily Practice"
 date: 2026-03-09
 published: true
-description: "Not the Aetherwright."
+description: "Your creative method drifts without structure to hold it. How to identify your working principles and build a daily ritual that keeps them visible."
 seo_keywords: ['personal', 'governance', 'Peter Salvato', 'design engineering']
 series: "engineering-intent"
 zone: 4

@@ -3,7 +3,7 @@ layout: post
 title: "Scaffolding in the Classroom"
 date: 2026-03-09
 published: true
-description: "Eliar context."
+description: "Twelve students, twelve IEPs, one room. How a student named Eliar drew fire to protect a classmate, and what real scaffolding looks like when it works."
 seo_keywords: ['education', 'scaffolding', 'Peter Salvato', 'design engineering']
 series: "engineering-intent"
 zone: 2

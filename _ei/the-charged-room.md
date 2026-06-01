@@ -3,7 +3,7 @@ layout: post
 title: "The Charged Room"
 date: 2026-03-09
 published: true
-description: "Twilo expanded."
+description: "What late-nineties dance floors at Twilo and Tunnel taught me about pacing, energy arcs, and invisible structure that moves a room."
 seo_keywords: ['music', 'attunement', 'somatic design', 'pacing', 'Peter Salvato', 'design engineering']
 series: "engineering-intent"
 zone: 1

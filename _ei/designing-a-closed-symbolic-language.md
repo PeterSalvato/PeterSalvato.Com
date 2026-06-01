@@ -3,7 +3,7 @@ layout: post
 title: "Designing a Closed Symbolic Language"
 date: 2026-03-09
 published: true
-description: "Aetherwright glyph system."
+description: "Eight geometric glyphs, each mapped to a creative domain. The set is closed. No ninth symbol. How a fixed vocabulary forces precision in classification."
 seo_keywords: ['brand', 'constraint', 'governance', 'Peter Salvato', 'design engineering']
 series: "engineering-intent"
 zone: 1

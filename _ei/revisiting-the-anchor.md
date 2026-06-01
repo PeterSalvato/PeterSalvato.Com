@@ -3,7 +3,7 @@ layout: post
 title: "Revisiting the Anchor"
 date: 2026-03-09
 published: true
-description: "Back to Reading the Room."
+description: "After two hundred posts, revisiting the anchor concept. Reading the room is still where it starts, but the reading now contains the architecture of the response."
 seo_keywords: ['attunement', 'Peter Salvato', 'design engineering']
 series: "engineering-intent"
 zone: 5

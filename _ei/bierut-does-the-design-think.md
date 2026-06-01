@@ -3,7 +3,7 @@ layout: post
 title: "Bierut: Does the Design Think?"
 date: 2026-03-09
 published: true
-description: "Form follows content."
+description: "Michael Bierut's test for design: is the form doing intellectual work or just performing competence? Applied as a diagnostic lens across projects."
 seo_keywords: ['design-history', 'decomposition', 'fidelity', 'Peter Salvato', 'design engineering']
 series: "engineering-intent"
 zone: 2

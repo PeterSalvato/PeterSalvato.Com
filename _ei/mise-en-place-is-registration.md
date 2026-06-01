@@ -3,7 +3,7 @@ layout: post
 title: "Mise en Place Is Registration"
 date: 2026-03-15
 published: true
-description: "Kitchen as decomposition."
+description: "Mise en place is decomposition. Bowls on the counter are color separations. The plate is where registration happens. Cooking for four incompatible diets proves it."
 seo_keywords: ['mise en place', 'registration', 'decomposition', 'cooking', 'Peter Salvato', 'design engineering']
 series: "engineering-intent"
 zone: 2

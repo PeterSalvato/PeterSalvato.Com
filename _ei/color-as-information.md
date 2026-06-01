@@ -3,7 +3,7 @@ layout: post
 title: "Color as Information"
 date: 2026-03-09
 published: true
-description: "The RGB tier system."
+description: "Blue for governance, red for infrastructure, green for output. How color sorts content before anyone reads a word, from catalog work to brand systems."
 seo_keywords: ['brand', 'registration', 'Peter Salvato', 'design engineering']
 series: "engineering-intent"
 zone: 3

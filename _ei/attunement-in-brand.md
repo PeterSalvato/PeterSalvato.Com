@@ -3,7 +3,7 @@ layout: post
 title: "Attunement in Practice"
 date: 2026-03-09
 published: true
-description: "AJ + Altrueism."
+description: "Three projects, one move: reading what the brand can't articulate about itself. Aiden Jae jewelry, Altrueism identity, and Encore enterprise UX."
 seo_keywords: ['brand', 'attunement', 'enterprise', 'Peter Salvato', 'design engineering']
 series: "engineering-intent"
 zone: 3

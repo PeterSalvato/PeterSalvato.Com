@@ -3,7 +3,7 @@ layout: post
 title: "Documentation as Design Deliverable"
 date: 2026-03-09
 published: true
-description: "CONVENTIONS."
+description: "CONVENTIONS.md, CLAUDE.md, and project docs that govern work while it happens. Why documentation is a load-bearing design artifact, not an afterthought."
 seo_keywords: ['ai', 'governance', 'Peter Salvato', 'design engineering']
 series: "engineering-intent"
 zone: 3

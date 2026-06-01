@@ -3,7 +3,7 @@ layout: post
 title: "Formwork: Distinct Layers, Run Independently"
 date: 2026-03-09
 published: true
-description: "The system explained."
+description: "Formwork rebuilds the SVA critique room as a protocol. Separate evaluation layers, each with distinct lenses, run independently and converge. The maker decides."
 seo_keywords: ['governance', 'registration', 'convergence', 'Peter Salvato', 'design engineering']
 series: "engineering-intent"
 zone: 3

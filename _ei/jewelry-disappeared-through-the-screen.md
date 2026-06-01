@@ -3,7 +3,7 @@ layout: post
 title: "The Jewelry That Disappeared Through the Screen"
 date: 2026-03-09
 published: true
-description: "Aiden Jae opening."
+description: "Handcrafted jewelry looked identical to drop-shipped product in a default Shopify grid. Rebuilding identity, photography, platform, and packaging as one system."
 seo_keywords: ['brand', 'attunement', 'fidelity', 'Peter Salvato', 'design engineering']
 series: "engineering-intent"
 zone: 2

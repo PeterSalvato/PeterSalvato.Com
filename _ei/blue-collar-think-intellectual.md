@@ -3,7 +3,7 @@ layout: post
 title: "Blue Collar, Think Intellectual"
 date: 2026-03-09
 published: true
-description: "Father's construction sites."
+description: "My father held a skyscraper in his head. When he left a job site, the picture left with him. That problem shaped twenty years of building systems."
 seo_keywords: ['construction', 'decomposition', 'Peter Salvato', 'design engineering']
 series: "engineering-intent"
 zone: 1

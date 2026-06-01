@@ -3,7 +3,7 @@ layout: post
 title: "Constraint as Creative Fuel"
 date: 2026-03-09
 published: true
-description: "The closed glyph set."
+description: "9K gold, a closed glyph set, twelve IEPs, four dietary restrictions. The tightest constraints produce the best work because every remaining option has to earn it."
 seo_keywords: ['brand', 'constraint', 'Peter Salvato', 'design engineering']
 series: "engineering-intent"
 zone: 1

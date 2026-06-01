@@ -3,7 +3,7 @@ layout: post
 title: "The Compulsion to Brand Everything"
 date: 2026-03-09
 published: true
-description: "Why every system gets a logo."
+description: "From Brooklyn graffiti to SVA to naming every system I build. Branding as formalization, and formalization as the first move of governance."
 seo_keywords: ['personal', 'branding as formalization', 'Peter Salvato', 'design engineering']
 series: "engineering-intent"
 zone: 1

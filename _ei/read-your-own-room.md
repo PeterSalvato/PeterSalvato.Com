@@ -3,7 +3,7 @@ layout: post
 title: "Read Your Own Room"
 date: 2026-03-09
 published: true
-description: "The attunement exercise."
+description: "A practical exercise for attunement. Before building anything, answer five questions about the specific person receiving it. Learned from DJing, teaching, and cooking."
 seo_keywords: ['attunement', 'Peter Salvato', 'design engineering']
 series: "engineering-intent"
 zone: 1

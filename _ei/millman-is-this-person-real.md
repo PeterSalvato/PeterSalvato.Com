@@ -3,7 +3,7 @@ layout: post
 title: "Millman: Is This Person Real?"
 date: 2026-03-09
 published: true
-description: "Deliberate differentiation."
+description: "Three questions from Debbie Millman's interviews that test whether a body of work is real: deliberate differentiation, honest vulnerability, life-arc coherence."
 seo_keywords: ['design-history', 'fidelity', 'attunement', 'Peter Salvato', 'design engineering']
 series: "engineering-intent"
 zone: 1

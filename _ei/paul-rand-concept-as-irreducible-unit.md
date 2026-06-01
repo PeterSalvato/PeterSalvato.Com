@@ -3,7 +3,7 @@ layout: post
 title: "Paul Rand: Concept as the Irreducible Unit"
 date: 2026-03-09
 published: true
-description: "Late design history deep cut."
+description: "What the IBM logo taught me about decomposition with a stopping point. Rand's method: reduce to the irreducible unit, then stop. Applied to glyphs, SCSS, and page layout."
 seo_keywords: ['design-history', 'decomposition', 'Peter Salvato', 'design engineering']
 series: "engineering-intent"
 zone: 3

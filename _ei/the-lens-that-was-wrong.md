@@ -3,7 +3,7 @@ layout: post
 title: "The Lens That Was Wrong"
 date: 2026-03-09
 published: true
-description: "A bad evaluation call."
+description: "I simplified the Shaw check into 'build an interesting room.' The real test is whether you'd want to sit across from the person who built it."
 seo_keywords: ['design-history', 'convergence', 'the selector', 'Peter Salvato', 'design engineering']
 series: "engineering-intent"
 zone: 4

@@ -3,7 +3,7 @@ layout: post
 title: "MathOnTape: When the Visual IS the Sonic"
 date: 2026-03-09
 published: true
-description: "Brand systems project."
+description: "How halftone maps to tape hiss, misregistration maps to chorus, and color separation maps to EQ. Building a brand system from sonic-visual equivalence."
 seo_keywords: ['brand', 'registration', 'fidelity', 'Peter Salvato', 'design engineering']
 series: "engineering-intent"
 zone: 1

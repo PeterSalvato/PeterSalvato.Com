@@ -3,7 +3,7 @@ layout: post
 title: "Rams: Economy as Principle"
 date: 2026-03-09
 published: true
-description: "As little design as possible."
+description: "Dieter Rams's tenth principle as an evaluation lens. Remove an element: if nothing changes, it was decoration. If the system breaks, it was load-bearing."
 seo_keywords: ['design-history', 'constraint', 'Peter Salvato', 'design engineering']
 series: "engineering-intent"
 zone: 2

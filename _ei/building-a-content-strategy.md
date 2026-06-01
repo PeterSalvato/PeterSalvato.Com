@@ -3,7 +3,7 @@ layout: post
 title: "Building a Content Strategy the Way I Build Everything Else"
 date: 2026-03-09
 published: true
-description: "The meta-methodology."
+description: "How to write a hundred posts that add up to one thing. Zones, sequences, depth layers, and the same decompose-govern-compose pattern applied to writing."
 seo_keywords: ['decomposition', 'governance', 'the selector', 'Peter Salvato', 'design engineering']
 series: "engineering-intent"
 zone: 5

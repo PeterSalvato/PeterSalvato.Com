@@ -3,7 +3,7 @@ layout: post
 title: "Identify Drift in Your Own Project"
 date: 2026-03-09
 published: true
-description: "The broken windows audit."
+description: "A quarterly audit for naming, documentation, voice, and architecture drift. Small visible deviations signal larger invisible ones. Catch it early or rebuild."
 seo_keywords: ['enterprise', 'drift', 'Peter Salvato', 'design engineering']
 series: "engineering-intent"
 zone: 3

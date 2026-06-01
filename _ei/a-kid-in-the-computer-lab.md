@@ -3,7 +3,7 @@ layout: post
 title: "A Kid in the Computer Lab"
 date: 2026-03-09
 published: true
-description: "Eliar expanded."
+description: "A student disrupts class to pull attention off a struggling classmate. The write-up says defiance. The real story is generosity the system can't see."
 seo_keywords: ['education', 'attunement', 'Peter Salvato', 'design engineering']
 series: "engineering-intent"
 zone: 1

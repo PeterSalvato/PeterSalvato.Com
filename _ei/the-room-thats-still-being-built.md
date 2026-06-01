@@ -3,7 +3,7 @@ layout: post
 title: "The Room That's Still Being Built"
 date: 2026-03-09
 published: true
-description: "Where the practice is going."
+description: "The site, the framework, and the practice are all unfinished. A methodology that doesn't need correction isn't doing real work."
 seo_keywords: ['attunement', 'Peter Salvato', 'design engineering']
 series: "engineering-intent"
 zone: 5

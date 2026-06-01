@@ -3,7 +3,7 @@ layout: post
 title: "Personal Drift"
 date: 2026-03-09
 published: true
-description: "Why Aetherwright exists."
+description: "Thirty years of consistent results from a method I couldn't name. When the method is invisible, you can't protect it from erosion. That is personal drift."
 seo_keywords: ['personal', 'drift', 'governance', 'Peter Salvato', 'design engineering']
 series: "engineering-intent"
 zone: 2

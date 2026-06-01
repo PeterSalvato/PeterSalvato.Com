@@ -3,7 +3,7 @@ layout: post
 title: "Deep Cuts: Teaching People to Hear"
 date: 2026-03-09
 published: true
-description: "The book as artifact."
+description: "A DJ mix is architecture: key changes, frequency management, pacing across ninety minutes. Deep Cuts is a book about teaching people to hear the structure."
 seo_keywords: ['music', 'the selector', 'pacing', 'scaffolding', 'Peter Salvato', 'design engineering']
 series: "engineering-intent"
 zone: 1

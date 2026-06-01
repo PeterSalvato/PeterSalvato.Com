@@ -3,7 +3,7 @@ layout: post
 title: "The Brand System That Erodes"
 date: 2026-03-09
 published: true
-description: "Brand drift."
+description: "Every brand system is perfect on delivery day. Six months later, ungoverned decisions erode it. The fix is encoding standards in infrastructure."
 seo_keywords: ['brand', 'drift', 'governance', 'Peter Salvato', 'design engineering']
 series: "engineering-intent"
 zone: 3

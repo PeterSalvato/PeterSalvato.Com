@@ -3,7 +3,7 @@ layout: post
 title: "Somatic Design: What the Body Feels"
 date: 2026-03-09
 published: true
-description: "Name the missing layer."
+description: "The half-degree rotation nobody sees but everybody feels. How physical print experience informs invisible digital structure."
 seo_keywords: ['somatic design', 'Peter Salvato', 'design engineering']
 series: "engineering-intent"
 zone: 1

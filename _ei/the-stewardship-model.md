@@ -3,7 +3,7 @@ layout: post
 title: "The Stewardship Model"
 date: 2026-03-09
 published: true
-description: "I don't own the framework."
+description: "I built FormWork, SavePoint, and the voice protocol. I don't own them. Stewardship means maintaining fidelity to a system's own logic."
 seo_keywords: ['governance', 'Peter Salvato', 'design engineering']
 series: "engineering-intent"
 zone: 3

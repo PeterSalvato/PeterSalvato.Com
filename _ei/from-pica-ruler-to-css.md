@@ -3,7 +3,7 @@ layout: post
 title: "From Pica Ruler to CSS"
 date: 2026-03-09
 published: true
-description: "Print to digital."
+description: "Catalog layout with a pica ruler was information architecture before the term existed. How plates, registration, and separation carried into CSS and code."
 seo_keywords: ['print', 'registration', 'decomposition', 'Peter Salvato', 'design engineering']
 series: "engineering-intent"
 zone: 2

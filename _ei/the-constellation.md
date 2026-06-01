@@ -3,7 +3,7 @@ layout: post
 title: "The Constellation"
 date: 2026-03-09
 published: true
-description: "How the projects relate."
+description: "Multiple projects across multiple domains, organized in three layers with strict boundary rules. Each gets its own room. No site explains the whole."
 seo_keywords: ['registration', 'Peter Salvato', 'design engineering']
 series: "engineering-intent"
 zone: 5

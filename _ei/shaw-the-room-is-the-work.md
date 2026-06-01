@@ -3,7 +3,7 @@ layout: post
 title: "Shaw: The Room Is the Work"
 date: 2026-03-09
 published: true
-description: "Fun City."
+description: "Paul Shaw built Fun City. Victore's studio table told you everything before he spoke. A room is a world organized by the person who built it. The range is the point."
 seo_keywords: ['design-history', 'somatic design', 'the selector', 'Peter Salvato', 'design engineering']
 series: "engineering-intent"
 zone: 1

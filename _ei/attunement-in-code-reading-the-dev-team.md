@@ -3,7 +3,7 @@ layout: post
 title: "Attunement in Code: Reading the Dev Team"
 date: 2026-03-15
 published: true
-description: "Tooling is attunement."
+description: "Forty engineers picking arbitrary hex values and padding. The fix: semantic CSS that absorbs visual decisions so developers never have to make them."
 seo_keywords: ['attunement', 'dev team', 'CSS architecture', 'Peter Salvato', 'design engineering']
 series: "engineering-intent"
 zone: 2

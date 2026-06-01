@@ -3,7 +3,7 @@ layout: post
 title: "Typography as Ideology"
 date: 2026-03-09
 published: true
-description: "Emigre, Licko, VanderLans."
+description: "Three typefaces, locked. Chainprinter, Rubik, Space Mono. Each has a job. Typography is a communication decision, not a style decision."
 seo_keywords: ['design-history', 'constraint', 'fidelity', 'Peter Salvato', 'design engineering']
 series: "engineering-intent"
 zone: 1

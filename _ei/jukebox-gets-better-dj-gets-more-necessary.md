@@ -3,7 +3,7 @@ layout: post
 title: "The Jukebox Gets Better and the DJ Gets More Necessary"
 date: 2026-03-09
 published: true
-description: "The scaling argument."
+description: "AI has every record. It still can't read the room. As generative capability scales, the selection problem gets harder and the human selector becomes essential."
 seo_keywords: ['ai', 'the selector', 'attunement', 'somatic design', 'Peter Salvato', 'design engineering']
 series: "engineering-intent"
 zone: 4
