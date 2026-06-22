@@ -1,26 +1,79 @@
 ---
 layout: default
-title: "Peter Salvato — Shopify Brand Governance"
+title: "Shopify Brand Audit & Consulting | Peter Salvato"
 permalink: /consulting/
-description: "Brand governance for Shopify stores. I find where your template is hiding what makes your product different and give you a prioritized plan to fix it."
-seo_keywords: ["Shopify brand audit", "Shopify brand governance", "e-commerce brand consulting", "Shopify store audit", "brand coherence", "Shopify brand consultant", "Peter Salvato"]
+description: "I audit every layer of your brand (identity, photography, copy, platform) and find where it's hiding what makes your product different. $5,000 diagnostic with a guarantee."
+seo_keywords: ["Shopify brand audit", "Shopify store audit", "e-commerce brand consultant", "Shopify brand consultant", "brand audit service", "Shopify expert", "e-commerce brand audit", "Shopify store review", "brand diagnostic", "Peter Salvato"]
 ---
 
-{% include page-hero.html title="Brand Governance" subtitle="For Shopify stores where the product is better than the presentation." %}
+{% include page-hero.html title="Brand Diagnostic" subtitle="For brands where the product is better than the presentation." %}
 
-Your product is real. The sourcing, the craft, the thing that makes it different from everything else in the category. But your Shopify store doesn't show it. The template treats your product the same way it treats everything else. The founder knows the difference. The screen doesn't.
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Brand Diagnostic",
+  "description": "Brand audit for e-commerce stores. Identifies where your brand is undermining your product across identity, photography, copy, and platform.",
+  "provider": {
+    "@type": "Person",
+    "name": "Peter Salvato",
+    "url": "https://petersalvato.com",
+    "jobTitle": "Design Engineer",
+    "sameAs": [
+      "https://linkedin.com/in/petersalvato",
+      "https://github.com/petersalvato"
+    ]
+  },
+  "serviceType": "Brand Audit",
+  "areaServed": {
+    "@type": "Country",
+    "name": "US"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Brand Diagnostic Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "name": "Brand Diagnostic",
+        "price": "5000",
+        "priceCurrency": "USD",
+        "description": "Full brand audit across every customer-facing layer. Written report with prioritized roadmap and walkthrough call."
+      },
+      {
+        "@type": "Offer",
+        "name": "Full Brand Rebuild",
+        "price": "15000",
+        "priceCurrency": "USD",
+        "description": "Complete brand implementation: identity, photography direction, page architecture, copy, voice governance."
+      },
+      {
+        "@type": "Offer",
+        "name": "Brand Governance Course",
+        "price": "499",
+        "priceCurrency": "USD",
+        "description": "Self-paced methodology course. Brand decomposition, template analysis, layer-by-layer governance."
+      }
+    ]
+  }
+}
+</script>
 
-I find where your store is hiding what makes your product different. Identity, photography, page architecture, copy, checkout flow. Every layer a customer touches. I identify the gaps and give you a prioritized plan to close them.
+Your product is real. The sourcing, the craft, the thing that makes it different from everything else in the category. But your platform doesn't show it. The template, the layout, the copy, the checkout flow: they treat your product the same way they treat everything else. You know the difference. The screen doesn't.
+
+I find where your brand is hiding what makes your product different. Identity, photography, page architecture, copy, every layer a customer touches. I identify the gaps and give you a prioritized plan to close them.
+
+Most of my diagnostic clients run Shopify stores, but the methodology works on any platform. The problem is structural, not technical.
 
 ---
 
 ## How It Works
 
-**The diagnostic** ($5,000) is the starting point. I go through every customer-facing layer of your store and identify where the brand is undermining itself. You get a written report with specific findings and a prioritized roadmap. Then we walk through it together on a call. Two payments of $2,500. Turnaround is five business days.
+**The diagnostic** ($5,000) is the starting point. I go through every customer-facing layer of your brand and identify where it's undermining itself. You get a written report with specific findings and a prioritized roadmap. Then we walk through it together on a call. Two payments of $2,500. Turnaround is five business days.
 
 If I don't find at least five actionable gaps you didn't know about, you don't pay.
 
-**The full rebuild** ($15,000-$20,000) is for stores that need the fix implemented. Identity, photography direction, page architecture, copy, voice governance. I do the work.
+**The full rebuild** ($15,000-$20,000) is for brands that need the fix implemented. Identity, photography direction, page architecture, copy, voice governance. I do the work.
 
 **The course** ($499) teaches the methodology so you can apply it yourself. Brand decomposition, template analysis, layer-by-layer governance. Self-paced. Available at [Joinery](https://joineryschool.com).
 
@@ -38,6 +91,6 @@ I take three diagnostic clients per month.
 
 ## Getting Started
 
-Email me what you sell and what's bothering you about how it shows up. I'll look at your store and tell you if there's a fit.
+Email me what you sell and what's bothering you about how it shows up. I'll take a look and tell you if there's a fit.
 
 [peter@petersalvato.com](mailto:peter@petersalvato.com)
