@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>The Consulting — Misregistration</title>
+<style>
+  body { margin: 0; background: transparent; display: flex; justify-content: center; align-items: center; min-height: 100vh; }
+  canvas { display: block; }
+</style>
+</head>
+<body>
+<canvas id="canvas" width="700" height="420"></canvas>
+<script>
+const canvas = document.getElementById('canvas');
+const ctx = canvas.getContext('2d');
+
+// RGB as desaturated spot inks — same palette as venn/prism/TheSite
+const RED = 'rgba(184, 84, 80, 0.55)';
+const GREEN = 'rgba(90, 138, 106, 0.55)';
+const BLUE = 'rgba(74, 123, 157, 0.55)';
+
+const STROKE_RED = 'rgba(184, 84, 80, 0.3)';
+const STROKE_BLUE = 'rgba(74, 123, 157, 0.3)';
+const STROKE_GREEN = 'rgba(90, 138, 106, 0.3)';
+
+const GHOST = 'rgba(44, 36, 24, 0.12)';
+
+function roundRect(ctx, x, y, w, h, r) {
+  ctx.beginPath();
+  ctx.moveTo(x + r, y);
+  ctx.lineTo(x + w - r, y);
+  ctx.quadraticCurveTo(x + w, y, x + w, y + r);
+  ctx.lineTo(x + w, y + h - r);
+  ctx.quadraticCurveTo(x + w, y + h, x + w - r, y + h);
+  ctx.lineTo(x + r, y + h);
+  ctx.quadraticCurveTo(x, y + h, x, y + h - r);
+  ctx.lineTo(x, y + r);
+  ctx.quadraticCurveTo(x, y, x + r, y);
+  ctx.closePath();
+}
+
+const plateW = 160;
+const plateH = 220;
+const r = 5;
+const gap = 30;
+
+// Three target positions (where the plates SHOULD be — a neat row)
+const startX = (700 - (plateW * 3 + gap * 2)) / 2;
+const baseY = (420 - plateH) / 2;
+
+const targets = [
+  { x: startX, y: baseY },
+  { x: startX + plateW + gap, y: baseY },
+  { x: startX + plateW * 2 + gap * 2, y: baseY },
+];
+
+// Actual positions (shifted — misregistered)
+const plates = [
+  { x: targets[0].x - 14, y: targets[0].y + 18, color: RED, stroke: STROKE_RED },
+  { x: targets[1].x + 8, y: targets[1].y - 12, color: BLUE, stroke: STROKE_BLUE },
+  { x: targets[2].x + 16, y: targets[2].y + 8, color: GREEN, stroke: STROKE_GREEN },
+];
+
+// Draw ghost outlines (where plates should be)
+ctx.setLineDash([4, 4]);
+ctx.strokeStyle = GHOST;
+ctx.lineWidth = 1.5;
+targets.forEach(t => {
+  roundRect(ctx, t.x, t.y, plateW, plateH, r);
+  ctx.stroke();
+});
+ctx.setLineDash([]);
+
+// Draw actual plates
+ctx.globalCompositeOperation = 'multiply';
+plates.forEach(p => {
+  ctx.fillStyle = p.color;
+  roundRect(ctx, p.x, p.y, plateW, plateH, r);
+  ctx.fill();
+});
+
+ctx.globalCompositeOperation = 'source-over';
+plates.forEach(p => {
+  ctx.strokeStyle = p.stroke;
+  ctx.lineWidth = 1.5;
+  roundRect(ctx, p.x, p.y, plateW, plateH, r);
+  ctx.stroke();
+});
+
+// Registration crosshairs on ghost targets
+const markSize = 7;
+const markColor = 'rgba(44, 36, 24, 0.25)';
+ctx.strokeStyle = markColor;
+ctx.lineWidth = 1;
+
+targets.forEach(t => {
+  const marks = [
+    { x: t.x + 16, y: t.y + 16 },
+    { x: t.x + plateW - 16, y: t.y + 16 },
+    { x: t.x + 16, y: t.y + plateH - 16 },
+    { x: t.x + plateW - 16, y: t.y + plateH - 16 },
+  ];
+  marks.forEach(m => {
+    ctx.beginPath();
+    ctx.moveTo(m.x - markSize, m.y);
+    ctx.lineTo(m.x + markSize, m.y);
+    ctx.stroke();
+    ctx.beginPath();
+    ctx.moveTo(m.x, m.y - markSize);
+    ctx.lineTo(m.x, m.y + markSize);
+    ctx.stroke();
+    ctx.beginPath();
+    ctx.arc(m.x, m.y, markSize * 0.55, 0, Math.PI * 2);
+    ctx.stroke();
+  });
+});
+
+</script>
+</body>
+</html>

@@ -11,4 +11,4 @@ Three years ago I started working with AI tools daily and recognized the same st
 
 Now I teach it. [Joinery](https://joineryschool.com) is a school I founded for creative practitioners working with AI. The methodology comes from special education pedagogy, applied to a different kind of processing system. The core question is the same one I learned to ask in a classroom in Sunset Park: what does the system receiving this work actually need to do the job well?
 
-The [work](/work/). The [research](/research/). The [writing](/essays/engineering-intent/). The [school](https://joineryschool.com).
+The [work](/work/). The [research](/research/). The [writing](/essays/engineering-intent/). The [school](https://joineryschool.com). The [consulting](/consulting/).

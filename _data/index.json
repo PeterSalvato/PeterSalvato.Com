@@ -31,10 +31,17 @@
       "image": "/assets/img/visual-language/joinery-logo.svg",
       "definition": "Joinery. For creative practitioners working with AI.",
       "description": "Task decomposition, input inversion, voice governance. Three weeks on your own real project. The methodology taught, not just documented."
+    },
+    {
+      "name": "The Consulting",
+      "url": "/consulting/",
+      "image": "/assets/img/visual-language/consulting@2x.png",
+      "definition": "Brand governance for Shopify stores.",
+      "description": "Your product is real but your store doesn't show it. I find the gaps across identity, photography, architecture, and copy. Diagnostic, rebuild, or course."
     }
   ],
   "contact": {
-    "email": "ptsalvato@gmail.com",
+    "email": "peter@petersalvato.com",
     "links": [
       {
         "title": "GitHub",
