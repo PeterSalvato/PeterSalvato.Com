@@ -2,7 +2,7 @@
 layout: context
 title: "This Site"
 featured: true
-order: 1
+order: 3
 permalink: /work/this-site/
 redirect_from:
   - /practice/this-site/
