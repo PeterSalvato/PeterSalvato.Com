@@ -1,7 +1,7 @@
 {
-  "role_declaration": "Design engineer, educator, and founder of Joinery. Teaching creative practitioners to work with AI without losing their voice.",
+  "role_declaration": "Design engineer and brand consultant. SVA-trained, thirteen years enterprise architecture, original AI methodology.",
   "manifesto": {
-    "short": "Twelve students in a self-contained classroom in Brooklyn. Every subject, every accommodation. A kid hears \"solve for the missing number, show your work, and explain your reasoning\" and starts working on the first instruction. The rest is gone. The task was designed for a processing profile that isn't theirs.\n\nThat classroom taught me to ask one question before designing anything: what does the system receiving this actually need? Enterprise platforms, brand systems, AI governance. The question applies to every material I've worked in since. Now I teach it."
+    "short": "Design eye from SVA. Systems thinking from thirteen years and 1,100 deployments on an enterprise platform. AI methodology I built myself. One practice, three ways it shows up: consulting, teaching, and making."
   },
   "routes": [
     {
@@ -36,8 +36,8 @@
       "name": "The Consulting",
       "url": "/consulting/",
       "image": "/assets/img/visual-language/consulting@2x.png",
-      "definition": "Brand governance for Shopify stores.",
-      "description": "Your product is real but your store doesn't show it. I find the gaps across identity, photography, architecture, and copy. Diagnostic, rebuild, or course."
+      "definition": "Brand diagnostics and design engineering.",
+      "description": "Your product is real but your platform doesn't show it. I find the gaps across identity, photography, architecture, and copy. Diagnostic, rebuild, or course."
     }
   ],
   "contact": {
