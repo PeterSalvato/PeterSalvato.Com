@@ -104,6 +104,26 @@ $footer-rule: rgba($color-surface, 0.15);
     text-align: center;
   }
 
+  .footer-entity {
+    grid-column: 1 / -1;
+    margin-top: $space-sm;
+    font-family: $font-display-grit;
+    font-size: $type-fine;
+    letter-spacing: 0.04em;
+    text-align: center;
+    opacity: 0.35;
+
+    a {
+      color: $footer-text;
+      text-decoration: none;
+
+      &:hover {
+        color: $footer-text-bright;
+        opacity: 1;
+      }
+    }
+  }
+
   // --------------------------------------------------------------------------
   // SUBSCRIBE
   // --------------------------------------------------------------------------
